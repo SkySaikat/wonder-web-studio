@@ -13,8 +13,7 @@ const config: NextConfig = {
     ];
   },
   async headers() {
-    return [
-      { source: '/results/coastal-bath-paid-search', destination: '/results/bathroom-paid-search-efficiency/', permanent: true },{ source: '/:path*', headers: [
+    return [{ source: '/:path*', headers: [
       { key: 'Link', value: '</llms.txt>; rel="describedby"; type="text/plain"' },
       ...(process.env.SITE_INDEXABLE === 'true' ? [] : [{key:'X-Robots-Tag',value:'noindex, nofollow'}]),
       { key: 'X-Content-Type-Options', value: 'nosniff' },

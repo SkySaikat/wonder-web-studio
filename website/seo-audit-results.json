@@ -1,11 +1,11 @@
 {
   "schema_vocabulary_checked": true,
-  "pages_checked": 100,
-  "sitemap_pages": 99,
-  "sitemap_images": 117,
-  "unique_titles": 100,
-  "unique_descriptions": 100,
-  "unique_share_images": 100,
+  "pages_checked": 102,
+  "sitemap_pages": 101,
+  "sitemap_images": 143,
+  "unique_titles": 102,
+  "unique_descriptions": 102,
+  "unique_share_images": 102,
   "indexable_mode": false,
   "issues": [],
   "discovery_issues": [],
@@ -2008,6 +2008,48 @@
       "issues": []
     },
     {
+      "path": "/results/remodeling-lower-lead-cost/",
+      "title": "Remodeling Ads: 59.19% Lower Lead Costs | Wonderweb Studio",
+      "description": "A remodeler facing more expensive search auctions diversified its campaign mix and increased total leads by 7.13%.",
+      "image": "https://wonderwebstudio.com/seo/results--remodeling-lower-lead-cost.png",
+      "schema_types": [
+        "Answer",
+        "Article",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/results/remodeling-search-two-year-results/",
+      "title": "Bathroom Marketing: Two-Year Lead Results | Wonderweb Studio",
+      "description": "An Indiana bathroom remodeler combined service-page improvements and paid search to build a sustained flow of inquiries.",
+      "image": "https://wonderwebstudio.com/seo/results--remodeling-search-two-year-results.png",
+      "schema_types": [
+        "Answer",
+        "Article",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
       "path": "/results/roofing-local-search/",
       "title": "Roofing SEO: 53 Booked Appointments | Wonderweb Studio",
       "description": "A roofing search strategy redirected attention from broad visibility toward homeowners within the service area.",
@@ -2029,10 +2071,10 @@
       "issues": []
     },
     {
-      "path": "/results/coastal-bath-paid-search/",
-      "title": "Coastal Bath: Paid Search Case Study | Wonderweb Studio",
+      "path": "/results/bathroom-paid-search-efficiency/",
+      "title": "Bathroom Ads: 43.66% Lower Cost per Lead | Wonderweb Studio",
       "description": "A bathroom remodeling advertising campaign focused its bidding and geographic targeting on conversion opportunities.",
-      "image": "https://wonderwebstudio.com/seo/results--coastal-bath-paid-search.png",
+      "image": "https://wonderwebstudio.com/seo/results--bathroom-paid-search-efficiency.png",
       "schema_types": [
         "Answer",
         "Article",

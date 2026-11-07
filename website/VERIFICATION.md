@@ -55,3 +55,12 @@ The final local preview runs the production build on port 3000. Form delivery is
 - `/blog/` returns a permanent 308 redirect to `/resources/`. Final browser review shows the Blog link, sticky header and all 20 article cards on the rebuilt app.
 - Mobile review used viewport emulation, not a physical iPhone/Safari session. The emoji-specific cause was removed by using SVG for the large graphics.
 - Local preview remains on port 3000 with indexing disabled. No deployment, Search Console submission, live form delivery or new account connection took place.
+
+## Scroll-direction header and editorial artwork — November 8, 2026
+
+- Production build passed with 111 generated framework routes; all 12 existing inquiry/SEO tests passed.
+- Full vocabulary-enabled SEO audit passed for 102 HTML routes (101 public sitemap entries plus payment), with 102 unique titles, descriptions and share images, 143 distinct sitemap images, and zero page/discovery issues. Preview indexing remains disabled. The subsequent change only stacks the two showcase proof cards on narrow screens.
+- Generated and visually inspected all 24 Gemini illustrations; confirmed their topic mapping and conceptual provenance. The key was supplied only to the generation process environment.
+- Browser checks confirmed desktop and 390px mobile downward scrolling hides the header and upward scrolling restores it. Mobile navigation remains visible while open and supports navigating to Blog. The homepage shows two case studies before the main work gallery; the case-study index shows four loaded illustrations. Five SVG footer platform icons are present.
+- Anonymous bathroom story legacy URL returns a permanent 308 to the new route. The original case metrics and source comparison limitations remain intact.
+- Build and browser checks are local only. No publishing, domain change, live form submission or external analytics/search setup was performed.

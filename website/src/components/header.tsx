@@ -20,7 +20,7 @@ export function Header(){
       const current=Math.max(0,Math.min(window.scrollY,maxScroll));
       const delta=current-previous;previous=current;
       if(current<120){setHidden(false);travel=0;return;}
-      if(menu||servicesOpen||headerRef.current?.contains(document.activeElement)){setHidden(false);travel=0;return;}
+      if(menu||servicesOpen||(headerRef.current?.contains(document.activeElement)&&document.activeElement?.matches(':focus-visible'))){setHidden(false);travel=0;return;}
       const nextDirection=Math.sign(delta);
       if(!nextDirection)return;
       travel=nextDirection===direction?travel+Math.abs(delta):Math.abs(delta);direction=nextDirection;
