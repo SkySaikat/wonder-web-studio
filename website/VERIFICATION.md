@@ -76,3 +76,15 @@ Live HTTP verification: homepage returns index/follow with no noindex header and
 Search Console accepted the sitemap resubmission with “Sitemap submitted successfully.” Its report continued to show the earlier “Couldn't fetch” status, and the genuine live homepage test at 2:44 AM Bangladesh time still reported Blocked by robots.txt. Given the corrected live responses, this appears to reflect Google's cached earlier policy; it has not yet been confirmed cleared by Google. Settings shows “No robots.txt file” with the report disabled, so Request a recrawl is not available yet. The historical 2023 sitemap_index.xml submission was left unchanged. No indexing success is claimed.
 
 Local preventive code changes centralize all three crawl controls, default Vercel Production to public when the flag is unset, keep Preview/Development private, align canonical/inquiry origins to www, and make the audit reject production noindex HTTP headers. All 13 tests passed; production-mode local build and 102-page vocabulary audit passed with no issues. `seo-audit-production.json` records that local production-mode crawl. A live full crawl with Python's default user-agent received HTTP 403 and was not reported as a successful full-site audit. Local preview was rebuilt in noindex mode and its 102-page crawl also passed; `seo-audit-results.json` records the restored preview. Preventive source changes remain local for the next code release; the live repair is the environment-only redeploy above.
+
+## Markdown discovery and local content — November 8, 2026
+
+Implemented locally; not deployed in this task. The preview runs at http://127.0.0.1:3000 with indexing disabled.
+
+- 101 public Markdown guides and `/content/index.md` generated statically from shared editorial data; payments excluded and unknown guide paths return 404.
+- HTML alternate links, Markdown MIME types and canonical HTTP response headers checked for every public page. Fixed a global discovery header overriding route-specific canonical headers.
+- `llms.txt` includes guide links; `llms-full.txt` shares the serializer, including article FAQs/sources and case-study context. Sitemap retains canonical HTML URLs.
+- All 19 location and location/service guides have related reading and explicit remote delivery context. Shared location FAQs remain consistent between HTML, schema and Markdown.
+- Blog dates use semantic time elements and optional verified publication dates; no randomized or invented historical dates were added.
+- `npm test`: 16 passing. Production build: 213 generated routes. HTTP audit: 102 HTML pages, 101 Markdown guides, 101 sitemap pages; zero page/discovery issues. This run did not load the external Schema.org vocabulary (existing schema shape/reference checks passed).
+- Browser inspected Phoenix local planning section and roofing article date/discovery metadata. No changes to live DNS, SSL, Cloudflare, GSC or deployment settings in this task.
