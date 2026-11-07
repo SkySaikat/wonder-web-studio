@@ -1,3 +1,4 @@
+import {clientProjects} from './projects';
 export type Section = { title: string; body: string };
 export type Service = { slug: string; title: string; category: string; headline: string; intro: string; description: string; deliverables: string[]; sections: Section[]; faq: [string,string][]; related: string[] };
 export const services: Service[] = [
@@ -160,6 +161,7 @@ export const industries: Industry[] = [
 ];
 
 export const work = [
+  ...clientProjects,
   { slug: 'flow-web-design', title: 'A fresh take on hydration.', category: 'Website concept · Art direction', image: '/work/flow-website.jpg', label: 'Flow website exploration', description: 'A colorful website exploration that brings product imagery, editorial spacing and a playful visual direction together. Selected from the studio’s earlier portfolio; presented as design work, without a performance claim.' },
   { slug: 'ecommerce-experience', title: 'A storefront with character.', category: 'E-commerce concept · Web design', image: '/work/ecommerce-design.webp', label: 'Fashion storefront exploration', description: 'An exploration of a mobile shopping experience, with strong product imagery and a consistent visual language across screens. This is a portfolio design example, not a claim about a commissioned launch or sales results.' },
   { slug: 'interface-exploration', title: 'Less friction. More focus.', category: 'Interface exploration · UI design', image: '/work/ui-design.webp', label: 'Sign-in interface study', description: 'An archived interface study exploring a calm color palette, clear form layout and a restrained visual composition. It is shown as a design exploration, not a measured conversion case study.' },

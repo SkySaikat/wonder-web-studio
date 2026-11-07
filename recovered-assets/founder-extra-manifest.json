@@ -1,0 +1,45 @@
+{
+  "assets": [
+    {
+      "contentType": "image/webp",
+      "id": "7e75f16c5e01b14e",
+      "kind": "image",
+      "name": "dococlock.png",
+      "path": "/var/folders/15/52h1bkrd6rvbv8pqx2tdn5wh0000gn/T/browser-use/assets/07cc64bf-a971-437b-9279-dfce3de295e1/7e75f16c5e01b14e.png",
+      "url": "https://saikatchowdhury.com/assets/dococlock.png"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "d1f034c351f099c1",
+      "kind": "image",
+      "name": "crafted-look.webp",
+      "path": "/var/folders/15/52h1bkrd6rvbv8pqx2tdn5wh0000gn/T/browser-use/assets/07cc64bf-a971-437b-9279-dfce3de295e1/d1f034c351f099c1.webp",
+      "url": "https://saikatchowdhury.com/assets/crafted-look.webp"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "87cb0c25c822ff22",
+      "kind": "image",
+      "name": "unseen-threads.webp",
+      "path": "/var/folders/15/52h1bkrd6rvbv8pqx2tdn5wh0000gn/T/browser-use/assets/07cc64bf-a971-437b-9279-dfce3de295e1/87cb0c25c822ff22.webp",
+      "url": "https://saikatchowdhury.com/assets/unseen-threads.webp"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "9dbdc1dfe6670202",
+      "kind": "image",
+      "name": "read-the-anime.webp",
+      "path": "/var/folders/15/52h1bkrd6rvbv8pqx2tdn5wh0000gn/T/browser-use/assets/07cc64bf-a971-437b-9279-dfce3de295e1/9dbdc1dfe6670202.webp",
+      "url": "https://saikatchowdhury.com/assets/read-the-anime.webp"
+    },
+    {
+      "contentType": "image/webp",
+      "id": "9db0ca601330b9cd",
+      "kind": "image",
+      "name": "california-olive.webp",
+      "path": "/var/folders/15/52h1bkrd6rvbv8pqx2tdn5wh0000gn/T/browser-use/assets/07cc64bf-a971-437b-9279-dfce3de295e1/9db0ca601330b9cd.webp",
+      "url": "https://saikatchowdhury.com/assets/california-olive.webp"
+    }
+  ],
+  "failures": []
+}

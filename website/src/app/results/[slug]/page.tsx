@@ -1,0 +1,8 @@
+import {notFound} from 'next/navigation';
+import {campaignStories} from '@/lib/projects';
+import {PageHero,CTA,Button,Eyebrow} from '@/components/ui';
+import {metadata as makeMetadata} from '@/lib/site';
+export const dynamicParams=false;
+export function generateStaticParams(){return campaignStories.map(s=>({slug:s.slug}))}
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}){const{slug}=await params;const s=campaignStories.find(s=>s.slug===slug);return s?makeMetadata(s.title,s.description,`/results/${slug}/`):{}}
+export default async function Result({params}:{params:Promise<{slug:string}>}){const{slug}=await params;const s=campaignStories.find(s=>s.slug===slug);if(!s)notFound();return <><PageHero eyebrow={s.label} title={s.title} description={s.description} crumbs={[{label:'Campaign results',href:'/results/'},{label:s.label}]}/><section className="section cream"><div className="container"><div className="result-metrics">{s.results.map(([value,label])=><div key={label}><strong>{value}</strong><span>{label}</span></div>)}</div><div className="content-layout"><article className="prose"><h2>The starting point</h2><p>{s.challenge}</p><h2>What changed</h2><p>{s.approach}</p><h2>Reading the outcome</h2><p>{s.context}</p><p>A useful review keeps the business goal in view: the right customer, a clear offer and a practical route to the next conversation.</p></article><aside className="detail-sidebar"><Eyebrow>PROJECT CONTEXT</Eyebrow><h2>{s.label}</h2><p>{s.period}</p><p>Selected historical engagement from our team’s project experience.</p><Button href={`/services/${s.service}/`}>Explore the service</Button></aside></div></div></section><CTA title="What would useful progress look like for you?"/></>}
