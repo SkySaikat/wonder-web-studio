@@ -1,8 +1,18 @@
 # Wonderweb Studio — Website and SEO Plan
 
 Prepared: 6 November 2026  
-Status: Planning only. Website design, implementation, content publication, and deployment have not started.  
-Brand assets, final colors, domain, service details, and further website access are pending.
+Status updated 7 November 2026: Next.js website implemented locally; production deployment and account activation remain pending.
+
+## Current decisions — supersede earlier working assumptions
+
+- Domain: https://wonderwebstudio.com/. Forms route to info@wonderwebstudio.com once email delivery is configured.
+- Next.js is selected. The logo and portfolio sources are available. Designjoy guides the visual system; BuiltRight guides useful content depth.
+- US home services are the initial acquisition focus; small businesses worldwide are also served.
+- Profit target: more than $5,000/month, against owner-estimated $4,000–$6,000 monthly costs. Plan around $12,000 monthly recurring revenue.
+- Public prices are roughly 20–25% below the dedicated BuiltRight pricing page. Sales-call discounts may never exceed 30% below that comparator and must preserve delivery margin.
+- Owner authorized selected projects from his personal portfolio and a limited selection of BuiltRight campaign work. The businesses remain separate.
+- Current implementation includes 71 public content URLs, plus a noindex client-payments page. Full search-export coverage remains a prioritized backlog, not 4,000 automatically generated pages.
+- See [the launch and revenue plan](WONDERWEB_STUDIO_LAUNCH_PLAN.md), [implementation README](website/README.md) and [asset/source register](recovered-assets/README.md). Earlier sections below preserve the original research and planning context; current decisions above govern implementation.
 
 ## 1. Objective and scope
 
@@ -19,8 +29,8 @@ Better SEO will mean clearer page targeting, stronger original evidence, useful 
 - Brand name: **Wonderweb Studio**.
 - Positioning: a full-service agency, with substantial home-service expertise as the initial SEO focus.
 - Reference properties: **builtrightdigital.com** and **itzdigital.co**, identified from the supplied files. The first domain is spelled “builtright,” although the initial brief says “BuildRight.”
-- Deliverable now: local Markdown planning documents.
-- Logos, images, and brand colors will be supplied later. Do not finalize a visual identity before those arrive.
+- Initial deliverable: local Markdown planning documents; scope subsequently expanded to website implementation.
+- Logo and asset sources were subsequently supplied; current design decisions are recorded above.
 - The two existing websites remain separate reference properties. This is a new website project, not an authorized migration of either existing site.
 
 ### Working assumptions to confirm before production
@@ -29,7 +39,7 @@ Better SEO will mean clearer page targeting, stronger original evidence, useful 
 - Lead generation is the primary site purpose; ongoing service retainers and website projects are the principal offers.
 - Home services receive the first substantial industry content investment. Other sectors remain in the roadmap.
 - Pricing, guarantees, delivery timelines, office addresses, team biographies, and client results remain unspecified until supplied.
-- Platform and hosting are not selected. The future implementation must support a large, editable, search-accessible content library.
+- Next.js was subsequently selected. Content is currently editable in structured source files; there is no browser CMS yet.
 
 ## 2. Evidence reviewed and its limits
 
