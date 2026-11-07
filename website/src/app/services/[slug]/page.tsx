@@ -1,11 +1,12 @@
+import {PageSchema} from '@/components/page-schema';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from '@/components/content-image';
 import {notFound} from 'next/navigation';
 import type {CSSProperties} from 'react';
 import {services} from '@/lib/content';
 import {serviceDetails} from '@/lib/service-details';
 import {clientProjects} from '@/lib/projects';
-import {metadata as makeMetadata,site,jsonLd} from '@/lib/site';
+import {metadata as makeMetadata} from '@/lib/seo';
 import {CTA,FAQ,CheckList,Eyebrow,Breadcrumbs} from '@/components/ui';
 import {BookCallButton} from '@/components/booking';
 import {ServiceVisual} from '@/components/service-visual';
@@ -15,7 +16,7 @@ export function generateStaticParams(){return services.map(s=>({slug:s.slug}))}
 export async function generateMetadata({params}:{params:Promise<{slug:string}>}){const{slug}=await params;const s=services.find(x=>x.slug===slug);return s?makeMetadata(`${s.title} Services`,s.description,`/services/${s.slug}/`):{}}
 export default async function ServicePage({params}:{params:Promise<{slug:string}>}){
  const{slug}=await params;const s=services.find(x=>x.slug===slug);const d=serviceDetails[slug];if(!s||!d)notFound();const project=clientProjects.find(p=>p.slug===d.project);
- return <div className={`service-detail service-${slug}`} style={{'--service-accent':tones[d.tone]} as CSSProperties}>
+ return <div className={`service-detail service-${slug}`} style={{'--service-accent':tones[d.tone]} as CSSProperties}><PageSchema path={`/services/${slug}/`}/>
  <section className="service-hero section"><div className="container"><Breadcrumbs items={[{label:'Services',href:'/services/'},{label:s.title}]}/><div className="service-hero-grid"><div><Eyebrow>{s.category} / {s.title}</Eyebrow><h1>{s.headline}</h1><p>{s.intro}</p><BookCallButton>Plan your {s.title.toLowerCase()} project</BookCallButton><span className="service-hero-note">A clear brief. A considered approach. Your next chapter.</span></div><ServiceVisual detail={d}/></div></div></section>
  <nav className="service-jump" aria-label="Service page sections"><div className="container"><a href="#fit">Is it for you?</a><a href="#approach">Our approach</a><a href="#deliverables">What you get</a><a href="#workflow">How it works</a><a href="#measurement">What we measure</a><a href="#questions">FAQs</a></div></nav>
  <section className="section" id="fit"><div className="container service-fit"><div><Eyebrow>A GOOD PLACE TO START</Eyebrow><h2>Built around the<br/><em>right problem.</em></h2></div><div><p className="service-lead">{d.fit}</p><h3>The work you can expect</h3><p>{d.outcome}</p></div></div></section>
@@ -26,6 +27,6 @@ export default async function ServicePage({params}:{params:Promise<{slug:string}
  <section className="section cream" id="measurement"><div className="container service-fit"><div><Eyebrow>MAKE THE WORK REVIEWABLE</Eyebrow><h2>Clear inputs.<br/><em>Useful measures.</em></h2><p>We agree on the starting point and review the work against its purpose. More activity is useful when it helps the business, not simply when a report gets longer.</p></div><div className="measurement-pair"><article><h3>What we need from you</h3><CheckList items={d.inputs}/></article><article><h3>What we review together</h3><CheckList items={d.metrics}/></article></div></div></section>
  <section className="section" id="questions"><div className="container faq-layout"><div><Eyebrow>USEFUL TO KNOW</Eyebrow><h2>Your questions.<br/><em>Clear answers.</em></h2><p>Still comparing options? Bring your current website and goals to a short introductory call.</p><BookCallButton>Ask the studio</BookCallButton></div><FAQ items={[...s.faq,...d.faq]}/></div></section>
  <section className="section cream"><div className="container"><Eyebrow>BETTER TOGETHER</Eyebrow><h2>Connect the next piece.</h2><div className="related-grid">{s.related.map(slug=>services.find(x=>x.slug===slug)!).map(r=><Link className="directory-card" href={`/services/${r.slug}/`} key={r.slug}><span className="small-label">{r.category}</span><h3>{r.title}</h3><p>{r.intro}</p></Link>)}</div><p className="service-region-link">Looking for support in your market? <Link href="/locations/">Explore our location guides ↗</Link></p></div></section><CTA/>
- <script type="application/ld+json" dangerouslySetInnerHTML={{__html:jsonLd({'@context':'https://schema.org','@type':'Service',name:s.title,description:s.description,url:`${site.url}/services/${s.slug}/`,provider:{'@id':`${site.url}/#organization`}})}}/>
+
  </div>
 }

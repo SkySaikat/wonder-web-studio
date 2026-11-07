@@ -27,7 +27,7 @@ class Page(HTMLParser):
  def handle_data(self,d):
   if self.intitle:self.title+=d
   if self.inld:self.ld[-1]+=d
-root=ET.fromstring(urllib.request.urlopen(BASE+'/sitemap.xml').read());urls=[e.text for e in root.iter() if e.tag.endswith('loc')]
+root=ET.fromstring(urllib.request.urlopen(BASE+'/sitemap.xml').read());urls=[e.text for e in root.findall('{http://www.sitemaps.org/schemas/sitemap/0.9}url/{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
 def check(url):
  path=urlparse(url).path
  try:

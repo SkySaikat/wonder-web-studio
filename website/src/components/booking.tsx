@@ -1,7 +1,7 @@
 'use client';
 import {createContext,useContext,useEffect,useRef,useState} from 'react';
 import type {ReactNode} from 'react';
-import Image from 'next/image';
+import Image from '@/components/content-image';
 import {ArrowUpRight,ArrowLeft,ArrowRight,CalendarDays,ChevronLeft,ChevronRight,Clock3,Globe2,X} from 'lucide-react';
 import {InquiryForm} from './inquiry-form';
 import {addDays,bookingDateLabel,dateInZone,timeLabel,validBookingDate} from '@/lib/booking';

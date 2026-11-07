@@ -1,7 +1,7 @@
 'use client';
 import {useState} from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from '@/components/content-image';
 import {ArrowUpRight,ArrowDown} from 'lucide-react';
 import {clientProjects} from '@/lib/projects';
 const filters=['All projects','Home services','Brands & commerce','Web platforms'];

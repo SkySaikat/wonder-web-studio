@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import {BookCallButton} from './booking';
-import Image from 'next/image';
+import Image from '@/components/content-image';
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { ArrowUpRight, Menu, X, ChevronDown } from 'lucide-react';

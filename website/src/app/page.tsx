@@ -1,8 +1,10 @@
+import {metadata as makeMetadata} from '@/lib/seo';
+import {PageSchema} from '@/components/page-schema';
 import Link from 'next/link';
 import {GrowthChart} from '@/components/growth-chart';
 import {BookCallButton} from '@/components/booking';
 import {VibrantShowcase} from '@/components/vibrant-showcase';
-import Image from 'next/image';
+import Image from '@/components/content-image';
 import { ArrowUpRight,ArrowRight,Sparkles,Globe2,MoveUpRight } from 'lucide-react';
 import { Button,CTA,Eyebrow,FAQ,TextLink } from '@/components/ui';
 import { StudioVideo } from '@/components/video';
@@ -11,8 +13,8 @@ import { articles } from '@/lib/articles';
 import {ServiceExplorer} from '@/components/service-explorer';
 import {ProjectGallery} from '@/components/project-gallery';
 import {ClientNames,ResultsSection,ConnectedJourney,WhyWonderweb,FounderSection,HomeInquiry,AllClientNames} from '@/components/home-sections';
-export const metadata={alternates:{canonical:'/'}};
-export default function Home(){return <>
+export const metadata=makeMetadata('', '', '/');
+export default function Home(){return <><PageSchema path={'/'}/>
   <section className="home-hero"><div className="container hero-grid"><div className="hero-copy"><Eyebrow>WEB DESIGN & DIGITAL MARKETING, CONNECTED.</Eyebrow><h1>Websites &amp;<br/>marketing,<br/><em>with wonder.</em></h1><p>We build websites, run Google and Meta campaigns, manage social media and create content that brings your business into focus. One studio for your next stage of growth.</p><div className="hero-actions"><BookCallButton>Let’s grow your business</BookCallButton><Link className="quiet-link" href="/work/">Explore our work<ArrowUpRight size={16}/></Link></div><div className="hero-footnote"><span className="tiny-globe"><Globe2 size={18}/></span> Small businesses. Home-service pros. Worldwide.</div></div><div className="studio-hero-card"><Image src="/art/wonder-sculpture.png" alt="" fill priority sizes="(max-width:700px) 90vw,450px"/><span className="hero-card-label"><i/> Your next chapter starts here</span><div className="hero-card-content"><h2>Meet your next<br/>digital team.</h2><p>One studio. A world of possibilities.</p><Button href="/pricing/">Find your starting point</Button><BookCallButton className="hero-book-call" icon={false}>Book a 30-minute intro call<span><ArrowUpRight size={17}/></span></BookCallButton></div></div></div></section>
   <ClientNames/><VibrantShowcase/>
   <nav className="home-section-nav" aria-label="On this page"><div className="container"><span>EXPLORE THE STUDIO</span><a href="#selected-work">Our work</a><a href="#results">Campaign results</a><a href="#our-services">Services</a><a href="#our-pricing">Pricing</a><a href="#start-a-project">Start a conversation ↗</a></div></nav>

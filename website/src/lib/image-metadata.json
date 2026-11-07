@@ -1,0 +1,779 @@
+{
+  "/work/allsafe-electric.webp": {
+    "title": "Allsafe Electric — Home services · Website & lead capture",
+    "description": "Allsafe Electric project preview. A Next.js website for a Colorado electrical business, bringing service information, local content and inquiry handling into one customer journey.",
+    "width": 1440,
+    "height": 900,
+    "type": "image/webp"
+  },
+  "/work/clear-day-baths.webp": {
+    "title": "Clear Day Baths — Home services · Website & automation",
+    "description": "Clear Day Baths project preview. A bathroom remodeling website connecting service-area content, quote requests and CRM follow-up for a business serving Northern Virginia and Maryland.",
+    "width": 1440,
+    "height": 900,
+    "type": "image/webp"
+  },
+  "/work/jr-watkins.webp": {
+    "title": "J.R. Watkins — Brand website · Responsive development",
+    "description": "J.R. Watkins project preview. Website development for J.R. Watkins, with a focus on responsive presentation, brand identity and a clear customer experience.",
+    "width": 1000,
+    "height": 700,
+    "type": "image/webp"
+  },
+  "/work/workiz.webp": {
+    "title": "Workiz — Business software · Web development",
+    "description": "Workiz project preview. Website development work for Workiz, a platform serving field-service businesses. A project at the intersection of software and the trades.",
+    "width": 1000,
+    "height": 700,
+    "type": "image/webp"
+  },
+  "/work/windsor.webp": {
+    "title": "Windsor — E-commerce · Website design",
+    "description": "Windsor project preview. E-commerce website design work focused on the Windsor shopping experience and its brand presentation.",
+    "width": 1000,
+    "height": 700,
+    "type": "image/webp"
+  },
+  "/work/ezeie.webp": {
+    "title": "ezeie — UX design · Responsive web application",
+    "description": "ezeie project preview. A UX and web application project focused on updating an existing website experience for mobile and desktop use.",
+    "width": 1000,
+    "height": 700,
+    "type": "image/webp"
+  },
+  "/work/california-olive.webp": {
+    "title": "California Olive Ranch — Brand website · Web development",
+    "description": "California Olive Ranch project preview. Website development work for California Olive Ranch, connecting brand presentation with a responsive web interface.",
+    "width": 1000,
+    "height": 700,
+    "type": "image/webp"
+  },
+  "/work/crafted-look.webp": {
+    "title": "Crafted Look — Editorial · Content website",
+    "description": "Crafted Look project preview. A blog and editorial website built around approachable content, clear navigation and a responsive reading experience.",
+    "width": 1000,
+    "height": 700,
+    "type": "image/webp"
+  },
+  "/work/unseen-threads.webp": {
+    "title": "The Unseen Threads — Editorial · Website design",
+    "description": "The Unseen Threads project preview. A blog and website design project with a focus on a responsive home for editorial content.",
+    "width": 1000,
+    "height": 700,
+    "type": "image/webp"
+  },
+  "/work/read-the-anime.webp": {
+    "title": "Read The Anime — Publishing · Web development",
+    "description": "Read The Anime project preview. An anime-focused blog website project that organizes content into a responsive reading experience.",
+    "width": 1000,
+    "height": 700,
+    "type": "image/webp"
+  },
+  "/work/dococlock.webp": {
+    "title": "DocoClock — Healthcare platform · Full-stack development",
+    "description": "DocoClock project preview. A healthcare platform bringing doctor discovery, appointments, live queues and digital prescriptions into a connected experience for Bangladesh.",
+    "width": 1440,
+    "height": 900,
+    "type": "image/webp"
+  },
+  "/work/pet-cy.webp": {
+    "title": "Pet-cy — E-commerce · Catalog & storefront",
+    "description": "Pet-cy project preview. An e-commerce storefront for a Cyprus pet supply business, bringing its catalog, offers and shopping information together.",
+    "width": 1440,
+    "height": 900,
+    "type": "image/webp"
+  },
+  "/work/flow-website.jpg": {
+    "title": "Flow website exploration — Website concept · Art direction",
+    "description": "Flow website exploration project preview. A colorful website exploration that brings product imagery, editorial spacing and a playful visual direction together. Selected from the studio’s earlier portfolio; presented as design work, without a performance claim.",
+    "width": 768,
+    "height": 768,
+    "type": "image/jpeg"
+  },
+  "/work/ecommerce-design.webp": {
+    "title": "Fashion storefront exploration — E-commerce concept · Web design",
+    "description": "Fashion storefront exploration project preview. An exploration of a mobile shopping experience, with strong product imagery and a consistent visual language across screens. This is a portfolio design example, not a claim about a commissioned launch or sales results.",
+    "width": 768,
+    "height": 768,
+    "type": "image/webp"
+  },
+  "/work/ui-design.webp": {
+    "title": "Sign-in interface study — Interface exploration · UI design",
+    "description": "Sign-in interface study project preview. An archived interface study exploring a calm color palette, clear form layout and a restrained visual composition. It is shown as a design exploration, not a measured conversion case study.",
+    "width": 768,
+    "height": 768,
+    "type": "image/webp"
+  },
+  "/work/youtube-thumbnails.webp": {
+    "title": "YouTube thumbnail explorations — Content creative · Thumbnail design",
+    "description": "YouTube thumbnail explorations project preview. Thumbnail creative from the earlier studio portfolio, exploring focal points, expressive imagery and quick visual communication. Audience growth and click-through outcomes are not asserted.",
+    "width": 768,
+    "height": 720,
+    "type": "image/webp"
+  },
+  "/work/saikat.webp": {
+    "title": "Saikat Chowdhury, Founder & CEO",
+    "description": "Portrait of Saikat Chowdhury, Wonderweb Studio founder, CEO and team lead.",
+    "width": 1440,
+    "height": 1440,
+    "type": "image/webp"
+  },
+  "/brand/wonderweb-studio.svg": {
+    "title": "Wonderweb Studio logo",
+    "description": "Wonderweb Studio brand logo.",
+    "width": 442,
+    "height": 126,
+    "type": "image/svg+xml"
+  },
+  "/art/wonder-sculpture.png": {
+    "title": "Wonderweb Studio creative artwork",
+    "description": "Abstract blue and lilac sculptural artwork created for the Wonderweb Studio homepage.",
+    "width": 1122,
+    "height": 1402,
+    "type": "image/png"
+  },
+  "/seo/home.png": {
+    "title": "Home — Wonderweb Studio",
+    "description": "Featured social preview for Home. Websites, SEO, Google and Meta ads, social media and creative content for small businesses and home-service companies. Meet Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/about.png": {
+    "title": "About the studio — Wonderweb Studio",
+    "description": "Featured social preview for About the studio. Meet our founder and explore Wonderweb Studio’s approach to websites, design, content and marketing for small businesses around the world.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/contact.png": {
+    "title": "Contact — Wonderweb Studio",
+    "description": "Featured social preview for Contact. Discuss your website, SEO, ads or social media project with Wonderweb Studio. Request a tailored quote or a preferred time for an introductory call.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/services.png": {
+    "title": "Services — Wonderweb Studio",
+    "description": "Featured social preview for Services. Explore website design, development, SEO, Google Ads, Meta campaigns, social media and creative services for small businesses worldwide.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries.png": {
+    "title": "Industries — Wonderweb Studio",
+    "description": "Featured social preview for Industries. Explore digital marketing for roofing, HVAC, plumbing, electricians, remodelers and small businesses. Find a website and marketing plan for your industry.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations.png": {
+    "title": "Locations — Wonderweb Studio",
+    "description": "Featured social preview for Locations. Website design, SEO, paid advertising and social media support for US service markets. Explore our local marketing guides and remote studio approach.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/pricing.png": {
+    "title": "Pricing — Wonderweb Studio",
+    "description": "Featured social preview for Pricing. Explore starting prices: website projects from $4,500 and marketing plans from $1,199/month. Review scope, ad spend and tailored quotes with Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/work.png": {
+    "title": "Our work — Wonderweb Studio",
+    "description": "Featured social preview for Our work. Explore client websites, e-commerce projects, web platforms and creative studies from Wonderweb Studio and our founder’s selected portfolio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/results.png": {
+    "title": "Campaign results — Wonderweb Studio",
+    "description": "Featured social preview for Campaign results. Read selected roofing and bathroom remodeling campaign stories, including the approach, historical outcomes and measurement context.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources.png": {
+    "title": "Insights & guides — Wonderweb Studio",
+    "description": "Featured social preview for Insights & guides. Practical guides to website design, SEO budgets, Google Ads, social media content and ongoing website management for small and home-service businesses.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/privacy-policy.png": {
+    "title": "Privacy policy — Wonderweb Studio",
+    "description": "Featured social preview for Privacy policy. Learn how Wonderweb Studio handles inquiry details, optional analytics, embedded media and your privacy choices when you use this website.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/terms.png": {
+    "title": "Website terms — Wonderweb Studio",
+    "description": "Featured social preview for Website terms. Read Wonderweb Studio’s website terms, pricing context and project information. Service scope and payment terms are confirmed in a separate written proposal.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/payments.png": {
+    "title": "Client payments — Wonderweb Studio",
+    "description": "Featured social preview for Client payments. Payment information for approved Wonderweb Studio proposals and invoices. Contact the studio to confirm your scope and payment arrangements.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/services--web-design.png": {
+    "title": "Website Design — Wonderweb Studio",
+    "description": "Featured social preview for Website Design. Custom website design for small businesses and home-service companies. Clear messaging, responsive layouts and an easier path from visitor to inquiry.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/services--web-development.png": {
+    "title": "Web Development — Wonderweb Studio",
+    "description": "Featured social preview for Web Development. Website development for small businesses, from fast marketing sites to content systems and integrations. Built around how your business works.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/services--website-management.png": {
+    "title": "Website Management — Wonderweb Studio",
+    "description": "Featured social preview for Website Management. Ongoing website management, content updates and website care for small businesses. Keep your pages current and your inquiry journeys working.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/services--seo.png": {
+    "title": "Search Engine Optimization — Wonderweb Studio",
+    "description": "Featured social preview for Search Engine Optimization. SEO services for small businesses and home-service companies. Technical foundations, useful service content and search reporting connected to inquiries.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/services--local-seo.png": {
+    "title": "Local SEO — Wonderweb Studio",
+    "description": "Featured social preview for Local SEO. Local SEO for service businesses. Business profile care, accurate service information and location content that helps local customers make contact.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/services--google-ads.png": {
+    "title": "Google Ads Management — Wonderweb Studio",
+    "description": "Featured social preview for Google Ads Management. Google Ads management for small businesses and contractors. Focused campaigns, relevant landing pages and reporting that looks beyond clicks.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/services--meta-ads.png": {
+    "title": "Meta Ads Management — Wonderweb Studio",
+    "description": "Featured social preview for Meta Ads Management. Facebook and Instagram ads management with creative testing, relevant offers and a focus on lead quality. Meta campaigns for small businesses.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/services--social-media-management.png": {
+    "title": "Social Media Management — Wonderweb Studio",
+    "description": "Featured social preview for Social Media Management. Organic social media management for small businesses. Content calendars, post design, captions, scheduling and a clear approval process.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/services--content-creation.png": {
+    "title": "Content Creation — Wonderweb Studio",
+    "description": "Featured social preview for Content Creation. Website copy, articles and social content for small businesses. Clear messaging informed by customer questions, subject knowledge and search intent.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/services--content-management.png": {
+    "title": "Content Management — Wonderweb Studio",
+    "description": "Featured social preview for Content Management. Content management and publishing support for small business websites. Editorial calendars, CMS updates and content maintenance with clear ownership.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/services--graphic-design.png": {
+    "title": "Graphic Design — Wonderweb Studio",
+    "description": "Featured social preview for Graphic Design. Graphic design for social posts, digital campaigns and small business marketing. Clear briefs, consistent visual direction and usable deliverables.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/services--thumbnail-design.png": {
+    "title": "Thumbnail Design — Wonderweb Studio",
+    "description": "Featured social preview for Thumbnail Design. YouTube and social thumbnail design that communicates the idea clearly. Thoughtful composition, readable type and a consistent channel identity.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/services--landing-page-design.png": {
+    "title": "Landing Page Design — Wonderweb Studio",
+    "description": "Featured social preview for Landing Page Design. Campaign landing page design and development for Google and Meta Ads. Focused messaging, lead forms and conversion measurement.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries--roofing.png": {
+    "title": "Roofing — Wonderweb Studio",
+    "description": "Featured social preview for Roofing. Websites, SEO, ads and content for roofing companies. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries--hvac.png": {
+    "title": "HVAC — Wonderweb Studio",
+    "description": "Featured social preview for HVAC. Websites, SEO, ads and content for HVAC companies. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries--plumbing.png": {
+    "title": "Plumbing — Wonderweb Studio",
+    "description": "Featured social preview for Plumbing. Websites, SEO, ads and content for plumbing businesses. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries--electricians.png": {
+    "title": "Electricians — Wonderweb Studio",
+    "description": "Featured social preview for Electricians. Websites, SEO, ads and content for electrical contractors. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries--kitchen-remodeling.png": {
+    "title": "Kitchen Remodeling — Wonderweb Studio",
+    "description": "Featured social preview for Kitchen Remodeling. Websites, SEO, ads and content for kitchen remodeling businesses. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries--bathroom-remodeling.png": {
+    "title": "Bathroom Remodeling — Wonderweb Studio",
+    "description": "Featured social preview for Bathroom Remodeling. Websites, SEO, ads and content for bathroom remodelers. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries--landscaping.png": {
+    "title": "Landscaping — Wonderweb Studio",
+    "description": "Featured social preview for Landscaping. Websites, SEO, ads and content for landscaping businesses. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries--pest-control.png": {
+    "title": "Pest Control — Wonderweb Studio",
+    "description": "Featured social preview for Pest Control. Websites, SEO, ads and content for pest-control companies. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries--small-business.png": {
+    "title": "Small Businesses — Wonderweb Studio",
+    "description": "Featured social preview for Small Businesses. Websites, SEO, ads and content for small businesses worldwide. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries--roofing--seo.png": {
+    "title": "Search Engine Optimization — Wonderweb Studio",
+    "description": "Featured social preview for Search Engine Optimization. Search Engine Optimization for roofing companies. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries--roofing--web-design.png": {
+    "title": "Website Design — Wonderweb Studio",
+    "description": "Featured social preview for Website Design. Website Design for roofing companies. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries--hvac--seo.png": {
+    "title": "Search Engine Optimization — Wonderweb Studio",
+    "description": "Featured social preview for Search Engine Optimization. Search Engine Optimization for HVAC companies. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries--hvac--web-design.png": {
+    "title": "Website Design — Wonderweb Studio",
+    "description": "Featured social preview for Website Design. Website Design for HVAC companies. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries--plumbing--seo.png": {
+    "title": "Search Engine Optimization — Wonderweb Studio",
+    "description": "Featured social preview for Search Engine Optimization. Search Engine Optimization for plumbing businesses. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries--plumbing--web-design.png": {
+    "title": "Website Design — Wonderweb Studio",
+    "description": "Featured social preview for Website Design. Website Design for plumbing businesses. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries--electricians--seo.png": {
+    "title": "Search Engine Optimization — Wonderweb Studio",
+    "description": "Featured social preview for Search Engine Optimization. Search Engine Optimization for electrical contractors. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/industries--electricians--web-design.png": {
+    "title": "Website Design — Wonderweb Studio",
+    "description": "Featured social preview for Website Design. Website Design for electrical contractors. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--tampa.png": {
+    "title": "Tampa — Wonderweb Studio",
+    "description": "Featured social preview for Tampa. Web design, SEO, paid ads and social media for Tampa small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--chicago.png": {
+    "title": "Chicago — Wonderweb Studio",
+    "description": "Featured social preview for Chicago. Web design, SEO, paid ads and social media for Chicago small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--orlando.png": {
+    "title": "Orlando — Wonderweb Studio",
+    "description": "Featured social preview for Orlando. Web design, SEO, paid ads and social media for Orlando small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--boston.png": {
+    "title": "Boston — Wonderweb Studio",
+    "description": "Featured social preview for Boston. Web design, SEO, paid ads and social media for Boston small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--dallas.png": {
+    "title": "Dallas — Wonderweb Studio",
+    "description": "Featured social preview for Dallas. Web design, SEO, paid ads and social media for Dallas small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--houston.png": {
+    "title": "Houston — Wonderweb Studio",
+    "description": "Featured social preview for Houston. Web design, SEO, paid ads and social media for Houston small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--phoenix.png": {
+    "title": "Phoenix — Wonderweb Studio",
+    "description": "Featured social preview for Phoenix. Web design, SEO, paid ads and social media for Phoenix small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--los-angeles.png": {
+    "title": "Los Angeles — Wonderweb Studio",
+    "description": "Featured social preview for Los Angeles. Web design, SEO, paid ads and social media for Los Angeles small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--austin.png": {
+    "title": "Austin — Wonderweb Studio",
+    "description": "Featured social preview for Austin. Web design, SEO, paid ads and social media for Austin small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--denver.png": {
+    "title": "Denver — Wonderweb Studio",
+    "description": "Featured social preview for Denver. Web design, SEO, paid ads and social media for Denver small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--indianapolis.png": {
+    "title": "Indianapolis — Wonderweb Studio",
+    "description": "Featured social preview for Indianapolis. Web design, SEO, paid ads and social media for Indianapolis small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--miami.png": {
+    "title": "Miami — Wonderweb Studio",
+    "description": "Featured social preview for Miami. Web design, SEO, paid ads and social media for Miami small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--florida.png": {
+    "title": "Florida — Wonderweb Studio",
+    "description": "Featured social preview for Florida. Web design, SEO, paid ads and social media for Florida small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--indiana.png": {
+    "title": "Indiana — Wonderweb Studio",
+    "description": "Featured social preview for Indiana. Web design, SEO, paid ads and social media for Indiana small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--phoenix--seo.png": {
+    "title": "Search Engine Optimization — Wonderweb Studio",
+    "description": "Featured social preview for Search Engine Optimization. SEO for Phoenix businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--phoenix--google-ads.png": {
+    "title": "Google Ads Management — Wonderweb Studio",
+    "description": "Featured social preview for Google Ads Management. Google Ads Management for Phoenix businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--austin--seo.png": {
+    "title": "Search Engine Optimization — Wonderweb Studio",
+    "description": "Featured social preview for Search Engine Optimization. SEO for Austin businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--austin--google-ads.png": {
+    "title": "Google Ads Management — Wonderweb Studio",
+    "description": "Featured social preview for Google Ads Management. Google Ads Management for Austin businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--denver--google-ads.png": {
+    "title": "Google Ads Management — Wonderweb Studio",
+    "description": "Featured social preview for Google Ads Management. Google Ads Management for Denver businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/work--allsafe-electric.png": {
+    "title": "Allsafe Electric — Wonderweb Studio",
+    "description": "Featured social preview for Allsafe Electric. A Next.js website for a Colorado electrical business, bringing service information, local content and inquiry handling into one customer journey.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/work--clear-day-baths.png": {
+    "title": "Clear Day Baths — Wonderweb Studio",
+    "description": "Featured social preview for Clear Day Baths. A bathroom remodeling website connecting service-area content, quote requests and CRM follow-up for a business serving Northern Virginia and Maryland.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/work--jr-watkins.png": {
+    "title": "J.R. Watkins — Wonderweb Studio",
+    "description": "Featured social preview for J.R. Watkins. Website development for J.R. Watkins, with a focus on responsive presentation, brand identity and a clear customer experience.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/work--workiz.png": {
+    "title": "Workiz — Wonderweb Studio",
+    "description": "Featured social preview for Workiz. Website development work for Workiz, a platform serving field-service businesses. A project at the intersection of software and the trades.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/work--windsor.png": {
+    "title": "Windsor — Wonderweb Studio",
+    "description": "Featured social preview for Windsor. E-commerce website design work focused on the Windsor shopping experience and its brand presentation.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/work--ezeie.png": {
+    "title": "ezeie — Wonderweb Studio",
+    "description": "Featured social preview for ezeie. A UX and web application project focused on updating an existing website experience for mobile and desktop use.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/work--california-olive-ranch.png": {
+    "title": "California Olive Ranch — Wonderweb Studio",
+    "description": "Featured social preview for California Olive Ranch. Website development work for California Olive Ranch, connecting brand presentation with a responsive web interface.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/work--crafted-look.png": {
+    "title": "Crafted Look — Wonderweb Studio",
+    "description": "Featured social preview for Crafted Look. A blog and editorial website built around approachable content, clear navigation and a responsive reading experience.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/work--the-unseen-threads.png": {
+    "title": "The Unseen Threads — Wonderweb Studio",
+    "description": "Featured social preview for The Unseen Threads. A blog and website design project with a focus on a responsive home for editorial content.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/work--read-the-anime.png": {
+    "title": "Read The Anime — Wonderweb Studio",
+    "description": "Featured social preview for Read The Anime. An anime-focused blog website project that organizes content into a responsive reading experience.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/work--dococlock.png": {
+    "title": "DocoClock — Wonderweb Studio",
+    "description": "Featured social preview for DocoClock. A healthcare platform bringing doctor discovery, appointments, live queues and digital prescriptions into a connected experience for Bangladesh.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/work--pet-cy.png": {
+    "title": "Pet-cy — Wonderweb Studio",
+    "description": "Featured social preview for Pet-cy. An e-commerce storefront for a Cyprus pet supply business, bringing its catalog, offers and shopping information together.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/work--flow-web-design.png": {
+    "title": "Flow website exploration — Wonderweb Studio",
+    "description": "Featured social preview for Flow website exploration. Explore flow website exploration from Wonderweb Studio’s creative portfolio. See the visual direction and discuss a design brief for your business.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/work--ecommerce-experience.png": {
+    "title": "Fashion storefront exploration — Wonderweb Studio",
+    "description": "Featured social preview for Fashion storefront exploration. Explore fashion storefront exploration from Wonderweb Studio’s creative portfolio. See the visual direction and discuss a design brief for your business.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/work--interface-exploration.png": {
+    "title": "Sign-in interface study — Wonderweb Studio",
+    "description": "Featured social preview for Sign-in interface study. Explore sign-in interface study from Wonderweb Studio’s creative portfolio. See the visual direction and discuss a design brief for your business.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/work--thumbnail-creative.png": {
+    "title": "YouTube thumbnail explorations — Wonderweb Studio",
+    "description": "Featured social preview for YouTube thumbnail explorations. Explore youtube thumbnail explorations from Wonderweb Studio’s creative portfolio. See the visual direction and discuss a design brief for your business.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--google-ads-cost-home-services.png": {
+    "title": "What should a home-service business budget for Google Ads? — Wonderweb Studio",
+    "description": "Featured social preview for What should a home-service business budget for Google Ads?. Separate media spend, management, landing pages and follow-up before deciding what a campaign really costs.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--roofing-seo-cost.png": {
+    "title": "Roofing SEO cost: what should your proposal actually include? — Wonderweb Studio",
+    "description": "Featured social preview for Roofing SEO cost: what should your proposal actually include?. A useful SEO quote explains the work, the evidence and the review process—not just a monthly price.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--website-management-vs-maintenance.png": {
+    "title": "Website management vs. maintenance: what do you need? — Wonderweb Studio",
+    "description": "Featured social preview for Website management vs. maintenance: what do you need?. Keeping the site healthy and keeping its content useful are related jobs, but they are not the same scope.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--social-media-content-calendar.png": {
+    "title": "A practical monthly content calendar for a small business — Wonderweb Studio",
+    "description": "Featured social preview for A practical monthly content calendar for a small business. Build a repeatable plan from your work, your customers’ questions and one clear monthly offer.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--website-redesign-checklist.png": {
+    "title": "Before you redesign your business website, check these six things — Wonderweb Studio",
+    "description": "Featured social preview for Before you redesign your business website, check these six things. Protect the useful parts of your current website while improving the way it explains, proves and converts.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--google-ads-vs-meta-ads.png": {
+    "title": "Google Ads or Meta Ads: where should a small business start? — Wonderweb Studio",
+    "description": "Featured social preview for Google Ads or Meta Ads: where should a small business start?. Choose the channel around customer intent, the offer, creative readiness and the way you handle leads.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--home-service-marketing-ideas.png": {
+    "title": "9 practical marketing ideas for a home-service business — Wonderweb Studio",
+    "description": "Featured social preview for 9 practical marketing ideas for a home-service business. A prioritized list of ways to connect your services, local visibility, project evidence and follow-up—without trying every channel at once.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--small-business-website-trust-signals.png": {
+    "title": "11 trust signals every small-business website should explain — Wonderweb Studio",
+    "description": "Featured social preview for 11 trust signals every small-business website should explain. Help visitors understand who you are, what you do and what happens next with specific evidence and clear information.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--website-conversion-improvements.png": {
+    "title": "7 website improvements to make inquiries easier — Wonderweb Studio",
+    "description": "Featured social preview for 7 website improvements to make inquiries easier. A practical review of the offer, proof, page layout and form journey before you spend more to attract visitors.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--social-media-post-ideas-small-business.png": {
+    "title": "8 social media post ideas a small business can reuse — Wonderweb Studio",
+    "description": "Featured social preview for 8 social media post ideas a small business can reuse. Build a sustainable calendar from customer questions, project material and the expertise already inside your business.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--questions-before-hiring-marketing-agency.png": {
+    "title": "9 questions to ask before hiring a marketing agency — Wonderweb Studio",
+    "description": "Featured social preview for 9 questions to ask before hiring a marketing agency. Compare agencies on scope, evidence, costs, account access and reporting so the proposal is easier to evaluate.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--youtube-thumbnail-design-checklist.png": {
+    "title": "7 checks for a clearer YouTube thumbnail — Wonderweb Studio",
+    "description": "Featured social preview for 7 checks for a clearer YouTube thumbnail. Use a clear focal point, readable type and honest visual promises to make thumbnail concepts easier to evaluate.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/results--roofing-local-search.png": {
+    "title": "More relevant searches. 53 booked appointments. — Wonderweb Studio",
+    "description": "Featured social preview for More relevant searches. 53 booked appointments.. A roofing search strategy redirected attention from broad visibility toward homeowners within the service area.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/results--coastal-bath-paid-search.png": {
+    "title": "From 4 to 21 campaign conversions. — Wonderweb Studio",
+    "description": "Featured social preview for From 4 to 21 campaign conversions.. A bathroom remodeling advertising campaign focused its bidding and geographic targeting on conversion opportunities.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  }
+}

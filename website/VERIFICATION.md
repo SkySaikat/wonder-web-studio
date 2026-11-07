@@ -32,3 +32,16 @@ A simultaneous development-server/build filesystem conflict interrupted one prod
 Final expansion checks: production build passed with 98 framework routes; HTTP/SEO audit passed for all 91 public URLs, with 91 unique titles and descriptions, no missing local images, no duplicate IDs and no unmapped internal links. Preview noindex is preserved. Sample main-content lengths: web design 1,092 words, social management 1,028, SEO 1,038, Tampa 940, Denver Google Ads 732 and roofing industry 727. Word counts describe the delivered content and are not ranking targets.
 
 The final local preview runs the production build on port 3000. Form delivery is still unconfigured, and production origin/challenge checks are not relaxed for local testing. No remote deployment took place.
+
+## SEO implementation — November 8, 2026
+
+- 92 HTML routes audited: 91 public sitemap entries plus the deliberately noindex client-payment route.
+- All routes have one H1, a self-referencing production canonical, unique title and description, unique 1200×630 Open Graph/Twitter image, image alt metadata, and valid JSON-LD.
+- Every page has its own connected page graph. Types include WebPage, AboutPage, ContactPage, CollectionPage, BreadcrumbList, Service, BlogPosting, Article, CreativeWork, ItemList, OfferCatalog, ImageObject and visible FAQPage markup. Organization, WebSite and founder Person entities use consistent IDs. The home and about pages also describe the actual embedded introduction with VideoObject metadata.
+- Checked JSON-LD references, type/property names and property applicability against the official current Schema.org vocabulary. This is local semantic validation, not a Google Rich Results Test or a promise of rich-result eligibility.
+- Confirmed 92 distinct share images are served as PNG at 1200×630. XML sitemap lists 109 distinct associated images. Meaningful rendered images have alt text and titles; decorative images retain empty alt text. Article featured images have been added to their visible pages.
+- Parsed and compared the 91 canonical entries in `/sitemap.xml` and `/llms.xml`; both match. `/llms.txt` and `/llms-full.txt` include every public URL and exclude the payment route. Tested MIME types, internal links, 404 behavior and robots policy.
+- `npm test`: 12 tests passed, including five SEO regression tests for route coverage, graph references, crawl modes, discovery coverage and JSON-LD escaping.
+- Production-mode local build and full crawl passed with `SITE_INDEXABLE=true`; output retained in `seo-audit-production.json`. This was tested on loopback only. No production deployment or external search-engine submission was made.
+- Preview mode is restored with `SITE_INDEXABLE=false`. Its final audit is saved in `seo-audit-results.json`.
+- Remaining live checks: deploy the approved build, configure production indexing, connect Search Console/GA4, submit the sitemap, then inspect representative live URLs in Google’s tools. The local preview intentionally cannot rank.
