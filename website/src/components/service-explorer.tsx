@@ -25,9 +25,9 @@ export function ServiceExplorer(){const[selected,setSelected]=useState(0);const 
      <Link className="text-link" href={`/services/${s.slug}/`}>Explore {s.label.toLowerCase()}<ArrowUpRight size={18}/></Link>
     </div>
     <div className="explorer-visual">
-     <div className="explorer-card-top"><span className="explorer-icon"><Icon size={30} strokeWidth={1.5}/></span><span>WONDERWEB STUDIO<br/><b>Made to work together.</b></span><span className="explorer-spark" aria-hidden="true">✳</span></div>
+     <div className="explorer-card-top"><span className="explorer-icon"><Icon size={30} strokeWidth={1.5}/></span><span>WONDERWEB STUDIO<br/><b>Made to work together.</b></span><span className="explorer-spark" aria-hidden="true">✳︎</span></div>
      <div className="explorer-art-title">{['First impressions.','Get discovered.','Make every click','Stop the scroll.','Make your mark.','Keep things'][i]}<em>{['Lasting connections.','Stay relevant.','mean more.','Start a conversation.','Keep showing up.','moving forward.'][i]}</em></div>
-     <div className="explorer-flow">{s.steps.map((step,j)=><div className={`explorer-step explorer-step-${j}`} key={step}><span className="explorer-step-number">0{j+1}</span><span>{step}</span>{j===2?<ArrowUpRight size={22} aria-hidden="true"/>:<span className="explorer-flow-arrow" aria-hidden="true">↓</span>}</div>)}</div>
+     <div className="explorer-flow">{s.steps.map((step,j)=><div className={`explorer-step explorer-step-${j}`} key={step}><span className="explorer-step-number">0{j+1}</span><span>{step}</span>{j===2?<ArrowUpRight size={22} aria-hidden="true"/>:<span className="explorer-flow-arrow" aria-hidden="true">↓︎</span>}</div>)}</div>
      <div className="explorer-note"><span>IS THIS YOU?</span><p>{s.note}</p></div>
     </div>
    </div>
