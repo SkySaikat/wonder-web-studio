@@ -1,4 +1,5 @@
 import type { NextConfig } from 'next';
+import {isSiteIndexable} from './src/lib/indexing';
 
 const config: NextConfig = {
   trailingSlash: true,
@@ -13,9 +14,10 @@ const config: NextConfig = {
     ];
   },
   async headers() {
-    return [{ source: '/:path*', headers: [
-      { key: 'Link', value: '</llms.txt>; rel="describedby"; type="text/plain"' },
-      ...(process.env.SITE_INDEXABLE === 'true' ? [] : [{key:'X-Robots-Tag',value:'noindex, nofollow'}]),
+    return [{source:'/:path((?!content/).*)',headers:[
+      {key:'Link',value:'</llms.txt>; rel="describedby"; type="text/plain"'},
+    ]},{ source: '/:path*', headers: [
+      ...(isSiteIndexable() ? [] : [{key:'X-Robots-Tag',value:'noindex, nofollow'}]),
       { key: 'X-Content-Type-Options', value: 'nosniff' },
       { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
       { key: 'X-Frame-Options', value: 'SAMEORIGIN' },

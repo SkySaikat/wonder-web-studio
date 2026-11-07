@@ -27,6 +27,7 @@ export function pageGraph(path:string){
  const imagePaths=[...new Set([seoImagePath(path),...(page.images||[])])];
  const pageNode:Node={'@type':page.type,'@id':pageId,url,name:page.title,description:page.description,isPartOf:ref(websiteId),publisher:ref(orgId),inLanguage:'en',primaryImageOfPage:ref(`${absoluteUrl(imagePaths[0])}#image`),image:imagePaths.map(p=>ref(`${absoluteUrl(p)}#image`))};
  if(page.modified)pageNode.dateModified=page.modified;
+ if(page.published)pageNode.datePublished=page.published;
  const nodes:Node[]=[pageNode,...imagePaths.map(imageSchema)];
  if(path!=='/'){
   const parts=path.split('/').filter(Boolean);
@@ -53,7 +54,7 @@ function mainEntity(page:SeoPage,id:string,pageId:string):Node{
  if(page.entity==='Service')return {...base,name:page.title,serviceType:page.serviceType,provider:ref(orgId),...(page.area?{areaServed:{'@type':page.area.kind,name:page.area.name,containedInPlace:{'@type':page.area.kind==='City'?'State':'Country',name:page.area.region}}}:{}),...(page.audience?{audience:{'@type':'BusinessAudience',audienceType:page.audience}}:{})};
  if(page.entity==='BlogPosting'||page.entity==='Article'){
   const a=articles.find(a=>page.path===`/resources/${a.slug}/`);
-  return {...base,headline:page.label,inLanguage:'en',author:ref(orgId),publisher:ref(orgId),...(page.modified?{dateModified:page.modified}:{}),...(a?{articleSection:a.category,...(a.sources?{citation:a.sources.map(s=>s.url)}:{})}:{})};
+  return {...base,headline:page.label,inLanguage:'en',author:ref(orgId),publisher:ref(orgId),...(page.modified?{dateModified:page.modified}:{}),...(page.published?{datePublished:page.published}:{}),...(a?{articleSection:a.category,...(a.sources?{citation:a.sources.map(s=>s.url)}:{})}:{})};
  }
  if(page.entity==='CreativeWork')return {...base,creator:ref(orgId),inLanguage:'en',image:page.images?.map(p=>ref(`${absoluteUrl(p)}#image`))};
  if(page.entity==='OfferCatalog')return {...base,name:'Website and marketing starting plans',itemListElement:plans.map(p=>({'@type':'Offer',name:`${p.name} — monthly starting scope`,description:`${p.description} ${p.note} Starting price; final scope and quote agreed before purchase.`,url:absoluteUrl('/pricing/'),seller:ref(orgId),priceSpecification:{'@type':'UnitPriceSpecification',minPrice:p.price,priceCurrency:'USD',unitText:'month'},itemOffered:{'@type':'Service',name:`${p.name} marketing plan`,provider:ref(orgId),description:p.items.join('; ')}}))};

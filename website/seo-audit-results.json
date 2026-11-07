@@ -1,5 +1,5 @@
 {
-  "schema_vocabulary_checked": true,
+  "schema_vocabulary_checked": false,
   "pages_checked": 102,
   "sitemap_pages": 101,
   "sitemap_images": 143,
@@ -14,7 +14,7 @@
       "path": "/",
       "title": "Web Design & Digital Marketing Agency | Wonderweb Studio",
       "description": "Websites, SEO, Google and Meta ads, social media and creative content for small businesses and home-service companies. Meet Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/home.png",
+      "image": "https://www.wonderwebstudio.com/seo/home.png",
       "schema_types": [
         "Answer",
         "ContactPoint",
@@ -33,7 +33,7 @@
       "path": "/about/",
       "title": "About Wonderweb Studio | Wonderweb Studio",
       "description": "Meet our founder and explore Wonderweb Studio\u2019s approach to websites, design, content and marketing for small businesses around the world.",
-      "image": "https://wonderwebstudio.com/seo/about.png",
+      "image": "https://www.wonderwebstudio.com/seo/about.png",
       "schema_types": [
         "AboutPage",
         "BreadcrumbList",
@@ -51,7 +51,7 @@
       "path": "/contact/",
       "title": "Contact Wonderweb Studio | Wonderweb Studio",
       "description": "Discuss your website, SEO, ads or social media project with Wonderweb Studio. Request a tailored quote or a preferred time for an introductory call.",
-      "image": "https://wonderwebstudio.com/seo/contact.png",
+      "image": "https://www.wonderwebstudio.com/seo/contact.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPage",
@@ -68,7 +68,7 @@
       "path": "/services/",
       "title": "Web Design & Digital Marketing Services | Wonderweb Studio",
       "description": "Explore website design, development, SEO, Google Ads, Meta campaigns, social media and creative services for small businesses worldwide.",
-      "image": "https://wonderwebstudio.com/seo/services.png",
+      "image": "https://www.wonderwebstudio.com/seo/services.png",
       "schema_types": [
         "BreadcrumbList",
         "CollectionPage",
@@ -86,7 +86,7 @@
       "path": "/industries/",
       "title": "Home Service & Small Business Marketing | Wonderweb Studio",
       "description": "Explore digital marketing for roofing, HVAC, plumbing, electricians, remodelers and small businesses. Find a website and marketing plan for your industry.",
-      "image": "https://wonderwebstudio.com/seo/industries.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries.png",
       "schema_types": [
         "BreadcrumbList",
         "CollectionPage",
@@ -104,7 +104,7 @@
       "path": "/locations/",
       "title": "Digital Marketing Locations | Wonderweb Studio",
       "description": "Website design, SEO, paid advertising and social media support for US service markets. Explore our local marketing guides and remote studio approach.",
-      "image": "https://wonderwebstudio.com/seo/locations.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations.png",
       "schema_types": [
         "BreadcrumbList",
         "CollectionPage",
@@ -122,7 +122,7 @@
       "path": "/pricing/",
       "title": "Website & Digital Marketing Pricing | Wonderweb Studio",
       "description": "Explore starting prices: website projects from $4,500 and marketing plans from $1,199/month. Review scope, ad spend and tailored quotes with Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/pricing.png",
+      "image": "https://www.wonderwebstudio.com/seo/pricing.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -146,7 +146,7 @@
       "path": "/work/",
       "title": "Website Design & Development Portfolio | Wonderweb Studio",
       "description": "Explore client websites, e-commerce projects, web platforms and creative studies from Wonderweb Studio and our founder\u2019s selected portfolio.",
-      "image": "https://wonderwebstudio.com/seo/work.png",
+      "image": "https://www.wonderwebstudio.com/seo/work.png",
       "schema_types": [
         "BreadcrumbList",
         "CollectionPage",
@@ -164,7 +164,7 @@
       "path": "/results/",
       "title": "Digital Marketing Case Studies & Results | Wonderweb Studio",
       "description": "Read selected roofing and bathroom remodeling campaign stories, including the approach, historical outcomes and measurement context.",
-      "image": "https://wonderwebstudio.com/seo/results.png",
+      "image": "https://www.wonderwebstudio.com/seo/results.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -185,7 +185,7 @@
       "path": "/resources/",
       "title": "Small Business Marketing Blog & Guides | Wonderweb Studio",
       "description": "Practical guides to website design, SEO budgets, Google Ads, social media content and ongoing website management for small and home-service businesses.",
-      "image": "https://wonderwebstudio.com/seo/resources.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources.png",
       "schema_types": [
         "BreadcrumbList",
         "CollectionPage",
@@ -203,7 +203,7 @@
       "path": "/privacy-policy/",
       "title": "Privacy Policy | Wonderweb Studio",
       "description": "Learn how Wonderweb Studio handles inquiry details, optional analytics, embedded media and your privacy choices when you use this website.",
-      "image": "https://wonderwebstudio.com/seo/privacy-policy.png",
+      "image": "https://www.wonderwebstudio.com/seo/privacy-policy.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -220,7 +220,7 @@
       "path": "/terms/",
       "title": "Website Terms | Wonderweb Studio",
       "description": "Read Wonderweb Studio\u2019s website terms, pricing context and project information. Service scope and payment terms are confirmed in a separate written proposal.",
-      "image": "https://wonderwebstudio.com/seo/terms.png",
+      "image": "https://www.wonderwebstudio.com/seo/terms.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -237,7 +237,7 @@
       "path": "/services/web-design/",
       "title": "Website Design Services | Wonderweb Studio",
       "description": "Custom website design for small businesses and home-service companies. Clear messaging, responsive layouts and an easier path from visitor to inquiry.",
-      "image": "https://wonderwebstudio.com/seo/services--web-design.png",
+      "image": "https://www.wonderwebstudio.com/seo/services--web-design.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -258,7 +258,7 @@
       "path": "/services/web-development/",
       "title": "Web Development Services | Wonderweb Studio",
       "description": "Website development for small businesses, from fast marketing sites to content systems and integrations. Built around how your business works.",
-      "image": "https://wonderwebstudio.com/seo/services--web-development.png",
+      "image": "https://www.wonderwebstudio.com/seo/services--web-development.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -279,7 +279,7 @@
       "path": "/services/website-management/",
       "title": "Website Management Services | Wonderweb Studio",
       "description": "Ongoing website management, content updates and website care for small businesses. Keep your pages current and your inquiry journeys working.",
-      "image": "https://wonderwebstudio.com/seo/services--website-management.png",
+      "image": "https://www.wonderwebstudio.com/seo/services--website-management.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -300,7 +300,7 @@
       "path": "/services/seo/",
       "title": "SEO Services | Wonderweb Studio",
       "description": "SEO services for small businesses and home-service companies. Technical foundations, useful service content and search reporting connected to inquiries.",
-      "image": "https://wonderwebstudio.com/seo/services--seo.png",
+      "image": "https://www.wonderwebstudio.com/seo/services--seo.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -321,7 +321,7 @@
       "path": "/services/local-seo/",
       "title": "Local SEO Services | Wonderweb Studio",
       "description": "Local SEO for service businesses. Business profile care, accurate service information and location content that helps local customers make contact.",
-      "image": "https://wonderwebstudio.com/seo/services--local-seo.png",
+      "image": "https://www.wonderwebstudio.com/seo/services--local-seo.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -342,7 +342,7 @@
       "path": "/services/google-ads/",
       "title": "Google Ads Management Services | Wonderweb Studio",
       "description": "Google Ads management for small businesses and contractors. Focused campaigns, relevant landing pages and reporting that looks beyond clicks.",
-      "image": "https://wonderwebstudio.com/seo/services--google-ads.png",
+      "image": "https://www.wonderwebstudio.com/seo/services--google-ads.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -363,7 +363,7 @@
       "path": "/services/meta-ads/",
       "title": "Meta Ads Management Services | Wonderweb Studio",
       "description": "Facebook and Instagram ads management with creative testing, relevant offers and a focus on lead quality. Meta campaigns for small businesses.",
-      "image": "https://wonderwebstudio.com/seo/services--meta-ads.png",
+      "image": "https://www.wonderwebstudio.com/seo/services--meta-ads.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -384,7 +384,7 @@
       "path": "/services/social-media-management/",
       "title": "Social Media Management Services | Wonderweb Studio",
       "description": "Organic social media management for small businesses. Content calendars, post design, captions, scheduling and a clear approval process.",
-      "image": "https://wonderwebstudio.com/seo/services--social-media-management.png",
+      "image": "https://www.wonderwebstudio.com/seo/services--social-media-management.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -405,7 +405,7 @@
       "path": "/services/content-creation/",
       "title": "Content Creation Services | Wonderweb Studio",
       "description": "Website copy, articles and social content for small businesses. Clear messaging informed by customer questions, subject knowledge and search intent.",
-      "image": "https://wonderwebstudio.com/seo/services--content-creation.png",
+      "image": "https://www.wonderwebstudio.com/seo/services--content-creation.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -426,7 +426,7 @@
       "path": "/services/content-management/",
       "title": "Content Management Services | Wonderweb Studio",
       "description": "Content management and publishing support for small business websites. Editorial calendars, CMS updates and content maintenance with clear ownership.",
-      "image": "https://wonderwebstudio.com/seo/services--content-management.png",
+      "image": "https://www.wonderwebstudio.com/seo/services--content-management.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -447,7 +447,7 @@
       "path": "/services/graphic-design/",
       "title": "Graphic Design Services | Wonderweb Studio",
       "description": "Graphic design for social posts, digital campaigns and small business marketing. Clear briefs, consistent visual direction and usable deliverables.",
-      "image": "https://wonderwebstudio.com/seo/services--graphic-design.png",
+      "image": "https://www.wonderwebstudio.com/seo/services--graphic-design.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -468,7 +468,7 @@
       "path": "/services/thumbnail-design/",
       "title": "Thumbnail Design Services | Wonderweb Studio",
       "description": "YouTube and social thumbnail design that communicates the idea clearly. Thoughtful composition, readable type and a consistent channel identity.",
-      "image": "https://wonderwebstudio.com/seo/services--thumbnail-design.png",
+      "image": "https://www.wonderwebstudio.com/seo/services--thumbnail-design.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -489,7 +489,7 @@
       "path": "/services/landing-page-design/",
       "title": "Landing Page Design Services | Wonderweb Studio",
       "description": "Campaign landing page design and development for Google and Meta Ads. Focused messaging, lead forms and conversion measurement.",
-      "image": "https://wonderwebstudio.com/seo/services--landing-page-design.png",
+      "image": "https://www.wonderwebstudio.com/seo/services--landing-page-design.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -510,7 +510,7 @@
       "path": "/industries/roofing/",
       "title": "Roofing Marketing Agency | Wonderweb Studio",
       "description": "Websites, SEO, ads and content for roofing companies. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/industries--roofing.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries--roofing.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -532,7 +532,7 @@
       "path": "/industries/hvac/",
       "title": "HVAC Marketing Agency | Wonderweb Studio",
       "description": "Websites, SEO, ads and content for HVAC companies. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/industries--hvac.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries--hvac.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -554,7 +554,7 @@
       "path": "/industries/plumbing/",
       "title": "Plumbing Marketing Agency | Wonderweb Studio",
       "description": "Websites, SEO, ads and content for plumbing businesses. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/industries--plumbing.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries--plumbing.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -576,7 +576,7 @@
       "path": "/industries/electricians/",
       "title": "Electricians Marketing Agency | Wonderweb Studio",
       "description": "Websites, SEO, ads and content for electrical contractors. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/industries--electricians.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries--electricians.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -598,7 +598,7 @@
       "path": "/industries/kitchen-remodeling/",
       "title": "Kitchen Remodeling Marketing Agency | Wonderweb Studio",
       "description": "Websites, SEO, ads and content for kitchen remodeling businesses. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/industries--kitchen-remodeling.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries--kitchen-remodeling.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -620,7 +620,7 @@
       "path": "/industries/bathroom-remodeling/",
       "title": "Bathroom Remodeling Marketing Agency | Wonderweb Studio",
       "description": "Websites, SEO, ads and content for bathroom remodelers. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/industries--bathroom-remodeling.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries--bathroom-remodeling.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -642,7 +642,7 @@
       "path": "/industries/landscaping/",
       "title": "Landscaping Marketing Agency | Wonderweb Studio",
       "description": "Websites, SEO, ads and content for landscaping businesses. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/industries--landscaping.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries--landscaping.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -664,7 +664,7 @@
       "path": "/industries/pest-control/",
       "title": "Pest Control Marketing Agency | Wonderweb Studio",
       "description": "Websites, SEO, ads and content for pest-control companies. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/industries--pest-control.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries--pest-control.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -686,7 +686,7 @@
       "path": "/industries/small-business/",
       "title": "Small Businesses Marketing Agency | Wonderweb Studio",
       "description": "Websites, SEO, ads and content for small businesses worldwide. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/industries--small-business.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries--small-business.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -708,7 +708,7 @@
       "path": "/industries/roofing/seo/",
       "title": "Roofing SEO Services | Wonderweb Studio",
       "description": "Search Engine Optimization for roofing companies. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/industries--roofing--seo.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries--roofing--seo.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -730,7 +730,7 @@
       "path": "/industries/roofing/web-design/",
       "title": "Roofing Website Design Services | Wonderweb Studio",
       "description": "Website Design for roofing companies. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/industries--roofing--web-design.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries--roofing--web-design.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -752,7 +752,7 @@
       "path": "/industries/hvac/seo/",
       "title": "HVAC SEO Services | Wonderweb Studio",
       "description": "Search Engine Optimization for HVAC companies. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/industries--hvac--seo.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries--hvac--seo.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -774,7 +774,7 @@
       "path": "/industries/hvac/web-design/",
       "title": "HVAC Website Design Services | Wonderweb Studio",
       "description": "Website Design for HVAC companies. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/industries--hvac--web-design.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries--hvac--web-design.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -796,7 +796,7 @@
       "path": "/industries/plumbing/seo/",
       "title": "Plumbing SEO Services | Wonderweb Studio",
       "description": "Search Engine Optimization for plumbing businesses. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/industries--plumbing--seo.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries--plumbing--seo.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -818,7 +818,7 @@
       "path": "/industries/plumbing/web-design/",
       "title": "Plumbing Website Design Services | Wonderweb Studio",
       "description": "Website Design for plumbing businesses. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/industries--plumbing--web-design.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries--plumbing--web-design.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -840,7 +840,7 @@
       "path": "/industries/electricians/seo/",
       "title": "Electricians SEO Services | Wonderweb Studio",
       "description": "Search Engine Optimization for electrical contractors. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/industries--electricians--seo.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries--electricians--seo.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -862,7 +862,7 @@
       "path": "/industries/electricians/web-design/",
       "title": "Electricians Website Design Services | Wonderweb Studio",
       "description": "Website Design for electrical contractors. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/industries--electricians--web-design.png",
+      "image": "https://www.wonderwebstudio.com/seo/industries--electricians--web-design.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -884,7 +884,7 @@
       "path": "/locations/tampa/",
       "title": "Tampa Web Design & Digital Marketing | Wonderweb Studio",
       "description": "Web design, SEO, paid ads and social media for Tampa small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--tampa.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--tampa.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -907,7 +907,7 @@
       "path": "/locations/chicago/",
       "title": "Chicago Web Design & Digital Marketing | Wonderweb Studio",
       "description": "Web design, SEO, paid ads and social media for Chicago small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--chicago.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--chicago.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -930,7 +930,7 @@
       "path": "/locations/orlando/",
       "title": "Orlando Web Design & Digital Marketing | Wonderweb Studio",
       "description": "Web design, SEO, paid ads and social media for Orlando small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--orlando.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--orlando.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -953,7 +953,7 @@
       "path": "/locations/boston/",
       "title": "Boston Web Design & Digital Marketing | Wonderweb Studio",
       "description": "Web design, SEO, paid ads and social media for Boston small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--boston.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--boston.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -976,7 +976,7 @@
       "path": "/locations/dallas/",
       "title": "Dallas Web Design & Digital Marketing | Wonderweb Studio",
       "description": "Web design, SEO, paid ads and social media for Dallas small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--dallas.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--dallas.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -999,7 +999,7 @@
       "path": "/locations/houston/",
       "title": "Houston Web Design & Digital Marketing | Wonderweb Studio",
       "description": "Web design, SEO, paid ads and social media for Houston small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--houston.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--houston.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -1022,7 +1022,7 @@
       "path": "/locations/phoenix/",
       "title": "Phoenix Web Design & Digital Marketing | Wonderweb Studio",
       "description": "Web design, SEO, paid ads and social media for Phoenix small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--phoenix.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--phoenix.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -1045,7 +1045,7 @@
       "path": "/locations/los-angeles/",
       "title": "Los Angeles Web Design & Digital Marketing | Wonderweb Studio",
       "description": "Web design, SEO, paid ads and social media for Los Angeles small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--los-angeles.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--los-angeles.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -1068,7 +1068,7 @@
       "path": "/locations/austin/",
       "title": "Austin Web Design & Digital Marketing | Wonderweb Studio",
       "description": "Web design, SEO, paid ads and social media for Austin small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--austin.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--austin.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -1091,7 +1091,7 @@
       "path": "/locations/denver/",
       "title": "Denver Web Design & Digital Marketing | Wonderweb Studio",
       "description": "Web design, SEO, paid ads and social media for Denver small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--denver.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--denver.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -1114,7 +1114,7 @@
       "path": "/locations/indianapolis/",
       "title": "Indianapolis Web Design & Digital Marketing | Wonderweb Studio",
       "description": "Web design, SEO, paid ads and social media for Indianapolis small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--indianapolis.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--indianapolis.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -1137,7 +1137,7 @@
       "path": "/locations/miami/",
       "title": "Miami Web Design & Digital Marketing | Wonderweb Studio",
       "description": "Web design, SEO, paid ads and social media for Miami small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--miami.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--miami.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -1160,7 +1160,7 @@
       "path": "/locations/florida/",
       "title": "Florida Web Design & Digital Marketing | Wonderweb Studio",
       "description": "Web design, SEO, paid ads and social media for Florida small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--florida.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--florida.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -1183,7 +1183,7 @@
       "path": "/locations/indiana/",
       "title": "Indiana Web Design & Digital Marketing | Wonderweb Studio",
       "description": "Web design, SEO, paid ads and social media for Indiana small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--indiana.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--indiana.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -1206,7 +1206,7 @@
       "path": "/locations/phoenix/seo/",
       "title": "Phoenix SEO Services | Wonderweb Studio",
       "description": "SEO for Phoenix businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--phoenix--seo.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--phoenix--seo.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -1229,7 +1229,7 @@
       "path": "/locations/phoenix/google-ads/",
       "title": "Phoenix Google Ads Management Services | Wonderweb Studio",
       "description": "Google Ads Management for Phoenix businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--phoenix--google-ads.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--phoenix--google-ads.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -1252,7 +1252,7 @@
       "path": "/locations/austin/seo/",
       "title": "Austin SEO Services | Wonderweb Studio",
       "description": "SEO for Austin businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--austin--seo.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--austin--seo.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -1275,7 +1275,7 @@
       "path": "/locations/austin/google-ads/",
       "title": "Austin Google Ads Management Services | Wonderweb Studio",
       "description": "Google Ads Management for Austin businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--austin--google-ads.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--austin--google-ads.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -1298,7 +1298,7 @@
       "path": "/locations/denver/google-ads/",
       "title": "Denver Google Ads Management Services | Wonderweb Studio",
       "description": "Google Ads Management for Denver businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.",
-      "image": "https://wonderwebstudio.com/seo/locations--denver--google-ads.png",
+      "image": "https://www.wonderwebstudio.com/seo/locations--denver--google-ads.png",
       "schema_types": [
         "Answer",
         "BreadcrumbList",
@@ -1321,7 +1321,7 @@
       "path": "/work/allsafe-electric/",
       "title": "Allsafe Electric \u2014 Website Project | Wonderweb Studio",
       "description": "A Next.js website for a Colorado electrical business, bringing service information, local content and inquiry handling into one customer journey.",
-      "image": "https://wonderwebstudio.com/seo/work--allsafe-electric.png",
+      "image": "https://www.wonderwebstudio.com/seo/work--allsafe-electric.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -1339,7 +1339,7 @@
       "path": "/work/clear-day-baths/",
       "title": "Clear Day Baths \u2014 Website Project | Wonderweb Studio",
       "description": "A bathroom remodeling website connecting service-area content, quote requests and CRM follow-up for a business serving Northern Virginia and Maryland.",
-      "image": "https://wonderwebstudio.com/seo/work--clear-day-baths.png",
+      "image": "https://www.wonderwebstudio.com/seo/work--clear-day-baths.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -1357,7 +1357,7 @@
       "path": "/work/jr-watkins/",
       "title": "J.R. Watkins \u2014 Website Project | Wonderweb Studio",
       "description": "Website development for J.R. Watkins, with a focus on responsive presentation, brand identity and a clear customer experience.",
-      "image": "https://wonderwebstudio.com/seo/work--jr-watkins.png",
+      "image": "https://www.wonderwebstudio.com/seo/work--jr-watkins.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -1375,7 +1375,7 @@
       "path": "/work/workiz/",
       "title": "Workiz \u2014 Website Project | Wonderweb Studio",
       "description": "Website development work for Workiz, a platform serving field-service businesses. A project at the intersection of software and the trades.",
-      "image": "https://wonderwebstudio.com/seo/work--workiz.png",
+      "image": "https://www.wonderwebstudio.com/seo/work--workiz.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -1393,7 +1393,7 @@
       "path": "/work/windsor/",
       "title": "Windsor \u2014 Website Project | Wonderweb Studio",
       "description": "E-commerce website design work focused on the Windsor shopping experience and its brand presentation.",
-      "image": "https://wonderwebstudio.com/seo/work--windsor.png",
+      "image": "https://www.wonderwebstudio.com/seo/work--windsor.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -1411,7 +1411,7 @@
       "path": "/work/ezeie/",
       "title": "ezeie \u2014 Website Project | Wonderweb Studio",
       "description": "A UX and web application project focused on updating an existing website experience for mobile and desktop use.",
-      "image": "https://wonderwebstudio.com/seo/work--ezeie.png",
+      "image": "https://www.wonderwebstudio.com/seo/work--ezeie.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -1429,7 +1429,7 @@
       "path": "/work/california-olive-ranch/",
       "title": "California Olive Ranch \u2014 Website Project | Wonderweb Studio",
       "description": "Website development work for California Olive Ranch, connecting brand presentation with a responsive web interface.",
-      "image": "https://wonderwebstudio.com/seo/work--california-olive-ranch.png",
+      "image": "https://www.wonderwebstudio.com/seo/work--california-olive-ranch.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -1447,7 +1447,7 @@
       "path": "/work/crafted-look/",
       "title": "Crafted Look \u2014 Website Project | Wonderweb Studio",
       "description": "A blog and editorial website built around approachable content, clear navigation and a responsive reading experience.",
-      "image": "https://wonderwebstudio.com/seo/work--crafted-look.png",
+      "image": "https://www.wonderwebstudio.com/seo/work--crafted-look.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -1465,7 +1465,7 @@
       "path": "/work/the-unseen-threads/",
       "title": "The Unseen Threads \u2014 Website Project | Wonderweb Studio",
       "description": "A blog and website design project with a focus on a responsive home for editorial content.",
-      "image": "https://wonderwebstudio.com/seo/work--the-unseen-threads.png",
+      "image": "https://www.wonderwebstudio.com/seo/work--the-unseen-threads.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -1483,7 +1483,7 @@
       "path": "/work/read-the-anime/",
       "title": "Read The Anime \u2014 Website Project | Wonderweb Studio",
       "description": "An anime-focused blog website project that organizes content into a responsive reading experience.",
-      "image": "https://wonderwebstudio.com/seo/work--read-the-anime.png",
+      "image": "https://www.wonderwebstudio.com/seo/work--read-the-anime.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -1501,7 +1501,7 @@
       "path": "/work/dococlock/",
       "title": "DocoClock \u2014 Website Project | Wonderweb Studio",
       "description": "A healthcare platform bringing doctor discovery, appointments, live queues and digital prescriptions into a connected experience for Bangladesh.",
-      "image": "https://wonderwebstudio.com/seo/work--dococlock.png",
+      "image": "https://www.wonderwebstudio.com/seo/work--dococlock.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -1519,7 +1519,7 @@
       "path": "/work/pet-cy/",
       "title": "Pet-cy \u2014 Website Project | Wonderweb Studio",
       "description": "An e-commerce storefront for a Cyprus pet supply business, bringing its catalog, offers and shopping information together.",
-      "image": "https://wonderwebstudio.com/seo/work--pet-cy.png",
+      "image": "https://www.wonderwebstudio.com/seo/work--pet-cy.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -1537,7 +1537,7 @@
       "path": "/work/flow-web-design/",
       "title": "Flow website exploration \u2014 Design Study | Wonderweb Studio",
       "description": "Explore flow website exploration from Wonderweb Studio\u2019s creative portfolio. See the visual direction and discuss a design brief for your business.",
-      "image": "https://wonderwebstudio.com/seo/work--flow-web-design.png",
+      "image": "https://www.wonderwebstudio.com/seo/work--flow-web-design.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -1555,7 +1555,7 @@
       "path": "/work/ecommerce-experience/",
       "title": "Fashion storefront exploration \u2014 Design Study | Wonderweb Studio",
       "description": "Explore fashion storefront exploration from Wonderweb Studio\u2019s creative portfolio. See the visual direction and discuss a design brief for your business.",
-      "image": "https://wonderwebstudio.com/seo/work--ecommerce-experience.png",
+      "image": "https://www.wonderwebstudio.com/seo/work--ecommerce-experience.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -1573,7 +1573,7 @@
       "path": "/work/interface-exploration/",
       "title": "Sign-in interface study \u2014 Design Study | Wonderweb Studio",
       "description": "Explore sign-in interface study from Wonderweb Studio\u2019s creative portfolio. See the visual direction and discuss a design brief for your business.",
-      "image": "https://wonderwebstudio.com/seo/work--interface-exploration.png",
+      "image": "https://www.wonderwebstudio.com/seo/work--interface-exploration.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -1591,7 +1591,7 @@
       "path": "/work/thumbnail-creative/",
       "title": "YouTube thumbnail explorations \u2014 Design Study | Wonderweb Studio",
       "description": "Explore youtube thumbnail explorations from Wonderweb Studio\u2019s creative portfolio. See the visual direction and discuss a design brief for your business.",
-      "image": "https://wonderwebstudio.com/seo/work--thumbnail-creative.png",
+      "image": "https://www.wonderwebstudio.com/seo/work--thumbnail-creative.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",
@@ -1609,7 +1609,7 @@
       "path": "/resources/google-ads-cost-home-services/",
       "title": "Google Ads Costs for Home Services | Wonderweb Studio",
       "description": "Separate media spend, management, landing pages and follow-up before deciding what a campaign really costs.",
-      "image": "https://wonderwebstudio.com/seo/resources--google-ads-cost-home-services.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--google-ads-cost-home-services.png",
       "schema_types": [
         "BlogPosting",
         "BreadcrumbList",
@@ -1627,7 +1627,7 @@
       "path": "/resources/roofing-seo-cost/",
       "title": "Roofing SEO Costs & Proposal Checklist | Wonderweb Studio",
       "description": "A useful SEO quote explains the work, the evidence and the review process\u2014not just a monthly price.",
-      "image": "https://wonderwebstudio.com/seo/resources--roofing-seo-cost.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--roofing-seo-cost.png",
       "schema_types": [
         "BlogPosting",
         "BreadcrumbList",
@@ -1645,7 +1645,7 @@
       "path": "/resources/website-management-vs-maintenance/",
       "title": "Website Management vs. Maintenance | Wonderweb Studio",
       "description": "Keeping the site healthy and keeping its content useful are related jobs, but they are not the same scope.",
-      "image": "https://wonderwebstudio.com/seo/resources--website-management-vs-maintenance.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-management-vs-maintenance.png",
       "schema_types": [
         "BlogPosting",
         "BreadcrumbList",
@@ -1663,7 +1663,7 @@
       "path": "/resources/social-media-content-calendar/",
       "title": "Small Business Social Content Calendar | Wonderweb Studio",
       "description": "Build a repeatable plan from your work, your customers\u2019 questions and one clear monthly offer.",
-      "image": "https://wonderwebstudio.com/seo/resources--social-media-content-calendar.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--social-media-content-calendar.png",
       "schema_types": [
         "BlogPosting",
         "BreadcrumbList",
@@ -1681,7 +1681,7 @@
       "path": "/resources/website-redesign-checklist/",
       "title": "Business Website Redesign Checklist | Wonderweb Studio",
       "description": "Protect the useful parts of your current website while improving the way it explains, proves and converts.",
-      "image": "https://wonderwebstudio.com/seo/resources--website-redesign-checklist.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-redesign-checklist.png",
       "schema_types": [
         "BlogPosting",
         "BreadcrumbList",
@@ -1699,7 +1699,7 @@
       "path": "/resources/google-ads-vs-meta-ads/",
       "title": "Google Ads vs. Meta Ads for Small Business | Wonderweb Studio",
       "description": "Choose the channel around customer intent, the offer, creative readiness and the way you handle leads.",
-      "image": "https://wonderwebstudio.com/seo/resources--google-ads-vs-meta-ads.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--google-ads-vs-meta-ads.png",
       "schema_types": [
         "BlogPosting",
         "BreadcrumbList",
@@ -1717,7 +1717,7 @@
       "path": "/resources/home-service-marketing-ideas/",
       "title": "9 Home Service Marketing Ideas | Wonderweb Studio",
       "description": "A prioritized list of ways to connect your services, local visibility, project evidence and follow-up\u2014without trying every channel at once.",
-      "image": "https://wonderwebstudio.com/seo/resources--home-service-marketing-ideas.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--home-service-marketing-ideas.png",
       "schema_types": [
         "Answer",
         "BlogPosting",
@@ -1738,7 +1738,7 @@
       "path": "/resources/small-business-website-trust-signals/",
       "title": "11 Small Business Website Trust Signals | Wonderweb Studio",
       "description": "Help visitors understand who you are, what you do and what happens next with specific evidence and clear information.",
-      "image": "https://wonderwebstudio.com/seo/resources--small-business-website-trust-signals.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--small-business-website-trust-signals.png",
       "schema_types": [
         "Answer",
         "BlogPosting",
@@ -1759,7 +1759,7 @@
       "path": "/resources/website-conversion-improvements/",
       "title": "7 website improvements to make inquiries easier | Wonderweb Studio",
       "description": "A practical review of the offer, proof, page layout and form journey before you spend more to attract visitors.",
-      "image": "https://wonderwebstudio.com/seo/resources--website-conversion-improvements.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-conversion-improvements.png",
       "schema_types": [
         "Answer",
         "BlogPosting",
@@ -1780,7 +1780,7 @@
       "path": "/resources/social-media-post-ideas-small-business/",
       "title": "8 Social Media Post Ideas for Businesses | Wonderweb Studio",
       "description": "Build a sustainable calendar from customer questions, project material and the expertise already inside your business.",
-      "image": "https://wonderwebstudio.com/seo/resources--social-media-post-ideas-small-business.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--social-media-post-ideas-small-business.png",
       "schema_types": [
         "Answer",
         "BlogPosting",
@@ -1801,7 +1801,7 @@
       "path": "/resources/questions-before-hiring-marketing-agency/",
       "title": "9 Questions to Ask a Marketing Agency | Wonderweb Studio",
       "description": "Compare agencies on scope, evidence, costs, account access and reporting so the proposal is easier to evaluate.",
-      "image": "https://wonderwebstudio.com/seo/resources--questions-before-hiring-marketing-agency.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--questions-before-hiring-marketing-agency.png",
       "schema_types": [
         "Answer",
         "BlogPosting",
@@ -1822,7 +1822,7 @@
       "path": "/resources/youtube-thumbnail-design-checklist/",
       "title": "7 checks for a clearer YouTube thumbnail | Wonderweb Studio",
       "description": "Use a clear focal point, readable type and honest visual promises to make thumbnail concepts easier to evaluate.",
-      "image": "https://wonderwebstudio.com/seo/resources--youtube-thumbnail-design-checklist.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--youtube-thumbnail-design-checklist.png",
       "schema_types": [
         "Answer",
         "BlogPosting",
@@ -1843,7 +1843,7 @@
       "path": "/resources/choosing-roofing-seo-agency/",
       "title": "Choosing a Roofing SEO Agency: 7 Checks | Wonderweb Studio",
       "description": "Compare roofing SEO agencies by their research, service-page plan, reporting and scope. Seven practical checks before committing to a proposal.",
-      "image": "https://wonderwebstudio.com/seo/resources--choosing-roofing-seo-agency.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--choosing-roofing-seo-agency.png",
       "schema_types": [
         "Answer",
         "BlogPosting",
@@ -1864,7 +1864,7 @@
       "path": "/resources/hvac-seo-planning-guide/",
       "title": "HVAC SEO: Service Pages & Local Discovery | Wonderweb Studio",
       "description": "Plan HVAC SEO around repair, replacement and maintenance intent. Learn how service pages, local information and inquiry tracking fit together.",
-      "image": "https://wonderwebstudio.com/seo/resources--hvac-seo-planning-guide.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--hvac-seo-planning-guide.png",
       "schema_types": [
         "Answer",
         "BlogPosting",
@@ -1885,7 +1885,7 @@
       "path": "/resources/electrician-seo-checklist/",
       "title": "Electrician SEO: 9 Website Checks | Wonderweb Studio",
       "description": "Review service pages, local information, project evidence and inquiry paths with this nine-point SEO checklist for electrical contractors.",
-      "image": "https://wonderwebstudio.com/seo/resources--electrician-seo-checklist.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--electrician-seo-checklist.png",
       "schema_types": [
         "Answer",
         "BlogPosting",
@@ -1906,7 +1906,7 @@
       "path": "/resources/kitchen-remodeling-facebook-ads/",
       "title": "Facebook Ads for Kitchen Remodeling | Wonderweb Studio",
       "description": "Connect your kitchen remodeling offer, project imagery, landing page and follow-up before launching a Facebook or Instagram campaign.",
-      "image": "https://wonderwebstudio.com/seo/resources--kitchen-remodeling-facebook-ads.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--kitchen-remodeling-facebook-ads.png",
       "schema_types": [
         "Answer",
         "BlogPosting",
@@ -1927,7 +1927,7 @@
       "path": "/resources/roofing-facebook-ads-guide/",
       "title": "Roofing Facebook Ads: A Planning Guide | Wonderweb Studio",
       "description": "Plan a roofing Meta campaign around a clear offer, approved project proof, suitable inquiries and the sales team\u2019s ability to follow up.",
-      "image": "https://wonderwebstudio.com/seo/resources--roofing-facebook-ads-guide.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--roofing-facebook-ads-guide.png",
       "schema_types": [
         "Answer",
         "BlogPosting",
@@ -1948,7 +1948,7 @@
       "path": "/resources/restoration-seo-agency-checklist/",
       "title": "Restoration SEO Agency Checklist | Wonderweb Studio",
       "description": "Evaluate restoration SEO work by service intent, accurate availability, technical delivery and clear reporting rather than a list of ranking promises.",
-      "image": "https://wonderwebstudio.com/seo/resources--restoration-seo-agency-checklist.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--restoration-seo-agency-checklist.png",
       "schema_types": [
         "Answer",
         "BlogPosting",
@@ -1969,7 +1969,7 @@
       "path": "/resources/auto-repair-website-planning-guide/",
       "title": "Auto Repair Website Design: 8 Essentials | Wonderweb Studio",
       "description": "Plan an auto repair website around service clarity, genuine shop information, useful proof and a booking request your team can handle.",
-      "image": "https://wonderwebstudio.com/seo/resources--auto-repair-website-planning-guide.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--auto-repair-website-planning-guide.png",
       "schema_types": [
         "Answer",
         "BlogPosting",
@@ -1990,7 +1990,7 @@
       "path": "/resources/siding-marketing-agency-checklist/",
       "title": "Siding Marketing: 7 Agency Questions | Wonderweb Studio",
       "description": "Compare siding marketing proposals by offer, project content, service area, channel choice and the quality of the estimate inquiries they aim to support.",
-      "image": "https://wonderwebstudio.com/seo/resources--siding-marketing-agency-checklist.png",
+      "image": "https://www.wonderwebstudio.com/seo/resources--siding-marketing-agency-checklist.png",
       "schema_types": [
         "Answer",
         "BlogPosting",
@@ -2011,7 +2011,7 @@
       "path": "/results/remodeling-lower-lead-cost/",
       "title": "Remodeling Ads: 59.19% Lower Lead Costs | Wonderweb Studio",
       "description": "A remodeler facing more expensive search auctions diversified its campaign mix and increased total leads by 7.13%.",
-      "image": "https://wonderwebstudio.com/seo/results--remodeling-lower-lead-cost.png",
+      "image": "https://www.wonderwebstudio.com/seo/results--remodeling-lower-lead-cost.png",
       "schema_types": [
         "Answer",
         "Article",
@@ -2032,7 +2032,7 @@
       "path": "/results/remodeling-search-two-year-results/",
       "title": "Bathroom Marketing: Two-Year Lead Results | Wonderweb Studio",
       "description": "An Indiana bathroom remodeler combined service-page improvements and paid search to build a sustained flow of inquiries.",
-      "image": "https://wonderwebstudio.com/seo/results--remodeling-search-two-year-results.png",
+      "image": "https://www.wonderwebstudio.com/seo/results--remodeling-search-two-year-results.png",
       "schema_types": [
         "Answer",
         "Article",
@@ -2053,7 +2053,7 @@
       "path": "/results/roofing-local-search/",
       "title": "Roofing SEO: 53 Booked Appointments | Wonderweb Studio",
       "description": "A roofing search strategy redirected attention from broad visibility toward homeowners within the service area.",
-      "image": "https://wonderwebstudio.com/seo/results--roofing-local-search.png",
+      "image": "https://www.wonderwebstudio.com/seo/results--roofing-local-search.png",
       "schema_types": [
         "Answer",
         "Article",
@@ -2074,7 +2074,7 @@
       "path": "/results/bathroom-paid-search-efficiency/",
       "title": "Bathroom Ads: 43.66% Lower Cost per Lead | Wonderweb Studio",
       "description": "A bathroom remodeling advertising campaign focused its bidding and geographic targeting on conversion opportunities.",
-      "image": "https://wonderwebstudio.com/seo/results--bathroom-paid-search-efficiency.png",
+      "image": "https://www.wonderwebstudio.com/seo/results--bathroom-paid-search-efficiency.png",
       "schema_types": [
         "Answer",
         "Article",
@@ -2095,7 +2095,7 @@
       "path": "/payments/",
       "title": "Client Payments | Wonderweb Studio",
       "description": "Payment information for approved Wonderweb Studio proposals and invoices. Contact the studio to confirm your scope and payment arrangements.",
-      "image": "https://wonderwebstudio.com/seo/payments.png",
+      "image": "https://www.wonderwebstudio.com/seo/payments.png",
       "schema_types": [
         "BreadcrumbList",
         "ContactPoint",

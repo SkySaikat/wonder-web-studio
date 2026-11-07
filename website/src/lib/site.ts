@@ -1,7 +1,7 @@
-
+import {isSiteIndexable} from './indexing';
 export const site = {
   name: 'Wonderweb Studio',
-  url: (process.env.NEXT_PUBLIC_SITE_URL || 'https://wonderwebstudio.com').replace(/\/+$/, ''),
+  url: (process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wonderwebstudio.com').replace(/\/+$/, ''),
   email: 'info@wonderwebstudio.com',
   description: 'Websites, SEO, paid ads, social media and creative content for ambitious small businesses. One studio, a connected plan, and a clearer path to your next customer.',
   socials: [
@@ -12,7 +12,7 @@ export const site = {
     { name: 'Pinterest', url: 'https://www.pinterest.com/wonderwebstudioltd/' },
   ],
 };
-export const indexable = process.env.SITE_INDEXABLE === 'true';
+export const indexable = isSiteIndexable();
 export function jsonLd(value: unknown) { return JSON.stringify(value).replace(/</g, '\\u003c'); }
 export const plans = [
   { name: 'Foundation', price: 1199, tag: 'Build your presence', description: 'For businesses that need a stronger website and a clear local search foundation.', items: ['One business location', 'Website care & up to 2 hours of edits', 'Local profile and on-page SEO review', 'One priority content or page update / month', 'Monthly performance summary'], note: 'Paid campaign management and ad spend are separate.' },

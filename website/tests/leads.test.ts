@@ -19,17 +19,17 @@ test('email receipt is required before delivery is reported',async()=>{
   await assert.rejects(()=>deliverLead(lead,{key:'test',from:'a@example.com',to:'b@example.com'},async()=>Response.json({})));
 });
 test('inquiry route rejects cross-origin requests before processing',async()=>{
-  const response=await POST(new Request('https://wonderwebstudio.com/api/inquiry/',{method:'POST',headers:{origin:'https://untrusted.example','content-type':'application/json'},body:JSON.stringify(lead)}));assert.equal(response.status,403);
+  const response=await POST(new Request('https://www.wonderwebstudio.com/api/inquiry/',{method:'POST',headers:{origin:'https://untrusted.example','content-type':'application/json'},body:JSON.stringify(lead)}));assert.equal(response.status,403);
 });
 test('inquiry route rejects malformed, oversized and honeypot input',async()=>{
-  const request=(body:string)=>new Request('https://wonderwebstudio.com/api/inquiry/',{method:'POST',headers:{origin:'https://wonderwebstudio.com','content-type':'application/json'},body});
+  const request=(body:string)=>new Request('https://www.wonderwebstudio.com/api/inquiry/',{method:'POST',headers:{origin:'https://www.wonderwebstudio.com','content-type':'application/json'},body});
   assert.equal((await POST(request('not json'))).status,400);
   assert.equal((await POST(request('x'.repeat(17000)))).status,413);
   assert.equal((await POST(request(JSON.stringify({...lead,companyFax:'bot'})))).status,400);
 });
 test('unconfigured delivery fails clearly without claiming success',async()=>{
   const saved=process.env.RESEND_API_KEY;delete process.env.RESEND_API_KEY;
-  try{const response=await POST(new Request('https://wonderwebstudio.com/api/inquiry/',{method:'POST',headers:{origin:'https://wonderwebstudio.com','content-type':'application/json'},body:JSON.stringify(lead)}));assert.equal(response.status,503);assert.match((await response.json()).message,/has not been sent/)}finally{if(saved)process.env.RESEND_API_KEY=saved;}
+  try{const response=await POST(new Request('https://www.wonderwebstudio.com/api/inquiry/',{method:'POST',headers:{origin:'https://www.wonderwebstudio.com','content-type':'application/json'},body:JSON.stringify(lead)}));assert.equal(response.status,503);assert.match((await response.json()).message,/has not been sent/)}finally{if(saved)process.env.RESEND_API_KEY=saved;}
 });
 test('call requests retain their time zone and remain unconfirmed',async()=>{
   const date=addDays(dateInZone(new Date(),'America/New_York'),2);

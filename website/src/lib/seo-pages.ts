@@ -12,7 +12,7 @@ export type SeoPage = {
  entity?:'Service'|'BlogPosting'|'Article'|'CreativeWork'|'OfferCatalog';
  serviceType?:string; area?:{name:string;kind:'City'|'State';region:string};
  audience?:string; images?:string[]; children?:string[]; index?:boolean;
- modified?:string;
+ modified?:string; published?:string;
 };
 // Editorial update date, not the date of each build. No invented first-publication dates.
 export const contentUpdated='2026-11-07';
@@ -52,7 +52,7 @@ export const seoPages:SeoPage[]=[...core,
  ...locations.map(l=>({modified:'2026-11-08',path:`/locations/${l.slug}/`,title:`${l.name} Web Design & Digital Marketing`,description:`Web design, SEO, paid ads and social media for ${l.name} small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.`,label:l.name,category:'Local marketing',type:'WebPage' as const,entity:'Service' as const,serviceType:'Web design and digital marketing',area:{name:l.name,kind:(l.kind==='city'?'City':'State') as 'City'|'State',region:l.region}})),
  ...locationServices.map(x=>{const l=locations.find(l=>l.slug===x.location)!;const s=services.find(s=>s.slug===x.service)!;return {modified:'2026-11-08',path:`/locations/${x.location}/${x.service}/`,title:`${l.name} ${shortService(s.slug,s.title)} Services`,description:`${shortService(s.slug,s.title)} for ${l.name} businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.`,label:s.title,category:`${l.name} marketing`,type:'WebPage' as const,entity:'Service' as const,serviceType:s.title,area:{name:l.name,kind:'City' as const,region:l.region}};}),
  ...work.map(w=>({path:`/work/${w.slug}/`,title:`${w.label} — ${'challenge' in w?'Website Project':'Design Study'}`,description:'challenge' in w?w.description:`Explore ${w.label.toLowerCase()} from Wonderweb Studio’s creative portfolio. See the visual direction and discuss a design brief for your business.`,label:w.label,category:w.category,type:'WebPage' as const,entity:'CreativeWork' as const,images:[w.image]})),
- ...articles.map(a=>({path:`/resources/${a.slug}/`,title:a.seoTitle||articleTitles[a.slug]||a.title,description:a.summary,label:a.title,category:a.category,type:'WebPage' as const,entity:'BlogPosting' as const,modified:a.updated||contentUpdated,images:[editorialImages[a.slug].src]})),
+ ...articles.map(a=>({path:`/resources/${a.slug}/`,title:a.seoTitle||articleTitles[a.slug]||a.title,description:a.summary,label:a.title,category:a.category,type:'WebPage' as const,entity:'BlogPosting' as const,modified:a.updated||contentUpdated,...(a.published?{published:a.published}:{}),images:[editorialImages[a.slug].src]})),
  ...campaignStories.map(s=>({modified:'2026-11-08',path:`/results/${s.slug}/`,title:({'roofing-local-search':'Roofing SEO: 53 Booked Appointments','bathroom-paid-search-efficiency':'Bathroom Ads: 43.66% Lower Cost per Lead','remodeling-lower-lead-cost':'Remodeling Ads: 59.19% Lower Lead Costs','remodeling-search-two-year-results':'Bathroom Marketing: Two-Year Lead Results'} as Record<string,string>)[s.slug],description:s.description,label:s.title,category:'Campaign case study',type:'WebPage' as const,entity:'Article' as const,images:[caseImage(s.slug).src]})),
 ];
 export const seoByPath=new Map(seoPages.map(p=>[p.path,p]));

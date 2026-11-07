@@ -36,7 +36,7 @@ def fetch(path):
  with urllib.request.urlopen(BASE+path,timeout=45) as r:return r.status,{k.lower():v for k,v in r.headers.items()},r.read()
 class Page(HTMLParser):
  def __init__(self):
-  super().__init__();self.meta={};self.canon=[];self.images=[];self.scripts=[];self.links=[];self.ids=[];self.h1=0;self.title='';self.in_title=False;self.svg=0;self.ld=False;self.text=[];self.in_script=False
+  super().__init__();self.meta={};self.canon=[];self.markdown=[];self.images=[];self.scripts=[];self.links=[];self.ids=[];self.h1=0;self.title='';self.in_title=False;self.svg=0;self.ld=False;self.text=[];self.in_script=False
  def handle_starttag(self,t,attrs):
   a=dict(attrs)
   if t=='svg':self.svg+=1
@@ -44,6 +44,7 @@ class Page(HTMLParser):
   if t=='title' and not self.svg:self.in_title=True
   if a.get('id'):self.ids.append(a['id'])
   if t=='meta':self.meta.setdefault(a.get('property') or a.get('name'),[]).append(a.get('content',''))
+  if t=='link' and a.get('rel')=='alternate' and a.get('type')=='text/markdown':self.markdown.append(a.get('href'))
   if t=='link' and a.get('rel')=='canonical':self.canon.append(a.get('href'))
   if t=='img':self.images.append(a)
   if t=='a':self.links.append(a.get('href',''))
@@ -64,6 +65,8 @@ def walk(value):
   for v in value.values():yield from walk(v)
  elif isinstance(value,list):
   for v in value:yield from walk(v)
+def should_block_markdown(headers):
+ return EXPECT_INDEXABLE and 'noindex' in headers.get('x-robots-tag','').lower()
 def audit(url):
  path=urlparse(url).path;issues=[]
  try:
@@ -90,6 +93,16 @@ def audit(url):
   for key in ['description','og:title','og:description','og:url','og:site_name','og:image','og:image:alt','og:image:width','og:image:height','og:image:type','twitter:title','twitter:description','twitter:image','twitter:image:alt','twitter:card']:
    if len(p.meta.get(key,[]))!=1 or not p.meta[key][0]:issues.append('Missing/duplicate '+key)
   if p.canon!=[url]:issues.append('Canonical mismatch')
+  if path!='/payments/':
+   md_path='/content/'+('home' if path=='/' else path.strip('/'))+'.md'
+   md_url=urlparse(url).scheme+'://'+urlparse(url).netloc+md_path
+   if p.markdown!=[md_url]:issues.append('Missing or incorrect Markdown alternate')
+   _,md_headers,md_body=fetch(md_path)
+   if 'text/markdown' not in md_headers.get('content-type',''):issues.append('Invalid Markdown content type')
+   if '<'+url+'>; rel="canonical"' not in md_headers.get('link',''):issues.append('Missing Markdown canonical header')
+   if url not in md_body.decode():issues.append('Missing Markdown source URL')
+   if should_block_markdown(md_headers):issues.append('Production Markdown blocked by HTTP noindex header')
+  elif p.markdown:issues.append('Private payment page advertises Markdown')
   if p.meta.get('og:url')!=[url]:issues.append('Open Graph URL mismatch')
   if any(v>1 for v in Counter(p.ids).values()):issues.append('Duplicate HTML id')
   for img in p.images:
@@ -103,6 +116,7 @@ def audit(url):
   should_index=EXPECT_INDEXABLE and path!='/payments/'
   if ('noindex' not in robots)!=should_index:issues.append('Incorrect robots policy')
   if not EXPECT_INDEXABLE and 'noindex' not in headers.get('x-robots-tag',''):issues.append('Missing preview noindex header')
+  if should_index and 'noindex' in headers.get('x-robots-tag','').lower():issues.append('Production page blocked by HTTP noindex header')
   return {'path':path,'title':p.title,'description':p.meta.get('description',[''])[0],'image':p.meta.get('og:image',[''])[0],'schema_types':sorted(types),'issues':issues,'links':p.links}
  except Exception as e:return {'path':path,'issues':[str(e)],'links':[]}
 _,_,data=fetch('/sitemap.xml');root=ET.fromstring(data);urls=[u.find('s:loc',NS).text for u in root.findall('s:url',NS)]
@@ -139,7 +153,7 @@ try:fetch('/this-page-does-not-exist/')
 except urllib.error.HTTPError as e:
  if e.code!=404:extra.append('Unknown URL did not return 404')
 else:extra.append('Unknown URL returned success')
-report={'schema_vocabulary_checked':bool(VOCAB),'pages_checked':len(rows),'sitemap_pages':len(urls),'sitemap_images':len(image_urls),'unique_titles':len({r.get('title') for r in rows}),'unique_descriptions':len({r.get('description') for r in rows}),'unique_share_images':len({r.get('image') for r in rows}),'indexable_mode':EXPECT_INDEXABLE,'issues':[{'path':r['path'],'issues':r['issues']} for r in rows if r['issues']],'discovery_issues':extra,'pages':[{k:v for k,v in r.items() if k not in ['links']} for r in rows]}
+report={'schema_vocabulary_checked':bool(VOCAB),'markdown_pages_checked':len(urls),'pages_checked':len(rows),'sitemap_pages':len(urls),'sitemap_images':len(image_urls),'unique_titles':len({r.get('title') for r in rows}),'unique_descriptions':len({r.get('description') for r in rows}),'unique_share_images':len({r.get('image') for r in rows}),'indexable_mode':EXPECT_INDEXABLE,'issues':[{'path':r['path'],'issues':r['issues']} for r in rows if r['issues']],'discovery_issues':extra,'pages':[{k:v for k,v in r.items() if k not in ['links']} for r in rows]}
 Path('seo-audit-results.json').write_text(json.dumps(report,indent=2)+'\n')
 print(json.dumps({k:v for k,v in report.items() if k!='pages'},indent=2))
 raise SystemExit(bool(report['issues'] or extra))

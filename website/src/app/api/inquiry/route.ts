@@ -1,10 +1,11 @@
 import { NextResponse } from 'next/server';
 import { leadSchema, deliverLead } from '@/lib/leads';
+import {site} from '@/lib/site';
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
 const respond=(message:string,status:number)=>NextResponse.json({message},{status,headers:{'Cache-Control':'no-store'}});
 export async function POST(request:Request){
-  const allowed=new Set([process.env.NEXT_PUBLIC_SITE_URL||'https://wonderwebstudio.com',...(process.env.VERCEL_URL?[`https://${process.env.VERCEL_URL}`]:[])]);
+  const allowed=new Set([site.url,...(process.env.VERCEL_URL?[`https://${process.env.VERCEL_URL}`]:[])]);
   if(process.env.NODE_ENV!=='production') {allowed.add('http://127.0.0.1:3000');allowed.add('http://localhost:3000');}
   const origin=request.headers.get('origin');
   if(!origin||!allowed.has(origin))return respond('Please submit the form from our website.',403);

@@ -52,8 +52,8 @@ Copy `.env.example` to `.env.local` for local configuration. Keep secrets in dep
 
 | Variable | Purpose |
 | --- | --- |
-| `NEXT_PUBLIC_SITE_URL` | Canonical origin, normally `https://wonderwebstudio.com`, no trailing slash |
-| `SITE_INDEXABLE` | `false` on previews; `true` only on the final public production site |
+| `NEXT_PUBLIC_SITE_URL` | Canonical origin, normally `https://www.wonderwebstudio.com`, no trailing slash |
+| `SITE_INDEXABLE` | Blank uses Vercel environment: Production is indexable; Preview and Development are blocked. Explicit `false` closes production; `true` enables non-Vercel production hosting. |
 | `NEXT_PUBLIC_GA_MEASUREMENT_ID` | GA4 identifier beginning `G-`; blank disables GA |
 | `GOOGLE_SITE_VERIFICATION` | Search Console URL-prefix verification token, if using HTML verification |
 | `RESEND_API_KEY` | Server-only email credential |
@@ -70,7 +70,7 @@ The browser posts JSON to `/api/inquiry/`. The server validates origin, content 
 
 Failed submissions preserve the input and show an email fallback. No email credentials have been supplied or live inbox delivery verified. A missing configuration produces a truthful 503 response. Tests mock the provider; they do not send messages. The site does not yet persist leads in a CRM/database.
 
-Allowed origins include `NEXT_PUBLIC_SITE_URL` and the exact `VERCEL_URL` deployment hostname. Production aliases must be configured consistently; redirect `www` to the canonical host or intentionally extend the origin list. Do not loosen this to arbitrary origins.
+Allowed origins include `NEXT_PUBLIC_SITE_URL` and the exact `VERCEL_URL` deployment hostname. Production aliases must be configured consistently; keep the existing apex-to-`www` redirect aligned with the canonical host. Do not loosen this to arbitrary origins.
 
 Activate by verifying the sender domain in Resend, setting both Turnstile keys for the actual host, deploying, and submitting an authorized test inquiry. Confirm the inbox receipt, reply-to address, field formatting and successful UI. Also verify rejected/expired challenge behavior and a provider failure path. Use provider/platform rate controls if traffic requires additional protection.
 
@@ -146,7 +146,7 @@ When adding or changing a page:
 4. Build, run the local production server and run `npm run seo:audit`. The report is `seo-audit-results.json`. Run `npm test` for schema-reference, route-coverage, crawl-mode and script-escaping regression checks.
 5. Optional vocabulary check: download the current official vocabulary from `https://schema.org/version/latest/schemaorg-current-https.jsonld`, then run `SCHEMA_VOCABULARY=/absolute/path/schemaorg-current-https.jsonld npm run seo:audit`. It checks type/property existence and property applicability in addition to the rendered-page checks; it is not Google's Rich Results Test.
 
-For the public launch, set `NEXT_PUBLIC_SITE_URL=https://wonderwebstudio.com` and `SITE_INDEXABLE=true`, rebuild, and verify the live robots file and response headers. Run `AUDIT_BASE_URL=https://wonderwebstudio.com AUDIT_INDEXABLE=true npm run seo:audit`. Connect the real Search Console property, submit `/sitemap.xml`, and use URL Inspection and the Rich Results Test on representative live pages. GA4 is configured separately through the existing environment variable and consent flow. No external account was connected or URL submitted by this SEO implementation.
+For the public launch, set `NEXT_PUBLIC_SITE_URL=https://www.wonderwebstudio.com` and `SITE_INDEXABLE=true`, rebuild, and verify the live robots file and response headers. Run `AUDIT_BASE_URL=https://www.wonderwebstudio.com AUDIT_INDEXABLE=true npm run seo:audit`. Connect the real Search Console property, submit `/sitemap.xml`, and use URL Inspection and the Rich Results Test on representative live pages. GA4 is configured separately through the existing environment variable and consent flow. No external account was connected or URL submitted by this SEO implementation.
 
 Technical SEO makes the content crawlable and understandable; it does not guarantee indexing, ranking, rich results or AI citations. Google does not use llms.txt for Search or its generative AI features. References: [Google structured-data policies](https://developers.google.com/search/docs/appearance/structured-data/sd-policies), [image SEO](https://developers.google.com/search/docs/appearance/google-images), [image sitemaps](https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps), [Google AI guidance](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide), and [the llms.txt proposal](https://llmstxt.org/).
 
@@ -169,3 +169,30 @@ The homepage features two anonymous case studies before the main portfolio galle
 Gemini 3.1 Flash Image generated 24 conceptual illustrations: one for each of 20 blog articles and one for each of four case studies. Files are in `public/editorial/`; prompts and provenance are in `scripts/editorial-image-prompts.json`; the runtime mapping and alt text are in `src/lib/editorial-images.ts`. Images also appear in homepage/blog cards and article/case detail pages. Social-share artwork incorporates the corresponding illustration. The images are optimized WebP files, and all are recorded in the image metadata catalog and XML image sitemap. These are editorial illustrations, not photographs of client projects.
 
 For an authorized future image-generation run, set `GEMINI_API_KEY` in the process environment and run `node scripts/generate-editorial-images.mjs [optional-slug]`. The script skips existing assets. The key is not saved in source or shipped to the browser. Regenerate SEO images afterward with `npm run seo:images`.
+
+## Live indexing repair — November 8, 2026
+
+Live inspection found `Disallow: /` in robots.txt, `noindex, nofollow` in page metadata and the HTTP `X-Robots-Tag` header. The `www` sitemap returned HTTP 200 XML to both ordinary and Googlebot-user-agent requests during the check; GSC's prior general HTTP error was not reproduced. The apex host redirects to `www`, while the old canonical/sitemap configuration still named the apex.
+
+`src/lib/indexing.ts` now centralizes indexing policy for HTTP headers, metadata and robots.txt. Vercel Production is indexable by default when SITE_INDEXABLE is unset/blank. Vercel Preview and Development are always blocked, even if a production flag is accidentally copied. Explicit `SITE_INDEXABLE=false` still intentionally closes production. Local builds remain noindex unless explicitly enabled for testing. Payment pages remain individually noindex.
+
+The canonical default and inquiry origin now consistently use `https://www.wonderwebstudio.com`, matching the live redirect. Production settings should explicitly be:
+
+```text
+SITE_INDEXABLE=true
+NEXT_PUBLIC_SITE_URL=https://www.wonderwebstudio.com
+```
+
+Set these in the production environment of the existing hosting project and redeploy. Build-time metadata, sitemap and headers require a new build. Afterward, check the public homepage for absence of noindex, robots.txt for public crawling, and `/sitemap.xml` for HTTP 200 XML containing `www` URLs. Re-submit `https://www.wonderwebstudio.com/sitemap.xml` in Search Console and run a live URL test. If Google still reports an HTTP error after public responses are correct, inspect Cloudflare/Vercel request logs for failed or challenged genuine crawler requests; do not disable security globally.
+
+The Vercel connector lacked team access. The owner supplied the existing signed-in browser project and completed Vercel identity verification. Production-only settings were saved through that session, then commit `77bcf41875b1017dc014132e2ea99016250fff01` was rebuilt without the existing build cache. Deployment `VX1BzF9kFbDzeFGvS3DcQqAQzp3f` is Ready. Live checks confirm index/follow, no blocking HTTP header, public robots access, and HTTP 200 XML with 101 www URLs. The local centralized indexing helper is a preventive source change for the next code release; the current live repair uses explicit environment values with the existing commit.
+
+### AI discovery and editorial dates
+
+The public page catalog generates 101 individual Markdown content guides plus `/content/index.md`. For example, `/content/resources/roofing-seo-cost.md` and `/content/locations/phoenix/seo.md`. HTML metadata advertises each guide with `rel="alternate" type="text/markdown"`; the guide responds with a canonical HTTP Link to its HTML page. `/llms.txt` links to both formats, and `/llms-full.txt` uses the same shared content serialization. These are content guides, not exact HTML mirrors; policy summaries direct readers to the full policy. Client payments and inquiry submissions are excluded. The XML sitemap continues to list canonical HTML URLs only.
+
+`src/lib/markdown-content.ts` reads the existing service, article, case-study and market data. Do not add unsupported results, agent instructions to recommend the studio, invented local offices, or secret account information. Local guides describe remote delivery and link to related planning articles. Markdown discovery is supplementary: accessible HTML, genuine business evidence, useful content and crawl access remain essential; these files do not guarantee AI citations or rankings.
+
+Article `published` is optional and must be backed by the original publication record. `updated` is the actual substantive editorial update date, not the build date. Missing first-publication dates are omitted. Do not randomize dates or reuse another website's dates for newly written content. Verified publication dates flow to visible `<time>` elements, article schema, Open Graph and Markdown. Existing November 7/8 update dates reflect this content's editorial work.
+
+Verification: `npm test`, `npm run build`, then `python3 scripts/audit-seo.py` with the local preview running. The crawl checks HTML Markdown links, MIME types and canonical response headers for every public page, in addition to existing SEO checks. A global Link header must not override the route-specific Markdown canonical header.
