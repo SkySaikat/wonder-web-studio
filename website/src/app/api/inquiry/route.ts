@@ -14,7 +14,7 @@ export async function POST(request:Request){
   try {while(true){const {value,done}=await reader.read();if(done)break;bytes+=value.byteLength;if(bytes>16000){await reader.cancel();return respond('Your message is too long.',413);}raw+=decoder.decode(value,{stream:true});}raw+=decoder.decode();}catch{return respond('Please try again.',400);}
   let input;try{input=JSON.parse(raw)}catch{return respond('Please complete the form.',400)}
   const parsed=leadSchema.safeParse(input);
-  if(!parsed.success)return respond('Check your name, email, service, project details and contact consent.',400);
+  if(!parsed.success)return respond('Check your name, email, service, project details, consent and any preferred call time.',400);
   const lead=parsed.data;
   if(lead.companyFax)return respond('Unable to submit this request.',400);
   const key=process.env.RESEND_API_KEY;const from=process.env.LEAD_FROM_EMAIL;const secret=process.env.TURNSTILE_SECRET_KEY;

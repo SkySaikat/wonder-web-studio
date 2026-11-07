@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import {BookCallButton} from './booking';
 import { ArrowUpRight, ArrowRight, Plus, Check } from 'lucide-react';
 import type { ReactNode } from 'react';
 import { jsonLd, site } from '@/lib/site';
@@ -15,7 +16,7 @@ export function PageHero({eyebrow,title,description,crumbs,children}:{eyebrow:st
   return <section className="page-hero"><div className="container">{crumbs?<Breadcrumbs items={crumbs}/>:null}<Eyebrow>{eyebrow}</Eyebrow><h1>{title}</h1><p className="hero-description">{description}</p>{children}</div></section>;
 }
 export function CTA({title='Your next chapter starts with a conversation.',text='Tell us where your business is today and where you want it to go. We’ll help you find a useful next step.'}:{title?:string;text?:string}) {
-  return <section className="cta-section"><div className="container cta-inner"><div><Eyebrow>LET’S MAKE SOMETHING MATTER</Eyebrow><h2>{title}</h2><p>{text}</p></div><Link className="cta-circle" href="/contact/" aria-label="Start a project"><ArrowUpRight size={58}/><span>Let’s talk</span></Link></div></section>;
+  return <section className="cta-section"><div className="container cta-inner"><div><Eyebrow>LET’S MAKE SOMETHING MATTER</Eyebrow><h2>{title}</h2><p>{text}</p></div><BookCallButton className="cta-circle" icon={false}><ArrowUpRight size={58}/><span>Book a call</span></BookCallButton></div></section>;
 }
 export function FAQ({items}:{items:[string,string][]}) {
   return <div className="faq-list">{items.map(([q,a])=><details key={q}><summary>{q}<Plus size={20}/></summary><p>{a}</p></details>)}</div>;

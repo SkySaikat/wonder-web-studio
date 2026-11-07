@@ -44,6 +44,12 @@ Original generated hero asset: `website/public/art/wonder-sculpture.png`. Genera
 
 > Create an original premium 3D brand artwork for Wonderweb Studio, a web design and marketing agency. This is a website hero card background, vertical 4:5 composition. A sculptural folded iridescent silver-lilac ribbon forming an abstract six-petal spark or pinwheel occupies the upper half, with a small glossy tangerine sphere and soft mint curved ribbon floating behind. Background deep saturated electric cobalt with subtle lavender light and a very fine photographic grain, refined realistic studio reflections, art-directed playful but professional. Bottom 40 percent should be calm uninterrupted cobalt negative space for HTML text overlay. No text, no typography, no letters, no logos, no faces, no watermark. Not a screenshot or website mockup: deliver just the artwork.
 
+Original companion artwork: `website/public/art/creative-playground.png`. Generated with the built-in image-generation tool for the service showcase. The user-supplied Gemini credential was not used or stored. Prompt:
+
+> Original high-end 3D editorial illustration for a vibrant digital design studio. Landscape 3:2 composition. A playful sculptural still life: a glossy inflated hot-pink six-point spark, a translucent electric-lime loop, a small tangerine sphere and a folded cobalt-blue ribbon. Suspended just above a clean warm-white studio floor with beautiful soft realistic shadows. Rich saturated solid colors, polished tactile material, sophisticated art direction, generous white negative space around objects, close detailed rendering, no gradients in background. No text, no logos, no smiley faces, no people, no watermark. Not a website screenshot. This is a fresh original companion to a blue/lilac abstract website hero artwork.
+
+The moving showcase uses recovered owner-authorized project images with lime, lilac and orange frames. It reports the actual number of selected projects and services; no reference-site awards were copied.
+
 ## Social profile destinations
 
 [Facebook](https://www.facebook.com/wonderwebstudioltd), [Instagram](https://www.instagram.com/wonderwebstudio), [Threads](https://www.threads.com/@wonderwebstudio), [Pinterest](https://www.pinterest.com/wonderwebstudioltd/), [YouTube](https://www.youtube.com/@WonderWebStudio).

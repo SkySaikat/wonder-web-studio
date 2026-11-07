@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { leadSchema,deliverLead,leadText } from '../src/lib/leads';
 import { POST } from '../src/app/api/inquiry/route';
+import {addDays,dateInZone,validBookingDate} from '../src/lib/booking';
 const lead={name:'Test Person',email:'test@example.com',website:'example.com',service:'Website design',budget:'',message:'A clearly marked test inquiry for validation.',consent:true as const,companyFax:'',token:'',requestId:'438a6d50-4740-48f8-a438-e84bf6b55e80',source:'/contact/',utm:{utm_source:'test'}};
 test('requires valid contact details and explicit inquiry consent',()=>{
   assert.equal(leadSchema.safeParse(lead).success,true);
@@ -29,4 +30,23 @@ test('inquiry route rejects malformed, oversized and honeypot input',async()=>{
 test('unconfigured delivery fails clearly without claiming success',async()=>{
   const saved=process.env.RESEND_API_KEY;delete process.env.RESEND_API_KEY;
   try{const response=await POST(new Request('https://wonderwebstudio.com/api/inquiry/',{method:'POST',headers:{origin:'https://wonderwebstudio.com','content-type':'application/json'},body:JSON.stringify(lead)}));assert.equal(response.status,503);assert.match((await response.json()).message,/has not been sent/)}finally{if(saved)process.env.RESEND_API_KEY=saved;}
+});
+test('call requests retain their time zone and remain unconfirmed',async()=>{
+  const date=addDays(dateInZone(new Date(),'America/New_York'),2);
+  const request={...lead,booking:{date,time:'14:30',timeZone:'America/New_York',durationMinutes:30 as const}};
+  const parsed=leadSchema.parse(request);
+  assert.match(leadText(parsed),/Time zone: America\/New_York/);
+  assert.match(leadText(parsed),/Status: REQUESTED/);
+  assert.match(leadText(parsed),/No calendar reservation has been created/);
+  let sent:Record<string,unknown>|undefined;
+  await deliverLead(parsed,{key:'test',from:'a@example.com',to:'info@example.com'},async(_url,init)=>{sent=JSON.parse(String(init?.body));return Response.json({id:'booking-receipt'})});
+  assert.equal(sent?.subject,'New call request — Wonderweb Studio');
+  for(const booking of [{...request.booking,date:'2020-01-01'},{...request.booking,date:'2027-02-30'},{...request.booking,time:'25:00'},{...request.booking,time:'14:17'},{...request.booking,timeZone:'Not/AZone'},{...request.booking,durationMinutes:120}])assert.equal(leadSchema.safeParse({...lead,booking}).success,false);
+});
+test('booking window uses the requested time zone and a bounded future period',()=>{
+  const now=new Date('2026-11-07T01:00:00Z');
+  assert.equal(dateInZone(now,'America/Los_Angeles'),'2026-11-06');
+  assert.equal(validBookingDate('2026-11-07','America/Los_Angeles',now),true);
+  assert.equal(validBookingDate('2026-11-07','Asia/Dhaka',now),false);
+  assert.equal(validBookingDate('2027-11-07','Asia/Dhaka',now),false);
 });

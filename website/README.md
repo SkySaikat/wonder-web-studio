@@ -15,7 +15,7 @@ Open `http://127.0.0.1:3000`. For a production check, run `npm run build` and th
 
 71 public content URLs plus a noindex payments utility. The site includes 13 service pages, nine industry pages, eight industry/service pages, 16 portfolio entries (12 client/platform projects and four creative studies), 12 guides, two campaign stories and 11 core pages.
 
-The homepage has project filters, an expandable gallery, keyboard-operable service tabs, FAQs, founder information, the restored YouTube introduction and the inquiry form. Motion can be paused, and reduced-motion preferences are respected. The shared theme extends across the inner pages.
+The homepage includes an original hot-pink/lime/cobalt 3D illustration, moving tilted project cards and service labels, alongside project filters, an expandable gallery, keyboard-operable service tabs, FAQs, founder information, the restored YouTube introduction and the inquiry form. Motion can be paused, and reduced-motion preferences are respected. The shared theme extends across the inner pages.
 
 Design references: Designjoy for visual rhythm and styling; BuiltRight for information depth. Wonderweb and BuiltRight are separate businesses. Brand assets and evidence sources are documented in `../recovered-assets/README.md`.
 
@@ -31,6 +31,10 @@ Design references: Designjoy for visual rhythm and styling; BuiltRight for infor
 | `src/lib/practical-guides.ts` | Six additional list-style guides with FAQs |
 | `src/app/studio-theme.css` | Shared design tokens and responsive theme |
 | `src/app/globals.css` | Base layout/component styles |
+| `src/app/booking-showcase.css` | Vibrant showcase, motion and responsive call dialog |
+| `src/components/booking.tsx` | Shared date/time request dialog and sitewide invitation |
+| `src/lib/booking.ts` | Time-zone-aware request dates and formatting |
+| `src/components/vibrant-showcase.tsx` | Moving project and service showcase |
 | `src/components/home-sections.tsx` | Homepage proof, founder, journey and inquiry sections |
 
 There is currently **no browser-based CMS**. Content is edited in these files and rebuilt. If nontechnical editors need a CMS, add one using the same content fields and preview workflow. Do not describe a CMS as already implemented.
@@ -65,6 +69,14 @@ Allowed origins include `NEXT_PUBLIC_SITE_URL` and the exact `VERCEL_URL` deploy
 
 Activate by verifying the sender domain in Resend, setting both Turnstile keys for the actual host, deploying, and submitting an authorized test inquiry. Confirm the inbox receipt, reply-to address, field formatting and successful UI. Also verify rejected/expired challenge behavior and a provider failure path. Use provider/platform rate controls if traffic requires additional protection.
 
+### Preferred call requests
+
+Header, hero, pricing, closing CTAs and a sitewide floating button open the shared call dialog. A dismissible invitation appears after substantial scrolling; dismissal lasts for the browser session. The native dialog supports Escape, focus restoration and a persistent close control. Motion has a pause control and respects reduced-motion preferences.
+
+Visitors choose their time zone, a date from tomorrow through 90 days ahead, and a preferred half-hour start time. These are request options, **not live availability**. The second step collects contact details and project scope. The validated date, time, IANA time zone and 30-minute duration are included in the inquiry email. No calendar reservation is created. The success wording requires a subsequent email confirmation from the team.
+
+The founder card and booking introduction use **Founder & CEO · Team Lead**. Booking analytics use `generate_lead` with method `call_request` only after provider acceptance; appointment details are not sent to analytics.
+
 ### Google Analytics and Search Console
 
 GA4 loads only after optional analytics consent and only with a valid configured measurement ID. Pageviews are sent manually on route changes with `send_page_view: false`; `generate_lead` fires only after accepted form delivery. The event does not include the name, email or message. URLs sent for pageviews omit query strings.
@@ -95,7 +107,7 @@ Before domain release: confirm account configuration, business/legal details, de
 
 ## Verification record
 
-Production build and five focused inquiry tests passed after the expanded design/content implementation. Browser review checked the mobile/desktop hero, gallery filtering and service-tab interaction. See `VERIFICATION.md` for the final route audit and remaining integration limits.
+Production build and seven focused inquiry/booking tests passed after the expanded design/content implementation. Browser review checked the mobile/desktop hero, gallery filtering and service-tab interaction. See `VERIFICATION.md` for the final route audit and remaining integration limits.
 
 The browser's injected `cz-shortcut-listen` body attribute caused a development hydration warning in one user-preview tab. It originates outside the app. Do not hide unrelated hydration errors with broad suppression.
 

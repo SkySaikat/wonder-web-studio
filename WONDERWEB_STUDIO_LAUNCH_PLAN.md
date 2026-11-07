@@ -166,3 +166,9 @@ The site is built locally. The owner explicitly chose to keep the preview local 
 Configure Resend and verify the sending domain; enable Turnstile for the deployed host; confirm the actual inbox receives an accepted test submission. Add the GA4 measurement ID and Search Console verification. Supply approved Stripe/PayPal hosted links after invoice setup. Keep private credentials in deployment environment settings.
 
 Production release also needs a check of the actual business/legal details, final service capacity, payment terms, redirects and domain configuration. Enable indexing only on the final production domain. See `website/README.md` for exact variables and verification steps.
+
+## Local preview update — vibrant visuals and call requests
+
+The homepage now includes original saturated 3D artwork, moving project cards and service labels. Shared pause and reduced-motion controls remain available. Founder attribution is “Founder & CEO · Team Lead.”
+
+Sitewide call buttons open a preferred date/time request with a visitor-selected time zone. A dismissible scroll invitation offers the same flow. These requests require manual email confirmation; no live availability or automatic reservation is represented. Connect and verify the email provider before counting the form as a live acquisition channel. The preview remains local as requested.
