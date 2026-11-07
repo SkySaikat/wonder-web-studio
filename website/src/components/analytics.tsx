@@ -6,7 +6,7 @@ declare global {interface Window {dataLayer:unknown[];gtag?:(...args:unknown[])=
 const KEY='wonderweb-analytics-consent-v1';
 export function trackEvent(name:string,parameters:Record<string,string|number>={}){try{if(localStorage.getItem(KEY)==='granted')window.gtag?.('event',name,parameters)}catch{}}
 export function Analytics(){
-  const id=process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;const valid=!!id&&/^G-[A-Z0-9]+$/.test(id);
+  const id=process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID??'G-EZ5WDZDQWC';const valid=!!id&&/^G-[A-Z0-9]+$/.test(id);
   const [choice,setChoice]=useState<string|null>(null);const[show,setShow]=useState(false);const[ready,setReady]=useState(false);const path=usePathname();
   useEffect(()=>{try{const stored=localStorage.getItem(KEY);setChoice(stored);setShow(valid&&!stored)}catch{setShow(valid)};const open=()=>setShow(true);const trigger=document.querySelector('[data-cookie-settings]');trigger?.addEventListener('click',open);return()=>trigger?.removeEventListener('click',open)},[valid]);
   useEffect(()=>{if(ready&&choice==='granted'&&id)window.gtag?.('event','page_view',{page_path:path,page_location:window.location.origin+path,page_title:document.title})},[path,ready,choice,id]);

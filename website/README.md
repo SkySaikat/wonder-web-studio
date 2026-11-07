@@ -54,7 +54,7 @@ Copy `.env.example` to `.env.local` for local configuration. Keep secrets in dep
 | --- | --- |
 | `NEXT_PUBLIC_SITE_URL` | Canonical origin, normally `https://www.wonderwebstudio.com`, no trailing slash |
 | `SITE_INDEXABLE` | Blank uses Vercel environment: Production is indexable; Preview and Development are blocked. Explicit `false` closes production; `true` enables non-Vercel production hosting. |
-| `NEXT_PUBLIC_GA_MEASUREMENT_ID` | GA4 identifier beginning `G-`; blank disables GA |
+| `NEXT_PUBLIC_GA_MEASUREMENT_ID` | Defaults to `G-EZ5WDZDQWC` when unset; an explicit blank disables GA |
 | `GOOGLE_SITE_VERIFICATION` | Search Console URL-prefix verification token, if using HTML verification |
 | `RESEND_API_KEY` | Server-only email credential |
 | `LEAD_FROM_EMAIL` | Verified sender, e.g. `Wonderweb Studio <website@wonderwebstudio.com>` |
@@ -84,11 +84,11 @@ The founder card and booking introduction use **Founder & CEO · Team Lead**. Bo
 
 ### Google Analytics and Search Console
 
-GA4 loads only after optional analytics consent and only with a valid configured measurement ID. Pageviews are sent manually on route changes with `send_page_view: false`; `generate_lead` fires only after accepted form delivery. The event does not include the name, email or message. URLs sent for pageviews omit query strings.
+GA4 uses measurement ID `G-EZ5WDZDQWC` by default. It loads only after optional analytics consent and only with a valid configured measurement ID. Pageviews are sent manually on route changes with `send_page_view: false`; `generate_lead` fires only after accepted form delivery. The event does not include the name, email or message. URLs sent for pageviews omit query strings.
 
 In GA4, turn off duplicate automatic page-change measurement (Enhanced Measurement → Page views → advanced browser-history page changes) and automatic form-interaction measurement if enabled. Use the single explicit `generate_lead` as the inquiry event. Mark it as a key event, then verify exactly one event for one successful accepted inquiry in DebugView/Realtime. Declining analytics must leave the form usable.
 
-For Search Console, prefer a domain property verified through the account’s DNS flow; the included meta token supports a URL-prefix property. No Search Console property or GA4 property has been connected yet. Once production is live and indexable, submit `/sitemap.xml` and inspect representative URLs. A valid sitemap does not guarantee indexing or rankings.
+For Search Console, prefer a domain property verified through the account’s DNS flow; the included meta token supports a URL-prefix property. The production domain property and sitemap were accessed during the indexing repair. The GA4 measurement ID is configured in the source; verify reception in GA4 Realtime after deployment. Once production is live and indexable, submit `/sitemap.xml` and inspect representative URLs. A valid sitemap does not guarantee indexing or rankings.
 
 ### Payments
 
