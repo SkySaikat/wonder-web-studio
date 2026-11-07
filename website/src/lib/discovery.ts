@@ -1,3 +1,5 @@
+import {caseStudyDetails} from './case-study-details';
+import {marketBriefs} from './location-depth';
 import {publicSeoPages} from './seo-pages';
 import {absoluteUrl} from './seo';
 import {site,plans} from './site';
@@ -30,10 +32,10 @@ export function llmsFullText(){return intro+'\n'+publicSeoPages.map(p=>{
  let body='';
  if(parts[0]==='services'&&slug){const s=services.find(s=>s.slug===slug)!;body=s.sections.map(s=>`### ${s.title}\n\n${s.body}`).join('\n\n')+'\n\nDeliverables: '+s.deliverables.join('; ');}
  if(parts[0]==='resources'&&slug){const a=articles.find(a=>a.slug===slug)!;body=a.sections.map(s=>`### ${s.title}\n\n${s.body}`).join('\n\n')+'\n\nChecklist:\n'+a.checklist.map(c=>`- ${c}`).join('\n');}
- if(parts[0]==='locations'&&slug){const l=locations.find(l=>l.slug===slug)!;body=l.sections.map(([h,b])=>`### ${h}\n\n${b}`).join('\n\n');}
+ if(parts[0]==='locations'&&slug){const l=locations.find(l=>l.slug===slug)!;body=l.sections.map(([h,b])=>`### ${h}\n\n${b}`).join('\n\n');const brief=marketBriefs[slug];body+=`\n\nPlanning scenario (not a client result): ${brief.scenario}\n\n${brief.decision}\n\n${brief.proof}`;}
  if(parts[0]==='industries'&&slug){const i=industries.find(i=>i.slug===slug)!;body=i.needs.map(s=>`### ${s.title}\n\n${s.body}`).join('\n\n');}
  if(parts[0]==='work'&&slug){const w=work.find(w=>w.slug===slug)!;body='challenge' in w?`Brief: ${w.challenge}\n\nApproach: ${w.approach}\n\nDeliverables: ${w.deliverables.join('; ')}`:'A creative exploration from the studio’s earlier portfolio; not a measured campaign result.';}
- if(parts[0]==='results'&&slug){const s=campaignStories.find(s=>s.slug===slug)!;body=`${s.period}\n\n${s.challenge}\n\n${s.approach}\n\n${s.results.map(([value,label])=>`${value} ${label}`).join('; ')}\n\n${s.context}`;}
+ if(parts[0]==='results'&&slug){const s=campaignStories.find(s=>s.slug===slug)!;body=`${s.period}\n\n${s.challenge}\n\n${s.approach}\n\n${s.results.map(([value,label])=>`${value} ${label}`).join('; ')}\n\n${s.context}`;const detail=caseStudyDetails[slug];body+='\n\n'+detail.chapters.map(([title,text])=>`### ${title}\n\n${text}`).join('\n\n')+'\n\n'+detail.lessons;}
  if(p.path==='/pricing/')body=plans.map(p=>`${p.name}: from $${p.price} USD per month. ${p.description} ${p.items.join('; ')}. ${p.note}`).join('\n\n');
  return `## ${p.label}\n\nSource: ${absoluteUrl(p.path)}\n\n${p.description}${body?'\n\n'+body:''}`;
  }).join('\n\n')+'\n';}

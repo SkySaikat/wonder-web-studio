@@ -45,3 +45,13 @@ The final local preview runs the production build on port 3000. Form delivery is
 - Production-mode local build and full crawl passed with `SITE_INDEXABLE=true`; output retained in `seo-audit-production.json`. This was tested on loopback only. No production deployment or external search-engine submission was made.
 - Preview mode is restored with `SITE_INDEXABLE=false`. Its final audit is saved in `seo-audit-results.json`.
 - Remaining live checks: deploy the approved build, configure production indexing, connect Search Console/GA4, submit the sitemap, then inspect representative live URLs in Google’s tools. The local preview intentionally cannot rank.
+
+## Mobile and content follow-up — November 8, 2026
+
+- Final production build passed with 109 generated framework routes. The existing 12 inquiry/SEO tests passed. `git diff --check` passed.
+- Current preview crawl passed for all 100 HTML pages: 99 sitemap entries plus the noindex payment page. All 100 titles, descriptions and share images are unique. The image sitemap contains 117 distinct images. Schema vocabulary checks passed with zero page or discovery issues. Current report: `seo-audit-results.json`. The earlier `seo-audit-production.json` remains the historical 92-page production-indexing check, not a new production crawl.
+- At a 390px browser viewport, result cards show subtle SVG arrows rather than emoji; the former oversized pseudo-element is absent. The header remains at viewport top while scrolling. Mobile menu navigation to Blog works and closes the menu. Search for “roofing” returns three matching articles; the SEO category returns five. The 20-article blog has no horizontal overflow in mobile or desktop checks.
+- Desktop case-study review confirmed five chapters, seven FAQs and an expanding answer, with the header still at the viewport top. The roofing case study has 901 visible main-content words with one FAQ open; collapsed FAQ answers are additional content. Tampa has 1,217 visible main-content words and no desktop horizontal overflow. Counts document the review, not ranking criteria.
+- `/blog/` returns a permanent 308 redirect to `/resources/`. Final browser review shows the Blog link, sticky header and all 20 article cards on the rebuilt app.
+- Mobile review used viewport emulation, not a physical iPhone/Safari session. The emoji-specific cause was removed by using SVG for the large graphics.
+- Local preview remains on port 3000 with indexing disabled. No deployment, Search Console submission, live form delivery or new account connection took place.

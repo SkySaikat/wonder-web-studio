@@ -1,6 +1,7 @@
+import {searchLedArticles} from './search-led-articles';
 import type { Section } from './content';
 import {practicalGuides} from './practical-guides';
-export type Article = { slug: string; title: string; category: string; summary: string; readTime: string; sections: Section[]; checklist: string[]; related: string[]; faqs?: [string,string][]; sources?: {title:string;url:string}[] };
+export type Article = { slug: string; title: string; seoTitle?: string; updated?: string; category: string; summary: string; readTime: string; sections: Section[]; checklist: string[]; related: string[]; faqs?: [string,string][]; sources?: {title:string;url:string}[] };
 export const articles: Article[] = [
   {slug:'google-ads-cost-home-services',title:'What should a home-service business budget for Google Ads?',category:'Paid advertising',summary:'Separate media spend, management, landing pages and follow-up before deciding what a campaign really costs.',readTime:'5 min read',sections:[
     {title:'Start with the service and the market',body:'There is no useful universal advertising budget for every contractor. A roofing replacement campaign and a plumbing repair campaign have different job values, demand and sales processes. Decide which service you want to promote, where you can deliver it and how much work your team can take on. Those decisions shape the campaign before the budget is allocated.'},
@@ -46,4 +47,5 @@ export const articles: Article[] = [
     {title:'Choose a first test you can learn from',body:'A smaller business may learn more by testing one service and one channel well than by spreading an inadequate budget across several campaigns. Agree on the offer, market, budget and review process. Use qualified inquiries and sales feedback to decide whether to refine, expand or change the approach.'},
   ],checklist:['Define the customer and priority service.','Assess search demand and creative readiness.','Prepare the relevant landing or lead form.','Verify follow-up and tracking.','Compare qualified outcomes before expanding.'],related:['google-ads','meta-ads']},
   ...practicalGuides,
+  ...searchLedArticles,
 ];

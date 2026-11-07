@@ -196,8 +196,8 @@
     "type": "image/png"
   },
   "/seo/resources.png": {
-    "title": "Insights & guides — Wonderweb Studio",
-    "description": "Featured social preview for Insights & guides. Practical guides to website design, SEO budgets, Google Ads, social media content and ongoing website management for small and home-service businesses.",
+    "title": "Blog & guides — Wonderweb Studio",
+    "description": "Featured social preview for Blog & guides. Practical guides to website design, SEO budgets, Google Ads, social media content and ongoing website management for small and home-service businesses.",
     "width": 1200,
     "height": 630,
     "type": "image/png"
@@ -758,6 +758,62 @@
   "/seo/resources--youtube-thumbnail-design-checklist.png": {
     "title": "7 checks for a clearer YouTube thumbnail — Wonderweb Studio",
     "description": "Featured social preview for 7 checks for a clearer YouTube thumbnail. Use a clear focal point, readable type and honest visual promises to make thumbnail concepts easier to evaluate.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--choosing-roofing-seo-agency.png": {
+    "title": "How to choose a roofing SEO agency: 7 checks before you sign — Wonderweb Studio",
+    "description": "Featured social preview for How to choose a roofing SEO agency: 7 checks before you sign. Compare roofing SEO agencies by their research, service-page plan, reporting and scope. Seven practical checks before committing to a proposal.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--hvac-seo-planning-guide.png": {
+    "title": "HVAC SEO: a practical plan for service pages and qualified inquiries — Wonderweb Studio",
+    "description": "Featured social preview for HVAC SEO: a practical plan for service pages and qualified inquiries. Plan HVAC SEO around repair, replacement and maintenance intent. Learn how service pages, local information and inquiry tracking fit together.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--electrician-seo-checklist.png": {
+    "title": "9 electrician SEO checks for a more useful service website — Wonderweb Studio",
+    "description": "Featured social preview for 9 electrician SEO checks for a more useful service website. Review service pages, local information, project evidence and inquiry paths with this nine-point SEO checklist for electrical contractors.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--kitchen-remodeling-facebook-ads.png": {
+    "title": "Facebook ads for kitchen remodeling: build a clearer campaign brief — Wonderweb Studio",
+    "description": "Featured social preview for Facebook ads for kitchen remodeling: build a clearer campaign brief. Connect your kitchen remodeling offer, project imagery, landing page and follow-up before launching a Facebook or Instagram campaign.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--roofing-facebook-ads-guide.png": {
+    "title": "Roofing Facebook ads: 6 decisions to make before launching — Wonderweb Studio",
+    "description": "Featured social preview for Roofing Facebook ads: 6 decisions to make before launching. Plan a roofing Meta campaign around a clear offer, approved project proof, suitable inquiries and the sales team’s ability to follow up.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--restoration-seo-agency-checklist.png": {
+    "title": "Choosing a restoration SEO partner: a scope and evidence checklist — Wonderweb Studio",
+    "description": "Featured social preview for Choosing a restoration SEO partner: a scope and evidence checklist. Evaluate restoration SEO work by service intent, accurate availability, technical delivery and clear reporting rather than a list of ranking promises.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--auto-repair-website-planning-guide.png": {
+    "title": "Auto repair website design: 8 things customers need before they book — Wonderweb Studio",
+    "description": "Featured social preview for Auto repair website design: 8 things customers need before they book. Plan an auto repair website around service clarity, genuine shop information, useful proof and a booking request your team can handle.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--siding-marketing-agency-checklist.png": {
+    "title": "Siding marketing: 7 questions to ask before hiring an agency — Wonderweb Studio",
+    "description": "Featured social preview for Siding marketing: 7 questions to ask before hiring an agency. Compare siding marketing proposals by offer, project content, service area, channel choice and the quality of the estimate inquiries they aim to support.",
     "width": 1200,
     "height": 630,
     "type": "image/png"

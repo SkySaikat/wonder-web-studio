@@ -1,0 +1,37 @@
+[
+  {
+    "route": "/results/remodeling-lower-lead-cost/",
+    "source": "https://builtrightdigital.com/how-a-bathroom-remodeling-company-increased-leads-while-controlling-rising-ad-costs/",
+    "retrieved": "2026-11-08",
+    "period": "90-day year-over-year review",
+    "facts": {
+      "automated_campaign_CPL_vs_standard_baseline_percent": -59.19,
+      "website_driven_search_CPL_vs_traditional_percent": -41.87,
+      "total_leads_percent": 7.13
+    },
+    "limits": [
+      "Not account-wide CPL reductions",
+      "No absolute dollar costs or closed-sale revenue supplied"
+    ]
+  },
+  {
+    "route": "/results/remodeling-search-two-year-results/",
+    "source": "https://builtrightdigital.com/indiana-bathroom-remodeling-seo-success/",
+    "retrieved": "2026-11-08",
+    "period": "Reported two-year average; exact dates not supplied",
+    "facts": {
+      "average_monthly_leads": "85+",
+      "top_three_keywords": 4,
+      "top_ten_keywords": 8,
+      "homepage_clicks": [
+        343,
+        372
+      ]
+    },
+    "excluded": "17 sales/month was modeled using assumed appointment and close rates, not an observed sales outcome",
+    "limits": [
+      "SEO + PPC combined; no channel-level split",
+      "No monthly series or exact dates supplied"
+    ]
+  }
+]
