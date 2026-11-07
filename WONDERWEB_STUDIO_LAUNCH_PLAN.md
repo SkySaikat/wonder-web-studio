@@ -172,3 +172,9 @@ Production release also needs a check of the actual business/legal details, fina
 The homepage now includes original saturated 3D artwork, moving project cards and service labels. Shared pause and reduced-motion controls remain available. Founder attribution is “Founder & CEO · Team Lead.”
 
 Sitewide call buttons open a preferred date/time request with a visitor-selected time zone. A dismissible scroll invitation offers the same flow. These requests require manual email confirmation; no live availability or automatic reservation is represented. Connect and verify the email provider before counting the form as a live acquisition channel. The preview remains local as requested.
+
+## Expanded services and location coverage
+
+The current local preview has 91 public URLs. The location directory, 14 market guides and five service-market routes follow the owner-supplied search evidence documented in `WONDERWEB_STUDIO_LOCATION_MAP.md`. All 13 service pages have deeper content and individual visual treatments, and industry pages include buyer-intent and planning sections.
+
+The homepage now includes an interactive twelve-month illustration. Its 3× and 5× paths are fictional examples, explicitly identified as such. They must not be cited as customer results or advertised as expected returns. Documented campaign stories remain separate.

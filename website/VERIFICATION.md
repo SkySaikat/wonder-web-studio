@@ -20,3 +20,15 @@ Verified the global motion control pauses the showcase animation using the keybo
 Email/Turnstile credentials, GA4 ID, Search Console verification and Stripe/PayPal links are not configured. Inbox delivery, live analytics and production challenge verification remain untested until those accounts are connected. The site has not been deployed or connected to the live domain. Calendar availability is not connected; call requests require manual confirmation.
 
 The browser injected `cz-shortcut-listen` and `bis_skin_checked` attributes that generated development hydration warnings. These external attributes were not added by the app, and hydration warnings were not globally suppressed. No Lighthouse or field Core Web Vitals score is claimed by this verification.
+
+## Service and location expansion — 7 November 2026
+
+The revised content adds 20 public URLs: one locations directory, 12 city guides, two state guides and five service/market pages. All 13 service pages now use per-service content and six visual families with distinct editorial layouts. Existing industry and industry/service pages include new customer-intent tables and planning content.
+
+Browser checks covered desktop web design, SEO and social-media layouts; mobile web design, social-media and Tampa pages; and the Denver Google Ads route. The revised layouts showed no document-level horizontal overflow in those checks. The homepage chart was tested with channel selection, keyboard month navigation and its 12-row data table. A separate compact chart keeps the whole trend visible on mobile. All 3×/5× values remain explicitly synthetic, not measured results or guarantees.
+
+A simultaneous development-server/build filesystem conflict interrupted one production rebuild. The owned development server was stopped before retrying the final build. No source data was deleted.
+
+Final expansion checks: production build passed with 98 framework routes; HTTP/SEO audit passed for all 91 public URLs, with 91 unique titles and descriptions, no missing local images, no duplicate IDs and no unmapped internal links. Preview noindex is preserved. Sample main-content lengths: web design 1,092 words, social management 1,028, SEO 1,038, Tampa 940, Denver Google Ads 732 and roofing industry 727. Word counts describe the delivered content and are not ranking targets.
+
+The final local preview runs the production build on port 3000. Form delivery is still unconfigured, and production origin/challenge checks are not relaxed for local testing. No remote deployment took place.

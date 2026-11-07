@@ -13,9 +13,9 @@ Open `http://127.0.0.1:3000`. For a production check, run `npm run build` and th
 
 ## What is built
 
-71 public content URLs plus a noindex payments utility. The site includes 13 service pages, nine industry pages, eight industry/service pages, 16 portfolio entries (12 client/platform projects and four creative studies), 12 guides, two campaign stories and 11 core pages.
+91 public content URLs plus a noindex payments utility. The site includes 13 service pages, nine industry pages, eight industry/service pages, 16 portfolio entries (12 client/platform projects and four creative studies), 12 guides, two campaign stories and 11 original core pages. The location section adds a directory, 12 city guides, two state guides and five service/location pages.
 
-The homepage includes an original hot-pink/lime/cobalt 3D illustration, moving tilted project cards and service labels, alongside project filters, an expandable gallery, keyboard-operable service tabs, FAQs, founder information, the restored YouTube introduction and the inquiry form. Motion can be paused, and reduced-motion preferences are respected. The shared theme extends across the inner pages.
+The homepage includes moving tilted project cards, service labels, a graphic website/social connection card and an interactive illustrative 12-month growth chart, alongside project filters, an expandable gallery, keyboard-operable service tabs, FAQs, founder information, the restored YouTube introduction and the inquiry form. Motion can be paused, and reduced-motion preferences are respected. The shared theme extends across the inner pages.
 
 Design references: Designjoy for visual rhythm and styling; BuiltRight for information depth. Wonderweb and BuiltRight are separate businesses. Brand assets and evidence sources are documented in `../recovered-assets/README.md`.
 
@@ -23,6 +23,11 @@ Design references: Designjoy for visual rhythm and styling; BuiltRight for infor
 
 | File | Purpose |
 | --- | --- |
+| `src/lib/service-details.ts` | Per-service briefs, processes, measurement and additional FAQs |
+| `src/lib/locations.ts` | Fourteen market guides and five service-market routes |
+| `src/lib/industry-expansion.ts` | Industry-specific customer-intent and planning detail |
+| `src/app/service-depth.css` | Individual service visuals, expanded layouts and growth chart |
+| `src/components/growth-chart.tsx` | Clearly labeled synthetic scenarios with channel/month controls |
 | `src/lib/site.ts` | Brand, social URLs, prices and retainer allowances |
 | `src/lib/content.ts` | Service pages, industry pages and archived creative studies |
 | `src/lib/projects.ts` | Client/platform projects and selected campaign stories |
@@ -114,3 +119,11 @@ The browser's injected `cz-shortcut-listen` body attribute caused a development 
 ## Business planning
 
 See `../WONDERWEB_STUDIO_LAUNCH_PLAN.md` for the 30-day operating plan, price reference, discount floors, content calendar and the $12,000 recurring-revenue target. The original research and full keyword/page inventory remain in the parent folder.
+
+## Expanded content and chart provenance
+
+All 13 service pages now have service-specific hero visuals, distinct editorial treatments, buyer-fit explanations, deliverables, three-step processes, source-material requirements, measurement context and expanded FAQs. Nine industry pages and eight industry/service pages have additional intent tables and first-scope content.
+
+Location routes are mapped to the supplied Search Console exports in `../WONDERWEB_STUDIO_LOCATION_MAP.md`; supporting rows are preserved in `../recovered-assets/location-search-evidence.json`. The exports are capped and do not establish guaranteed ranking opportunities. No new location is represented as a physical office.
+
+The homepage growth graph uses fictional relative values: Website/Pinterest end at 5× baseline and Facebook/Instagram at 3×. Visible and accessible labels identify it as an illustration, not client results, expected performance or a guarantee. It includes channel selection, a keyboard-operable month slider and an expandable data table. Do not remove the provenance labels without replacing the synthetic values with verified data. The rejected `creative-playground.png` remains in the asset archive but is no longer rendered.

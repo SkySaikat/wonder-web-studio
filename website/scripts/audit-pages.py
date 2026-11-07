@@ -7,12 +7,13 @@ from urllib.parse import urlparse,parse_qs
 BASE=os.environ.get('AUDIT_BASE_URL','http://127.0.0.1:3000')
 class Page(HTMLParser):
  def __init__(self):
-  super().__init__();self.h1=0;self.title='';self.intitle=False;self.desc=[];self.canon=[];self.links=[];self.images=[];self.ld=[];self.inld=False;self.ids=[];self.robot=[]
+  super().__init__();self.insvg=False;self.h1=0;self.title='';self.intitle=False;self.desc=[];self.canon=[];self.links=[];self.images=[];self.ld=[];self.inld=False;self.ids=[];self.robot=[]
  def handle_starttag(self,t,attrs):
   a=dict(attrs)
   if a.get('id'):self.ids.append(a['id'])
   if t=='h1':self.h1+=1
-  if t=='title':self.intitle=True
+  if t=='svg':self.insvg=True
+  if t=='title' and not self.insvg:self.intitle=True
   if t=='meta' and a.get('name')=='description':self.desc.append(a.get('content',''))
   if t=='meta' and a.get('name')=='robots':self.robot.append(a.get('content',''))
   if t=='link' and a.get('rel')=='canonical':self.canon.append(a.get('href',''))
@@ -20,6 +21,7 @@ class Page(HTMLParser):
   if t=='img':self.images.append(a)
   if t=='script' and a.get('type')=='application/ld+json':self.inld=True;self.ld.append('')
  def handle_endtag(self,t):
+  if t=='svg':self.insvg=False
   if t=='title':self.intitle=False
   if t=='script':self.inld=False
  def handle_data(self,d):

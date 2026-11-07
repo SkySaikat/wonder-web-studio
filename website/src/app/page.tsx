@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import {GrowthChart} from '@/components/growth-chart';
 import {BookCallButton} from '@/components/booking';
 import {VibrantShowcase} from '@/components/vibrant-showcase';
 import Image from 'next/image';
@@ -16,6 +17,7 @@ export default function Home(){return <>
   <ClientNames/><VibrantShowcase/>
   <nav className="home-section-nav" aria-label="On this page"><div className="container"><span>EXPLORE THE STUDIO</span><a href="#selected-work">Our work</a><a href="#results">Campaign results</a><a href="#our-services">Services</a><a href="#our-pricing">Pricing</a><a href="#start-a-project">Start a conversation ↗</a></div></nav>
   <section className="section cream work-section" id="selected-work"><div className="container"><div className="section-heading"><div><Eyebrow>THE WORK SPEAKS FIRST</Eyebrow><h2>Different businesses.<br/><span className="muted-heading">The same care.</span></h2></div><div className="heading-aside"><p>From local service companies to consumer brands and growing platforms. Explore the websites and digital experiences in our portfolio.</p><TextLink href="/work/">Explore all our work</TextLink></div></div><ProjectGallery/><AllClientNames/></div></section>
+  <GrowthChart/>
   <ResultsSection/>
   <section className="section cream" id="our-services"><div className="container"><div className="section-heading"><div><Eyebrow>YOUR FULL-SERVICE DIGITAL STUDIO</Eyebrow><h2>Everything your presence needs.<br/><span className="muted-heading">Working together.</span></h2></div><p className="heading-aside">Start with the challenge you want to solve. Explore the work, the deliverables and where each service fits.</p></div><ServiceExplorer/></div></section>
   <WhyWonderweb/>

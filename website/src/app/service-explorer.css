@@ -1,0 +1,48 @@
+/* Separate explorer tokens keep service-page artwork from overriding this section. */
+.service-explorer .explorer-theme-0{--explorer-accent:#c4a2ff;--explorer-highlight:#dcfa88;--explorer-pop:#ff945d}
+.service-explorer .explorer-theme-1{--explorer-accent:#d4ef87;--explorer-highlight:#c9b0ff;--explorer-pop:#ff967c}
+.service-explorer .explorer-theme-2{--explorer-accent:#ffbc85;--explorer-highlight:#dcf78d;--explorer-pop:#c0a0ff}
+.service-explorer .explorer-theme-3{--explorer-accent:#ffabd2;--explorer-highlight:#c6b3ff;--explorer-pop:#e1f681}
+.service-explorer .explorer-theme-4{--explorer-accent:#a7d9f8;--explorer-highlight:#ffc0db;--explorer-pop:#dbf783}
+.service-explorer .explorer-theme-5{--explorer-accent:#9be0c4;--explorer-highlight:#e0c3ff;--explorer-pop:#ffb67c}
+.service-explorer .service-tabs{gap:8px;padding:5px 0 22px;border-bottom:1px solid #d1c9c1}
+.service-explorer .service-tabs button{border:1px solid #17171714;background:#fff9;padding:14px 13px;border-radius:50px;gap:9px;transition:background .2s,transform .2s;flex-shrink:0}
+.service-explorer .service-tabs button:hover{background:var(--explorer-accent);transform:translateY(-2px)}
+.service-explorer .service-tabs button[aria-selected=true]{background:#202020;color:#fff;border-color:#202020}
+.explorer-tab-dot{width:10px;height:10px;border-radius:50%;background:var(--explorer-accent);flex-shrink:0;box-shadow:inset 0 0 0 1px #17171712}
+.service-explorer .service-tabs button:hover .explorer-tab-dot{box-shadow:0 0 0 3px #fff8}
+.service-explorer :is(button,a,[role=tabpanel]):focus-visible{outline:3px solid #6938b2;outline-offset:5px}
+.service-explorer .service-panel{gap:50px;align-items:stretch;padding-top:32px;grid-template-columns:1.15fr 1fr}
+.service-explorer .service-panel-copy{padding:15px 0 12px}
+.service-explorer .explorer-label{display:flex;align-items:center;gap:10px;font-size:10px;letter-spacing:.12em}
+.explorer-label>span{display:grid;place-items:center;width:31px;height:31px;border-radius:50%;background:var(--explorer-accent);color:#202020;font-size:11px;letter-spacing:0}
+.service-explorer .service-panel h3{font-size:clamp(32px,3.2vw,42px);margin:22px 0}
+.service-explorer .service-panel li{gap:12px;margin:16px 0}
+.service-explorer .service-panel li svg{background:var(--explorer-accent);color:#26202c;padding:4px;width:24px;height:24px;flex-basis:24px;border-radius:7px;margin-top:0}
+.service-explorer .text-link{background:var(--explorer-accent);border:1px solid #17171718;border-radius:12px;padding:13px 18px;gap:25px;transition:transform .2s,box-shadow .2s}
+.service-explorer .text-link:hover{transform:translateY(-2px);box-shadow:3px 4px 0 #202020}
+.explorer-visual{isolation:isolate;position:relative;overflow:hidden;border-radius:26px;padding:28px;background:var(--explorer-accent);border:1px solid #17171718;display:flex;flex-direction:column;justify-content:space-between;min-width:0}
+.explorer-visual:before{content:'';position:absolute;z-index:-1;width:330px;height:330px;border:1px solid #fff7;border-radius:50%;right:-150px;top:100px;box-shadow:0 0 0 35px #ffffff14,0 0 0 70px #ffffff12;pointer-events:none}
+.explorer-card-top{display:flex;align-items:center;gap:12px;color:#29222e}
+.explorer-icon{display:grid;place-items:center;width:54px;height:54px;border-radius:16px;background:#fff9;border:1px solid #fffc;transform:rotate(-6deg)}
+.explorer-card-top>span:nth-child(2){font-size:8px;letter-spacing:.1em;line-height:1.8}
+.explorer-card-top b{font-size:10px;font-weight:500;letter-spacing:0}
+.explorer-spark{font-size:65px;line-height:1;color:#202020;margin-left:auto;animation:explorer-turn 14s ease-in-out infinite}
+.explorer-art-title{font-size:clamp(28px,2.6vw,36px);font-weight:500;letter-spacing:-.045em;line-height:1.08;margin:27px 0 32px;color:#201a27}
+.explorer-art-title em{display:block;font-family:'Instrument Serif',serif;font-size:1.16em;font-weight:400;letter-spacing:-.025em;margin-top:4px}
+.explorer-flow{display:flex;flex-direction:column;gap:24px;padding:0 7px 5px}
+.explorer-step{display:flex;align-items:center;gap:12px;background:#fffcf8;padding:17px 15px;border:1px solid #26202c;border-radius:12px;position:relative;box-shadow:4px 5px 0 #26202c;font-size:15px;line-height:1.3;transform:rotate(-3deg)}
+.explorer-step-1{transform:rotate(2deg);margin-left:14px;background:#fff9}
+.explorer-step-2{transform:rotate(-2deg);background:var(--explorer-highlight);margin-right:7px}
+.explorer-step-number{display:grid;place-items:center;width:28px;height:28px;flex-shrink:0;border-radius:50%;background:var(--explorer-accent);font-size:10px;border:1px solid #17171720}
+.explorer-step-2 .explorer-step-number{background:#26202c;color:#fff}
+.explorer-step>svg{margin-left:auto;flex-shrink:0}
+.explorer-flow-arrow{position:absolute;bottom:-27px;left:49%;font-size:23px;font-weight:400;z-index:1}
+.explorer-note{margin-top:32px;padding:16px 18px;background:#25212c;color:#fff;border-radius:14px;position:relative}
+.explorer-note:before{content:'';width:27px;height:11px;background:var(--explorer-pop);position:absolute;top:-5px;right:22px;transform:rotate(10deg)}
+.explorer-note>span{font-size:8px;letter-spacing:.14em;color:var(--explorer-accent)}
+.explorer-note>p{font-size:12px;line-height:1.65;color:#fff;margin:6px 0 0}
+@keyframes explorer-turn{0%,100%{transform:rotate(-12deg)}50%{transform:rotate(78deg)}}
+@media(max-width:1000px){.service-explorer .service-panel{gap:30px}.explorer-visual{padding:24px}.explorer-step{font-size:13px;padding:15px 12px}.explorer-spark{font-size:50px}.service-explorer .service-tabs button{padding:12px 11px}}
+@media(max-width:760px){.service-explorer .service-panel{grid-template-columns:1fr;gap:25px}.service-explorer .service-panel-copy{padding-top:0}.service-explorer .service-panel h3{max-width:550px;font-size:36px}.explorer-visual{padding:27px;max-width:550px;width:100%;margin:auto}.explorer-art-title{font-size:36px}.explorer-flow{padding-inline:8px}.explorer-step{font-size:15px}.service-explorer .service-tabs{padding-bottom:18px}.service-explorer .service-tabs button{min-height:44px}.service-explorer .service-panel ul{margin-bottom:25px}.explorer-note>p{font-size:13px}}
+@media(prefers-reduced-motion:reduce){.explorer-spark{animation:none}.service-explorer a,.service-explorer button{transition:none}}

@@ -55,3 +55,7 @@ The moving showcase uses recovered owner-authorized project images with lime, li
 [Facebook](https://www.facebook.com/wonderwebstudioltd), [Instagram](https://www.instagram.com/wonderwebstudio), [Threads](https://www.threads.com/@wonderwebstudio), [Pinterest](https://www.pinterest.com/wonderwebstudioltd/), [YouTube](https://www.youtube.com/@WonderWebStudio).
 
 These are owner-supplied destinations. Numeric follower counts and broad social-proof claims have not been added without verification.
+
+## Artwork revision
+
+The owner rejected `creative-playground.png`. It is retained as an unused source asset and removed from all rendered pages. A typographic website/social connection card now occupies its place. Service illustrations are original HTML/CSS compositions; the growth chart is SVG with synthetic data, explicitly labeled in the interface.

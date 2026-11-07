@@ -10,7 +10,27 @@ const services=[
  {label:'Social & creative',icon:Palette,title:'Show up with something worth seeing.',text:'A useful social presence shows your work, answers questions and gives people a feel for your business. We plan the calendar, shape the content and design the assets so your brand feels consistent.',points:['Content themes, calendars and approval workflows','Social posts and captions shaped for each channel','Thumbnails, campaign graphics and branded templates','Content repurposing from your projects and expertise'],slug:'social-media-management',note:'A good fit when content is inconsistent or your team has ideas but little time to turn them into posts.',steps:['Real expertise','Consistent content','A recognizable brand']},
  {label:'Website care',icon:Settings2,title:'Keep your website moving with your business.',text:'Services change. Offers evolve. Your website needs to keep up. We handle agreed updates and publishing work, review key journeys and help prioritize the next useful improvement.',points:['Content publishing and agreed editing allowances','Platform-appropriate technical maintenance','Form and important-link checks after relevant changes','A clear process for requests, reviews and larger projects'],slug:'website-management',note:'A good fit when your website is live but keeping it accurate and useful has become another unfinished job.',steps:['Your update','A careful change','A checked experience']},
 ];
-export function ServiceExplorer(){const[selected,setSelected]=useState(0);const tabs=useRef<(HTMLButtonElement|null)[]>([]);const service=services[selected];const Icon=service.icon;
+export function ServiceExplorer(){const[selected,setSelected]=useState(0);const tabs=useRef<(HTMLButtonElement|null)[]>([]);
  function move(event:React.KeyboardEvent,index:number){let next=index;if(event.key==='ArrowRight')next=(index+1)%services.length;else if(event.key==='ArrowLeft')next=(index+services.length-1)%services.length;else if(event.key==='Home')next=0;else if(event.key==='End')next=services.length-1;else return;event.preventDefault();setSelected(next);tabs.current[next]?.focus();}
- return <div className="service-explorer"><div className="service-tabs" role="tablist" aria-label="Explore our services">{services.map((s,i)=><button key={s.label} ref={el=>{tabs.current[i]=el}} role="tab" id={`service-tab-${i}`} aria-selected={selected===i} aria-controls={`service-panel-${i}`} tabIndex={selected===i?0:-1} onKeyDown={e=>move(e,i)} onClick={()=>setSelected(i)}>{s.label}<ArrowUpRight size={16}/></button>)}</div>{services.map((s,i)=><div role="tabpanel" id={`service-panel-${i}`} aria-labelledby={`service-tab-${i}`} hidden={selected!==i} key={s.label} tabIndex={0}><div className="service-panel"><div className="service-panel-copy"><span className="small-label">0{i+1} / WHAT WE DO</span><h3>{s.title}</h3><p>{s.text}</p><ul>{s.points.map(p=><li key={p}><Check size={17}/>{p}</li>)}</ul><Link className="text-link" href={`/services/${s.slug}/`}>Explore {s.label.toLowerCase()}<ArrowUpRight size={18}/></Link></div><div className={`service-visual visual-${i}`}><div className="service-orbit"><Icon size={54} strokeWidth={1.2}/><span>WONDERWEB<br/>STUDIO</span></div><div className="service-flow">{s.steps.map((step,j)=><div key={step}><span>0{j+1}</span>{step}{j<2?<span className="flow-down">↓</span>:null}</div>)}</div><p>{s.note}</p></div></div></div>)}</div>;
+ return <div className="service-explorer">
+  <div className="service-tabs" role="tablist" aria-label="Explore our services">
+   {services.map((s,i)=><button className={`explorer-theme-${i}`} key={s.label} ref={el=>{tabs.current[i]=el}} role="tab" id={`service-tab-${i}`} aria-selected={selected===i} aria-controls={`service-panel-${i}`} tabIndex={selected===i?0:-1} onKeyDown={e=>move(e,i)} onClick={()=>setSelected(i)}><span className="explorer-tab-dot" aria-hidden="true"/>{s.label}<ArrowUpRight size={16}/></button>)}
+  </div>
+  {services.map((s,i)=>{const Icon=s.icon;return <div className={`explorer-theme-${i}`} role="tabpanel" id={`service-panel-${i}`} aria-labelledby={`service-tab-${i}`} hidden={selected!==i} key={s.label} tabIndex={0}>
+   <div className="service-panel">
+    <div className="service-panel-copy">
+     <span className="small-label explorer-label"><span>0{i+1}</span> WHAT WE DO</span>
+     <h3>{s.title}</h3><p>{s.text}</p>
+     <ul>{s.points.map(p=><li key={p}><Check size={17}/>{p}</li>)}</ul>
+     <Link className="text-link" href={`/services/${s.slug}/`}>Explore {s.label.toLowerCase()}<ArrowUpRight size={18}/></Link>
+    </div>
+    <div className="explorer-visual">
+     <div className="explorer-card-top"><span className="explorer-icon"><Icon size={30} strokeWidth={1.5}/></span><span>WONDERWEB STUDIO<br/><b>Made to work together.</b></span><span className="explorer-spark" aria-hidden="true">✳</span></div>
+     <div className="explorer-art-title">{['First impressions.','Get discovered.','Make every click','Stop the scroll.','Make your mark.','Keep things'][i]}<em>{['Lasting connections.','Stay relevant.','mean more.','Start a conversation.','Keep showing up.','moving forward.'][i]}</em></div>
+     <div className="explorer-flow">{s.steps.map((step,j)=><div className={`explorer-step explorer-step-${j}`} key={step}><span className="explorer-step-number">0{j+1}</span><span>{step}</span>{j===2?<ArrowUpRight size={22} aria-hidden="true"/>:<span className="explorer-flow-arrow" aria-hidden="true">↓</span>}</div>)}</div>
+     <div className="explorer-note"><span>IS THIS YOU?</span><p>{s.note}</p></div>
+    </div>
+   </div>
+  </div>})}
+ </div>;
 }

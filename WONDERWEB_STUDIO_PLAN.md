@@ -1,3 +1,5 @@
+> **Latest local update, 7 November 2026:** 91 public pages. Expanded all 13 service pages and existing industry content; added 14 market guides, five service/market pages and the locations directory. Source mapping: [WONDERWEB_STUDIO_LOCATION_MAP.md](WONDERWEB_STUDIO_LOCATION_MAP.md). Replaced the rejected artwork and added a clearly labeled illustrative growth chart.
+
 # Wonderweb Studio — Website and SEO Plan
 
 Prepared: 6 November 2026  
