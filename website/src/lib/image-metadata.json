@@ -1013,5 +1013,19 @@
     "width": 1200,
     "height": 630,
     "type": "image/png"
+  },
+  "/art/wonder-color-flow.webp": {
+    "title": "Wonderweb color flow",
+    "description": "Original grain-textured abstract folds in electric blue, magenta and citrus orange, created for Wonderweb Studio.",
+    "type": "image/webp",
+    "width": 1440,
+    "height": 960
+  },
+  "/art/wonder-citrus-flow.webp": {
+    "title": "Wonderweb citrus flow",
+    "description": "Original golden-yellow, orange and violet color-field artwork for Wonderweb Studio’s conversation card.",
+    "type": "image/webp",
+    "width": 900,
+    "height": 1350
   }
 }

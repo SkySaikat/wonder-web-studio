@@ -27,6 +27,8 @@ async function main(){
   {src:'/work/saikat.webp',title:'Saikat Chowdhury, Founder & CEO',description:'Portrait of Saikat Chowdhury, Wonderweb Studio founder, CEO and team lead.'},
   {src:'/brand/wonderweb-studio.svg',title:'Wonderweb Studio logo',description:'Wonderweb Studio brand logo.'},
   {src:'/art/wonder-sculpture.png',title:'Wonderweb Studio creative artwork',description:'Abstract blue and lilac sculptural artwork created for the Wonderweb Studio homepage.'},
+  {src:'/art/wonder-color-flow.webp',title:'Wonderweb color flow',description:'Original grain-textured abstract folds in electric blue, magenta and citrus orange, created for Wonderweb Studio.'},
+  {src:'/art/wonder-citrus-flow.webp',title:'Wonderweb citrus flow',description:'Original golden-yellow, orange and violet color-field artwork for Wonderweb Studio’s conversation card.'},
   ...seoPages.map(p=>({src:seoImagePath(p.path),title:`${p.label} — Wonderweb Studio`,description:`Featured social preview for ${p.label}. ${p.description}`}))];
  for(const source of sources){const m=await sharp(`public${source.src}`).metadata();records[source.src]={title:source.title,description:source.description,width:m.width!,height:m.height!,type:source.src.endsWith('.svg')?'image/svg+xml':`image/${m.format}`};}
  await writeFile('src/lib/image-metadata.json',JSON.stringify(records,null,2)+'\n');
