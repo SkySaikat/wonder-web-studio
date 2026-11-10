@@ -1,0 +1,15 @@
+{
+  "video": {
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "duration_seconds": 20.0,
+    "fps": 30.0,
+    "full_decode": "passed",
+    "size_mb": 2.87
+  },
+  "photos": "Both 1080 \u00d7 1350 JPG; spelling and composition inspected",
+  "audio": "Original instrumental, AAC; no voiceover",
+  "posting": "Not posted"
+}
