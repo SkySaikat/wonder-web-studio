@@ -4,6 +4,7 @@ import {leadDeliveryConfig,sendLead} from '@/lib/lead-delivery';
 import {site} from '@/lib/site';
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
+export const maxDuration=60;
 const respond=(message:string,status:number)=>NextResponse.json({message},{status,headers:{'Cache-Control':'no-store'}});
 export async function POST(request:Request){
   const allowed=new Set([site.url,...(process.env.VERCEL_URL?[`https://${process.env.VERCEL_URL}`]:[])]);
@@ -30,5 +31,14 @@ export async function POST(request:Request){
     }catch{return respond('The security check could not complete. Please try again.',503);}
   }
   try {await sendLead(lead,config);return NextResponse.json({ok:true,reference:lead.requestId},{headers:{'Cache-Control':'no-store'}});}
-  catch{return respond('We could not confirm delivery. Please retry or email info@wonderwebstudio.com. Your details are still in the form.',502);}
+  catch(error){
+    const failure=error as {code?:unknown;responseCode?:unknown};
+    // Log diagnostic codes only; never log SMTP credentials or a visitor's message.
+    console.error('Inquiry email delivery failed',{
+      provider:config.provider,
+      code:typeof failure?.code==='string'&&/^[A-Z0-9_]{1,40}$/.test(failure.code)?failure.code:'UNKNOWN',
+      responseCode:typeof failure?.responseCode==='number'?failure.responseCode:undefined,
+    });
+    return respond('We could not confirm delivery. Please retry or email info@wonderwebstudio.com. Your details are still in the form.',502);
+  }
 }

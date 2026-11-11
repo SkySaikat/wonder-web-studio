@@ -28,7 +28,7 @@ export function zohoTransportOptions(config:ZohoConfig):SMTPTransportOptions {
   return {
     host:config.host,port:config.port,secure:config.port===465,requireTLS:true,
     auth:{user:config.user,pass:config.password},tls:{minVersion:'TLSv1.2'},
-    connectionTimeout:5000,greetingTimeout:5000,dnsTimeout:5000,socketTimeout:10000,
+    connectionTimeout:10000,greetingTimeout:10000,dnsTimeout:10000,socketTimeout:30000,
     disableFileAccess:true,disableUrlAccess:true,
   };
 }
@@ -41,7 +41,9 @@ export async function sendLead(lead:Lead,config:LeadDeliveryConfig,dependencies:
       from:{name:site.name,address:config.user},to:config.to,replyTo:lead.email,
       subject:lead.booking?'New call request — Wonderweb Studio':'New website inquiry — Wonderweb Studio',
       text:leadText(lead),messageId:`<lead-${lead.requestId}@wonderwebstudio.com>`,
-      signal:AbortSignal.timeout(12000),
+      // Zoho may deliver the message before its final SMTP acknowledgement arrives.
+      // Keep this bounded, but allow time for that acknowledgement before reporting failure.
+      signal:AbortSignal.timeout(40000),
     });
     if(!receipt.messageId||!receipt.accepted.some(address=>address.toLowerCase()===config.to.toLowerCase())||receipt.rejected.length)throw new Error('Email provider did not accept the inquiry recipient');
     return receipt.messageId;

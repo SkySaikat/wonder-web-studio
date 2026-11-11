@@ -57,7 +57,7 @@ Copy `.env.example` to `.env.local` for local configuration. Keep secrets in dep
 | `NEXT_PUBLIC_GA_MEASUREMENT_ID` | Defaults to `G-EZ5WDZDQWC` when unset; an explicit blank disables GA |
 | `GOOGLE_SITE_VERIFICATION` | Search Console URL-prefix verification token, if using HTML verification |
 | `LEAD_EMAIL_PROVIDER` | `zoho` for Zoho SMTP; `resend` retains the existing delivery option |
-| `ZOHO_SMTP_HOST` | Exact SMTP host from Zoho Mail server settings; US paid organizations generally use `smtppro.zoho.com` |
+| `ZOHO_SMTP_HOST` | Exact SMTP host for the account; this US Free mailbox uses `smtp.zoho.com`. US paid organizations use `smtppro.zoho.com` |
 | `ZOHO_SMTP_PORT` | `465` for implicit TLS or `587` for required STARTTLS |
 | `ZOHO_SMTP_USER` | Full Zoho mailbox address, normally `info@wonderwebstudio.com` |
 | `ZOHO_SMTP_PASSWORD` | Server-only Zoho app password; keep in private environment settings |
@@ -70,9 +70,11 @@ Copy `.env.example` to `.env.local` for local configuration. Keep secrets in dep
 
 ### Inquiry delivery
 
-The browser posts JSON to `/api/inquiry/`. The server validates origin, content type, payload size, fields, consent and honeypot; verifies Turnstile in production; then sends a plain-text inquiry through the configured Zoho SMTP or Resend transport. Every form, popup and preferred-time call request uses this endpoint and the fixed recipient `site.email`, currently `info@wonderwebstudio.com`. `LEAD_TO_EMAIL` is intentionally ignored to prevent an old deployment override from sending leads elsewhere. Replies go to the visitor’s address; a visitor cannot choose the notification recipient. SMTP requires TLS and explicit recipient acceptance before success is shown. Provider acceptance does not prove inbox delivery, so an inbox check is required during activation.
+The browser posts JSON to `/api/inquiry/`. The server validates origin, content type, payload size, fields, consent and honeypot; verifies Turnstile in production; then sends a plain-text inquiry through the configured Zoho SMTP or Resend transport. Every form, popup and preferred-time call request uses this endpoint and the fixed recipient `site.email`, currently `info@wonderwebstudio.com`. `LEAD_TO_EMAIL` is intentionally ignored to prevent an old deployment override from sending leads elsewhere. Replies go to the visitor’s address; a visitor cannot choose the notification recipient. SMTP requires TLS and explicit recipient acceptance before success is shown. Delivery has a 40-second overall deadline and a 30-second idle socket timeout; the browser waits up to 55 seconds and the API route allows 60 seconds so Turnstile and the SMTP acknowledgement can complete. Failure logs contain provider/error codes only, never credentials or message contents. Provider acceptance does not prove inbox delivery, so an inbox check is required during activation.
 
 Failed submissions preserve the input and show an email fallback. Zoho credentials belong in the private `.env.local` and deployment settings. Run `npm run mail:check` to check SMTP authentication without sending mail. Authentication alone does not verify delivery to the inbox. A missing configuration produces a truthful 503 response. Tests mock the provider; they do not send messages. The site does not yet persist leads in a CRM/database.
+
+When entering a credential in `.env.local`, quote values containing `#` and escape each literal `$` as `\$`; Next.js expands dollar references even inside quotes. Incorrect serialization can change a valid credential and cause `EAUTH`. In a hosting dashboard's environment-variable value field, enter the original credential without the `.env` wrapping quotes or escapes. Never log the loaded value while troubleshooting.
 
 Allowed origins include `NEXT_PUBLIC_SITE_URL` and the exact `VERCEL_URL` deployment hostname. Production aliases must be configured consistently; keep the existing apex-to-`www` redirect aligned with the canonical host. Do not loosen this to arbitrary origins.
 
