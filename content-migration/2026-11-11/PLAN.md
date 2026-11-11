@@ -26,3 +26,6 @@
 - Run meaningful migration/date/link tests, type check and production build.
 - Verify representative pages and discovery endpoints in a browser and through HTTP.
 - Document what is live, what is local, and any account access or search-engine processing still required.
+
+## Delivery status
+Implementation and local validation complete. Production publishing deferred at the user’s request on 11 November 2026.

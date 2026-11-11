@@ -37,4 +37,8 @@ See `HERO-ART.md` for the original generated background, exact prompt and local 
 - JSON-LD reference/type checks passed. The optional online Schema.org vocabulary was unavailable, so this is not a claim of Google Rich Results approval.
 - Scheduled HTML and Markdown routes return 404 before their release; tests check the UTC release boundary.
 - Mobile/desktop hero and representative migrated article/library layouts checked in the browser.
-- Production publication and follow-up verification are pending.
+- Local commit: `e4634bff6ce818bd6a023069c3466936db8ce266`.
+- GitHub push was rejected (403: the configured Git account lacks repository write access); no new production deployment was created.
+- The user chose **Keep the update local**. Publication is intentionally deferred.
+- Local preview: `http://127.0.0.1:3000/`. The production site still runs its previous version.
+- The expanded sitemap, legacy sitemap redirect, migrated guides and revised hero are ready locally. Scheduled items will become publicly available only after this build is deployed and their UTC release times have passed.
