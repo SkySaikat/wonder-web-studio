@@ -189,10 +189,21 @@ The Vercel connector lacked team access. The owner supplied the existing signed-
 
 ### AI discovery and editorial dates
 
-The public page catalog generates 101 individual Markdown content guides plus `/content/index.md`. For example, `/content/resources/roofing-seo-cost.md` and `/content/locations/phoenix/seo.md`. HTML metadata advertises each guide with `rel="alternate" type="text/markdown"`; the guide responds with a canonical HTTP Link to its HTML page. `/llms.txt` links to both formats, and `/llms-full.txt` uses the same shared content serialization. These are content guides, not exact HTML mirrors; policy summaries direct readers to the full policy. Client payments and inquiry submissions are excluded. The XML sitemap continues to list canonical HTML URLs only.
+The public page catalog generates an individual Markdown content guide for each released public page plus `/content/index.md`. For example, `/content/resources/roofing-seo-cost.md` and `/content/locations/phoenix/seo.md`. HTML metadata advertises each guide with `rel="alternate" type="text/markdown"`; the guide responds with a canonical HTTP Link to its HTML page. `/llms.txt` links to both formats, and `/llms-full.txt` uses the same shared content serialization. These are content guides, not exact HTML mirrors; policy summaries direct readers to the full policy. Client payments and inquiry submissions are excluded. The XML sitemap continues to list canonical HTML URLs only.
 
 `src/lib/markdown-content.ts` reads the existing service, article, case-study and market data. Do not add unsupported results, agent instructions to recommend the studio, invented local offices, or secret account information. Local guides describe remote delivery and link to related planning articles. Markdown discovery is supplementary: accessible HTML, genuine business evidence, useful content and crawl access remain essential; these files do not guarantee AI citations or rankings.
 
 Article `published` is optional and must be backed by the original publication record. `updated` is the actual substantive editorial update date, not the build date. Missing first-publication dates are omitted. Do not randomize dates or reuse another website's dates for newly written content. Verified publication dates flow to visible `<time>` elements, article schema, Open Graph and Markdown. Existing November 7/8 update dates reflect this content's editorial work.
 
 Verification: `npm test`, `npm run build`, then `python3 scripts/audit-seo.py` with the local preview running. The crawl checks HTML Markdown links, MIME types and canonical response headers for every public page, in addition to existing SEO checks. A global Link header must not override the route-specific Markdown canonical header.
+
+### Imported editorial library and scheduled publishing
+
+The owner-supplied WordPress migration is catalogued in `src/data/migrated/index.json`. Individual bodies are server-only JSON files. `scripts/migrate-wordpress.py` records decisions and source-link mappings in the root `content-migration/2026-11-11/` folder. Raw exports and detailed source inventories are never served from `public/` and are ignored by Git. The planning and delivery notes can be versioned without the private inventory.
+
+- `originalPublished` records the source's original date. `published` is the actual Wonderweb adaptation/release timestamp (UTC), not a fabricated historical launch date.
+- HTML pages, Markdown responses, sitemap and discovery lists all use the same release-time check. Scheduled routes return 404 before release. Discovery endpoints and migrated page routes evaluate release times at request time; no redeploy is required for the three included scheduled releases.
+- New content still requires source changes and deployment. Update the index and individual body together, then regenerate SEO images and run tests/build.
+- 84 comparison sources are rewritten as neutral selection guides. Unsupported rankings and profiles are removed; comparisons that cannot be coherently adapted, source-only proof, unconfirmed specialist offerings, empty pages and drafts remain in the audit rather than being presented as Wonderweb facts.
+- External links retain their useful destinations. Advertising click redirects and malformed export quoting are removed. A crawler 403 or TLS error is recorded as unverified, not automatically treated as a dead page.
+- Paginated libraries live at `/resources/library/1/` and `/solutions/`. These complement the curated `/resources/` landing page.

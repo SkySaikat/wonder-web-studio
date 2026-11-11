@@ -82,7 +82,9 @@ def audit(url):
   if not types['Organization'] or not types['WebSite']:issues.append('Missing organization/site graph')
   if path!='/' and types['BreadcrumbList']!=1:issues.append('Missing/duplicate breadcrumb schema')
   if path.startswith(('/services/','/locations/','/industries/')) and len(path.split('/'))>3 and not types['Service']:issues.append('Missing Service schema')
-  if path.startswith('/resources/') and path!='/resources/' and types['BlogPosting']!=1:issues.append('Missing article schema')
+  if path.startswith('/resources/') and path!='/resources/' and not path.startswith('/resources/library/') and types['BlogPosting']!=1:issues.append('Missing article schema')
+  if path.startswith('/solutions/') and path!='/solutions/' and not path.startswith('/solutions/page/') and types['Article']!=1:issues.append('Missing industry guide Article schema')
+  if (path.startswith('/resources/library/') or path.startswith('/solutions/page/') or path=='/solutions/') and types['CollectionPage']!=1:issues.append('Missing guide library CollectionPage schema')
   if path.startswith('/work/') and path!='/work/' and types['CreativeWork']!=1:issues.append('Missing project schema')
   text=' '.join(' '.join(p.text).split())
   for n in nodes:

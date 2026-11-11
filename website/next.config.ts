@@ -3,9 +3,11 @@ import {isSiteIndexable} from './src/lib/indexing';
 
 const config: NextConfig = {
   trailingSlash: true,
+  outputFileTracingIncludes: {'/*':['./src/data/migrated/*.json']},
   poweredByHeader: false,
   async redirects() {
     return [
+      { source: "/sitemap_index.xml", destination: "/sitemap.xml", permanent: true },
       { source: '/results/coastal-bath-paid-search', destination: '/results/bathroom-paid-search-efficiency/', permanent: true },
       { source: '/blog', destination: '/resources/', permanent: true },
       { source: '/blog/:slug', destination: '/resources/:slug/', permanent: true },

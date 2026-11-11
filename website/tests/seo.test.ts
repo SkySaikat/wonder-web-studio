@@ -12,7 +12,7 @@ import {llmsText,llmsFullText} from '../src/lib/discovery';
 
 test('all editorial URLs have unique metadata and actual generated images',()=>{
  for(const field of ['path','title','description'] as const)assert.equal(new Set(seoPages.map(p=>p[field])).size,seoPages.length,`duplicate ${field}`);
- for(const p of seoPages){assert.match(p.path,/^\/(?:[a-z0-9-]+\/)*$/);assert.ok(existsSync(`public${seoImagePath(p.path)}`));const m=metadata('fallback','fallback',p.path);assert.deepEqual(m.title,{absolute:`${p.title} | Wonderweb Studio`});assert.equal(m.description,p.description);}
+ for(const p of seoPages){assert.ok(`${p.title} | Wonderweb Studio`.length<=85,`overlong title: ${p.path}`);assert.match(p.path,/^\/(?:[a-z0-9-]+\/)*$/);assert.ok(existsSync(`public${seoImagePath(p.path)}`));const m=metadata('fallback','fallback',p.path);assert.deepEqual(m.title,{absolute:`${p.title} | Wonderweb Studio`});assert.equal(m.description,p.description);}
  assert.ok(!publicSeoPages.some(p=>p.path==='/payments/'));
 });
 test('page graph identifiers resolve locally and location pages represent service areas',()=>{

@@ -1,3 +1,4 @@
+import {migratedEntries,migrationPageSize,migrationLibraryPath,isReleased,migrationSeoTitle} from './migrated-content';
 import {editorialImages,caseImage} from './editorial-images';
 import {services, industries, work} from './content';
 import {articles} from './articles';
@@ -12,12 +13,12 @@ export type SeoPage = {
  entity?:'Service'|'BlogPosting'|'Article'|'CreativeWork'|'OfferCatalog';
  serviceType?:string; area?:{name:string;kind:'City'|'State';region:string};
  audience?:string; images?:string[]; children?:string[]; index?:boolean;
- modified?:string; published?:string;
+ modified?:string; published?:string; availableAt?:string;
 };
 // Editorial update date, not the date of each build. No invented first-publication dates.
 export const contentUpdated='2026-11-07';
 const core:SeoPage[]=[
- {path:'/',title:'Web Design & Digital Marketing Agency',description:'Websites, SEO, Google and Meta ads, social media and creative content for small businesses and home-service companies. Meet Wonderweb Studio.',label:'Home',category:'The studio',type:'WebPage',images:['/art/wonder-color-flow.webp','/art/wonder-citrus-flow.webp','/work/saikat.webp',...campaignStories.slice(0,2).map(s=>caseImage(s.slug).src),...clientProjects.slice(0,6).map(p=>p.image)]},
+ {path:'/',title:'Web Design & Digital Marketing Agency',description:'Websites, SEO, Google and Meta ads, social media and creative content for small businesses and home-service companies. Meet Wonderweb Studio.',label:'Home',category:'The studio',type:'WebPage',images:['/art/wonder-blue-pink-grain.webp','/art/wonder-color-flow.webp','/art/wonder-citrus-flow.webp','/work/saikat.webp',...campaignStories.slice(0,2).map(s=>caseImage(s.slug).src),...clientProjects.slice(0,6).map(p=>p.image)]},
  {path:'/about/',title:'About Wonderweb Studio',description:'Meet our founder and explore Wonderweb Studio’s approach to websites, design, content and marketing for small businesses around the world.',label:'About the studio',category:'The studio',type:'AboutPage',images:['/work/saikat.webp']},
  {path:'/contact/',title:'Contact Wonderweb Studio',description:'Discuss your website, SEO, ads or social media project with Wonderweb Studio. Request a tailored quote or a preferred time for an introductory call.',label:'Contact',category:'The studio',type:'ContactPage'},
  {path:'/services/',title:'Web Design & Digital Marketing Services',description:'Explore website design, development, SEO, Google Ads, Meta campaigns, social media and creative services for small businesses worldwide.',label:'Services',category:'Services',type:'CollectionPage',children:services.map(s=>`/services/${s.slug}/`)},
@@ -45,7 +46,9 @@ const articleTitles:Record<string,string>={
  'questions-before-hiring-marketing-agency':'9 Questions to Ask a Marketing Agency',
  'website-conversion-checklist':'Website Conversion Checklist',
 };
-export const seoPages:SeoPage[]=[...core,
+const migrationLibraries:SeoPage[]=['resources','solutions'].flatMap(kind=>Array.from({length:Math.ceil(migratedEntries.filter(e=>e.kind===kind).length/migrationPageSize)},(_,i)=>({path:migrationLibraryPath(kind,i+1),title:`${kind==='resources'?'Marketing Resource Library':'Industry Service Guides'}${i?` — Page ${i+1}`:''}`,description:`Browse practical ${kind==='resources'?'marketing resources':'industry service guides'} from Wonderweb Studio. Explore websites, search, advertising and content. Page ${i+1}.`,label:`${kind==='resources'?'Resources':'Industry guides'} · ${i+1}`,category:'Guide library',type:'CollectionPage' as const,modified:'2026-11-11'})));
+export const seoPages:SeoPage[]=[...core,...migrationLibraries,
+ ...migratedEntries.map(e=>({path:e.path,title:migrationSeoTitle(e),description:e.summary,label:e.title,category:e.category,type:'WebPage' as const,entity:(e.kind==='resources'?'BlogPosting':'Article') as 'BlogPosting'|'Article',modified:e.published,published:e.published,availableAt:e.published,images:[]})),
  ...services.map(s=>({path:`/services/${s.slug}/`,title:`${shortService(s.slug,s.title)} Services`,description:s.description,label:s.title,category:s.category,type:'WebPage' as const,entity:'Service' as const,serviceType:s.title,images:clientProjects.filter(p=>p.slug===serviceDetails[s.slug]?.project).map(p=>p.image)})),
  ...industries.map(i=>({path:`/industries/${i.slug}/`,title:`${i.title} Marketing Agency`,description:`Websites, SEO, ads and content for ${i.audience}. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.`,label:i.title,category:'Industry marketing',type:'WebPage' as const,entity:'Service' as const,serviceType:`${i.title} digital marketing`,audience:i.audience})),
  ...Object.keys(industryDetails).flatMap(slug=>['seo','web-design'].map(key=>{const i=industries.find(i=>i.slug===slug)!;const s=services.find(s=>s.slug===key)!;return {path:`/industries/${slug}/${key}/`,title:`${i.title} ${shortService(key,s.title)} Services`,description:`${s.title} for ${i.audience}. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.`,label:s.title,category:`${i.title} marketing`,type:'WebPage' as const,entity:'Service' as const,serviceType:s.title,audience:i.audience};})),
@@ -56,5 +59,6 @@ export const seoPages:SeoPage[]=[...core,
  ...campaignStories.map(s=>({modified:'2026-11-08',path:`/results/${s.slug}/`,title:({'roofing-local-search':'Roofing SEO: 53 Booked Appointments','bathroom-paid-search-efficiency':'Bathroom Ads: 43.66% Lower Cost per Lead','remodeling-lower-lead-cost':'Remodeling Ads: 59.19% Lower Lead Costs','remodeling-search-two-year-results':'Bathroom Marketing: Two-Year Lead Results'} as Record<string,string>)[s.slug],description:s.description,label:s.title,category:'Campaign case study',type:'WebPage' as const,entity:'Article' as const,images:[caseImage(s.slug).src]})),
 ];
 export const seoByPath=new Map(seoPages.map(p=>[p.path,p]));
-export const publicSeoPages=seoPages.filter(p=>p.index!==false);
+export function getPublicSeoPages(now:Date|number=new Date()){return seoPages.filter(p=>p.index!==false&&(!p.availableAt||isReleased({published:p.availableAt},now)));}
+export const publicSeoPages=getPublicSeoPages();
 export const seoImagePath=(path:string)=>`/seo/${path==='/'?'home':path.replace(/^\//,'').replace(/\/$/,'').replaceAll('/','--')}.png`;

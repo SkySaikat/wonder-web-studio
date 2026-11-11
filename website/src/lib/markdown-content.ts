@@ -1,3 +1,5 @@
+import {migratedByPath,publishedMigrations,migrationPageSize,migrationLibraryPath} from './migrated-content';
+import {migratedDocument} from './migrated-body';
 import {locationReading} from './location-reading';
 import {articles} from './articles';
 import {caseStudyDetails} from './case-study-details';
@@ -11,7 +13,7 @@ import {locationServiceBriefs} from './location-service-briefs';
 import {locations} from './locations';
 import {campaignStories} from './projects';
 import {absoluteUrl} from './seo';
-import {publicSeoPages,seoByPath,type SeoPage} from './seo-pages';
+import {getPublicSeoPages,seoPages,seoByPath,type SeoPage} from './seo-pages';
 import {serviceDetails} from './service-details';
 import {site,plans} from './site';
 
@@ -21,6 +23,9 @@ const faq=(items:readonly (readonly [string,string])[])=>items.length?`## Freque
 const links=(paths:string[])=>bullets([...new Set(paths)].map(path=>`[${seoByPath.get(path)?.title||path}](${absoluteUrl(path)})`));
 
 export function markdownBody(page:SeoPage):string{
+ if(page.category==='Guide library'){const kind=page.path.startsWith('/solutions/')?'solutions':'resources';const number=Number(page.path.split('/').filter(Boolean).at(-1))||1;const entries=publishedMigrations(kind);return `## Guides\n\n${links(entries.slice((number-1)*migrationPageSize,number*migrationPageSize).map(e=>e.path))}\n\n## Library pages\n\n${links(Array.from({length:Math.ceil(entries.length/migrationPageSize)},(_,i)=>migrationLibraryPath(kind,i+1)))}`;}
+ const migrated=migratedByPath.get(page.path);
+ if(migrated){const doc=migratedDocument(migrated);return `Original publication: ${migrated.originalPublished}\nWonderweb adaptation: ${migrated.published}\n\nAdapted from owner-supplied editorial material. Cost examples and platform details reflect the original context; check current quotes and documentation.\n\n${doc.markdown}`;}
  const [kind,slug,service]=page.path.split('/').filter(Boolean);
  const blocks:string[]=[];
  if(kind==='resources'&&slug){
@@ -68,5 +73,5 @@ export function pageMarkdown(page:SeoPage):string{
  return `# ${page.title}\n\n> ${page.description}\n\nCanonical page: ${absoluteUrl(page.path)}\nFormat: Markdown content guide, generated from the website’s editorial data. The HTML page is the complete reference.\n${page.published?`Published: ${page.published}\n`:''}${page.modified?`Updated: ${page.modified}\n`:''}\n${markdownBody(page)}\n\n---\n\n[Contact Wonderweb Studio](${absoluteUrl('/contact/')}) · [Content directory](${absoluteUrl('/content/index.md')})\n`;
 }
 
-export const markdownPages=new Map(publicSeoPages.map(p=>[markdownPath(p.path),p]));
-export function markdownIndex(){return `# Wonderweb Studio content directory\n\nMarkdown guides to the public website. Canonical HTML pages remain the primary reference.\n\n${publicSeoPages.map(p=>`- [${p.title}](${absoluteUrl(markdownPath(p.path))}) — [Website page](${absoluteUrl(p.path)}): ${p.description}`).join('\n')}\n`;}
+export const markdownPages=new Map(seoPages.filter(p=>p.index!==false).map(p=>[markdownPath(p.path),p]));
+export function markdownIndex(){return `# Wonderweb Studio content directory\n\nMarkdown guides to the public website. Canonical HTML pages remain the primary reference.\n\n${getPublicSeoPages().map(p=>`- [${p.title}](${absoluteUrl(markdownPath(p.path))}) — [Website page](${absoluteUrl(p.path)}): ${p.description}`).join('\n')}\n`;}

@@ -1,0 +1,3 @@
+# Owner-supplied export bodies and detailed source inventories stay local.
+content-migration/**/*.json
+content-migration/**/*.csv

@@ -31,7 +31,7 @@ export function pageGraph(path:string){
  const nodes:Node[]=[pageNode,...imagePaths.map(imageSchema)];
  if(path!=='/'){
   const parts=path.split('/').filter(Boolean);
-  const breadcrumbs=['/',...parts.map((_,i)=>`/${parts.slice(0,i+1).join('/')}/`)];
+  const breadcrumbs=['/',...parts.map((_,i)=>`/${parts.slice(0,i+1).join('/')}/`)].filter(p=>seoByPath.has(p));
   pageNode.breadcrumb=ref(`${url}#breadcrumb`);
   nodes.push({'@type':'BreadcrumbList','@id':`${url}#breadcrumb`,itemListElement:breadcrumbs.map((p,i)=>({'@type':'ListItem',position:i+1,name:seoByPath.get(p)?.label||page.label,item:absoluteUrl(p)}))});
  }

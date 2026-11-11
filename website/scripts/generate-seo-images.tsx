@@ -1,13 +1,15 @@
 import React from 'react';
 import {ImageResponse} from 'next/og';
 import sharp from 'sharp';
-import {mkdir,readFile,writeFile} from 'node:fs/promises';
+import {mkdir,readFile,writeFile,readdir,unlink} from 'node:fs/promises';
 import {seoPages,seoImagePath} from '../src/lib/seo-pages';
 import {editorialImages} from '../src/lib/editorial-images';
 import {work} from '../src/lib/content';
 
 async function main(){
  await mkdir('public/seo',{recursive:true});
+ const currentCovers=new Set(seoPages.map(p=>seoImagePath(p.path).slice('/seo/'.length)));
+ for(const filename of await readdir('public/seo')){if(filename.endsWith('.png')&&!currentCovers.has(filename))await unlink(`public/seo/${filename}`);}
  const palettes=['#c4a2ff','#d4ef87','#ffbc85','#ffabd2','#a7d9f8','#9be0c4'];
  for(const [i,page] of seoPages.entries()){
   const output=`public${seoImagePath(page.path)}`;
@@ -27,6 +29,7 @@ async function main(){
   {src:'/work/saikat.webp',title:'Saikat Chowdhury, Founder & CEO',description:'Portrait of Saikat Chowdhury, Wonderweb Studio founder, CEO and team lead.'},
   {src:'/brand/wonderweb-studio.svg',title:'Wonderweb Studio logo',description:'Wonderweb Studio brand logo.'},
   {src:'/art/wonder-sculpture.png',title:'Wonderweb Studio creative artwork',description:'Abstract blue and lilac sculptural artwork created for the Wonderweb Studio homepage.'},
+  {src:'/art/wonder-blue-pink-grain.webp',title:'Wonderweb blue and pink grain artwork',description:'Original cobalt, lavender and pink flowing artwork with a fine sand-like texture, created for the Wonderweb Studio hero.'},
   {src:'/art/wonder-color-flow.webp',title:'Wonderweb color flow',description:'Original grain-textured abstract folds in electric blue, magenta and citrus orange, created for Wonderweb Studio.'},
   {src:'/art/wonder-citrus-flow.webp',title:'Wonderweb citrus flow',description:'Original golden-yellow, orange and violet color-field artwork for Wonderweb Studio’s conversation card.'},
   ...seoPages.map(p=>({src:seoImagePath(p.path),title:`${p.label} — Wonderweb Studio`,description:`Featured social preview for ${p.label}. ${p.description}`}))];
