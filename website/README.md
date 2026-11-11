@@ -56,9 +56,13 @@ Copy `.env.example` to `.env.local` for local configuration. Keep secrets in dep
 | `SITE_INDEXABLE` | Blank uses Vercel environment: Production is indexable; Preview and Development are blocked. Explicit `false` closes production; `true` enables non-Vercel production hosting. |
 | `NEXT_PUBLIC_GA_MEASUREMENT_ID` | Defaults to `G-EZ5WDZDQWC` when unset; an explicit blank disables GA |
 | `GOOGLE_SITE_VERIFICATION` | Search Console URL-prefix verification token, if using HTML verification |
-| `RESEND_API_KEY` | Server-only email credential |
-| `LEAD_FROM_EMAIL` | Verified sender, e.g. `Wonderweb Studio <website@wonderwebstudio.com>` |
-| `LEAD_TO_EMAIL` | `info@wonderwebstudio.com` |
+| `LEAD_EMAIL_PROVIDER` | `zoho` for Zoho SMTP; `resend` retains the existing delivery option |
+| `ZOHO_SMTP_HOST` | Exact SMTP host from Zoho Mail server settings; US paid organizations generally use `smtppro.zoho.com` |
+| `ZOHO_SMTP_PORT` | `465` for implicit TLS or `587` for required STARTTLS |
+| `ZOHO_SMTP_USER` | Full Zoho mailbox address, normally `info@wonderwebstudio.com` |
+| `ZOHO_SMTP_PASSWORD` | Server-only Zoho app password; keep in private environment settings |
+| `RESEND_API_KEY` | Optional server-only credential when using Resend |
+| `LEAD_FROM_EMAIL` | Verified sender for Resend only; Zoho sends from its authenticated mailbox |
 | `NEXT_PUBLIC_TURNSTILE_SITE_KEY` | Public challenge key for the allowed deployed host |
 | `TURNSTILE_SECRET_KEY` | Server-only verification secret; required in production |
 | `STRIPE_PAYMENT_LINK` | Approved hosted Stripe link, optional |
@@ -66,13 +70,15 @@ Copy `.env.example` to `.env.local` for local configuration. Keep secrets in dep
 
 ### Inquiry delivery
 
-The browser posts JSON to `/api/inquiry/`. The server validates origin, content type, payload size, fields, consent and honeypot; verifies Turnstile in production; then sends a plain-text inquiry through Resend. A provider receipt is required before success is shown. Provider acceptance does not prove inbox delivery, so an inbox check is required during activation.
+The browser posts JSON to `/api/inquiry/`. The server validates origin, content type, payload size, fields, consent and honeypot; verifies Turnstile in production; then sends a plain-text inquiry through the configured Zoho SMTP or Resend transport. Every form, popup and preferred-time call request uses this endpoint and the fixed recipient `site.email`, currently `info@wonderwebstudio.com`. `LEAD_TO_EMAIL` is intentionally ignored to prevent an old deployment override from sending leads elsewhere. Replies go to the visitor’s address; a visitor cannot choose the notification recipient. SMTP requires TLS and explicit recipient acceptance before success is shown. Provider acceptance does not prove inbox delivery, so an inbox check is required during activation.
 
-Failed submissions preserve the input and show an email fallback. No email credentials have been supplied or live inbox delivery verified. A missing configuration produces a truthful 503 response. Tests mock the provider; they do not send messages. The site does not yet persist leads in a CRM/database.
+Failed submissions preserve the input and show an email fallback. Zoho credentials belong in the private `.env.local` and deployment settings. Run `npm run mail:check` to check SMTP authentication without sending mail. Authentication alone does not verify delivery to the inbox. A missing configuration produces a truthful 503 response. Tests mock the provider; they do not send messages. The site does not yet persist leads in a CRM/database.
 
 Allowed origins include `NEXT_PUBLIC_SITE_URL` and the exact `VERCEL_URL` deployment hostname. Production aliases must be configured consistently; keep the existing apex-to-`www` redirect aligned with the canonical host. Do not loosen this to arbitrary origins.
 
-Activate by verifying the sender domain in Resend, setting both Turnstile keys for the actual host, deploying, and submitting an authorized test inquiry. Confirm the inbox receipt, reply-to address, field formatting and successful UI. Also verify rejected/expired challenge behavior and a provider failure path. Use provider/platform rate controls if traffic requires additional protection.
+For Zoho, confirm SMTP access is enabled for the mailbox and use the exact server shown in Zoho Mail Settings → Mail Accounts → Server Configuration. Set the host, port, username and app password, then run `npm run mail:check`. For Resend, verify its sender domain. Set both Turnstile keys for the actual production host, deploy only when authorized, and submit an authorized test inquiry. Confirm the inbox receipt, reply-to address, field formatting and successful UI. Also verify rejected/expired challenge behavior and a provider failure path. Use provider/platform rate controls if traffic requires additional protection. SMTP has no provider-side idempotency guarantee: the request reference is included in the message ID/body, but an uncertain network failure may require checking the inbox before resubmitting.
+
+Official setup reference: [Zoho SMTP configuration](https://www.zoho.com/mail/help/zoho-smtp.html). The mail host is account/region dependent; MX records alone do not determine the outgoing server. The local-only preference remains in force: local settings do not activate the production site. No calendar event or subscriber auto-reply is created.
 
 ### Preferred call requests
 

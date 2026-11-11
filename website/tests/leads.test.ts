@@ -28,8 +28,8 @@ test('inquiry route rejects malformed, oversized and honeypot input',async()=>{
   assert.equal((await POST(request(JSON.stringify({...lead,companyFax:'bot'})))).status,400);
 });
 test('unconfigured delivery fails clearly without claiming success',async()=>{
-  const saved=process.env.RESEND_API_KEY;delete process.env.RESEND_API_KEY;
-  try{const response=await POST(new Request('https://www.wonderwebstudio.com/api/inquiry/',{method:'POST',headers:{origin:'https://www.wonderwebstudio.com','content-type':'application/json'},body:JSON.stringify(lead)}));assert.equal(response.status,503);assert.match((await response.json()).message,/has not been sent/)}finally{if(saved)process.env.RESEND_API_KEY=saved;}
+  const saved={provider:process.env.LEAD_EMAIL_PROVIDER,password:process.env.ZOHO_SMTP_PASSWORD};process.env.LEAD_EMAIL_PROVIDER='zoho';delete process.env.ZOHO_SMTP_PASSWORD;
+  try{const response=await POST(new Request('https://www.wonderwebstudio.com/api/inquiry/',{method:'POST',headers:{origin:'https://www.wonderwebstudio.com','content-type':'application/json'},body:JSON.stringify(lead)}));assert.equal(response.status,503);assert.match((await response.json()).message,/has not been sent/)}finally{if(saved.provider===undefined)delete process.env.LEAD_EMAIL_PROVIDER;else process.env.LEAD_EMAIL_PROVIDER=saved.provider;if(saved.password===undefined)delete process.env.ZOHO_SMTP_PASSWORD;else process.env.ZOHO_SMTP_PASSWORD=saved.password;}
 });
 test('call requests retain their time zone and remain unconfirmed',async()=>{
   const date=addDays(dateInZone(new Date(),'America/New_York'),2);

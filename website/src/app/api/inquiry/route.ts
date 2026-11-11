@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
-import { leadSchema, deliverLead } from '@/lib/leads';
+import { leadSchema } from '@/lib/leads';
+import {leadDeliveryConfig,sendLead} from '@/lib/lead-delivery';
 import {site} from '@/lib/site';
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
@@ -18,8 +19,8 @@ export async function POST(request:Request){
   if(!parsed.success)return respond('Check your name, email, service, project details, consent and any preferred call time.',400);
   const lead=parsed.data;
   if(lead.companyFax)return respond('Unable to submit this request.',400);
-  const key=process.env.RESEND_API_KEY;const from=process.env.LEAD_FROM_EMAIL;const secret=process.env.TURNSTILE_SECRET_KEY;
-  if(!key||!from||(process.env.NODE_ENV==='production'&&!secret))return respond('The form is temporarily unavailable. Please email info@wonderwebstudio.com; your message has not been sent.',503);
+  const config=leadDeliveryConfig();const secret=process.env.TURNSTILE_SECRET_KEY;
+  if(!config||(process.env.NODE_ENV==='production'&&!secret))return respond('The form is temporarily unavailable. Please email info@wonderwebstudio.com; your message has not been sent.',503);
   if(secret){
     if(!lead.token)return respond('Please complete the security check.',400);
     try{
@@ -28,6 +29,6 @@ export async function POST(request:Request){
       if(!result.success||result.action!=='inquiry'||result.hostname!==new URL(origin).hostname)return respond('The security check expired. Please try again.',400);
     }catch{return respond('The security check could not complete. Please try again.',503);}
   }
-  try {await deliverLead(lead,{key,from,to:process.env.LEAD_TO_EMAIL||'info@wonderwebstudio.com'});return NextResponse.json({ok:true,reference:lead.requestId},{headers:{'Cache-Control':'no-store'}});}
+  try {await sendLead(lead,config);return NextResponse.json({ok:true,reference:lead.requestId},{headers:{'Cache-Control':'no-store'}});}
   catch{return respond('We could not confirm delivery. Please retry or email info@wonderwebstudio.com. Your details are still in the form.',502);}
 }
