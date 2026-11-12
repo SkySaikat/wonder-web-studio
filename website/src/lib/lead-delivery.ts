@@ -39,7 +39,7 @@ export async function sendLead(lead:Lead,config:LeadDeliveryConfig,dependencies:
   try {
     const receipt=await transport.sendMail({
       from:{name:site.name,address:config.user},to:config.to,replyTo:lead.email,
-      subject:lead.booking?'New call request — Wonderweb Studio':'New website inquiry — Wonderweb Studio',
+      subject:lead.booking?'New call request - Wonderweb Studio':'New website inquiry - Wonderweb Studio',
       text:leadText(lead),messageId:`<lead-${lead.requestId}@wonderwebstudio.com>`,
       // Zoho may deliver the message before its final SMTP acknowledgement arrives.
       // Keep this bounded, but allow time for that acknowledgement before reporting failure.

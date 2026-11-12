@@ -1,12 +1,12 @@
 {
-  "schema_vocabulary_checked": false,
-  "markdown_pages_checked": 789,
-  "pages_checked": 790,
-  "sitemap_pages": 789,
-  "sitemap_images": 833,
-  "unique_titles": 790,
-  "unique_descriptions": 790,
-  "unique_share_images": 790,
+  "schema_vocabulary_checked": true,
+  "markdown_pages_checked": 878,
+  "pages_checked": 879,
+  "sitemap_pages": 878,
+  "sitemap_images": 1000,
+  "unique_titles": 879,
+  "unique_descriptions": 879,
+  "unique_share_images": 879,
   "indexable_mode": true,
   "issues": [],
   "discovery_issues": [],
@@ -122,7 +122,7 @@
     {
       "path": "/pricing/",
       "title": "Website & Digital Marketing Pricing | Wonderweb Studio",
-      "description": "Explore starting prices: website projects from $4,500 and marketing plans from $1,199/month. Review scope, ad spend and tailored quotes with Wonderweb Studio.",
+      "description": "Compare standalone services, monthly marketing and website projects from $4,500. Clear USD prices, scope, exclusions and twelve-payment website options.",
       "image": "https://www.wonderwebstudio.com/seo/pricing.png",
       "schema_types": [
         "Answer",
@@ -253,7 +253,7 @@
     },
     {
       "path": "/resources/library/2/",
-      "title": "Marketing Resource Library \u2014 Page 2 | Wonderweb Studio",
+      "title": "Marketing Resource Library - Page 2 | Wonderweb Studio",
       "description": "Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 2.",
       "image": "https://www.wonderwebstudio.com/seo/resources--library--2.png",
       "schema_types": [
@@ -270,7 +270,7 @@
     },
     {
       "path": "/resources/library/3/",
-      "title": "Marketing Resource Library \u2014 Page 3 | Wonderweb Studio",
+      "title": "Marketing Resource Library - Page 3 | Wonderweb Studio",
       "description": "Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 3.",
       "image": "https://www.wonderwebstudio.com/seo/resources--library--3.png",
       "schema_types": [
@@ -287,7 +287,7 @@
     },
     {
       "path": "/resources/library/4/",
-      "title": "Marketing Resource Library \u2014 Page 4 | Wonderweb Studio",
+      "title": "Marketing Resource Library - Page 4 | Wonderweb Studio",
       "description": "Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 4.",
       "image": "https://www.wonderwebstudio.com/seo/resources--library--4.png",
       "schema_types": [
@@ -304,7 +304,7 @@
     },
     {
       "path": "/resources/library/5/",
-      "title": "Marketing Resource Library \u2014 Page 5 | Wonderweb Studio",
+      "title": "Marketing Resource Library - Page 5 | Wonderweb Studio",
       "description": "Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 5.",
       "image": "https://www.wonderwebstudio.com/seo/resources--library--5.png",
       "schema_types": [
@@ -321,7 +321,7 @@
     },
     {
       "path": "/resources/library/6/",
-      "title": "Marketing Resource Library \u2014 Page 6 | Wonderweb Studio",
+      "title": "Marketing Resource Library - Page 6 | Wonderweb Studio",
       "description": "Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 6.",
       "image": "https://www.wonderwebstudio.com/seo/resources--library--6.png",
       "schema_types": [
@@ -338,7 +338,7 @@
     },
     {
       "path": "/resources/library/7/",
-      "title": "Marketing Resource Library \u2014 Page 7 | Wonderweb Studio",
+      "title": "Marketing Resource Library - Page 7 | Wonderweb Studio",
       "description": "Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 7.",
       "image": "https://www.wonderwebstudio.com/seo/resources--library--7.png",
       "schema_types": [
@@ -355,7 +355,7 @@
     },
     {
       "path": "/resources/library/8/",
-      "title": "Marketing Resource Library \u2014 Page 8 | Wonderweb Studio",
+      "title": "Marketing Resource Library - Page 8 | Wonderweb Studio",
       "description": "Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 8.",
       "image": "https://www.wonderwebstudio.com/seo/resources--library--8.png",
       "schema_types": [
@@ -372,7 +372,7 @@
     },
     {
       "path": "/resources/library/9/",
-      "title": "Marketing Resource Library \u2014 Page 9 | Wonderweb Studio",
+      "title": "Marketing Resource Library - Page 9 | Wonderweb Studio",
       "description": "Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 9.",
       "image": "https://www.wonderwebstudio.com/seo/resources--library--9.png",
       "schema_types": [
@@ -389,7 +389,7 @@
     },
     {
       "path": "/resources/library/10/",
-      "title": "Marketing Resource Library \u2014 Page 10 | Wonderweb Studio",
+      "title": "Marketing Resource Library - Page 10 | Wonderweb Studio",
       "description": "Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 10.",
       "image": "https://www.wonderwebstudio.com/seo/resources--library--10.png",
       "schema_types": [
@@ -406,7 +406,7 @@
     },
     {
       "path": "/resources/library/11/",
-      "title": "Marketing Resource Library \u2014 Page 11 | Wonderweb Studio",
+      "title": "Marketing Resource Library - Page 11 | Wonderweb Studio",
       "description": "Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 11.",
       "image": "https://www.wonderwebstudio.com/seo/resources--library--11.png",
       "schema_types": [
@@ -423,7 +423,7 @@
     },
     {
       "path": "/resources/library/12/",
-      "title": "Marketing Resource Library \u2014 Page 12 | Wonderweb Studio",
+      "title": "Marketing Resource Library - Page 12 | Wonderweb Studio",
       "description": "Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 12.",
       "image": "https://www.wonderwebstudio.com/seo/resources--library--12.png",
       "schema_types": [
@@ -440,7 +440,7 @@
     },
     {
       "path": "/resources/library/13/",
-      "title": "Marketing Resource Library \u2014 Page 13 | Wonderweb Studio",
+      "title": "Marketing Resource Library - Page 13 | Wonderweb Studio",
       "description": "Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 13.",
       "image": "https://www.wonderwebstudio.com/seo/resources--library--13.png",
       "schema_types": [
@@ -457,7 +457,7 @@
     },
     {
       "path": "/resources/library/14/",
-      "title": "Marketing Resource Library \u2014 Page 14 | Wonderweb Studio",
+      "title": "Marketing Resource Library - Page 14 | Wonderweb Studio",
       "description": "Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 14.",
       "image": "https://www.wonderwebstudio.com/seo/resources--library--14.png",
       "schema_types": [
@@ -474,7 +474,7 @@
     },
     {
       "path": "/resources/library/15/",
-      "title": "Marketing Resource Library \u2014 Page 15 | Wonderweb Studio",
+      "title": "Marketing Resource Library - Page 15 | Wonderweb Studio",
       "description": "Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 15.",
       "image": "https://www.wonderwebstudio.com/seo/resources--library--15.png",
       "schema_types": [
@@ -491,7 +491,7 @@
     },
     {
       "path": "/resources/library/16/",
-      "title": "Marketing Resource Library \u2014 Page 16 | Wonderweb Studio",
+      "title": "Marketing Resource Library - Page 16 | Wonderweb Studio",
       "description": "Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 16.",
       "image": "https://www.wonderwebstudio.com/seo/resources--library--16.png",
       "schema_types": [
@@ -508,7 +508,7 @@
     },
     {
       "path": "/resources/library/17/",
-      "title": "Marketing Resource Library \u2014 Page 17 | Wonderweb Studio",
+      "title": "Marketing Resource Library - Page 17 | Wonderweb Studio",
       "description": "Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 17.",
       "image": "https://www.wonderwebstudio.com/seo/resources--library--17.png",
       "schema_types": [
@@ -542,7 +542,7 @@
     },
     {
       "path": "/solutions/page/2/",
-      "title": "Industry Service Guides \u2014 Page 2 | Wonderweb Studio",
+      "title": "Industry Service Guides - Page 2 | Wonderweb Studio",
       "description": "Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 2.",
       "image": "https://www.wonderwebstudio.com/seo/solutions--page--2.png",
       "schema_types": [
@@ -559,7 +559,7 @@
     },
     {
       "path": "/solutions/page/3/",
-      "title": "Industry Service Guides \u2014 Page 3 | Wonderweb Studio",
+      "title": "Industry Service Guides - Page 3 | Wonderweb Studio",
       "description": "Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 3.",
       "image": "https://www.wonderwebstudio.com/seo/solutions--page--3.png",
       "schema_types": [
@@ -576,7 +576,7 @@
     },
     {
       "path": "/solutions/page/4/",
-      "title": "Industry Service Guides \u2014 Page 4 | Wonderweb Studio",
+      "title": "Industry Service Guides - Page 4 | Wonderweb Studio",
       "description": "Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 4.",
       "image": "https://www.wonderwebstudio.com/seo/solutions--page--4.png",
       "schema_types": [
@@ -593,7 +593,7 @@
     },
     {
       "path": "/solutions/page/5/",
-      "title": "Industry Service Guides \u2014 Page 5 | Wonderweb Studio",
+      "title": "Industry Service Guides - Page 5 | Wonderweb Studio",
       "description": "Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 5.",
       "image": "https://www.wonderwebstudio.com/seo/solutions--page--5.png",
       "schema_types": [
@@ -610,7 +610,7 @@
     },
     {
       "path": "/solutions/page/6/",
-      "title": "Industry Service Guides \u2014 Page 6 | Wonderweb Studio",
+      "title": "Industry Service Guides - Page 6 | Wonderweb Studio",
       "description": "Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 6.",
       "image": "https://www.wonderwebstudio.com/seo/solutions--page--6.png",
       "schema_types": [
@@ -627,7 +627,7 @@
     },
     {
       "path": "/solutions/page/7/",
-      "title": "Industry Service Guides \u2014 Page 7 | Wonderweb Studio",
+      "title": "Industry Service Guides - Page 7 | Wonderweb Studio",
       "description": "Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 7.",
       "image": "https://www.wonderwebstudio.com/seo/solutions--page--7.png",
       "schema_types": [
@@ -644,7 +644,7 @@
     },
     {
       "path": "/solutions/page/8/",
-      "title": "Industry Service Guides \u2014 Page 8 | Wonderweb Studio",
+      "title": "Industry Service Guides - Page 8 | Wonderweb Studio",
       "description": "Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 8.",
       "image": "https://www.wonderwebstudio.com/seo/solutions--page--8.png",
       "schema_types": [
@@ -661,7 +661,7 @@
     },
     {
       "path": "/solutions/page/9/",
-      "title": "Industry Service Guides \u2014 Page 9 | Wonderweb Studio",
+      "title": "Industry Service Guides - Page 9 | Wonderweb Studio",
       "description": "Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 9.",
       "image": "https://www.wonderwebstudio.com/seo/solutions--page--9.png",
       "schema_types": [
@@ -678,7 +678,7 @@
     },
     {
       "path": "/solutions/page/10/",
-      "title": "Industry Service Guides \u2014 Page 10 | Wonderweb Studio",
+      "title": "Industry Service Guides - Page 10 | Wonderweb Studio",
       "description": "Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 10.",
       "image": "https://www.wonderwebstudio.com/seo/solutions--page--10.png",
       "schema_types": [
@@ -695,7 +695,7 @@
     },
     {
       "path": "/solutions/page/11/",
-      "title": "Industry Service Guides \u2014 Page 11 | Wonderweb Studio",
+      "title": "Industry Service Guides - Page 11 | Wonderweb Studio",
       "description": "Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 11.",
       "image": "https://www.wonderwebstudio.com/seo/solutions--page--11.png",
       "schema_types": [
@@ -712,7 +712,7 @@
     },
     {
       "path": "/solutions/page/12/",
-      "title": "Industry Service Guides \u2014 Page 12 | Wonderweb Studio",
+      "title": "Industry Service Guides - Page 12 | Wonderweb Studio",
       "description": "Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 12.",
       "image": "https://www.wonderwebstudio.com/seo/solutions--page--12.png",
       "schema_types": [
@@ -4210,7 +4210,7 @@
     {
       "path": "/solutions/plumbing-voice-search-optimization/",
       "title": "Plumbing Voice Search Optimization (VSO) | Wonderweb Studio",
-      "description": "Plumbing Voice Search Optimization (VSO). Homeowners rarely browse multiple pages when they ask a voice assistant for help \u2014 they act on the first confident\u2026",
+      "description": "Plumbing Voice Search Optimization (VSO). Homeowners rarely browse multiple pages when they ask a voice assistant for help - they act on the first confident\u2026",
       "image": "https://www.wonderwebstudio.com/seo/solutions--plumbing-voice-search-optimization.png",
       "schema_types": [
         "Article",
@@ -4228,7 +4228,7 @@
     {
       "path": "/solutions/plumbing-listing-management/",
       "title": "Plumbing Listing Management | Wonderweb Studio",
-      "description": "Plumbing Listing Management. Plumbing customers and search engines both rely on accurate business information to make decisions \u2014 who to call, and who to\u2026",
+      "description": "Plumbing Listing Management. Plumbing customers and search engines both rely on accurate business information to make decisions - who to call, and who to\u2026",
       "image": "https://www.wonderwebstudio.com/seo/solutions--plumbing-listing-management.png",
       "schema_types": [
         "Article",
@@ -4360,7 +4360,7 @@
     {
       "path": "/solutions/concrete-coating-lsa/",
       "title": "Concrete Coating Google Local Services Ads (LSA) | Wonderweb Studio",
-      "description": "Concrete Coating Google Local Services Ads (LSA). Getting approved for Google Local Services Ads is only the first step \u2014 winning consistent, qualified\u2026",
+      "description": "Concrete Coating Google Local Services Ads (LSA). Getting approved for Google Local Services Ads is only the first step - winning consistent, qualified\u2026",
       "image": "https://www.wonderwebstudio.com/seo/solutions--concrete-coating-lsa.png",
       "schema_types": [
         "Answer",
@@ -4381,7 +4381,7 @@
     {
       "path": "/solutions/concrete-coating-link-building/",
       "title": "Concrete Coating Link Building | Wonderweb Studio",
-      "description": "Concrete Coating Link Building. Not all backlinks carry the same weight \u2014 a single link from a relevant, authoritative site can outperform dozens of\u2026",
+      "description": "Concrete Coating Link Building. Not all backlinks carry the same weight - a single link from a relevant, authoritative site can outperform dozens of\u2026",
       "image": "https://www.wonderwebstudio.com/seo/solutions--concrete-coating-link-building.png",
       "schema_types": [
         "Answer",
@@ -4420,7 +4420,7 @@
     {
       "path": "/solutions/concrete-coating-reputation-management/",
       "title": "Concrete Coating Reputation Management | Wonderweb Studio",
-      "description": "Concrete Coating Reputation Management. Your online reputation lives across more places than just one review platform \u2014 Google, Yelp, Facebook, and\u2026",
+      "description": "Concrete Coating Reputation Management. Your online reputation lives across more places than just one review platform - Google, Yelp, Facebook, and\u2026",
       "image": "https://www.wonderwebstudio.com/seo/solutions--concrete-coating-reputation-management.png",
       "schema_types": [
         "Answer",
@@ -5368,7 +5368,7 @@
     {
       "path": "/solutions/home-inspection-remarketing/",
       "title": "Home Inspection Remarketing Services | Wonderweb Studio",
-      "description": "Home Inspection Remarketing Services. Audiences are segmented by pages visited \u2014 homepage visitors, pricing page visitors, and abandoned booking form\u2026",
+      "description": "Home Inspection Remarketing Services. Audiences are segmented by pages visited - homepage visitors, pricing page visitors, and abandoned booking form\u2026",
       "image": "https://www.wonderwebstudio.com/seo/solutions--home-inspection-remarketing.png",
       "schema_types": [
         "Article",
@@ -5601,8 +5601,8 @@
     },
     {
       "path": "/resources/best-hvac-marketing-agencies/",
-      "title": "Choosing HVAC Marketing agency in 2026 \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing HVAC Marketing agency in 2026 \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
+      "title": "Choosing HVAC Marketing agency in 2026 - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing HVAC Marketing agency in 2026 - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-hvac-marketing-agencies.png",
       "schema_types": [
         "Answer",
@@ -5892,8 +5892,8 @@
     },
     {
       "path": "/resources/meta-ads-for-plumbers-ultimate-guide/",
-      "title": "Meta Ads for Plumbers | Wonderweb Studio",
-      "description": "Meta Ads for Plumbers: How to Generate High-Quality Plumbing Leads in 2026. Meta ads changed a lot in the last year, and a plumbing campaign built on 2023\u2026",
+      "title": "Meta Ads for Plumbers: Campaign & Lead Guide | Wonderweb Studio",
+      "description": "Plan plumbing Meta campaigns with a clear service offer, useful qualification, dependable dispatch handoffs and reporting beyond form submissions.",
       "image": "https://www.wonderwebstudio.com/seo/resources--meta-ads-for-plumbers-ultimate-guide.png",
       "schema_types": [
         "Answer",
@@ -6183,8 +6183,8 @@
     },
     {
       "path": "/resources/best-plumbing-seo-agencies/",
-      "title": "Choosing SEO for Plumbers \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing SEO for Plumbers \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a prospective\u2026",
+      "title": "Choosing SEO for Plumbers - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing SEO for Plumbers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a prospective\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-plumbing-seo-agencies.png",
       "schema_types": [
         "Answer",
@@ -6204,8 +6204,8 @@
     },
     {
       "path": "/resources/best-hvac-web-design-agencies/",
-      "title": "Choosing HVAC Web Design agency in 2026 \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing HVAC Web Design agency in 2026 \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
+      "title": "Choosing HVAC Web Design agency in 2026 - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing HVAC Web Design agency in 2026 - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-hvac-web-design-agencies.png",
       "schema_types": [
         "Answer",
@@ -6226,7 +6226,7 @@
     {
       "path": "/resources/top-concrete-coating-ppc-management-agencies/",
       "title": "Choosing Concrete Coating PPC Management Agency in 2026 | Wonderweb Studio",
-      "description": "Choosing Concrete Coating PPC Management agency in 2026 \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
+      "description": "Choosing Concrete Coating PPC Management agency in 2026 - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--top-concrete-coating-ppc-management-agencies.png",
       "schema_types": [
         "Answer",
@@ -6498,8 +6498,8 @@
     },
     {
       "path": "/resources/best-house-cleaning-meta-ads-agencies/",
-      "title": "Choosing House Cleaning Meta Ads agency \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing House Cleaning Meta Ads agency \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
+      "title": "Choosing House Cleaning Meta Ads agency - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing House Cleaning Meta Ads agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-house-cleaning-meta-ads-agencies.png",
       "schema_types": [
         "Answer",
@@ -6537,8 +6537,8 @@
     },
     {
       "path": "/resources/best-carpet-cleaning-meta-ads-agencies/",
-      "title": "Choosing Carpet Cleaning Meta Ads agency \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing Carpet Cleaning Meta Ads agency \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
+      "title": "Choosing Carpet Cleaning Meta Ads agency - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing Carpet Cleaning Meta Ads agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-carpet-cleaning-meta-ads-agencies.png",
       "schema_types": [
         "Answer",
@@ -6580,7 +6580,7 @@
     {
       "path": "/resources/best-house-cleaning-lead-generation-agencies/",
       "title": "Choosing House Cleaning Lead Generation Agency | Wonderweb Studio",
-      "description": "Choosing House Cleaning Lead Generation agency for Booked Jobs \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
+      "description": "Choosing House Cleaning Lead Generation agency for Booked Jobs - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-house-cleaning-lead-generation-agencies.png",
       "schema_types": [
         "Answer",
@@ -6600,8 +6600,8 @@
     },
     {
       "path": "/resources/home-services-private-equity-seo-cost/",
-      "title": "Choosing Home Services Private Equity SEO Cost \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing Home Services Private Equity SEO Cost \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
+      "title": "Choosing Home Services Private Equity SEO Cost - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing Home Services Private Equity SEO Cost - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--home-services-private-equity-seo-cost.png",
       "schema_types": [
         "Answer",
@@ -6702,8 +6702,8 @@
     },
     {
       "path": "/resources/seo-agency-siding-companies/",
-      "title": "Choosing SEO Agency for Siding company \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing SEO Agency for Siding company \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
+      "title": "Choosing SEO Agency for Siding company - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing SEO Agency for Siding company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--seo-agency-siding-companies.png",
       "schema_types": [
         "BlogPosting",
@@ -6721,7 +6721,7 @@
     {
       "path": "/resources/remodeling-web-design-cost-guide/",
       "title": "Web Design Cost for Remodeling Companies | Wonderweb Studio",
-      "description": "Choosing Web Design Cost for Remodeling company \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
+      "description": "Choosing Web Design Cost for Remodeling company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--remodeling-web-design-cost-guide.png",
       "schema_types": [
         "Answer",
@@ -6763,7 +6763,7 @@
     {
       "path": "/resources/remodeling-cro-tips/",
       "title": "Conversion Optimization Best Practices for Remodelers | Wonderweb Studio",
-      "description": "Choosing Conversion Rate Optimization Best Practices for Remodeling company in 2027 \u2014 A Practical Guide. Use this guide to compare scope, relevant\u2026",
+      "description": "Choosing Conversion Rate Optimization Best Practices for Remodeling company in 2027 - A Practical Guide. Use this guide to compare scope, relevant\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--remodeling-cro-tips.png",
       "schema_types": [
         "Answer",
@@ -6783,8 +6783,8 @@
     },
     {
       "path": "/resources/best-remodeling-cro-agencies-compared/",
-      "title": "Choosing Remodeling CRO agency \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing Remodeling CRO agency \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
+      "title": "Choosing Remodeling CRO agency - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing Remodeling CRO agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-remodeling-cro-agencies-compared.png",
       "schema_types": [
         "Answer",
@@ -6868,7 +6868,7 @@
     {
       "path": "/resources/remodeler-link-building-tips/",
       "title": "Link Building Best Practices for Remodeling Companies in 2027 | Wonderweb Studio",
-      "description": "Choosing Link Building Best Practices for Remodeling company in 2027 \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of\u2026",
+      "description": "Choosing Link Building Best Practices for Remodeling company in 2027 - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--remodeler-link-building-tips.png",
       "schema_types": [
         "Answer",
@@ -6889,7 +6889,7 @@
     {
       "path": "/resources/best-remodeling-google-ads-agencies-compared/",
       "title": "Choosing Google Ads Agency for Remodeling Companies | Wonderweb Studio",
-      "description": "Choosing Google Ads agency for Remodeling company \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
+      "description": "Choosing Google Ads agency for Remodeling company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-remodeling-google-ads-agencies-compared.png",
       "schema_types": [
         "Answer",
@@ -6994,7 +6994,7 @@
     {
       "path": "/resources/remodeling-ppc-management-companies-compared/",
       "title": "Choosing PPC Management Companies for Remodeling Contractors | Wonderweb Studio",
-      "description": "Choosing PPC Management company for Remodeling Contractors \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
+      "description": "Choosing PPC Management company for Remodeling Contractors - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--remodeling-ppc-management-companies-compared.png",
       "schema_types": [
         "Answer",
@@ -7015,7 +7015,7 @@
     {
       "path": "/resources/best-remodeling-remarketing-agencies-compared/",
       "title": "Choosing Remarketing Agency for Remodeling Companies | Wonderweb Studio",
-      "description": "Choosing Remarketing Agency for Remodeling company \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
+      "description": "Choosing Remarketing Agency for Remodeling company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-remodeling-remarketing-agencies-compared.png",
       "schema_types": [
         "Answer",
@@ -7098,8 +7098,8 @@
     },
     {
       "path": "/resources/website-build-companies-remodelers-compared/",
-      "title": "Choosing Website Build company for Remodelers \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing Website Build company for Remodelers \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
+      "title": "Choosing Website Build company for Remodelers - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing Website Build company for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--website-build-companies-remodelers-compared.png",
       "schema_types": [
         "Answer",
@@ -7119,8 +7119,8 @@
     },
     {
       "path": "/resources/email-marketing-agencies-remodelers-comparison/",
-      "title": "Choosing Email Marketing agency for Remodelers \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing Email Marketing agency for Remodelers \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
+      "title": "Choosing Email Marketing agency for Remodelers - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing Email Marketing agency for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--email-marketing-agencies-remodelers-comparison.png",
       "schema_types": [
         "Answer",
@@ -7162,7 +7162,7 @@
     {
       "path": "/resources/best-seo-tools-remodeling-companies/",
       "title": "SEO Tools for Remodeling Companies in 2027 | Wonderweb Studio",
-      "description": "Choosing SEO Tools for Remodeling company in 2027 \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
+      "description": "Choosing SEO Tools for Remodeling company in 2027 - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-seo-tools-remodeling-companies.png",
       "schema_types": [
         "Answer",
@@ -7246,7 +7246,7 @@
     {
       "path": "/resources/google-business-profile-management-roofing-agencies/",
       "title": "Choosing Google Business Profile Agency for Roofing Businesses | Wonderweb Studio",
-      "description": "Choosing Google Business Profile Management agency for Roofing company \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership\u2026",
+      "description": "Choosing Google Business Profile Management agency for Roofing company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--google-business-profile-management-roofing-agencies.png",
       "schema_types": [
         "Answer",
@@ -7266,8 +7266,8 @@
     },
     {
       "path": "/resources/remodeling-web-design-agencies/",
-      "title": "Choosing Remodeling Web Design agency \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing Remodeling Web Design agency \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
+      "title": "Choosing Remodeling Web Design agency - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing Remodeling Web Design agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--remodeling-web-design-agencies.png",
       "schema_types": [
         "Answer",
@@ -7351,7 +7351,7 @@
     {
       "path": "/resources/roofing-email-marketing-cost/",
       "title": "Roofing Email Marketing Cost & Top Agency | Wonderweb Studio",
-      "description": "Choosing Roofing Email Marketing Cost & Top agency \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
+      "description": "Choosing Roofing Email Marketing Cost & Top agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--roofing-email-marketing-cost.png",
       "schema_types": [
         "Answer",
@@ -7371,8 +7371,8 @@
     },
     {
       "path": "/resources/digital-agency-core-cost-for-roofers/",
-      "title": "Choosing Digital Agency Core Cost for Roofers \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing Digital Agency Core Cost for Roofers \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
+      "title": "Choosing Digital Agency Core Cost for Roofers - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing Digital Agency Core Cost for Roofers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--digital-agency-core-cost-for-roofers.png",
       "schema_types": [
         "Answer",
@@ -7393,7 +7393,7 @@
     {
       "path": "/resources/bathroom-remodeling-website-management-cost/",
       "title": "Website Management Cost for Bathroom Remodeling Companies Guide | Wonderweb Studio",
-      "description": "Choosing Website Management Cost for Bathroom Remodeling company Guide \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership\u2026",
+      "description": "Choosing Website Management Cost for Bathroom Remodeling company Guide - A Practical Guide. Use this guide to compare scope, relevant experience, ownership\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--bathroom-remodeling-website-management-cost.png",
       "schema_types": [
         "Answer",
@@ -7561,7 +7561,7 @@
     {
       "path": "/resources/best-bathroom-remodeling-email-marketing-agencies/",
       "title": "Choosing Bathroom Remodeling Email Marketing Agency | Wonderweb Studio",
-      "description": "Choosing Bathroom Remodeling Email Marketing agency \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts\u2026",
+      "description": "Choosing Bathroom Remodeling Email Marketing agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-bathroom-remodeling-email-marketing-agencies.png",
       "schema_types": [
         "Answer",
@@ -7582,7 +7582,7 @@
     {
       "path": "/resources/bathroom-remodeling-seo-tools/",
       "title": "SEO Tools and Technology for Bathroom Remodeling Companies in 2026 | Wonderweb Studio",
-      "description": "Choosing SEO Tools and Technology for Bathroom Remodeling company in 2026 \u2014 A Practical Guide. Use this guide to compare scope, relevant experience\u2026",
+      "description": "Choosing SEO Tools and Technology for Bathroom Remodeling company in 2026 - A Practical Guide. Use this guide to compare scope, relevant experience\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--bathroom-remodeling-seo-tools.png",
       "schema_types": [
         "Answer",
@@ -7897,7 +7897,7 @@
     {
       "path": "/resources/best-roofing-lead-generation-agencies-orlando/",
       "title": "Choosing Roofing Lead Generation Agency in Orlando | Wonderweb Studio",
-      "description": "Choosing Roofing Lead Generation agency in Orlando \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
+      "description": "Choosing Roofing Lead Generation agency in Orlando - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-roofing-lead-generation-agencies-orlando.png",
       "schema_types": [
         "Answer",
@@ -7918,7 +7918,7 @@
     {
       "path": "/resources/best-plumbing-lead-generation-agencies-chicago/",
       "title": "Choosing Plumbing Lead Generation Agency in Chicago | Wonderweb Studio",
-      "description": "Choosing Plumbing Lead Generation agency in Chicago \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts\u2026",
+      "description": "Choosing Plumbing Lead Generation agency in Chicago - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-plumbing-lead-generation-agencies-chicago.png",
       "schema_types": [
         "Answer",
@@ -7939,7 +7939,7 @@
     {
       "path": "/resources/best-hvac-lead-generation-agencies-phoenix/",
       "title": "Choosing HVAC Lead Generation Agency in Phoenix | Wonderweb Studio",
-      "description": "Choosing HVAC Lead Generation agency in Phoenix \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
+      "description": "Choosing HVAC Lead Generation agency in Phoenix - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-hvac-lead-generation-agencies-phoenix.png",
       "schema_types": [
         "Answer",
@@ -8397,8 +8397,8 @@
     },
     {
       "path": "/resources/crm-automation-agencies-remodelers-compared/",
-      "title": "Choosing CRM Automation agency for Remodelers \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing CRM Automation agency for Remodelers \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
+      "title": "Choosing CRM Automation agency for Remodelers - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing CRM Automation agency for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--crm-automation-agencies-remodelers-compared.png",
       "schema_types": [
         "Answer",
@@ -8586,8 +8586,8 @@
     },
     {
       "path": "/resources/best-house-cleaning-seo-agencies/",
-      "title": "Choosing SEO agency for House Cleaners \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing SEO agency for House Cleaners \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
+      "title": "Choosing SEO agency for House Cleaners - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing SEO agency for House Cleaners - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-house-cleaning-seo-agencies.png",
       "schema_types": [
         "Answer",
@@ -8650,7 +8650,7 @@
     {
       "path": "/resources/best-home-services-private-equity-seo-agencies/",
       "title": "Choosing Home Services Private Equity SEO Agency | Wonderweb Studio",
-      "description": "Choosing Home Services Private Equity SEO agency \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
+      "description": "Choosing Home Services Private Equity SEO agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-home-services-private-equity-seo-agencies.png",
       "schema_types": [
         "Answer",
@@ -8749,7 +8749,7 @@
     {
       "path": "/resources/website-management-cost-remodeling-companies/",
       "title": "Website Management Cost for Remodeling Companies Guide | Wonderweb Studio",
-      "description": "Choosing Website Management Cost for Remodeling company Guide \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
+      "description": "Choosing Website Management Cost for Remodeling company Guide - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--website-management-cost-remodeling-companies.png",
       "schema_types": [
         "Answer",
@@ -8770,7 +8770,7 @@
     {
       "path": "/resources/best-remodeler-lead-generation-companies-compared/",
       "title": "Choosing Lead Generation Companies for Remodeling Contractors | Wonderweb Studio",
-      "description": "Choosing Lead Generation company for Remodeling Contractors \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
+      "description": "Choosing Lead Generation company for Remodeling Contractors - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-remodeler-lead-generation-companies-compared.png",
       "schema_types": [
         "Answer",
@@ -8791,7 +8791,7 @@
     {
       "path": "/resources/remodeling-digital-marketing-cost/",
       "title": "Remodeling Companies: Digital Marketing Cost | Wonderweb Studio",
-      "description": "Choosing How Much Does Digital Marketing Cost for Remodeling company? 2027 Pricing Guide \u2014 A Practical Guide. Use this guide to compare scope, relevant\u2026",
+      "description": "Choosing How Much Does Digital Marketing Cost for Remodeling company? 2027 Pricing Guide - A Practical Guide. Use this guide to compare scope, relevant\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--remodeling-digital-marketing-cost.png",
       "schema_types": [
         "Answer",
@@ -8812,7 +8812,7 @@
     {
       "path": "/resources/best-remodeling-digital-marketing-agencies-compared/",
       "title": "Choosing Digital Marketing Agency for Remodeling Companies | Wonderweb Studio",
-      "description": "Choosing Digital Marketing agency for Remodeling company \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
+      "description": "Choosing Digital Marketing agency for Remodeling company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-remodeling-digital-marketing-agencies-compared.png",
       "schema_types": [
         "Answer",
@@ -8853,8 +8853,8 @@
     },
     {
       "path": "/resources/crm-automation-providers-remodelers-compared/",
-      "title": "Choosing CRM Automation partner for Remodelers \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing CRM Automation partner for Remodelers \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
+      "title": "Choosing CRM Automation partner for Remodelers - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing CRM Automation partner for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--crm-automation-providers-remodelers-compared.png",
       "schema_types": [
         "Answer",
@@ -8875,7 +8875,7 @@
     {
       "path": "/resources/call-tracking-attribution-providers-remodelers/",
       "title": "Choosing Call Tracking and Attribution partner for Remodelers | Wonderweb Studio",
-      "description": "Choosing Call Tracking and Attribution partner for Remodelers \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
+      "description": "Choosing Call Tracking and Attribution partner for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--call-tracking-attribution-providers-remodelers.png",
       "schema_types": [
         "Answer",
@@ -8959,7 +8959,7 @@
     {
       "path": "/resources/content-marketing-tips-roofing-companies/",
       "title": "Content Marketing Tips Roofing Companies Use | Wonderweb Studio",
-      "description": "Choosing Content Marketing Tips Roofing company Use to Book More Jobs \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership\u2026",
+      "description": "Choosing Content Marketing Tips Roofing company Use to Book More Jobs - A Practical Guide. Use this guide to compare scope, relevant experience, ownership\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--content-marketing-tips-roofing-companies.png",
       "schema_types": [
         "Answer",
@@ -8980,7 +8980,7 @@
     {
       "path": "/resources/roofing-content-marketing-agencies-compared/",
       "title": "Choosing Content Marketing Agency for Roofing Companies | Wonderweb Studio",
-      "description": "Choosing Content Marketing agency for Roofing company \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts\u2026",
+      "description": "Choosing Content Marketing agency for Roofing company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--roofing-content-marketing-agencies-compared.png",
       "schema_types": [
         "Answer",
@@ -9001,7 +9001,7 @@
     {
       "path": "/resources/roofing-google-business-profile-management-cost/",
       "title": "Google Business Profile Management Cost for Roofing Companies | Wonderweb Studio",
-      "description": "Choosing Google Business Profile Management Cost for Roofing company \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of\u2026",
+      "description": "Choosing Google Business Profile Management Cost for Roofing company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--roofing-google-business-profile-management-cost.png",
       "schema_types": [
         "Answer",
@@ -9105,8 +9105,8 @@
     },
     {
       "path": "/resources/roofing-listing-management-cost-agency-pricing-comparison/",
-      "title": "Choosing Roofing Listing Management Cost \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing Roofing Listing Management Cost \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
+      "title": "Choosing Roofing Listing Management Cost - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing Roofing Listing Management Cost - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--roofing-listing-management-cost-agency-pricing-comparison.png",
       "schema_types": [
         "Answer",
@@ -9126,8 +9126,8 @@
     },
     {
       "path": "/resources/roofing-crm-automation-cost-complete-pricing-agency-breakdown/",
-      "title": "Choosing Roofing CRM Automation Cost \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing Roofing CRM Automation Cost \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
+      "title": "Choosing Roofing CRM Automation Cost - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing Roofing CRM Automation Cost - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--roofing-crm-automation-cost-complete-pricing-agency-breakdown.png",
       "schema_types": [
         "Answer",
@@ -9148,7 +9148,7 @@
     {
       "path": "/resources/best-bathroom-remodeling-content-marketing-agencies/",
       "title": "Choosing Bathroom Remodeling Content Marketing Agency | Wonderweb Studio",
-      "description": "Choosing Bathroom Remodeling Content Marketing agency \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts\u2026",
+      "description": "Choosing Bathroom Remodeling Content Marketing agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-bathroom-remodeling-content-marketing-agencies.png",
       "schema_types": [
         "Answer",
@@ -9169,7 +9169,7 @@
     {
       "path": "/resources/best-bathroom-remodeling-meta-ads-agencies/",
       "title": "Choosing Bathroom Remodeling Meta Ads Agency Companies | Wonderweb Studio",
-      "description": "Choosing Bathroom Remodeling Meta Ads agency company \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts\u2026",
+      "description": "Choosing Bathroom Remodeling Meta Ads agency company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-bathroom-remodeling-meta-ads-agencies.png",
       "schema_types": [
         "Answer",
@@ -9253,7 +9253,7 @@
     {
       "path": "/resources/bathroom-remodeling-website-build-tools/",
       "title": "Website Build Tools for Bathroom Remodelers | Wonderweb Studio",
-      "description": "Choosing Website Build Tools and Technology for Bathroom Remodeling company in 2026 \u2014 A Practical Guide. Use this guide to compare scope, relevant\u2026",
+      "description": "Choosing Website Build Tools and Technology for Bathroom Remodeling company in 2026 - A Practical Guide. Use this guide to compare scope, relevant\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--bathroom-remodeling-website-build-tools.png",
       "schema_types": [
         "Answer",
@@ -9525,8 +9525,8 @@
     },
     {
       "path": "/resources/best-hvac-seo-agencies-dallas/",
-      "title": "Choosing HVAC SEO agency in Dallas \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing HVAC SEO agency in Dallas \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
+      "title": "Choosing HVAC SEO agency in Dallas - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing HVAC SEO agency in Dallas - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-hvac-seo-agencies-dallas.png",
       "schema_types": [
         "Answer",
@@ -9546,8 +9546,8 @@
     },
     {
       "path": "/resources/best-roofing-seo-agencies-phoenix/",
-      "title": "Choosing Roofing SEO agency in Phoenix \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing Roofing SEO agency in Phoenix \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
+      "title": "Choosing Roofing SEO agency in Phoenix - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing Roofing SEO agency in Phoenix - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-roofing-seo-agencies-phoenix.png",
       "schema_types": [
         "Answer",
@@ -10020,8 +10020,8 @@
     },
     {
       "path": "/resources/roofing-marketing-ideas/",
-      "title": "17 Roofing Marketing Ideas to Skyrocket Your Business in 2026 | Wonderweb Studio",
-      "description": "17 Roofing Marketing Ideas to Skyrocket Your Business in 2026. Roofing companies who rely on word of mouth alone leave money on the table. The companies\u2026",
+      "title": "17 Roofing Marketing Ideas for Better Inquiries | Wonderweb Studio",
+      "description": "Explore seventeen practical roofing marketing ideas, with service-specific examples, project evidence, campaign decisions and better inquiry follow-up.",
       "image": "https://www.wonderwebstudio.com/seo/resources--roofing-marketing-ideas.png",
       "schema_types": [
         "Answer",
@@ -10278,8 +10278,8 @@
     },
     {
       "path": "/resources/kitchen-remodeling-marketing-ideas/",
-      "title": "Kitchen Remodeling Marketing Ideas | Wonderweb Studio",
-      "description": "Kitchen Remodeling Marketing Ideas: 11 Proven Strategies to Land High-Ticket Jobs. The kitchen is the heart of the home\u2014and kitchen remodeling is one of the\u2026",
+      "title": "11 Practical Kitchen Remodeling Marketing Ideas | Wonderweb Studio",
+      "description": "Explore eleven practical kitchen remodeling marketing ideas, from project stories and useful service pages to qualified inquiries and clearer follow-up.",
       "image": "https://www.wonderwebstudio.com/seo/resources--kitchen-remodeling-marketing-ideas.png",
       "schema_types": [
         "Answer",
@@ -10321,7 +10321,7 @@
     {
       "path": "/resources/pest-control-marketing-ideas/",
       "title": "7 Proven Pest Control Marketing Ideas to Grow Your Business | Wonderweb Studio",
-      "description": "7 Proven Pest Control Marketing Ideas to Grow Your Business. Your Google Business Profile (or google business listing) is one of your most powerful\u2014and\u2026",
+      "description": "7 Proven Pest Control Marketing Ideas to Grow Your Business. Your Google Business Profile (or google business listing) is one of your most powerful - and\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--pest-control-marketing-ideas.png",
       "schema_types": [
         "Answer",
@@ -10716,8 +10716,8 @@
     },
     {
       "path": "/resources/roofing-meta-ads-guide/",
-      "title": "Meta Ads for Roofing Companies | Wonderweb Studio",
-      "description": "Meta Ads for Roofing Companies: The Complete 2026 Lead Generation Guide. Before diving into ad setup, it helps to understand where Facebook and Instagram\u2026",
+      "title": "Meta Ads for Roofers: Campaign Planning Guide | Wonderweb Studio",
+      "description": "Plan roofing Meta campaigns around real services, approved project evidence, useful qualification and a follow-up process that connects inquiries to work.",
       "image": "https://www.wonderwebstudio.com/seo/resources--roofing-meta-ads-guide.png",
       "schema_types": [
         "Answer",
@@ -10881,8 +10881,8 @@
     },
     {
       "path": "/resources/best-roofing-seo-agencies/",
-      "title": "Choosing Roofing SEO company and agency \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing Roofing SEO company and agency \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
+      "title": "Choosing Roofing SEO company and agency - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing Roofing SEO company and agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-roofing-seo-agencies.png",
       "schema_types": [
         "Answer",
@@ -11070,8 +11070,8 @@
     },
     {
       "path": "/resources/best-electrician-web-design-agencies/",
-      "title": "Choosing Electrician Web Design agency \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing Electrician Web Design agency \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
+      "title": "Choosing Electrician Web Design agency - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing Electrician Web Design agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-electrician-web-design-agencies.png",
       "schema_types": [
         "Answer",
@@ -11092,7 +11092,7 @@
     {
       "path": "/resources/best-electrician-meta-ads-agencies/",
       "title": "Choosing Electrician Meta Ads Agency | Wonderweb Studio",
-      "description": "Choosing Electrician Meta Ads agency to Dominate Local Feeds \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
+      "description": "Choosing Electrician Meta Ads agency to Dominate Local Feeds - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-electrician-meta-ads-agencies.png",
       "schema_types": [
         "Answer",
@@ -11176,7 +11176,7 @@
     {
       "path": "/resources/best-plumbing-ppc-management-agencies/",
       "title": "Choosing Plumbing PPC Management Agency | Wonderweb Studio",
-      "description": "Choosing Plumbing PPC Management agency to Dominate Your Local Market \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership\u2026",
+      "description": "Choosing Plumbing PPC Management agency to Dominate Your Local Market - A Practical Guide. Use this guide to compare scope, relevant experience, ownership\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-plumbing-ppc-management-agencies.png",
       "schema_types": [
         "Answer",
@@ -11196,8 +11196,8 @@
     },
     {
       "path": "/resources/best-hvac-seo-agencies/",
-      "title": "Choosing HVAC SEO Company Options \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing HVAC SEO Company Options \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
+      "title": "Choosing HVAC SEO Company Options - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing HVAC SEO Company Options - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-hvac-seo-agencies.png",
       "schema_types": [
         "Answer",
@@ -11281,7 +11281,7 @@
     {
       "path": "/resources/moving-company-seo-tips/",
       "title": "Moving Company Local SEO: Tips to Rank and Book More Moves in 2026 | Wonderweb Studio",
-      "description": "Moving Company Local SEO: Tips to Rank and Book More Moves in 2026. People don\u2019t search for a moving company nationally \u2014 they search \u201cmovers near me\u201d and\u2026",
+      "description": "Moving Company Local SEO: Tips to Rank and Book More Moves in 2026. People don\u2019t search for a moving company nationally - they search \u201cmovers near me\u201d and\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--moving-company-seo-tips.png",
       "schema_types": [
         "Answer",
@@ -11386,7 +11386,7 @@
     {
       "path": "/resources/top-carpet-cleaning-seo-agencies/",
       "title": "Choosing Carpet Cleaning SEO Agency | Wonderweb Studio",
-      "description": "Choosing Carpet Cleaning SEO agency to Dominate Your Local Market \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of\u2026",
+      "description": "Choosing Carpet Cleaning SEO agency to Dominate Your Local Market - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--top-carpet-cleaning-seo-agencies.png",
       "schema_types": [
         "Answer",
@@ -11614,7 +11614,7 @@
     {
       "path": "/resources/best-house-cleaning-website-management-companies/",
       "title": "Choosing House Cleaning Website Management Companies | Wonderweb Studio",
-      "description": "Choosing House Cleaning Website Management company \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
+      "description": "Choosing House Cleaning Website Management company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-house-cleaning-website-management-companies.png",
       "schema_types": [
         "Answer",
@@ -11655,8 +11655,8 @@
     },
     {
       "path": "/resources/best-gutter-installation-google-ads-agencies/",
-      "title": "Choosing Gutter Installation Google Ads agency \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing Gutter Installation Google Ads agency \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
+      "title": "Choosing Gutter Installation Google Ads agency - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing Gutter Installation Google Ads agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-gutter-installation-google-ads-agencies.png",
       "schema_types": [
         "Answer",
@@ -11697,8 +11697,8 @@
     },
     {
       "path": "/resources/best-home-inspection-seo-agencies/",
-      "title": "Choosing Home Inspection SEO agency \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing Home Inspection SEO agency \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
+      "title": "Choosing Home Inspection SEO agency - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing Home Inspection SEO agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-home-inspection-seo-agencies.png",
       "schema_types": [
         "Answer",
@@ -11971,7 +11971,7 @@
     {
       "path": "/resources/website-management-companies-remodelers/",
       "title": "Choosing Website Management Companies for Remodelers | Wonderweb Studio",
-      "description": "Choosing Website Management company for Remodelers \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
+      "description": "Choosing Website Management company for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--website-management-companies-remodelers.png",
       "schema_types": [
         "Answer",
@@ -11992,7 +11992,7 @@
     {
       "path": "/resources/remodeling-content-marketing-cost/",
       "title": "Remodeling Companies: Content Marketing Cost | Wonderweb Studio",
-      "description": "Choosing How Much Does Content Marketing Cost for Remodeling company? 2026 Pricing Guide \u2014 A Practical Guide. Use this guide to compare scope, relevant\u2026",
+      "description": "Choosing How Much Does Content Marketing Cost for Remodeling company? 2026 Pricing Guide - A Practical Guide. Use this guide to compare scope, relevant\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--remodeling-content-marketing-cost.png",
       "schema_types": [
         "Answer",
@@ -12012,8 +12012,8 @@
     },
     {
       "path": "/resources/best-remodeling-content-marketing-agencies-compared/",
-      "title": "Choosing Remodeling Marketing agency \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing Remodeling Marketing agency \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
+      "title": "Choosing Remodeling Marketing agency - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing Remodeling Marketing agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-remodeling-content-marketing-agencies-compared.png",
       "schema_types": [
         "Answer",
@@ -12034,7 +12034,7 @@
     {
       "path": "/resources/remodeling-cro-cost/",
       "title": "Remodeling Companies: Conversion Rate Optimization Cost | Wonderweb Studio",
-      "description": "Choosing How Much Does Conversion Rate Optimization Cost for Remodeling company? \u2014 A Practical Guide. Use this guide to compare scope, relevant experience\u2026",
+      "description": "Choosing How Much Does Conversion Rate Optimization Cost for Remodeling company? - A Practical Guide. Use this guide to compare scope, relevant experience\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--remodeling-cro-cost.png",
       "schema_types": [
         "Answer",
@@ -12055,7 +12055,7 @@
     {
       "path": "/resources/best-remodeling-franchise-marketing-agencies-compared/",
       "title": "Choosing Remodeling Marketing Agency for Franchises | Wonderweb Studio",
-      "description": "Choosing Remodeling Marketing agency for Franchises \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts\u2026",
+      "description": "Choosing Remodeling Marketing agency for Franchises - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-remodeling-franchise-marketing-agencies-compared.png",
       "schema_types": [
         "Answer",
@@ -12097,7 +12097,7 @@
     {
       "path": "/resources/remodeler-google-lsa-tips/",
       "title": "Google Local Services Ads Best Practices for Remodeling Companies | Wonderweb Studio",
-      "description": "Choosing Google Local Services Ads Best Practices for Remodeling company in 2027 \u2014 A Practical Guide. Use this guide to compare scope, relevant experience\u2026",
+      "description": "Choosing Google Local Services Ads Best Practices for Remodeling company in 2027 - A Practical Guide. Use this guide to compare scope, relevant experience\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--remodeler-google-lsa-tips.png",
       "schema_types": [
         "Answer",
@@ -12139,7 +12139,7 @@
     {
       "path": "/resources/remodeler-google-business-profile-cost/",
       "title": "Remodeling Companies: Google Business Profile Management Cost | Wonderweb Studio",
-      "description": "Choosing How Much Does Google Business Profile Management Cost for Remodeling company? 2027 Pricing Guide \u2014 A Practical Guide. Use this guide to compare\u2026",
+      "description": "Choosing How Much Does Google Business Profile Management Cost for Remodeling company? 2027 Pricing Guide - A Practical Guide. Use this guide to compare\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--remodeler-google-business-profile-cost.png",
       "schema_types": [
         "Answer",
@@ -12202,7 +12202,7 @@
     {
       "path": "/resources/best-remodeler-google-lsa-agencies-compared/",
       "title": "Choosing Google Local Services Ads Agency for Remodeling Companies | Wonderweb Studio",
-      "description": "Choosing Google Local Services Ads Agency for Remodeling company \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of\u2026",
+      "description": "Choosing Google Local Services Ads Agency for Remodeling company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-remodeler-google-lsa-agencies-compared.png",
       "schema_types": [
         "Answer",
@@ -12286,7 +12286,7 @@
     {
       "path": "/resources/remodeling-remarketing-tips/",
       "title": "Remarketing Best Practices for Remodeling Companies in 2027 | Wonderweb Studio",
-      "description": "Choosing Remarketing Best Practices for Remodeling company in 2027 \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of\u2026",
+      "description": "Choosing Remarketing Best Practices for Remodeling company in 2027 - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--remodeling-remarketing-tips.png",
       "schema_types": [
         "Answer",
@@ -12325,7 +12325,7 @@
     {
       "path": "/resources/remodeling-technical-seo-tips/",
       "title": "Technical SEO Best Practices for Remodeling Companies in 2027 | Wonderweb Studio",
-      "description": "Choosing Technical SEO Best Practices for Remodeling company in 2027 \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of\u2026",
+      "description": "Choosing Technical SEO Best Practices for Remodeling company in 2027 - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--remodeling-technical-seo-tips.png",
       "schema_types": [
         "Answer",
@@ -12366,8 +12366,8 @@
     },
     {
       "path": "/resources/best-remodeling-technical-seo-agencies-compared/",
-      "title": "Choosing Technical SEO agency for Remodelers \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing Technical SEO agency for Remodelers \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
+      "title": "Choosing Technical SEO agency for Remodelers - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing Technical SEO agency for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-remodeling-technical-seo-agencies-compared.png",
       "schema_types": [
         "Answer",
@@ -12472,7 +12472,7 @@
     {
       "path": "/resources/remodeler-listing-management-companies-compared/",
       "title": "Choosing Listing Management Companies for Remodelers | Wonderweb Studio",
-      "description": "Choosing Listing Management company for Remodelers \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
+      "description": "Choosing Listing Management company for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--remodeler-listing-management-companies-compared.png",
       "schema_types": [
         "Answer",
@@ -12493,7 +12493,7 @@
     {
       "path": "/resources/voice-search-optimization-agencies-remodelers/",
       "title": "Choosing Voice Search Optimization Agency for Remodelers | Wonderweb Studio",
-      "description": "Choosing Voice Search Optimization agency for Remodelers \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
+      "description": "Choosing Voice Search Optimization agency for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--voice-search-optimization-agencies-remodelers.png",
       "schema_types": [
         "Answer",
@@ -12556,7 +12556,7 @@
     {
       "path": "/resources/best-website-platforms-remodeling-companies/",
       "title": "Website Platforms and Build Tools for Remodeling Companies in 2027 | Wonderweb Studio",
-      "description": "Choosing Website Platforms and Build Tools for Remodeling company in 2027 \u2014 A Practical Guide. Use this guide to compare scope, relevant experience\u2026",
+      "description": "Choosing Website Platforms and Build Tools for Remodeling company in 2027 - A Practical Guide. Use this guide to compare scope, relevant experience\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-website-platforms-remodeling-companies.png",
       "schema_types": [
         "Answer",
@@ -12577,7 +12577,7 @@
     {
       "path": "/resources/roofing-link-building-tips/",
       "title": "Link Building Best Practices for Roofing Companies in 2027 | Wonderweb Studio",
-      "description": "Choosing Link Building Best Practices for Roofing company in 2027 \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of\u2026",
+      "description": "Choosing Link Building Best Practices for Roofing company in 2027 - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--roofing-link-building-tips.png",
       "schema_types": [
         "Answer",
@@ -12598,7 +12598,7 @@
     {
       "path": "/resources/roofing-link-building-cost-guide/",
       "title": "Roofing Companies: Link Building Cost | Wonderweb Studio",
-      "description": "Choosing How Much Does Link Building Cost for Roofing company? 2027 Pricing Guide \u2014 A Practical Guide. Use this guide to compare scope, relevant experience\u2026",
+      "description": "Choosing How Much Does Link Building Cost for Roofing company? 2027 Pricing Guide - A Practical Guide. Use this guide to compare scope, relevant experience\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--roofing-link-building-cost-guide.png",
       "schema_types": [
         "Answer",
@@ -12766,7 +12766,7 @@
     {
       "path": "/resources/roofing-content-marketing-cost-guide/",
       "title": "Roofing Companies: Content Marketing Cost | Wonderweb Studio",
-      "description": "Choosing How Much Does Content Marketing Cost for Roofing company? 2027 Pricing Guide \u2014 A Practical Guide. Use this guide to compare scope, relevant\u2026",
+      "description": "Choosing How Much Does Content Marketing Cost for Roofing company? 2027 Pricing Guide - A Practical Guide. Use this guide to compare scope, relevant\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--roofing-content-marketing-cost-guide.png",
       "schema_types": [
         "Answer",
@@ -12787,7 +12787,7 @@
     {
       "path": "/resources/cro-cost-roofing-companies-guide/",
       "title": "Roofing Companies: Conversion Rate Optimization Cost | Wonderweb Studio",
-      "description": "Choosing How Much Does Conversion Rate Optimization Cost for Roofing company? 2027 Pricing Guide \u2014 A Practical Guide. Use this guide to compare scope\u2026",
+      "description": "Choosing How Much Does Conversion Rate Optimization Cost for Roofing company? 2027 Pricing Guide - A Practical Guide. Use this guide to compare scope\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--cro-cost-roofing-companies-guide.png",
       "schema_types": [
         "Answer",
@@ -12829,7 +12829,7 @@
     {
       "path": "/resources/cro-agencies-roofing-companies-compared/",
       "title": "Choosing Conversion Rate Optimization Agency for Roofing Companies | Wonderweb Studio",
-      "description": "Choosing Conversion Rate Optimization agency for Roofing company \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of\u2026",
+      "description": "Choosing Conversion Rate Optimization agency for Roofing company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--cro-agencies-roofing-companies-compared.png",
       "schema_types": [
         "Answer",
@@ -12849,8 +12849,8 @@
     },
     {
       "path": "/resources/cost-of-roofing-reputation-management-software-vs-agency-pricing/",
-      "title": "Choosing Cost of Roofing Reputation Management \u2014 A Practical Guide | Wonderweb Studio",
-      "description": "Choosing Cost of Roofing Reputation Management \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
+      "title": "Choosing Cost of Roofing Reputation Management - A Practical Guide | Wonderweb Studio",
+      "description": "Choosing Cost of Roofing Reputation Management - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--cost-of-roofing-reputation-management-software-vs-agency-pricing.png",
       "schema_types": [
         "Answer",
@@ -12871,7 +12871,7 @@
     {
       "path": "/resources/roofing-technical-seo-cost/",
       "title": "Roofing Companies: Technical SEO Cost | Wonderweb Studio",
-      "description": "Choosing How Much Does Technical SEO Cost for Roofing company? \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
+      "description": "Choosing How Much Does Technical SEO Cost for Roofing company? - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--roofing-technical-seo-cost.png",
       "schema_types": [
         "Answer",
@@ -12892,7 +12892,7 @@
     {
       "path": "/resources/best-roofing-crm-automation-agencies/",
       "title": "Choosing Roofing CRM Automation Agency | Wonderweb Studio",
-      "description": "Choosing Roofing CRM Automation agency to Book More Jobs \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
+      "description": "Choosing Roofing CRM Automation agency to Book More Jobs - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-roofing-crm-automation-agencies.png",
       "schema_types": [
         "Answer",
@@ -12913,7 +12913,7 @@
     {
       "path": "/resources/roofing-email-marketing-tips/",
       "title": "Roofing Email Marketing Tips and Top Agency | Wonderweb Studio",
-      "description": "Choosing Roofing Email Marketing Tips and Top agency \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts\u2026",
+      "description": "Choosing Roofing Email Marketing Tips and Top agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--roofing-email-marketing-tips.png",
       "schema_types": [
         "Answer",
@@ -12934,7 +12934,7 @@
     {
       "path": "/resources/core-marketing-cost-bathroom-remodeling/",
       "title": "Digital Marketing Services Cost for Bathroom Remodelers | Wonderweb Studio",
-      "description": "Choosing Digital Marketing Agency Core Services Cost for Bathroom Remodeling company \u2014 A Practical Guide. Use this guide to compare scope, relevant\u2026",
+      "description": "Choosing Digital Marketing Agency Core Services Cost for Bathroom Remodeling company - A Practical Guide. Use this guide to compare scope, relevant\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--core-marketing-cost-bathroom-remodeling.png",
       "schema_types": [
         "Answer",
@@ -13144,7 +13144,7 @@
     {
       "path": "/resources/marketing-tools-and-technology-for-bathroom-remodeling/",
       "title": "Marketing Tools and Technology for Bathroom Remodeling Companies | Wonderweb Studio",
-      "description": "Choosing Marketing Tools and Technology for Bathroom Remodeling company in 2026 \u2014 A Practical Guide. Use this guide to compare scope, relevant experience\u2026",
+      "description": "Choosing Marketing Tools and Technology for Bathroom Remodeling company in 2026 - A Practical Guide. Use this guide to compare scope, relevant experience\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--marketing-tools-and-technology-for-bathroom-remodeling.png",
       "schema_types": [
         "Answer",
@@ -13165,7 +13165,7 @@
     {
       "path": "/resources/electricians-digital-marketing-agency-cost/",
       "title": "Digital Marketing Agency Cost for Electricians | Wonderweb Studio",
-      "description": "Choosing Digital Marketing Agency Cost for Electricians \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
+      "description": "Choosing Digital Marketing Agency Cost for Electricians - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--electricians-digital-marketing-agency-cost.png",
       "schema_types": [
         "Answer",
@@ -13480,7 +13480,7 @@
     {
       "path": "/resources/best-roofing-lead-generation-agencies-tampa/",
       "title": "Choosing Roofing Lead Generation Agency in Tampa | Wonderweb Studio",
-      "description": "Choosing Roofing Lead Generation agency in Tampa \u2014 A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
+      "description": "Choosing Roofing Lead Generation agency in Tampa - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--best-roofing-lead-generation-agencies-tampa.png",
       "schema_types": [
         "Answer",
@@ -13787,6 +13787,237 @@
         "Organization",
         "Person",
         "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/services/ai-search-optimization/",
+      "title": "AI Search Optimization Services | Wonderweb Studio",
+      "description": "AI search optimization, AEO and GEO services for small businesses. Clear answers, crawlable pages, accurate entities and evidence-led discovery reporting.",
+      "image": "https://www.wonderwebstudio.com/seo/services--ai-search-optimization.png",
+      "schema_types": [
+        "Answer",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/services/local-services-ads/",
+      "title": "Google Local Services Ads Services | Wonderweb Studio",
+      "description": "Google Local Services Ads management for eligible businesses. Profile setup support, service-area planning, lead reviews and practical booking reporting.",
+      "image": "https://www.wonderwebstudio.com/seo/services--local-services-ads.png",
+      "schema_types": [
+        "Answer",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/services/microsoft-ads/",
+      "title": "Microsoft Ads Management Services | Wonderweb Studio",
+      "description": "Microsoft Advertising and Bing Ads management for service businesses. Search campaigns, budget controls, conversion tracking and qualified-lead reviews.",
+      "image": "https://www.wonderwebstudio.com/seo/services--microsoft-ads.png",
+      "schema_types": [
+        "Answer",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/services/linkedin-ads/",
+      "title": "LinkedIn Ads Management Services | Wonderweb Studio",
+      "description": "LinkedIn Ads management for B2B and commercial-service businesses. Audience planning, creative, lead forms and reporting tied to qualified opportunities.",
+      "image": "https://www.wonderwebstudio.com/seo/services--linkedin-ads.png",
+      "schema_types": [
+        "Answer",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/services/email-marketing/",
+      "title": "Email Marketing Services | Wonderweb Studio",
+      "description": "Email marketing for small businesses and service companies. Newsletter planning, lifecycle messages, audience segmentation and measurable website journeys.",
+      "image": "https://www.wonderwebstudio.com/seo/services--email-marketing.png",
+      "schema_types": [
+        "Answer",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/services/reputation-management/",
+      "title": "Reputation Management Services | Wonderweb Studio",
+      "description": "Reputation management for service businesses. Ethical review requests, response workflows, profile consistency and reporting grounded in real customer feedback.",
+      "image": "https://www.wonderwebstudio.com/seo/services--reputation-management.png",
+      "schema_types": [
+        "Answer",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/services/conversion-rate-optimization/",
+      "title": "Conversion Rate Optimization Services | Wonderweb Studio",
+      "description": "Conversion rate optimization for business websites. Journey research, form improvements, measurement checks and experiments matched to real traffic levels.",
+      "image": "https://www.wonderwebstudio.com/seo/services--conversion-rate-optimization.png",
+      "schema_types": [
+        "Answer",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/services/lead-generation/",
+      "title": "Lead Generation Services | Wonderweb Studio",
+      "description": "Lead generation services for small businesses and home-service companies. Connected campaigns, landing pages, qualification and follow-up reporting.",
+      "image": "https://www.wonderwebstudio.com/seo/services--lead-generation.png",
+      "schema_types": [
+        "Answer",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/services/digital-media-buying/",
+      "title": "Digital Media Buying Services | Wonderweb Studio",
+      "description": "Digital media buying for growing businesses. Programmatic display, streaming TV and video campaign planning with clear inventory, creative and measurement scope.",
+      "image": "https://www.wonderwebstudio.com/seo/services--digital-media-buying.png",
+      "schema_types": [
+        "Answer",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/services/franchise-marketing/",
+      "title": "Franchise & Multi-Location Marketing Services | Wonderweb Studio",
+      "description": "Franchise and multi-location marketing services. Shared brand standards, local campaign planning, location content and reporting across real service markets.",
+      "image": "https://www.wonderwebstudio.com/seo/services--franchise-marketing.png",
+      "schema_types": [
+        "Answer",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/services/ai-workflow-automation/",
+      "title": "AI Workflow & Automation Services | Wonderweb Studio",
+      "description": "AI workflow and automation services for small businesses. Process mapping, supported integrations, human review and tested handoffs for routine operations.",
+      "image": "https://www.wonderwebstudio.com/seo/services--ai-workflow-automation.png",
+      "schema_types": [
+        "Answer",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "Service",
         "WebPage",
         "WebSite"
       ],
@@ -14878,7 +15109,7 @@
     },
     {
       "path": "/work/allsafe-electric/",
-      "title": "Allsafe Electric \u2014 Website Project | Wonderweb Studio",
+      "title": "Allsafe Electric - Website Project | Wonderweb Studio",
       "description": "A Next.js website for a Colorado electrical business, bringing service information, local content and inquiry handling into one customer journey.",
       "image": "https://www.wonderwebstudio.com/seo/work--allsafe-electric.png",
       "schema_types": [
@@ -14896,7 +15127,7 @@
     },
     {
       "path": "/work/clear-day-baths/",
-      "title": "Clear Day Baths \u2014 Website Project | Wonderweb Studio",
+      "title": "Clear Day Baths - Website Project | Wonderweb Studio",
       "description": "A bathroom remodeling website connecting service-area content, quote requests and CRM follow-up for a business serving Northern Virginia and Maryland.",
       "image": "https://www.wonderwebstudio.com/seo/work--clear-day-baths.png",
       "schema_types": [
@@ -14914,7 +15145,7 @@
     },
     {
       "path": "/work/jr-watkins/",
-      "title": "J.R. Watkins \u2014 Website Project | Wonderweb Studio",
+      "title": "J.R. Watkins - Website Project | Wonderweb Studio",
       "description": "Website development for J.R. Watkins, with a focus on responsive presentation, brand identity and a clear customer experience.",
       "image": "https://www.wonderwebstudio.com/seo/work--jr-watkins.png",
       "schema_types": [
@@ -14932,7 +15163,7 @@
     },
     {
       "path": "/work/workiz/",
-      "title": "Workiz \u2014 Website Project | Wonderweb Studio",
+      "title": "Workiz - Website Project | Wonderweb Studio",
       "description": "Website development work for Workiz, a platform serving field-service businesses. A project at the intersection of software and the trades.",
       "image": "https://www.wonderwebstudio.com/seo/work--workiz.png",
       "schema_types": [
@@ -14950,7 +15181,7 @@
     },
     {
       "path": "/work/windsor/",
-      "title": "Windsor \u2014 Website Project | Wonderweb Studio",
+      "title": "Windsor - Website Project | Wonderweb Studio",
       "description": "E-commerce website design work focused on the Windsor shopping experience and its brand presentation.",
       "image": "https://www.wonderwebstudio.com/seo/work--windsor.png",
       "schema_types": [
@@ -14968,7 +15199,7 @@
     },
     {
       "path": "/work/ezeie/",
-      "title": "ezeie \u2014 Website Project | Wonderweb Studio",
+      "title": "ezeie - Website Project | Wonderweb Studio",
       "description": "A UX and web application project focused on updating an existing website experience for mobile and desktop use.",
       "image": "https://www.wonderwebstudio.com/seo/work--ezeie.png",
       "schema_types": [
@@ -14986,7 +15217,7 @@
     },
     {
       "path": "/work/california-olive-ranch/",
-      "title": "California Olive Ranch \u2014 Website Project | Wonderweb Studio",
+      "title": "California Olive Ranch - Website Project | Wonderweb Studio",
       "description": "Website development work for California Olive Ranch, connecting brand presentation with a responsive web interface.",
       "image": "https://www.wonderwebstudio.com/seo/work--california-olive-ranch.png",
       "schema_types": [
@@ -15004,7 +15235,7 @@
     },
     {
       "path": "/work/crafted-look/",
-      "title": "Crafted Look \u2014 Website Project | Wonderweb Studio",
+      "title": "Crafted Look - Website Project | Wonderweb Studio",
       "description": "A blog and editorial website built around approachable content, clear navigation and a responsive reading experience.",
       "image": "https://www.wonderwebstudio.com/seo/work--crafted-look.png",
       "schema_types": [
@@ -15022,7 +15253,7 @@
     },
     {
       "path": "/work/the-unseen-threads/",
-      "title": "The Unseen Threads \u2014 Website Project | Wonderweb Studio",
+      "title": "The Unseen Threads - Website Project | Wonderweb Studio",
       "description": "A blog and website design project with a focus on a responsive home for editorial content.",
       "image": "https://www.wonderwebstudio.com/seo/work--the-unseen-threads.png",
       "schema_types": [
@@ -15040,7 +15271,7 @@
     },
     {
       "path": "/work/read-the-anime/",
-      "title": "Read The Anime \u2014 Website Project | Wonderweb Studio",
+      "title": "Read The Anime - Website Project | Wonderweb Studio",
       "description": "An anime-focused blog website project that organizes content into a responsive reading experience.",
       "image": "https://www.wonderwebstudio.com/seo/work--read-the-anime.png",
       "schema_types": [
@@ -15058,7 +15289,7 @@
     },
     {
       "path": "/work/dococlock/",
-      "title": "DocoClock \u2014 Website Project | Wonderweb Studio",
+      "title": "DocoClock - Website Project | Wonderweb Studio",
       "description": "A healthcare platform bringing doctor discovery, appointments, live queues and digital prescriptions into one connected healthcare experience.",
       "image": "https://www.wonderwebstudio.com/seo/work--dococlock.png",
       "schema_types": [
@@ -15076,7 +15307,7 @@
     },
     {
       "path": "/work/pet-cy/",
-      "title": "Pet-cy \u2014 Website Project | Wonderweb Studio",
+      "title": "Pet-cy - Website Project | Wonderweb Studio",
       "description": "An e-commerce storefront for a Cyprus pet supply business, bringing its catalog, offers and shopping information together.",
       "image": "https://www.wonderwebstudio.com/seo/work--pet-cy.png",
       "schema_types": [
@@ -15094,7 +15325,7 @@
     },
     {
       "path": "/work/flow-web-design/",
-      "title": "Flow website exploration \u2014 Design Study | Wonderweb Studio",
+      "title": "Flow website exploration - Design Study | Wonderweb Studio",
       "description": "Explore flow website exploration from Wonderweb Studio\u2019s creative portfolio. See the visual direction and discuss a design brief for your business.",
       "image": "https://www.wonderwebstudio.com/seo/work--flow-web-design.png",
       "schema_types": [
@@ -15112,7 +15343,7 @@
     },
     {
       "path": "/work/ecommerce-experience/",
-      "title": "Fashion storefront exploration \u2014 Design Study | Wonderweb Studio",
+      "title": "Fashion storefront exploration - Design Study | Wonderweb Studio",
       "description": "Explore fashion storefront exploration from Wonderweb Studio\u2019s creative portfolio. See the visual direction and discuss a design brief for your business.",
       "image": "https://www.wonderwebstudio.com/seo/work--ecommerce-experience.png",
       "schema_types": [
@@ -15130,7 +15361,7 @@
     },
     {
       "path": "/work/interface-exploration/",
-      "title": "Sign-in interface study \u2014 Design Study | Wonderweb Studio",
+      "title": "Sign-in interface study - Design Study | Wonderweb Studio",
       "description": "Explore sign-in interface study from Wonderweb Studio\u2019s creative portfolio. See the visual direction and discuss a design brief for your business.",
       "image": "https://www.wonderwebstudio.com/seo/work--interface-exploration.png",
       "schema_types": [
@@ -15148,7 +15379,7 @@
     },
     {
       "path": "/work/thumbnail-creative/",
-      "title": "YouTube thumbnail explorations \u2014 Design Study | Wonderweb Studio",
+      "title": "YouTube thumbnail explorations - Design Study | Wonderweb Studio",
       "description": "Explore youtube thumbnail explorations from Wonderweb Studio\u2019s creative portfolio. See the visual direction and discuss a design brief for your business.",
       "image": "https://www.wonderwebstudio.com/seo/work--thumbnail-creative.png",
       "schema_types": [
@@ -15185,7 +15416,7 @@
     {
       "path": "/resources/roofing-seo-cost/",
       "title": "Roofing SEO Costs & Proposal Checklist | Wonderweb Studio",
-      "description": "A useful SEO quote explains the work, the evidence and the review process\u2014not just a monthly price.",
+      "description": "A useful SEO quote explains the work, the evidence and the review process - not just a monthly price.",
       "image": "https://www.wonderwebstudio.com/seo/resources--roofing-seo-cost.png",
       "schema_types": [
         "BlogPosting",
@@ -15275,7 +15506,7 @@
     {
       "path": "/resources/home-service-marketing-ideas/",
       "title": "9 Home Service Marketing Ideas | Wonderweb Studio",
-      "description": "A prioritized list of ways to connect your services, local visibility, project evidence and follow-up\u2014without trying every channel at once.",
+      "description": "A prioritized list of ways to connect your services, local visibility, project evidence and follow-up - without trying every channel at once.",
       "image": "https://www.wonderwebstudio.com/seo/resources--home-service-marketing-ideas.png",
       "schema_types": [
         "Answer",
@@ -15550,6 +15781,1644 @@
       "title": "Siding Marketing: 7 Agency Questions | Wonderweb Studio",
       "description": "Compare siding marketing proposals by offer, project content, service area, channel choice and the quality of the estimate inquiries they aim to support.",
       "image": "https://www.wonderwebstudio.com/seo/resources--siding-marketing-agency-checklist.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/website-design-brief-business-owner/",
+      "title": "Website Design Brief for Business Owners | Wonderweb Studio",
+      "description": "Prepare a website design brief with clear audiences, page priorities, content responsibilities and approval rules before asking for concepts.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-design-brief-business-owner.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/business-website-page-architecture/",
+      "title": "Business Website Page Planning Guide | Wonderweb Studio",
+      "description": "Choose website pages around customer decisions, distinct services and useful proof, with a practical method for avoiding thin or duplicate pages.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--business-website-page-architecture.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/website-wireframes-before-visual-design/",
+      "title": "Website Wireframe Approval Checklist | Wonderweb Studio",
+      "description": "Review website wireframes for messaging, page flow, evidence and mobile priorities before colors and visual polish make changes more expensive.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-wireframes-before-visual-design.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/website-project-photo-selection/",
+      "title": "Choosing Project Photos for Your Website | Wonderweb Studio",
+      "description": "Select project images that explain your work, protect customer privacy and support a clear website story instead of filling a decorative gallery.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-project-photo-selection.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/website-design-feedback-review-rounds/",
+      "title": "Giving Useful Website Design Feedback | Wonderweb Studio",
+      "description": "Turn scattered design opinions into clear website feedback with customer tasks, grouped decisions and a practical approach to review rounds.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-design-feedback-review-rounds.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/website-navigation-service-business/",
+      "title": "Service Business Website Navigation | Wonderweb Studio",
+      "description": "Plan a clear website menu that helps visitors find services, evidence and contact options without forcing every page into the main navigation.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-navigation-service-business.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/website-platform-requirements-before-build/",
+      "title": "Choosing a Website Platform by Requirements | Wonderweb Studio",
+      "description": "Compare website platforms using editing needs, integrations, ownership and maintenance responsibilities before committing to a new build.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-platform-requirements-before-build.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/website-form-email-crm-delivery/",
+      "title": "Website Form and CRM Delivery Planning | Wonderweb Studio",
+      "description": "Plan how website inquiries reach your inbox or CRM, with clear field requirements, failure handling, ownership and end-to-end delivery checks.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-form-email-crm-delivery.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/cms-content-model-service-business/",
+      "title": "CMS Content Planning for Service Businesses | Wonderweb Studio",
+      "description": "Organize services, projects and articles into a practical CMS structure with reusable fields, publishing rules and a clear editing handoff.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--cms-content-model-service-business.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/website-migration-url-inventory/",
+      "title": "Website Migration URL Inventory | Wonderweb Studio",
+      "description": "Prepare a website migration inventory that connects old URLs, useful content, replacement pages and launch checks before the new site goes live.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-migration-url-inventory.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/website-integration-scope-questions/",
+      "title": "Website Integration Scope Questions | Wonderweb Studio",
+      "description": "Define a website integration around data, permissions, exceptions and support responsibilities so a simple connection does not hide a complex workflow.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-integration-scope-questions.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/website-development-handoff-acceptance/",
+      "title": "Website Development Handoff Checklist | Wonderweb Studio",
+      "description": "Review a website build through real customer tasks, editing access, integration delivery and ownership documents before signing off the handoff.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-development-handoff-acceptance.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/website-update-request-workflow/",
+      "title": "A Clear Website Update Request Process | Wonderweb Studio",
+      "description": "Organize website edits with complete briefs, clear priorities, review ownership and a visible queue that separates routine work from larger projects.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-update-request-workflow.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/website-incident-response-business-owner/",
+      "title": "Website Incident Plan for Business Owners | Wonderweb Studio",
+      "description": "Prepare a practical website incident plan covering lost inquiries, outages, account access, communication and recovery checks before a problem occurs.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-incident-response-business-owner.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/quarterly-website-review-priorities/",
+      "title": "Quarterly Website Review Priorities | Wonderweb Studio",
+      "description": "Review website offers, inquiry journeys, project evidence and content priorities each quarter with a practical method for choosing useful improvements.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--quarterly-website-review-priorities.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/website-management-report-what-to-read/",
+      "title": "Reading a Website Management Report | Wonderweb Studio",
+      "description": "Understand website management reports by separating completed work, open risks, inquiry checks and business decisions from activity counts alone.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-management-report-what-to-read.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/website-account-ownership-access-register/",
+      "title": "Website Ownership and Access Register | Wonderweb Studio",
+      "description": "Record domain, hosting, CMS and integration ownership so your business can manage access, renewals and supplier changes without losing control.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-account-ownership-access-register.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/seasonal-website-updates-service-business/",
+      "title": "Seasonal Website Update Planning | Wonderweb Studio",
+      "description": "Prepare seasonal offers, service information and campaign pages with a reusable update schedule, accurate dates and a clear process for retiring promotions.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--seasonal-website-updates-service-business.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/landing-page-offer-brief/",
+      "title": "Landing Page Offer Brief | Wonderweb Studio",
+      "description": "Define a campaign landing page with one audience, a clear offer, relevant proof and a measurable next step before designing the first screen.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--landing-page-offer-brief.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/landing-page-lead-qualification-fields/",
+      "title": "Landing Page Lead Qualification Fields | Wonderweb Studio",
+      "description": "Choose landing page form fields around the next sales action, balancing useful qualification with a clear and accessible inquiry experience.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--landing-page-lead-qualification-fields.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/landing-page-traffic-no-inquiries/",
+      "title": "Landing Page Visits Without Inquiries | Wonderweb Studio",
+      "description": "Diagnose a landing page with few inquiries by reviewing traffic intent, offer clarity, trust, form delivery and sales context before redesigning it.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--landing-page-traffic-no-inquiries.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/service-page-or-campaign-landing-page/",
+      "title": "Service Page or Campaign Landing Page? | Wonderweb Studio",
+      "description": "Decide when a service page is enough and when a dedicated campaign landing page needs a different offer, structure or qualification process.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--service-page-or-campaign-landing-page.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/landing-page-test-plan-small-budget/",
+      "title": "Landing Page Testing With Limited Traffic | Wonderweb Studio",
+      "description": "Plan useful landing page experiments with clear hypotheses, realistic evidence limits and sales feedback when your campaign does not have large traffic volume.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--landing-page-test-plan-small-budget.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/landing-page-google-meta-message-match/",
+      "title": "Landing Pages for Search and Social Traffic | Wonderweb Studio",
+      "description": "Adapt landing page messaging for search and social visitors while keeping the offer, qualification and follow-up consistent across campaigns.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--landing-page-google-meta-message-match.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/youtube-thumbnail-creative-brief/",
+      "title": "YouTube Thumbnail Creative Brief | Wonderweb Studio",
+      "description": "Prepare a thumbnail design brief with the video\u2019s real promise, audience, visual evidence and title direction before asking for creative concepts.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--youtube-thumbnail-creative-brief.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/thumbnail-title-pairing-guide/",
+      "title": "Thumbnail and Title Pairing Guide | Wonderweb Studio",
+      "description": "Create clearer video packaging by giving the thumbnail and title complementary roles, with accurate examples and a practical review process.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--thumbnail-title-pairing-guide.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/thumbnail-series-brand-system/",
+      "title": "Thumbnail Design System for Video Series | Wonderweb Studio",
+      "description": "Create a recognizable thumbnail series with flexible layouts, consistent visual cues and enough variation to explain each episode\u2019s actual subject.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--thumbnail-series-brand-system.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/refresh-old-video-thumbnails/",
+      "title": "When to Refresh Older Video Thumbnails | Wonderweb Studio",
+      "description": "Review older video thumbnails with a clear reason for change, an accurate content promise and a record that separates packaging updates from other factors.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--refresh-old-video-thumbnails.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/thumbnail-testing-brief-and-review/",
+      "title": "Thumbnail Testing Brief and Review | Wonderweb Studio",
+      "description": "Create meaningful thumbnail variants, document the hypothesis and review viewing context so testing produces useful learning rather than random design changes.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--thumbnail-testing-brief-and-review.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/thumbnail-production-batch-workflow/",
+      "title": "Thumbnail Batch Production Workflow | Wonderweb Studio",
+      "description": "Plan a repeatable thumbnail workflow covering video briefs, asset collection, creative review, export checks and library organization for recurring content.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--thumbnail-production-batch-workflow.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/seo-priority-backlog/",
+      "title": "Turn an SEO Audit into a Practical Work Plan | Wonderweb Studio",
+      "description": "Turn a long SEO audit into a practical work queue, with evidence, priorities, responsibilities and checks that connect fixes to business needs.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--seo-priority-backlog.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/service-page-keyword-overlap/",
+      "title": "Resolve Overlapping Service Pages | Wonderweb Studio",
+      "description": "Decide when overlapping service pages should stay separate, be improved or be combined, using customer intent and real search evidence.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--service-page-keyword-overlap.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/seo-reporting-business-decisions/",
+      "title": "SEO Reports That Support Business Decisions | Wonderweb Studio",
+      "description": "Build an SEO report around useful questions: which services are being found, what visitors need and which changes deserve attention next.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--seo-reporting-business-decisions.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/seo-migration-url-mapping/",
+      "title": "Website Migration: Build a Reliable URL Map | Wonderweb Studio",
+      "description": "Plan old-to-new URL mappings before a website migration, preserve useful pages and verify redirects, internal links and search signals after launch.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--seo-migration-url-mapping.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/refresh-merge-or-retire-content/",
+      "title": "Refresh, Merge or Retire Old Website Content | Wonderweb Studio",
+      "description": "Assess older articles by usefulness, accuracy and intent, then choose a focused refresh, a thoughtful merge or a documented retirement.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--refresh-merge-or-retire-content.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/indexing-triage-for-service-websites/",
+      "title": "Indexing Problems: A Practical Triage Guide | Wonderweb Studio",
+      "description": "Separate access problems, indexing directives and content decisions when a service page is missing from search, then verify the relevant fix.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--indexing-triage-for-service-websites.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/google-business-profile-eligibility-checklist/",
+      "title": "Google Business Profile Eligibility Checklist | Wonderweb Studio",
+      "description": "Check whether your business qualifies for a Google Business Profile, describe its real operations and prepare accurate information before setup.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--google-business-profile-eligibility-checklist.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/multi-location-local-seo-structure/",
+      "title": "A Clear Local SEO Structure for Multiple Locations | Wonderweb Studio",
+      "description": "Organize real business locations and service areas into a clear website structure, with useful local content, ownership and measurement.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--multi-location-local-seo-structure.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/customer-review-request-workflow/",
+      "title": "A Practical Customer Review Request Workflow | Wonderweb Studio",
+      "description": "Create a consistent review-request process with clear ownership, honest customer invitations and useful responses that protect customer privacy.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--customer-review-request-workflow.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/local-citation-audit/",
+      "title": "A Practical Local Citation Audit | Wonderweb Studio",
+      "description": "Review business listings for accuracy, ownership and customer usefulness, then prioritize corrections instead of chasing a larger directory count.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--local-citation-audit.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/service-area-pages-with-real-evidence/",
+      "title": "Service-Area Pages with Useful Local Evidence | Wonderweb Studio",
+      "description": "Create service-area pages that explain real coverage, relevant work and customer next steps, without inventing offices or repeating city-swapped copy.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--service-area-pages-with-real-evidence.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/seasonal-local-seo-planning/",
+      "title": "Seasonal Local SEO Planning for Service Businesses | Wonderweb Studio",
+      "description": "Prepare local service content before seasonal demand, align it with real availability and keep customer information accurate when priorities change.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--seasonal-local-seo-planning.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/google-ads-search-term-review/",
+      "title": "A Practical Google Ads Search-Term Review | Wonderweb Studio",
+      "description": "Review search terms by customer intent, add negatives carefully and use real lead feedback to improve targeting without blocking relevant demand.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--google-ads-search-term-review.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/qualified-lead-tracking-google-ads/",
+      "title": "Qualified-Lead Tracking for Google Ads | Wonderweb Studio",
+      "description": "Connect Google Ads inquiries to qualification and sales stages, with clear definitions, reliable handoffs and realistic reporting limitations.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--qualified-lead-tracking-google-ads.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/google-ads-budget-by-service/",
+      "title": "Allocate Google Ads Budget by Service | Wonderweb Studio",
+      "description": "Build a service-level advertising budget around capacity, economics and qualified inquiries, then expand only when the evidence supports it.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--google-ads-budget-by-service.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/google-search-campaign-launch-checklist/",
+      "title": "Google Search Campaign Launch Checklist | Wonderweb Studio",
+      "description": "Check the offer, targeting, landing page, inquiry delivery and sales handoff before launching a Google Search campaign for a service business.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--google-search-campaign-launch-checklist.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/google-ads-experiment-log/",
+      "title": "A Useful Google Ads Experiment Log | Wonderweb Studio",
+      "description": "Record campaign hypotheses, changes and review criteria so you can understand what a Google Ads test taught you and what should happen next.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--google-ads-experiment-log.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/google-ads-message-match/",
+      "title": "Google Ads Message Match: Ad to Landing Page | Wonderweb Studio",
+      "description": "Align the search ad, landing-page promise and inquiry process so customers understand the service and the next step before they make contact.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--google-ads-message-match.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/meta-instant-forms-vs-website-forms/",
+      "title": "Meta Instant Forms vs Website Forms | Wonderweb Studio",
+      "description": "Compare Meta instant forms and website forms around customer understanding, qualification, delivery and sales outcomes instead of submission cost alone.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--meta-instant-forms-vs-website-forms.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/meta-ad-creative-testing-matrix/",
+      "title": "A Practical Meta Ad Creative Testing Matrix | Wonderweb Studio",
+      "description": "Plan distinct Meta ad concepts around customer questions, evidence and offers, then use a clear test matrix to learn which messages deserve development.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--meta-ad-creative-testing-matrix.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/meta-lead-follow-up-workflow/",
+      "title": "A Practical Meta Lead Follow-Up Workflow | Wonderweb Studio",
+      "description": "Connect Meta lead capture to responsible follow-up, clear qualification and useful feedback so the business can evaluate more than form volume.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--meta-lead-follow-up-workflow.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/meta-ad-fatigue-diagnosis/",
+      "title": "Diagnose Meta Ad Fatigue Before Replacing Creative | Wonderweb Studio",
+      "description": "Investigate weaker Meta campaign results by checking the offer, audience, tracking and follow-up before assuming every decline is creative fatigue.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--meta-ad-fatigue-diagnosis.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/meta-retargeting-audience-plan/",
+      "title": "A Practical Meta Retargeting Audience Plan | Wonderweb Studio",
+      "description": "Build a focused retargeting plan with relevant messages, sensible exclusions and clear measurement instead of repeating the same sales ad to everyone.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--meta-retargeting-audience-plan.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/meta-campaign-offer-planning/",
+      "title": "Plan a Clear Meta Campaign Offer | Wonderweb Studio",
+      "description": "Create a Meta campaign offer with a specific audience, credible promise, clear boundaries and a next step your team can consistently deliver.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--meta-campaign-offer-planning.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/social-media-approval-workflow/",
+      "title": "Social Media Approval Workflow for Small Teams | Wonderweb Studio",
+      "description": "Set up clear reviewers, deadlines and change requests so your social posts are accurate, approved and ready without a daily rush to publish.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--social-media-approval-workflow.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/social-media-monthly-report-decisions/",
+      "title": "Social Media Reports: Metrics That Guide Decisions | Wonderweb Studio",
+      "description": "Turn social reporting into practical decisions about content, inquiries and production effort instead of a collection of follower and reach totals.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--social-media-monthly-report-decisions.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/social-media-agency-handover-checklist/",
+      "title": "Social Media Agency Handover Checklist | Wonderweb Studio",
+      "description": "Prepare access, assets, approvals and current campaign context before a new team takes over your social accounts and publishing schedule.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--social-media-agency-handover-checklist.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/social-community-management-response-playbook/",
+      "title": "Social Comment and Message Response Playbook | Wonderweb Studio",
+      "description": "Decide who answers social questions, what needs escalation and how inquiries reach your team without losing the context of the conversation.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--social-community-management-response-playbook.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/social-platform-selection-small-business/",
+      "title": "Choosing Social Platforms for Your Business | Wonderweb Studio",
+      "description": "Compare audience needs, usable assets and production capacity before deciding which social platforms deserve consistent attention from your team.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--social-platform-selection-small-business.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/social-media-project-photo-collection/",
+      "title": "Collecting Project Photos for Social Media | Wonderweb Studio",
+      "description": "Give your social team better source material with a simple routine for project photos, factual notes, permissions and organized handoffs.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--social-media-project-photo-collection.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/expert-interview-content-process/",
+      "title": "Expert Interviews for Better Business Content | Wonderweb Studio",
+      "description": "Capture practical knowledge from your team and turn it into accurate articles, service explanations and FAQs without asking experts to write drafts.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--expert-interview-content-process.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/business-content-brief-template/",
+      "title": "A Content Brief for Useful Business Articles | Wonderweb Studio",
+      "description": "Define the reader, decision, evidence and next step before commissioning an article so writers can deliver useful content with fewer avoidable revisions.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--business-content-brief-template.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/content-map-customer-decisions/",
+      "title": "Content Mapping Around Customer Decisions | Wonderweb Studio",
+      "description": "Build an editorial plan around real buying questions so articles support service pages and help customers prepare for the right conversation.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--content-map-customer-decisions.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/repurpose-guide-into-content-assets/",
+      "title": "Repurposing a Guide into Useful Content Assets | Wonderweb Studio",
+      "description": "Turn a substantial guide into distinct social, email and sales assets while preserving the facts and giving each format a clear purpose.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--repurpose-guide-into-content-assets.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/editorial-fact-checking-business-content/",
+      "title": "Fact-Checking Business Content Before Publication | Wonderweb Studio",
+      "description": "Review claims, examples, sources and business details before publishing so your articles remain useful and your team can explain what supports them.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--editorial-fact-checking-business-content.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/case-study-content-evidence-brief/",
+      "title": "A Case-Study Brief Built Around Available Evidence | Wonderweb Studio",
+      "description": "Organize project scope, timelines and available evidence before writing a case study, including what to do when analytics or client files are missing.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--case-study-content-evidence-brief.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/website-content-inventory-audit/",
+      "title": "Website Content Inventory and Audit Guide | Wonderweb Studio",
+      "description": "Inventory your pages, owners, evidence and next steps so a content audit becomes a practical improvement plan rather than a long spreadsheet of URLs.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-content-inventory-audit.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/cms-editorial-roles-permissions/",
+      "title": "CMS Editorial Roles and Publishing Responsibilities | Wonderweb Studio",
+      "description": "Assign clear drafting, review and publishing responsibilities so your website stays accurate without giving every contributor unrestricted control.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--cms-editorial-roles-permissions.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/content-migration-editorial-quality-checks/",
+      "title": "Content Migration Quality Checks for Business Sites | Wonderweb Studio",
+      "description": "Review meaning, links, dates, images and inquiry paths after a content migration so imported pages remain accurate and useful on the new website.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--content-migration-editorial-quality-checks.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/refresh-combine-retire-website-content/",
+      "title": "Refresh, Combine or Retire Website Content | Wonderweb Studio",
+      "description": "Assess older pages by usefulness, evidence and overlap, then choose a clear action that preserves helpful information and improves the reader\u2019s path.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--refresh-combine-retire-website-content.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/multilingual-content-publishing-workflow/",
+      "title": "Multilingual Content Publishing Workflow | Wonderweb Studio",
+      "description": "Coordinate source copy, local review, approvals and updates so each language version explains the same service accurately for its intended audience.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--multilingual-content-publishing-workflow.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/website-content-request-queue/",
+      "title": "A Website Content Request Queue That Works | Wonderweb Studio",
+      "description": "Give website edits clear briefs, priorities and acceptance checks so urgent corrections, routine updates and larger content projects do not compete blindly.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--website-content-request-queue.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/small-business-brand-kit-handoff/",
+      "title": "A Practical Brand Kit for Small Businesses | Wonderweb Studio",
+      "description": "Organize logos, colors, typography and real examples into a usable brand kit so everyday graphics stay recognizable as different people create them.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--small-business-brand-kit-handoff.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/graphic-design-brief-business-project/",
+      "title": "Graphic Design Briefs for Business Projects | Wonderweb Studio",
+      "description": "Give designers the audience, message, format and approved assets they need so the first draft solves a real communication problem for your business.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--graphic-design-brief-business-project.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/constructive-design-feedback-process/",
+      "title": "How to Give Useful Graphic Design Feedback | Wonderweb Studio",
+      "description": "Review design against its audience, message and practical use, then give clear feedback that helps your designer make the right changes efficiently.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--constructive-design-feedback-process.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/design-files-digital-print-handoff/",
+      "title": "Digital and Print Design File Handoff Guide | Wonderweb Studio",
+      "description": "Specify the real destination, source files and production checks for your graphics so web exports and printed materials arrive ready for their intended use.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--design-files-digital-print-handoff.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/campaign-creative-asset-matrix/",
+      "title": "A Campaign Creative Asset Matrix for Small Teams | Wonderweb Studio",
+      "description": "Map messages, audiences, formats and destinations before producing campaign graphics so every variation has a purpose and the review stays manageable.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--campaign-creative-asset-matrix.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/readable-accessible-brand-graphics/",
+      "title": "Readable and Accessible Brand Graphics | Wonderweb Studio",
+      "description": "Use hierarchy, contrast, text alternatives and real-size checks to create colorful graphics that communicate clearly across your website and campaigns.",
+      "image": "https://www.wonderwebstudio.com/seo/resources--readable-accessible-brand-graphics.png",
       "schema_types": [
         "Answer",
         "BlogPosting",

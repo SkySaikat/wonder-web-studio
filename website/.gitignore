@@ -8,3 +8,6 @@ coverage/
 
 # Temporary local cache backups during file-provider recovery.
 .next-stale-*/
+
+# Local image build cache
+.seo-image-cache.json

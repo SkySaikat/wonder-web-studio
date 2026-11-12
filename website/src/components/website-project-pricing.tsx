@@ -14,6 +14,6 @@ export function WebsiteProjectPricing(){
   <div className="catalog-price"><span>Starting at</span><strong>{formatPrice(payments?p.installment:p.price)}</strong><span>{payments?'USD / month × 12':'USD / project'}</span></div>
   <p className="website-payment-total">{payments?<>Total commitment: <strong>{formatPrice(p.installment*p.months)}</strong> USD</>:<>Or {formatPrice(p.installment)} / month × 12<br/>Total: {formatPrice(p.installment*p.months)} USD</>}</p>
   <ul>{p.includes.map(item=><li key={item}><Check size={17} aria-hidden="true"/><span>{item}</span></li>)}</ul><p className="catalog-exclusions">{p.excludes}</p>
-  <BookCallButton icon={false} service={`${p.name} — ${payments?'12-payment option':'pay in full'}`} className="button">Discuss this project<ArrowUpRight size={18} aria-hidden="true"/></BookCallButton>
+  <BookCallButton icon={false} service={`${p.name} - ${payments?'12-payment option':'pay in full'}`} className="button">Discuss this project<ArrowUpRight size={18} aria-hidden="true"/></BookCallButton>
  </article>)}</div><div className="price-payment-explainer"><p><strong>Know the full commitment.</strong> {paymentTerms.installments}</p><p>{paymentTerms.hosting}</p></div></>;
 }

@@ -15,13 +15,14 @@ items=json.loads((AUDIT/'raw-items.json').read_text())
 NOW='2026-11-11'
 BR=re.compile(r'(?:built[\s-]*right|buildright)(?:[\s-]*digital)?|\bBRD\b',re.I)
 SELF=re.compile(r'\b(we|our|ours|us|I|my)\b',re.I)
-UNSUPPORTED=re.compile(r'\b(aeo|chatgpt|gemini|grok|claude|perplexity|ai for|ai seo|ai overviews)\b|chatgpt ads|\b(programmatic|streaming tv|ctv|ott|franchise|bing ads|linkedin ads|ai consulting|ai automation)\b',re.I)
+# The owner confirms these specialist categories; availability still needs editorial review.
+UNSUPPORTED=re.compile(r'(?!)',re.I)
 REVIEW=re.compile(r'\b(?:agencies|firms|providers|companies)\b.{0,60}(?:compared|ranked|worth)|\bbest\b|\branked\b|\btop\b.*agenc|agencies.*\brank|client.s|\$|\d+%|pay.per.lead terms|performance max may|owners say',re.I)
 BADTITLE=re.compile(r'privacy|terms|thank you|feedback|^leads$|^sitemap$|homepage|^home$|about us|gives back|^contact|^pricing|our work|^blog$|\btemplate\b|mockup|\bdraft\b|\bduplicate\b|landing page v?\d*|^ads landing|gads lp|^videos$|^our reviews',re.I)
 BADBLOCK=re.compile(r'\b(testimonial|clients served|client tenure|years in business|review sites|star rating|five.star|5.star|4\.9/5|google partner|our clients|our team|case stud|success stor|award.winning|guaranteed results|guarantee.{0,20}(rank|lead|result)|chatgpt ads|\d+\s*years.{0,20}experience)\b',re.I)
 # Deliberate equivalences; source URLs never become redirects away from the owner's other domain.
-manual={'/':'/','/contact-us/':'/contact/','/contact/':'/contact/','/pricing/':'/pricing/','/our-work/':'/results/','/about-us/':'/about/','/blog/':'/resources/','/seo/':'/services/seo/','/home-services-seo/':'/services/seo/','/google-ads/':'/services/google-ads/','/meta-ads/':'/services/meta-ads/','/web-design/':'/services/web-design/','/website-design/':'/services/web-design/','/content-marketing/':'/services/content-management/','/website-management/':'/services/website-management/','/roofers/':'/industries/roofing/','/roofing/':'/industries/roofing/','/electricians/':'/industries/electricians/','/plumbers/':'/industries/plumbing/','/hvac/':'/industries/hvac/','/bathroom-remodelers/':'/industries/bathroom-remodeling/','/bathroom-remodeling/':'/industries/bathroom-remodeling/','/landscaping/':'/industries/landscaping/'}
-manual.update({'/hvac-seo/':'/industries/hvac/seo/','/pest-control-marketing/':'/industries/pest-control/','/landscaping-marketing/':'/industries/landscaping/'})
+manual={'/':'/','/contact-us/':'/contact/','/contact/':'/contact/','/pricing/':'/pricing/','/our-work/':'/results/','/about-us/':'/about/','/blog/':'/resources/','/seo/':'/services/seo/','/home-services-seo/':'/services/seo/','/google-ads/':'/services/google-ads/','/meta-ads/':'/services/meta-ads/','/web-design/':'/services/web-design/','/website-design/':'/services/web-design/','/content-marketing/':'/services/content-creation/','/website-management/':'/services/website-management/','/roofers/':'/industries/roofing/','/roofing/':'/industries/roofing/','/electricians/':'/industries/electricians/','/plumbers/':'/industries/plumbing/','/hvac/':'/industries/hvac/','/bathroom-remodelers/':'/industries/bathroom-remodeling/','/bathroom-remodeling/':'/industries/bathroom-remodeling/','/landscaping/':'/industries/landscaping/'}
+manual.update({'/local-service-ads/':'/services/local-services-ads/','/bing-ads/':'/services/microsoft-ads/','/generative-ai-search-optimization/':'/services/ai-search-optimization/','/lead-generation/':'/services/lead-generation/','/hvac-seo/':'/industries/hvac/seo/','/pest-control-marketing/':'/industries/pest-control/','/landscaping-marketing/':'/industries/landscaping/'})
 # Resolve only to real current routes (some legacy names have different present slugs).
 content=(ROOT/'website/src/lib/content.ts').read_text()
 service_slugs=set(re.findall(r"slug:\s*['\"]([^'\"]+)",content.split('export const industries')[0]))
@@ -29,7 +30,34 @@ existing_posts=set(re.findall(r"slug:\s*['\"]([^'\"]+)",''.join((ROOT/f'website/
 allowed=set(['p','h2','h3','h4','ul','ol','li','strong','em','a','table','thead','tbody','tr','th','td','br','blockquote'])
 def text(s): return re.sub(r'\s+',' ',BeautifulSoup(s or '', 'html.parser').get_text(' ',strip=True)).strip()
 def category(title):
- for regex,name,service in [(r'\bseo\b|\baeo\b|search|business profile|\bgbp\b|listing','SEO & local search','seo'),(r'google ads|ppc|\blsa\b|paid|advertis|meta ads|facebook ads','Paid advertising','google-ads'),(r'website|web design|web development','Websites','web-design'),(r'social|facebook|instagram|pinterest|content|email','Social & content','social-media-management')]:
+ rules=[
+  (r'programmatic|streaming tv|\bctv\b|\bott\b|chatgpt ads','Paid advertising','digital-media-buying'),
+  (r'franchise','Business growth','franchise-marketing'),
+  (r'ai for|ai consulting|ai automation','Websites','ai-workflow-automation'),
+  (r'\baeo\b|\bgeo\b|ai search|gen ai|generative ai|answer engine','AI search','ai-search-optimization'),
+  (r'local service.? ads|\blsa\b','Paid advertising','local-services-ads'),
+  (r'bing ads|microsoft ads|microsoft advertising','Paid advertising','microsoft-ads'),
+  (r'linkedin','Paid advertising','linkedin-ads'),
+  (r'email marketing|email campaign|email automation','Social & content','email-marketing'),
+  (r'reputation|review management','Business trust','reputation-management'),
+  (r'conversion rate|\bcro\b','Conversion','conversion-rate-optimization'),
+  (r'meta ads|facebook ads|instagram ads|facebook advertising|instagram advertising','Paid advertising','meta-ads'),
+  (r'website (?:maintenance|management)|web maintenance','Websites','website-management'),
+  (r'local seo|business profile|\bgbp\b|listing management|citation|map pack','SEO & local search','local-seo'),
+  (r'conversion rate|landing page|\bcro\b','Conversion','landing-page-design'),
+  (r'content marketing|copywriting|content writing|email marketing','Social & content','content-creation'),
+  (r'thumbnail','Creative','thumbnail-design'),
+  (r'graphic design|brand identity','Creative','graphic-design'),
+  (r'web development|website development','Websites','web-development'),
+  (r'content management|cms publishing','Social & content','content-management'),
+  (r'\bseo\b|\baeo\b|search|listing','SEO & local search','seo'),
+  (r'google ads|ppc|\blsa\b|paid|advertis','Paid advertising','google-ads'),
+  (r'lead generation','Business growth','lead-generation'),
+  (r'website|web design','Websites','web-design'),
+  (r'social|facebook|instagram|pinterest','Social & content','social-media-management'),
+  (r'content','Social & content','content-creation'),
+ ]
+ for regex,name,service in rules:
   if re.search(regex,title,re.I):return name,service
  return 'Business growth','content-management'
 def normpath(url):return '/'+urlsplit(url).path.strip('/')+'/' if urlsplit(url).path.strip('/') else '/'

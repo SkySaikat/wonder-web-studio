@@ -31,7 +31,7 @@ test('Zoho preserves inquiry and booking details, visitor reply-to, TLS and reci
     assert.deepEqual(message?.from,{name:'Wonderweb Studio',address:'info@wonderwebstudio.com'});
     assert.equal(message?.text,leadText(item));assert.ok(message?.signal);
   }
-  assert.equal(message?.subject,'New call request — Wonderweb Studio');assert.match(String(message?.text),/Status: REQUESTED/);
+  assert.equal(message?.subject,'New call request - Wonderweb Studio');assert.match(String(message?.text),/Status: REQUESTED/);
   assert.equal(options?.secure,true);assert.equal(options?.requireTLS,true);assert.equal(closed,2);
   await sendLead(lead,leadDeliveryConfig({...env,ZOHO_SMTP_PORT:'587'})!,{smtp});
   assert.equal(options?.secure,false);assert.equal(options?.requireTLS,true);

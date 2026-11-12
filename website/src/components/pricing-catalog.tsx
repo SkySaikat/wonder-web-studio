@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import {ArrowUpRight,Check,Compass,Layers3,MousePointer2,Sparkles} from 'lucide-react';
 import {BookCallButton} from './booking';
-import {servicePrices,formatPrice} from '@/lib/pricing';
+import {servicePrices,customServicePrices,formatPrice} from '@/lib/pricing';
 import {plans} from '@/lib/site';
 const groups=['Search & advertising','Content & creative','Website support'] as const;
 export function StandalonePricing(){return <div className="standalone-catalog">{groups.map((group,i)=><div className="price-service-group" key={group}>
@@ -10,7 +10,7 @@ export function StandalonePricing(){return <div className="standalone-catalog">{
   <span className="price-cadence">{p.cadence==='month'?'ONGOING SERVICE':'ONE-TIME PROJECT'}</span><h4>{p.name}</h4><p>{p.description}</p><div className="catalog-price compact"><span>From</span><strong>{formatPrice(p.price)}</strong><span>USD / {p.cadence}</span></div>
   <ul>{p.includes.map(item=><li key={item}><Check size={16} aria-hidden="true"/><span>{item}</span></li>)}</ul><p className="catalog-exclusions">{p.excludes}</p>
   <div className="catalog-actions"><BookCallButton icon={false} service={p.name} className="button">Discuss scope<ArrowUpRight size={16} aria-hidden="true"/></BookCallButton><Link href={`/services/${p.service}/`}>Explore the service</Link></div>
- </article>)}</div></div>)}</div>;}
+ </article>)}</div></div>)}<div className="price-service-group"><div className="price-group-heading"><Layers3/><h3>Specialist projects & programs</h3><p>A defined quote for work that varies by platform, location or system.</p></div><div className="price-service-grid">{customServicePrices.map(p=><article className="price-service-card" key={p.service} id={`price-${p.service}`}><span className="price-cadence">TAILORED SCOPE</span><h4>{p.name}</h4><p>{p.description}</p><div className="catalog-price compact"><strong>Scoped quote</strong></div><p>{p.scope}</p><div className="catalog-actions"><BookCallButton service={p.name}>Discuss the brief</BookCallButton><Link href={`/services/${p.service}/`}>Explore the service</Link></div></article>)}</div></div></div>;}
 const comparison:[string,string,string,string][]=[
  ['Monthly starting fee',...plans.map(p=>`${formatPrice(p.price)} USD`)] as [string,string,string,string],
  ['Website care and routine edits','Up to 2 hours','Up to 2 hours','Up to 2 hours'],

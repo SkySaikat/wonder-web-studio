@@ -1,8 +1,9 @@
-import {site, plans} from './site';
+import {site} from './site';
 import {absoluteUrl} from './seo';
 import {seoByPath, seoImagePath, type SeoPage} from './seo-pages';
 import imageMetadata from './image-metadata.json';
 import {articles} from './articles';
+import {pricingOffers,pricingCurrency} from './pricing';
 
 type Node=Record<string,unknown>;
 const orgId=`${site.url}/#organization`;
@@ -57,6 +58,6 @@ function mainEntity(page:SeoPage,id:string,pageId:string):Node{
   return {...base,headline:page.label,inLanguage:'en',author:ref(orgId),publisher:ref(orgId),...(page.modified?{dateModified:page.modified}:{}),...(page.published?{datePublished:page.published}:{}),...(a?{articleSection:a.category,...(a.sources?{citation:a.sources.map(s=>s.url)}:{})}:{})};
  }
  if(page.entity==='CreativeWork')return {...base,creator:ref(orgId),inLanguage:'en',image:page.images?.map(p=>ref(`${absoluteUrl(p)}#image`))};
- if(page.entity==='OfferCatalog')return {...base,name:'Website and marketing starting plans',itemListElement:plans.map(p=>({'@type':'Offer',name:`${p.name} — monthly starting scope`,description:`${p.description} ${p.note} Starting price; final scope and quote agreed before purchase.`,url:absoluteUrl('/pricing/'),seller:ref(orgId),priceSpecification:{'@type':'UnitPriceSpecification',minPrice:p.price,priceCurrency:'USD',unitText:'month'},itemOffered:{'@type':'Service',name:`${p.name} marketing plan`,provider:ref(orgId),description:p.items.join('; ')}}))};
+ if(page.entity==='OfferCatalog')return {...base,name:'Website projects, standalone services and monthly partnerships',itemListElement:pricingOffers().map(p=>({'@type':'Offer','@id':`${absoluteUrl('/pricing/')}#offer-${p.id}`,name:p.name,description:`${p.description} ${p.price===undefined?'Tailored quote after discovery.':'Starting price; final scope and quote agreed before purchase.'}`,url:absoluteUrl('/pricing/'),seller:ref(orgId),...(p.price===undefined?{}:{priceSpecification:{'@type':'UnitPriceSpecification',minPrice:p.price,priceCurrency:pricingCurrency,unitText:p.cadence,...(p.months?{billingDuration:p.months,unitCode:'MON'}:{})}}),itemOffered:{'@type':'Service',name:p.name,provider:ref(orgId),...(p.service?{url:absoluteUrl(`/services/${p.service}/`)}:{}),description:p.description}}))};
  return base;
 }

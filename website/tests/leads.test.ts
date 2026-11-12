@@ -40,7 +40,7 @@ test('call requests retain their time zone and remain unconfirmed',async()=>{
   assert.match(leadText(parsed),/No calendar reservation has been created/);
   let sent:Record<string,unknown>|undefined;
   await deliverLead(parsed,{key:'test',from:'a@example.com',to:'info@example.com'},async(_url,init)=>{sent=JSON.parse(String(init?.body));return Response.json({id:'booking-receipt'})});
-  assert.equal(sent?.subject,'New call request — Wonderweb Studio');
+  assert.equal(sent?.subject,'New call request - Wonderweb Studio');
   for(const booking of [{...request.booking,date:'2020-01-01'},{...request.booking,date:'2027-02-30'},{...request.booking,time:'25:00'},{...request.booking,time:'14:17'},{...request.booking,timeZone:'Not/AZone'},{...request.booking,durationMinutes:120}])assert.equal(leadSchema.safeParse({...lead,booking}).success,false);
 });
 test('booking window uses the requested time zone and a bounded future period',()=>{

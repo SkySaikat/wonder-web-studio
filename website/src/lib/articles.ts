@@ -1,8 +1,9 @@
+import {serviceGuides} from './service-guides';
 import {searchLedArticles} from './search-led-articles';
 import type { Section } from './content';
 import {practicalGuides} from './practical-guides';
 export type Article = { slug: string; primaryService?: string; title: string; seoTitle?: string; updated?: string; published?: string; category: string; summary: string; readTime: string; sections: Section[]; checklist: string[]; related: string[]; faqs?: [string,string][]; sources?: {title:string;url:string}[] };
-export const articles: Article[] = [
+const existingArticles: Article[] = [
   {slug:'google-ads-cost-home-services',title:'What should a home-service business budget for Google Ads?',category:'Paid advertising',summary:'Separate media spend, management, landing pages and follow-up before deciding what a campaign really costs.',readTime:'5 min read',sections:[
     {title:'Start with the service and the market',body:'There is no useful universal advertising budget for every contractor. A roofing replacement campaign and a plumbing repair campaign have different job values, demand and sales processes. Decide which service you want to promote, where you can deliver it and how much work your team can take on. Those decisions shape the campaign before the budget is allocated.'},
     {title:'Separate the four parts of the investment',body:'Media spend is paid to Google. Management pays for campaign work and review. Landing-page or tracking work may be a separate setup project. Your own time handling inquiries is another cost. Wonderweb’s focused Google Ads management starts at $799/month; advertising spend is separate and the proposal defines what is included. A larger market or multi-location account needs its own scope.'},
@@ -10,7 +11,7 @@ export const articles: Article[] = [
     {title:'Agree on what counts as a lead',body:'A button click, an unanswered call and a qualified estimate request are different events. Decide how the business will record each stage. Where possible, review service-area fit, requested job type, booked appointments and sales outcomes. A low cost per form fill can be misleading when many submissions are unsuitable or duplicates.'},
     {title:'Set the review process before launch',body:'Agree on the test budget, who will respond to inquiries and when campaign decisions will be reviewed. Avoid changing every variable after a few clicks. At the same time, obvious wrong locations, broken forms or irrelevant search terms should be corrected promptly. Scale only when lead quality and delivery capacity justify the next investment.'},
   ],checklist:['Choose one priority service and a real service area.','Separate media, management, setup and sales costs.','Verify successful inquiries are tracked.','Assign someone to respond and record outcomes.','Review qualified customers and margin, not clicks alone.'],related:['google-ads','landing-page-design']},
-  {slug:'roofing-seo-cost',title:'Roofing SEO cost: what should your proposal actually include?',category:'SEO',summary:'A useful SEO quote explains the work, the evidence and the review process—not just a monthly price.',readTime:'5 min read',sections:[
+  {slug:'roofing-seo-cost',title:'Roofing SEO cost: what should your proposal actually include?',category:'SEO',summary:'A useful SEO quote explains the work, the evidence and the review process - not just a monthly price.',readTime:'5 min read',sections:[
     {title:'The starting point changes the scope',body:'A roofer with a working website, accurate business profile and real project photos has different needs from a business with duplicate pages and broken inquiry forms. An initial review should identify technical issues, useful existing content and the roofing services you want to prioritize. A quote without that context is hard to compare.'},
     {title:'Look for deliverables you can understand',body:'The proposal should explain which pages will be improved, what new content is included and how technical issues will be addressed. Ask how keyword groups map to service pages and which facts or photos you need to supply. A report of activity is not a substitute for knowing what has changed on your website.'},
     {title:'Distinguish focused local work from a larger program',body:'At Wonderweb, a focused one-location local SEO scope starts at $399/month. That does not include an entire website rebuild or unlimited articles. The Foundation plan starts at $1,199/month and combines a defined allowance of website care, local search work and content updates. More competitive markets or wider content requirements need a larger scope. These are Wonderweb starting prices, not industry averages.'},
@@ -49,3 +50,5 @@ export const articles: Article[] = [
   ...practicalGuides,
   ...searchLedArticles,
 ];
+
+export const articles:Article[]=[...existingArticles,...serviceGuides];

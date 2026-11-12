@@ -2,7 +2,7 @@ import entries from '@/data/migrated/index.json';
 import seoTitles from '@/data/migration-seo-titles.json';
 
 export type MigratedEntry = (typeof entries)[number];
-export type MigratedDocument = MigratedEntry & {html:string; text:string; markdown:string; headings:{id:string;title:string}[]; faqs:[string,string][]};
+export type MigratedDocument = MigratedEntry & {html:string; text:string; markdown:string; headings:{id:string;title:string}[]; faqs:[string,string][]; editorialReview?:{status:string;reviewed:string;source:string}};
 export const migratedEntries: MigratedEntry[] = entries;
 export const migrationPageSize = 24;
 export function isReleased(entry: Pick<MigratedEntry,'published'>, now:Date|number=new Date()):boolean {

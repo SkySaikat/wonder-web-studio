@@ -2,6 +2,8 @@ import {migratedByPath,publishedMigrations,migrationPageSize,migrationLibraryPat
 import {migratedDocument} from './migrated-body';
 import {locationReading} from './location-reading';
 import {articles} from './articles';
+import {serviceReading,serviceArchiveReading,relatedArticles} from './service-reading';
+import {servicePrices,customServicePrices,websiteProjects,formatPrice,paymentTerms,pricingFaqs} from './pricing';
 import {caseStudyDetails} from './case-study-details';
 import {services,industries,work} from './content';
 import {markdownPath} from './content-paths';
@@ -25,19 +27,21 @@ const links=(paths:string[])=>bullets([...new Set(paths)].map(path=>`[${seoByPat
 export function markdownBody(page:SeoPage):string{
  if(page.category==='Guide library'){const kind=page.path.startsWith('/solutions/')?'solutions':'resources';const number=Number(page.path.split('/').filter(Boolean).at(-1))||1;const entries=publishedMigrations(kind);return `## Guides\n\n${links(entries.slice((number-1)*migrationPageSize,number*migrationPageSize).map(e=>e.path))}\n\n## Library pages\n\n${links(Array.from({length:Math.ceil(entries.length/migrationPageSize)},(_,i)=>migrationLibraryPath(kind,i+1)))}`;}
  const migrated=migratedByPath.get(page.path);
- if(migrated){const doc=migratedDocument(migrated);return `Original publication: ${migrated.originalPublished}\nWonderweb adaptation: ${migrated.published}\n\nAdapted from owner-supplied editorial material. Cost examples and platform details reflect the original context; check current quotes and documentation.\n\n${doc.markdown}`;}
+ if(migrated){const doc=migratedDocument(migrated);return `Original publication: ${migrated.originalPublished}\nWonderweb adaptation: ${migrated.published}\n\n${doc.editorialReview?.status==='rewritten'?`Rewritten for Wonderweb Studio on ${doc.editorialReview.reviewed} with expanded examples and current primary references.`:'Adapted from owner-supplied editorial material. Cost examples and platform details reflect the original context; check current quotes and documentation.'}\n\n${doc.markdown}\n\n## Put the ideas into practice\n\n${links([`/services/${migrated.service}/`,'/pricing/',...serviceReading(migrated.service).slice(0,3).map(a=>`/resources/${a.slug}/`)])}`;}
  const [kind,slug,service]=page.path.split('/').filter(Boolean);
  const blocks:string[]=[];
  if(kind==='resources'&&slug){
   const a=articles.find(a=>a.slug===slug)!;
   const image=editorialImages[slug];
-  blocks.push(`Author: Wonderweb Studio editorial team\n\n![${image.alt}](${absoluteUrl(image.src)})`,sections(a.sections.map(s=>[s.title,s.body])),`## Your next-step checklist\n\n${bullets(a.checklist)}`,faq(a.faqs||[]));
+  blocks.push(`Author: Wonderweb Studio editorial team\n\n![${image.alt}](${absoluteUrl(image.src)})`,sections(a.sections.map(s=>[s.title,s.body+(s.links?.length?'\n\n'+s.links.map(l=>`[${l.label}](${absoluteUrl(l.href)})`).join(' · '):'')])),`## Your next-step checklist\n\n${bullets(a.checklist)}`,faq(a.faqs||[]));
   if(a.sources?.length)blocks.push(`## Further reading\n\n${bullets(a.sources.map(s=>`[${s.title}](${s.url})`))}`);
+  blocks.push(`## Related guides\n\n${links(relatedArticles(a).map(a=>`/resources/${a.slug}/`))}`);
   blocks.push(`## Related services\n\n${links(a.related.map(s=>`/services/${s}/`))}`);
  }
  if(kind==='services'&&slug){
   const s=services.find(s=>s.slug===slug)!;const d=serviceDetails[slug];
   blocks.push(s.intro,sections(s.sections.map(s=>[s.title,s.body])),`## Deliverables\n\n${bullets(s.deliverables)}`);
+  blocks.push(`## Guides to ${s.title}\n\n${links(serviceReading(slug).map(a=>`/resources/${a.slug}/`))}`,`## Industry reading\n\n${links(serviceArchiveReading(slug).map(a=>a.path))}`,`## Pricing\n\n[Review starting prices, scope and payment options](${absoluteUrl('/pricing/')})`);
   if(d)blocks.push(`## Who this is for\n\n${d.fit}\n\n${d.outcome}`,sections(d.steps),sections(d.checks),`## Inputs\n\n${bullets(d.inputs)}`,`## Measurement\n\n${bullets(d.metrics)}`,faq(d.faq));
  }
  if(kind==='locations'&&slug){
@@ -62,7 +66,7 @@ export function markdownBody(page:SeoPage):string{
   blocks.push(`## Campaign context\n\n${s.period}\n\n${s.challenge}\n\n${s.approach}`,`## Reported outcomes\n\n${bullets(s.results.map(([v,l])=>`${v} ${l}`))}\n\n${s.context}`,d.intro,sections(d.chapters),`## Lessons\n\n${d.lessons}`,faq(d.questions),`## Further reading\n\n${links(d.reading.map(s=>`/resources/${s}/`))}`);
  }
  if(kind==='work'&&slug){const w=work.find(w=>w.slug===slug)!;blocks.push('challenge' in w?`## Brief\n\n${w.challenge}\n\n## Approach\n\n${w.approach}\n\n## Deliverables\n\n${bullets(w.deliverables)}`:'A creative exploration from the studio’s earlier portfolio; not a measured campaign result.');}
- if(page.path==='/pricing/')blocks.push(sections(plans.map(p=>[p.name,`From $${p.price} USD per month. ${p.description}\n\n${bullets(p.items)}\n\n${p.note}`])));
+ if(page.path==='/pricing/')blocks.push(paymentTerms.general,sections(plans.map(p=>[p.name,`From $${p.price} USD per month. ${p.description}\n\n${bullets(p.items)}\n\n${p.note}`])),sections(servicePrices.map(p=>[p.name,`From ${formatPrice(p.price)} USD per ${p.cadence}. ${p.description}\n\n${bullets(p.includes)}\n\n${p.excludes}\n\n[Explore the service](${absoluteUrl(`/services/${p.service}/`)})`])),sections(websiteProjects.map(p=>[p.name,`From ${formatPrice(p.price)} USD paid in full, or ${p.months} monthly payments from ${formatPrice(p.installment)} USD. Payment-plan total: ${formatPrice(p.installment*p.months)} USD.\n\n${bullets(p.includes)}\n\n${p.excludes}`])),sections(customServicePrices.map(p=>[p.name,`Scoped quote. ${p.description} ${p.scope}`])),paymentTerms.installments,paymentTerms.hosting,paymentTerms.retainers,faq(pricingFaqs));
  if(page.path==='/'||page.path==='/about/'||page.path==='/contact/')blocks.push(`## Studio facts\n\n${site.positioning} We provide websites, SEO, paid advertising, social media and creative content for small businesses and home-service companies. Founder, CEO and team lead: Saikat Chowdhury. Our team collaborates across locations and time zones.\n\nContact: ${site.email}. Call requests include a preferred date and time and require confirmation.`,faq([studioCoverageFaq]),links(['/services/','/pricing/','/results/','/locations/','/contact/']));
  if(page.children?.length)blocks.push(`## Explore\n\n${links(page.children)}`);
  if(kind==='privacy-policy'||kind==='terms')blocks.push(`This is a discovery summary. Read the complete current policy on the [canonical website page](${absoluteUrl(page.path)}).`);
@@ -74,4 +78,4 @@ export function pageMarkdown(page:SeoPage):string{
 }
 
 export const markdownPages=new Map(seoPages.filter(p=>p.index!==false).map(p=>[markdownPath(p.path),p]));
-export function markdownIndex(){return `# Wonderweb Studio content directory\n\nMarkdown guides to the public website. Canonical HTML pages remain the primary reference.\n\n${getPublicSeoPages().map(p=>`- [${p.title}](${absoluteUrl(markdownPath(p.path))}) — [Website page](${absoluteUrl(p.path)}): ${p.description}`).join('\n')}\n`;}
+export function markdownIndex(){return `# Wonderweb Studio content directory\n\nMarkdown guides to the public website. Canonical HTML pages remain the primary reference.\n\n${getPublicSeoPages().map(p=>`- [${p.title}](${absoluteUrl(markdownPath(p.path))}) - [Website page](${absoluteUrl(p.path)}): ${p.description}`).join('\n')}\n`;}

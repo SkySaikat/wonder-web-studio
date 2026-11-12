@@ -1,7 +1,9 @@
+import expandedServices from '@/data/expanded-services.json';
 import {clientProjects} from './projects';
 export type Section = { title: string; body: string; links?: {label:string;href:string}[] };
 export type Service = { slug: string; title: string; category: string; headline: string; intro: string; description: string; deliverables: string[]; sections: Section[]; faq: [string,string][]; related: string[] };
 export const services: Service[] = [
+  ...expandedServices.map(({detail,...service}) => service as Service),
   {
     slug: 'web-design', title: 'Website Design', category: 'Websites', headline: 'A website that looks the part. And plays its part.',
     description: 'Custom website design for small businesses and home-service companies. Clear messaging, responsive layouts and an easier path from visitor to inquiry.',
