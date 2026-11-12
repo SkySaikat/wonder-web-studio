@@ -1,0 +1,847 @@
+[
+  {
+    "slug": "social-media-approval-workflow",
+    "title": "A social media approval workflow that keeps posts moving",
+    "seoTitle": "Social Media Approval Workflow for Small Teams",
+    "updated": "2026-11-13",
+    "category": "Social & content",
+    "summary": "Set up clear reviewers, deadlines and change requests so your social posts are accurate, approved and ready without a daily rush to publish.",
+    "readTime": "4 min read",
+    "primaryService": "social-media-management",
+    "sections": [
+      {
+        "title": "Give each post one accountable reviewer",
+        "body": "A post can stall when the owner, office manager and sales team all assume someone else is checking it. Choose one person who gathers business feedback and returns a consolidated decision. That person does not need to write the captions; they need authority to confirm that the service, dates and offer are accurate. Keep specialist review available for genuinely technical claims. In a managed social engagement, the agency prepares the work while your designated reviewer owns business approval, so responsibilities stay clear even during a busy week.",
+        "links": [
+          {
+            "label": "Explore social media management",
+            "href": "/services/social-media-management/"
+          }
+        ]
+      },
+      {
+        "title": "Separate factual checks from creative preferences",
+        "body": "Review the information before debating a background color. Confirm the service being promoted, eligibility, contact destination, spelling of names and whether the photograph can be used. Then consider clarity, crop and tone. Label feedback as a required correction, an optional preference or a question. For example, replacing an expired offer is required; requesting a second composition because it feels fresher is a preference. This distinction helps the designer resolve important issues first and makes revision allowances easier to understand."
+      },
+      {
+        "title": "Make the review window visible",
+        "body": "Agree a working review window when planning the month, with dates that fit the actual availability of your team. A draft supplied on Friday afternoon should not depend on a reviewer who is away until Tuesday. Keep draft, awaiting approval, approved, scheduled and published as separate states. Silence should not count as permission unless a very specific process has been agreed. If an item misses approval, move the schedule or use an already approved evergreen item instead of rushing an uncertain claim into public view."
+      },
+      {
+        "title": "Keep one current version and a decision trail",
+        "body": "Store the caption, image, destination link and feedback together under a simple post identifier. Avoid approving an image in a chat while a different caption remains in a spreadsheet. Once approved, record who approved it and when; if the offer changes later, return the item to review. An easy example is a seasonal installation promotion: the picture may remain usable after the promotion ends, but the discount and booking deadline need fresh approval. Version history makes that change visible without a long argument about old messages."
+      },
+      {
+        "title": "Price the review process as part of delivery",
+        "body": "A useful social scope explains how many items are produced, who supplies source material, how many revision rounds are included and what happens after a missed deadline. It should also distinguish corrections to agency errors from a new brief after approval. Review your first month together and identify where the delays actually occurred. You may need a better source folder or a backup approver, rather than more posting volume. Compare proposals on this operating process as well as the number of graphics promised.",
+        "links": [
+          {
+            "label": "Compare social and marketing scopes",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Name one reviewer and a backup.",
+      "Review facts before visual preferences.",
+      "Keep caption, artwork and destination together.",
+      "Record approval rather than relying on silence.",
+      "Agree how late changes affect the schedule."
+    ],
+    "related": [
+      "social-media-management",
+      "content-creation"
+    ],
+    "faqs": [
+      [
+        "Should every employee approve every post?",
+        "Usually that creates unnecessary delay. Give the accountable reviewer access to subject experts when needed, then return one consolidated response to the production team. Limit wider review to content that genuinely needs it."
+      ],
+      [
+        "What if a scheduled offer changes?",
+        "Pause the affected item, correct both the artwork and caption, check its destination and record a fresh approval. An approved design is not permission to publish information that is no longer accurate."
+      ],
+      [
+        "Can an agency approve posts for us?",
+        "An agency can check language, formatting and agreed brand rules. Facts about your availability, pricing, projects and permissions still need an authorized business source or a clearly documented standing approval process."
+      ]
+    ],
+    "sources": []
+  },
+  {
+    "slug": "social-media-monthly-report-decisions",
+    "title": "What a useful monthly social media report should help you decide",
+    "seoTitle": "Social Media Reports: Metrics That Guide Decisions",
+    "updated": "2026-11-13",
+    "category": "Social & content",
+    "summary": "Turn social reporting into practical decisions about content, inquiries and production effort instead of a collection of follower and reach totals.",
+    "readTime": "4 min read",
+    "primaryService": "social-media-management",
+    "sections": [
+      {
+        "title": "Start with the decision the report needs to support",
+        "body": "A monthly report is useful when it helps decide what to repeat, stop or improve. A renovation company may want better consultation inquiries; a new service launch may need clearer audience understanding. State the priority before opening the platform dashboard. Then choose measures that relate to it. Social media management should connect publishing activity with this review process, rather than delivering a pile of screenshots that leaves the business to guess which changes matter. Include what the team produced as context, not as the only result.",
+        "links": [
+          {
+            "label": "Explore social media management",
+            "href": "/services/social-media-management/"
+          }
+        ]
+      },
+      {
+        "title": "Keep attention, visits and inquiries separate",
+        "body": "Reach describes exposure, while a profile visit or website session reflects a different action. None automatically means a suitable customer asked for a quote. Present these stages separately so a popular educational post is not mistaken for a sales campaign. When comparing posts, note their format, distribution and whether they received paid support. A promoted video and an ordinary image post do not have the same starting conditions. Small samples can fluctuate, so explain uncertainty rather than assigning a firm cause to every increase."
+      },
+      {
+        "title": "Connect website links to recognizable campaigns",
+        "body": "Use a consistent campaign naming convention for links from social posts where the platform permits them. Google Analytics supports campaign parameters for identifying referral campaigns in acquisition reports. Keep names understandable to the next person reviewing the account, and test the final destination on a phone. Do not put private customer information in tracking URLs. Link data remains only one part of attribution: someone may see a post, search the business later and call without following that tagged link."
+      },
+      {
+        "title": "Bring a short sales note into the review",
+        "body": "Ask whoever handles inquiries to summarize which conversations were suitable, what customers requested and where misunderstandings appeared. A post can produce many messages about a service the business does not offer; that is a content correction opportunity, not a success to scale. Use agreed categories such as relevant inquiry, existing-customer question, recruitment message and out-of-area request. Avoid sharing unnecessary personal details in the report. The purpose is to improve marketing decisions, not to build a public record of individual conversations."
+      },
+      {
+        "title": "Finish with three specific actions and an owner",
+        "body": "End the review with a small set of decisions that can be carried into production. For example, clarify the next-step caption on project posts, collect a better before-and-after sequence, or send a particular offer to its service page rather than the homepage. Assign an owner and a review date. Include production effort as well as response so the plan is realistic for your team. When comparing agency pricing, check whether reporting includes this interpretation and planning time or only automated metric delivery.",
+        "links": [
+          {
+            "label": "Compare social and marketing scopes",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "State the business question at the top.",
+      "Separate organic and paid distribution.",
+      "Distinguish attention, visits and inquiries.",
+      "Add a brief sales-quality note.",
+      "Assign owners to the next three actions."
+    ],
+    "related": [
+      "social-media-management",
+      "content-creation"
+    ],
+    "faqs": [
+      [
+        "Are follower counts still useful?",
+        "They can provide context about audience development, but they do not demonstrate revenue. Interpret them alongside the relevance of the audience, engagement quality and the business outcome the content is intended to support."
+      ],
+      [
+        "Should every post have a sales result?",
+        "No. Educational and process posts can answer questions before a buyer is ready to contact you. Evaluate their intended role and the wider journey rather than forcing every post into a last-click sales claim."
+      ],
+      [
+        "Can website visits be attributed perfectly?",
+        "No. Tracking permissions, platform behavior and customers switching devices or channels can leave gaps. Use available evidence, sales feedback and clear assumptions rather than presenting an incomplete report as a complete account of influence."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Google Analytics: campaign URL parameters",
+        "url": "https://support.google.com/analytics/answer/10917952?hl=en"
+      }
+    ]
+  },
+  {
+    "slug": "social-media-agency-handover-checklist",
+    "title": "How to hand social media accounts to a new management team",
+    "seoTitle": "Social Media Agency Handover Checklist",
+    "updated": "2026-11-13",
+    "category": "Social & content",
+    "summary": "Prepare access, assets, approvals and current campaign context before a new team takes over your social accounts and publishing schedule.",
+    "readTime": "4 min read",
+    "primaryService": "social-media-management",
+    "sections": [
+      {
+        "title": "Inventory accounts before granting access",
+        "body": "List each profile, its business owner, current administrators, linked email and the person responsible for recovery. Include profiles that are rarely used so they do not become an unexpected access problem later. The business should understand which accounts it controls before adding a management partner. Record account identifiers rather than passwords in the handover document. If ownership is unclear, resolve that separately with the platform process. A new posting schedule cannot compensate for an account the business cannot reliably administer or recover.",
+        "links": [
+          {
+            "label": "Explore social media management",
+            "href": "/services/social-media-management/"
+          }
+        ]
+      },
+      {
+        "title": "Transfer working knowledge as well as files",
+        "body": "A folder of logos is only a small part of a useful handover. Include brand guidance, approved photography, past content calendars, current offers, audience questions and posts that caused confusion. Explain any topics the team should handle carefully or avoid until facts are confirmed. For a home-service business, this might include a retired service, an installer who no longer works with the company or project photography with limited permission. Keep this information in a short reference document that a new writer can actually use."
+      },
+      {
+        "title": "Agree where the old schedule ends",
+        "body": "Identify the last post owned by the outgoing team and the first owned by the incoming one. Review scheduled posts, recurring promotions, paid boosts and automated messages before the changeover. Two teams publishing from separate calendars can create duplicates or conflicting offers. If a campaign must continue through the handover, assign responsibility for monitoring it and responding to issues. Preserve useful records of earlier work, but avoid silently republishing old creative as a new project or assuming past approval applies indefinitely."
+      },
+      {
+        "title": "Test a small publishing cycle before expanding",
+        "body": "Start with a draft, an approval, a scheduled item and a post-publication check. Confirm that the right person can review the content, that links reach the intended page and that comments or messages have an assigned owner. This exercise reveals missing permissions and unclear expectations while the volume is manageable. Use an ordinary service or process post instead of a time-sensitive promotion for the first cycle. Document the fix for any issue so it does not become a recurring interruption every time someone changes roles."
+      },
+      {
+        "title": "Define the service boundary and exit process",
+        "body": "Decide whether the new team covers organic posting, paid advertising, direct messages, comment moderation or only some of those activities. These are different responsibilities and should not be assumed from the phrase social management. Your proposal should also explain file delivery and removal of agency access at the end of the relationship. A clean handover works in both directions. Reviewing these details while comparing prices helps the business retain operational knowledge and avoids an unpleasant scramble when a staff member or supplier changes.",
+        "links": [
+          {
+            "label": "Compare social and marketing scopes",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Inventory profiles and recovery ownership.",
+      "Collect approved assets and current offers.",
+      "Agree the publishing changeover date.",
+      "Test one complete approval-to-publish cycle.",
+      "Document access removal and file handback."
+    ],
+    "related": [
+      "social-media-management",
+      "content-creation"
+    ],
+    "faqs": [
+      [
+        "Should we send our main passwords to the agency?",
+        "Use the platform’s supported business access arrangements where available and grant the permissions required for the work. Keep business recovery control with authorized people and follow the current platform instructions for your account."
+      ],
+      [
+        "Do we need to delete old posts?",
+        "Not automatically. Review them for inaccurate offers, inappropriate permissions or services you no longer provide. Useful historical posts can remain when their context is clear and they do not mislead visitors."
+      ],
+      [
+        "Who should answer messages during the handover?",
+        "Name a specific person and a backup before the changeover begins. If the agency is only responsible for publishing, customer messages should continue to reach the business team rather than an unmonitored queue."
+      ]
+    ],
+    "sources": []
+  },
+  {
+    "slug": "social-community-management-response-playbook",
+    "title": "Build a practical response playbook for social comments and messages",
+    "seoTitle": "Social Comment and Message Response Playbook",
+    "updated": "2026-11-13",
+    "category": "Social & content",
+    "summary": "Decide who answers social questions, what needs escalation and how inquiries reach your team without losing the context of the conversation.",
+    "readTime": "4 min read",
+    "primaryService": "social-media-management",
+    "sections": [
+      {
+        "title": "Separate publishing from customer response",
+        "body": "A business can have consistent social posts and still leave customer questions unanswered. Publishing and conversation handling are different workflows, so name an owner for each. List the hours when messages are reviewed and how an urgent request should reach the business through its normal contact process. Do not imply round-the-clock response unless you have the staffing to provide it. If social media management is outsourced, confirm whether the agreement includes monitoring and replies or only prepares and schedules the content.",
+        "links": [
+          {
+            "label": "Explore social media management",
+            "href": "/services/social-media-management/"
+          }
+        ]
+      },
+      {
+        "title": "Create reply categories instead of rigid scripts",
+        "body": "Organize recurring questions into useful groups: service availability, project suitability, estimate requests, existing-customer issues and recruitment. For each, define what information can be given publicly and the appropriate next step. A suggested opening can help staff respond consistently, but leave room to address the actual question. Someone asking about commercial work needs a different answer from a homeowner asking about a repair. A reply that ignores their context can create more frustration than a short, honest explanation of the process."
+      },
+      {
+        "title": "Move sensitive details to a suitable channel",
+        "body": "A public comment is not the right place to gather addresses, account information or a detailed dispute history. Acknowledge the issue and offer the business’s established private contact route. Explain what information is useful without asking the person to repeat their entire story unnecessarily. Keep any internal handoff limited to what the next team member needs. For example, an estimate inquiry may need the requested service and general area; a billing issue should go to the person authorized to review the customer account."
+      },
+      {
+        "title": "Define escalation before a difficult conversation",
+        "body": "Agree which messages can be answered from approved information and which need a manager or technical expert. Complaints, safety questions, threatening language and disputed project claims should not be improvised by a scheduler who lacks the facts. Record the escalation owner and a practical response process. Acknowledge receipt where appropriate without promising a resolution time that cannot be met. Keep the tone factual and respectful; the aim is to route the conversation responsibly, not win a public argument or erase every critical comment."
+      },
+      {
+        "title": "Review recurring questions with the content team",
+        "body": "The response log can show what the website or social posts fail to explain. If people repeatedly ask whether you serve a particular area or whether consultations are paid, make that information easier to find. Use anonymized themes rather than individual conversations when planning content. Review the workload too: a large message queue may require customer-service capacity beyond a posting package. Compare scopes and pricing with these responsibilities visible so that community handling receives the time it needs instead of becoming an unspoken expectation.",
+        "links": [
+          {
+            "label": "Compare social and marketing scopes",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Assign message ownership and review hours.",
+      "Group common questions by intent.",
+      "Define private contact routes.",
+      "Name technical and complaint escalation owners.",
+      "Turn recurring confusion into content improvements."
+    ],
+    "related": [
+      "social-media-management",
+      "content-creation"
+    ],
+    "faqs": [
+      [
+        "Does social management always include inbox replies?",
+        "No. Some agreements cover publishing only, while others include a defined monitoring allowance. Ask which channels, hours and types of conversation are included before assuming the agency will act as your customer-service team."
+      ],
+      [
+        "Should every reply use the same template?",
+        "Use approved information and a consistent tone, but address the actual question. Templates are helpful starting points; copying them without context can make a straightforward conversation feel ignored or automated."
+      ],
+      [
+        "Can comments become blog topics?",
+        "Yes, when you extract the general question and remove private or identifying details. Have the relevant business expert review the answer, especially when it concerns technical services, safety or a disputed experience."
+      ]
+    ],
+    "sources": []
+  },
+  {
+    "slug": "social-platform-selection-small-business",
+    "title": "Choose social platforms around the work your team can sustain",
+    "seoTitle": "Choosing Social Platforms for Your Business",
+    "updated": "2026-11-13",
+    "category": "Social & content",
+    "summary": "Compare audience needs, usable assets and production capacity before deciding which social platforms deserve consistent attention from your team.",
+    "readTime": "4 min read",
+    "primaryService": "social-media-management",
+    "sections": [
+      {
+        "title": "Start with the customer conversation",
+        "body": "Before choosing a platform, write down the kinds of questions customers ask before buying and how much explanation the service needs. A high-consideration renovation may benefit from project walkthroughs, while a professional service may need clear expertise and process explanations. These observations help choose the content formats to test. They do not prove that one platform will always outperform another. In a social management brief, describe the audience and buying journey rather than asking the agency to publish everywhere simply because accounts already exist.",
+        "links": [
+          {
+            "label": "Explore social media management",
+            "href": "/services/social-media-management/"
+          }
+        ]
+      },
+      {
+        "title": "Audit the source material you can actually collect",
+        "body": "A platform plan must fit the material the team can produce repeatedly. List available project photography, short explanations from staff, customer questions and approved results. Note practical constraints, such as whether anyone can record clear audio or capture vertical footage safely on site. If the business only has a small set of old photos, expanding to several video-led channels may create a production problem immediately. Start by improving the collection process, then decide which formats can be sustained without making every week an emergency."
+      },
+      {
+        "title": "Assign each active channel a clear role",
+        "body": "Two channels can support the same business without carrying identical content. One may introduce completed work, another answer detailed questions, and another host longer demonstrations. Write a one-sentence purpose for each active profile and identify where interested people should go next. This makes it easier to adapt content thoughtfully instead of copying every caption and image unchanged. It also reveals profiles with no meaningful role. Keeping those accounts accurate may be sensible even when regular publishing there is not a current priority."
+      },
+      {
+        "title": "Run a manageable comparison with consistent expectations",
+        "body": "Choose a small number of channels and an agreed review period. Keep the offer and audience definition stable enough that the comparison is understandable, while adapting the format to each channel. Record production effort, relevant engagement, website visits where measurable and the quality of conversations. Do not declare a winner from one unusually popular post. A channel that produces modest attention but several appropriate questions may deserve a different assessment from one that reaches many people outside the market you can serve."
+      },
+      {
+        "title": "Expand only when the operating model is working",
+        "body": "Adding a platform creates more work than uploading an extra image: profile maintenance, crop checks, links, approvals, monitoring and reporting all increase. Compare that workload with the expected purpose of the channel before adding it to the scope. A focused plan can still support a worldwide business; it simply allocates effort to the places most relevant to the audience. When reviewing pricing, ask how additional profiles and format variations are counted so the agency and your team share the same expectations.",
+        "links": [
+          {
+            "label": "Compare social and marketing scopes",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Describe the customer’s pre-purchase questions.",
+      "List repeatable photo and video inputs.",
+      "Give each channel a specific role.",
+      "Compare response quality and production effort.",
+      "Expand only with capacity for review and upkeep."
+    ],
+    "related": [
+      "social-media-management",
+      "content-creation"
+    ],
+    "faqs": [
+      [
+        "Should we close every inactive account?",
+        "Not necessarily. An accurate profile can still help people recognize and contact the business. Review whether it needs basic maintenance, a clear link to the main channel or a formal closure based on your circumstances."
+      ],
+      [
+        "Can we post the same content everywhere?",
+        "You can reuse the underlying idea, but check each format, crop, caption and destination. A post designed for one context may become difficult to read or lose its intended next step when copied unchanged."
+      ],
+      [
+        "How many platforms should a small team use?",
+        "There is no universal number. Choose the channels where you can deliver useful content and handle the resulting activity consistently. Increase coverage when the existing workflow is reliable and the next channel has a defined purpose."
+      ]
+    ],
+    "sources": []
+  },
+  {
+    "slug": "social-media-project-photo-collection",
+    "title": "A project-photo collection routine your social team can use",
+    "seoTitle": "Collecting Project Photos for Social Media",
+    "updated": "2026-11-13",
+    "category": "Social & content",
+    "summary": "Give your social team better source material with a simple routine for project photos, factual notes, permissions and organized handoffs.",
+    "readTime": "4 min read",
+    "primaryService": "social-media-management",
+    "sections": [
+      {
+        "title": "Explain what the content team needs from each job",
+        "body": "A folder containing fifty near-identical finished-room photographs can be less useful than a small, organized set that tells the story. Ask for an establishing view, a meaningful detail, a process moment and a finished result where appropriate. Collect a short note explaining the customer’s objective and the work completed. These inputs help a social management team write accurately without guessing. The person taking photographs should understand the purpose of the content, not just receive a vague instruction to capture more images.",
+        "links": [
+          {
+            "label": "Explore social media management",
+            "href": "/services/social-media-management/"
+          }
+        ]
+      },
+      {
+        "title": "Make collection fit the working day",
+        "body": "Choose natural points in the project when photographs can be taken safely and without interrupting important work. Do not ask technicians to prioritize a shot over the job itself or to stage unsafe activity. Assign a realistic owner for the collection task and make the upload method simple enough to use from the field. A short checklist often works better than a demanding creative brief. If the business cannot collect a particular shot consistently, adjust the content plan rather than pretending the material will appear."
+      },
+      {
+        "title": "Capture facts and permissions with the image",
+        "body": "Record the project type, approximate completion period, service performed and any restrictions on publication. Confirm permission through the business’s process before using identifiable people, private properties or customer comments. Avoid sharing unnecessary addresses, registration details or other identifying information in a public post. If the content will be anonymized, say so in the brief. Accurate notes also stop the creative team from presenting a supplier image, a concept or an unfinished stage as a completed client project."
+      },
+      {
+        "title": "Organize by project and keep the original files",
+        "body": "Use a consistent folder structure and descriptive filenames that make sense outside one person’s phone. Retain the original image along with any edited version, and mark the approved selections. This allows the designer to prepare different crops without repeatedly compressing a screenshot from a messaging app. Include a simple note when a color or material should be represented accurately. The goal is a usable source library, not a large archive with no indication of which images are current, approved or relevant to the next campaign."
+      },
+      {
+        "title": "Turn one documented project into several useful posts",
+        "body": "A well-recorded project can support different ideas: the original problem, a design choice, the work sequence and the finished outcome. Each post should answer a distinct question rather than repeat the same promotional caption. Connect interested readers to the relevant service page or project explanation. Review the production allowance before requesting every possible format; a photo set, carousel and edited video require different effort. A clearly priced content and social scope lets the team choose the most useful outputs from the material available.",
+        "links": [
+          {
+            "label": "Compare social and marketing scopes",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Request a small set of purposeful views.",
+      "Make collection safe and practical on site.",
+      "Attach factual project notes and permission status.",
+      "Keep original files and approved selections.",
+      "Choose distinct stories before designing formats."
+    ],
+    "related": [
+      "social-media-management",
+      "content-creation"
+    ],
+    "faqs": [
+      [
+        "Do we need professional photography for every job?",
+        "Not necessarily. Clear, relevant photographs with accurate context can be useful. Professional photography may be worthwhile for important portfolio projects, but the routine collection process should work for the team’s everyday capacity."
+      ],
+      [
+        "Can the agency invent the project story from photos?",
+        "It should not guess important facts. Supply the objective, work performed and any limitations so captions remain accurate. When details are missing, use a narrower description or wait for confirmation."
+      ],
+      [
+        "What if we cannot show the customer or property?",
+        "Choose permitted details, anonymized process explanations or a clearly labeled illustration. Respect the agreed restrictions and avoid implying that an unrelated stock image depicts that customer’s completed work."
+      ]
+    ],
+    "sources": []
+  },
+  {
+    "slug": "expert-interview-content-process",
+    "title": "Turn an expert interview into useful business content",
+    "seoTitle": "Expert Interviews for Better Business Content",
+    "updated": "2026-11-13",
+    "category": "Social & content",
+    "summary": "Capture practical knowledge from your team and turn it into accurate articles, service explanations and FAQs without asking experts to write drafts.",
+    "readTime": "4 min read",
+    "primaryService": "content-creation",
+    "sections": [
+      {
+        "title": "Interview for a decision, not a company biography",
+        "body": "Start by identifying a question a customer needs answered. An installer might explain how a site assessment changes a quote, while an account manager could describe what happens after an inquiry. Tell the expert which decision the content should support before the conversation begins. This keeps the interview focused and makes it easier to ask for examples. A content creation partner can structure and write the material, but your team supplies the experience that turns a general explanation into something specific to the business.",
+        "links": [
+          {
+            "label": "Explore content creation services",
+            "href": "/services/content-creation/"
+          }
+        ]
+      },
+      {
+        "title": "Prepare prompts that invite useful detail",
+        "body": "Ask what customers misunderstand, which information changes the recommendation and what the team wishes buyers knew earlier. Follow up broad statements with a practical example. If the expert says preparation is important, ask what preparation looks like, who handles it and what can delay the next step. Avoid leading questions designed to produce a dramatic claim. The most useful answer may explain a limitation or tradeoff. Those details help readers compare choices and prevent the final article from sounding like a repeated sales pitch."
+      },
+      {
+        "title": "Separate firsthand knowledge from assumptions",
+        "body": "During the interview, mark whether each point comes from direct experience, a documented process, external guidance or a personal impression. Ask for supporting records when a statement involves a numerical result, a certification or a specific product claim. Do not turn an anecdote into a universal benchmark. A technician explaining one difficult installation can provide valuable context, but that story does not establish how every installation will perform. Keep uncertain points in a follow-up list so the writer does not quietly fill the gaps."
+      },
+      {
+        "title": "Build the draft around the reader’s sequence",
+        "body": "Organize the material in the order a customer encounters the issue: what they are trying to achieve, what information is needed, which choices matter and what happens next. You do not need to preserve the interview’s conversational order. Remove repeated points and translate internal jargon into ordinary language while retaining the meaning. When a technical term matters, explain it briefly. Share the outline with the expert before polishing a long draft if the topic is complex; correcting the structure early saves a larger rewrite later."
+      },
+      {
+        "title": "Make review easy for the expert",
+        "body": "Ask the reviewer to check facts, missing qualifications and misleading simplifications rather than copyedit every sentence. Flag the statements that need particular attention and keep the review in one document. After approval, the material may support an article, a service-page explanation and several short answers, each adapted to its purpose. Agree which outputs belong to the original assignment and which are additional work. A clear content scope should account for interview preparation, writing and review, so expert input becomes a repeatable process rather than an occasional favor.",
+        "links": [
+          {
+            "label": "Compare content delivery scopes",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Choose one customer decision for the interview.",
+      "Ask for examples, tradeoffs and common misunderstandings.",
+      "Label uncertain claims for follow-up.",
+      "Organize the draft around the reader’s journey.",
+      "Give the expert a focused factual review."
+    ],
+    "related": [
+      "content-creation",
+      "content-management"
+    ],
+    "faqs": [
+      [
+        "How long should an expert interview take?",
+        "Match the session to the topic and the expert’s availability. A focused conversation with prepared questions can be more useful than a long general meeting. Leave time afterward for any facts that require checking."
+      ],
+      [
+        "Can one interview support several articles?",
+        "Yes, if it contains genuinely distinct questions and enough detail for each. Do not divide one short answer into many thin pages merely to increase output; combine related points when they help the same reader."
+      ],
+      [
+        "Who should be credited as the author?",
+        "Use a truthful attribution that reflects the actual writing and review arrangement. Do not claim a specialist wrote or reviewed content unless they did, and obtain approval before using their name or quotation."
+      ]
+    ],
+    "sources": []
+  },
+  {
+    "slug": "business-content-brief-template",
+    "title": "What to include in a content brief before writing begins",
+    "seoTitle": "A Content Brief for Useful Business Articles",
+    "updated": "2026-11-13",
+    "category": "Social & content",
+    "summary": "Define the reader, decision, evidence and next step before commissioning an article so writers can deliver useful content with fewer avoidable revisions.",
+    "readTime": "4 min read",
+    "primaryService": "content-creation",
+    "sections": [
+      {
+        "title": "Describe the reader’s situation in plain language",
+        "body": "A useful brief says more than small-business owners or homeowners. Explain what has happened, what the person is trying to decide and what they already understand. A reader comparing a new website proposal needs different information from someone trying to fix an outdated contact page. This context helps the writer decide what to include and what to leave out. When commissioning content creation, provide the real customer situation rather than expecting a keyword alone to communicate the purpose of the article.",
+        "links": [
+          {
+            "label": "Explore content creation services",
+            "href": "/services/content-creation/"
+          }
+        ]
+      },
+      {
+        "title": "Give the article one primary job",
+        "body": "Write a short statement describing what the reader should be able to do after reading. They might compare two approaches, prepare for a consultation or understand a service process. Use that statement to evaluate the outline. If a section does not help the reader complete the job, move it elsewhere or remove it. An article can link to a commercial service page without turning every paragraph into a sales message. Clear purpose makes the content more useful and helps avoid several pages competing to answer the same question."
+      },
+      {
+        "title": "Provide evidence and identify missing inputs",
+        "body": "Attach relevant business notes, approved examples, product information and any external sources needed for factual claims. Label which details are confirmed and which still require review. Do not send a competitor page as the entire brief and ask the writer to change a few words. Explain what your business does differently, what experience it can contribute and what the reader needs clarified. Where evidence is unavailable, narrow the claim or omit it. The writer should not have to invent a case study to make the outline feel complete."
+      },
+      {
+        "title": "Specify structure without prescribing every sentence",
+        "body": "Suggest the main questions, a comparison table if it helps and a practical next step. Include expected tone, terminology, relevant internal links and any accessibility needs for supporting images. Treat length as a planning guide rather than the purpose of the assignment. A brief that demands a fixed number of words but provides no useful material encourages repetition. Give the writer room to recommend a better structure when two proposed sections overlap or when the reader needs an example before a detailed explanation."
+      },
+      {
+        "title": "Agree the review and acceptance criteria",
+        "body": "Name the person checking business accuracy and the person approving publication. Define the revision allowance and the difference between correcting the agreed brief and changing direction after the draft. Before accepting the article, check that it answers the main question, supports important claims and links to a relevant next step. These are concrete criteria that both sides can use. When comparing content prices, include research, interviews, editing and publishing responsibilities so apparently similar article fees are not hiding very different amounts of work.",
+        "links": [
+          {
+            "label": "Compare content delivery scopes",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "State the reader’s situation and primary question.",
+      "Define the decision the article should support.",
+      "Attach confirmed evidence and missing-input notes.",
+      "Specify relevant links and format needs.",
+      "Name reviewers and acceptance criteria."
+    ],
+    "related": [
+      "content-creation",
+      "content-management"
+    ],
+    "faqs": [
+      [
+        "Should the brief include keywords?",
+        "Yes, when they help express the topic and search intent. They should not replace the reader’s question or force awkward repetitions. Give the writer the main topic, useful related questions and the intended service connection."
+      ],
+      [
+        "Is a detailed outline always necessary?",
+        "A short article may need only a few key questions, while a complex guide benefits from a fuller outline. The brief should remove uncertainty about purpose and evidence without preventing a sensible editorial improvement."
+      ],
+      [
+        "What causes repeated content revisions?",
+        "Common causes include missing source information, several reviewers giving conflicting feedback and a changed objective after drafting. A clear brief and one consolidated review process address those issues more directly than adding more word count."
+      ]
+    ],
+    "sources": []
+  },
+  {
+    "slug": "content-map-customer-decisions",
+    "title": "Map content to the decisions customers make before contacting you",
+    "seoTitle": "Content Mapping Around Customer Decisions",
+    "updated": "2026-11-13",
+    "category": "Social & content",
+    "summary": "Build an editorial plan around real buying questions so articles support service pages and help customers prepare for the right conversation.",
+    "readTime": "4 min read",
+    "primaryService": "content-creation",
+    "sections": [
+      {
+        "title": "Collect questions from actual conversations",
+        "body": "Ask the people who answer calls, prepare quotes and manage projects which questions recur before a customer commits. Sort them by the decision behind the words: suitability, process, cost factors, alternatives or preparation. A question such as how long does it take may concern disruption rather than curiosity about a schedule. Capture that context. A content creation plan built from these conversations has a clearer purpose than a long list of loosely related keywords, because each topic begins with an observed information need.",
+        "links": [
+          {
+            "label": "Explore content creation services",
+            "href": "/services/content-creation/"
+          }
+        ]
+      },
+      {
+        "title": "Separate the service explanation from supporting guidance",
+        "body": "The service page should explain what the business provides, who it helps, how the engagement works and how to inquire. Supporting articles can explore a narrower question in more detail. For example, a website design service page can link to a guide on preparing project assets without repeating that entire guide. Link back from the article when the reader is ready to discuss implementation. This creates a useful path through the site and keeps the commercial page focused on its main job."
+      },
+      {
+        "title": "Choose distinct questions for the first cluster",
+        "body": "Select a small set of articles that answer genuinely different questions. One can explain preparation, another compare approaches, another describe cost drivers and another help evaluate a proposal. Check whether existing content already serves the same purpose before creating a new URL. A slight change in wording does not necessarily represent a new topic. If two proposed pieces would contain the same advice and examples, combine them into a stronger guide and use clear headings to make the different questions easy to find."
+      },
+      {
+        "title": "Place links where they help the next decision",
+        "body": "A link should make sense in the sentence or section around it. Send someone reading about implementation requirements to the relevant service, and someone comparing recurring and one-time work to the pricing explanation. Avoid placing the same list of links after every paragraph. Use descriptions that tell the reader what they will find, rather than vague instructions to click here. The relationship between pages should be understandable without an SEO spreadsheet: one page raises a useful next question and another answers it."
+      },
+      {
+        "title": "Review whether the cluster resolves uncertainty",
+        "body": "After publication, ask sales staff whether prospects arrive better prepared and which questions remain unanswered. Review available search and page behavior data alongside that feedback. A guide receiving little traffic may still support proposal conversations, while a popular page may attract the wrong audience. Decide whether to improve the content, change the internal path or retire an overlapping article. Budget for those revisions as part of the content program. A growing library needs editorial maintenance, not only a recurring quota of new pages.",
+        "links": [
+          {
+            "label": "Compare content delivery scopes",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Collect recurring pre-sale questions from staff.",
+      "Give each article a distinct decision to support.",
+      "Check existing pages before adding new URLs.",
+      "Link guides and services in both directions.",
+      "Review unanswered questions after publication."
+    ],
+    "related": [
+      "content-creation",
+      "content-management"
+    ],
+    "faqs": [
+      [
+        "How many supporting articles does a service need?",
+        "There is no universal SEO number. Start with the distinct questions customers actually need answered and develop each properly. Six useful guides can be a practical editorial scope, but the count alone does not establish quality."
+      ],
+      [
+        "Should every blog link to the homepage?",
+        "Only when the homepage is the most relevant destination. A specific service, project or pricing explanation usually gives a clearer next step when the article addresses a focused commercial question."
+      ],
+      [
+        "Can we reuse one article across several services?",
+        "Yes, when it genuinely supports each service. Keep one canonical article and link to it from the relevant pages rather than publishing near-identical copies with different service names."
+      ]
+    ],
+    "sources": []
+  },
+  {
+    "slug": "repurpose-guide-into-content-assets",
+    "title": "Repurpose one useful guide without repeating the same post everywhere",
+    "seoTitle": "Repurposing a Guide into Useful Content Assets",
+    "updated": "2026-11-13",
+    "category": "Social & content",
+    "summary": "Turn a substantial guide into distinct social, email and sales assets while preserving the facts and giving each format a clear purpose.",
+    "readTime": "4 min read",
+    "primaryService": "content-creation",
+    "sections": [
+      {
+        "title": "Choose a source worth adapting",
+        "body": "Begin with material that contains specific explanations, examples or decisions. A thin article full of general promises will not become useful simply because it is split into a carousel and several captions. Review the source for accuracy and identify the strongest ideas before planning outputs. A content creation team can help strengthen the original first. For example, a detailed guide to preparing for a renovation consultation may contain a checklist, a common misconception and a process explanation, each suitable for a different follow-up asset.",
+        "links": [
+          {
+            "label": "Explore content creation services",
+            "href": "/services/content-creation/"
+          }
+        ]
+      },
+      {
+        "title": "Match each derivative to one reader need",
+        "body": "Choose what the new format should accomplish. A short social post might explain one misconception; a carousel could organize the preparation steps; an email can introduce the guide to existing contacts; a sales note can answer a question after a call. Do not squeeze the entire article into every format. Each adaptation should make sense on its own and offer a relevant next step. This approach preserves the value of the original while giving people more than several copies of the same promotional summary."
+      },
+      {
+        "title": "Preserve qualifications when shortening the message",
+        "body": "Short formats make it easy to remove the sentence that limits a claim. If the guide describes an illustrative example, the social asset should not present it as a guaranteed outcome. Keep relevant conditions attached to cost, timing and performance statements. Review charts, captions and headlines together because a dramatic headline can contradict a careful explanation underneath. When a point cannot be shortened responsibly, choose another angle or direct readers to the full explanation rather than making an absolute claim for the sake of a stronger hook."
+      },
+      {
+        "title": "Create a small production map",
+        "body": "List the source section, proposed asset, audience, destination and required review for each adaptation. This helps the designer locate the right material and prevents the writer from adding unsupported details to fill a layout. Identify new inputs, such as a portrait crop, a short voice recording or an approved project photo. Some derivatives are simple edits; others require a new production process. Label those differences early so the team does not assume that one approved article automatically includes a filmed video and several custom illustrations."
+      },
+      {
+        "title": "Keep adaptations connected when the source changes",
+        "body": "Record which assets were created from the original guide. If a service scope or recommendation changes, review the related captions, downloadable documents and sales material as well. A source update is incomplete when an old derivative continues to circulate with conflicting information. Build this maintenance responsibility into the content scope and choose a manageable number of outputs. When comparing pricing, ask whether repurposing includes new design, editing, approval and updates, or only a brief summary of the original article.",
+        "links": [
+          {
+            "label": "Compare content delivery scopes",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Check that the source contains useful detail.",
+      "Give each derivative one distinct purpose.",
+      "Preserve conditions and illustrative labels.",
+      "Map source sections to assets and destinations.",
+      "Track derivatives for future updates."
+    ],
+    "related": [
+      "content-creation",
+      "content-management"
+    ],
+    "faqs": [
+      [
+        "Does repurposing mean duplicating the whole article?",
+        "No. Adapt the idea to the audience and format, and link to the original when deeper explanation helps. Repeating the complete text everywhere usually ignores how people use different channels."
+      ],
+      [
+        "Can an article become a video script?",
+        "Yes, but the script needs spoken structure, visual planning and an appropriate length. Filming, narration and editing are separate production tasks unless your agreement explicitly includes them."
+      ],
+      [
+        "How many assets should one guide produce?",
+        "Choose the number supported by distinct useful ideas and the team’s capacity. A few well-adapted pieces can be more effective operationally than a large batch of repetitive outputs that receive little review."
+      ]
+    ],
+    "sources": []
+  },
+  {
+    "slug": "editorial-fact-checking-business-content",
+    "title": "A fact-checking process for business articles and service copy",
+    "seoTitle": "Fact-Checking Business Content Before Publication",
+    "updated": "2026-11-13",
+    "category": "Social & content",
+    "summary": "Review claims, examples, sources and business details before publishing so your articles remain useful and your team can explain what supports them.",
+    "readTime": "4 min read",
+    "primaryService": "content-creation",
+    "sections": [
+      {
+        "title": "Identify the statements that need evidence",
+        "body": "Read the draft looking for claims a customer might rely on: prices, eligibility, timelines, qualifications, technical instructions and measured results. Mark each one separately from ordinary explanation or opinion. A sentence that sounds familiar can still be wrong for your business or market. Content creation should include a way to resolve these questions before publication, not leave them hidden inside polished copy. Build a short claim list so the reviewer can focus on the statements that affect decisions rather than repeatedly reading the entire draft without a clear task.",
+        "links": [
+          {
+            "label": "Explore content creation services",
+            "href": "/services/content-creation/"
+          }
+        ]
+      },
+      {
+        "title": "Match the source to the kind of claim",
+        "body": "Use business records for your own prices and project scope, qualified internal review for specialized service explanations, and current primary documentation for platform behavior. A competitor article is not enough to establish what your business offers or how an advertising system currently works. Record the source and the date checked when the claim is time-sensitive. If two sources disagree, investigate the context instead of choosing the more attractive number. Different definitions, markets or reporting periods can explain apparent conflicts without either source describing your situation."
+      },
+      {
+        "title": "Keep examples visibly separate from results",
+        "body": "An invented calculation can teach a useful concept when it is clearly presented as an example with stated assumptions. It must not become a case-study result in a headline, chart or sales card. For actual project outcomes, retain the measurement period, baseline, definition and any relevant limitations. Ask whether the business can substantiate the claim if a prospective client requests context. If it cannot, describe the work and process honestly. Strong content does not require a numerical result in every section to be valuable."
+      },
+      {
+        "title": "Review links, images and captions as part of the claim",
+        "body": "Accuracy is not confined to body text. Check whether a linked page still supports the statement and whether an image could imply work the business did not perform. A stock photograph may be acceptable illustration, but it should not be captioned as a completed customer project. Confirm that quotations are attributed accurately and approved where necessary. Inspect the page preview too: a shortened card title or image overlay can remove an important qualification even when the full article remains carefully worded."
+      },
+      {
+        "title": "Assign an owner for future review",
+        "body": "Some content remains useful for years; other material changes with pricing, products or platform interfaces. Give time-sensitive pages a review owner and record the events that should trigger an update. That might be a revised service package, a discontinued integration or a new business process. Correct the visible content and relevant supporting assets together. Compare content scopes on whether review and maintenance are included, because producing a large library without a way to keep it accurate creates a growing editorial obligation for the business.",
+        "links": [
+          {
+            "label": "Compare content delivery scopes",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "List decision-relevant claims before approval.",
+      "Use sources appropriate to each claim.",
+      "Label hypothetical calculations clearly.",
+      "Check captions and previews as well as paragraphs.",
+      "Assign review triggers for time-sensitive content."
+    ],
+    "related": [
+      "content-creation",
+      "content-management"
+    ],
+    "faqs": [
+      [
+        "Does every sentence need an external citation?",
+        "No. Your own process explanations and practical recommendations may not need external sources. Important factual, technical or numerical claims should have support appropriate to what they assert, whether that is a business record or primary documentation."
+      ],
+      [
+        "Can we change a publication date to look established?",
+        "Use dates that accurately describe publication and meaningful updates. If older source material is adapted into a new article, do not imply the new business published that version before it actually existed."
+      ],
+      [
+        "What should we do when a claim cannot be verified?",
+        "Remove it, narrow it to what can be supported or clearly describe it as an assumption where an example is appropriate. Leaving an unsupported statement because it sounds persuasive is not a substitute for evidence."
+      ]
+    ],
+    "sources": []
+  },
+  {
+    "slug": "case-study-content-evidence-brief",
+    "title": "Prepare a case-study brief when the project files are incomplete",
+    "seoTitle": "A Case-Study Brief Built Around Available Evidence",
+    "updated": "2026-11-13",
+    "category": "Social & content",
+    "summary": "Organize project scope, timelines and available evidence before writing a case study, including what to do when analytics or client files are missing.",
+    "readTime": "4 min read",
+    "primaryService": "content-creation",
+    "sections": [
+      {
+        "title": "Start with the work you can document",
+        "body": "List the project objective, your actual contribution, the deliverables and the people who can confirm what happened. Separate those facts from what you hope the case study will prove. If the surviving files show a website redesign but no reliable sales data, you can still explain the design decisions, content structure and inquiry journey. A content creation team needs this distinction at the brief stage so the finished story describes the project accurately instead of filling missing evidence with impressive-looking outcomes.",
+        "links": [
+          {
+            "label": "Explore content creation services",
+            "href": "/services/content-creation/"
+          }
+        ]
+      },
+      {
+        "title": "Build a simple project timeline",
+        "body": "Record the relevant starting condition, major work phases, launch or handover and any later review. Use supported dates or a clearly described approximate period where exact records are unavailable. A long campaign should not be described as a continuous engagement merely because two screenshots exist far apart. Note pauses, scope changes or separate phases when they affect the story. This timeline helps the writer distinguish the original problem from later developments and prevents a before-and-after comparison from implying more certainty than the records allow."
+      },
+      {
+        "title": "Inventory evidence and its limitations",
+        "body": "Collect approved screenshots, deliverable files, reports, client feedback and notes explaining how metrics were measured. For each item, record what it supports and what it does not. A search visibility report does not by itself prove additional revenue; a redesigned contact form does not prove more qualified leads. Keep the relevant context attached to charts and quotations. When data is missing, say what the project focused on and show the work itself. A process case study can still help a prospect understand how your team thinks."
+      },
+      {
+        "title": "Handle anonymity without making the story vague",
+        "body": "An anonymized case study can describe the industry, business situation and project scope without naming the client. Keep those details specific enough to explain why the work mattered, while respecting the agreed limits. Do not replace missing facts with invented company size, budgets or campaign duration. Confirm that screenshots and filenames do not reveal information the client expected to remain private. Anonymity changes identification; it does not lower the standard for the claims or allow outcomes to be attributed to the wrong organization."
+      },
+      {
+        "title": "Turn the evidence into a decision-focused story",
+        "body": "Organize the final piece around the challenge, choices, execution, supported observations and lessons. Explain why one approach was chosen and what remained outside the scope. Add questions prospects commonly ask about a similar engagement, linking to the relevant service and pricing context. Keep the work reviewable by retaining a private evidence register. When comparing content production fees, account for interviewing, evidence cleanup, redaction and approvals; a credible case study often requires more preparation than a general educational article of the same length.",
+        "links": [
+          {
+            "label": "Compare content delivery scopes",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Document the contribution you can substantiate.",
+      "Build a timeline from available records.",
+      "Match each result to its evidence and definition.",
+      "Check anonymity across copy and imagery.",
+      "Explain decisions even when outcome data is limited."
+    ],
+    "related": [
+      "content-creation",
+      "content-management"
+    ],
+    "faqs": [
+      [
+        "Can a case study omit performance numbers?",
+        "Yes. It can explain the business problem, your approach and the completed work. Do not invent results to make the piece look complete; use supported observations and describe the limits of the available evidence."
+      ],
+      [
+        "Can we use a generic client description?",
+        "Yes, when it accurately reflects the project and respects the client’s agreement. A description such as a regional renovation business is useful when true, but it should not conceal uncertainty about whether the project actually happened."
+      ],
+      [
+        "Should we include every project asset?",
+        "Select evidence that explains the decisions and contribution. A clear sequence of relevant examples is easier to evaluate than a large gallery with no context, especially when some assets cannot be shared publicly."
+      ]
+    ],
+    "sources": []
+  }
+]

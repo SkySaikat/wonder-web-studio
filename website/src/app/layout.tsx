@@ -11,6 +11,7 @@ import './service-explorer.css';
 import './editorial-updates.css';
 import './vibrant-studio.css';
 import './migration-library.css';
+import './pricing-content.css';
 import {Motion} from '@/components/motion';
 import {BookingProvider} from '@/components/booking';
 import { Header } from '@/components/header';

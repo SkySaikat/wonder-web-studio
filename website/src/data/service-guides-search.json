@@ -1,0 +1,923 @@
+[
+  {
+    "slug": "seo-priority-backlog",
+    "title": "How to turn an SEO audit into a useful work backlog",
+    "seoTitle": "Turn an SEO Audit into a Practical Work Plan",
+    "updated": "2026-11-13",
+    "category": "SEO",
+    "summary": "Turn a long SEO audit into a practical work queue, with evidence, priorities, responsibilities and checks that connect fixes to business needs.",
+    "readTime": "4 min read",
+    "primaryService": "seo",
+    "sections": [
+      {
+        "title": "Start with the customer journey, not the error count",
+        "body": "An audit can contain hundreds of findings without explaining what the business should do next. Begin with the journeys that matter: finding a service, checking suitability, reviewing evidence and making contact. List the pages involved and the business priority behind each one. A broken estimate form on a valuable service page deserves a different response from a missing optional field on an old article. Keep the full audit as supporting evidence, but create a shorter operating list that a business owner and delivery team can actually use. A count of resolved warnings is not the same as an improved website.",
+        "links": [
+          {
+            "label": "Explore our SEO service",
+            "href": "/services/seo/"
+          }
+        ]
+      },
+      {
+        "title": "Describe each task so someone can finish it",
+        "body": "A useful task states the observed problem, affected URLs, proposed change, expected benefit and acceptance check. Instead of writing improve internal links, name the useful guide, the relevant service page and the reason a reader would move between them. Add dependencies such as missing project photographs, a developer release or an unanswered business question. Assign one person to approve the outcome. This makes a backlog actionable even when different people handle writing, design and technical work. It also prevents a task from appearing complete merely because someone changed a setting without reviewing the public result."
+      },
+      {
+        "title": "Balance importance, confidence and effort",
+        "body": "Separate confirmed defects from hypotheses. A production page returning an error is directly observable; a proposed headline improvement needs testing and judgment. Give each item a simple importance and effort assessment, then explain why the evidence supports doing it now. Group related fixes when they share a template, but check representative pages before applying a change across the site. Leave room for business priorities that an automated crawler cannot know, such as a service being discontinued. Avoid a complicated scoring system that produces a precise number while hiding weak assumptions behind it.",
+        "links": [
+          {
+            "label": "Review service scope and pricing",
+            "href": "/pricing/"
+          }
+        ]
+      },
+      {
+        "title": "Review completed work and maintain the queue",
+        "body": "At the end of a work cycle, show what changed, how it was checked and what still depends on another person. For a content update, that might include a page comparison and an explanation of new customer information. For a technical repair, retain the response or crawl evidence. Review search and inquiry trends over appropriate periods rather than assigning every movement to the most recent edit. Remove obsolete tasks and update priorities as the business changes. A useful backlog remains a decision tool; it should not become a permanent archive of recommendations nobody intends to deliver.",
+        "links": [
+          {
+            "label": "Build an SEO report around decisions",
+            "href": "/resources/seo-reporting-business-decisions/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Choose the customer journeys worth improving first.",
+      "Record evidence and affected URLs for each task.",
+      "Name an owner, dependency and acceptance check.",
+      "Separate verified defects from proposed experiments.",
+      "Review completed changes before adding more work."
+    ],
+    "related": [
+      "seo"
+    ],
+    "faqs": [
+      [
+        "Should every audit warning be fixed?",
+        "No. Some warnings concern optional features or pages with little business value. Confirm that the issue is real, assess its effect and compare the effort with more important work before putting it into the delivery queue."
+      ],
+      [
+        "How much work should fit into one month?",
+        "That depends on complexity, approvals and the agreed allowance. Choose a small set of meaningful outcomes that can be completed and verified. Carrying a large number of unfinished tasks into each month makes progress harder to assess."
+      ],
+      [
+        "Can an audit promise better rankings?",
+        "An audit can identify problems and opportunities, but it cannot promise a particular ranking. The value of the plan is a clearer website and evidence-based priorities, with search outcomes reviewed separately from work completed."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Google: SEO starter guide",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide"
+      }
+    ]
+  },
+  {
+    "slug": "service-page-keyword-overlap",
+    "title": "When two service pages compete: keep, combine or clarify?",
+    "seoTitle": "Resolve Overlapping Service Pages",
+    "updated": "2026-11-13",
+    "category": "SEO",
+    "summary": "Decide when overlapping service pages should stay separate, be improved or be combined, using customer intent and real search evidence.",
+    "readTime": "4 min read",
+    "primaryService": "seo",
+    "sections": [
+      {
+        "title": "Find overlap in the job each page performs",
+        "body": "Two pages using similar words do not automatically create a problem. A repair page and a replacement page may serve different customers even though both discuss the same equipment. Start by writing the main question each page answers and the action it supports. Then compare the service descriptions, examples, inquiries and search queries associated with those URLs. The concern is avoidable duplication that leaves visitors unsure which page to use. A shared keyword alone is not enough evidence to remove a useful page or redirect it to a broader destination.",
+        "links": [
+          {
+            "label": "Plan a clearer SEO structure",
+            "href": "/services/seo/"
+          }
+        ]
+      },
+      {
+        "title": "Keep separate pages when the distinction is useful",
+        "body": "A page deserves its own place when it supports a distinct service, audience or buying decision and contains enough real information to explain that difference. Clarify the navigation labels and introductions so people can choose correctly. Give each page appropriate examples, FAQs and next steps. A commercial installation page should not simply repeat a residential page with one word changed. If the business cannot explain the difference in scope or customer needs, interview the team before asking a writer to manufacture several apparently unique pages."
+      },
+      {
+        "title": "Combine pages when the destination becomes stronger",
+        "body": "When several pages answer essentially the same question, choose a destination that can serve the combined need. Preserve useful explanations and evidence from the pages being retired, then review links that currently send visitors to them. If a URL is permanently replaced, use an appropriate permanent redirect to its relevant replacement. A canonical signal is useful for duplicate versions that must remain accessible, but it is not a substitute for deciding which page visitors should use. Keep a record of the old URLs so the change can be checked after release.",
+        "links": [
+          {
+            "label": "Prepare a migration URL map",
+            "href": "/resources/seo-migration-url-mapping/"
+          }
+        ]
+      },
+      {
+        "title": "Check the result without expecting an instant answer",
+        "body": "After changing the structure, confirm the retained page is accessible, links point to the intended destination and there are no circular or chained redirects. Record the date and the reason for the change. Watch the relevant page group rather than celebrating a gain on one URL while ignoring a loss elsewhere. Search systems need time to revisit pages, and seasonal demand can affect comparisons. The success of consolidation should include easier navigation and clearer service information, not merely fewer URLs in a spreadsheet.",
+        "links": [
+          {
+            "label": "Compare SEO scope options",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Write a distinct customer question for each page.",
+      "Compare queries and inquiries before changing URLs.",
+      "Keep pages that explain genuinely different services.",
+      "Preserve useful material when combining content.",
+      "Check redirects and links after publication."
+    ],
+    "related": [
+      "seo"
+    ],
+    "faqs": [
+      [
+        "Is keyword cannibalization a penalty?",
+        "Treat overlapping pages as a content and architecture question rather than assuming a penalty. Similar phrases appear naturally across a useful website. Investigate whether the overlap actually creates confusing destinations or weakens the information available to customers."
+      ],
+      [
+        "Should I delete an article because a service page ranks?",
+        "Not necessarily. An educational article and a commercial service page can satisfy different needs. Connect them with clear links and make their purposes distinct before considering whether one has become unnecessary."
+      ],
+      [
+        "How do I choose the surviving URL?",
+        "Consider the page purpose, existing visibility, relevant links, useful content and future navigation. Preserve a logical address where possible. The strongest choice is the one that can remain a stable, accurate destination for the combined subject."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Google: canonical URLs",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls"
+      }
+    ]
+  },
+  {
+    "slug": "seo-reporting-business-decisions",
+    "title": "An SEO report should help you decide what to do next",
+    "seoTitle": "SEO Reports That Support Business Decisions",
+    "updated": "2026-11-13",
+    "category": "SEO",
+    "summary": "Build an SEO report around useful questions: which services are being found, what visitors need and which changes deserve attention next.",
+    "readTime": "4 min read",
+    "primaryService": "seo",
+    "sections": [
+      {
+        "title": "Begin with the question the owner needs answered",
+        "body": "A report should support decisions, not require the owner to decode a wall of charts. Start with the services the business wants to grow, the markets it can serve and the problems reported by the sales team. Then explain what changed during the reporting period and what those changes suggest. A rise in traffic to an unrelated tutorial may have little value for the current commercial goal. A smaller increase in suitable inquiries to an important service can matter more. Establish these priorities before choosing the charts that appear in the monthly summary.",
+        "links": [
+          {
+            "label": "See our SEO approach",
+            "href": "/services/seo/"
+          }
+        ]
+      },
+      {
+        "title": "Separate discovery, engagement and business outcomes",
+        "body": "Search Console shows how pages appear and attract clicks in Google Search. Website analytics and the inquiry system describe later parts of the journey. Keep those measures connected without pretending they are identical datasets. Separate brand-related searches from broader discovery where the available data permits, and group pages by the services they support. Explain the limitations of filters and tracking. A visitor may return through another channel before contacting the business, so an unqualified attribution claim can make the report sound more certain than the evidence allows."
+      },
+      {
+        "title": "Include work completed and observations that challenge it",
+        "body": "Document the actual changes: revised service explanations, repaired technical issues, new internal links or clearer inquiry routes. Place the evidence next to the interpretation. If a new guide receives impressions but few visits, check the query fit and search presentation before declaring the topic unsuccessful. If visits increase while suitable inquiries decline, investigate offer fit, tracking and follow-up. Include observations that do not support the original plan. A useful agency relationship should make it easier to change direction when the evidence warrants it.",
+        "links": [
+          {
+            "label": "Turn findings into a work backlog",
+            "href": "/resources/seo-priority-backlog/"
+          }
+        ]
+      },
+      {
+        "title": "Finish with decisions, owners and review dates",
+        "body": "End the report with a short set of decisions: continue an approach, improve a specific page, investigate a tracking issue or pause an outdated topic. Give each action an owner and a reason. Compare periods thoughtfully, accounting for seasonal demand, holidays, service availability and major website changes. Avoid selecting only the most favorable dates. Ask the business to add what happened after the inquiry, including qualification and sales outcomes where available. That feedback gives the next content and technical cycle a clearer purpose than chasing a higher traffic total alone.",
+        "links": [
+          {
+            "label": "Explore ongoing service plans",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Define the business question before selecting metrics.",
+      "Group pages by the services they support.",
+      "Separate search visibility from qualified inquiries.",
+      "Explain tracking limits and seasonal context.",
+      "End with a short set of accountable decisions."
+    ],
+    "related": [
+      "seo"
+    ],
+    "faqs": [
+      [
+        "Which SEO metric matters most?",
+        "There is no single measure for every business. Suitable inquiries and customers matter commercially, while search visibility and page engagement help diagnose earlier stages. Review a small set that connects to your offer and sales process."
+      ],
+      [
+        "Why do Search Console and analytics numbers differ?",
+        "They measure different events and use different processing and filtering. Treat search clicks, website sessions and inquiries as distinct stages. Investigate large unexpected changes, but do not expect the totals to match exactly."
+      ],
+      [
+        "Should the report include average ranking?",
+        "It can provide context, but an overall average combines many different searches. Review relevant queries and page groups alongside clicks, impressions and outcomes. A single average does not explain whether your priority customers are finding the right services."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Google: Search Console performance report",
+        "url": "https://support.google.com/webmasters/answer/7576553"
+      }
+    ]
+  },
+  {
+    "slug": "seo-migration-url-mapping",
+    "title": "Build a URL migration map before replacing your website",
+    "seoTitle": "Website Migration: Build a Reliable URL Map",
+    "updated": "2026-11-13",
+    "category": "SEO",
+    "summary": "Plan old-to-new URL mappings before a website migration, preserve useful pages and verify redirects, internal links and search signals after launch.",
+    "readTime": "4 min read",
+    "primaryService": "seo",
+    "sections": [
+      {
+        "title": "Inventory the URLs people and search engines already use",
+        "body": "Before approving a new site structure, gather URLs from the current website, sitemap, search reports and important external links. Include useful articles, service pages, downloadable assets and campaign destinations. Record what each URL does, whether it still represents the business and where its content will live after the change. Screenshots of the old navigation are helpful but do not capture every address. A migration map prevents a visual redesign from accidentally discarding useful information or leaving customers on error pages after following an old search result.",
+        "links": [
+          {
+            "label": "Plan SEO support for a migration",
+            "href": "/services/seo/"
+          }
+        ]
+      },
+      {
+        "title": "Map to equivalent destinations rather than the homepage",
+        "body": "Assign each retained page its new address, and identify pages whose content will be combined. Choose replacements that answer the same customer need. Sending every retired service or article to the homepage may technically avoid an error but often creates a confusing visit. Where no useful replacement exists, document that decision instead of inventing an irrelevant mapping. Include both the intended destination and a short explanation so reviewers can challenge mistakes before launch. Keep the mapping file in a format that the implementation team can test systematically."
+      },
+      {
+        "title": "Check redirects alongside the new site itself",
+        "body": "Permanent URL changes should use suitable permanent redirects. Test the old addresses and confirm that they reach the intended page directly, without loops or unnecessary chains. Update internal links so the new site points to final URLs. Review canonical URLs, sitemap entries and any important campaign links together. An otherwise attractive launch can still carry stale references from a development environment. Include a small set of critical customer journeys in the acceptance checks: arrive from an old URL, understand the service and successfully complete the next step.",
+        "links": [
+          {
+            "label": "Review overlapping service pages",
+            "href": "/resources/service-page-keyword-overlap/"
+          }
+        ]
+      },
+      {
+        "title": "Keep a post-launch watch list",
+        "body": "A successful build does not mean the migration is finished. Preserve the mapping and check high-value old URLs again after deployment. Review search coverage, unexpected errors and inquiry trends, while allowing for recrawling and ordinary fluctuations. Assign someone to fix newly discovered mappings rather than letting reports accumulate without an owner. Avoid changing several unrelated marketing variables at the same time if you want to understand the transition. Agree in advance which issues require immediate action and which observations need more data before a structural change is reversed.",
+        "links": [
+          {
+            "label": "Compare project and ongoing support",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Collect URLs from more than the main navigation.",
+      "Assign a relevant destination or retirement reason.",
+      "Test redirects for loops and unnecessary chains.",
+      "Update internal links and canonical destinations.",
+      "Keep a post-launch owner and watch list."
+    ],
+    "related": [
+      "seo",
+      "web-development"
+    ],
+    "faqs": [
+      [
+        "Does a redesign always need redirects?",
+        "Only addresses that change or are replaced need a redirect decision. If useful URLs remain stable, preserve them. The inventory still matters because it checks that content, links and inquiry journeys survive the redesign."
+      ],
+      [
+        "Can I remove the old URL map after launch?",
+        "Keep it as an operational record. It helps diagnose old links, recover missed pages and explain why a destination was chosen. New issues can appear when visitors or crawlers reach addresses that were not part of the first checks."
+      ],
+      [
+        "Will rankings stay exactly the same?",
+        "No migration can guarantee unchanged rankings. Careful preparation reduces avoidable disruption, but search systems must revisit the changed site. Review the whole transition rather than promising an immediate return to a particular position."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Google: site moves with URL changes",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes"
+      }
+    ]
+  },
+  {
+    "slug": "refresh-merge-or-retire-content",
+    "title": "Refresh, merge or retire: deciding what to do with old content",
+    "seoTitle": "Refresh, Merge or Retire Old Website Content",
+    "updated": "2026-11-13",
+    "category": "SEO",
+    "summary": "Assess older articles by usefulness, accuracy and intent, then choose a focused refresh, a thoughtful merge or a documented retirement.",
+    "readTime": "4 min read",
+    "primaryService": "seo",
+    "sections": [
+      {
+        "title": "Judge usefulness before judging age",
+        "body": "An older article can still answer a valuable customer question. A recently published page can already be inaccurate or redundant. Review the subject, business relevance, factual accuracy and next step before deciding what age alone means. Ask whether the article supports a service you still provide and whether a reader can make a better decision after reading it. Check available search and inquiry evidence, but do not treat low traffic as automatic proof that a page has no value. Some topics are narrow yet important during a sales conversation.",
+        "links": [
+          {
+            "label": "Explore content-led SEO support",
+            "href": "/services/seo/"
+          }
+        ]
+      },
+      {
+        "title": "Refresh when the core question remains useful",
+        "body": "A refresh should add or correct something meaningful. Update retired service details, unclear explanations, broken references and missing practical examples. Ask the delivery team which customer questions have changed since the piece was written. Preserve useful material rather than rewriting every sentence to make the page appear new. Record substantial changes and use an honest update date. Adding a current year to the title without reviewing the content creates a maintenance promise that the page may not fulfill. Give the refreshed article a clear connection to the relevant service and next decision."
+      },
+      {
+        "title": "Merge when multiple pages leave the same gaps",
+        "body": "If several articles address the same intent, compare their best explanations, useful links and existing visibility. Create one coherent destination rather than pasting the pages together. Remove repeated introductions and reconcile contradictory advice. A merge should improve the reader’s understanding, not simply produce a longer word count. Decide what happens to retired URLs and update internal links to the chosen destination. Keep separate articles when they answer genuinely different questions, such as choosing a service and carrying out a detailed technical task after purchase.",
+        "links": [
+          {
+            "label": "Resolve service-page overlap",
+            "href": "/resources/service-page-keyword-overlap/"
+          }
+        ]
+      },
+      {
+        "title": "Retire with a reason and a follow-through plan",
+        "body": "Some material no longer belongs on the site: an unavailable offer, an irrelevant announcement or advice that cannot be responsibly maintained. Document why it is being retired and whether there is a relevant replacement. Remove references from navigation, related reading and discovery files as appropriate. Where historical context matters, an accurately labeled archive may be more useful than pretending the material is current. Review the result after release. Content maintenance is complete when visitors can still find a sensible next step and the site’s internal references reflect the decision.",
+        "links": [
+          {
+            "label": "See content and SEO pricing options",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Check relevance and accuracy before publication age.",
+      "Identify a meaningful reason for each refresh.",
+      "Combine repeated intent into a coherent destination.",
+      "Record replacement URLs when retiring content.",
+      "Update links and monitor the changed page group."
+    ],
+    "related": [
+      "seo",
+      "content-management"
+    ],
+    "faqs": [
+      [
+        "Should every article be updated each year?",
+        "No. Review frequency should follow the subject’s rate of change and business importance. Pricing, platform instructions and current offers need different attention from a durable explanation of your working process."
+      ],
+      [
+        "Can a new date alone improve the article?",
+        "A date does not replace useful editorial work. Only show a substantive update when the material has actually been reviewed or changed. Readers should be able to see why the current version is more accurate or helpful."
+      ],
+      [
+        "What if an old article has external links?",
+        "Consider that evidence before removing it. Retain useful content where possible or choose a closely relevant replacement. Do not preserve misleading information merely to keep a URL, but avoid discarding a valuable resource without examining the consequences."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Google: creating helpful, reliable content",
+        "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      }
+    ]
+  },
+  {
+    "slug": "indexing-triage-for-service-websites",
+    "title": "A practical indexing triage for service-business websites",
+    "seoTitle": "Indexing Problems: A Practical Triage Guide",
+    "updated": "2026-11-13",
+    "category": "SEO",
+    "summary": "Separate access problems, indexing directives and content decisions when a service page is missing from search, then verify the relevant fix.",
+    "readTime": "4 min read",
+    "primaryService": "seo",
+    "sections": [
+      {
+        "title": "Start with one exact URL and observable evidence",
+        "body": "When someone says the website is not indexed, ask which exact address is affected and what report produced that conclusion. A homepage, service page and staging URL may have different policies. Record the preferred public address, expected status and date of the observation. Open the page as a visitor and inspect its response before changing sitewide settings. A login screen, server error or broken redirect needs a different remedy from a page that is accessible but has not been selected for indexing. Keep those situations separate so the first fix addresses the actual problem.",
+        "links": [
+          {
+            "label": "Get technical SEO support",
+            "href": "/services/seo/"
+          }
+        ]
+      },
+      {
+        "title": "Check access and indexing controls separately",
+        "body": "Review the response, robots.txt, page-level robots directives and canonical destination. A crawler must access a page to read a noindex instruction, so blocking access and asking for removal are not interchangeable. Compare the public production configuration with preview settings, which may intentionally discourage indexing. Check HTTP headers as well as visible HTML when diagnosing a directive. Do not remove every restriction simply because one public page is blocked: private utilities and development previews may need different treatment. The goal is a deliberate policy for each class of page."
+      },
+      {
+        "title": "Confirm the page belongs in the public site",
+        "body": "A technically accessible page may still be a weak or confusing destination. Check that it contains useful service information, is linked from relevant pages and has a sensible canonical URL. Compare it with near-duplicate articles or location pages. A sitemap helps discovery, but listing a URL does not guarantee selection for search results. If a page is scheduled for the future or intentionally retired, its absence may be correct. Make the content decision before treating every exclusion report as a server defect that requires an urgent code change.",
+        "links": [
+          {
+            "label": "Review overlapping pages",
+            "href": "/resources/service-page-keyword-overlap/"
+          }
+        ]
+      },
+      {
+        "title": "Verify the fix and keep the claim modest",
+        "body": "After a change, repeat the same checks against the public URL and retain the evidence. Where available, use the search engine’s inspection tools to review its view of the page and request a refresh. Allow for reporting delays and recrawling rather than declaring success solely because local tests pass. Watch representative pages from the same template to see whether the issue was isolated or broader. Report clearly what was fixed, what was tested and what the search engine has actually confirmed. Crawl access, indexing and ranking are separate outcomes.",
+        "links": [
+          {
+            "label": "Compare SEO and website support",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Record the exact URL and reported exclusion reason.",
+      "Check HTTP access, headers and page directives.",
+      "Distinguish production pages from private previews.",
+      "Review canonical choice and useful internal links.",
+      "Repeat checks after the fix and monitor recrawling."
+    ],
+    "related": [
+      "seo",
+      "website-management"
+    ],
+    "faqs": [
+      [
+        "Does a sitemap guarantee indexing?",
+        "No. A sitemap helps search engines discover URLs, but it does not require them to index or rank every entry. Include useful public canonical pages and investigate their accessibility and content separately."
+      ],
+      [
+        "Should I remove every noindex instruction?",
+        "No. Some routes should remain outside search results. Identify which page classes are intended to be public before changing controls, and verify that the production environment uses the intended settings."
+      ],
+      [
+        "How soon will a corrected page appear?",
+        "There is no fixed deadline for a particular page. Search engines need to revisit and evaluate it. Report the technical correction separately from any later confirmation that the page has been indexed or gained visibility."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Google: robots meta and HTTP header directives",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag"
+      }
+    ]
+  },
+  {
+    "slug": "google-business-profile-eligibility-checklist",
+    "title": "Check Google Business Profile eligibility before local SEO",
+    "seoTitle": "Google Business Profile Eligibility Checklist",
+    "updated": "2026-11-13",
+    "category": "SEO",
+    "summary": "Check whether your business qualifies for a Google Business Profile, describe its real operations and prepare accurate information before setup.",
+    "readTime": "4 min read",
+    "primaryService": "local-seo",
+    "sections": [
+      {
+        "title": "Describe how customers actually receive the service",
+        "body": "Before creating a profile, write down how the business works. Do customers visit a staffed location, does the team travel to them, or is the service delivered entirely online? Google’s eligibility guidance distinguishes businesses with in-person customer contact from online-only operations. A company can serve customers worldwide without qualifying for a profile in every market. Treat eligibility as an operational fact, not a marketing setting. Collect the real business name, contact route and customer-facing information before deciding which profile structure accurately represents the business.",
+        "links": [
+          {
+            "label": "Explore local SEO support",
+            "href": "/services/local-seo/"
+          }
+        ]
+      },
+      {
+        "title": "Separate a service area from a claimed office",
+        "body": "A city where the team accepts work is not automatically a business location. For an eligible service-area business, describe where the team can realistically deliver rather than creating an office claim for every target city. Google does not accept a rented mailing address as a business location when the business does not operate there. Keep the website, proposals and profile consistent about what customers can expect. If a visitor cannot attend the stated location or meet the described team, revise the representation before building campaigns or content around it."
+      },
+      {
+        "title": "Prepare a source of truth for setup and review",
+        "body": "Create a small business-information record with the approved name, phone, website, operating hours, services and responsible account owner. Note which details are public and who can approve changes. Check that the contact route works and the website explains the business accurately. Use individual account access where appropriate instead of passing a shared password between suppliers. When a platform requests verification, follow the method offered for that business and retain a record of who completed it. An agency should help organize the process without inventing evidence or promising approval.",
+        "links": [
+          {
+            "label": "Audit business information across listings",
+            "href": "/resources/local-citation-audit/"
+          }
+        ]
+      },
+      {
+        "title": "Plan a useful route even when a profile is unsuitable",
+        "body": "If the business is not eligible, build its discovery strategy around a clear website, relevant service pages, useful content and appropriate advertising. A remote delivery model is not a reason to disguise the company as a local office. For eligible businesses, keep the profile connected to the real operating model as services or locations change. Review access, hours and contact details periodically. The right local SEO scope starts with accurate representation, then improves the information customers use to decide whether the business can help them.",
+        "links": [
+          {
+            "label": "Review local SEO scope and pricing",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Document whether customer contact happens in person.",
+      "Distinguish real locations from service coverage.",
+      "Approve one business-information record.",
+      "Assign account ownership and update responsibility.",
+      "Use an accurate discovery plan for the operating model."
+    ],
+    "related": [
+      "local-seo"
+    ],
+    "faqs": [
+      [
+        "Can an online-only agency create a profile in each city?",
+        "A city-targeted service page does not establish profile eligibility. Check Google’s current rules against the actual business model. Do not use virtual addresses or invented offices to make an online service appear locally established."
+      ],
+      [
+        "Does serving a large area mean I need multiple profiles?",
+        "Not necessarily. Service coverage and business locations are different concepts. The correct structure depends on the real locations, staffing and customer contact described in Google’s rules, not the number of cities on a sales target list."
+      ],
+      [
+        "Can an agency guarantee verification?",
+        "No. The platform determines the verification options and outcome. An agency can organize accurate information, review consistency and assist with the available process, but it cannot replace genuine business evidence with a guaranteed approval promise."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Google: business eligibility and ownership",
+        "url": "https://support.google.com/business/answer/13763036"
+      },
+      {
+        "title": "Google: representing your business",
+        "url": "https://support.google.com/business/answer/3038177"
+      }
+    ]
+  },
+  {
+    "slug": "multi-location-local-seo-structure",
+    "title": "Plan local SEO for multiple locations without confusing customers",
+    "seoTitle": "A Clear Local SEO Structure for Multiple Locations",
+    "updated": "2026-11-13",
+    "category": "SEO",
+    "summary": "Organize real business locations and service areas into a clear website structure, with useful local content, ownership and measurement.",
+    "readTime": "4 min read",
+    "primaryService": "local-seo",
+    "sections": [
+      {
+        "title": "Map real operations before drawing the sitemap",
+        "body": "Start with the places the business actually operates and the services available from each one. Record staffing, contact routes, opening hours and coverage boundaries. Distinguish physical locations from areas served by a nearby team. A single list of city names can hide important differences: one branch may offer emergency work while another handles planned installations only. The website should help customers choose the right team, not imply identical availability everywhere. Use this operational map as the brief for local pages, profile decisions and the routing of inquiries.",
+        "links": [
+          {
+            "label": "Plan multi-location local SEO",
+            "href": "/services/local-seo/"
+          }
+        ]
+      },
+      {
+        "title": "Give each location page a useful purpose",
+        "body": "Where a real branch needs its own page, include the information a customer would need before contacting or visiting it. That can include available services, accurate access information, the local team, relevant project examples and the right contact path. Avoid repeating a generic introduction above a different city name. For service-area coverage, explain the practical delivery details instead of presenting it as a storefront. Google’s profile rules also distinguish genuine business locations from virtual addresses, so the website structure should not be used to justify profiles that the operating model cannot support."
+      },
+      {
+        "title": "Keep shared information governed centrally",
+        "body": "Some information belongs across the business: brand standards, privacy notices, core service definitions and account ownership. Other facts belong to a specific location. Decide which team controls each field and how changes are approved. A branch should be able to report a new phone number or changed service availability without editing unrelated company information. Keep an inventory of location URLs and their corresponding profiles where applicable. This makes it easier to spot duplicate records, inconsistent naming and a page that still routes inquiries to a former employee.",
+        "links": [
+          {
+            "label": "Create a business-listing audit",
+            "href": "/resources/local-citation-audit/"
+          }
+        ]
+      },
+      {
+        "title": "Review outcomes at the location and service level",
+        "body": "A blended national report may conceal a branch receiving unsuitable inquiries or a service that customers cannot find. Review relevant page groups, inquiry destinations and sales feedback by location where the available data supports it. Check whether apparent differences come from marketing, staffing or operational capacity. Use a common reporting format so teams can compare the same definitions, while allowing for different local conditions. Expansion should follow accurate service coverage and delivery readiness; publishing another city page is not evidence that the business can support customers there.",
+        "links": [
+          {
+            "label": "Compare ongoing service scopes",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "List real locations separately from coverage areas.",
+      "Confirm services and contact routes for each team.",
+      "Give local pages distinct customer information.",
+      "Assign central and local editing responsibilities.",
+      "Review inquiry quality by location and service."
+    ],
+    "related": [
+      "local-seo"
+    ],
+    "faqs": [
+      [
+        "Should every location use the same page template?",
+        "A shared template can improve consistency and maintenance. The important distinction is the content: each page should explain real differences in services, access, team or coverage rather than simply substituting a place name."
+      ],
+      [
+        "Can one branch serve several nearby cities?",
+        "Yes, when that reflects how the business operates. Explain the coverage accurately and route inquiries to the responsible team. Serving several cities does not automatically mean each city is a separate office or profile location."
+      ],
+      [
+        "What happens when a location closes?",
+        "Update the customer-facing information promptly and decide whether a relevant alternative exists. Review the page, contact routes, listings and internal links together so customers are not sent to a closed branch through an overlooked source."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Google: representing locations and service areas",
+        "url": "https://support.google.com/business/answer/3038177"
+      }
+    ]
+  },
+  {
+    "slug": "customer-review-request-workflow",
+    "title": "Build a review-request workflow your team can maintain",
+    "seoTitle": "A Practical Customer Review Request Workflow",
+    "updated": "2026-11-13",
+    "category": "SEO",
+    "summary": "Create a consistent review-request process with clear ownership, honest customer invitations and useful responses that protect customer privacy.",
+    "readTime": "4 min read",
+    "primaryService": "local-seo",
+    "sections": [
+      {
+        "title": "Choose a real point in the customer experience",
+        "body": "A review request works best as part of an actual customer journey, not a last-minute marketing push. Choose a point when the customer has experienced the work and can describe it honestly. That may be after a completed appointment, a handover or another appropriate milestone. Confirm that the team knows when the job is finished and who is responsible for the request. Do not ask people to review a service they have not received. The process should make it easy to share genuine feedback without pressuring the customer to provide a particular rating.",
+        "links": [
+          {
+            "label": "Explore local reputation and SEO support",
+            "href": "/services/local-seo/"
+          }
+        ]
+      },
+      {
+        "title": "Use a neutral invitation and a consistent process",
+        "body": "Write a short message identifying the business, thanking the customer and providing a straightforward review route. Avoid scripting the opinion or offering a reward for a review. Google prohibits incentives in exchange for reviews or changes to reviews. Do not make public review invitations available only to people who first report being happy. A separate customer-support process can resolve issues without controlling who gets the opportunity to leave honest feedback. Have the business owner approve the message and ensure it fits the communication permissions used by the company."
+      },
+      {
+        "title": "Make delivery and responsibility visible",
+        "body": "Keep a simple record of the request date and the team member responsible, using the systems the business already operates. Avoid repeatedly contacting someone because two departments cannot see each other’s work. Check that the link works on a phone and leads to the correct business. If using a printed QR code, test the actual printed version rather than only the digital design. The purpose of tracking is to maintain a respectful process and catch broken handoffs, not to pressure individual customers until they publish something favorable.",
+        "links": [
+          {
+            "label": "Keep business listing details consistent",
+            "href": "/resources/local-citation-audit/"
+          }
+        ]
+      },
+      {
+        "title": "Respond as a business, not as a promotion",
+        "body": "Set aside time to review new feedback and decide who handles operational concerns. Public replies should be courteous, relevant and careful with customer information. Move sensitive details to an appropriate private channel rather than describing a customer’s account in public. Use recurring themes to improve the service or explain expectations more clearly on the website. A complaint about scheduling, for example, may reveal an unclear booking process. Keep the review workflow connected to customer experience; collecting more stars while ignoring repeated problems leaves the underlying issue unresolved.",
+        "links": [
+          {
+            "label": "Review ongoing support options",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Pick a genuine post-service request milestone.",
+      "Approve a neutral invitation without incentives.",
+      "Make request ownership visible to the team.",
+      "Test the review link and any printed QR code.",
+      "Use feedback to improve the customer experience."
+    ],
+    "related": [
+      "local-seo"
+    ],
+    "faqs": [
+      [
+        "Can I offer a discount for a Google review?",
+        "No. Google prohibits incentives in exchange for reviews, including discounts or free services. Build the request around the customer’s genuine experience and an easy way to share it rather than a reward."
+      ],
+      [
+        "Should unhappy customers receive a review invitation?",
+        "A consistent process should not filter public invitations according to sentiment. Address complaints through customer support while allowing genuine customers to share honest feedback. The two processes serve different purposes."
+      ],
+      [
+        "Who should reply to a negative review?",
+        "Choose someone who understands the issue and can respond calmly without exposing private information. An agency can help draft a response, but the business should confirm the facts and own any promised follow-up action."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Google: getting and responding to reviews",
+        "url": "https://support.google.com/business/answer/3474122"
+      }
+    ]
+  },
+  {
+    "slug": "local-citation-audit",
+    "title": "Audit business listings without chasing directory counts",
+    "seoTitle": "A Practical Local Citation Audit",
+    "updated": "2026-11-13",
+    "category": "SEO",
+    "summary": "Review business listings for accuracy, ownership and customer usefulness, then prioritize corrections instead of chasing a larger directory count.",
+    "readTime": "4 min read",
+    "primaryService": "local-seo",
+    "sections": [
+      {
+        "title": "Create an approved business-information record",
+        "body": "Before correcting listings, decide which information is accurate. Gather the recognized business name, working phone number, public website, service description and relevant location or coverage details. Confirm hours with the operating team. Record who can approve changes and distinguish a public customer address from information that should not be displayed. Without a source of truth, an audit can spread a different version of the same mistake across more websites. Keep this record accessible to the people maintaining the site, listings and customer communications.",
+        "links": [
+          {
+            "label": "Explore our local SEO service",
+            "href": "/services/local-seo/"
+          }
+        ]
+      },
+      {
+        "title": "Find the listings customers are likely to encounter",
+        "body": "Start with prominent search profiles, important trade directories, existing referral sources and listings found when searching for the business. Record the URL, ownership status, incorrect fields and whether the page sends customers somewhere useful. A listing with an old phone number can deserve attention before a minor formatting difference on an obscure directory. Look for duplicate records and retired locations, but investigate before attempting to remove a record that another team still uses. Treat the audit as a customer-information exercise rather than a competition to accumulate the largest possible list of directory URLs."
+      },
+      {
+        "title": "Prioritize corrections by practical consequence",
+        "body": "Group findings into urgent contact errors, misleading service or location information, duplicate records and lower-impact cleanup. Assign an owner and note whether access is available. Some corrections require the platform’s verification or support process, so track the request and its outcome rather than marking a task complete when it is submitted. Where a directory has little relevance and asks for a paid listing, evaluate the potential customer benefit separately from broad promises about ranking. A smaller set of accurate, useful records can be easier to maintain than a large unmanaged footprint.",
+        "links": [
+          {
+            "label": "Check profile eligibility first",
+            "href": "/resources/google-business-profile-eligibility-checklist/"
+          }
+        ]
+      },
+      {
+        "title": "Build updates into ordinary business changes",
+        "body": "A new phone number, changed opening hours or closed location should trigger a review of the records that depend on it. Keep the listing inventory alongside the website change process so important updates do not wait for an annual audit. Verify that corrected pages display the intended information publicly, then record the check date. Ask the sales team whether customers still arrive with outdated expectations. That feedback can uncover an overlooked source. Consistency is useful because people need reliable contact information; it is not a guarantee that a particular directory submission will improve rankings.",
+        "links": [
+          {
+            "label": "Compare focused local support",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Approve business details before changing listings.",
+      "Inventory important live listing URLs and access.",
+      "Prioritize broken contact and misleading service information.",
+      "Verify completed corrections on the public pages.",
+      "Tie listing reviews to operational changes."
+    ],
+    "related": [
+      "local-seo"
+    ],
+    "faqs": [
+      [
+        "How many directories should a business join?",
+        "There is no useful universal target. Choose relevant directories and platforms that customers may actually use, then consider maintenance effort and any costs. Avoid buying a large volume of listings solely because a package promises a ranking benefit."
+      ],
+      [
+        "Must every address abbreviation look identical?",
+        "Focus first on accurate meaning and working contact details. Minor formatting differences are less urgent than an incorrect phone number, misleading location or closed branch. Use consistent approved information where the platform allows it."
+      ],
+      [
+        "What if we cannot access an old listing?",
+        "Record the problem and use the platform’s available ownership or correction process. Keep evidence of the request and check the public result. Do not assume that creating a second listing will resolve the old one."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Google: accurate business representation",
+        "url": "https://support.google.com/business/answer/3038177"
+      }
+    ]
+  },
+  {
+    "slug": "service-area-pages-with-real-evidence",
+    "title": "What belongs on a useful service-area page?",
+    "seoTitle": "Service-Area Pages with Useful Local Evidence",
+    "updated": "2026-11-13",
+    "category": "SEO",
+    "summary": "Create service-area pages that explain real coverage, relevant work and customer next steps, without inventing offices or repeating city-swapped copy.",
+    "readTime": "4 min read",
+    "primaryService": "local-seo",
+    "sections": [
+      {
+        "title": "Give the visitor a reason to need this page",
+        "body": "A service-area page should answer a practical question: can this business help with my job in this place? Explain the relevant service, coverage boundaries and the way inquiries are handled. If the business has different availability across the region, state the difference clearly. A page that repeats a generic sales pitch under another city name does little to reduce uncertainty. Start with the information a customer would need before contacting the team, then decide whether the location needs its own page or belongs within a broader coverage guide.",
+        "links": [
+          {
+            "label": "Plan useful local SEO content",
+            "href": "/services/local-seo/"
+          }
+        ]
+      },
+      {
+        "title": "Collect local evidence from the people doing the work",
+        "body": "Ask the operations team for real project examples, common job types, access considerations and questions customers in that area actually ask. Use approved photographs and explain their context rather than treating any attractive house image as evidence of local work. Where a project cannot be publicly identified, describe the service process honestly without inventing a client or result. Avoid adding local claims that the business cannot maintain. A smaller amount of specific, accurate information is more helpful than paragraphs of general place descriptions unrelated to the service."
+      },
+      {
+        "title": "Explain coverage without pretending to have an office",
+        "body": "The page can say that a business serves an area without claiming to be based there. Make that distinction clear in the copy, contact information and any structured data. A remote studio may support clients in a city through online collaboration; a contractor may send a team from a nearby operating base. Neither model requires an invented storefront. Choose the next step around the real delivery process, such as checking a job address or arranging a planning call. Tell visitors what happens after they submit the request.",
+        "links": [
+          {
+            "label": "Review multi-location page structure",
+            "href": "/resources/multi-location-local-seo-structure/"
+          }
+        ]
+      },
+      {
+        "title": "Connect the page and keep it current",
+        "body": "Link the page from a sensible coverage directory and connect it to the relevant service description and useful guides. Review whether the links help a visitor make a decision rather than inserting a long list of unrelated cities. Keep the page updated when services, availability or coverage change. Measure suitable inquiries and the questions customers still ask after reading it. If several pages offer essentially identical information, consider combining them into a stronger regional guide. More location URLs should follow more useful information, not become the goal by themselves.",
+        "links": [
+          {
+            "label": "Explore local SEO pricing and scope",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Answer whether the business can deliver this job here.",
+      "Collect genuine local work and operating details.",
+      "Describe service coverage without inventing an office.",
+      "Connect the page to relevant services and guides.",
+      "Review usefulness before creating more location URLs."
+    ],
+    "related": [
+      "local-seo",
+      "content-creation"
+    ],
+    "faqs": [
+      [
+        "Do I need a page for every nearby city?",
+        "No. Create a separate page when you can provide useful, distinct information for that audience. A clear regional coverage page may serve customers better than many near-identical city pages."
+      ],
+      [
+        "Can a remote business publish service-area pages?",
+        "Yes, it can accurately explain the markets it serves and how remote delivery works. The copy should not imply physical offices or local in-person availability that the business does not actually provide."
+      ],
+      [
+        "What if we have no local case study yet?",
+        "Explain the service, coverage and process using facts you can support. Add local project evidence when available. Do not manufacture a customer story, review or performance figure merely to make the page appear established."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Google: helpful content guidance",
+        "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content"
+      }
+    ]
+  },
+  {
+    "slug": "seasonal-local-seo-planning",
+    "title": "Plan seasonal local SEO around capacity and customer questions",
+    "seoTitle": "Seasonal Local SEO Planning for Service Businesses",
+    "updated": "2026-11-13",
+    "category": "SEO",
+    "summary": "Prepare local service content before seasonal demand, align it with real availability and keep customer information accurate when priorities change.",
+    "readTime": "4 min read",
+    "primaryService": "local-seo",
+    "sections": [
+      {
+        "title": "Start with the work the business can actually accept",
+        "body": "Seasonal planning should begin with capacity, not a list of popular keywords. Ask which services the team wants to promote, where it can deliver them and what scheduling constraints customers need to know. A business already at capacity may need clearer qualification rather than more inquiries. Record the period when the offer is relevant and who will decide when to change it. This prevents the website from continuing to promote an unavailable service after the operations team has moved into a different part of the season.",
+        "links": [
+          {
+            "label": "Explore local SEO planning",
+            "href": "/services/local-seo/"
+          }
+        ]
+      },
+      {
+        "title": "Prepare answers before the busiest period",
+        "body": "Collect the questions customers ask before booking: suitable timing, preparation, service scope, access and what happens when conditions change. Turn those questions into useful updates to existing service pages and supporting guides. Decide what information is durable and what needs a dated review. Avoid creating a new annual URL for the same advice when an established page can be maintained. A preparation guide can support customer decisions before demand peaks, but its usefulness should not depend on claiming that the business can predict weather, search volume or guaranteed lead growth."
+      },
+      {
+        "title": "Keep hours, offers and contact paths aligned",
+        "body": "Review public business information and website messages together. If holiday hours, booking availability or a seasonal offer changes, update the relevant customer-facing places through their appropriate controls. Check that the inquiry form asks the questions the team currently needs and routes requests to someone available to respond. When an advertised promotion ends, remove or revise related landing-page copy and scheduled content. The point is to avoid a mismatch between what customers see and what the business can deliver, not to make constant changes merely to appear active.",
+        "links": [
+          {
+            "label": "Create a local information audit",
+            "href": "/resources/local-citation-audit/"
+          }
+        ]
+      },
+      {
+        "title": "Compare seasons with context and carry learning forward",
+        "body": "At the end of the period, review relevant inquiries, customer questions and the content that helped people prepare. Compare like periods where useful, while noting differences in service availability, marketing activity and local conditions. A slower month does not automatically mean the content failed, and a busy month does not establish that SEO caused every job. Record which explanations reduced confusion and which requests were unsuitable. Use that learning to prepare the next cycle and update the ongoing work plan before the team becomes too busy to contribute source material.",
+        "links": [
+          {
+            "label": "Compare ongoing marketing plans",
+            "href": "/pricing/"
+          }
+        ]
+      }
+    ],
+    "checklist": [
+      "Agree on priority services and delivery capacity.",
+      "Collect pre-booking questions before the busy period.",
+      "Maintain durable pages instead of repeating annual copies.",
+      "Align hours, offers and inquiry routing.",
+      "Record lessons with seasonal and operational context."
+    ],
+    "related": [
+      "local-seo",
+      "content-management"
+    ],
+    "faqs": [
+      [
+        "How early should seasonal content be prepared?",
+        "Work backward from the customer’s planning process and the time your team needs for review. Some services involve long consideration periods; others are urgent. There is no single publishing deadline that suits every trade or market."
+      ],
+      [
+        "Should a seasonal page disappear after the season?",
+        "Not necessarily. A useful evergreen guide can remain available with accurate context. Time-limited offers and unavailable booking promises need updating, while durable preparation information may still help customers planning ahead."
+      ],
+      [
+        "Can local SEO replace seasonal advertising?",
+        "They serve different roles and can work together. Decide the mix around customer demand, timing, budget and existing visibility. Avoid assuming that one channel will reliably replace another without reviewing actual inquiry and sales outcomes."
+      ]
+    ],
+    "sources": [
+      {
+        "title": "Google: managing business information",
+        "url": "https://support.google.com/business/answer/3038177"
+      }
+    ]
+  }
+]
