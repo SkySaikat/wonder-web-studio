@@ -7,14 +7,14 @@
   "unique_titles": 790,
   "unique_descriptions": 790,
   "unique_share_images": 790,
-  "indexable_mode": false,
+  "indexable_mode": true,
   "issues": [],
   "discovery_issues": [],
   "pages": [
     {
       "path": "/",
       "title": "Web Design & Digital Marketing Agency | Wonderweb Studio",
-      "description": "Websites, SEO, Google and Meta ads, social media and creative content for small businesses and home-service companies. Meet Wonderweb Studio.",
+      "description": "A fully remote web design and digital marketing agency serving businesses worldwide. Websites, SEO, ads and social for the US, Canada, Australia and beyond.",
       "image": "https://www.wonderwebstudio.com/seo/home.png",
       "schema_types": [
         "Answer",
@@ -33,7 +33,7 @@
     {
       "path": "/about/",
       "title": "About Wonderweb Studio | Wonderweb Studio",
-      "description": "Meet our founder and explore Wonderweb Studio\u2019s approach to websites, design, content and marketing for small businesses around the world.",
+      "description": "Meet Wonderweb Studio, a fully remote agency serving the United States, Canada, Australia and businesses worldwide with websites, creative and marketing.",
       "image": "https://www.wonderwebstudio.com/seo/about.png",
       "schema_types": [
         "AboutPage",
@@ -51,7 +51,7 @@
     {
       "path": "/contact/",
       "title": "Contact Wonderweb Studio | Wonderweb Studio",
-      "description": "Discuss your website, SEO, ads or social media project with Wonderweb Studio. Request a tailored quote or a preferred time for an introductory call.",
+      "description": "Contact our remote team for websites, SEO, ads and social media. Serving the US, Canada, Australia and worldwide, with intro calls arranged in your time zone.",
       "image": "https://www.wonderwebstudio.com/seo/contact.png",
       "schema_types": [
         "BreadcrumbList",
@@ -15059,7 +15059,7 @@
     {
       "path": "/work/dococlock/",
       "title": "DocoClock \u2014 Website Project | Wonderweb Studio",
-      "description": "A healthcare platform bringing doctor discovery, appointments, live queues and digital prescriptions into a connected experience for Bangladesh.",
+      "description": "A healthcare platform bringing doctor discovery, appointments, live queues and digital prescriptions into one connected healthcare experience.",
       "image": "https://www.wonderwebstudio.com/seo/work--dococlock.png",
       "schema_types": [
         "BreadcrumbList",

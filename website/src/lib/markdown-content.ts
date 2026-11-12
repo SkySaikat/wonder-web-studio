@@ -15,7 +15,7 @@ import {campaignStories} from './projects';
 import {absoluteUrl} from './seo';
 import {getPublicSeoPages,seoPages,seoByPath,type SeoPage} from './seo-pages';
 import {serviceDetails} from './service-details';
-import {site,plans} from './site';
+import {site,plans,studioCoverageFaq} from './site';
 
 const bullets=(items:readonly string[])=>items.map(item=>`- ${item}`).join('\n');
 const sections=(items:readonly (readonly [string,string])[])=>items.map(([title,body])=>`## ${title}\n\n${body}`).join('\n\n');
@@ -63,7 +63,7 @@ export function markdownBody(page:SeoPage):string{
  }
  if(kind==='work'&&slug){const w=work.find(w=>w.slug===slug)!;blocks.push('challenge' in w?`## Brief\n\n${w.challenge}\n\n## Approach\n\n${w.approach}\n\n## Deliverables\n\n${bullets(w.deliverables)}`:'A creative exploration from the studio’s earlier portfolio; not a measured campaign result.');}
  if(page.path==='/pricing/')blocks.push(sections(plans.map(p=>[p.name,`From $${p.price} USD per month. ${p.description}\n\n${bullets(p.items)}\n\n${p.note}`])));
- if(page.path==='/'||page.path==='/about/'||page.path==='/contact/')blocks.push(`## Studio facts\n\nWonderweb Studio provides websites, SEO, paid advertising, social media and creative content for small businesses and home-service companies. Founder, CEO and team lead: Saikat Chowdhury. Based in Chattogram, Bangladesh; services are delivered remotely worldwide.\n\nContact: ${site.email}. Call requests include a preferred date and time and require confirmation.`,links(['/services/','/pricing/','/results/','/locations/','/contact/']));
+ if(page.path==='/'||page.path==='/about/'||page.path==='/contact/')blocks.push(`## Studio facts\n\n${site.positioning} We provide websites, SEO, paid advertising, social media and creative content for small businesses and home-service companies. Founder, CEO and team lead: Saikat Chowdhury. Our team collaborates across locations and time zones.\n\nContact: ${site.email}. Call requests include a preferred date and time and require confirmation.`,faq([studioCoverageFaq]),links(['/services/','/pricing/','/results/','/locations/','/contact/']));
  if(page.children?.length)blocks.push(`## Explore\n\n${links(page.children)}`);
  if(kind==='privacy-policy'||kind==='terms')blocks.push(`This is a discovery summary. Read the complete current policy on the [canonical website page](${absoluteUrl(page.path)}).`);
  return blocks.filter(Boolean).join('\n\n');

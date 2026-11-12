@@ -6,6 +6,7 @@ from pathlib import Path
 from urllib.parse import urlparse,parse_qs
 BASE=os.environ.get('AUDIT_BASE_URL','http://127.0.0.1:3000').rstrip('/')
 EXPECT_INDEXABLE=os.environ.get('AUDIT_INDEXABLE','false')=='true'
+OLD_STUDIO_LOCATION=re.compile(r'chittagong|chattogram|bangladesh',re.I)
 NS={'s':'http://www.sitemaps.org/schemas/sitemap/0.9','image':'http://www.google.com/schemas/sitemap-image/1.1'}
 VOCAB_PATH=os.environ.get('SCHEMA_VOCABULARY')
 VOCAB={n['@id']:n for n in json.loads(Path(VOCAB_PATH).read_text())['@graph']} if VOCAB_PATH else {}
@@ -71,6 +72,7 @@ def audit(url):
  path=urlparse(url).path;issues=[]
  try:
   status,headers,html=fetch(path);p=Page();p.feed(html.decode());nodes=[]
+  if OLD_STUDIO_LOCATION.search(html.decode()):issues.append('Outdated studio location in rendered page or structured data')
   for raw in p.scripts:nodes+=list(walk(json.loads(raw)))
   if VOCAB:issues+=schema_issues(nodes)
   types=Counter(n.get('@type') for n in nodes if isinstance(n.get('@type'),str))
@@ -80,6 +82,10 @@ def audit(url):
   page_nodes=[n for n in nodes if n.get('@id')==url+'#webpage']
   if len([n for n in page_nodes if '@type' in n])!=1:issues.append('Missing/duplicate page schema')
   if not types['Organization'] or not types['WebSite']:issues.append('Missing organization/site graph')
+  for n in nodes:
+   if n.get('@type')=='Organization':
+    if n.get('areaServed')!=['Worldwide','United States','Canada','Australia']:issues.append('Organization worldwide service coverage is inconsistent')
+    if n.get('address') or n.get('location'):issues.append('Remote studio has a physical-location claim')
   if path!='/' and types['BreadcrumbList']!=1:issues.append('Missing/duplicate breadcrumb schema')
   if path.startswith(('/services/','/locations/','/industries/')) and len(path.split('/'))>3 and not types['Service']:issues.append('Missing Service schema')
   if path.startswith('/resources/') and path!='/resources/' and not path.startswith('/resources/library/') and types['BlogPosting']!=1:issues.append('Missing article schema')
@@ -100,6 +106,7 @@ def audit(url):
    md_url=urlparse(url).scheme+'://'+urlparse(url).netloc+md_path
    if p.markdown!=[md_url]:issues.append('Missing or incorrect Markdown alternate')
    _,md_headers,md_body=fetch(md_path)
+   if OLD_STUDIO_LOCATION.search(md_body.decode()):issues.append('Outdated studio location in Markdown content')
    if 'text/markdown' not in md_headers.get('content-type',''):issues.append('Invalid Markdown content type')
    if '<'+url+'>; rel="canonical"' not in md_headers.get('link',''):issues.append('Missing Markdown canonical header')
    if url not in md_body.decode():issues.append('Missing Markdown source URL')
@@ -146,6 +153,7 @@ _,_,xml=fetch('/llms.xml');llm_urls=[u.find('s:loc',NS).text for u in ET.fromstr
 if llm_urls!=urls:extra.append('LLMs XML differs from sitemap')
 for path in ['/llms.txt','/llms-full.txt']:
  _,headers,body=fetch(path);body=body.decode()
+ if OLD_STUDIO_LOCATION.search(body):extra.append('Outdated studio location in '+path)
  if not body.startswith('# Wonderweb Studio') or 'text/plain' not in headers.get('content-type',''):extra.append('Invalid '+path)
  if any(url not in body for url in urls):extra.append('Missing public URL in '+path)
  if origin+'/payments/' in body:extra.append('Private client route in '+path)

@@ -6,7 +6,9 @@ import {formatEditorialDate} from '../src/lib/editorial-dates';
 import {markdownIndex,markdownPages,pageMarkdown} from '../src/lib/markdown-content';
 import {publicSeoPages,seoByPath} from '../src/lib/seo-pages';
 import {metadata,absoluteUrl} from '../src/lib/seo';
-import {pageGraph} from '../src/lib/schema';
+import {pageGraph,organizationGraph} from '../src/lib/schema';
+import {llmsText,llmsFullText} from '../src/lib/discovery';
+import {seoPages} from '../src/lib/seo-pages';
 import {GET} from '../src/app/content/[...slug]/route';
 
 test('every public page has a discoverable Markdown guide with a canonical response',async()=>{
@@ -49,5 +51,29 @@ test('local service guides retain distinct scope and remote-delivery facts',()=>
  assert.notEqual(seo,ads);assert.match(seo,/Make service discovery useful/);assert.match(ads,/Start with a service, a territory/);
  for(const page of publicSeoPages.filter(p=>p.path.startsWith('/locations/')&&p.area)){
   const md=pageMarkdown(page);assert.match(md,/does not represent a local office/);assert.match(md,/Prepare your marketing brief/);
+ }
+});
+
+test('the remote agency identity is consistent across metadata, schema and AI-readable content',()=>{
+ const oldLocation=/chittagong|chattogram|bangladesh/i;
+ const organization=organizationGraph()['@graph'].find(n=>n['@type']==='Organization')!;
+ assert.deepEqual(organization.areaServed,['Worldwide','United States','Canada','Australia']);
+ assert.equal('address' in organization,false);
+ assert.equal('location' in organization,false);
+ assert.match(organization.description as string,/remote.*worldwide/i);
+ assert.doesNotMatch(JSON.stringify(organizationGraph()),oldLocation);
+ for(const page of seoPages){
+  assert.doesNotMatch(JSON.stringify(metadata('','',page.path)),oldLocation,page.path);
+  assert.doesNotMatch(JSON.stringify(pageGraph(page.path)),oldLocation,page.path);
+  if(page.index!==false)assert.doesNotMatch(pageMarkdown(page),oldLocation,page.path);
+ }
+ for(const text of [llmsText(),llmsFullText(),markdownIndex()]){
+  assert.doesNotMatch(text,oldLocation);
+  assert.match(text,/remote.*worldwide/i);
+ }
+ for(const path of ['/','/about/','/contact/']){
+  const text=pageMarkdown(seoByPath.get(path)!);
+  assert.match(text,/United States, Canada and Australia/);
+  assert.match(text,/Where does Wonderweb Studio work with clients/);
  }
 });

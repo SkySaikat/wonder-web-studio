@@ -239,7 +239,7 @@
   },
   "/work/dococlock.webp": {
     "title": "DocoClock — Healthcare platform · Full-stack development",
-    "description": "DocoClock project preview. A healthcare platform bringing doctor discovery, appointments, live queues and digital prescriptions into a connected experience for Bangladesh.",
+    "description": "DocoClock project preview. A healthcare platform bringing doctor discovery, appointments, live queues and digital prescriptions into one connected healthcare experience.",
     "width": 1440,
     "height": 900,
     "type": "image/webp"
@@ -323,21 +323,21 @@
   },
   "/seo/home.png": {
     "title": "Home — Wonderweb Studio",
-    "description": "Featured social preview for Home. Websites, SEO, Google and Meta ads, social media and creative content for small businesses and home-service companies. Meet Wonderweb Studio.",
+    "description": "Featured social preview for Home. A fully remote web design and digital marketing agency serving businesses worldwide. Websites, SEO, ads and social for the US, Canada, Australia and beyond.",
     "width": 1200,
     "height": 630,
     "type": "image/png"
   },
   "/seo/about.png": {
     "title": "About the studio — Wonderweb Studio",
-    "description": "Featured social preview for About the studio. Meet our founder and explore Wonderweb Studio’s approach to websites, design, content and marketing for small businesses around the world.",
+    "description": "Featured social preview for About the studio. Meet Wonderweb Studio, a fully remote agency serving the United States, Canada, Australia and businesses worldwide with websites, creative and marketing.",
     "width": 1200,
     "height": 630,
     "type": "image/png"
   },
   "/seo/contact.png": {
     "title": "Contact — Wonderweb Studio",
-    "description": "Featured social preview for Contact. Discuss your website, SEO, ads or social media project with Wonderweb Studio. Request a tailored quote or a preferred time for an introductory call.",
+    "description": "Featured social preview for Contact. Contact our remote team for websites, SEO, ads and social media. Serving the US, Canada, Australia and worldwide, with intro calls arranged in your time zone.",
     "width": 1200,
     "height": 630,
     "type": "image/png"
@@ -5664,7 +5664,7 @@
   },
   "/seo/work--dococlock.png": {
     "title": "DocoClock — Wonderweb Studio",
-    "description": "Featured social preview for DocoClock. A healthcare platform bringing doctor discovery, appointments, live queues and digital prescriptions into a connected experience for Bangladesh.",
+    "description": "Featured social preview for DocoClock. A healthcare platform bringing doctor discovery, appointments, live queues and digital prescriptions into one connected healthcare experience.",
     "width": 1200,
     "height": 630,
     "type": "image/png"

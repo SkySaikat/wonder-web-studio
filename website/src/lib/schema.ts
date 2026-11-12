@@ -16,7 +16,7 @@ export function imageSchema(path:string):Node{
  return {'@type':'ImageObject','@id':`${url}#image`,url,contentUrl:url,name:image.title,caption:image.description,description:image.description,encodingFormat:image.type,width:image.width,height:image.height};
 }
 export function organizationGraph(){return {'@context':'https://schema.org','@graph':[
- {'@type':'Organization','@id':orgId,name:site.name,url:`${site.url}/`,description:site.description,email:site.email,logo:ref(`${absoluteUrl('/brand/wonderweb-studio.svg')}#image`),sameAs:site.socials.map(s=>s.url),founder:ref(personId),contactPoint:{'@type':'ContactPoint',contactType:'sales inquiries',email:site.email,url:absoluteUrl('/contact/'),availableLanguage:'English'}},
+ {'@type':'Organization','@id':orgId,name:site.name,url:`${site.url}/`,description:site.description,areaServed:site.serviceAreas,email:site.email,logo:ref(`${absoluteUrl('/brand/wonderweb-studio.svg')}#image`),sameAs:site.socials.map(s=>s.url),founder:ref(personId),contactPoint:{'@type':'ContactPoint',contactType:'sales inquiries',email:site.email,url:absoluteUrl('/contact/'),availableLanguage:'English'}},
  imageSchema('/brand/wonderweb-studio.svg'),
  {'@type':'WebSite','@id':websiteId,url:`${site.url}/`,name:site.name,description:site.description,publisher:ref(orgId),inLanguage:'en'},
  {'@type':'Person','@id':personId,name:'Saikat Chowdhury',jobTitle:'Founder & CEO · Team Lead',url:absoluteUrl('/about/'),image:absoluteUrl('/work/saikat.webp'),worksFor:ref(orgId)},
@@ -51,7 +51,7 @@ export function pageGraph(path:string){
 }
 function mainEntity(page:SeoPage,id:string,pageId:string):Node{
  const base:Node={'@type':page.entity,'@id':id,name:page.label,description:page.description,url:absoluteUrl(page.path),mainEntityOfPage:ref(pageId),image:ref(`${absoluteUrl(seoImagePath(page.path))}#image`)};
- if(page.entity==='Service')return {...base,name:page.title,serviceType:page.serviceType,provider:ref(orgId),...(page.area?{areaServed:{'@type':page.area.kind,name:page.area.name,containedInPlace:{'@type':page.area.kind==='City'?'State':'Country',name:page.area.region}}}:{}),...(page.audience?{audience:{'@type':'BusinessAudience',audienceType:page.audience}}:{})};
+ if(page.entity==='Service')return {...base,name:page.title,serviceType:page.serviceType,provider:ref(orgId),...(page.area?{areaServed:{'@type':page.area.kind,name:page.area.name,containedInPlace:{'@type':page.area.kind==='City'?'State':'Country',name:page.area.region}}}:{areaServed:site.serviceAreas}),...(page.audience?{audience:{'@type':'BusinessAudience',audienceType:page.audience}}:{})};
  if(page.entity==='BlogPosting'||page.entity==='Article'){
   const a=articles.find(a=>page.path===`/resources/${a.slug}/`);
   return {...base,headline:page.label,inLanguage:'en',author:ref(orgId),publisher:ref(orgId),...(page.modified?{dateModified:page.modified}:{}),...(page.published?{datePublished:page.published}:{}),...(a?{articleSection:a.category,...(a.sources?{citation:a.sources.map(s=>s.url)}:{})}:{})};

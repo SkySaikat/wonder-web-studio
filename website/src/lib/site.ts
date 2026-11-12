@@ -3,7 +3,9 @@ export const site = {
   name: 'Wonderweb Studio',
   url: (process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wonderwebstudio.com').replace(/\/+$/, ''),
   email: 'info@wonderwebstudio.com',
-  description: 'Websites, SEO, paid ads, social media and creative content for ambitious small businesses. One studio, a connected plan, and a clearer path to your next customer.',
+  description: 'Remote web design and digital marketing agency serving businesses worldwide, including the United States, Canada and Australia. Websites, SEO, ads and social.',
+  positioning: 'Wonderweb Studio is a fully remote web design and digital marketing agency serving businesses worldwide, including the United States, Canada and Australia.',
+  serviceAreas: ['Worldwide', 'United States', 'Canada', 'Australia'],
   socials: [
     { name: 'Instagram', url: 'https://www.instagram.com/wonderwebstudio' },
     { name: 'Facebook', url: 'https://www.facebook.com/wonderwebstudioltd' },
@@ -12,6 +14,10 @@ export const site = {
     { name: 'Pinterest', url: 'https://www.pinterest.com/wonderwebstudioltd/' },
   ],
 };
+export const studioCoverageFaq:[string,string]=[
+  'Where does Wonderweb Studio work with clients?',
+  'We are a fully remote agency serving businesses worldwide, including the United States, Canada and Australia. Our team collaborates across locations, with a shared project plan and review times agreed around your time zone. Our market guides describe the businesses we serve, not physical studio offices.',
+];
 export const indexable = isSiteIndexable();
 export function jsonLd(value: unknown) { return JSON.stringify(value).replace(/</g, '\\u003c'); }
 export const plans = [
