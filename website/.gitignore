@@ -11,3 +11,6 @@ coverage/
 
 # Local image build cache
 .seo-image-cache.json
+
+# Generated Next.js cache backups are never source files.
+.next-*/
