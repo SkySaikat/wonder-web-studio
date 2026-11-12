@@ -1,0 +1,5 @@
+{
+  "/pricing/page": "app/pricing/page.js",
+  "/resources/[slug]/page": "app/resources/[slug]/page.js",
+  "/resources/page": "app/resources/page.js"
+}

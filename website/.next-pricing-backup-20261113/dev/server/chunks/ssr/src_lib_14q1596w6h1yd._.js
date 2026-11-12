@@ -1,0 +1,5813 @@
+module.exports = [
+"[project]/src/lib/articles.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "articles",
+    ()=>articles
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$service$2d$guides$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/service-guides.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$search$2d$led$2d$articles$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/search-led-articles.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$practical$2d$guides$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/practical-guides.ts [app-rsc] (ecmascript)");
+;
+;
+;
+const existingArticles = [
+    {
+        slug: 'google-ads-cost-home-services',
+        title: 'What should a home-service business budget for Google Ads?',
+        category: 'Paid advertising',
+        summary: 'Separate media spend, management, landing pages and follow-up before deciding what a campaign really costs.',
+        readTime: '5 min read',
+        sections: [
+            {
+                title: 'Start with the service and the market',
+                body: 'There is no useful universal advertising budget for every contractor. A roofing replacement campaign and a plumbing repair campaign have different job values, demand and sales processes. Decide which service you want to promote, where you can deliver it and how much work your team can take on. Those decisions shape the campaign before the budget is allocated.'
+            },
+            {
+                title: 'Separate the four parts of the investment',
+                body: 'Media spend is paid to Google. Management pays for campaign work and review. Landing-page or tracking work may be a separate setup project. Your own time handling inquiries is another cost. Wonderweb’s focused Google Ads management starts at $799/month; advertising spend is separate and the proposal defines what is included. A larger market or multi-location account needs its own scope.'
+            },
+            {
+                title: 'Build a scenario, not a promise',
+                body: 'For illustration only, suppose monthly media spend is $2,000 and management is $799. The combined amount is $2,799 before any setup or sales costs. If that produced 20 qualified inquiries and four customers, the acquisition cost across those two expenses would be $699.75 per customer. Those inquiry and customer counts are assumptions, not forecasts or benchmarks. Use your actual numbers to judge whether the economics work.'
+            },
+            {
+                title: 'Agree on what counts as a lead',
+                body: 'A button click, an unanswered call and a qualified estimate request are different events. Decide how the business will record each stage. Where possible, review service-area fit, requested job type, booked appointments and sales outcomes. A low cost per form fill can be misleading when many submissions are unsuitable or duplicates.'
+            },
+            {
+                title: 'Set the review process before launch',
+                body: 'Agree on the test budget, who will respond to inquiries and when campaign decisions will be reviewed. Avoid changing every variable after a few clicks. At the same time, obvious wrong locations, broken forms or irrelevant search terms should be corrected promptly. Scale only when lead quality and delivery capacity justify the next investment.'
+            }
+        ],
+        checklist: [
+            'Choose one priority service and a real service area.',
+            'Separate media, management, setup and sales costs.',
+            'Verify successful inquiries are tracked.',
+            'Assign someone to respond and record outcomes.',
+            'Review qualified customers and margin, not clicks alone.'
+        ],
+        related: [
+            'google-ads',
+            'landing-page-design'
+        ]
+    },
+    {
+        slug: 'roofing-seo-cost',
+        title: 'Roofing SEO cost: what should your proposal actually include?',
+        category: 'SEO',
+        summary: 'A useful SEO quote explains the work, the evidence and the review process - not just a monthly price.',
+        readTime: '5 min read',
+        sections: [
+            {
+                title: 'The starting point changes the scope',
+                body: 'A roofer with a working website, accurate business profile and real project photos has different needs from a business with duplicate pages and broken inquiry forms. An initial review should identify technical issues, useful existing content and the roofing services you want to prioritize. A quote without that context is hard to compare.'
+            },
+            {
+                title: 'Look for deliverables you can understand',
+                body: 'The proposal should explain which pages will be improved, what new content is included and how technical issues will be addressed. Ask how keyword groups map to service pages and which facts or photos you need to supply. A report of activity is not a substitute for knowing what has changed on your website.'
+            },
+            {
+                title: 'Distinguish focused local work from a larger program',
+                body: 'At Wonderweb, a focused one-location local SEO scope starts at $399/month. That does not include an entire website rebuild or unlimited articles. The Foundation plan starts at $1,199/month and combines a defined allowance of website care, local search work and content updates. More competitive markets or wider content requirements need a larger scope. These are Wonderweb starting prices, not industry averages.'
+            },
+            {
+                title: 'Ask how roofing content will be made specific',
+                body: 'Roof repairs, replacements, inspections and commercial projects are not interchangeable. Useful pages explain your actual work, materials, area and estimate process. Your own project examples and business knowledge matter. A batch of city-swapped pages may increase URL count without helping a homeowner make a decision.'
+            },
+            {
+                title: 'Evaluate progress over suitable time windows',
+                body: 'SEO does not come with a guaranteed ranking or lead timeline. Review relevant non-brand search visibility, indexing, useful page improvements and inquiry quality. Separate the business’s brand searches from searches that introduce new customers. Ask what evidence will lead to changing the content plan or priorities.'
+            }
+        ],
+        checklist: [
+            'Ask for a starting audit and clear priority list.',
+            'Check page, content and editing allowances.',
+            'Confirm who supplies project evidence.',
+            'Separate one-time repairs from recurring work.',
+            'Avoid guaranteed first-place ranking promises.'
+        ],
+        related: [
+            'seo',
+            'local-seo'
+        ],
+        sources: [
+            {
+                title: 'Google: creating helpful, reliable content',
+                url: 'https://developers.google.com/search/docs/fundamentals/creating-helpful-content'
+            }
+        ]
+    },
+    {
+        slug: 'website-management-vs-maintenance',
+        title: 'Website management vs. maintenance: what do you need?',
+        category: 'Websites',
+        summary: 'Keeping the site healthy and keeping its content useful are related jobs, but they are not the same scope.',
+        readTime: '4 min read',
+        sections: [
+            {
+                title: 'Maintenance looks after the technical foundation',
+                body: 'Depending on your platform, maintenance may include software updates, backup checks, monitoring and technical fixes. The exact work differs between a plugin-based CMS and a managed application. A good agreement names the systems covered and explains what happens if there is an incident.'
+            },
+            {
+                title: 'Management keeps the website aligned with the business',
+                body: 'Website management includes content changes, new service information, image updates and publishing tasks. It can also include reviewing confusing journeys and prioritizing improvements. A technically healthy site can still show old prices, retired services or an inquiry form that asks the wrong questions.'
+            },
+            {
+                title: 'Define allowances before the month starts',
+                body: 'Ask how editing time is counted, whether new pages are included and how revisions are handled. A request to change a phone number is different from adding a booking integration. Defined allowances make it easier to plan and reduce surprise estimates. Larger development work should receive its own scope.'
+            },
+            {
+                title: 'Check the inquiry journey after changes',
+                body: 'A page update is not complete simply because it looks right in the editor. Check the mobile layout, important links and the form route. Confirm the inbox or CRM receives the submission and that a visitor sees a clear response. Avoid treating a submit-button click as proof that the message arrived.'
+            },
+            {
+                title: 'Keep access and responsibilities clear',
+                body: 'Know who controls the domain, hosting, content system and connected accounts. Use appropriate access rather than sharing one password everywhere. Document the process for urgent issues and routine requests. The right plan should leave your team more informed about its website, not less.'
+            }
+        ],
+        checklist: [
+            'List technical care and editorial work separately.',
+            'Record the monthly allowance and response process.',
+            'Identify who owns each account.',
+            'Test forms after relevant changes.',
+            'Plan regular reviews of service information.'
+        ],
+        related: [
+            'website-management',
+            'content-management'
+        ]
+    },
+    {
+        slug: 'social-media-content-calendar',
+        title: 'A practical monthly content calendar for a small business',
+        category: 'Social & content',
+        summary: 'Build a repeatable plan from your work, your customers’ questions and one clear monthly offer.',
+        readTime: '5 min read',
+        sections: [
+            {
+                title: 'Choose four useful themes',
+                body: 'Start with services, customer questions, real work and the people or process behind it. These themes are broad enough to repeat and specific enough to produce meaningful posts. A landscaping company might explain a seasonal task, show an installation, answer an estimate question and introduce the team’s process.'
+            },
+            {
+                title: 'Give the month a business purpose',
+                body: 'Pick a service or offer the business can actually deliver. Define the target audience and the page a visitor should reach if interested. Not every post needs to sell, but the overall calendar should connect with a clear priority rather than a collection of unrelated ideas.'
+            },
+            {
+                title: 'Plan eight posts as a manageable example',
+                body: 'One workable example is two educational posts, two project posts, two process posts and two offer or consultation posts. Eight is a planning example, not a universal ideal. Your audience, source material and capacity may support a different volume. Quality and consistency matter more than filling every day.'
+            },
+            {
+                title: 'Batch the material and approvals',
+                body: 'Collect approved photos, short video clips, common questions and offer details before production starts. Assign a reviewer for business accuracy and agree on an approval date. This reduces the last-minute search for content and gives the team time to catch unclear claims or incorrect information.'
+            },
+            {
+                title: 'Review what led to useful conversations',
+                body: 'Look at relevant comments, saves, profile visits, tagged website visits and inquiries. Follower growth alone does not establish sales impact. Note which topics drew suitable questions and which formats were practical to produce. Use that evidence when planning the next month.'
+            }
+        ],
+        checklist: [
+            'Choose a monthly business priority.',
+            'Collect real source material.',
+            'Balance education, work, process and offers.',
+            'Approve content before scheduling.',
+            'Link offers to a relevant page with campaign tags.'
+        ],
+        related: [
+            'social-media-management',
+            'content-creation'
+        ]
+    },
+    {
+        slug: 'website-redesign-checklist',
+        title: 'Before you redesign your business website, check these six things',
+        category: 'Websites',
+        summary: 'Protect the useful parts of your current website while improving the way it explains, proves and converts.',
+        readTime: '5 min read',
+        sections: [
+            {
+                title: '1. Know what the current site already does well',
+                body: 'Review search traffic, common landing pages, inquiries and useful content. A page that looks dated may still answer an important question or attract relevant visitors. Make an inventory before removing pages or changing their URLs.'
+            },
+            {
+                title: '2. Clarify the offer and the audience',
+                body: 'A new layout cannot solve an unclear service. Write down what the business provides, whom it serves and what the next step should be. Use that to organize navigation and the content on important service pages.'
+            },
+            {
+                title: '3. Collect evidence before designing proof sections',
+                body: 'Gather approved project photographs, testimonials, process details and any results you can support. If a case study lacks source data, show the design or process honestly without inventing numbers. Evidence should support the claims made on the page.'
+            },
+            {
+                title: '4. Plan the URLs and redirects',
+                body: 'List old URLs and their intended equivalents. Important changed URLs should redirect to relevant replacements. Keep internal links, canonical URLs and sitemap entries consistent. Avoid sending every removed article to the homepage just because it is convenient.'
+            },
+            {
+                title: '5. Test the complete inquiry path',
+                body: 'Check mobile forms, validation, successful delivery, error states and alternative contact options. Verify analytics measures the right event. Test the person’s experience from the initial page to the received message, not just whether a button changes color.'
+            },
+            {
+                title: '6. Assign ownership after launch',
+                body: 'Someone needs to update services, review search coverage and keep integrations working. Define the editing process, technical responsibilities and first post-launch review. A redesign is the start of the next operating cycle, not the end of the website’s work.'
+            }
+        ],
+        checklist: [
+            'Inventory useful pages and URLs.',
+            'Confirm the offer and page hierarchy.',
+            'Gather genuine proof.',
+            'Map redirects where needed.',
+            'Test delivery and analytics.',
+            'Assign a maintenance and content owner.'
+        ],
+        related: [
+            'web-design',
+            'web-development'
+        ],
+        sources: [
+            {
+                title: 'Google: consolidating duplicate URLs',
+                url: 'https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls'
+            }
+        ]
+    },
+    {
+        slug: 'google-ads-vs-meta-ads',
+        title: 'Google Ads or Meta Ads: where should a small business start?',
+        category: 'Paid advertising',
+        summary: 'Choose the channel around customer intent, the offer, creative readiness and the way you handle leads.',
+        readTime: '5 min read',
+        sections: [
+            {
+                title: 'Start with how the customer finds the service',
+                body: 'Search campaigns can meet someone actively looking for a specific service. Social campaigns can introduce an offer while a person is browsing. Neither makes the sale automatically. The right starting point depends on how your customer buys and what your business is equipped to deliver.'
+            },
+            {
+                title: 'Consider the urgency and clarity of the offer',
+                body: 'An urgent repair has a different journey from a planned kitchen renovation. A search visitor may need availability and a direct contact path. A social visitor may need a compelling example and more explanation. Match the landing experience and qualification questions to that starting point.'
+            },
+            {
+                title: 'Check the assets and tracking you have',
+                body: 'Meta campaigns need an ongoing supply of suitable creative. Search campaigns need relevant service messaging and a credible landing page. Both need working conversion measurement and someone responsible for responding to inquiries. An account should not launch simply because the advertising interface is ready.'
+            },
+            {
+                title: 'Keep fees and media budgets separate',
+                body: 'Wonderweb’s focused Google Ads management starts at $799/month and Meta Ads management at $1,599/month, each within the scope described on the service page. Media budgets are separate. Compare the total investment and deliverables rather than assuming the lower fee will produce the better business outcome.'
+            },
+            {
+                title: 'Choose a first test you can learn from',
+                body: 'A smaller business may learn more by testing one service and one channel well than by spreading an inadequate budget across several campaigns. Agree on the offer, market, budget and review process. Use qualified inquiries and sales feedback to decide whether to refine, expand or change the approach.'
+            }
+        ],
+        checklist: [
+            'Define the customer and priority service.',
+            'Assess search demand and creative readiness.',
+            'Prepare the relevant landing or lead form.',
+            'Verify follow-up and tracking.',
+            'Compare qualified outcomes before expanding.'
+        ],
+        related: [
+            'google-ads',
+            'meta-ads'
+        ]
+    },
+    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$practical$2d$guides$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["practicalGuides"],
+    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$search$2d$led$2d$articles$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["searchLedArticles"]
+];
+const articles = [
+    ...existingArticles,
+    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$service$2d$guides$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["serviceGuides"]
+];
+}),
+"[project]/src/lib/content-paths.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// Separate from SEO/content imports so metadata can advertise its alternate safely.
+__turbopack_context__.s([
+    "markdownPath",
+    ()=>markdownPath
+]);
+const markdownPath = (path)=>`/content/${path === '/' ? 'home' : path.replace(/^\//, '').replace(/\/$/, '')}.md`;
+}),
+"[project]/src/lib/content.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "industries",
+    ()=>industries,
+    "services",
+    ()=>services,
+    "work",
+    ()=>work
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$expanded$2d$services$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/expanded-services.json.[json].cjs [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$projects$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/projects.ts [app-rsc] (ecmascript)");
+;
+;
+const services = [
+    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$expanded$2d$services$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].map(({ detail, ...service })=>service),
+    {
+        slug: 'web-design',
+        title: 'Website Design',
+        category: 'Websites',
+        headline: 'A website that looks the part. And plays its part.',
+        description: 'Custom website design for small businesses and home-service companies. Clear messaging, responsive layouts and an easier path from visitor to inquiry.',
+        intro: 'Your website should help someone understand your business, trust your work and take the next step. We bring those decisions together in a distinctive design that feels like you.',
+        deliverables: [
+            'Page structure and customer journey',
+            'Custom desktop and mobile layouts',
+            'Service and inquiry page design',
+            'Search-friendly content hierarchy',
+            'Responsive development and launch checks',
+            'Editable content and handoff guidance'
+        ],
+        sections: [
+            {
+                title: 'Start with what your customer needs to know',
+                body: 'A visitor rarely arrives wanting to read everything. They want to know whether you solve their problem, work in their area and can show relevant work. We organize your pages around those questions. Before drawing screens, we review your offer, current content, best inquiries and the information a buyer needs before contacting you.'
+            },
+            {
+                title: 'Make every important page earn its place',
+                body: 'The homepage introduces the business, service pages explain the details, and your work provides evidence. We design those roles together so the site feels connected. Clear headings, genuine project imagery, useful FAQs and well-placed inquiry options help people make a decision without a maze of pop-ups.'
+            },
+            {
+                title: 'Design for the phone in your customer’s hand',
+                body: 'Menus, forms, text sizes and image choices need to work on a small screen. We check key journeys on mobile and desktop, optimize imagery and build accessible interactions. Search metadata, page structure and redirects are part of the launch checklist, not something added after the design is finished.'
+            }
+        ],
+        faq: [
+            [
+                'How much does a website cost?',
+                'Business website projects start at $4,500 for a defined scope. The quote depends on page count, content readiness, integrations and design complexity. Ongoing management is priced separately.'
+            ],
+            [
+                'Can you redesign my existing website?',
+                'Yes. We review useful content and important existing URLs before proposing changes. A redesign includes a redirect plan where URLs change.'
+            ],
+            [
+                'Can I see your work?',
+                'Our work page contains design examples from the studio portfolio. We can discuss the type of project, your requirements and suitable references on a call.'
+            ]
+        ],
+        related: [
+            'web-development',
+            'website-management',
+            'seo'
+        ]
+    },
+    {
+        slug: 'web-development',
+        title: 'Web Development',
+        category: 'Websites',
+        headline: 'Good design deserves a solid build.',
+        description: 'Website development for small businesses, from fast marketing sites to content systems and integrations. Built around how your business works.',
+        intro: 'We turn approved designs into a reliable, responsive website, with the functionality your team actually needs to run it.',
+        deliverables: [
+            'Responsive frontend development',
+            'CMS or structured content setup',
+            'Forms and business integrations',
+            'Technical SEO implementation',
+            'Performance and accessibility checks',
+            'Deployment and technical handoff'
+        ],
+        sections: [
+            {
+                title: 'Choose the technology around the work',
+                body: 'A straightforward service website and a custom product experience have different needs. We define content editing, integrations, publishing frequency and ownership before selecting the implementation. Next.js is an option for fast, structured marketing experiences; the proposal explains why the selected platform fits your project.'
+            },
+            {
+                title: 'Connect the visitor journey to your operations',
+                body: 'A form is useful only when the right person receives the inquiry. We connect approved workflows to your inbox, CRM or booking system and test the success and failure paths. We also document the accounts and configuration your team needs to maintain after launch.'
+            },
+            {
+                title: 'Make the site maintainable',
+                body: 'Reusable components and structured content keep future pages consistent. We check navigation, page status codes, metadata, image sizing and browser behavior before handoff. Your quote defines supported integrations, hosting responsibilities and the boundary between the initial build and ongoing development.'
+            }
+        ],
+        faq: [
+            [
+                'Do you build with Next.js?',
+                'Yes. We can build Next.js websites with server-rendered content, reusable page templates and integrations suited to the project.'
+            ],
+            [
+                'Does development include a redesign?',
+                'It can. Design and development are itemized in the proposal so the scope is clear.'
+            ],
+            [
+                'Can you connect my CRM?',
+                'We first check the CRM’s integration options and permissions. Approved integration work is included explicitly in the project scope.'
+            ]
+        ],
+        related: [
+            'web-design',
+            'landing-page-design',
+            'website-management'
+        ]
+    },
+    {
+        slug: 'website-management',
+        title: 'Website Management',
+        category: 'Websites',
+        headline: 'Keep your website moving with your business.',
+        description: 'Ongoing website management, content updates and website care for small businesses. Keep your pages current and your inquiry journeys working.',
+        intro: 'New services, new work, new offers. We help your website keep up through a clear queue of updates, checks and improvements.',
+        deliverables: [
+            'Content and image updates',
+            'New page publishing within scope',
+            'Form and link checks',
+            'Platform updates where applicable',
+            'Performance issue triage',
+            'A visible list of completed work'
+        ],
+        sections: [
+            {
+                title: 'Give website requests a clear home',
+                body: 'Changes should not disappear into an email chain. We agree on a request process, the monthly editing allowance and what counts as a larger project. Routine copy edits, image replacements and service information updates can then move through review without re-scoping every small task.'
+            },
+            {
+                title: 'Care for the parts visitors rely on',
+                body: 'We check important links and inquiry paths and monitor issues within the agreed platform scope. Software maintenance varies by stack: a WordPress site needs different care from a managed Next.js build. Your plan defines what is covered, how incidents are escalated and who is responsible for hosting and backups.'
+            },
+            {
+                title: 'Use updates to improve the customer journey',
+                body: 'Website management can do more than keep information current. Search and inquiry data can reveal unanswered questions, confusing offers and pages people abandon. We use those observations to prioritize useful changes and report what was completed, without promising that every edit will produce an immediate ranking increase.'
+            }
+        ],
+        faq: [
+            [
+                'Is hosting included?',
+                'Hosting and third-party subscriptions are specified separately in your proposal. We do not assume your existing hosting should be replaced.'
+            ],
+            [
+                'Can you manage a website someone else built?',
+                'Usually, after a technical review and access check. We will identify any constraints before agreeing to ongoing support.'
+            ],
+            [
+                'Are edits unlimited?',
+                'No. Each plan has a defined monthly allowance, which keeps delivery predictable. Larger development requests receive a separate estimate.'
+            ]
+        ],
+        related: [
+            'content-management',
+            'web-development',
+            'seo'
+        ]
+    },
+    {
+        slug: 'seo',
+        title: 'Search Engine Optimization',
+        category: 'Search',
+        headline: 'Be found for the work you want more of.',
+        description: 'SEO services for small businesses and home-service companies. Technical foundations, useful service content and search reporting connected to inquiries.',
+        intro: 'We build a search strategy around the services you sell and the customers you can serve. Clear priorities, useful content and measurable progress come first.',
+        deliverables: [
+            'Search and website audit',
+            'Keyword and intent mapping',
+            'Service-page optimization',
+            'Technical and indexing improvements',
+            'Original content briefs and production',
+            'Search Console and conversion reporting'
+        ],
+        sections: [
+            {
+                title: 'Target a buyer’s question, not a keyword variation',
+                body: 'Several search phrases often describe the same need. We group those phrases into a clear page plan instead of producing a separate thin page for every wording. Commercial service pages, practical guides and comparisons have different jobs. The plan gives each important intent a home and connects related pages through useful internal links.'
+            },
+            {
+                title: 'Fix the foundations before expanding content',
+                body: 'Search engines and visitors need to reach the right pages. We review crawlability, canonical URLs, redirects, page structure and mobile experience. Search Console evidence helps distinguish an intentional exclusion from a page that should be indexed. Work is prioritized by relevance and likely impact rather than a generic audit score.'
+            },
+            {
+                title: 'Measure useful visibility and inquiries',
+                body: 'Reporting separates brand searches from new-customer searches and looks at relevant markets and service groups. We connect this with inquiry data where available. Rankings fluctuate and SEO takes time; there is no guaranteed first-place placement. The aim is sustained visibility for valuable services and a website that helps interested visitors act.'
+            }
+        ],
+        faq: [
+            [
+                'How quickly will SEO produce leads?',
+                'Timing depends on your current site, competition, content and market. We set milestones after the audit. Paid campaigns and existing audiences can support acquisition while organic visibility develops.'
+            ],
+            [
+                'Do you guarantee rankings?',
+                'No. We agree on deliverables, measurement and a review process rather than promising a position controlled by a search engine.'
+            ],
+            [
+                'Is local SEO different?',
+                'Local SEO focuses on the places and service areas you actually serve, including eligible business profiles and local service content.'
+            ]
+        ],
+        related: [
+            'local-seo',
+            'content-creation',
+            'web-design'
+        ]
+    },
+    {
+        slug: 'local-seo',
+        title: 'Local SEO',
+        category: 'Search',
+        headline: 'Help nearby customers find the right business. Yours.',
+        description: 'Local SEO for service businesses. Business profile care, accurate service information and location content that helps local customers make contact.',
+        intro: 'Local visibility starts with a clear, accurate picture of your business: what you do, where you work and why someone should get in touch.',
+        deliverables: [
+            'One-location local search review',
+            'Google Business Profile review if eligible',
+            'Service and business-detail consistency',
+            'Priority on-page recommendations',
+            'Review-request process guidance',
+            'Local performance reporting'
+        ],
+        sections: [
+            {
+                title: 'Represent the business accurately',
+                body: 'Names, contact information, categories, hours and service areas need to reflect real operations. We review the business profile and site together, then prioritize discrepancies that could confuse customers. We do not create pretend offices or profiles for places where your business is not eligible.'
+            },
+            {
+                title: 'Build local pages with a reason to exist',
+                body: 'An area page should help a customer understand your availability, relevant services and local work. Replacing the city name in the same paragraph does not do that. Where you have meaningful differences and evidence, we plan pages around them; otherwise we strengthen a useful service-area page.'
+            },
+            {
+                title: 'Make contact easy and evaluate lead quality',
+                body: 'Mobile visitors need clear contact options and service information. We review the path from the search result to a phone call or inquiry, and distinguish clicks from actual qualified work wherever your systems allow it. Local SEO is an ongoing process of accuracy, useful content and learning from customer questions.'
+            }
+        ],
+        faq: [
+            [
+                'What does local SEO start at?',
+                'A focused single-location local SEO scope starts at $399/month. Content production, larger technical repairs and additional locations are quoted separately.'
+            ],
+            [
+                'Can a service-area business use local SEO?',
+                'Yes. The strategy should accurately reflect service areas and platform eligibility, without displaying an invented public office.'
+            ],
+            [
+                'Will you buy reviews?',
+                'No. We help design a genuine review-request process for real customers.'
+            ]
+        ],
+        related: [
+            'seo',
+            'website-management',
+            'google-ads'
+        ]
+    },
+    {
+        slug: 'google-ads',
+        title: 'Google Ads Management',
+        category: 'Paid advertising',
+        headline: 'Meet the search. Make the next step easy.',
+        description: 'Google Ads management for small businesses and contractors. Focused campaigns, relevant landing pages and reporting that looks beyond clicks.',
+        intro: 'Reach people looking for a service like yours, then give them a relevant reason to contact you. We manage the campaign and the journey that follows.',
+        deliverables: [
+            'Account and conversion audit',
+            'Search intent and campaign structure',
+            'Ad copy and asset development',
+            'Location and budget controls',
+            'Search-term and negative-keyword review',
+            'Lead-quality and campaign reporting'
+        ],
+        sections: [
+            {
+                title: 'Choose the work you actually want to win',
+                body: 'A roofer may want replacement projects, repairs or commercial work. A broad campaign can mix very different economics. We agree on target services, locations, customer capacity and exclusions before launch. Ad groups and landing pages then reflect those priorities instead of sending every search to the homepage.'
+            },
+            {
+                title: 'Connect the ad to a credible landing page',
+                body: 'A click is the beginning of the sales journey. We review the landing page’s offer, service information, proof and form. Conversion tracking is checked before performance decisions are made. Where call tracking is used, the setup and privacy requirements are agreed with you, and a call click is kept distinct from an answered qualified call.'
+            },
+            {
+                title: 'Improve using the quality of inquiries',
+                body: 'We review search terms, spend, conversion data and your feedback about actual inquiries. Low cost per lead is not enough if the leads are outside your area or request the wrong work. Budgets and testing priorities evolve with that evidence. Ad spend is paid directly by you to Google and is separate from management fees.'
+            }
+        ],
+        faq: [
+            [
+                'What does Google Ads management cost?',
+                'A focused one-account scope starts at $799/month, with up to $5,000 in monthly ad spend managed. Ad spend, substantial landing-page builds and specialist integrations are separate.'
+            ],
+            [
+                'Will I own my ad account?',
+                'Your campaigns should run in your business-owned account with the permissions needed for management.'
+            ],
+            [
+                'Can you guarantee a cost per lead?',
+                'No. Competition, offer, geography, season and conversion quality affect results. We agree on a testing budget and review the evidence together.'
+            ]
+        ],
+        related: [
+            'landing-page-design',
+            'meta-ads',
+            'seo'
+        ]
+    },
+    {
+        slug: 'meta-ads',
+        title: 'Meta Ads Management',
+        category: 'Paid advertising',
+        headline: 'Give the right people a reason to stop scrolling.',
+        description: 'Facebook and Instagram ads management with creative testing, relevant offers and a focus on lead quality. Meta campaigns for small businesses.',
+        intro: 'A strong offer, thoughtful creative and a useful follow-up process. We connect the pieces that help Facebook and Instagram campaigns turn attention into conversations.',
+        deliverables: [
+            'Campaign and offer planning',
+            'Facebook and Instagram ad setup',
+            'Creative concepts and testing',
+            'Lead form or landing-page strategy',
+            'Audience and budget management',
+            'Lead-quality review and reporting'
+        ],
+        sections: [
+            {
+                title: 'Lead with a specific offer',
+                body: 'People browsing social feeds may not be searching for your service today. The creative needs to explain a real problem or opportunity quickly. We develop concepts around your service, actual imagery and a clear next step. Claims, pricing and before-and-after examples should be accurate and supported by your business.'
+            },
+            {
+                title: 'Make it easy to inquire, then qualify properly',
+                body: 'A short native form may generate more submissions, while a detailed website form can collect different information. We choose the approach around your sales process. Service area, project type and timing can help qualify interest. Fast, relevant follow-up is part of the plan, rather than an assumption that every form fill is ready to purchase.'
+            },
+            {
+                title: 'Test the message as well as the audience',
+                body: 'We review creative variations, landing experiences and lead outcomes with a defined budget. Winning ads can lose effectiveness over time, so the scope includes a planned creative refresh. Campaigns run in your business-owned accounts; media spend is separate. The proposal states which assets, formats and monthly variations are included.'
+            }
+        ],
+        faq: [
+            [
+                'What does Meta Ads management start at?',
+                'A focused one-account scope starts at $1,599/month, with up to $5,000 monthly ad spend managed and an agreed creative allowance. Ad spend is separate.'
+            ],
+            [
+                'Does this include organic posting?',
+                'Paid campaigns and organic social management have different scopes. They can be combined in a Full Studio plan.'
+            ],
+            [
+                'Do you guarantee a number of leads?',
+                'No. We define campaign work, budgets, testing and reporting. Lead outcomes depend on the offer, market and response process.'
+            ]
+        ],
+        related: [
+            'social-media-management',
+            'graphic-design',
+            'landing-page-design'
+        ]
+    },
+    {
+        slug: 'social-media-management',
+        title: 'Social Media Management',
+        category: 'Social & creative',
+        headline: 'Show up consistently. Sound like yourself.',
+        description: 'Organic social media management for small businesses. Content calendars, post design, captions, scheduling and a clear approval process.',
+        intro: 'We help turn your everyday work, expertise and offers into a social presence that people can recognize and understand.',
+        deliverables: [
+            'Channel and content review',
+            'Monthly editorial calendar',
+            'Branded post design and captions',
+            'An agreed review and approval cycle',
+            'Scheduling on selected platforms',
+            'Monthly content performance review'
+        ],
+        sections: [
+            {
+                title: 'Build a content calendar from your business',
+                body: 'Your services, common customer questions, behind-the-scenes work and real projects are stronger starting points than a calendar of generic motivational quotes. We agree on content themes and the source material you can provide. Each post has a purpose: explain, demonstrate, introduce an offer or invite a conversation.'
+            },
+            {
+                title: 'Create a repeatable approval process',
+                body: 'We define platforms, post counts, formats and revision rounds before the month starts. Your team can review a batch, correct business details and approve publication. Photography, filming, community management and direct-message sales support are separate tasks unless included in the written scope.'
+            },
+            {
+                title: 'Look beyond follower counts',
+                body: 'Reach and engagement can help identify useful topics, but they do not automatically mean new business. We connect content to appropriate website pages and use tagged links where useful. Reviews look at relevant conversations, website visits and inquiries alongside platform metrics, so the next content cycle reflects what your audience responds to.'
+            }
+        ],
+        faq: [
+            [
+                'Do you manage every platform?',
+                'We select the channels that fit your audience and capacity. The proposal names the platforms and publishing volume.'
+            ],
+            [
+                'Can you use my photos and videos?',
+                'Yes, with permission and sufficient quality. Real work and people often give the content a stronger foundation.'
+            ],
+            [
+                'Are ads included?',
+                'Organic posting does not include paid campaign management or ad spend. Those can be scoped together.'
+            ]
+        ],
+        related: [
+            'content-creation',
+            'graphic-design',
+            'meta-ads'
+        ]
+    },
+    {
+        slug: 'content-creation',
+        title: 'Content Creation',
+        category: 'Social & creative',
+        headline: 'Turn what you know into content people can use.',
+        description: 'Website copy, articles and social content for small businesses. Clear messaging informed by customer questions, subject knowledge and search intent.',
+        intro: 'We help you explain your work with content that is useful, clear and recognizably yours, across your website and social channels.',
+        deliverables: [
+            'Audience and topic planning',
+            'Service-page copy',
+            'Search-informed article briefs',
+            'Social captions and campaign messages',
+            'Business-fact and source review',
+            'Defined revisions and publishing handoff'
+        ],
+        sections: [
+            {
+                title: 'Bring the subject knowledge into the brief',
+                body: 'We start with your customer questions, actual process, services and examples. Those details make content specific. A brief records the audience, purpose, source material, key claims and intended next step. If a claim requires evidence or expert review, it is resolved before publication.'
+            },
+            {
+                title: 'Give each format its own job',
+                body: 'A service page explains what a buyer gets. An article helps someone understand a question. A social post introduces an idea quickly. We adapt the structure and level of detail to the channel instead of dropping the same paragraph everywhere. Search phrases inform the writing without forcing awkward repetition.'
+            },
+            {
+                title: 'Create a useful path through the site',
+                body: 'New resources should support relevant services and answer gaps in the existing library. We identify related pages and sensible internal links in the brief. Reviews focus on accuracy, clarity and originality. We do not invent client results or turn unsupported estimates into definitive industry facts.'
+            }
+        ],
+        faq: [
+            [
+                'Can you write for my industry?',
+                'We first confirm access to the subject knowledge and reviewers needed. Specialized claims may require your expert review.'
+            ],
+            [
+                'Is publishing included?',
+                'Publishing can be included or handled through content management. The proposal makes that responsibility clear.'
+            ],
+            [
+                'Do you use AI tools?',
+                'Tools may support research and drafting, but business facts, final copy and publication decisions require review.'
+            ]
+        ],
+        related: [
+            'content-management',
+            'seo',
+            'social-media-management'
+        ]
+    },
+    {
+        slug: 'content-management',
+        title: 'Content Management',
+        category: 'Social & creative',
+        headline: 'A calmer way to keep your content current.',
+        description: 'Content management and publishing support for small business websites. Editorial calendars, CMS updates and content maintenance with clear ownership.',
+        intro: 'From approved copy to a polished live page, we handle the publishing details and help your content library stay organized.',
+        deliverables: [
+            'Content inventory and priorities',
+            'Editorial calendar and status tracking',
+            'CMS publishing and formatting',
+            'Image placement and accessibility text',
+            'Metadata and internal-link checks',
+            'Scheduled reviews of outdated pages'
+        ],
+        sections: [
+            {
+                title: 'Make ownership and status visible',
+                body: 'Content gets stuck when nobody knows who is reviewing it or what is missing. We set up a straightforward workflow for briefs, drafts, review and publication. The calendar reflects actual capacity and identifies the person responsible for business accuracy and approval.'
+            },
+            {
+                title: 'Publish with care',
+                body: 'Formatting, image sizes, headings, links and metadata all affect how a page works. We check these details when publishing, and make sure new pages appear in the right navigation or hub. A useful article should be discoverable within the site, not just exist at an isolated URL.'
+            },
+            {
+                title: 'Maintain the library you already have',
+                body: 'Offers change, products disappear and old articles can conflict with current services. We review priority content for accuracy and overlap. Updates, consolidation and redirects are proposed based on the page’s purpose and existing traffic, with care around URLs that already attract visitors.'
+            }
+        ],
+        faq: [
+            [
+                'Does this include writing new content?',
+                'Content production is a separate allowance unless explicitly included. Management focuses on organization, publishing and upkeep.'
+            ],
+            [
+                'Which CMS can you work with?',
+                'We review your platform and permissions before agreeing to the scope.'
+            ],
+            [
+                'Will you remove older pages?',
+                'Any removal or consolidation is planned around relevance, traffic and a suitable URL treatment.'
+            ]
+        ],
+        related: [
+            'content-creation',
+            'website-management',
+            'seo'
+        ]
+    },
+    {
+        slug: 'graphic-design',
+        title: 'Graphic Design',
+        category: 'Social & creative',
+        headline: 'Make every touchpoint feel like your brand.',
+        description: 'Graphic design for social posts, digital campaigns and small business marketing. Clear briefs, consistent visual direction and usable deliverables.',
+        intro: 'From a campaign concept to the post that announces it, we create digital assets that fit together and communicate clearly.',
+        deliverables: [
+            'Campaign visual concepts',
+            'Social post and carousel layouts',
+            'Digital ad creative',
+            'Brand-consistent templates',
+            'Platform-specific exports',
+            'Agreed revision rounds and asset handoff'
+        ],
+        sections: [
+            {
+                title: 'Set a clear visual direction',
+                body: 'We review your logo, colors, imagery and examples before designing. A clear brief defines the audience, message, channel and action. That direction keeps a set of campaign assets coherent, even when the dimensions and layout change across placements.'
+            },
+            {
+                title: 'Design for where the asset will appear',
+                body: 'A social carousel needs a readable sequence. An ad needs a clear focal point. A website graphic should support the surrounding content. We consider placement, screen size and contrast, and avoid hiding essential meaning in tiny text or decorative effects.'
+            },
+            {
+                title: 'Make handoff practical',
+                body: 'Final assets arrive in the formats agreed in your scope. We define whether editable files and reusable templates are included, along with the revision process and any licensed asset costs. A growing visual library makes future campaigns easier to produce without losing consistency.'
+            }
+        ],
+        faq: [
+            [
+                'Can you follow an existing brand?',
+                'Yes. Share your brand files and usage guidance. If the system needs extending, we define that work in the brief.'
+            ],
+            [
+                'Are source files included?',
+                'File formats and editable deliverables are agreed in the proposal.'
+            ],
+            [
+                'Can you design recurring monthly content?',
+                'Yes. A defined batch of graphics can support your social or paid campaign plan.'
+            ]
+        ],
+        related: [
+            'thumbnail-design',
+            'social-media-management',
+            'meta-ads'
+        ]
+    },
+    {
+        slug: 'thumbnail-design',
+        title: 'Thumbnail Design',
+        category: 'Social & creative',
+        headline: 'A small canvas. A strong first impression.',
+        description: 'YouTube and social thumbnail design that communicates the idea clearly. Thoughtful composition, readable type and a consistent channel identity.',
+        intro: 'We design thumbnails that make the subject easy to recognize and give the right viewer a reason to look closer.',
+        deliverables: [
+            'Video and audience brief',
+            'Thumbnail concept development',
+            'Image selection and composition',
+            'Readable headline treatment',
+            'Channel-consistent visual system',
+            'Final exports and agreed revisions'
+        ],
+        sections: [
+            {
+                title: 'Start with the promise of the video',
+                body: 'A thumbnail and title should work together. We review the subject, the intended audience and the most interesting honest idea in the content. The concept should invite curiosity without promising something the video does not deliver.'
+            },
+            {
+                title: 'Keep the message readable at a glance',
+                body: 'Thumbnails often appear small and next to many competing options. A strong focal point, deliberate contrast and limited text make the design easier to understand. We check the composition at reduced size and build variations when the brief includes testing.'
+            },
+            {
+                title: 'Develop a recognizable channel style',
+                body: 'Repeating thoughtful elements can help a channel feel consistent without making every video look identical. We can establish a reusable direction for color, type and imagery. Performance depends on the video, audience and distribution as well as design; we do not promise a click-through rate or view count.'
+            }
+        ],
+        faq: [
+            [
+                'Do you offer thumbnail batches?',
+                'Yes. We quote based on the number of designs, source imagery, complexity and revision requirements.'
+            ],
+            [
+                'Can you improve existing thumbnails?',
+                'Yes. Share the videos, current designs and any available performance context.'
+            ],
+            [
+                'Do you create the video too?',
+                'This service covers thumbnail design. Filming and video editing need a separate agreed scope.'
+            ]
+        ],
+        related: [
+            'graphic-design',
+            'content-creation',
+            'social-media-management'
+        ]
+    },
+    {
+        slug: 'landing-page-design',
+        title: 'Landing Page Design',
+        category: 'Websites',
+        headline: 'One offer. One clear next step.',
+        description: 'Campaign landing page design and development for Google and Meta Ads. Focused messaging, lead forms and conversion measurement.',
+        intro: 'Give your campaign a page built around the offer, audience and action that matter, instead of asking a visitor to figure it out from your homepage.',
+        deliverables: [
+            'Offer and audience brief',
+            'Landing-page copy and hierarchy',
+            'Responsive page design',
+            'Lead form and routing setup',
+            'Campaign tagging and conversion setup',
+            'Launch and usability checks'
+        ],
+        sections: [
+            {
+                title: 'Continue the conversation started by the ad',
+                body: 'The page should match the service, location and promise that led someone to click. We keep the offer clear, explain who it is for and answer the objections that stop a suitable prospect from inquiring. Supporting proof must be genuine and relevant to the service being advertised.'
+            },
+            {
+                title: 'Ask for the information you will actually use',
+                body: 'Every form field should help with qualification or follow-up. We balance friction with the information your team needs, and test submission delivery as well as the on-screen message. A visible alternative contact method helps if a visitor cannot use the form.'
+            },
+            {
+                title: 'Improve with evidence',
+                body: 'Tracking identifies successful inquiries rather than simply counting button presses. Your team’s feedback on lead quality helps shape the next experiment. Changes to the headline, proof, offer or form should have a clear hypothesis and enough traffic for a meaningful comparison.'
+            }
+        ],
+        faq: [
+            [
+                'Can it connect to my existing site?',
+                'Yes. Hosting, domain placement and integrations are agreed before the build.'
+            ],
+            [
+                'Do you write the copy?',
+                'Copy can be included in the landing-page scope, using your business facts and approved offer.'
+            ],
+            [
+                'Is this included in ad management?',
+                'An improvement allowance and a complete new page are different scopes. Your proposal specifies what is included.'
+            ]
+        ],
+        related: [
+            'google-ads',
+            'meta-ads',
+            'web-design'
+        ]
+    }
+];
+const industries = [
+    {
+        slug: 'roofing',
+        title: 'Roofing',
+        audience: 'roofing companies',
+        headline: 'Marketing built around your next roofing project.',
+        intro: 'Help homeowners understand your roofing services, see your work and request an estimate. We connect your website, search visibility and campaigns around the projects you want.',
+        needs: [
+            {
+                title: 'Separate repairs from replacements',
+                body: 'A small repair and a full roof replacement have different buying journeys and margins. Organize service pages and campaign groups accordingly, with clear descriptions of inspection, materials and the estimate process. Commercial roofing deserves its own message when it is a genuine focus.'
+            },
+            {
+                title: 'Build trust before the estimate',
+                body: 'Real project photography, material experience, service areas and accurate licensing information help a homeowner evaluate the business. Explain what happens after an inquiry and what you need to prepare an estimate. Avoid unsupported storm-damage or insurance claims.'
+            },
+            {
+                title: 'Qualify the work you can serve',
+                body: 'Use location, roof type and project needs to improve inquiry quality. Track replacements, repairs and out-of-area requests separately where possible. Review booked estimates and won jobs alongside campaign conversions.'
+            }
+        ],
+        services: [
+            'seo',
+            'web-design',
+            'google-ads',
+            'meta-ads'
+        ],
+        questions: [
+            [
+                'Can you market both residential and commercial roofing?',
+                'Yes, with separate messaging and campaign priorities where the services, buyers and economics differ.'
+            ],
+            [
+                'Do you guarantee roofing leads?',
+                'No. We define the campaign scope, tracking and review process, then assess qualified inquiries with your team.'
+            ]
+        ]
+    },
+    {
+        slug: 'hvac',
+        title: 'HVAC',
+        audience: 'HVAC companies',
+        headline: 'Keep your marketing ready for the next season.',
+        intro: 'From urgent repairs to planned system replacements, your customers need different information. We help your HVAC website and campaigns answer those needs clearly.',
+        needs: [
+            {
+                title: 'Match the urgency of the job',
+                body: 'An emergency repair customer needs fast service-area and contact information. A replacement buyer needs guidance on options, installation and the estimate process. Give each journey appropriate content rather than sending every customer to the same generic page.'
+            },
+            {
+                title: 'Plan around actual capacity',
+                body: 'Seasonal demand can shift quickly. Campaign priorities should reflect available technicians, profitable services and areas you can cover. Maintenance plans and planned replacements can have different messages and follow-up processes from urgent service calls.'
+            },
+            {
+                title: 'Measure beyond the phone click',
+                body: 'A tap to call does not establish that a conversation happened. Where your systems support it, review answered calls, scheduled appointments and suitable jobs. This helps identify wasted spend and distinguishes marketing issues from dispatch or response delays.'
+            }
+        ],
+        services: [
+            'seo',
+            'web-design',
+            'google-ads',
+            'local-seo'
+        ],
+        questions: [
+            [
+                'Can campaigns change with the season?',
+                'Yes. We plan service and budget priorities around your operating market and available capacity.'
+            ],
+            [
+                'Can you promote maintenance plans?',
+                'Yes, when the offer, pricing and terms are clear. Maintenance-plan content should explain the actual benefits and exclusions.'
+            ]
+        ]
+    },
+    {
+        slug: 'plumbing',
+        title: 'Plumbing',
+        audience: 'plumbing businesses',
+        headline: 'Turn local plumbing searches into useful conversations.',
+        intro: 'Make your services, coverage and next step easy to understand, whether a customer needs a repair now or is planning a larger project.',
+        needs: [
+            {
+                title: 'Give urgent visitors a short route to contact',
+                body: 'Mobile visitors looking for help need clear service availability and a visible phone or inquiry option. Only advertise emergency or round-the-clock service if you provide it. Explain which locations and problems your team handles.'
+            },
+            {
+                title: 'Separate high-value service opportunities',
+                body: 'Drain cleaning, water-heater work, leak repairs and repiping can warrant different content and campaigns. The right structure helps customers find relevant information and lets you evaluate the economics of each service instead of averaging everything together.'
+            },
+            {
+                title: 'Make follow-up part of the plan',
+                body: 'A good inquiry can be lost when nobody responds. Agree on routing, responsible team members and the information needed to book a job. Review lead quality, duplicates and service-area fit to improve campaign decisions.'
+            }
+        ],
+        services: [
+            'seo',
+            'web-design',
+            'google-ads',
+            'meta-ads'
+        ],
+        questions: [
+            [
+                'Will the website support mobile inquiries?',
+                'Yes. We prioritize usable contact options and a short, clear inquiry flow across screen sizes.'
+            ],
+            [
+                'Can you focus on a particular plumbing service?',
+                'Yes. The offer, pages and campaigns can prioritize services that fit your capacity and business goals.'
+            ]
+        ]
+    },
+    {
+        slug: 'electricians',
+        title: 'Electricians',
+        audience: 'electrical contractors',
+        headline: 'Make your expertise easier to find and choose.',
+        intro: 'Show the work you do, the standards you follow and the areas you serve. We help electrical businesses build a clear online presence and focused campaigns.',
+        needs: [
+            {
+                title: 'Explain specialist work in plain language',
+                body: 'Panel upgrades, EV charging, rewiring and commercial installations have different decision criteria. Help customers understand the service, the information you need and the next step. Technical and safety claims should be reviewed by the business’s qualified professional.'
+            },
+            {
+                title: 'Show evidence that matters',
+                body: 'Use accurate licensing details, project photographs and a straightforward process. Separate residential and commercial examples when they support different buyers. Proof is more useful when it shows work relevant to the service a visitor is considering.'
+            },
+            {
+                title: 'Connect campaigns to service economics',
+                body: 'Group searches and landing pages by the work you want to win. Review location fit, job types and qualified estimates rather than optimizing solely for cheap inquiries. Your sales feedback helps identify the campaigns worth expanding.'
+            }
+        ],
+        services: [
+            'seo',
+            'web-design',
+            'google-ads',
+            'local-seo'
+        ],
+        questions: [
+            [
+                'Can you build pages for EV charger installation?',
+                'Yes, if it is a service you offer and you can supply accurate technical and project information.'
+            ],
+            [
+                'Do you support commercial contractors?',
+                'Yes. Commercial project timelines and buyers need their own messaging and qualification approach.'
+            ]
+        ]
+    },
+    {
+        slug: 'kitchen-remodeling',
+        title: 'Kitchen Remodeling',
+        audience: 'kitchen remodeling businesses',
+        headline: 'Make the next dream kitchen easier to imagine.',
+        intro: 'Combine a visual portfolio with clear information about your process, scope and consultation. We help remodelers turn inspiration into a more informed inquiry.',
+        needs: [
+            {
+                title: 'Let real projects do the explaining',
+                body: 'Use before-and-after images with permission, describe the work performed and explain meaningful design decisions. Project context helps a visitor understand the kinds of kitchen renovations your company takes on.'
+            },
+            {
+                title: 'Set expectations before the consultation',
+                body: 'Clarify service area, project types, design support and how estimates work. If you publish starting budgets or timelines, qualify them accurately. Useful expectations improve the fit of the inquiries your team receives.'
+            },
+            {
+                title: 'Connect inspiration with qualification',
+                body: 'Meta campaigns and organic content can introduce your work to future buyers, while search can capture active demand. Forms should gather enough information to start a productive conversation about scope and timing.'
+            }
+        ],
+        services: [
+            'web-design',
+            'meta-ads',
+            'seo',
+            'social-media-management'
+        ],
+        questions: [
+            [
+                'Can you organize my project photography?',
+                'Yes. Portfolio structure and image preparation can be included, using approved assets.'
+            ],
+            [
+                'Should I publish renovation prices?',
+                'Only with clear scope and assumptions. We can explain the factors that affect estimates without inventing a universal price.'
+            ]
+        ]
+    },
+    {
+        slug: 'bathroom-remodeling',
+        title: 'Bathroom Remodeling',
+        audience: 'bathroom remodelers',
+        headline: 'Show the transformation. Explain the next step.',
+        intro: 'Help homeowners see the possibilities and understand your remodeling process through useful website content, project visuals and focused advertising.',
+        needs: [
+            {
+                title: 'Define the type of remodel',
+                body: 'A bath conversion, accessibility upgrade and complete renovation are different offers. Explain what your company provides and build campaign messages around the actual service scope. Avoid promising one-day completion unless the business can support that claim for the specified work.'
+            },
+            {
+                title: 'Make the portfolio useful',
+                body: 'Pair approved project images with details about scope, materials and the homeowner’s goals. A clear explanation of what changed is more helpful than an unexplained image gallery.'
+            },
+            {
+                title: 'Improve consultation quality',
+                body: 'Ask about the location, project type and timing. Follow-up should explain how an estimate is prepared and whether a site visit is needed. Review qualified appointments and sales outcomes where available.'
+            }
+        ],
+        services: [
+            'web-design',
+            'meta-ads',
+            'google-ads',
+            'seo'
+        ],
+        questions: [
+            [
+                'Can you promote a specific bath conversion offer?',
+                'Yes. We define the exact scope and eligibility with you before building campaign assets.'
+            ],
+            [
+                'Do you write the service pages?',
+                'We can, using your process and business information with your review before publication.'
+            ]
+        ]
+    },
+    {
+        slug: 'landscaping',
+        title: 'Landscaping',
+        audience: 'landscaping businesses',
+        headline: 'Grow a presence as considered as your outdoor work.',
+        intro: 'Show customers the difference between the services you offer, from recurring care to landscape design and installation.',
+        needs: [
+            {
+                title: 'Separate maintenance from project work',
+                body: 'Weekly lawn care and a complete outdoor transformation have different economics. Organize the website and campaigns so each buyer finds the right service, expectations and inquiry path.'
+            },
+            {
+                title: 'Use the seasons as a planning input',
+                body: 'Content and campaigns should reflect the work you can deliver in your market. Build a calendar around genuine service demand and capacity, using real project imagery and useful maintenance advice reviewed by your team.'
+            },
+            {
+                title: 'Bring the right area and project into focus',
+                body: 'Service boundaries, property types and minimum project requirements help qualify inquiries. Explain those details early so customers and your team spend time on suitable opportunities.'
+            }
+        ],
+        services: [
+            'web-design',
+            'local-seo',
+            'meta-ads',
+            'social-media-management'
+        ],
+        questions: [
+            [
+                'Can you market recurring services and large projects?',
+                'Yes. Separate service messaging and lead qualification help keep the two offers clear.'
+            ],
+            [
+                'Will you use stock landscaping projects?',
+                'We prefer your actual work. Any illustrative imagery should be distinguishable from completed client projects.'
+            ]
+        ]
+    },
+    {
+        slug: 'pest-control',
+        title: 'Pest Control',
+        audience: 'pest-control companies',
+        headline: 'Help customers find clear answers and reliable service.',
+        intro: 'Create a useful path from a pest problem to a qualified inquiry, with service-specific content and accurate coverage information.',
+        needs: [
+            {
+                title: 'Organize around the customer’s problem',
+                body: 'Customers may search for a particular pest or treatment. Useful service pages explain the problem you address, the inspection process and the next step. Treatment, health and safety claims must be supplied or reviewed by your qualified team.'
+            },
+            {
+                title: 'Explain ongoing service clearly',
+                body: 'If you offer recurring plans, describe what is covered, how visits work and what happens between appointments. Clear expectations help customers compare the service and reduce avoidable confusion during sales.'
+            },
+            {
+                title: 'Review leads by service and location',
+                body: 'Different pest problems and property types can produce different lead economics. Review relevant inquiries and booked inspections alongside campaign costs, and exclude areas you cannot serve.'
+            }
+        ],
+        services: [
+            'local-seo',
+            'google-ads',
+            'web-design',
+            'content-creation'
+        ],
+        questions: [
+            [
+                'Do you write treatment advice?',
+                'We can organize your approved subject matter, but specific treatment and safety information needs qualified review.'
+            ],
+            [
+                'Can you promote commercial pest control?',
+                'Yes. Commercial buyers need service details and qualification appropriate to their properties and operating requirements.'
+            ]
+        ]
+    },
+    {
+        slug: 'small-business',
+        title: 'Small Businesses',
+        audience: 'small businesses worldwide',
+        headline: 'Big care for the business you’re building.',
+        intro: 'A local service business, independent shop or growing team: your digital presence should make the offer clear and help the right customer take the next step.',
+        needs: [
+            {
+                title: 'Start with the most useful change',
+                body: 'You may need a new website, a better inquiry page or a more consistent content workflow. We review the current customer journey and recommend a defined starting scope. There is no requirement to buy every service at once.'
+            },
+            {
+                title: 'Work across markets thoughtfully',
+                body: 'We work remotely with businesses worldwide. Your target country, language, time zone, currency and customer expectations shape the project. Multi-language content and additional markets are scoped explicitly rather than treated as automatic copies.'
+            },
+            {
+                title: 'Keep the plan understandable',
+                body: 'A small team needs to know what is being delivered, what it must provide and how progress is measured. We agree on a communication rhythm, approval process and useful reporting. The goal is a manageable relationship that supports your actual capacity.'
+            }
+        ],
+        services: [
+            'web-design',
+            'website-management',
+            'social-media-management',
+            'google-ads'
+        ],
+        questions: [
+            [
+                'Do you work outside the United States?',
+                'Yes. We welcome businesses globally and agree on the market, communication and delivery needs before starting.'
+            ],
+            [
+                'Can I start with one service?',
+                'Yes. We can scope a specific project or one ongoing service, then add work when it makes sense.'
+            ]
+        ]
+    }
+];
+const work = [
+    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$projects$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["clientProjects"],
+    {
+        slug: 'flow-web-design',
+        title: 'A fresh take on hydration.',
+        category: 'Website concept · Art direction',
+        image: '/work/flow-website.jpg',
+        label: 'Flow website exploration',
+        description: 'A colorful website exploration that brings product imagery, editorial spacing and a playful visual direction together. Selected from the studio’s earlier portfolio; presented as design work, without a performance claim.'
+    },
+    {
+        slug: 'ecommerce-experience',
+        title: 'A storefront with character.',
+        category: 'E-commerce concept · Web design',
+        image: '/work/ecommerce-design.webp',
+        label: 'Fashion storefront exploration',
+        description: 'An exploration of a mobile shopping experience, with strong product imagery and a consistent visual language across screens. This is a portfolio design example, not a claim about a commissioned launch or sales results.'
+    },
+    {
+        slug: 'interface-exploration',
+        title: 'Less friction. More focus.',
+        category: 'Interface exploration · UI design',
+        image: '/work/ui-design.webp',
+        label: 'Sign-in interface study',
+        description: 'An archived interface study exploring a calm color palette, clear form layout and a restrained visual composition. It is shown as a design exploration, not a measured conversion case study.'
+    },
+    {
+        slug: 'thumbnail-creative',
+        title: 'Made for the first glance.',
+        category: 'Content creative · Thumbnail design',
+        image: '/work/youtube-thumbnails.webp',
+        label: 'YouTube thumbnail explorations',
+        description: 'Thumbnail creative from the earlier studio portfolio, exploring focal points, expressive imagery and quick visual communication. Audience growth and click-through outcomes are not asserted.'
+    }
+];
+}),
+"[project]/src/lib/editorial-images.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "caseImage",
+    ()=>caseImage,
+    "caseImageKeys",
+    ()=>caseImageKeys,
+    "editorialImages",
+    ()=>editorialImages
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$service$2d$guides$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/service-guides.ts [app-rsc] (ecmascript)");
+;
+const editorialImages = {
+    ...Object.fromEntries(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$service$2d$guides$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["serviceGuides"].map((a)=>[
+            a.slug,
+            {
+                src: `/editorial/guides/${a.slug}.webp`,
+                alt: `Wonderweb Studio field guide: ${a.seoTitle || a.title}`
+            }
+        ])),
+    "google-ads-cost-home-services": {
+        "src": "/editorial/google-ads-cost-home-services.webp",
+        "alt": "Home-service advertising budget illustrated with a house, search panel and budget dial."
+    },
+    "roofing-seo-cost": {
+        "src": "/editorial/roofing-seo-cost.webp",
+        "alt": "Roofing search planning illustrated with a roof model, magnifying glass and budget tokens."
+    },
+    "website-management-vs-maintenance": {
+        "src": "/editorial/website-management-vs-maintenance.webp",
+        "alt": "Website content management and technical maintenance shown as paired browser models."
+    },
+    "social-media-content-calendar": {
+        "src": "/editorial/social-media-content-calendar.webp",
+        "alt": "A colorful calendar, camera and content cards representing monthly social planning."
+    },
+    "website-redesign-checklist": {
+        "src": "/editorial/website-redesign-checklist.webp",
+        "alt": "Layered browser panels and design tools illustrating a website redesign checklist."
+    },
+    "google-ads-vs-meta-ads": {
+        "src": "/editorial/google-ads-vs-meta-ads.webp",
+        "alt": "Search and social advertising represented by two routes to a small storefront."
+    },
+    "home-service-marketing-ideas": {
+        "src": "/editorial/home-service-marketing-ideas.webp",
+        "alt": "Homes, a location pin and a megaphone illustrating home-service marketing ideas."
+    },
+    "small-business-website-trust-signals": {
+        "src": "/editorial/small-business-website-trust-signals.webp",
+        "alt": "A storefront, shield and checkmark representing website trust signals."
+    },
+    "website-conversion-improvements": {
+        "src": "/editorial/website-conversion-improvements.webp",
+        "alt": "A cursor and browser panels illustrating a clearer website inquiry journey."
+    },
+    "social-media-post-ideas-small-business": {
+        "src": "/editorial/social-media-post-ideas-small-business.webp",
+        "alt": "Social content cards and a camera illustrating reusable post ideas."
+    },
+    "questions-before-hiring-marketing-agency": {
+        "src": "/editorial/questions-before-hiring-marketing-agency.webp",
+        "alt": "Conversation bubbles and a project brief representing agency selection questions."
+    },
+    "youtube-thumbnail-design-checklist": {
+        "src": "/editorial/youtube-thumbnail-design-checklist.webp",
+        "alt": "A video frame, play symbol and crop tool illustrating thumbnail composition."
+    },
+    "choosing-roofing-seo-agency": {
+        "src": "/editorial/choosing-roofing-seo-agency.webp",
+        "alt": "A roofing model and checklist illustrating the selection of an SEO agency."
+    },
+    "hvac-seo-planning-guide": {
+        "src": "/editorial/hvac-seo-planning-guide.webp",
+        "alt": "An HVAC unit, airflow and search panel illustrating service-page planning."
+    },
+    "electrician-seo-checklist": {
+        "src": "/editorial/electrician-seo-checklist.webp",
+        "alt": "Electrical tools and a browser checklist illustrating electrician SEO."
+    },
+    "kitchen-remodeling-facebook-ads": {
+        "src": "/editorial/kitchen-remodeling-facebook-ads.webp",
+        "alt": "An illustrated kitchen inside a social-content card for remodeling advertising."
+    },
+    "roofing-facebook-ads-guide": {
+        "src": "/editorial/roofing-facebook-ads-guide.webp",
+        "alt": "A roof model, social-content card and camera illustrating roofing advertising."
+    },
+    "restoration-seo-agency-checklist": {
+        "src": "/editorial/restoration-seo-agency-checklist.webp",
+        "alt": "A house, protective shield and search panel illustrating restoration marketing."
+    },
+    "auto-repair-website-planning-guide": {
+        "src": "/editorial/auto-repair-website-planning-guide.webp",
+        "alt": "A car, booking calendar and browser frame illustrating auto-repair website planning."
+    },
+    "siding-marketing-agency-checklist": {
+        "src": "/editorial/siding-marketing-agency-checklist.webp",
+        "alt": "A siding-clad home and material samples illustrating a marketing brief."
+    },
+    "case-roofing-local-search": {
+        "src": "/editorial/case-roofing-local-search.webp",
+        "alt": "Illustration of a roofing neighborhood, location pin and appointment calendar."
+    },
+    "case-bathroom-paid-search": {
+        "src": "/editorial/case-bathroom-paid-search.webp",
+        "alt": "Illustration of a bathroom remodeling scene and campaign-planning elements."
+    },
+    "case-remodeling-lead-cost": {
+        "src": "/editorial/case-remodeling-lead-cost.webp",
+        "alt": "Conceptual bathroom renovation and balanced campaign elements illustrating lead-cost efficiency."
+    },
+    "case-remodeling-two-year-search": {
+        "src": "/editorial/case-remodeling-two-year-search.webp",
+        "alt": "Conceptual bathroom showroom, search lens and calendars illustrating a sustained search program."
+    }
+};
+const caseImageKeys = {
+    "roofing-local-search": "case-roofing-local-search",
+    "bathroom-paid-search-efficiency": "case-bathroom-paid-search",
+    "remodeling-lower-lead-cost": "case-remodeling-lead-cost",
+    "remodeling-search-two-year-results": "case-remodeling-two-year-search"
+};
+const caseImage = (slug)=>editorialImages[caseImageKeys[slug]];
+}),
+"[project]/src/lib/image-metadata.json.[json].cjs [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
+
+module.exports = JSON.parse("{\"/editorial/guides/website-design-brief-business-owner.webp\":{\"title\":\"Wonderweb Studio field guide: Website Design Brief for Business Owners\",\"description\":\"Wonderweb Studio field guide: Website Design Brief for Business Owners Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/business-website-page-architecture.webp\":{\"title\":\"Wonderweb Studio field guide: Business Website Page Planning Guide\",\"description\":\"Wonderweb Studio field guide: Business Website Page Planning Guide Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/website-wireframes-before-visual-design.webp\":{\"title\":\"Wonderweb Studio field guide: Website Wireframe Approval Checklist\",\"description\":\"Wonderweb Studio field guide: Website Wireframe Approval Checklist Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/website-project-photo-selection.webp\":{\"title\":\"Wonderweb Studio field guide: Choosing Project Photos for Your Website\",\"description\":\"Wonderweb Studio field guide: Choosing Project Photos for Your Website Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/website-design-feedback-review-rounds.webp\":{\"title\":\"Wonderweb Studio field guide: Giving Useful Website Design Feedback\",\"description\":\"Wonderweb Studio field guide: Giving Useful Website Design Feedback Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/website-navigation-service-business.webp\":{\"title\":\"Wonderweb Studio field guide: Service Business Website Navigation\",\"description\":\"Wonderweb Studio field guide: Service Business Website Navigation Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/website-platform-requirements-before-build.webp\":{\"title\":\"Wonderweb Studio field guide: Choosing a Website Platform by Requirements\",\"description\":\"Wonderweb Studio field guide: Choosing a Website Platform by Requirements Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/website-form-email-crm-delivery.webp\":{\"title\":\"Wonderweb Studio field guide: Website Form and CRM Delivery Planning\",\"description\":\"Wonderweb Studio field guide: Website Form and CRM Delivery Planning Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/cms-content-model-service-business.webp\":{\"title\":\"Wonderweb Studio field guide: CMS Content Planning for Service Businesses\",\"description\":\"Wonderweb Studio field guide: CMS Content Planning for Service Businesses Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/website-migration-url-inventory.webp\":{\"title\":\"Wonderweb Studio field guide: Website Migration URL Inventory\",\"description\":\"Wonderweb Studio field guide: Website Migration URL Inventory Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/website-integration-scope-questions.webp\":{\"title\":\"Wonderweb Studio field guide: Website Integration Scope Questions\",\"description\":\"Wonderweb Studio field guide: Website Integration Scope Questions Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/website-development-handoff-acceptance.webp\":{\"title\":\"Wonderweb Studio field guide: Website Development Handoff Checklist\",\"description\":\"Wonderweb Studio field guide: Website Development Handoff Checklist Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/website-update-request-workflow.webp\":{\"title\":\"Wonderweb Studio field guide: A Clear Website Update Request Process\",\"description\":\"Wonderweb Studio field guide: A Clear Website Update Request Process Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/website-incident-response-business-owner.webp\":{\"title\":\"Wonderweb Studio field guide: Website Incident Plan for Business Owners\",\"description\":\"Wonderweb Studio field guide: Website Incident Plan for Business Owners Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/quarterly-website-review-priorities.webp\":{\"title\":\"Wonderweb Studio field guide: Quarterly Website Review Priorities\",\"description\":\"Wonderweb Studio field guide: Quarterly Website Review Priorities Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/website-management-report-what-to-read.webp\":{\"title\":\"Wonderweb Studio field guide: Reading a Website Management Report\",\"description\":\"Wonderweb Studio field guide: Reading a Website Management Report Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/website-account-ownership-access-register.webp\":{\"title\":\"Wonderweb Studio field guide: Website Ownership and Access Register\",\"description\":\"Wonderweb Studio field guide: Website Ownership and Access Register Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/seasonal-website-updates-service-business.webp\":{\"title\":\"Wonderweb Studio field guide: Seasonal Website Update Planning\",\"description\":\"Wonderweb Studio field guide: Seasonal Website Update Planning Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/landing-page-offer-brief.webp\":{\"title\":\"Wonderweb Studio field guide: Landing Page Offer Brief\",\"description\":\"Wonderweb Studio field guide: Landing Page Offer Brief Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/landing-page-lead-qualification-fields.webp\":{\"title\":\"Wonderweb Studio field guide: Landing Page Lead Qualification Fields\",\"description\":\"Wonderweb Studio field guide: Landing Page Lead Qualification Fields Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/landing-page-traffic-no-inquiries.webp\":{\"title\":\"Wonderweb Studio field guide: Landing Page Visits Without Inquiries\",\"description\":\"Wonderweb Studio field guide: Landing Page Visits Without Inquiries Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/service-page-or-campaign-landing-page.webp\":{\"title\":\"Wonderweb Studio field guide: Service Page or Campaign Landing Page?\",\"description\":\"Wonderweb Studio field guide: Service Page or Campaign Landing Page? Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/landing-page-test-plan-small-budget.webp\":{\"title\":\"Wonderweb Studio field guide: Landing Page Testing With Limited Traffic\",\"description\":\"Wonderweb Studio field guide: Landing Page Testing With Limited Traffic Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/landing-page-google-meta-message-match.webp\":{\"title\":\"Wonderweb Studio field guide: Landing Pages for Search and Social Traffic\",\"description\":\"Wonderweb Studio field guide: Landing Pages for Search and Social Traffic Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/youtube-thumbnail-creative-brief.webp\":{\"title\":\"Wonderweb Studio field guide: YouTube Thumbnail Creative Brief\",\"description\":\"Wonderweb Studio field guide: YouTube Thumbnail Creative Brief Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/thumbnail-title-pairing-guide.webp\":{\"title\":\"Wonderweb Studio field guide: Thumbnail and Title Pairing Guide\",\"description\":\"Wonderweb Studio field guide: Thumbnail and Title Pairing Guide Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/thumbnail-series-brand-system.webp\":{\"title\":\"Wonderweb Studio field guide: Thumbnail Design System for Video Series\",\"description\":\"Wonderweb Studio field guide: Thumbnail Design System for Video Series Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/refresh-old-video-thumbnails.webp\":{\"title\":\"Wonderweb Studio field guide: When to Refresh Older Video Thumbnails\",\"description\":\"Wonderweb Studio field guide: When to Refresh Older Video Thumbnails Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/thumbnail-testing-brief-and-review.webp\":{\"title\":\"Wonderweb Studio field guide: Thumbnail Testing Brief and Review\",\"description\":\"Wonderweb Studio field guide: Thumbnail Testing Brief and Review Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/thumbnail-production-batch-workflow.webp\":{\"title\":\"Wonderweb Studio field guide: Thumbnail Batch Production Workflow\",\"description\":\"Wonderweb Studio field guide: Thumbnail Batch Production Workflow Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/seo-priority-backlog.webp\":{\"title\":\"Wonderweb Studio field guide: Turn an SEO Audit into a Practical Work Plan\",\"description\":\"Wonderweb Studio field guide: Turn an SEO Audit into a Practical Work Plan Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/service-page-keyword-overlap.webp\":{\"title\":\"Wonderweb Studio field guide: Resolve Overlapping Service Pages\",\"description\":\"Wonderweb Studio field guide: Resolve Overlapping Service Pages Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/seo-reporting-business-decisions.webp\":{\"title\":\"Wonderweb Studio field guide: SEO Reports That Support Business Decisions\",\"description\":\"Wonderweb Studio field guide: SEO Reports That Support Business Decisions Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/seo-migration-url-mapping.webp\":{\"title\":\"Wonderweb Studio field guide: Website Migration: Build a Reliable URL Map\",\"description\":\"Wonderweb Studio field guide: Website Migration: Build a Reliable URL Map Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/refresh-merge-or-retire-content.webp\":{\"title\":\"Wonderweb Studio field guide: Refresh, Merge or Retire Old Website Content\",\"description\":\"Wonderweb Studio field guide: Refresh, Merge or Retire Old Website Content Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/indexing-triage-for-service-websites.webp\":{\"title\":\"Wonderweb Studio field guide: Indexing Problems: A Practical Triage Guide\",\"description\":\"Wonderweb Studio field guide: Indexing Problems: A Practical Triage Guide Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/google-business-profile-eligibility-checklist.webp\":{\"title\":\"Wonderweb Studio field guide: Google Business Profile Eligibility Checklist\",\"description\":\"Wonderweb Studio field guide: Google Business Profile Eligibility Checklist Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/multi-location-local-seo-structure.webp\":{\"title\":\"Wonderweb Studio field guide: A Clear Local SEO Structure for Multiple Locations\",\"description\":\"Wonderweb Studio field guide: A Clear Local SEO Structure for Multiple Locations Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/customer-review-request-workflow.webp\":{\"title\":\"Wonderweb Studio field guide: A Practical Customer Review Request Workflow\",\"description\":\"Wonderweb Studio field guide: A Practical Customer Review Request Workflow Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/local-citation-audit.webp\":{\"title\":\"Wonderweb Studio field guide: A Practical Local Citation Audit\",\"description\":\"Wonderweb Studio field guide: A Practical Local Citation Audit Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/service-area-pages-with-real-evidence.webp\":{\"title\":\"Wonderweb Studio field guide: Service-Area Pages with Useful Local Evidence\",\"description\":\"Wonderweb Studio field guide: Service-Area Pages with Useful Local Evidence Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/seasonal-local-seo-planning.webp\":{\"title\":\"Wonderweb Studio field guide: Seasonal Local SEO Planning for Service Businesses\",\"description\":\"Wonderweb Studio field guide: Seasonal Local SEO Planning for Service Businesses Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/google-ads-search-term-review.webp\":{\"title\":\"Wonderweb Studio field guide: A Practical Google Ads Search-Term Review\",\"description\":\"Wonderweb Studio field guide: A Practical Google Ads Search-Term Review Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/qualified-lead-tracking-google-ads.webp\":{\"title\":\"Wonderweb Studio field guide: Qualified-Lead Tracking for Google Ads\",\"description\":\"Wonderweb Studio field guide: Qualified-Lead Tracking for Google Ads Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/google-ads-budget-by-service.webp\":{\"title\":\"Wonderweb Studio field guide: Allocate Google Ads Budget by Service\",\"description\":\"Wonderweb Studio field guide: Allocate Google Ads Budget by Service Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/google-search-campaign-launch-checklist.webp\":{\"title\":\"Wonderweb Studio field guide: Google Search Campaign Launch Checklist\",\"description\":\"Wonderweb Studio field guide: Google Search Campaign Launch Checklist Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/google-ads-experiment-log.webp\":{\"title\":\"Wonderweb Studio field guide: A Useful Google Ads Experiment Log\",\"description\":\"Wonderweb Studio field guide: A Useful Google Ads Experiment Log Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/google-ads-message-match.webp\":{\"title\":\"Wonderweb Studio field guide: Google Ads Message Match: Ad to Landing Page\",\"description\":\"Wonderweb Studio field guide: Google Ads Message Match: Ad to Landing Page Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/meta-instant-forms-vs-website-forms.webp\":{\"title\":\"Wonderweb Studio field guide: Meta Instant Forms vs Website Forms\",\"description\":\"Wonderweb Studio field guide: Meta Instant Forms vs Website Forms Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/meta-ad-creative-testing-matrix.webp\":{\"title\":\"Wonderweb Studio field guide: A Practical Meta Ad Creative Testing Matrix\",\"description\":\"Wonderweb Studio field guide: A Practical Meta Ad Creative Testing Matrix Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/meta-lead-follow-up-workflow.webp\":{\"title\":\"Wonderweb Studio field guide: A Practical Meta Lead Follow-Up Workflow\",\"description\":\"Wonderweb Studio field guide: A Practical Meta Lead Follow-Up Workflow Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/meta-ad-fatigue-diagnosis.webp\":{\"title\":\"Wonderweb Studio field guide: Diagnose Meta Ad Fatigue Before Replacing Creative\",\"description\":\"Wonderweb Studio field guide: Diagnose Meta Ad Fatigue Before Replacing Creative Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/meta-retargeting-audience-plan.webp\":{\"title\":\"Wonderweb Studio field guide: A Practical Meta Retargeting Audience Plan\",\"description\":\"Wonderweb Studio field guide: A Practical Meta Retargeting Audience Plan Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/meta-campaign-offer-planning.webp\":{\"title\":\"Wonderweb Studio field guide: Plan a Clear Meta Campaign Offer\",\"description\":\"Wonderweb Studio field guide: Plan a Clear Meta Campaign Offer Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/social-media-approval-workflow.webp\":{\"title\":\"Wonderweb Studio field guide: Social Media Approval Workflow for Small Teams\",\"description\":\"Wonderweb Studio field guide: Social Media Approval Workflow for Small Teams Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/social-media-monthly-report-decisions.webp\":{\"title\":\"Wonderweb Studio field guide: Social Media Reports: Metrics That Guide Decisions\",\"description\":\"Wonderweb Studio field guide: Social Media Reports: Metrics That Guide Decisions Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/social-media-agency-handover-checklist.webp\":{\"title\":\"Wonderweb Studio field guide: Social Media Agency Handover Checklist\",\"description\":\"Wonderweb Studio field guide: Social Media Agency Handover Checklist Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/social-community-management-response-playbook.webp\":{\"title\":\"Wonderweb Studio field guide: Social Comment and Message Response Playbook\",\"description\":\"Wonderweb Studio field guide: Social Comment and Message Response Playbook Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/social-platform-selection-small-business.webp\":{\"title\":\"Wonderweb Studio field guide: Choosing Social Platforms for Your Business\",\"description\":\"Wonderweb Studio field guide: Choosing Social Platforms for Your Business Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/social-media-project-photo-collection.webp\":{\"title\":\"Wonderweb Studio field guide: Collecting Project Photos for Social Media\",\"description\":\"Wonderweb Studio field guide: Collecting Project Photos for Social Media Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/expert-interview-content-process.webp\":{\"title\":\"Wonderweb Studio field guide: Expert Interviews for Better Business Content\",\"description\":\"Wonderweb Studio field guide: Expert Interviews for Better Business Content Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/business-content-brief-template.webp\":{\"title\":\"Wonderweb Studio field guide: A Content Brief for Useful Business Articles\",\"description\":\"Wonderweb Studio field guide: A Content Brief for Useful Business Articles Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/content-map-customer-decisions.webp\":{\"title\":\"Wonderweb Studio field guide: Content Mapping Around Customer Decisions\",\"description\":\"Wonderweb Studio field guide: Content Mapping Around Customer Decisions Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/repurpose-guide-into-content-assets.webp\":{\"title\":\"Wonderweb Studio field guide: Repurposing a Guide into Useful Content Assets\",\"description\":\"Wonderweb Studio field guide: Repurposing a Guide into Useful Content Assets Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/editorial-fact-checking-business-content.webp\":{\"title\":\"Wonderweb Studio field guide: Fact-Checking Business Content Before Publication\",\"description\":\"Wonderweb Studio field guide: Fact-Checking Business Content Before Publication Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/case-study-content-evidence-brief.webp\":{\"title\":\"Wonderweb Studio field guide: A Case-Study Brief Built Around Available Evidence\",\"description\":\"Wonderweb Studio field guide: A Case-Study Brief Built Around Available Evidence Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/website-content-inventory-audit.webp\":{\"title\":\"Wonderweb Studio field guide: Website Content Inventory and Audit Guide\",\"description\":\"Wonderweb Studio field guide: Website Content Inventory and Audit Guide Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/cms-editorial-roles-permissions.webp\":{\"title\":\"Wonderweb Studio field guide: CMS Editorial Roles and Publishing Responsibilities\",\"description\":\"Wonderweb Studio field guide: CMS Editorial Roles and Publishing Responsibilities Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/content-migration-editorial-quality-checks.webp\":{\"title\":\"Wonderweb Studio field guide: Content Migration Quality Checks for Business Sites\",\"description\":\"Wonderweb Studio field guide: Content Migration Quality Checks for Business Sites Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/refresh-combine-retire-website-content.webp\":{\"title\":\"Wonderweb Studio field guide: Refresh, Combine or Retire Website Content\",\"description\":\"Wonderweb Studio field guide: Refresh, Combine or Retire Website Content Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/multilingual-content-publishing-workflow.webp\":{\"title\":\"Wonderweb Studio field guide: Multilingual Content Publishing Workflow\",\"description\":\"Wonderweb Studio field guide: Multilingual Content Publishing Workflow Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/website-content-request-queue.webp\":{\"title\":\"Wonderweb Studio field guide: A Website Content Request Queue That Works\",\"description\":\"Wonderweb Studio field guide: A Website Content Request Queue That Works Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/small-business-brand-kit-handoff.webp\":{\"title\":\"Wonderweb Studio field guide: A Practical Brand Kit for Small Businesses\",\"description\":\"Wonderweb Studio field guide: A Practical Brand Kit for Small Businesses Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/graphic-design-brief-business-project.webp\":{\"title\":\"Wonderweb Studio field guide: Graphic Design Briefs for Business Projects\",\"description\":\"Wonderweb Studio field guide: Graphic Design Briefs for Business Projects Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/constructive-design-feedback-process.webp\":{\"title\":\"Wonderweb Studio field guide: How to Give Useful Graphic Design Feedback\",\"description\":\"Wonderweb Studio field guide: How to Give Useful Graphic Design Feedback Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/design-files-digital-print-handoff.webp\":{\"title\":\"Wonderweb Studio field guide: Digital and Print Design File Handoff Guide\",\"description\":\"Wonderweb Studio field guide: Digital and Print Design File Handoff Guide Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/campaign-creative-asset-matrix.webp\":{\"title\":\"Wonderweb Studio field guide: A Campaign Creative Asset Matrix for Small Teams\",\"description\":\"Wonderweb Studio field guide: A Campaign Creative Asset Matrix for Small Teams Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/guides/readable-accessible-brand-graphics.webp\":{\"title\":\"Wonderweb Studio field guide: Readable and Accessible Brand Graphics\",\"description\":\"Wonderweb Studio field guide: Readable and Accessible Brand Graphics Original editorial title-card design; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/google-ads-cost-home-services.webp\":{\"title\":\"Home-service advertising budget illustrated with a house, search panel and budget dial.\",\"description\":\"Home-service advertising budget illustrated with a house, search panel and budget dial. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/roofing-seo-cost.webp\":{\"title\":\"Roofing search planning illustrated with a roof model, magnifying glass and budget tokens.\",\"description\":\"Roofing search planning illustrated with a roof model, magnifying glass and budget tokens. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/website-management-vs-maintenance.webp\":{\"title\":\"Website content management and technical maintenance shown as paired browser models.\",\"description\":\"Website content management and technical maintenance shown as paired browser models. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/social-media-content-calendar.webp\":{\"title\":\"A colorful calendar, camera and content cards representing monthly social planning.\",\"description\":\"A colorful calendar, camera and content cards representing monthly social planning. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/website-redesign-checklist.webp\":{\"title\":\"Layered browser panels and design tools illustrating a website redesign checklist.\",\"description\":\"Layered browser panels and design tools illustrating a website redesign checklist. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/google-ads-vs-meta-ads.webp\":{\"title\":\"Search and social advertising represented by two routes to a small storefront.\",\"description\":\"Search and social advertising represented by two routes to a small storefront. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/home-service-marketing-ideas.webp\":{\"title\":\"Homes, a location pin and a megaphone illustrating home-service marketing ideas.\",\"description\":\"Homes, a location pin and a megaphone illustrating home-service marketing ideas. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/small-business-website-trust-signals.webp\":{\"title\":\"A storefront, shield and checkmark representing website trust signals.\",\"description\":\"A storefront, shield and checkmark representing website trust signals. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/website-conversion-improvements.webp\":{\"title\":\"A cursor and browser panels illustrating a clearer website inquiry journey.\",\"description\":\"A cursor and browser panels illustrating a clearer website inquiry journey. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/social-media-post-ideas-small-business.webp\":{\"title\":\"Social content cards and a camera illustrating reusable post ideas.\",\"description\":\"Social content cards and a camera illustrating reusable post ideas. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/questions-before-hiring-marketing-agency.webp\":{\"title\":\"Conversation bubbles and a project brief representing agency selection questions.\",\"description\":\"Conversation bubbles and a project brief representing agency selection questions. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/youtube-thumbnail-design-checklist.webp\":{\"title\":\"A video frame, play symbol and crop tool illustrating thumbnail composition.\",\"description\":\"A video frame, play symbol and crop tool illustrating thumbnail composition. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/choosing-roofing-seo-agency.webp\":{\"title\":\"A roofing model and checklist illustrating the selection of an SEO agency.\",\"description\":\"A roofing model and checklist illustrating the selection of an SEO agency. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/hvac-seo-planning-guide.webp\":{\"title\":\"An HVAC unit, airflow and search panel illustrating service-page planning.\",\"description\":\"An HVAC unit, airflow and search panel illustrating service-page planning. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/electrician-seo-checklist.webp\":{\"title\":\"Electrical tools and a browser checklist illustrating electrician SEO.\",\"description\":\"Electrical tools and a browser checklist illustrating electrician SEO. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/kitchen-remodeling-facebook-ads.webp\":{\"title\":\"An illustrated kitchen inside a social-content card for remodeling advertising.\",\"description\":\"An illustrated kitchen inside a social-content card for remodeling advertising. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/roofing-facebook-ads-guide.webp\":{\"title\":\"A roof model, social-content card and camera illustrating roofing advertising.\",\"description\":\"A roof model, social-content card and camera illustrating roofing advertising. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/restoration-seo-agency-checklist.webp\":{\"title\":\"A house, protective shield and search panel illustrating restoration marketing.\",\"description\":\"A house, protective shield and search panel illustrating restoration marketing. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/auto-repair-website-planning-guide.webp\":{\"title\":\"A car, booking calendar and browser frame illustrating auto-repair website planning.\",\"description\":\"A car, booking calendar and browser frame illustrating auto-repair website planning. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/siding-marketing-agency-checklist.webp\":{\"title\":\"A siding-clad home and material samples illustrating a marketing brief.\",\"description\":\"A siding-clad home and material samples illustrating a marketing brief. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/case-roofing-local-search.webp\":{\"title\":\"Illustration of a roofing neighborhood, location pin and appointment calendar.\",\"description\":\"Illustration of a roofing neighborhood, location pin and appointment calendar. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/case-bathroom-paid-search.webp\":{\"title\":\"Illustration of a bathroom remodeling scene and campaign-planning elements.\",\"description\":\"Illustration of a bathroom remodeling scene and campaign-planning elements. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/case-remodeling-lead-cost.webp\":{\"title\":\"Conceptual bathroom renovation and balanced campaign elements illustrating lead-cost efficiency.\",\"description\":\"Conceptual bathroom renovation and balanced campaign elements illustrating lead-cost efficiency. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/editorial/case-remodeling-two-year-search.webp\":{\"title\":\"Conceptual bathroom showroom, search lens and calendars illustrating a sustained search program.\",\"description\":\"Conceptual bathroom showroom, search lens and calendars illustrating a sustained search program. AI-generated conceptual editorial artwork; not a client project photograph.\",\"width\":1440,\"height\":810,\"type\":\"image/webp\"},\"/work/allsafe-electric.webp\":{\"title\":\"Allsafe Electric - Home services · Website & lead capture\",\"description\":\"Allsafe Electric project preview. A Next.js website for a Colorado electrical business, bringing service information, local content and inquiry handling into one customer journey.\",\"width\":1440,\"height\":900,\"type\":\"image/webp\"},\"/work/clear-day-baths.webp\":{\"title\":\"Clear Day Baths - Home services · Website & automation\",\"description\":\"Clear Day Baths project preview. A bathroom remodeling website connecting service-area content, quote requests and CRM follow-up for a business serving Northern Virginia and Maryland.\",\"width\":1440,\"height\":900,\"type\":\"image/webp\"},\"/work/jr-watkins.webp\":{\"title\":\"J.R. Watkins - Brand website · Responsive development\",\"description\":\"J.R. Watkins project preview. Website development for J.R. Watkins, with a focus on responsive presentation, brand identity and a clear customer experience.\",\"width\":1000,\"height\":700,\"type\":\"image/webp\"},\"/work/workiz.webp\":{\"title\":\"Workiz - Business software · Web development\",\"description\":\"Workiz project preview. Website development work for Workiz, a platform serving field-service businesses. A project at the intersection of software and the trades.\",\"width\":1000,\"height\":700,\"type\":\"image/webp\"},\"/work/windsor.webp\":{\"title\":\"Windsor - E-commerce · Website design\",\"description\":\"Windsor project preview. E-commerce website design work focused on the Windsor shopping experience and its brand presentation.\",\"width\":1000,\"height\":700,\"type\":\"image/webp\"},\"/work/ezeie.webp\":{\"title\":\"ezeie - UX design · Responsive web application\",\"description\":\"ezeie project preview. A UX and web application project focused on updating an existing website experience for mobile and desktop use.\",\"width\":1000,\"height\":700,\"type\":\"image/webp\"},\"/work/california-olive.webp\":{\"title\":\"California Olive Ranch - Brand website · Web development\",\"description\":\"California Olive Ranch project preview. Website development work for California Olive Ranch, connecting brand presentation with a responsive web interface.\",\"width\":1000,\"height\":700,\"type\":\"image/webp\"},\"/work/crafted-look.webp\":{\"title\":\"Crafted Look - Editorial · Content website\",\"description\":\"Crafted Look project preview. A blog and editorial website built around approachable content, clear navigation and a responsive reading experience.\",\"width\":1000,\"height\":700,\"type\":\"image/webp\"},\"/work/unseen-threads.webp\":{\"title\":\"The Unseen Threads - Editorial · Website design\",\"description\":\"The Unseen Threads project preview. A blog and website design project with a focus on a responsive home for editorial content.\",\"width\":1000,\"height\":700,\"type\":\"image/webp\"},\"/work/read-the-anime.webp\":{\"title\":\"Read The Anime - Publishing · Web development\",\"description\":\"Read The Anime project preview. An anime-focused blog website project that organizes content into a responsive reading experience.\",\"width\":1000,\"height\":700,\"type\":\"image/webp\"},\"/work/dococlock.webp\":{\"title\":\"DocoClock - Healthcare platform · Full-stack development\",\"description\":\"DocoClock project preview. A healthcare platform bringing doctor discovery, appointments, live queues and digital prescriptions into one connected healthcare experience.\",\"width\":1440,\"height\":900,\"type\":\"image/webp\"},\"/work/pet-cy.webp\":{\"title\":\"Pet-cy - E-commerce · Catalog & storefront\",\"description\":\"Pet-cy project preview. An e-commerce storefront for a Cyprus pet supply business, bringing its catalog, offers and shopping information together.\",\"width\":1440,\"height\":900,\"type\":\"image/webp\"},\"/work/flow-website.jpg\":{\"title\":\"Flow website exploration - Website concept · Art direction\",\"description\":\"Flow website exploration project preview. A colorful website exploration that brings product imagery, editorial spacing and a playful visual direction together. Selected from the studio’s earlier portfolio; presented as design work, without a performance claim.\",\"width\":768,\"height\":768,\"type\":\"image/jpeg\"},\"/work/ecommerce-design.webp\":{\"title\":\"Fashion storefront exploration - E-commerce concept · Web design\",\"description\":\"Fashion storefront exploration project preview. An exploration of a mobile shopping experience, with strong product imagery and a consistent visual language across screens. This is a portfolio design example, not a claim about a commissioned launch or sales results.\",\"width\":768,\"height\":768,\"type\":\"image/webp\"},\"/work/ui-design.webp\":{\"title\":\"Sign-in interface study - Interface exploration · UI design\",\"description\":\"Sign-in interface study project preview. An archived interface study exploring a calm color palette, clear form layout and a restrained visual composition. It is shown as a design exploration, not a measured conversion case study.\",\"width\":768,\"height\":768,\"type\":\"image/webp\"},\"/work/youtube-thumbnails.webp\":{\"title\":\"YouTube thumbnail explorations - Content creative · Thumbnail design\",\"description\":\"YouTube thumbnail explorations project preview. Thumbnail creative from the earlier studio portfolio, exploring focal points, expressive imagery and quick visual communication. Audience growth and click-through outcomes are not asserted.\",\"width\":768,\"height\":720,\"type\":\"image/webp\"},\"/work/saikat.webp\":{\"title\":\"Saikat Chowdhury, Founder & CEO\",\"description\":\"Portrait of Saikat Chowdhury, Wonderweb Studio founder, CEO and team lead.\",\"width\":1440,\"height\":1440,\"type\":\"image/webp\"},\"/brand/wonderweb-studio.svg\":{\"title\":\"Wonderweb Studio logo\",\"description\":\"Wonderweb Studio brand logo.\",\"width\":442,\"height\":126,\"type\":\"image/svg+xml\"},\"/art/wonder-sculpture.png\":{\"title\":\"Wonderweb Studio creative artwork\",\"description\":\"Abstract blue and lilac sculptural artwork created for the Wonderweb Studio homepage.\",\"width\":1122,\"height\":1402,\"type\":\"image/png\"},\"/art/wonder-blue-pink-grain.webp\":{\"title\":\"Wonderweb blue and pink grain artwork\",\"description\":\"Original cobalt, lavender and pink flowing artwork with a fine sand-like texture, created for the Wonderweb Studio hero.\",\"width\":1024,\"height\":1536,\"type\":\"image/webp\"},\"/art/wonder-color-flow.webp\":{\"title\":\"Wonderweb color flow\",\"description\":\"Original grain-textured abstract folds in electric blue, magenta and citrus orange, created for Wonderweb Studio.\",\"width\":1440,\"height\":960,\"type\":\"image/webp\"},\"/art/wonder-citrus-flow.webp\":{\"title\":\"Wonderweb citrus flow\",\"description\":\"Original golden-yellow, orange and violet color-field artwork for Wonderweb Studio’s conversation card.\",\"width\":900,\"height\":1350,\"type\":\"image/webp\"},\"/seo/home.png\":{\"title\":\"Home - Wonderweb Studio\",\"description\":\"Featured social preview for Home. A fully remote web design and digital marketing agency serving businesses worldwide. Websites, SEO, ads and social for the US, Canada, Australia and beyond.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/about.png\":{\"title\":\"About the studio - Wonderweb Studio\",\"description\":\"Featured social preview for About the studio. Meet Wonderweb Studio, a fully remote agency serving the United States, Canada, Australia and businesses worldwide with websites, creative and marketing.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/contact.png\":{\"title\":\"Contact - Wonderweb Studio\",\"description\":\"Featured social preview for Contact. Contact our remote team for websites, SEO, ads and social media. Serving the US, Canada, Australia and worldwide, with intro calls arranged in your time zone.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services.png\":{\"title\":\"Services - Wonderweb Studio\",\"description\":\"Featured social preview for Services. Explore website design, development, SEO, Google Ads, Meta campaigns, social media and creative services for small businesses worldwide.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries.png\":{\"title\":\"Industries - Wonderweb Studio\",\"description\":\"Featured social preview for Industries. Explore digital marketing for roofing, HVAC, plumbing, electricians, remodelers and small businesses. Find a website and marketing plan for your industry.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations.png\":{\"title\":\"Locations - Wonderweb Studio\",\"description\":\"Featured social preview for Locations. Website design, SEO, paid advertising and social media support for US service markets. Explore our local marketing guides and remote studio approach.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/pricing.png\":{\"title\":\"Pricing - Wonderweb Studio\",\"description\":\"Featured social preview for Pricing. Compare standalone services, monthly marketing and website projects from $4,500. Clear USD prices, scope, exclusions and twelve-payment website options.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/work.png\":{\"title\":\"Our work - Wonderweb Studio\",\"description\":\"Featured social preview for Our work. Explore client websites, e-commerce projects, web platforms and creative studies from Wonderweb Studio and our founder’s selected portfolio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/results.png\":{\"title\":\"Campaign results - Wonderweb Studio\",\"description\":\"Featured social preview for Campaign results. Read selected roofing and bathroom remodeling campaign stories, including the approach, historical outcomes and measurement context.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources.png\":{\"title\":\"Blog & guides - Wonderweb Studio\",\"description\":\"Featured social preview for Blog & guides. Practical guides to website design, SEO budgets, Google Ads, social media content and ongoing website management for small and home-service businesses.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/privacy-policy.png\":{\"title\":\"Privacy policy - Wonderweb Studio\",\"description\":\"Featured social preview for Privacy policy. Learn how Wonderweb Studio handles inquiry details, optional analytics, embedded media and your privacy choices when you use this website.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/terms.png\":{\"title\":\"Website terms - Wonderweb Studio\",\"description\":\"Featured social preview for Website terms. Read Wonderweb Studio’s website terms, pricing context and project information. Service scope and payment terms are confirmed in a separate written proposal.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/payments.png\":{\"title\":\"Client payments - Wonderweb Studio\",\"description\":\"Featured social preview for Client payments. Payment information for approved Wonderweb Studio proposals and invoices. Contact the studio to confirm your scope and payment arrangements.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--library--1.png\":{\"title\":\"Resources · 1 - Wonderweb Studio\",\"description\":\"Featured social preview for Resources · 1. Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 1.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--library--2.png\":{\"title\":\"Resources · 2 - Wonderweb Studio\",\"description\":\"Featured social preview for Resources · 2. Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 2.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--library--3.png\":{\"title\":\"Resources · 3 - Wonderweb Studio\",\"description\":\"Featured social preview for Resources · 3. Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 3.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--library--4.png\":{\"title\":\"Resources · 4 - Wonderweb Studio\",\"description\":\"Featured social preview for Resources · 4. Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 4.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--library--5.png\":{\"title\":\"Resources · 5 - Wonderweb Studio\",\"description\":\"Featured social preview for Resources · 5. Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 5.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--library--6.png\":{\"title\":\"Resources · 6 - Wonderweb Studio\",\"description\":\"Featured social preview for Resources · 6. Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 6.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--library--7.png\":{\"title\":\"Resources · 7 - Wonderweb Studio\",\"description\":\"Featured social preview for Resources · 7. Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 7.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--library--8.png\":{\"title\":\"Resources · 8 - Wonderweb Studio\",\"description\":\"Featured social preview for Resources · 8. Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 8.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--library--9.png\":{\"title\":\"Resources · 9 - Wonderweb Studio\",\"description\":\"Featured social preview for Resources · 9. Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 9.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--library--10.png\":{\"title\":\"Resources · 10 - Wonderweb Studio\",\"description\":\"Featured social preview for Resources · 10. Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 10.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--library--11.png\":{\"title\":\"Resources · 11 - Wonderweb Studio\",\"description\":\"Featured social preview for Resources · 11. Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 11.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--library--12.png\":{\"title\":\"Resources · 12 - Wonderweb Studio\",\"description\":\"Featured social preview for Resources · 12. Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 12.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--library--13.png\":{\"title\":\"Resources · 13 - Wonderweb Studio\",\"description\":\"Featured social preview for Resources · 13. Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 13.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--library--14.png\":{\"title\":\"Resources · 14 - Wonderweb Studio\",\"description\":\"Featured social preview for Resources · 14. Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 14.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--library--15.png\":{\"title\":\"Resources · 15 - Wonderweb Studio\",\"description\":\"Featured social preview for Resources · 15. Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 15.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--library--16.png\":{\"title\":\"Resources · 16 - Wonderweb Studio\",\"description\":\"Featured social preview for Resources · 16. Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 16.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--library--17.png\":{\"title\":\"Resources · 17 - Wonderweb Studio\",\"description\":\"Featured social preview for Resources · 17. Browse practical marketing resources from Wonderweb Studio. Explore websites, search, advertising and content. Page 17.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions.png\":{\"title\":\"Industry guides · 1 - Wonderweb Studio\",\"description\":\"Featured social preview for Industry guides · 1. Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 1.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--page--2.png\":{\"title\":\"Industry guides · 2 - Wonderweb Studio\",\"description\":\"Featured social preview for Industry guides · 2. Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 2.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--page--3.png\":{\"title\":\"Industry guides · 3 - Wonderweb Studio\",\"description\":\"Featured social preview for Industry guides · 3. Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 3.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--page--4.png\":{\"title\":\"Industry guides · 4 - Wonderweb Studio\",\"description\":\"Featured social preview for Industry guides · 4. Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 4.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--page--5.png\":{\"title\":\"Industry guides · 5 - Wonderweb Studio\",\"description\":\"Featured social preview for Industry guides · 5. Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 5.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--page--6.png\":{\"title\":\"Industry guides · 6 - Wonderweb Studio\",\"description\":\"Featured social preview for Industry guides · 6. Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 6.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--page--7.png\":{\"title\":\"Industry guides · 7 - Wonderweb Studio\",\"description\":\"Featured social preview for Industry guides · 7. Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 7.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--page--8.png\":{\"title\":\"Industry guides · 8 - Wonderweb Studio\",\"description\":\"Featured social preview for Industry guides · 8. Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 8.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--page--9.png\":{\"title\":\"Industry guides · 9 - Wonderweb Studio\",\"description\":\"Featured social preview for Industry guides · 9. Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 9.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--page--10.png\":{\"title\":\"Industry guides · 10 - Wonderweb Studio\",\"description\":\"Featured social preview for Industry guides · 10. Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 10.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--page--11.png\":{\"title\":\"Industry guides · 11 - Wonderweb Studio\",\"description\":\"Featured social preview for Industry guides · 11. Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 11.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--page--12.png\":{\"title\":\"Industry guides · 12 - Wonderweb Studio\",\"description\":\"Featured social preview for Industry guides · 12. Browse practical industry service guides from Wonderweb Studio. Explore websites, search, advertising and content. Page 12.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--solar-ppc-management.png\":{\"title\":\"Solar PPC Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Solar PPC Agency. Solar PPC Agency. More traffic means absolutely nothing if it fails to convert into a booked sales…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--solar-technical-seo.png\":{\"title\":\"Solar Technical SEO Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Solar Technical SEO Agency. Solar Technical SEO Agency. Search engine bots must find your content easily to rank it high in the search engine results…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--solar-link-building.png\":{\"title\":\"Solar Link Building Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Solar Link Building Agency. Solar Link Building Agency. These authoritative placements signal incredible trust to search engines and potential customers alike, acting as a powerful…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--painters-meta-ads.png\":{\"title\":\"Painters Meta Ads Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Painters Meta Ads Agency. Painters Meta Ads Agency. Each campaign below targets a different kind of job, so your budget goes where your crews make the most…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--deck-builder-web-design.png\":{\"title\":\"Deck Builder Web Design - Wonderweb Studio\",\"description\":\"Featured social preview for Deck Builder Web Design. Deck Builder Web Design. A deck builder site is a short set of pages. Each one answers a question for a homeowner planning a new deck, a replacement or a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--painters-ppc-management.png\":{\"title\":\"Painters PPC Management Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Painters PPC Management Agency. Painters PPC Management Agency. Exterior painting jobs provide excellent profit margins for your business. This focused approach eliminates wasted spend on…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--painters-technical-seo.png\":{\"title\":\"Painters Technical SEO Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Painters Technical SEO Agency. Painters Technical SEO Agency. A logical website structure helps search engines understand your painting services and prioritize your most important…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--painters-link-building.png\":{\"title\":\"Painters Link Building Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Painters Link Building Agency. Painters Link Building Agency. This critical consistency proves to Google that your local operation is legitimate and highly active. A strong presence here…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--landscaping-google-ads.png\":{\"title\":\"Landscaping Google Ads Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping Google Ads Agency. Landscaping Google Ads Agency. Each one reaches homeowners at a different point, from the first Google search to the day they ask for a quote. All of them…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--landscaping-web-design-agency.png\":{\"title\":\"Landscaping Web Design Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping Web Design Agency. Landscaping Web Design Agency. A beautiful, well designed website means nothing without the right traffic and conversion mechanisms to convert visitors…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--landscaping-ppc-management.png\":{\"title\":\"Landscaping PPC Management Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping PPC Management Agency. Landscaping PPC Management Agency. PPC campaigns that target local searches deliver better ROI when they are supported by a fully optimized landscaping…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--landscaping-technical-seo.png\":{\"title\":\"Landscaping Technical SEO Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping Technical SEO Agency. Landscaping Technical SEO Agency. Hidden technical errors actively prevent search engines from discovering your best installation pages. This meticulous…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspection-seo.png\":{\"title\":\"SEO for Home Inspection Services - Wonderweb Studio\",\"description\":\"Featured social preview for SEO for Home Inspection Services. SEO for Home Inspection Services. Capturing local search traffic serves as the foundation for successful home inspection business owners. Your business will…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspection-google-ads.png\":{\"title\":\"Google Ads for Home Inspectors - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads for Home Inspectors. Google Ads for Home Inspectors. Google Ads for home inspectors puts your business at the top of Google when buyers search for an inspection in your service…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspection-web-design.png\":{\"title\":\"Home Inspection Web Design Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspection Web Design Agency. Home Inspection Web Design Agency. Real estate agents and eager homebuyers constantly search for inspection services on their phones while actively viewing…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspection-meta-ads.png\":{\"title\":\"Home Inspection Meta Ads Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspection Meta Ads Agency. Home Inspection Meta Ads Agency. Each campaign type reaches a different person at a different point in the sale. Home buyers, real estate agents, past…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspection-ppc-management.png\":{\"title\":\"Home Inspection PPC Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspection PPC Agency. Home Inspection PPC Agency. This targeted approach connects your company directly with motivated real estate buyers to bring in new…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspection-link-building.png\":{\"title\":\"Home Inspection Link Building Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspection Link Building Agency. Home Inspection Link Building Agency. Securing high-quality backlinks requires a deliberate and targeted approach for home inspection companies. Optimizing…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--websites.png\":{\"title\":\"Web Design for Home Services - Wonderweb Studio\",\"description\":\"Featured social preview for Web Design for Home Services. Web Design for Home Services. DIY builders and generic agencies fall short. Four pillars turn your website into a steady source of qualified leads and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--bath-remodelers.png\":{\"title\":\"Bathroom Remodeling Marketing Company - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Marketing Company. Bathroom Remodeling Marketing Company. Bath remodeling SEO takes more than ranking for basic keywords. It’s about capturing qualified homeowners throughout…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--kitchen-remodeling-marketing.png\":{\"title\":\"Kitchen Remodeling Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling Marketing. Kitchen Remodeling Marketing. Each channel feeds the same goal: more booked design consultations. Want the playbook first? Read how to get kitchen…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--plumbing-seo-agency.png\":{\"title\":\"Plumbing SEO Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing SEO Agency. Plumbing SEO Agency. That starts with your Google Business Profile, your reviews, and matching listings on Yelp, Angi, and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--google-ads-roofers.png\":{\"title\":\"Google Ads Agency for Roofing Contractors - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads Agency for Roofing Contractors. Google Ads Agency for Roofing Contractors. Each campaign type does a different job for your roofing business. Search ads catch homeowners who need a roofer…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--google-ads-bathroom-remodeling.png\":{\"title\":\"Google Ads Agency for Bathroom Remodeling Contractors - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads Agency for Bathroom Remodeling Contractors. Google Ads Agency for Bathroom Remodeling Contractors. Search ads reach homeowners comparing remodelers right now. Local service ads let you pay per lead…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--kitchen-remodeling-web-design.png\":{\"title\":\"Kitchen Remodeling Website Design - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling Website Design. Kitchen Remodeling Website Design. These services build sites that highlight your expertise in areas like cabinetry and lighting, and convert visitors into…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--meta-ads-roofing.png\":{\"title\":\"Roofing Meta Ads - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Meta Ads. Roofing Meta Ads. Good Facebook marketing for roofing goes past boosted posts. Each service below covers one part of a full Meta Ads strategy built around…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--pest-control-web-design.png\":{\"title\":\"Pest Control Web Design Company - Wonderweb Studio\",\"description\":\"Featured social preview for Pest Control Web Design Company. Pest Control Web Design Company. As a dedicated business owner, you need a pest control business site that works as hard as you…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--on-page-seo.png\":{\"title\":\"On Page SEO Services - Wonderweb Studio\",\"description\":\"Featured social preview for On Page SEO Services. On Page SEO Services. These are the visible and metadata components that tell users and search bots exactly what your business…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--tampa.png\":{\"title\":\"Tampa Marketing Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Tampa Marketing Agency. Tampa Marketing Agency. A prospect rarely buys a home on the first click. If a user visits your \\\"Modern Homes\\\" portfolio page, they will start seeing ads…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--remodeling-marketing.png\":{\"title\":\"Remodeling Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Remodeling Marketing. Remodeling Marketing. Marketing is not just one thing. It is a mix of different tools working together. A great website does nothing if nobody sees it…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--solar-marketing.png\":{\"title\":\"Solar Marketing Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Solar Marketing Agency. Solar Marketing Agency. Solar Google Ads help you generate immediate leads from homeowners actively searching for solar solutions. While SEO services take…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-builder-marketing.png\":{\"title\":\"Home Builder Marketing Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Home Builder Marketing Agency. Home Builder Marketing Agency. Your marketing should be as solid as the homes you build. Each service below fits into one marketing strategy built around…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--houston.png\":{\"title\":\"Premier Houston Marketing Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Premier Houston Marketing Agency. Premier Houston Marketing Agency. A prospect rarely buys a home on the first click. If a user visits your \\\"Modern Homes\\\" portfolio page, they will start…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--los-angeles.png\":{\"title\":\"Marketing Agency in Los Angeles - Wonderweb Studio\",\"description\":\"Featured social preview for Marketing Agency in Los Angeles. Marketing Agency in Los Angeles. Google is evolving to give customers direct answers. At the very top of the search page, new AI Overviews now recommend…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--phoenix.png\":{\"title\":\"Phoenix Home Services Marketing Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Phoenix Home Services Marketing Agency. Phoenix Home Services Marketing Agency. Maximizing ROI with Tailored Home Services Google Ads Effective paid advertising should drive real leads, not just…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--concrete-contractor-marketing.png\":{\"title\":\"Concrete Contractor Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Contractor Marketing. Concrete Contractor Marketing. Sometimes you need leads right now. Google Ads places your business at the very top of search results instantly. You pay only…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--flooring-marketing.png\":{\"title\":\"Flooring Marketing Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Flooring Marketing Agency. Flooring Marketing Agency. Google Ads for flooring companies put your business directly in front of homeowners ready to hire. One of the biggest advantages…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--painting-marketing.png\":{\"title\":\"Painting Marketing Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Painting Marketing Agency. Painting Marketing Agency. Google Ads delivers immediate visibility for your painting business. While SEO builds long-term results, paid search puts you at…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--windows-doors-marketing.png\":{\"title\":\"Windows & Doors Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Windows & Doors Marketing. Windows & Doors Marketing. Google Ads for windows and doors delivers immediate visibility for your windows and doors…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--pool-spa-marketing.png\":{\"title\":\"Pool and Spa Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Pool and Spa Marketing. Pool and Spa Marketing. Google Ads places your pool and spa company directly in front of motivated buyers searching right…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--siding-marketing.png\":{\"title\":\"Siding Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Siding Marketing. Siding Marketing. Paid search works exceptionally well for siding contractors because search intent runs high. When someone searches for “storm damage…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--solar-seo.png\":{\"title\":\"Solar SEO Company - Wonderweb Studio\",\"description\":\"Featured social preview for Solar SEO Company. Solar SEO Company. Strong on-page SEO helps search engines understand your solar services. This content earns organic traffic from buyers at every stage and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--restoration-seo.png\":{\"title\":\"Restoration SEO Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Restoration SEO Agency. Restoration SEO Agency. Every page on your restoration website needs strategic on-page optimization through effective content marketing and sound web design…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--remodeling-seo.png\":{\"title\":\"Remodeling SEO Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Remodeling SEO Agency. Remodeling SEO Agency. Strategic content positions your remodeling company as the local authority. They produce content that speaks to homeowners…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--landscaping-seo.png\":{\"title\":\"Landscaping SEO Services - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping SEO Services. Landscaping SEO Services. Your business profile drives local visibility for landscaping searches. This helps your business stand out in the local map pack …\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--painter-seo.png\":{\"title\":\"Painter SEO Services - Wonderweb Studio\",\"description\":\"Featured social preview for Painter SEO Services. Painter SEO Services. Google Business Profile optimization drives local visibility for your painting business. Regular updates keep your profile active and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--flooring-seo.png\":{\"title\":\"SEO for Flooring Companies - Wonderweb Studio\",\"description\":\"Featured social preview for SEO for Flooring Companies. SEO for Flooring Companies. Your Google Business Profile acts as the front door to your flooring company’s website online. Since most local customers use…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-service-gen-ai-search.png\":{\"title\":\"Gen AI Search Optimization for Home Service Companies - Wonderweb Studio\",\"description\":\"Featured social preview for Gen AI Search Optimization for Home Service Companies. Gen AI Search Optimization for Home Service Companies. AI search fundamentally changes how customers search for local services. Instead of scrolling through…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--window-cleaning-marketing.png\":{\"title\":\"Digital Marketing Services for Window Cleaning Companies - Wonderweb Studio\",\"description\":\"Featured social preview for Digital Marketing Services for Window Cleaning Companies. Digital Marketing Services for Window Cleaning Companies. Window cleaning companies typically need robust marketing systems that generate consistent…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--carpet-cleaning-marketing.png\":{\"title\":\"Digital Marketing Services for Carpet Cleaning Companies - Wonderweb Studio\",\"description\":\"Featured social preview for Digital Marketing Services for Carpet Cleaning Companies. Digital Marketing Services for Carpet Cleaning Companies. Local service businesses need an internet marketing system that can generate leads consistently…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--drywall-installation-marketing.png\":{\"title\":\"Digital Marketing Services for Drywall Installation Companies - Wonderweb Studio\",\"description\":\"Featured social preview for Digital Marketing Services for Drywall Installation Companies. Digital Marketing Services for Drywall Installation Companies. Every business owner in the drywall industry needs a system that provides a steady flow of…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--appliance-repair-marketing.png\":{\"title\":\"Appliance Repair Marketing Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Appliance Repair Marketing Agency. Appliance Repair Marketing Agency. Google Ads puts you at the top of search results today, for people typing “refrigerator repair near me” with a broken…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--waterproofing-marketing.png\":{\"title\":\"Digital Marketing for Basement & Foundation Waterproofing - Wonderweb Studio\",\"description\":\"Featured social preview for Digital Marketing for Basement & Foundation Waterproofing. Digital Marketing for Basement & Foundation Waterproofing. Waterproofing companies need robust lead generation solutions that produce results consistently…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspection-marketing.png\":{\"title\":\"Digital Marketing for Home Inspectors - Wonderweb Studio\",\"description\":\"Featured social preview for Digital Marketing for Home Inspectors. Digital Marketing for Home Inspectors. Home inspection companies need marketing systems that generate qualified bookings consistently. Homebuyers and real…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--garage-doors-website-maintenance-services.png\":{\"title\":\"Website Maintenance Services for Garage Door Businesses - Wonderweb Studio\",\"description\":\"Featured social preview for Website Maintenance Services for Garage Door Businesses. Website Maintenance Services for Garage Door Businesses. Garage door websites face constant threats from malware, bots, and vulnerabilities. Hackers target…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspections-website-maintenance-services.png\":{\"title\":\"Website Maintenance Services for Home Inspection Businesses - Wonderweb Studio\",\"description\":\"Featured social preview for Website Maintenance Services for Home Inspection Businesses. Website Maintenance Services for Home Inspection Businesses. Your home inspection website must function flawlessly to rank higher in search results…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--painters-website-maintenance-services.png\":{\"title\":\"Website Maintenance Services for Painting Businesses - Wonderweb Studio\",\"description\":\"Featured social preview for Website Maintenance Services for Painting Businesses. Website Maintenance Services for Painting Businesses. Contractor websites face ongoing security threats every day. Malware, bots, and hidden vulnerabilities…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--flooring-website-maintenance-services.png\":{\"title\":\"Website Maintenance Services for Flooring Businesses - Wonderweb Studio\",\"description\":\"Featured social preview for Website Maintenance Services for Flooring Businesses. Website Maintenance Services for Flooring Businesses. Flooring professionals face ongoing security risks. Malware, bots, and vulnerabilities can damage your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--general-contractors-meta-ads.png\":{\"title\":\"Meta ads for General Contracting Businesses - Wonderweb Studio\",\"description\":\"Featured social preview for Meta ads for General Contracting Businesses. Meta ads for General Contracting Businesses. General contracting businesses need campaigns that reach homeowners who are ready to start real projects…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--landscaping-groundswork-meta-ads.png\":{\"title\":\"Meta Ads for Landscaping & Groundswork Businesses - Wonderweb Studio\",\"description\":\"Featured social preview for Meta Ads for Landscaping & Groundswork Businesses. Meta Ads for Landscaping & Groundswork Businesses. Meta Ads reach property owners while they scroll, often weeks before they search for a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--pool-spa-meta-ads.png\":{\"title\":\"Meta Advertising Services for Pool & Spa Businesses - Wonderweb Studio\",\"description\":\"Featured social preview for Meta Advertising Services for Pool & Spa Businesses. Meta Advertising Services for Pool & Spa Businesses. Pool and spa companies need Meta Ads campaigns that reach homeowners who are planning a new pool, a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--flooring-meta-ads.png\":{\"title\":\"Meta ads services for Flooring Businesses - Wonderweb Studio\",\"description\":\"Featured social preview for Meta ads services for Flooring Businesses. Meta ads services for Flooring Businesses. Flooring companies need campaigns that reach homeowners who are already planning a new floor. Each campaign below…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--flooring-technical-seo.png\":{\"title\":\"Flooring Technical SEO Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Flooring Technical SEO Agency. Flooring Technical SEO Agency. A logical architecture guides visitors smoothly from general flooring installation information to specific booking pages…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--flooring-link-building.png\":{\"title\":\"Flooring Link Building Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Flooring Link Building Agency. Flooring Link Building Agency. Securing quality backlinks requires a dedicated SEO strategy tailored strictly to the home improvement sector. General online…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--shower-bathtub-install-replace-seo.png\":{\"title\":\"Shower Bathtub Installation and Replace SEO Services - Wonderweb Studio\",\"description\":\"Featured social preview for Shower Bathtub Installation and Replace SEO Services. Shower Bathtub Installation and Replace SEO Services. Generic marketing often brings repair calls, and repair calls pay less than installs. Every task below…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--shower-bathtub-install-replace-web-design.png\":{\"title\":\"Shower Bathtub Installation and Replace Web Design Services - Wonderweb Studio\",\"description\":\"Featured social preview for Shower Bathtub Installation and Replace Web Design Services. Shower Bathtub Installation and Replace Web Design Services. Visual proof sells a bathroom remodel significantly faster than any written sales pitch. This…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--shower-bathtub-install-replace-link-building.png\":{\"title\":\"Shower Bathtub Installation and Replace Link Building Services - Wonderweb Studio\",\"description\":\"Featured social preview for Shower Bathtub Installation and Replace Link Building Services. Shower Bathtub Installation and Replace Link Building Services. Strong rankings in your industry require more than basic backlinks. You need a strong…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--fence-marketing-web-design.png\":{\"title\":\"Fence Installation Repair Web Design Services - Wonderweb Studio\",\"description\":\"Featured social preview for Fence Installation Repair Web Design Services. Fence Installation Repair Web Design Services. Your local fencing business requires a dominant digital presence that consistently captures high-quality…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--fence-marketing-ppc.png\":{\"title\":\"Fence Installation Repair PPC Services - Wonderweb Studio\",\"description\":\"Featured social preview for Fence Installation Repair PPC Services. Fence Installation Repair PPC Services. Fencing company marketing requires precision. Local homeowners search differently than commercial buyers, and search…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--fence-marketing-technical-seo.png\":{\"title\":\"Fence Installation Repair Technical SEO Services - Wonderweb Studio\",\"description\":\"Featured social preview for Fence Installation Repair Technical SEO Services. Fence Installation Repair Technical SEO Services. Slow websites kill your conversions instantly. Customers will click away if your gallery of custom fencing…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--fence-marketing-link-building.png\":{\"title\":\"Fence Installation Repair Link Building Services - Wonderweb Studio\",\"description\":\"Featured social preview for Fence Installation Repair Link Building Services. Fence Installation Repair Link Building Services. Niche relevant guest posting positions your growing brand as a premier industry leader. This targeted…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--security-system-services-marketing.png\":{\"title\":\"Digital Marketing Services for Security Sytem - Wonderweb Studio\",\"description\":\"Featured social preview for Digital Marketing Services for Security Sytem. Digital Marketing Services for Security Sytem. Google Ads for security companies help you capture customers actively searching for security system…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--fire-safety-marketing.png\":{\"title\":\"Digital Marketing Services for Fire Safety - Wonderweb Studio\",\"description\":\"Featured social preview for Digital Marketing Services for Fire Safety. Digital Marketing Services for Fire Safety. Google Ads for fire safety companies provide immediate visibility when facility managers search for emergency…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--septic-marketing-services.png\":{\"title\":\"Digital Marketing Services for Septic Companies - Wonderweb Studio\",\"description\":\"Featured social preview for Digital Marketing Services for Septic Companies. Digital Marketing Services for Septic Companies. Septic Google Ads management helps your business appear in front of customers at the exact moment they need…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--dumpster-rental-marketing.png\":{\"title\":\"Digital Marketing Services for Dumpster Rental - Wonderweb Studio\",\"description\":\"Featured social preview for Digital Marketing Services for Dumpster Rental. Digital Marketing Services for Dumpster Rental. Dumpster rental SEO puts you in front of homeowners and builders searching in your service…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--house-cleaning-marketing.png\":{\"title\":\"House Cleaning Marketing Agency That Turns Clicks Into Recurring Clients - Wonderweb Studio\",\"description\":\"Featured social preview for House Cleaning Marketing Agency That Turns Clicks Into Recurring Clients. House Cleaning Marketing Agency That Turns Clicks Into Recurring Clients. Whether you manage standard house cleaning or run specialized cleaning services…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--pool-cleaning-seo.png\":{\"title\":\"Pool Service SEO - Wonderweb Studio\",\"description\":\"Featured social preview for Pool Service SEO. Pool Service SEO. You need your brand at the very top of Google search results when homeowners need immediate pump repair or green pool recovery. This…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--google-ads-pool-cleaners.png\":{\"title\":\"Google Ads for Pool Cleaners - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads for Pool Cleaners. Google Ads for Pool Cleaners. Strategic pool route growth requires dominating very specific local ZIP codes. This precise targeting prevents wasted clicks…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--pool-cleaning-web-design.png\":{\"title\":\"Pool Cleaning Web Design Services - Wonderweb Studio\",\"description\":\"Featured social preview for Pool Cleaning Web Design Services. Pool Cleaning Web Design Services. This geographic focus drastically reduces drive time for your technicians between cleanings. A reduction in daily travel…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--ai-content-strategy.png\":{\"title\":\"AI Content Strategy - Wonderweb Studio\",\"description\":\"Featured social preview for AI Content Strategy. AI Content Strategy. This extreme precision prevents wasted ad spend on unqualified clicks outside your operational…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--generative-ai-search-optimization.png\":{\"title\":\"Generative AI Search Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Generative AI Search Optimization. Generative AI Search Optimization. The search landscape shifts rapidly as artificial intelligence reshapes how homeowners find local…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--pool-cleaner-google-lsa-management.png\":{\"title\":\"Pool Cleaner Google LSA Management - Wonderweb Studio\",\"description\":\"Featured social preview for Pool Cleaner Google LSA Management. Pool Cleaner Google LSA Management. Local service ads for pool maintenance deliver pre-qualified prospects directly to your dispatch…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--meta-ads-management-for-pool-cleaners.png\":{\"title\":\"Meta Ads Management for Pool Cleaners - Wonderweb Studio\",\"description\":\"Featured social preview for Meta Ads Management for Pool Cleaners. Meta Ads Management for Pool Cleaners. Meta advertising for pool service companies works when every ad dollar reaches the right backyard. That focus cuts…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--pool-cleaner-technical-seo.png\":{\"title\":\"Pool Cleaner Technical SEO - Wonderweb Studio\",\"description\":\"Featured social preview for Pool Cleaner Technical SEO. Pool Cleaner Technical SEO. A fast and healthy website forms the backbone of any successful pool cleaning lead generation…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--asbestos-remediation-seo-services.png\":{\"title\":\"Asbestos Remediation SEO Services - Wonderweb Studio\",\"description\":\"Featured social preview for Asbestos Remediation SEO Services. Asbestos Remediation SEO Services. Asbestos abatement SEO covers four jobs: finding contract-driving searches, improving your website, answering property…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--concrete-coating-seo.png\":{\"title\":\"Concrete Coating SEO Company - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Coating SEO Company. Concrete Coating SEO Company. You need leads that belong solely to your business. This strategy is built for a steady flow of high-quality prospects calling…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--fire-safety-seo.png\":{\"title\":\"Fire Safety SEO Services - Wonderweb Studio\",\"description\":\"Featured social preview for Fire Safety SEO Services. Fire Safety SEO Services. Fire protection is a compliance-driven industry. Your buyers search with urgency and specific…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--mold-remediation-seo.png\":{\"title\":\"Mold Remediation SEO Services - Wonderweb Studio\",\"description\":\"Featured social preview for Mold Remediation SEO Services. Mold Remediation SEO Services. Mold remediation sits at a crossroads between emergency response and health-driven decision making. Your SEO has to speak to…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--moving-company-seo.png\":{\"title\":\"Moving Company SEO Services - Wonderweb Studio\",\"description\":\"Featured social preview for Moving Company SEO Services. Moving Company SEO Services. Moving is a high-intent, time-sensitive purchase. When someone searches for a mover, they usually need one within days or…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--dumpster-rental-seo.png\":{\"title\":\"Dumpster Rental SEO - Wonderweb Studio\",\"description\":\"Featured social preview for Dumpster Rental SEO. Dumpster Rental SEO. A generic marketing approach doesn't work in the waste management industry. Container rentals move fast, so your search strategy needs…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--asbestos-remediation-google-ads.png\":{\"title\":\"Asbestos Remediation Google Ads Management - Wonderweb Studio\",\"description\":\"Featured social preview for Asbestos Remediation Google Ads Management. Asbestos Remediation Google Ads Management. Each ad matches what the person typed, so the click lands on the right service page. This lead generation…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--fire-safety-google-ads.png\":{\"title\":\"Google Ads for Fire Safety Companies - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads for Fire Safety Companies. Google Ads for Fire Safety Companies. Each ad group points to the service the searcher asked for. That keeps your cost per lead tied to the jobs you want…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-builder-google-ads.png\":{\"title\":\"Google Ads Management for Home Builders - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads Management for Home Builders. Google Ads Management for Home Builders. A custom home is a big decision, and most buyers visit a builder’s site several times before they call. That steady…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--mold-remediation-google-ads.png\":{\"title\":\"Mold Remediation Google Ads Management - Wonderweb Studio\",\"description\":\"Featured social preview for Mold Remediation Google Ads Management. Mold Remediation Google Ads Management. Campaigns are split into two tracks: Google Ads for mold remediation residential jobs and Google Ads for mold…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--movers-google-ads.png\":{\"title\":\"Google Ads Management for Moving Companies - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads Management for Moving Companies. Google Ads Management for Moving Companies. Multi-location moving franchises need ad campaigns that scale without losing brand consistency. That way every…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--junk-removal-google-ads.png\":{\"title\":\"Junk Removal Google Ads Management - Wonderweb Studio\",\"description\":\"Featured social preview for Junk Removal Google Ads Management. Junk Removal Google Ads Management. Junk removal searches are urgent. People want a truck today, so your ads need to show at the right moment in your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--property-management-google-ads.png\":{\"title\":\"Property Management Google Ads Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Property Management Google Ads Agency. Property Management Google Ads Agency. Strict negative keyword lists filter out tenant searches and low-value rental inquiries. Tighter targeting lowers…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--google-ads-window-door-companies.png\":{\"title\":\"Google Ads Management for Window and Door Companies - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads Management for Window and Door Companies. Google Ads Management for Window and Door Companies. Good digital marketing for a window and door business starts with knowing exterior…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--appliance-repair-seo.png\":{\"title\":\"Appliance Repair SEO Services - Wonderweb Studio\",\"description\":\"Featured social preview for Appliance Repair SEO Services. Appliance Repair SEO Services. Most repair shops lose jobs simply because they don't show up when a customer searches for help. One-truck operations and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--appliance-repair-website-management.png\":{\"title\":\"Appliance Repair Website Management - Wonderweb Studio\",\"description\":\"Featured social preview for Appliance Repair Website Management. Appliance Repair Website Management. Managing a digital presence requires far more than just paying for a basic domain name. You gain total peace of mind…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--meta-ads-window-door-companies.png\":{\"title\":\"Meta Ads for Window and Door Companies - Wonderweb Studio\",\"description\":\"Featured social preview for Meta Ads for Window and Door Companies. Meta Ads for Window and Door Companies. Broad targeting spends your budget on renters and people with no project in mind. Your ads reach property owners who…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--appliance-repair-lead-generation.png\":{\"title\":\"Appliance Repair Lead Generation Services - Wonderweb Studio\",\"description\":\"Featured social preview for Appliance Repair Lead Generation Services. Appliance Repair Lead Generation Services. You secure highly profitable jobs rather than fighting five different companies for the exact same broken…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--window-and-door-website-management.png\":{\"title\":\"Window and Door Contractor Website Management Services - Wonderweb Studio\",\"description\":\"Featured social preview for Window and Door Contractor Website Management Services. Window and Door Contractor Website Management Services. Your portfolio is your greatest sales asset when pitching high-end energy-efficient window upgrades…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--meta-ads-window-cleaning.png\":{\"title\":\"Meta Ads for Window Cleaning Businesses - Wonderweb Studio\",\"description\":\"Featured social preview for Meta Ads for Window Cleaning Businesses. Meta Ads for Window Cleaning Businesses. The ads show your crew and streak-free results right in their feed, so quality-minded homeowners request a quote…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--appliance-repair-google-ads.png\":{\"title\":\"Appliance Repair Google Ads Management - Wonderweb Studio\",\"description\":\"Featured social preview for Appliance Repair Google Ads Management. Appliance Repair Google Ads Management. Appliance repair companies run on same-day dispatch and tight service territories, and your ads need to respect…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-services-private-equity-google-ads.png\":{\"title\":\"Google Ads Management for Home Services Private Equity - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads Management for Home Services Private Equity. Google Ads Management for Home Services Private Equity. Scaling a home services portfolio takes a standard ad setup that produces cash flow fast. You get…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-services-private-equity-lead-generation-services.png\":{\"title\":\"Home Services Private Equity Lead Generation Services - Wonderweb Studio\",\"description\":\"Featured social preview for Home Services Private Equity Lead Generation Services. Home Services Private Equity Lead Generation Services. Expanding a residential contractor group requires a repeatable, scalable lead generation playbook…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-services-private-equity-meta-ads.png\":{\"title\":\"Home Services Private Equity Meta Ads Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Home Services Private Equity Meta Ads Agency. Home Services Private Equity Meta Ads Agency. Private equity firms buy home service brands with clear growth targets, and their marketing strategies have to…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--window-cleaning-seo.png\":{\"title\":\"SEO Company for Window Cleaning - Wonderweb Studio\",\"description\":\"Featured social preview for SEO Company for Window Cleaning. SEO Company for Window Cleaning. That helps you generate qualified calls from your own site and spend less on third-party lead…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--window-door-lead-generation.png\":{\"title\":\"Window and Door Lead Generation Services That Book High-Margin Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for Window and Door Lead Generation Services That Book High-Margin Jobs. Window and Door Lead Generation Services That Book High-Margin Jobs. A lead generation program built for window and door companies has to solve two problems…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--asbestos-remediation-lead-generation.png\":{\"title\":\"Asbestos Remediation Lead Generation Services - Wonderweb Studio\",\"description\":\"Featured social preview for Asbestos Remediation Lead Generation Services. Asbestos Remediation Lead Generation Services. Asbestos remediation lead generation has to account for a longer sales cycle, higher job values, and property…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--concrete-coating-lead-generation.png\":{\"title\":\"Concrete Coating Lead Generation Services - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Coating Lead Generation Services. Concrete Coating Lead Generation Services. Lead generation for concrete coating contractors has to filter out the tire-kicker calls and put budget behind…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--tree-service-lead-generation.png\":{\"title\":\"Tree Service Lead Generation Services - Wonderweb Studio\",\"description\":\"Featured social preview for Tree Service Lead Generation Services. Tree Service Lead Generation Services. Lead generation for tree care companies has to account for two things at once: predictable job flow year round and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--fire-safety-lead-generation.png\":{\"title\":\"Fire Protection Lead Generation Services - Wonderweb Studio\",\"description\":\"Featured social preview for Fire Protection Lead Generation Services. Fire Protection Lead Generation Services. Fire protection lead generation has to filter out consumer clicks and put budget behind the property managers and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--mold-remediation-lead-generation.png\":{\"title\":\"Mold Remediation Lead Generation Services - Wonderweb Studio\",\"description\":\"Featured social preview for Mold Remediation Lead Generation Services. Mold Remediation Lead Generation Services. Mold removal lead gen has to move fast, filter out DIY searchers, and route real emergencies straight to your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--moving-company-lead-generation.png\":{\"title\":\"Moving Company Lead Generation Services - Wonderweb Studio\",\"description\":\"Featured social preview for Moving Company Lead Generation Services. Moving Company Lead Generation Services. Moving company lead gen has to keep trucks moving through slow months and route high-intent callers straight to…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--septic-lead-generation-services.png\":{\"title\":\"Septic Lead Generation Services - Wonderweb Studio\",\"description\":\"Featured social preview for Septic Lead Generation Services. Septic Lead Generation Services. Your business requires reliable inbound calls rather than a generic marketing approach to scale…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--dumpster-rental-lead-generation-services.png\":{\"title\":\"Dumpster Rental Lead Generation Services - Wonderweb Studio\",\"description\":\"Featured social preview for Dumpster Rental Lead Generation Services. Dumpster Rental Lead Generation Services. Homeowners constantly need containers for renovations and major cleanouts. You stop fighting other haulers over…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--hvac-link-building-services.png\":{\"title\":\"HVAC Link Building Services - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Link Building Services. HVAC Link Building Services. Earning powerful backlinks requires significant time, dedicated outreach, and established industry…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--hvac-ppc-management-services.png\":{\"title\":\"HVAC PPC Management Services - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC PPC Management Services. HVAC PPC Management Services. Driving traffic requires high-converting destinations to capture user information effectively and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--plumber-link-building.png\":{\"title\":\"Plumber Link Building Services - Wonderweb Studio\",\"description\":\"Featured social preview for Plumber Link Building Services. Plumber Link Building Services. This tactic positions your brand as an industry leader while funneling qualified traffic directly to your service pages…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--plumbing-ppc-management.png\":{\"title\":\"Plumbing PPC Management Services - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing PPC Management Services. Plumbing PPC Management Services. You need immediate results when the phone stops ringing during the slow season. Your multi-truck operation requires a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--plumbing-technical-seo.png\":{\"title\":\"Plumbing Technical SEO Services - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing Technical SEO Services. Plumbing Technical SEO Services. A beautiful website means nothing if search engine bots cannot read your code. More high-value leads follow when your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--plumber-email-marketing.png\":{\"title\":\"Email Marketing Services for Plumbers - Wonderweb Studio\",\"description\":\"Featured social preview for Email Marketing Services for Plumbers. Email Marketing Services for Plumbers. You need reliable strategies that encourage repeat bookings and drive steady recurring…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--electrician-lead-generation-services.png\":{\"title\":\"Electrician Lead Generation Services - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Lead Generation Services. Electrician Lead Generation Services. Owner-operators and mid-sized commercial businesses desperately need predictable daily job schedules to…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--electrician-link-building.png\":{\"title\":\"Electrician Link Building Services - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Link Building Services. Electrician Link Building Services. Effective off-page SEO requires a highly targeted approach for electrical contractors. This targeted off-page SEO link…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--google-lsa-electricians.png\":{\"title\":\"Electrician Google LSA Management Services - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Google LSA Management Services. Electrician Google LSA Management Services. If you can’t tell which calls turned into booked jobs, you can’t tell if the campaign is…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--bathroom-remodeling-link-building.png\":{\"title\":\"Bathroom Remodeling Link Building Services - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Link Building Services. Bathroom Remodeling Link Building Services. This specific strategy builds massive domain authority for contractors looking to scale their bathroom…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--bathroom-remodeling-technical-seo.png\":{\"title\":\"Bathroom Remodeling Technical SEO Services - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Technical SEO Services. Bathroom Remodeling Technical SEO Services. Homeowners will bounce off your site if your project gallery loads slowly. Fast load times keep potential…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--remodelers-meta-ads.png\":{\"title\":\"Remodelers Meta Ads Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Remodelers Meta Ads Agency. Remodelers Meta Ads Agency. Every campaign shows off your craftsmanship and reaches homeowners with the budget for high-ticket remodeling projects. It ties…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--windows-doors-google-business-profile.png\":{\"title\":\"Windows & Doors Google Business Profile - Wonderweb Studio\",\"description\":\"Featured social preview for Windows & Doors Google Business Profile. Windows & Doors Google Business Profile. A strong window and door profile wins on four things Google can check: the right categories, fresh install photos…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--windows-doors-ppc-management.png\":{\"title\":\"Windows & Doors PPC Management Services - Wonderweb Studio\",\"description\":\"Featured social preview for Windows & Doors PPC Management Services. Windows & Doors PPC Management Services. Replacement projects get the highest bids. Repair searches can't drain the budget meant for full installs, and each…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--windows-doors-google-lsa.png\":{\"title\":\"Google LSA for Window and Door Companies - Wonderweb Studio\",\"description\":\"Featured social preview for Google LSA for Window and Door Companies. Google LSA for Window and Door Companies. Local services ads management for window and door companies starts with whether Google will show your jobs at all…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--window-and-door-crm-automation.png\":{\"title\":\"Window and Door CRM Automation - Wonderweb Studio\",\"description\":\"Featured social preview for Window and Door CRM Automation. Window and Door CRM Automation. A window sale has more steps than a service call: inquiry, in-home estimate, quote, decision. These four pieces cover each…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--landscaping-crm-automation.png\":{\"title\":\"Landscaping CRM Automation - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping CRM Automation. Landscaping CRM Automation. A kitchen and bath company scaled to 60 conversions during the spring remodeling surge, the kind of seasonal spike that…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--landscaping-email-marketing.png\":{\"title\":\"Landscaping Email Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping Email Marketing. Landscaping Email Marketing. A kitchen and bath company reached 60 conversions in the spring remodeling surge. Seasonal peaks like this are when a prepared…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--foundation-repair-seo.png\":{\"title\":\"Foundation Repair SEO Services - Wonderweb Studio\",\"description\":\"Featured social preview for Foundation Repair SEO Services. Foundation Repair SEO Services. Foundation repair buyers search by symptom and by fix, so one generic service page loses both. Each part ties to a repair…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--pest-control-lead-generation.png\":{\"title\":\"Pest Control Lead Generation - Wonderweb Studio\",\"description\":\"Featured social preview for Pest Control Lead Generation. Pest Control Lead Generation. Pest control advertising works best when four channels share one goal, a booked inspection. Search ads catch homeowners with…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--remodelers-voice-search-optimization.png\":{\"title\":\"Remodeling Voice Search Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Remodeling Voice Search Optimization. Remodeling Voice Search Optimization. Each answer is written in a clear, spoken style so voice assistants can pick your business as the best…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--remodelers-listing-management.png\":{\"title\":\"Remodeling Listing Management - Wonderweb Studio\",\"description\":\"Featured social preview for Remodeling Listing Management. Remodeling Listing Management. Every listing is filled out completely, so homeowners see a professional, trustworthy profile the moment they find…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--restoration-lead-generation.png\":{\"title\":\"Restoration Lead Generation - Wonderweb Studio\",\"description\":\"Featured social preview for Restoration Lead Generation. Restoration Lead Generation. Water damage calls arrive at 2 a.m., while mold and fire jobs arrive after days of…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--garage-door-seo.png\":{\"title\":\"Garage Door SEO Services - Wonderweb Studio\",\"description\":\"Featured social preview for Garage Door SEO Services. Garage Door SEO Services. Garage door SEO is four jobs. Win the emergency repair search, own the local map pack, give every service and suburb its own page…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--remodeling-call-tracking.png\":{\"title\":\"Remodeling Call Tracking & Attribution - Wonderweb Studio\",\"description\":\"Featured social preview for Remodeling Call Tracking & Attribution. Remodeling Call Tracking & Attribution. This allows your team to view full attribution data right alongside client records, estimates, and final contract…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--roofing-conversion-rate-optimization.png\":{\"title\":\"Roofing Conversion Rate Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Conversion Rate Optimization. Roofing Conversion Rate Optimization. Eliminate lengthy, tedious form fields that discourage homeowners from requesting a roof replacement…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--roofing-remarketing.png\":{\"title\":\"Roofing Remarketing - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Remarketing. Roofing Remarketing. Remarketing Lists for Search Ads (RLSA) let your roofing Google Ads campaigns reach past visitors when they go back to Google to keep…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--roofing-reputation-management.png\":{\"title\":\"Roofing Reputation Management - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Reputation Management. Roofing Reputation Management. Reputation work is more than asking for reviews. Each one is set up around how roofing customers compare companies online…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--roofing-technical-seo.png\":{\"title\":\"Roofing Technical SEO - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Technical SEO. Roofing Technical SEO. Slow pages frustrate homeowners who search for roofing services, especially when they are on a phone after a storm and need help…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--roofing-listing-management.png\":{\"title\":\"Roofing Listing Management - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Listing Management. Roofing Listing Management. Accurate listings make it easier for customers to contact your company and help maintain consistency across your local…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--roofing-crm-automation.png\":{\"title\":\"Roofing CRM Automation - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing CRM Automation. Roofing CRM Automation. This creates a cleaner process for handling leads from search, advertising, forms, and other marketing channels. Call summaries from…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--roofing-call-tracking-attribution.png\":{\"title\":\"Roofing Call Tracking & Attribution - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Call Tracking & Attribution. Roofing Call Tracking & Attribution. This gives you greater visibility into where incoming calls originate and which campaigns are contributing to phone…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--roofing-email-marketing.png\":{\"title\":\"Roofing Email Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Email Marketing. Roofing Email Marketing. The messaging can educate prospects, answer common questions, and encourage them to take the next…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--bathroom-remodeling-website-management.png\":{\"title\":\"Bathroom Remodeling Website Management - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Website Management. Bathroom Remodeling Website Management. Fast load speeds improve user experience and support your broader remarketing strategies across organic and paid…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--bathroom-remodeling-content-marketing.png\":{\"title\":\"Bathroom Remodeling Content Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Content Marketing. Bathroom Remodeling Content Marketing. Each campaign combines keyword research, customer intent, topical relevance, and conversion opportunities to create…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--bathroom-remodeling-conversion-rate-optimization.png\":{\"title\":\"Bathroom Remodeling Conversion Rate Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Conversion Rate Optimization. Bathroom Remodeling Conversion Rate Optimization. Strategic form structuring increases completion rates while collecting essential project details like…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--bathroom-remodeling-google-business-profile.png\":{\"title\":\"Bathroom Remodeling Google Business Profile - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Google Business Profile. Bathroom Remodeling Google Business Profile. Selecting the precise primary and secondary business categories on Google dictates which local search queries…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--bathroom-remodeling-google-lsa.png\":{\"title\":\"Bathroom Remodeling Google LSA - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Google LSA. Bathroom Remodeling Google LSA. That includes account setup, background check and license verification, job type and service area targeting, and links to…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--remodelers-technical-seo.png\":{\"title\":\"Remodelers Technical SEO - Wonderweb Studio\",\"description\":\"Featured social preview for Remodelers Technical SEO. Remodelers Technical SEO. Every fix is based on what is slowing down your remodeling website or blocking search engines from crawling and indexing it. That…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--bathroom-remodeling-remarketing.png\":{\"title\":\"Bathroom Remodeling Remarketing - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Remarketing. Bathroom Remodeling Remarketing. This can complement your bathroom remodeling SEO by reconnecting with visitors who discovered your company through organic…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--bathroom-remodeling-reputation-management.png\":{\"title\":\"Bathroom Remodeling Reputation Management - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Reputation Management. Bathroom Remodeling Reputation Management. Every part of the process is built around how homeowners actually research a bathroom remodeling company before…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--bathroom-remodeling-listing-management.png\":{\"title\":\"Bathroom Remodeling Listing Management - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Listing Management. Bathroom Remodeling Listing Management. Strong local search results come from business details that match across every directory, map app, and voice…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--bathroom-remodeling-voice-search-optimization.png\":{\"title\":\"Bathroom Remodeling Voice Search Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Voice Search Optimization. Bathroom Remodeling Voice Search Optimization. This organic visibility pairs well with paid efforts like Bathroom Remodeling LinkedIn Ads , since homeowners…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--bathroom-remodeling-crm-automation.png\":{\"title\":\"Bathroom Remodeling CRM Automation - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling CRM Automation. Bathroom Remodeling CRM Automation. Leads generated from awareness campaigns like Bathroom Remodeling Streaming TV Ads often convert best when contacted…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--bathroom-remodeling-call-tracking-attribution.png\":{\"title\":\"Bathroom Remodeling Call Tracking & Attribution - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Call Tracking & Attribution. Bathroom Remodeling Call Tracking & Attribution. Campaigns like Bathroom Remodeling Streaming TV Ads especially benefit from this, since brand awareness…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--bathroom-remodeling-email-marketing.png\":{\"title\":\"Bathroom Remodeling Email Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Email Marketing. Bathroom Remodeling Email Marketing. Homeowners who find you through Bathroom Remodeling Voice Search Optimization often need more than one touchpoint…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--electrician-website-management.png\":{\"title\":\"Electrician Website Management - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Website Management. Electrician Website Management. This pairs directly with a strong Web Design Company For Electricians foundation, since ongoing updates protect the…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--electrician-cro.png\":{\"title\":\"Electrician Conversion Rate Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Conversion Rate Optimization. Electrician Conversion Rate Optimization. The audit covers the site itself, including your electrician website design , because a slow or outdated site can…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--electrician-gbp.png\":{\"title\":\"Electrician Google Business Profile - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Google Business Profile. Electrician Google Business Profile. This GBP work is designed to run alongside your existing Electrician Google LSA Management Services and other local…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--electrician-remarketing.png\":{\"title\":\"Electrician Remarketing - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Remarketing. Electrician Remarketing. This allows campaigns to deliver different messaging to prospects who viewed specific services, visited important pages, or showed…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--electrician-reputation-management.png\":{\"title\":\"Electrician Reputation Management - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Reputation Management. Electrician Reputation Management. This reputation work is designed to run alongside your existing Electrician Content Marketing Services and other…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--electrician-voice-search-optimization.png\":{\"title\":\"Electrician Voice Search Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Voice Search Optimization. Electrician Voice Search Optimization. Each service below covers one part of that work, from finding the phrases to writing clear answers, sharpening local…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--electrician-technical-seo.png\":{\"title\":\"Electrician Technical SEO - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Technical SEO. Electrician Technical SEO. Great content cannot outrun a broken technical foundation. Every other SEO effort then has a chance to…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--electrician-listing-management.png\":{\"title\":\"Electrician Listing Management - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Listing Management. Electrician Listing Management. Every listing is checked for accuracy, consistency, and relevance to the electrical services you…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--electrician-crm-automation.png\":{\"title\":\"Electrician CRM Automation - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician CRM Automation. Electrician CRM Automation. Every lead should land in your CRM with the details your team needs to act fast, like name, address, service type, and urgency…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--electrician-call-tracking-attribution.png\":{\"title\":\"Electrician Call Tracking & Attribution - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Call Tracking & Attribution. Electrician Call Tracking & Attribution. The goal is to show where leads start, which campaigns bring in qualified calls, and which marketing dollars lead…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--electrician-email-marketing.png\":{\"title\":\"Electrician Email Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Email Marketing. Electrician Email Marketing. The focus is on sending the right message to the right audience at the right stage instead of relying on one generic email…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--hvac-website-management.png\":{\"title\":\"HVAC Website Management - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Website Management. HVAC Website Management. Regular maintenance helps reduce technical issues that can create friction for homeowners trying to contact your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--hvac-content-marketing.png\":{\"title\":\"HVAC Content Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Content Marketing. HVAC Content Marketing. HVAC content needs to do more than fill a blog. That means pages and articles about furnace repair, AC replacement, heat pumps, and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--hvac-conversion-rate-optimization.png\":{\"title\":\"HVAC Conversion Rate Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Conversion Rate Optimization. HVAC Conversion Rate Optimization. HVAC CRO is about making it easier for the right visitors to take action. Each solution below targets a different part of…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--hvac-google-business-profile.png\":{\"title\":\"HVAC Google Business Profile - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Google Business Profile. HVAC Google Business Profile. This work runs alongside your HVAC SEO strategy, since a fully optimized profile reinforces the same keywords and local…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--hvac-google-lsa.png\":{\"title\":\"HVAC Google LSA Services - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Google LSA Services. HVAC Google LSA Services. This work runs alongside your HVAC Google Business Profile management, since a verified badge and a fully optimized profile send…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--hvac-remarketing.png\":{\"title\":\"HVAC Remarketing - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Remarketing. HVAC Remarketing. This allows me to create more relevant remarketing campaigns for repair customers, replacement prospects, installation shoppers, and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--hvac-technical-seo.png\":{\"title\":\"HVAC Technical SEO - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Technical SEO. HVAC Technical SEO. A faster site also protects every dollar you spend on HVAC Remarketing, since a slow landing page is the fastest way to lose a prospect…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--hvac-voice-search-optimization.png\":{\"title\":\"HVAC Voice Search Optimization (VSO) - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Voice Search Optimization (VSO). HVAC Voice Search Optimization (VSO). Keeping that voice consistent matters everywhere your brand shows up, including the scripts behind your HVAC Streaming…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--hvac-listing-management.png\":{\"title\":\"HVAC Listing Management - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Listing Management. HVAC Listing Management. Keeping this information consistent helps reduce customer confusion and creates stronger signals across your online…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--hvac-crm-automation.png\":{\"title\":\"HVAC CRM Automation - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC CRM Automation. HVAC CRM Automation. This helps your team identify where each lead came from and respond while the opportunity is still…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--hvac-call-tracking-attribution.png\":{\"title\":\"HVAC Call Tracking & Attribution - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Call Tracking & Attribution. HVAC Call Tracking & Attribution. This work is designed to run alongside your existing HVAC CRM Automation , so every tracked call flows straight into a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--hvac-email-marketing.png\":{\"title\":\"HVAC Email Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Email Marketing. HVAC Email Marketing. This work is designed to run alongside your existing HVAC CRM Automation , so every email interaction flows straight into a pipeline…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--plumbing-website-management.png\":{\"title\":\"Plumbing Website Management - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing Website Management. Plumbing Website Management. This work is designed to run alongside your existing Plumbing PPC Management , so every paid click lands on a site fast and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--plumbing-content-marketing.png\":{\"title\":\"Plumbing Content Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing Content Marketing. Plumbing Content Marketing. This work is designed to run alongside your existing Plumbing Website Management , so every piece of content lives on a site…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--plumbing-cro.png\":{\"title\":\"Plumbing CRO - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing CRO. Plumbing CRO. Forms get the same attention, since a confusing or overlong form quietly loses jobs before your team ever sees the…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--plumbing-google-lsa.png\":{\"title\":\"Plumbing Google LSA - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing Google LSA. Plumbing Google LSA. This keeps a steady flow of quality leads coming in during busy and slow seasons, without overpaying for the kinds of calls that rarely…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--plumbing-reputation-management.png\":{\"title\":\"Plumbing Reputation Management - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing Reputation Management. Plumbing Reputation Management. That starts with asking happy customers for reviews after each job and continues with watching every platform for feedback…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--plumbing-voice-search-optimization.png\":{\"title\":\"Plumbing Voice Search Optimization (VSO) - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing Voice Search Optimization (VSO). Plumbing Voice Search Optimization (VSO). Homeowners rarely browse multiple pages when they ask a voice assistant for help - they act on the first confident…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--plumbing-listing-management.png\":{\"title\":\"Plumbing Listing Management - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing Listing Management. Plumbing Listing Management. Plumbing customers and search engines both rely on accurate business information to make decisions - who to call, and who to…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--plumbing-crm-automation.png\":{\"title\":\"Plumbing CRM Automation - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing CRM Automation. Plumbing CRM Automation. Each lead is routed to the right person on your team based on service type, location, or urgency, so a burst pipe at night reaches…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--plumbing-call-tracking-attribution.png\":{\"title\":\"Plumbing Call Tracking & Attribution - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing Call Tracking & Attribution. Plumbing Call Tracking & Attribution. Together, they turn every call into a clear data point instead of a mystery, so you can judge each channel by the jobs…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--concrete-coating-web-design.png\":{\"title\":\"Concrete Coating Web Design Services - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Coating Web Design Services. Concrete Coating Web Design Services. Each area feeds the next, so the site you get keeps producing estimate requests for your concrete coating business…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--concrete-coating-website-management.png\":{\"title\":\"Concrete Coating Website Management - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Coating Website Management. Concrete Coating Website Management. Your coating business should not have to think about plugin updates, broken forms, or slow gallery…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--concrete-coating-content-marketing.png\":{\"title\":\"Concrete Coating Content Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Coating Content Marketing. Concrete Coating Content Marketing. Content marketing only works when it's built around what your actual customers are searching for, not generic industry…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--concrete-coating-cro.png\":{\"title\":\"Concrete Coating Conversion Rate Optimization (CRO) - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Coating Conversion Rate Optimization (CRO). Concrete Coating Conversion Rate Optimization (CRO). Conversion Rate Optimization means finding the specific points where visitors hesitate or leave your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--concrete-coating-lsa.png\":{\"title\":\"Concrete Coating Google Local Services Ads (LSA) - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Coating Google Local Services Ads (LSA). Concrete Coating Google Local Services Ads (LSA). Getting approved for Google Local Services Ads is only the first step - winning consistent, qualified…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--concrete-coating-link-building.png\":{\"title\":\"Concrete Coating Link Building - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Coating Link Building. Concrete Coating Link Building. Not all backlinks carry the same weight - a single link from a relevant, authoritative site can outperform dozens of…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--concrete-coating-meta-ads.png\":{\"title\":\"Concrete Coating Meta Ads - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Coating Meta Ads. Concrete Coating Meta Ads. Meta Ads work differently from search ads. Getting results takes strong creative, tight targeting and steady…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--concrete-coating-reputation-management.png\":{\"title\":\"Concrete Coating Reputation Management - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Coating Reputation Management. Concrete Coating Reputation Management. Your online reputation lives across more places than just one review platform - Google, Yelp, Facebook, and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--concrete-coating-technical-seo.png\":{\"title\":\"Concrete Coating Technical SEO - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Coating Technical SEO. Concrete Coating Technical SEO. Technical SEO covers the parts of your website that run behind the scenes: site speed, mobile usability, crawlability, and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--concrete-coating-vso.png\":{\"title\":\"Concrete Coating Voice Search Optimization (VSO) - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Coating Voice Search Optimization (VSO). Concrete Coating Voice Search Optimization (VSO). Reviews factor into this too, since voice results tend to favor businesses with strong, consistent ratings…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--concrete-coating-listing-management.png\":{\"title\":\"Concrete Coating Listing Management - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Coating Listing Management. Concrete Coating Listing Management. Listing management sounds simple, but a single inconsistent address or an outdated phone number can quietly cost you…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--concrete-coating-crm-automation.png\":{\"title\":\"Concrete Coating CRM Automation - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Coating CRM Automation. Concrete Coating CRM Automation. A CRM is only as valuable as the automation behind it, since manual follow-up is where most leads quietly get…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--concrete-coating-call-tracking-attribution.png\":{\"title\":\"Concrete Coating Call Tracking & Attribution - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Coating Call Tracking & Attribution. Concrete Coating Call Tracking & Attribution. Every call gets tied back to its real source, recorded for quality, and reported in a way that actually…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--concrete-coating-email-marketing.png\":{\"title\":\"Concrete Coating Email Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Coating Email Marketing. Concrete Coating Email Marketing. Email marketing only works if it's built around real segments, real timing, and messages homeowners actually want to…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--kitchen-remodeling-website-management.png\":{\"title\":\"Kitchen Remodeling Website Management - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling Website Management. Kitchen Remodeling Website Management. A website isn't something you build once and forget, since plugins go out of date, content goes stale, and small…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--kitchen-remodeling-content-marketing.png\":{\"title\":\"Kitchen Remodeling Content Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling Content Marketing. Kitchen Remodeling Content Marketing. Content only works if it's built around what homeowners are actually searching for, and then written, optimized, and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--kitchen-remodeling-cro.png\":{\"title\":\"Kitchen Remodeling CRO - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling CRO. Kitchen Remodeling CRO. Improving conversion rates takes real behavior data, not guesswork, followed by structured testing to confirm what actually moves…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--kitchen-remodeling-lead-generation.png\":{\"title\":\"Kitchen Remodeling Lead Generation - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling Lead Generation. Kitchen Remodeling Lead Generation. Lead generation only works when capture, qualification, nurture, and conversion tracking are all built to work together…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--kitchen-remodeling-link-building.png\":{\"title\":\"Kitchen Remodeling Link Building - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling Link Building. Kitchen Remodeling Link Building. Earning links that actually move rankings takes research, outreach, and follow-through, not just a spreadsheet of sites to…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--kitchen-remodeling-ppc-management.png\":{\"title\":\"Kitchen Remodeling PPC Management - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling PPC Management. Kitchen Remodeling PPC Management. Running profitable PPC campaigns takes more than picking keywords and setting a budget, it takes ongoing bid management…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--kitchen-remodeling-remarketing.png\":{\"title\":\"Kitchen Remodeling Remarketing - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling Remarketing. Kitchen Remodeling Remarketing. This can complement your Kitchen Remodeling LinkedIn Ads efforts by reconnecting with visitors who discovered your company…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--kitchen-remodeling-reputation-management.png\":{\"title\":\"Kitchen Remodeling Reputation Management - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling Reputation Management. Kitchen Remodeling Reputation Management. Every part of the process is built around how homeowners actually research a kitchen remodeling company before…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--kitchen-remodeling-technical-seo.png\":{\"title\":\"Kitchen Remodeling Technical SEO - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling Technical SEO. Kitchen Remodeling Technical SEO. Technical problems hide where most kitchen remodeling owners never look, from crawl errors search engines report quietly…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--kitchen-remodeling-listing-management.png\":{\"title\":\"Kitchen Remodeling Listing Management - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling Listing Management. Kitchen Remodeling Listing Management. Every directory and profile that lists your kitchen remodeling business is a small trust signal search engines and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--kitchen-remodeling-crm-automation.png\":{\"title\":\"Kitchen Remodeling CRM Automation - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling CRM Automation. Kitchen Remodeling CRM Automation. A CRM only pays off if it's actually set up to match how your kitchen remodeling business runs, not left on its default…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--kitchen-remodeling-email-marketing.png\":{\"title\":\"Kitchen Remodeling Email Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling Email Marketing. Kitchen Remodeling Email Marketing. Email marketing only pays off when the right message reaches the right lead at the right moment, not when one promotion…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-builder-web-design.png\":{\"title\":\"Home Builder Web Design - Wonderweb Studio\",\"description\":\"Featured social preview for Home Builder Web Design. Home Builder Web Design. A slow, outdated, or generic website quietly undermines the premium image you've spent years building on the job site. Every stage…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-builder-website-management.png\":{\"title\":\"Home Builder Website Management - Wonderweb Studio\",\"description\":\"Featured social preview for Home Builder Website Management. Home Builder Website Management. A website that isn't actively maintained slowly loses speed, security, and search visibility, even if nothing looks broken…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-builder-content-marketing.png\":{\"title\":\"Home Builder Content Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Home Builder Content Marketing. Home Builder Content Marketing. A home builder's reputation is often built long before a buyer ever tours a model home, through the blogs, guides, and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-builder-conversion-rate-optimization.png\":{\"title\":\"Home Builder Conversion Rate Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Home Builder Conversion Rate Optimization. Home Builder Conversion Rate Optimization. Most home builder websites lose far more qualified buyers than they convert, often because of slow load times…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-builder-gbp.png\":{\"title\":\"Home Builder GBP - Wonderweb Studio\",\"description\":\"Featured social preview for Home Builder GBP. Home Builder GBP. A Google Business Profile is often the first thing a homebuyer sees, so an outdated address, thin review count, or empty photo gallery…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-builder-google-lsa.png\":{\"title\":\"Home Builder Google LSA - Wonderweb Studio\",\"description\":\"Featured social preview for Home Builder Google LSA. Home Builder Google LSA. Running Local Services Ads well means juggling Google's background-check requirements, a nonstop review pipeline, and bids that…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-builder-link-building.png\":{\"title\":\"Home Builder Link Building - Wonderweb Studio\",\"description\":\"Featured social preview for Home Builder Link Building. Home Builder Link Building. Most link building pitches recycle the same generic tactics regardless of industry, guest posts on unrelated blogs, paid…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-builder-meta-ads.png\":{\"title\":\"Home Builder Meta Ads - Wonderweb Studio\",\"description\":\"Featured social preview for Home Builder Meta Ads. Home Builder Meta Ads. Custom and lookalike audiences are built from your CRM data so campaigns reach people who look like your best past buyers, not just…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-builder-remarketing.png\":{\"title\":\"Home Builder Remarketing - Wonderweb Studio\",\"description\":\"Featured social preview for Home Builder Remarketing. Home Builder Remarketing. Most people who browse your floor plans leave without filling out a form, not because they lost interest but because a new home is…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-builder-technical-seo.png\":{\"title\":\"Home Builder Technical SEO - Wonderweb Studio\",\"description\":\"Featured social preview for Home Builder Technical SEO. Home Builder Technical SEO. Builder websites add new communities, plans, and inventory homes every month, and that growth creates crawl errors and slow…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-builder-listing-management.png\":{\"title\":\"Home Builder Listing Management - Wonderweb Studio\",\"description\":\"Featured social preview for Home Builder Listing Management. Home Builder Listing Management. A home builder can have dozens of listings across maps, directories, and real estate sites, and every one needs to…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-builder-crm-automation.png\":{\"title\":\"Home Builder CRM Automation - Wonderweb Studio\",\"description\":\"Featured social preview for Home Builder CRM Automation. Home Builder CRM Automation. Buyer leads arrive from websites, listings, phone calls, ads, and walk-ins at your sales centers, and every one needs a fast…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-builder-call-tracking-attribution.png\":{\"title\":\"Home Builder Call Tracking & Attribution - Wonderweb Studio\",\"description\":\"Featured social preview for Home Builder Call Tracking & Attribution. Home Builder Call Tracking & Attribution. A buyer might see a TV spot, search your name, click a listing, and finally call a sales center, and every step…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-builder-email-marketing.png\":{\"title\":\"Home Builder Email Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Home Builder Email Marketing. Home Builder Email Marketing. Your email list is full of buyers at different stages, from casual browsers to families ready to sign this…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--flooring-content-marketing.png\":{\"title\":\"Flooring Content Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Flooring Content Marketing. Flooring Content Marketing. Flooring buyers search for answers long before they search for a company, so the right content puts your business in front of…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--flooring-conversion-rate-optimization.png\":{\"title\":\"Flooring Conversion Rate Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Flooring Conversion Rate Optimization. Flooring Conversion Rate Optimization. More traffic is only useful when visitors take action, and small changes often double the number of estimate requests…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--flooring-gbp.png\":{\"title\":\"Flooring Google Business Profile - Wonderweb Studio\",\"description\":\"Featured social preview for Flooring Google Business Profile. Flooring Google Business Profile. A strong Google Business Profile needs more than a business name and phone number. Each one helps your flooring company…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--flooring-google-lsa.png\":{\"title\":\"Flooring Google LSA - Wonderweb Studio\",\"description\":\"Featured social preview for Flooring Google LSA. Flooring Google LSA. Getting approved for Local Services Ads is only the start, since rankings and lead quality depend on how well the account is managed…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--flooring-lead-generation.png\":{\"title\":\"Flooring Lead Generation - Wonderweb Studio\",\"description\":\"Featured social preview for Flooring Lead Generation. Flooring Lead Generation. Reliable lead flow rarely comes from one channel alone. Together they put your flooring company in front of homeowners at every…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--contractors.png\":{\"title\":\"Contractor Marketing Agency - Wonderweb Studio\",\"description\":\"Featured social preview for Contractor Marketing Agency. Contractor Marketing Agency. General contractors need marketing that matches long sales cycles and high project values. Together they put your company in…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--flooring-remarketing.png\":{\"title\":\"Flooring Remarketing - Wonderweb Studio\",\"description\":\"Featured social preview for Flooring Remarketing. Flooring Remarketing. Remarketing works best when every channel tells the same story to the same buyer. Together they keep your brand visible during the…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--flooring-reputation-management.png\":{\"title\":\"Flooring Reputation Management - Wonderweb Studio\",\"description\":\"Featured social preview for Flooring Reputation Management. Flooring Reputation Management. A strong reputation is built step by step, not with one review push. Together they help your flooring company collect honest…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--flooring-voice-search-optimization.png\":{\"title\":\"Flooring Voice Search Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Flooring Voice Search Optimization. Flooring Voice Search Optimization. Voice search rewards businesses that are easy for assistants to find, trust, and read aloud. Together they help your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--flooring-crm-automation.png\":{\"title\":\"Flooring CRM Automation - Wonderweb Studio\",\"description\":\"Featured social preview for Flooring CRM Automation. Flooring CRM Automation. CRM automation works best when every step from first inquiry to finished install runs on a clear, repeatable system. Together they…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--flooring-call-tracking-attribution.png\":{\"title\":\"Flooring Call Tracking & Attribution - Wonderweb Studio\",\"description\":\"Featured social preview for Flooring Call Tracking & Attribution. Flooring Call Tracking & Attribution. Accurate attribution starts with tracking every call, form, and booking back to its true source. Together they give…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--flooring-email-marketing.png\":{\"title\":\"Flooring Email Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Flooring Email Marketing. Flooring Email Marketing. Strong email marketing sends the right message to the right person at the right moment. Together they help your flooring company…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspection-content-marketing.png\":{\"title\":\"Home Inspection Content Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspection Content Marketing. Home Inspection Content Marketing. Strong content marketing gives home buyers and agents a clear reason to choose your inspection company over the next…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspection-conversion-rate-optimization.png\":{\"title\":\"Home Inspection Conversion Rate Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspection Conversion Rate Optimization. Home Inspection Conversion Rate Optimization. Conversion rate optimization works best when every step from first visit to booked inspection is easy, clear…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspection-gbp.png\":{\"title\":\"Home Inspection Google Business Profile - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspection Google Business Profile. Home Inspection Google Business Profile. A strong Google Business Profile needs more than a name and phone number to compete in today's map results…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspection-google-lsa.png\":{\"title\":\"Home Inspection Google LSA - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspection Google LSA. Home Inspection Google LSA. Google LSA campaigns for home inspection companies require more than just turning on a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspection-lead-gen.png\":{\"title\":\"Home Inspection Lead Generation - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspection Lead Generation. Home Inspection Lead Generation. Generating consistent inspection leads requires a multi-channel approach that matches how buyers actually search across…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspection-remarketing.png\":{\"title\":\"Home Inspection Remarketing Services - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspection Remarketing Services. Home Inspection Remarketing Services. Audiences are segmented by pages visited - homepage visitors, pricing page visitors, and abandoned booking form…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspection-voice-search-optimization.png\":{\"title\":\"Home Inspection Voice Search Optimization (VSO) - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspection Voice Search Optimization (VSO). Home Inspection Voice Search Optimization (VSO). This signals to Google, Alexa, and Siri exactly what you do, where you serve, and what questions you answer…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspection-listing-management.png\":{\"title\":\"Home Inspection Listing Management - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspection Listing Management. Home Inspection Listing Management. Listing management is one of the highest-leverage, lowest-friction improvements a home inspection company can…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspection-crm-automation.png\":{\"title\":\"Home Inspection CRM Automation - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspection CRM Automation. Home Inspection CRM Automation. CRM automation turns your inspection company's lead flow into a repeatable, measurable…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--home-inspection-email-marketing.png\":{\"title\":\"Home Inspection Email Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspection Email Marketing. Home Inspection Email Marketing. Email works best when every message has a clear job. Together they keep your name in the inbox of the people most likely to…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--landscaping-conversion-rate-optimization.png\":{\"title\":\"Landscaping Conversion Rate Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping Conversion Rate Optimization. Landscaping Conversion Rate Optimization. Better conversion rates come from small, proven improvements made in the right places. Together they help your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--landscaping-gbp.png\":{\"title\":\"Landscaping Google Business Profile (GBP) - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping Google Business Profile (GBP). Landscaping Google Business Profile (GBP). Ranking in the map pack takes more than claiming a free listing and forgetting about it. Together they help your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--landscaping-content-marketing.png\":{\"title\":\"Landscaping Content Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping Content Marketing. Landscaping Content Marketing. Each area covers a different step in how homeowners find, research and choose a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--landscaping-google-lsa.png\":{\"title\":\"Landscaping Google Local Services Ads (LSA) - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping Google Local Services Ads (LSA). Landscaping Google Local Services Ads (LSA). Each one covers a part of the account that decides whether your phone rings with the right…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--landscaping-lead-generation.png\":{\"title\":\"Landscaping Lead Generation - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping Lead Generation. Landscaping Lead Generation. Each one adds a different source of estimate requests, so your schedule does not depend on a single…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--landscaping-remarketing.png\":{\"title\":\"Landscaping Remarketing - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping Remarketing. Landscaping Remarketing. Many landscaping estimates stall because the homeowner is comparing quotes or waiting for a better season, and the job often goes…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--landscaping-reputation-management.png\":{\"title\":\"Landscaping Reputation Management - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping Reputation Management. Landscaping Reputation Management. Most happy landscaping customers never leave a review unless someone asks, even after a great patio or a flawless spring…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/solutions--landscaping-voice-search-optimization.png\":{\"title\":\"Landscaping Voice Search Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping Voice Search Optimization. Landscaping Voice Search Optimization. Each one improves a part of your online presence that assistants rely on when homeowners ask a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-hvac-marketing-agencies.png\":{\"title\":\"Choosing HVAC Marketing agency in 2026 - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing HVAC Marketing agency in 2026 - A Practical Guide. Choosing HVAC Marketing agency in 2026 - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--kitchen-remodeling-google-ads-tips.png\":{\"title\":\"Kitchen Remodeling Google Ads Tips for Maximum ROI - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling Google Ads Tips for Maximum ROI. Kitchen Remodeling Google Ads Tips for Maximum ROI. The home renovation market is competitive, and homeowners are actively searching online for trusted…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--custom-home-builder-seo-tips.png\":{\"title\":\"SEO for Custom Home Builders: 9 Tips for Better Leads - Wonderweb Studio\",\"description\":\"Featured social preview for SEO for Custom Home Builders: 9 Tips for Better Leads. SEO for Custom Home Builders: 9 Tips for Better Leads. SEO for custom home builders works when each page speaks to a buyer planning a one-of-a-kind build…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--deck-builder-software-tools.png\":{\"title\":\"Deck Builder Software: The Tools Deck Companies Use to Win Projects - Wonderweb Studio\",\"description\":\"Featured social preview for Deck Builder Software: The Tools Deck Companies Use to Win Projects. Deck Builder Software: The Tools Deck Companies Use to Win Projects. Deck builder software is the set of tools a deck company uses to design projects, price…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--kitchen-remodeling-seo-cost.png\":{\"title\":\"Kitchen Remodeling SEO Cost: How Much Should You Budget? - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling SEO Cost: How Much Should You Budget?. Kitchen Remodeling SEO Cost: How Much Should You Budget?. If you’re running a kitchen remodeling business, you already know how competitive the industry can…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-seo-cost.png\":{\"title\":\"Bathroom Remodeling SEO Cost: How Much Should You Budget? - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling SEO Cost: How Much Should You Budget?. Bathroom Remodeling SEO Cost: How Much Should You Budget?. Small local remodelers: $1,000 – $2,500/month Mid-size companies: $2,500 – $5,000/month Large or…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--electrician-seo-tips.png\":{\"title\":\"Electrician SEO Tips: How to Rank Higher and Get More Service Calls - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician SEO Tips: How to Rank Higher and Get More Service Calls. Electrician SEO Tips: How to Rank Higher and Get More Service Calls. Electrician SEO is the process of optimizing your electrician website, Google Business…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--plumbing-google-ads-cost.png\":{\"title\":\"Plumbing Google Ads Cost: How Much Should Plumbers Spend on Ads? - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing Google Ads Cost: How Much Should Plumbers Spend on Ads?. Plumbing Google Ads Cost: How Much Should Plumbers Spend on Ads?. If you own a plumbing business, you already know that keeping your technicians’ schedules…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--hvac-google-ads-cost.png\":{\"title\":\"HVAC Google Ads Cost: What HVAC Companies Should Expect to Pay in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Google Ads Cost: What HVAC Companies Should Expect to Pay in 2026. HVAC Google Ads Cost: What HVAC Companies Should Expect to Pay in 2026. Understanding these numbers helps most HVAC companies make smarter digital marketing…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--kitchen-remodeling-google-ads-cost.png\":{\"title\":\"The True Cost of Kitchen Remodeling Google Ads: What Contractors Need to Know - Wonderweb Studio\",\"description\":\"Featured social preview for The True Cost of Kitchen Remodeling Google Ads: What Contractors Need to Know. The True Cost of Kitchen Remodeling Google Ads: What Contractors Need to Know. If you are a contractor or design-build firm, you already know that kitchen…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--home-inspection-google-ads-cost.png\":{\"title\":\"Home Inspection Google Ads Cost Explained: What You Really Pay & Why - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspection Google Ads Cost Explained: What You Really Pay & Why. Home Inspection Google Ads Cost Explained: What You Really Pay & Why. For home inspection businesses, visibility at the exact moment buyers search for…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-meta-ads-cost.png\":{\"title\":\"Bathroom Remodeling Meta Ads Cost: The Complete Guide for Contractors - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Meta Ads Cost: The Complete Guide for Contractors. Bathroom Remodeling Meta Ads Cost: The Complete Guide for Contractors. If you run a home improvement business, you already know that keeping your sales…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--electricians-google-ads-guide.png\":{\"title\":\"The Ultimate Electricians Google Ads Guide: Power Up Your Lead Generation - Wonderweb Studio\",\"description\":\"Featured social preview for The Ultimate Electricians Google Ads Guide: Power Up Your Lead Generation. The Ultimate Electricians Google Ads Guide: Power Up Your Lead Generation. Are you tired of relying on unpredictable word-of-mouth referrals or outdated…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--hvac-google-ads-guide.png\":{\"title\":\"HVAC Google Ads Guide: 15 Tactics That Cut Cost Per Lead - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Google Ads Guide: 15 Tactics That Cut Cost Per Lead. HVAC Google Ads Guide: 15 Tactics That Cut Cost Per Lead. Most HVAC companies pay $10 to $50 per click on Google Ads and $50 to $200 per lead. The fastest…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-google-ads-guide.png\":{\"title\":\"Roofing Google Ads Guide: Dominate Your Market in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Google Ads Guide: Dominate Your Market in 2026. Roofing Google Ads Guide: Dominate Your Market in 2026. Growing a roofing business takes a lot more than just relying on word-of-mouth and door-knocking…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--home-inspections-google-ads-guides.png\":{\"title\":\"Home Inspections Google Ads Guides: How Contractors Can Generate More Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspections Google Ads Guides: How Contractors Can Generate More Leads. Home Inspections Google Ads Guides: How Contractors Can Generate More Leads. If you’re a home inspection business looking to grow, running ads on Google is…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--meta-ads-for-plumbers-ultimate-guide.png\":{\"title\":\"Meta Ads for Plumbers: Offers, Dispatch and Better Lead Decisions - Wonderweb Studio\",\"description\":\"Featured social preview for Meta Ads for Plumbers: Offers, Dispatch and Better Lead Decisions. Plan plumbing Meta campaigns with a clear service offer, useful qualification, dependable dispatch handoffs and reporting beyond form submissions.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--hvac-meta-ads-guide.png\":{\"title\":\"HVAC Meta Ads: The Complete Guide to Generating More Leads on Facebook and Instagram - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Meta Ads: The Complete Guide to Generating More Leads on Facebook and Instagram. HVAC Meta Ads: The Complete Guide to Generating More Leads on Facebook and Instagram. Most HVAC contractors default to Google ads and Google local services…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--landscaping-website-design-guide.png\":{\"title\":\"Landscaping Website Design Guide 2026: Build a Site That Generates Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping Website Design Guide 2026: Build a Site That Generates Leads. Landscaping Website Design Guide 2026: Build a Site That Generates Leads. The best landscaping websites share common traits but adapt to their target…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--hvac-lead-generation-tips.png\":{\"title\":\"HVAC Business Lead Generation Tips: 9 Ways to Stop Chasing Shared Leads - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Business Lead Generation Tips: 9 Ways to Stop Chasing Shared Leads. HVAC Business Lead Generation Tips: 9 Ways to Stop Chasing Shared Leads. Every HVAC company knows the quiet dispatch board. When summer heat fades and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--hvac-lead-generation-cost.png\":{\"title\":\"HVAC Lead Generation Cost: A Complete Pricing Breakdown for 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Lead Generation Cost: A Complete Pricing Breakdown for 2026. HVAC Lead Generation Cost: A Complete Pricing Breakdown for 2026. When you run an HVAC business, one of the biggest challenges is figuring out your HVAC…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--kitchen-remodeling-lead-generation-cost.png\":{\"title\":\"How Much Does Kitchen Remodeling Lead Generation Cost? - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Kitchen Remodeling Lead Generation Cost?. How Much Does Kitchen Remodeling Lead Generation Cost?. If you want to know the exact kitchen remodeling lead generation cost, you need clear numbers, not…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--pest-control-lead-generation-cost.png\":{\"title\":\"Pest Control Lead Generation Cost: A Transparent 2026 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Pest Control Lead Generation Cost: A Transparent 2026 Pricing Guide. Pest Control Lead Generation Cost: A Transparent 2026 Pricing Guide. When you run a pest control business, keeping your trucks dispatched and your schedule…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--mold-remediation-seo-cost.png\":{\"title\":\"Mold Remediation SEO Cost: What You Should Actually Pay in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for Mold Remediation SEO Cost: What You Should Actually Pay in 2026. Mold Remediation SEO Cost: What You Should Actually Pay in 2026. Knowing the exact mold remediation SEO cost is the first step to scaling your restoration…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--mold-remediation-google-ads-cost.png\":{\"title\":\"Mold Remediation Google Ads Cost: What to Budget in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for Mold Remediation Google Ads Cost: What to Budget in 2026. Mold Remediation Google Ads Cost: What to Budget in 2026. Figuring out your exact mold remediation Google Ads cost is essential for scaling your restoration…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--mold-remediation-website-design-cost.png\":{\"title\":\"Mold Remediation Website Design Cost: 2026 Pricing - Wonderweb Studio\",\"description\":\"Featured social preview for Mold Remediation Website Design Cost: 2026 Pricing. Mold Remediation Website Design Cost: 2026 Pricing. Understanding your exact mold remediation website design cost is the first step toward building a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--mold-remediation-link-building-cost.png\":{\"title\":\"Mold Remediation Link Building Cost: What to Expect in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for Mold Remediation Link Building Cost: What to Expect in 2026. Mold Remediation Link Building Cost: What to Expect in 2026. Understanding your exact mold remediation link building cost is critical to setting a realistic…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--pool-cleaning-lead-generation-cost.png\":{\"title\":\"Pool Cleaning Lead Generation Cost: What You Should Pay in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for Pool Cleaning Lead Generation Cost: What You Should Pay in 2026. Pool Cleaning Lead Generation Cost: What You Should Pay in 2026. When budgeting for your pool service business this year, understanding the true pool…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-lsa-cost-pool-cleaners.png\":{\"title\":\"Google LSA Cost for Pool Cleaners: 2025 Pricing & ROI - Wonderweb Studio\",\"description\":\"Featured social preview for Google LSA Cost for Pool Cleaners: 2025 Pricing & ROI. Google LSA Cost for Pool Cleaners: 2025 Pricing & ROI. Many pool service owners hesitate to launch Local Services Ads (LSA) because the pricing structure…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--pool-cleaner-meta-ads-cost.png\":{\"title\":\"Pool Cleaner Meta Ads Cost: A Complete Pricing Breakdown for 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for Pool Cleaner Meta Ads Cost: A Complete Pricing Breakdown for 2026. Pool Cleaner Meta Ads Cost: A Complete Pricing Breakdown for 2026. If you operate a pool service business, you need predictable pricing to plan your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-plumbing-seo-agencies.png\":{\"title\":\"Choosing SEO for Plumbers - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing SEO for Plumbers - A Practical Guide. Choosing SEO for Plumbers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a prospective…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-hvac-web-design-agencies.png\":{\"title\":\"Choosing HVAC Web Design agency in 2026 - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing HVAC Web Design agency in 2026 - A Practical Guide. Choosing HVAC Web Design agency in 2026 - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--top-concrete-coating-ppc-management-agencies.png\":{\"title\":\"Choosing Concrete Coating PPC Management agency in 2026 - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Concrete Coating PPC Management agency in 2026 - A Practical Guide. Choosing Concrete Coating PPC Management agency in 2026 - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--pool-cleaner-google-ads-cost.png\":{\"title\":\"Pool Cleaner Google Ads Cost: 2026 Pricing Breakdown - Wonderweb Studio\",\"description\":\"Featured social preview for Pool Cleaner Google Ads Cost: 2026 Pricing Breakdown. Pool Cleaner Google Ads Cost: 2026 Pricing Breakdown. Managing your operational budget means knowing your exact client acquisition costs, and understanding…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-lsa-tips-for-moving-companies.png\":{\"title\":\"9 Tips to Maximize Google LSA for Movers - Wonderweb Studio\",\"description\":\"Featured social preview for 9 Tips to Maximize Google LSA for Movers. 9 Tips to Maximize Google LSA for Movers. This article outlines specific strategies for moving companies to optimize their Local Services Ads. It explains…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--technical-seo-tips-for-moving-companies.png\":{\"title\":\"Technical SEO Tips for Moving Companies - Wonderweb Studio\",\"description\":\"Featured social preview for Technical SEO Tips for Moving Companies. Technical SEO Tips for Moving Companies. A moving company's quote form loading blank on a customer's phone during peak season costs real bookings. So does a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--moving-company-link-building-tips.png\":{\"title\":\"8 Moving Company Link Building Tips for Better Local Rankings - Wonderweb Studio\",\"description\":\"Featured social preview for 8 Moving Company Link Building Tips for Better Local Rankings. 8 Moving Company Link Building Tips for Better Local Rankings. Trying to rank your moving business in local search but feeling stuck behind competitors? The…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--property-management-web-design-cost.png\":{\"title\":\"Property Management Web Design Cost: A Detailed Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Property Management Web Design Cost: A Detailed Pricing Guide. Property Management Web Design Cost: A Detailed Pricing Guide. Property managers lose owners and tenants every day because their websites load slowly or…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--property-management-google-lsa-cost.png\":{\"title\":\"Property Management Google LSA Cost: Complete 2026 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Property Management Google LSA Cost: Complete 2026 Pricing Guide. Property Management Google LSA Cost: Complete 2026 Pricing Guide. Property management owners often ask about the exact property management Google LSA cost…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--property-management-technical-seo-cost.png\":{\"title\":\"Property Management Technical SEO Cost: A Detailed Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Property Management Technical SEO Cost: A Detailed Pricing Guide. Property Management Technical SEO Cost: A Detailed Pricing Guide. Property managers lose hundreds of lucrative owner leads every year because their websites…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-tips-for-septic-companies.png\":{\"title\":\"7 Google Ads Tips for Septic Companies - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Google Ads Tips for Septic Companies. 7 Google Ads Tips for Septic Companies. The most effective Google Ads strategy for a septic company is separating your campaigns by service type. You must…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--window-cleaning-google-ads-cost.png\":{\"title\":\"Window Cleaning Google Ads Cost: Pricing & Investment Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Window Cleaning Google Ads Cost: Pricing & Investment Guide. Window Cleaning Google Ads Cost: Pricing & Investment Guide. Your exact window cleaning Google Ads cost falls into one of these three distinct tiers based…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--seo-tips-for-dumpster-rental.png\":{\"title\":\"7 SEO Tips for Dumpster Rental Companies - Wonderweb Studio\",\"description\":\"Featured social preview for 7 SEO Tips for Dumpster Rental Companies. 7 SEO Tips for Dumpster Rental Companies. Running a successful dumpster rental business requires a steady flow of local leads. When someone needs a roll-off…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--gutter-installation-lead-generation-tips.png\":{\"title\":\"5 Tips to Generate Gutter Installation Leads - Wonderweb Studio\",\"description\":\"Featured social preview for 5 Tips to Generate Gutter Installation Leads. 5 Tips to Generate Gutter Installation Leads. To generate high-quality gutter installation leads, you need to transition away from shared lead directories…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--seo-tips-house-cleaners.png\":{\"title\":\"7 SEO Tips for House Cleaners - Wonderweb Studio\",\"description\":\"Featured social preview for 7 SEO Tips for House Cleaners. 7 SEO Tips for House Cleaners. Every cleaning business starts with referrals. Referrals are great, but they are unpredictable. If you want to grow your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-house-cleaning-meta-ads-agencies.png\":{\"title\":\"Choosing House Cleaning Meta Ads agency - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing House Cleaning Meta Ads agency - A Practical Guide. Choosing House Cleaning Meta Ads agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-management-tips-carpet-cleaners.png\":{\"title\":\"7 Website Management Tips to Prevent Lost Carpet Cleaning Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Website Management Tips to Prevent Lost Carpet Cleaning Jobs. 7 Website Management Tips to Prevent Lost Carpet Cleaning Jobs. Managing your carpet cleaning website matters because software degrades over time, causing…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-carpet-cleaning-meta-ads-agencies.png\":{\"title\":\"Choosing Carpet Cleaning Meta Ads agency - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Carpet Cleaning Meta Ads agency - A Practical Guide. Choosing Carpet Cleaning Meta Ads agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--tips-house-cleaning-google-ads.png\":{\"title\":\"7 Tips for House Cleaning Google Ads to Book Recurring Clients - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Tips for House Cleaning Google Ads to Book Recurring Clients. 7 Tips for House Cleaning Google Ads to Book Recurring Clients. Running successful house cleaning Google Ads management requires targeting high-intent and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-house-cleaning-lead-generation-agencies.png\":{\"title\":\"Choosing House Cleaning Lead Generation agency for Booked Jobs - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing House Cleaning Lead Generation agency for Booked Jobs - A Practical Guide. Choosing House Cleaning Lead Generation agency for Booked Jobs - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--home-services-private-equity-seo-cost.png\":{\"title\":\"Choosing Home Services Private Equity SEO Cost - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Home Services Private Equity SEO Cost - A Practical Guide. Choosing Home Services Private Equity SEO Cost - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--tips-home-services-private-equity-digital-marketing.png\":{\"title\":\"7 Tips for Home Services Private Equity Digital Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Tips for Home Services Private Equity Digital Marketing. 7 Tips for Home Services Private Equity Digital Marketing. The most effective digital marketing strategy for home services private equity involves…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--pool-cleaning-seo-tips.png\":{\"title\":\"7 Pool Cleaning SEO Tips to Build Profitable Route Density - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Pool Cleaning SEO Tips to Build Profitable Route Density. 7 Pool Cleaning SEO Tips to Build Profitable Route Density. Independent owner-operators often struggle to grow into multi-truck fleets. You waste money on…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--septic-web-design-mistakes.png\":{\"title\":\"Septic Web Design Mistakes Hurting Your Lead Flow - Wonderweb Studio\",\"description\":\"Featured social preview for Septic Web Design Mistakes Hurting Your Lead Flow. Septic Web Design Mistakes Hurting Your Lead Flow. When a homeowner faces a sewage backup or an overflowing tank, they need immediate help. If your website…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--septic-reputation-management-tips.png\":{\"title\":\"Reputation Management for Septic Companies to Win Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for Reputation Management for Septic Companies to Win Jobs. Reputation Management for Septic Companies to Win Jobs. Septic services involve underground infrastructure that property owners cannot inspect themselves…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--seo-agency-siding-companies.png\":{\"title\":\"Choosing SEO Agency for Siding company - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing SEO Agency for Siding company - A Practical Guide. Choosing SEO Agency for Siding company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-web-design-cost-guide.png\":{\"title\":\"Choosing Web Design Cost for Remodeling company - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Web Design Cost for Remodeling company - A Practical Guide. Choosing Web Design Cost for Remodeling company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-website-management-best-practices.png\":{\"title\":\"Website Management for Remodeling Companies: 2027 Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Website Management for Remodeling Companies: 2027 Guide. Website Management for Remodeling Companies: 2027 Guide. Website management for remodeling companies involves continuous technical upkeep, Core Web Vitals…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-cro-tips.png\":{\"title\":\"Choosing Conversion Rate Optimization Best Practices for Remodeling company in 2027 - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Conversion Rate Optimization Best Practices for Remodeling company in 2027 - A Practical Guide. Choosing Conversion Rate Optimization Best Practices for Remodeling company in 2027 - A Practical Guide. Use this guide to compare scope, relevant…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-remodeling-cro-agencies-compared.png\":{\"title\":\"Choosing Remodeling CRO agency - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Remodeling CRO agency - A Practical Guide. Choosing Remodeling CRO agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeler-google-lsa-cost.png\":{\"title\":\"How Much Do Google Local Services Ads Cost for Remodeling Companies? 2027 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Do Google Local Services Ads Cost for Remodeling Companies? 2027 Pricing Guide. How Much Do Google Local Services Ads Cost for Remodeling Companies? 2027 Pricing Guide. Remodeling contractors typically pay between $50 and $190 per…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeler-lead-generation-tips.png\":{\"title\":\"7 Lead Generation Tips Remodeling Companies Use to Book More Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Lead Generation Tips Remodeling Companies Use to Book More Jobs. 7 Lead Generation Tips Remodeling Companies Use to Book More Jobs. Successful renovation companies build remodeling marketing services and inbound marketing…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeler-link-building-cost.png\":{\"title\":\"How Much Does Link Building Cost for Remodeling Companies? 2027 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Link Building Cost for Remodeling Companies? 2027 Pricing Guide. How Much Does Link Building Cost for Remodeling Companies? 2027 Pricing Guide. Link building for remodeling companies typically costs between $1,500 and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeler-link-building-tips.png\":{\"title\":\"Choosing Link Building Best Practices for Remodeling company in 2027 - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Link Building Best Practices for Remodeling company in 2027 - A Practical Guide. Choosing Link Building Best Practices for Remodeling company in 2027 - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-remodeling-google-ads-agencies-compared.png\":{\"title\":\"Choosing Google Ads agency for Remodeling company - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Google Ads agency for Remodeling company - A Practical Guide. Choosing Google Ads agency for Remodeling company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--seo-tips-remodeling-companies.png\":{\"title\":\"SEO Tips for Remodeling Companies: A Practical 2026 Playbook - Wonderweb Studio\",\"description\":\"Featured social preview for SEO Tips for Remodeling Companies: A Practical 2026 Playbook. SEO Tips for Remodeling Companies: A Practical 2026 Playbook. SEO for remodeling companies has one job. It puts your business in front of homeowners who…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-seo-cost.png\":{\"title\":\"How Much Does SEO Cost for Remodeling Companies? 2027 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does SEO Cost for Remodeling Companies? 2027 Pricing Guide. How Much Does SEO Cost for Remodeling Companies? 2027 Pricing Guide. Professional remodeling SEO services typically costs between $1,500 and $5,000 per…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--tips-remodeling-digital-marketing.png\":{\"title\":\"Digital Marketing Tips for Remodeling Companies: A Practical 2027 Playbook - Wonderweb Studio\",\"description\":\"Featured social preview for Digital Marketing Tips for Remodeling Companies: A Practical 2027 Playbook. Digital Marketing Tips for Remodeling Companies: A Practical 2027 Playbook. Digital marketing for remodeling companies requires a multi-channel approach…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-ppc-management-cost.png\":{\"title\":\"How Much Does PPC Management Cost for Remodeling Companies? 2027 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does PPC Management Cost for Remodeling Companies? 2027 Pricing Guide. How Much Does PPC Management Cost for Remodeling Companies? 2027 Pricing Guide. PPC management services for remodeling contractors typically cost between…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-ppc-management-companies-compared.png\":{\"title\":\"Choosing PPC Management company for Remodeling Contractors - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing PPC Management company for Remodeling Contractors - A Practical Guide. Choosing PPC Management company for Remodeling Contractors - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-remodeling-remarketing-agencies-compared.png\":{\"title\":\"Choosing Remarketing Agency for Remodeling company - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Remarketing Agency for Remodeling company - A Practical Guide. Choosing Remarketing Agency for Remodeling company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-reputation-management-cost.png\":{\"title\":\"How Much Does Reputation Management Cost for Remodeling Companies? 2027 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Reputation Management Cost for Remodeling Companies? 2027 Pricing Guide. How Much Does Reputation Management Cost for Remodeling Companies? 2027 Pricing Guide. Professional remodeling reputation management typically costs between…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-website-build-mistakes-fixes.png\":{\"title\":\"8 Website Build Mistakes Remodeling Companies Make and How to Fix Them - Wonderweb Studio\",\"description\":\"Featured social preview for 8 Website Build Mistakes Remodeling Companies Make and How to Fix Them. 8 Website Build Mistakes Remodeling Companies Make and How to Fix Them. When homeowners search for kitchen or bathroom renovations, your website serves as…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-listing-management-cost.png\":{\"title\":\"How Much Does Listing Management Cost for Remodeling Companies? 2027 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Listing Management Cost for Remodeling Companies? 2027 Pricing Guide. How Much Does Listing Management Cost for Remodeling Companies? 2027 Pricing Guide. Professional listing management for remodeling companies typically costs…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-build-companies-remodelers-compared.png\":{\"title\":\"Choosing Website Build company for Remodelers - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Website Build company for Remodelers - A Practical Guide. Choosing Website Build company for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--email-marketing-agencies-remodelers-comparison.png\":{\"title\":\"Choosing Email Marketing agency for Remodelers - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Email Marketing agency for Remodelers - A Practical Guide. Choosing Email Marketing agency for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-digital-marketing-trends.png\":{\"title\":\"Remodeling Digital Marketing in 2027: The Trends and Platform Changes That Matter - Wonderweb Studio\",\"description\":\"Featured social preview for Remodeling Digital Marketing in 2027: The Trends and Platform Changes That Matter. Remodeling Digital Marketing in 2027: The Trends and Platform Changes That Matter. Homeowners research large kitchen and bathroom overhauls differently than…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-seo-tools-remodeling-companies.png\":{\"title\":\"Choosing SEO Tools for Remodeling company in 2027 - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing SEO Tools for Remodeling company in 2027 - A Practical Guide. Choosing SEO Tools for Remodeling company in 2027 - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--voice-search-cost-remodeling-companies.png\":{\"title\":\"How Much Does Voice Search Optimization Cost for Remodeling Companies? 2027 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Voice Search Optimization Cost for Remodeling Companies? 2027 Pricing Guide. How Much Does Voice Search Optimization Cost for Remodeling Companies? 2027 Pricing Guide. Voice search optimization cost for remodeling companies typically…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-call-tracking-attribution-cost.png\":{\"title\":\"How Much Does Call Tracking and Attribution Cost for Remodelers? 2027 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Call Tracking and Attribution Cost for Remodelers? 2027 Pricing Guide. How Much Does Call Tracking and Attribution Cost for Remodelers? 2027 Pricing Guide. Remodeling contractors typically invest between $150 and $750 per month…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--email-marketing-tips-remodelers-jobs.png\":{\"title\":\"7 Email Marketing Tips Remodelers Use to Book More Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Email Marketing Tips Remodelers Use to Book More Jobs. 7 Email Marketing Tips Remodelers Use to Book More Jobs. You book more remodeling projects when you consistently nurture homeowners who value quality…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-business-profile-management-roofing-agencies.png\":{\"title\":\"Choosing Google Business Profile Management agency for Roofing company - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Google Business Profile Management agency for Roofing company - A Practical Guide. Choosing Google Business Profile Management agency for Roofing company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-web-design-agencies.png\":{\"title\":\"Choosing Remodeling Web Design agency - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Remodeling Web Design agency - A Practical Guide. Choosing Remodeling Web Design agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-website-build-tips.png\":{\"title\":\"Roofing Website Build: 7 Essentials for More Local Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Website Build: 7 Essentials for More Local Leads. Roofing Website Build: 7 Essentials for More Local Leads. A roofing website build is the process of designing, developing, and optimizing a custom website…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-call-tracking-tips-to-attribute-leads.png\":{\"title\":\"Roofing Call Tracking Tips to Attribute Leads and Boost Revenue - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Call Tracking Tips to Attribute Leads and Boost Revenue. Roofing Call Tracking Tips to Attribute Leads and Boost Revenue. The 6 roofing call tracking tips below start with Dynamic Number Insertion (DNI), the…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-call-tracking-cost.png\":{\"title\":\"Roofing Call Tracking Cost: Software Pricing and Agency Setup Fees - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Call Tracking Cost: Software Pricing and Agency Setup Fees. Roofing Call Tracking Cost: Software Pricing and Agency Setup Fees. Roofing call tracking costs $30 to $150 per month for basic software, plus usage fees of…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-email-marketing-cost.png\":{\"title\":\"Choosing Roofing Email Marketing Cost & Top agency - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Roofing Email Marketing Cost & Top agency - A Practical Guide. Choosing Roofing Email Marketing Cost & Top agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--digital-agency-core-cost-for-roofers.png\":{\"title\":\"Choosing Digital Agency Core Cost for Roofers - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Digital Agency Core Cost for Roofers - A Practical Guide. Choosing Digital Agency Core Cost for Roofers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-website-management-cost.png\":{\"title\":\"Choosing Website Management Cost for Bathroom Remodeling company Guide - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Website Management Cost for Bathroom Remodeling company Guide - A Practical Guide. Choosing Website Management Cost for Bathroom Remodeling company Guide - A Practical Guide. Use this guide to compare scope, relevant experience, ownership…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-lsa-migration-google-ads.png\":{\"title\":\"Google Moved Roofing LSAs Into Google Ads: 6 Settings That Changed - Wonderweb Studio\",\"description\":\"Featured social preview for Google Moved Roofing LSAs Into Google Ads: 6 Settings That Changed. Google Moved Roofing LSAs Into Google Ads: 6 Settings That Changed. Quick answer: Google is moving roofing Local Services Ads (LSA) accounts into Google Ads…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-marketing-budget.png\":{\"title\":\"Roofing Marketing Budget: Start From Your Revenue Goal - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Marketing Budget: Start From Your Revenue Goal. Roofing Marketing Budget: Start From Your Revenue Goal. Quick answer: Most published guidance says roofing companies spend 8% to 12% of revenue on…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-link-building-tips.png\":{\"title\":\"7 Tips for Link Building for Bathroom Remodelers - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Tips for Link Building for Bathroom Remodelers. 7 Tips for Link Building for Bathroom Remodelers. 7 link building tips help bathroom remodeling companies earn local backlinks: partner with home inspectors…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-remarketing-tips.png\":{\"title\":\"7 Tips for Bathroom Remodeling Remarketing - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Tips for Bathroom Remodeling Remarketing. 7 Tips for Bathroom Remodeling Remarketing. Most homeowners take weeks or months to compare bathroom designers, check tile samples, and secure financing…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-voice-search-optimization-tips.png\":{\"title\":\"7 Tips For Bathroom Remodeling Voice Search Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Tips For Bathroom Remodeling Voice Search Optimization. 7 Tips For Bathroom Remodeling Voice Search Optimization. Bathroom remodeling voice search optimization means writing your website, listings, and tracking…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-crm-automation-tips.png\":{\"title\":\"7 Tips for Bathroom Remodeling CRM Automation to Convert More Leads - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Tips for Bathroom Remodeling CRM Automation to Convert More Leads. 7 Tips for Bathroom Remodeling CRM Automation to Convert More Leads. Bathroom remodeling CRM automation is the system of automated software triggers, email…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-call-tracking-attribution-tips.png\":{\"title\":\"7 Tips For Bathroom Remodeling Call Tracking & Attribution - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Tips For Bathroom Remodeling Call Tracking & Attribution. 7 Tips For Bathroom Remodeling Call Tracking & Attribution. Call tracking and attribution systems help home improvement professionals connect incoming phone…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-bathroom-remodeling-email-marketing-agencies.png\":{\"title\":\"Choosing Bathroom Remodeling Email Marketing agency - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Bathroom Remodeling Email Marketing agency - A Practical Guide. Choosing Bathroom Remodeling Email Marketing agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-seo-tools.png\":{\"title\":\"Choosing SEO Tools and Technology for Bathroom Remodeling company in 2026 - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing SEO Tools and Technology for Bathroom Remodeling company in 2026 - A Practical Guide. Choosing SEO Tools and Technology for Bathroom Remodeling company in 2026 - A Practical Guide. Use this guide to compare scope, relevant experience…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--electrician-website-management-tips.png\":{\"title\":\"7 Practical Electrician Website Management Tips for More Booked Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Practical Electrician Website Management Tips for More Booked Jobs. 7 Practical Electrician Website Management Tips for More Booked Jobs. The 7 most useful electrician website management tips are: assign clear ownership of…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-business-profile-messaging.png\":{\"title\":\"Google Business Profile Messaging Is Back, and AI Answers First - Wonderweb Studio\",\"description\":\"Featured social preview for Google Business Profile Messaging Is Back, and AI Answers First. Google Business Profile Messaging Is Back, and AI Answers First. Google Business Profile messaging is coming back, and this time an AI agent answers…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--hvac-email-marketing-tips.png\":{\"title\":\"HVAC Email Marketing: Campaigns That Rebook Past Customers - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Email Marketing: Campaigns That Rebook Past Customers. HVAC Email Marketing: Campaigns That Rebook Past Customers. HVAC email marketing is a set of timed emails to your past customers that rebook tune-ups, renew…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--junk-removal-software-tools.png\":{\"title\":\"Junk Removal Software: The CRM and Scheduling Tools That Book More Pickups - Wonderweb Studio\",\"description\":\"Featured social preview for Junk Removal Software: The CRM and Scheduling Tools That Book More Pickups. Junk Removal Software: The CRM and Scheduling Tools That Book More Pickups. Junk removal software is the set of tools a junk removal company uses to quote…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--tree-service-software-tools.png\":{\"title\":\"Tree Service Software: The Tools a Tree Service Company Needs to Win More Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for Tree Service Software: The Tools a Tree Service Company Needs to Win More Jobs. Tree Service Software: The Tools a Tree Service Company Needs to Win More Jobs. Tree service software is the set of tools a tree service company uses to…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--electrician-google-business-profile-tips.png\":{\"title\":\"Google Business Profile for Electricians: 7 Fixes for the Problems Owners Keep Hitting - Wonderweb Studio\",\"description\":\"Featured social preview for Google Business Profile for Electricians: 7 Fixes for the Problems Owners Keep Hitting. Google Business Profile for Electricians: 7 Fixes for the Problems Owners Keep Hitting. A Google Business Profile for electricians brings in calls when it…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--pest-control-marketing-software-tools.png\":{\"title\":\"Pest Control Marketing Software: The Stack a Pest Control Company Needs to Fill Its Routes - Wonderweb Studio\",\"description\":\"Featured social preview for Pest Control Marketing Software: The Stack a Pest Control Company Needs to Fill Its Routes. Pest Control Marketing Software: The Stack a Pest Control Company Needs to Fill Its Routes. Pest control marketing software is the set of tools a pest…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--junk-removal-advertising-guide.png\":{\"title\":\"Junk Removal Advertising: The Channels That Fill the Truck and Book More Pickups - Wonderweb Studio\",\"description\":\"Featured social preview for Junk Removal Advertising: The Channels That Fill the Truck and Book More Pickups. Junk Removal Advertising: The Channels That Fill the Truck and Book More Pickups. Junk removal advertising is how a junk removal company reaches people who…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--garage-door-advertising-guide.png\":{\"title\":\"Garage Door Advertising: How a Garage Door Company Can Get More Service Calls - Wonderweb Studio\",\"description\":\"Featured social preview for Garage Door Advertising: How a Garage Door Company Can Get More Service Calls. Garage Door Advertising: How a Garage Door Company Can Get More Service Calls. Garage door advertising is how a garage door company reaches homeowners with…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--how-to-choose-a-handyman-marketing-agency.png\":{\"title\":\"Handyman Marketing Agency: How to Choose One That Brings in Real Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for Handyman Marketing Agency: How to Choose One That Brings in Real Jobs. Handyman Marketing Agency: How to Choose One That Brings in Real Jobs. A handyman marketing agency is a firm that runs search, ads, website and review work…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--how-to-choose-a-restoration-marketing-agency.png\":{\"title\":\"Restoration Marketing Agency: How to Choose One That Wins Emergency Calls - Wonderweb Studio\",\"description\":\"Featured social preview for Restoration Marketing Agency: How to Choose One That Wins Emergency Calls. Restoration Marketing Agency: How to Choose One That Wins Emergency Calls. A restoration marketing agency is a firm that runs search, ads, website and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--handyman-lead-generation-guide.png\":{\"title\":\"Handyman Lead Generation: How a Handyman Can Get Steady Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Handyman Lead Generation: How a Handyman Can Get Steady Leads. Handyman Lead Generation: How a Handyman Can Get Steady Leads. Handyman leads come from a handful of sources, and each suits a different kind of work. Some…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--garage-door-marketing-ideas.png\":{\"title\":\"Garage Door Marketing Ideas: 8 Ways a Garage Door Company Can Get More Calls - Wonderweb Studio\",\"description\":\"Featured social preview for Garage Door Marketing Ideas: 8 Ways a Garage Door Company Can Get More Calls. Garage Door Marketing Ideas: 8 Ways a Garage Door Company Can Get More Calls. Garage door marketing ideas are practical ways to get a garage door company in…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--restoration-marketing-ideas.png\":{\"title\":\"Restoration Marketing Ideas: 8 Ways a Restoration Company Can Win More Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for Restoration Marketing Ideas: 8 Ways a Restoration Company Can Win More Jobs. Restoration Marketing Ideas: 8 Ways a Restoration Company Can Win More Jobs. Restoration marketing ideas are practical ways to get a restoration company in…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-roofing-lead-generation-agencies-orlando.png\":{\"title\":\"Choosing Roofing Lead Generation agency in Orlando - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Roofing Lead Generation agency in Orlando - A Practical Guide. Choosing Roofing Lead Generation agency in Orlando - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-plumbing-lead-generation-agencies-chicago.png\":{\"title\":\"Choosing Plumbing Lead Generation agency in Chicago - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Plumbing Lead Generation agency in Chicago - A Practical Guide. Choosing Plumbing Lead Generation agency in Chicago - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-hvac-lead-generation-agencies-phoenix.png\":{\"title\":\"Choosing HVAC Lead Generation agency in Phoenix - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing HVAC Lead Generation agency in Phoenix - A Practical Guide. Choosing HVAC Lead Generation agency in Phoenix - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ai-mode-home-services-booking.png\":{\"title\":\"Google AI Mode Adds Home Services Booking: What Pros Should Do - Wonderweb Studio\",\"description\":\"Featured social preview for Google AI Mode Adds Home Services Booking: What Pros Should Do. Google AI Mode Adds Home Services Booking: What Pros Should Do. A homeowner who asks AI Mode for a plumber can now get a button to call, book or request a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--fence-company-software-tools.png\":{\"title\":\"Fence Company Software: 6 Tools That Book More Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for Fence Company Software: 6 Tools That Book More Jobs. Fence Company Software: 6 Tools That Book More Jobs. Fence company software starts with three tools. You need a job management app such as Jobber or…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--handyman-website-builder-tools.png\":{\"title\":\"Handyman Website Builder: 6 Tools Compared for Small Crews - Wonderweb Studio\",\"description\":\"Featured social preview for Handyman Website Builder: 6 Tools Compared for Small Crews. Handyman Website Builder: 6 Tools Compared for Small Crews. A handyman website builder is enough for a one-van crew, and you can start with a free plan…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--appliance-repair-ppc-tips.png\":{\"title\":\"10 Appliance Repair PPC Tips to Book More Calls - Wonderweb Studio\",\"description\":\"Featured social preview for 10 Appliance Repair PPC Tips to Book More Calls. 10 Appliance Repair PPC Tips to Book More Calls. Appliance repair PPC works best when each appliance gets its own campaign, junk searches are blocked on day…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--home-builder-ppc-tips.png\":{\"title\":\"Home Builder PPC Tips: 10 Ways to Cut Wasted Clicks - Wonderweb Studio\",\"description\":\"Featured social preview for Home Builder PPC Tips: 10 Ways to Cut Wasted Clicks. Home Builder PPC Tips: 10 Ways to Cut Wasted Clicks. Home builder PPC works best when you track calls first, target only the towns you build in and read the…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--plumbing-scheduling-software-tools.png\":{\"title\":\"Plumbing Scheduling Software: 6 Tools and What They Cost - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing Scheduling Software: 6 Tools and What They Cost. Plumbing Scheduling Software: 6 Tools and What They Cost. Plumbing scheduling software should put every call, tech and invoice on one calendar. Start with a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--dumpster-rental-software-tools.png\":{\"title\":\"Dumpster Rental Software: 6 Tools for Dispatch, Billing and Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Dumpster Rental Software: 6 Tools for Dispatch, Billing and Leads. Dumpster Rental Software: 6 Tools for Dispatch, Billing and Leads. Dumpster rental software starts with dispatch, billing and a lead source. Roll-off…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--gutter-software-tools.png\":{\"title\":\"Gutter Software: Tools for Quotes, Measurements and Crews - Wonderweb Studio\",\"description\":\"Featured social preview for Gutter Software: Tools for Quotes, Measurements and Crews. Gutter Software: Tools for Quotes, Measurements and Crews. Gutter software comes down to three jobs: measure the house, send the quote and book the crew. A…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--property-management-crm-tools.png\":{\"title\":\"Property Management CRM: Five Tools for Owner and Tenant Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Property Management CRM: Five Tools for Owner and Tenant Leads. Property Management CRM: Five Tools for Owner and Tenant Leads. A property management CRM should hold two lead lists: property owners who might hire you…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-cost-bathroom-remodeling.png\":{\"title\":\"Google Ads Cost for Bathroom Remodelers in 2026: Real Benchmarks & Budget Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads Cost for Bathroom Remodelers in 2026: Real Benchmarks & Budget Guide. Google Ads Cost for Bathroom Remodelers in 2026: Real Benchmarks & Budget Guide. The bathroom remodeling industry is one of the most competitive local…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--plumbing-meta-ads-cost.png\":{\"title\":\"Plumbing Meta Ads Cost: What Every Plumber Should Know Before Running Facebook & Instagram Campaigns - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing Meta Ads Cost: What Every Plumber Should Know Before Running Facebook & Instagram Campaigns. Plumbing Meta Ads Cost: What Every Plumber Should Know Before Running Facebook & Instagram Campaigns. The first question most plumbing business owners ask…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--electrician-meta-ads-cost.png\":{\"title\":\"Electrician Meta Ads Cost: What Your Electrical Business Should Actually Pay in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Meta Ads Cost: What Your Electrical Business Should Actually Pay in 2026. Electrician Meta Ads Cost: What Your Electrical Business Should Actually Pay in 2026. If you are looking for a baseline, here are the industry averages for…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--hvac-meta-ads-cost.png\":{\"title\":\"HVAC Meta Ads Cost: What You Need to Know to Maximize Your ROI - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Meta Ads Cost: What You Need to Know to Maximize Your ROI. HVAC Meta Ads Cost: What You Need to Know to Maximize Your ROI. Let’s get straight to the numbers. While search ads like Google Ads or Google Local Services…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-meta-ads-cost.png\":{\"title\":\"Roofing Meta Ads Cost: How Much You Should Really Spend on Facebook Ads & Instagram Campaigns - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Meta Ads Cost: How Much You Should Really Spend on Facebook Ads & Instagram Campaigns. Roofing Meta Ads Cost: How Much You Should Really Spend on Facebook Ads & Instagram Campaigns. Many roofers dive into Facebook ads and Instagram advertising…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--kitchen-remodeling-meta-ads-cost.png\":{\"title\":\"How Much Do Kitchen Remodeling Meta Ads Cost in 2026? - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Do Kitchen Remodeling Meta Ads Cost in 2026?. How Much Do Kitchen Remodeling Meta Ads Cost in 2026?. For home improvement contractors, finding high-quality leads is often the hardest part of the job…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--home-inspection-meta-ads-cost.png\":{\"title\":\"Breaking Down Home Inspection Meta Ads Cost: Pricing and Budgets for 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for Breaking Down Home Inspection Meta Ads Cost: Pricing and Budgets for 2026. Breaking Down Home Inspection Meta Ads Cost: Pricing and Budgets for 2026. If you run a home inspection business or a contracting firm that works closely…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--plumbing-web-design-cost.png\":{\"title\":\"How Much Does Plumbing Web Design Cost in 2026? (Complete Guide) - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Plumbing Web Design Cost in 2026? (Complete Guide). How Much Does Plumbing Web Design Cost in 2026? (Complete Guide). If you own a plumbing business, you already know that the days of relying solely on the…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-for-landscapers-guide.png\":{\"title\":\"Google Ads for Landscapers: The Step-by-Step Guide to Booking More Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads for Landscapers: The Step-by-Step Guide to Booking More Jobs. Google Ads for Landscapers: The Step-by-Step Guide to Booking More Jobs. Are you tired of seeing your competitors’ trucks parked in the exact neighborhoods…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-for-bathroom-remodelers-guide.png\":{\"title\":\"Google Ads for Bathroom Remodelers: A Practical Guide to Generate More Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads for Bathroom Remodelers: A Practical Guide to Generate More Leads. Google Ads for Bathroom Remodelers: A Practical Guide to Generate More Leads. Bathroom remodeling is a high-intent purchase. When someone types \\\"bathroom…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--home-inspection-website-design-guide.png\":{\"title\":\"Home Inspection Website Design Guide 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspection Website Design Guide 2026. Home Inspection Website Design Guide 2026. Your home inspection website works while you sleep. It answers questions at midnight, builds trust during lunch…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-lead-generation-cost.png\":{\"title\":\"Bathroom Remodeling Lead Generation Cost - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Lead Generation Cost. Bathroom Remodeling Lead Generation Cost. Evaluating your bathroom remodeling lead generation cost requires tracking the exact financial input needed to…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--crm-automation-agencies-remodelers-compared.png\":{\"title\":\"Choosing CRM Automation agency for Remodelers - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing CRM Automation agency for Remodelers - A Practical Guide. Choosing CRM Automation agency for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--painting-estimating-software-tools.png\":{\"title\":\"Painting Estimating Software: 8 Tools for Faster, Cleaner Bids - Wonderweb Studio\",\"description\":\"Featured social preview for Painting Estimating Software: 8 Tools for Faster, Cleaner Bids. Painting Estimating Software: 8 Tools for Faster, Cleaner Bids. Painting estimating software turns a walkthrough into a priced proposal, and the right one…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--landscaping-software-tools.png\":{\"title\":\"Landscaping Software: 6 Tools by Job Type and Price - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping Software: 6 Tools by Job Type and Price. Landscaping Software: 6 Tools by Job Type and Price. Landscaping software has to do three jobs: price the work, schedule the crew and get paid. Small crews…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--plumbing-software-tools.png\":{\"title\":\"Plumbing Software: 7 Tools Compared by Price and Job Limits - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing Software: 7 Tools Compared by Price and Job Limits. Plumbing Software: 7 Tools Compared by Price and Job Limits. Plumbing software is priced three ways, and the way you pay matters more than the headline…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--mold-remediation-software-tools.png\":{\"title\":\"Mold Remediation Software: Reports, Scheduling and Billing Tools - Wonderweb Studio\",\"description\":\"Featured social preview for Mold Remediation Software: Reports, Scheduling and Billing Tools. Mold Remediation Software: Reports, Scheduling and Billing Tools. Mold remediation software has to produce a record you can defend: photos, readings, scope…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--kitchen-remodeling-software-tools.png\":{\"title\":\"Kitchen Remodeling Software: 6 Tools for Design, Selections, Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling Software: 6 Tools for Design, Selections, Leads. Kitchen Remodeling Software: 6 Tools for Design, Selections, Leads. Kitchen remodeling software works best as a short chain: a design tool, a selections and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--moving-company-crm-tools.png\":{\"title\":\"Moving Company CRM: Six Tools That Speed Up Lead Follow-Up - Wonderweb Studio\",\"description\":\"Featured social preview for Moving Company CRM: Six Tools That Speed Up Lead Follow-Up. Moving Company CRM: Six Tools That Speed Up Lead Follow-Up. A moving company CRM should log every quote request, remind your team to follow up and show…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-roofers-tips.png\":{\"title\":\"7 Practical Google Ads Tips for Roofers to Stop Wasting Budget - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Practical Google Ads Tips for Roofers to Stop Wasting Budget. 7 Practical Google Ads Tips for Roofers to Stop Wasting Budget. Watching your marketing budget drain from clicks that never turn into roof inspections is…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--carpet-cleaning-seo-tips.png\":{\"title\":\"7 Carpet Cleaning SEO Tips to Book More Local Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Carpet Cleaning SEO Tips to Book More Local Jobs. 7 Carpet Cleaning SEO Tips to Book More Local Jobs. Carpet cleaning SEO services focuses on optimizing your website and Google Business Profile to rank in…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-house-cleaning-seo-agencies.png\":{\"title\":\"Choosing SEO agency for House Cleaners - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing SEO agency for House Cleaners - A Practical Guide. Choosing SEO agency for House Cleaners - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--appliance-repair-website-maintenance-cost.png\":{\"title\":\"How Much Does Appliance Repair Website Maintenance Cost in 2026? - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Appliance Repair Website Maintenance Cost in 2026?. How Much Does Appliance Repair Website Maintenance Cost in 2026?. Professional appliance repair website maintenance costs range between $100 and $1,500+ per…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--carpet-cleaning-lead-generation-tips.png\":{\"title\":\"Carpet Cleaning Lead Generation: 7 Strategies to Get More Booked Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for Carpet Cleaning Lead Generation: 7 Strategies to Get More Booked Jobs. Carpet Cleaning Lead Generation: 7 Strategies to Get More Booked Jobs. The best carpet cleaning lead generation strategy combines Google Local Services Ads…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-home-services-private-equity-seo-agencies.png\":{\"title\":\"Choosing Home Services Private Equity SEO agency - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Home Services Private Equity SEO agency - A Practical Guide. Choosing Home Services Private Equity SEO agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--seo-tips-home-services-private-equity.png\":{\"title\":\"7 SEO Tips for Home Service Private Equity Firms - Wonderweb Studio\",\"description\":\"Featured social preview for 7 SEO Tips for Home Service Private Equity Firms. 7 SEO Tips for Home Service Private Equity Firms. Scaling SEO for home services private equity requires standardizing Google Business Profiles, executing…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-tips-pool-cleaners.png\":{\"title\":\"7 Tips for Google Ads for Pool Cleaners - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Tips for Google Ads for Pool Cleaners. 7 Tips for Google Ads for Pool Cleaners. The fastest way to get pool cleaning leads from Google Ads is by targeting high-intent local keywords and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--seo-agency-septic-companies.png\":{\"title\":\"SEO Agency for Septic Companies: 8 Vetted Criteria - Wonderweb Studio\",\"description\":\"Featured social preview for SEO Agency for Septic Companies: 8 Vetted Criteria. SEO Agency for Septic Companies: 8 Vetted Criteria. Finding the right SEO agency for septic companies requires understanding the unique mechanics of the…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-siding-companies-tactics.png\":{\"title\":\"Google Ads for Siding Companies: Lower Cost Per Lead - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads for Siding Companies: Lower Cost Per Lead. Google Ads for Siding Companies: Lower Cost Per Lead. Running Google Ads for siding companies requires a strategic approach that prevents wasted ad spend on…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-management-cost-remodeling-companies.png\":{\"title\":\"Choosing Website Management Cost for Remodeling company Guide - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Website Management Cost for Remodeling company Guide - A Practical Guide. Choosing Website Management Cost for Remodeling company Guide - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-remodeler-lead-generation-companies-compared.png\":{\"title\":\"Choosing Lead Generation company for Remodeling Contractors - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Lead Generation company for Remodeling Contractors - A Practical Guide. Choosing Lead Generation company for Remodeling Contractors - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-digital-marketing-cost.png\":{\"title\":\"Choosing How Much Does Digital Marketing Cost for Remodeling company? 2027 Pricing Guide - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing How Much Does Digital Marketing Cost for Remodeling company? 2027 Pricing Guide - A Practical Guide. Choosing How Much Does Digital Marketing Cost for Remodeling company? 2027 Pricing Guide - A Practical Guide. Use this guide to compare scope, relevant…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-remodeling-digital-marketing-agencies-compared.png\":{\"title\":\"Choosing Digital Marketing agency for Remodeling company - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Digital Marketing agency for Remodeling company - A Practical Guide. Choosing Digital Marketing agency for Remodeling company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-remarketing-cost.png\":{\"title\":\"How Much Does Remarketing Cost for Remodeling Companies? 2027 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Remarketing Cost for Remodeling Companies? 2027 Pricing Guide. How Much Does Remarketing Cost for Remodeling Companies? 2027 Pricing Guide. Most remodeling contractors spend between $500 and $2,500 per month on ad spend…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--crm-automation-providers-remodelers-compared.png\":{\"title\":\"Choosing CRM Automation partner for Remodelers - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing CRM Automation partner for Remodelers - A Practical Guide. Choosing CRM Automation partner for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--call-tracking-attribution-providers-remodelers.png\":{\"title\":\"Choosing Call Tracking and Attribution partner for Remodelers - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Call Tracking and Attribution partner for Remodelers - A Practical Guide. Choosing Call Tracking and Attribution partner for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-marketing-tech-stack-tools.png\":{\"title\":\"The 2027 Remodeling Marketing Tech Stack: Tools That Actually Move Revenue - Wonderweb Studio\",\"description\":\"Featured social preview for The 2027 Remodeling Marketing Tech Stack: Tools That Actually Move Revenue. The 2027 Remodeling Marketing Tech Stack: Tools That Actually Move Revenue. You need qualified kitchen and bathroom contracts on your calendar, not vanity…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-website-build-tools.png\":{\"title\":\"7 Website Build Tools Remodeling Companies Should Use in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Website Build Tools Remodeling Companies Should Use in 2026. 7 Website Build Tools Remodeling Companies Should Use in 2026. The best website build tools for remodeling companies are WordPress, Cloudflare, Elementor…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-website-management-cost.png\":{\"title\":\"How Much Does Website Management Cost for Roofing Companies? 2027 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Website Management Cost for Roofing Companies? 2027 Pricing Guide. How Much Does Website Management Cost for Roofing Companies? 2027 Pricing Guide. Website management for residential and commercial roofing contractors…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--content-marketing-tips-roofing-companies.png\":{\"title\":\"Choosing Content Marketing Tips Roofing company Use to Book More Jobs - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Content Marketing Tips Roofing company Use to Book More Jobs - A Practical Guide. Choosing Content Marketing Tips Roofing company Use to Book More Jobs - A Practical Guide. Use this guide to compare scope, relevant experience, ownership…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-content-marketing-agencies-compared.png\":{\"title\":\"Choosing Content Marketing agency for Roofing company - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Content Marketing agency for Roofing company - A Practical Guide. Choosing Content Marketing agency for Roofing company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-google-business-profile-management-cost.png\":{\"title\":\"Choosing Google Business Profile Management Cost for Roofing company - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Google Business Profile Management Cost for Roofing company - A Practical Guide. Choosing Google Business Profile Management Cost for Roofing company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-local-services-ads-tips-roofing.png\":{\"title\":\"7 Google Local Services Ads Tips That Cut Cost Per Lead for Roofing Companies - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Google Local Services Ads Tips That Cut Cost Per Lead for Roofing Companies. 7 Google Local Services Ads Tips That Cut Cost Per Lead for Roofing Companies. Google Local Services Ads operate on a pay-per-lead model for residential and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-remarketing-tips-proven-retargeting-strategies-for-contractors.png\":{\"title\":\"Roofing Remarketing Tips: Proven Retargeting Strategies for Companies - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Remarketing Tips: Proven Retargeting Strategies for Companies. Roofing Remarketing Tips: Proven Retargeting Strategies for Companies. Roofing remarketing reconnects with property owners who browse your web pages without…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-technical-seo-tips.png\":{\"title\":\"7 Technical SEO Tips for Roofing Companies - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Technical SEO Tips for Roofing Companies. 7 Technical SEO Tips for Roofing Companies. Technical SEO for roofers involves optimizing website infrastructure to help search engines crawl and index…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-voice-search-optimization-tips-for-local-contractors.png\":{\"title\":\"Roofing Voice Search Optimization Tips for Local Companies - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Voice Search Optimization Tips for Local Companies. Roofing Voice Search Optimization Tips for Local Companies. Roofing voice search optimization is the digital marketing practice of adapting website content…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-listing-management-cost-agency-pricing-comparison.png\":{\"title\":\"Choosing Roofing Listing Management Cost - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Roofing Listing Management Cost - A Practical Guide. Choosing Roofing Listing Management Cost - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-crm-automation-cost-complete-pricing-agency-breakdown.png\":{\"title\":\"Choosing Roofing CRM Automation Cost - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Roofing CRM Automation Cost - A Practical Guide. Choosing Roofing CRM Automation Cost - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-bathroom-remodeling-content-marketing-agencies.png\":{\"title\":\"Choosing Bathroom Remodeling Content Marketing agency - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Bathroom Remodeling Content Marketing agency - A Practical Guide. Choosing Bathroom Remodeling Content Marketing agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-bathroom-remodeling-meta-ads-agencies.png\":{\"title\":\"Choosing Bathroom Remodeling Meta Ads agency company - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Bathroom Remodeling Meta Ads agency company - A Practical Guide. Choosing Bathroom Remodeling Meta Ads agency company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-reputation-management-tips.png\":{\"title\":\"7 Reputation Management Tips for Bathroom Remodeling Companies - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Reputation Management Tips for Bathroom Remodeling Companies. 7 Reputation Management Tips for Bathroom Remodeling Companies. Consistent business details across directories support all of this, which is the focus of…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-listing-management-tips.png\":{\"title\":\"7 Tips for Bathroom Remodeling Listing Management - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Tips for Bathroom Remodeling Listing Management. 7 Tips for Bathroom Remodeling Listing Management. Bathroom remodeling listing management is the work of keeping your business name, address, and phone…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-email-marketing-tips.png\":{\"title\":\"7 Tips For Bathroom Remodeling Email Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Tips For Bathroom Remodeling Email Marketing. 7 Tips For Bathroom Remodeling Email Marketing. Effective bathroom remodeling email marketing tips help home service business owners turn cold estimate…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-website-build-tools.png\":{\"title\":\"Choosing Website Build Tools and Technology for Bathroom Remodeling company in 2026 - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Website Build Tools and Technology for Bathroom Remodeling company in 2026 - A Practical Guide. Choosing Website Build Tools and Technology for Bathroom Remodeling company in 2026 - A Practical Guide. Use this guide to compare scope, relevant…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-keywords.png\":{\"title\":\"Roofing Keywords: What Homeowners Search and Which Ones Book Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Keywords: What Homeowners Search and Which Ones Book Jobs. Roofing Keywords: What Homeowners Search and Which Ones Book Jobs. Roofing keywords are the phrases homeowners and building managers type when they need a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--how-to-get-painting-leads.png\":{\"title\":\"How to Get Painting Leads - Wonderweb Studio\",\"description\":\"Featured social preview for How to Get Painting Leads. How to Get Painting Leads. Start with the free sources, add Google Ads on repaint searches, and buy leads only when the price is below what your close rate…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--handyman-software-tools.png\":{\"title\":\"Handyman Software: The Tools Every Handyman Business Needs to Book More Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for Handyman Software: The Tools Every Handyman Business Needs to Book More Jobs. Handyman Software: The Tools Every Handyman Business Needs to Book More Jobs. Handyman software is the set of tools a handyman business uses to quote jobs…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--garage-door-software-tools.png\":{\"title\":\"Garage Door Software: The Tools a Garage Door Company Needs to Answer Every Call - Wonderweb Studio\",\"description\":\"Featured social preview for Garage Door Software: The Tools a Garage Door Company Needs to Answer Every Call. Garage Door Software: The Tools a Garage Door Company Needs to Answer Every Call. Garage door software is the set of tools a garage door company uses to…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--pest-control-reputation-software-tools.png\":{\"title\":\"Pest Control Reputation Management Software: What a Pest Control Company Needs to Earn More Reviews - Wonderweb Studio\",\"description\":\"Featured social preview for Pest Control Reputation Management Software: What a Pest Control Company Needs to Earn More Reviews. Pest Control Reputation Management Software: What a Pest Control Company Needs to Earn More Reviews. Pest control reputation management software is the set…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--moving-company-advertising-guide.png\":{\"title\":\"Moving Company Advertising: How a Mover Can Book More Moves - Wonderweb Studio\",\"description\":\"Featured social preview for Moving Company Advertising: How a Mover Can Book More Moves. Moving Company Advertising: How a Mover Can Book More Moves. Moving company advertising is how a mover reaches people who are planning a local or long…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--how-to-choose-a-tree-service-marketing-agency.png\":{\"title\":\"Tree Service Marketing Agency: How to Choose One That Wins Estimates - Wonderweb Studio\",\"description\":\"Featured social preview for Tree Service Marketing Agency: How to Choose One That Wins Estimates. Tree Service Marketing Agency: How to Choose One That Wins Estimates. A tree service marketing agency is a firm that runs search, ads, website and review…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--how-to-choose-a-junk-removal-marketing-agency.png\":{\"title\":\"Junk Removal Marketing Agency: How to Choose One That Fills the Truck - Wonderweb Studio\",\"description\":\"Featured social preview for Junk Removal Marketing Agency: How to Choose One That Fills the Truck. Junk Removal Marketing Agency: How to Choose One That Fills the Truck. A junk removal marketing agency is a firm that runs search, ads, website and review…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--how-to-choose-a-gutter-marketing-agency.png\":{\"title\":\"Gutter Marketing Agency: How to Choose One That Brings in Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for Gutter Marketing Agency: How to Choose One That Brings in Jobs. Gutter Marketing Agency: How to Choose One That Brings in Jobs. A gutter marketing agency is a firm that runs search, ads, website and review work for…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--garage-door-lead-generation-guide.png\":{\"title\":\"Garage Door Lead Generation: How a Garage Door Company Can Get Steady Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Garage Door Lead Generation: How a Garage Door Company Can Get Steady Leads. Garage Door Lead Generation: How a Garage Door Company Can Get Steady Leads. Garage door lead generation is the work of bringing in a steady flow of people…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--carpet-cleaning-marketing-ideas.png\":{\"title\":\"Carpet Cleaning Marketing Ideas: 8 Ways to Fill Your Calendar - Wonderweb Studio\",\"description\":\"Featured social preview for Carpet Cleaning Marketing Ideas: 8 Ways to Fill Your Calendar. Carpet Cleaning Marketing Ideas: 8 Ways to Fill Your Calendar. Carpet cleaning marketing ideas are practical ways to get a carpet cleaning company in front…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--tree-service-marketing-ideas.png\":{\"title\":\"Tree Service Marketing Ideas: 8 Ways a Tree Company Can Win More Estimates - Wonderweb Studio\",\"description\":\"Featured social preview for Tree Service Marketing Ideas: 8 Ways a Tree Company Can Win More Estimates. Tree Service Marketing Ideas: 8 Ways a Tree Company Can Win More Estimates. Tree service marketing ideas are practical ways to get a tree company in front…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-hvac-seo-agencies-dallas.png\":{\"title\":\"Choosing HVAC SEO agency in Dallas - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing HVAC SEO agency in Dallas - A Practical Guide. Choosing HVAC SEO agency in Dallas - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-roofing-seo-agencies-phoenix.png\":{\"title\":\"Choosing Roofing SEO agency in Phoenix - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Roofing SEO agency in Phoenix - A Practical Guide. Choosing Roofing SEO agency in Phoenix - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-maps-message-button.png\":{\"title\":\"Google Maps Message Button Now Sits Next to Call: What Home Service Businesses Should Do - Wonderweb Studio\",\"description\":\"Featured social preview for Google Maps Message Button Now Sits Next to Call: What Home Service Businesses Should Do. Google Maps Message Button Now Sits Next to Call: What Home Service Businesses Should Do. The Google Maps message button now appears next to Call on Android…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--drywall-software-tools.png\":{\"title\":\"Drywall Software: 10 Tools for Drywall Contractors - Wonderweb Studio\",\"description\":\"Featured social preview for Drywall Software: 10 Tools for Drywall Contractors. Drywall Software: 10 Tools for Drywall Contractors. Drywall software works best as a short stack: a job app, an estimate app and a free search presence…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--the-best-3-review-sites-for-remodelers-and-one-to-avoid.png\":{\"title\":\"Remodelers' Guide: Top 3 Review Sites and One to Steer Clear Of - Wonderweb Studio\",\"description\":\"Featured social preview for Remodelers' Guide: Top 3 Review Sites and One to Steer Clear Of. Remodelers' Guide: Top 3 Review Sites and One to Steer Clear Of. You know that your reputation is key to growing your remodeling business. If you ask your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-speed-suggestions.png\":{\"title\":\"How to Speed Up Your Contractor Website in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for How to Speed Up Your Contractor Website in 2026. How to Speed Up Your Contractor Website in 2026. A contractor website should load its main content in under 2.5 seconds on a phone. That is Google's target…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--6-cybersecurity-tips-for-remodeling-businesses.png\":{\"title\":\"6 Key Cybersecurity Measures Every Remodeling Businesses Needs - Wonderweb Studio\",\"description\":\"Featured social preview for 6 Key Cybersecurity Measures Every Remodeling Businesses Needs. 6 Key Cybersecurity Measures Every Remodeling Businesses Needs. Hacks of remodeling businesses are on the rise. In fact, small businesses experienced an…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--home-builder-software-tools.png\":{\"title\":\"Home Builder Software: 7 Tools Compared for Builders - Wonderweb Studio\",\"description\":\"Featured social preview for Home Builder Software: 7 Tools Compared for Builders. Home Builder Software: 7 Tools Compared for Builders. Home builder software starts with a project management tool, then adds a website and Google tools that…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--flooring-software-tools.png\":{\"title\":\"Flooring Software: 5 Tools for Quotes, Jobs and Reviews - Wonderweb Studio\",\"description\":\"Featured social preview for Flooring Software: 5 Tools for Quotes, Jobs and Reviews. Flooring Software: 5 Tools for Quotes, Jobs and Reviews. Flooring software starts with a quote app, a review tool and a free map listing. Jobber lists $49 a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--pool-builder-leads-cost.png\":{\"title\":\"Pool Builder Lead Generation Cost: A Pricing Guide for 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for Pool Builder Lead Generation Cost: A Pricing Guide for 2026. Pool Builder Lead Generation Cost: A Pricing Guide for 2026. Pool projects are large and rare, so a pool builder pays for fewer leads than most trades. A…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--pool-service-software-tools.png\":{\"title\":\"Pool Service Software: 8 Tools for Routes, Billing and Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Pool Service Software: 8 Tools for Routes, Billing and Leads. Pool Service Software: 8 Tools for Routes, Billing and Leads. Pool service software does three jobs: run the route, bill the customer and bring in new…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--hvac-software-tools.png\":{\"title\":\"HVAC Software: 7 Tools Compared by the Job They Do - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Software: 7 Tools Compared by the Job They Do. HVAC Software: 7 Tools Compared by the Job They Do. HVAC software works best when you buy it in three layers: field service, books and a way to get found. A…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--electrician-crm-tools.png\":{\"title\":\"Electrician CRM: 7 Tools Compared by Shop Size - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician CRM: 7 Tools Compared by Shop Size. Electrician CRM: 7 Tools Compared by Shop Size. An electrician CRM should record every lead, estimate and follow-up in one place. Start with a free sales…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--concrete-contractor-software-tools.png\":{\"title\":\"Concrete Contractor Software: Bids, Pours and Crew Tools - Wonderweb Studio\",\"description\":\"Featured social preview for Concrete Contractor Software: Bids, Pours and Crew Tools. Concrete Contractor Software: Bids, Pours and Crew Tools. Concrete contractor software has to cover four jobs: measure, bid, schedule the pour and bill. Use…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--dumpster-rental-crm-tools.png\":{\"title\":\"Dumpster Rental CRM: 6 Tools That Stop Quotes Going Cold - Wonderweb Studio\",\"description\":\"Featured social preview for Dumpster Rental CRM: 6 Tools That Stop Quotes Going Cold. Dumpster Rental CRM: 6 Tools That Stop Quotes Going Cold. A dumpster rental CRM only has to do one thing well: make sure no call or quote request goes cold…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--property-management-software-tools.png\":{\"title\":\"Property Management Software: Seven Tools Priced by Unit - Wonderweb Studio\",\"description\":\"Featured social preview for Property Management Software: Seven Tools Priced by Unit. Property Management Software: Seven Tools Priced by Unit. Property management software runs rent, leases, maintenance and accounting, and the right pick…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--electrician-software-tools.png\":{\"title\":\"Electrician Software: 7 Tools for Service Calls and Project Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Software: 7 Tools for Service Calls and Project Jobs. Electrician Software: 7 Tools for Service Calls and Project Jobs. Electrician software splits into two camps: apps built for service calls and apps built…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--landscaping-crm-tools.png\":{\"title\":\"Landscaping CRM: 6 Tools to Track Leads and Repeat Work - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping CRM: 6 Tools to Track Leads and Repeat Work. Landscaping CRM: 6 Tools to Track Leads and Repeat Work. A landscaping CRM should track every lead, bid and repeat customer in one place. Start with a free…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-software-tools.png\":{\"title\":\"Bathroom Remodeling Software: 6 Tools for Trades, Photos, Pay - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Software: 6 Tools for Trades, Photos, Pay. Bathroom Remodeling Software: 6 Tools for Trades, Photos, Pay. Bathroom remodeling software should track the lead, schedule the trades and prove the hidden…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--carpet-cleaning-software-tools.png\":{\"title\":\"Carpet Cleaning Software: 8 Tools for Booking, Crews and Pay - Wonderweb Studio\",\"description\":\"Featured social preview for Carpet Cleaning Software: 8 Tools for Booking, Crews and Pay. Carpet Cleaning Software: 8 Tools for Booking, Crews and Pay. Carpet cleaning software has to book the job, send the crew and collect payment, and most…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--4-ways-call-centers-benefit-home-services-businesses.png\":{\"title\":\"4 Ways Call Centers Improve Home Services Success - Wonderweb Studio\",\"description\":\"Featured social preview for 4 Ways Call Centers Improve Home Services Success. 4 Ways Call Centers Improve Home Services Success. Below are some of the biggest advantages of using a professional call center for your remodeling…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--meet-the-team-pages-allowing-your-clients-to-put-faces-to-names.png\":{\"title\":\"Meet the Team: The People Powering Our Success - Wonderweb Studio\",\"description\":\"Featured social preview for Meet the Team: The People Powering Our Success. Meet the Team: The People Powering Our Success. In the digital era, it can be hard to add that personal touch to your first interaction with a prospective…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--local-seo-best-practices-boosting-your-home-improvement-business-with-built-right-digital.png\":{\"title\":\"Local SEO for Home Improvement: 7 Steps to Win the Map Pack - Wonderweb Studio\",\"description\":\"Featured social preview for Local SEO for Home Improvement: 7 Steps to Win the Map Pack. Local SEO for Home Improvement: 7 Steps to Win the Map Pack. Local SEO for home improvement comes down to 7 steps: complete your Google Business Profile…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--seo-cost-small-businesses.png\":{\"title\":\"How Much Does SEO Cost for a Small Business in 2026? - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does SEO Cost for a Small Business in 2026?. How Much Does SEO Cost for a Small Business in 2026?. For small businesses in 2026, standing out online is more important than ever. Search visibility can…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-marketing-ideas.png\":{\"title\":\"17 Roofing Marketing Ideas for Better-Fit Inquiries - Wonderweb Studio\",\"description\":\"Featured social preview for 17 Roofing Marketing Ideas for Better-Fit Inquiries. Explore seventeen practical roofing marketing ideas, with service-specific examples, project evidence, campaign decisions and better inquiry follow-up.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--how-get-commercial-roofing-leads.png\":{\"title\":\"How to Get Commercial Roofing Leads in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for How to Get Commercial Roofing Leads in 2026. How to Get Commercial Roofing Leads in 2026. Commercial roofing leads are a different game than residential. You’re not reaching a homeowner ready to buy…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--hvac-marketing-ideas.png\":{\"title\":\"HVAC Marketing Ideas That Actually Book Jobs in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Marketing Ideas That Actually Book Jobs in 2026. HVAC Marketing Ideas That Actually Book Jobs in 2026. Digital marketing for an HVAC company comes down to 12 online ideas, from the map pack to your inbox…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--plumbing-seo-cost.png\":{\"title\":\"Plumbing SEO Cost: How Much Does It Cost? - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing SEO Cost: How Much Does It Cost?. Plumbing SEO Cost: How Much Does It Cost?. SEO helps your plumbing business rank higher on Google, making it easier for customers to find you when they…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-cost-for-home-services.png\":{\"title\":\"How Much Does Google Ads Cost For Home Services? (A Step-by-Step Guide) - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Google Ads Cost For Home Services? (A Step-by-Step Guide). How Much Does Google Ads Cost For Home Services? (A Step-by-Step Guide). First, understand that Google Ads primarily operates on a Pay-Per-Click (PPC)…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--hvac-seo-tips.png\":{\"title\":\"11 HVAC SEO Tips to Attract More Customers in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for 11 HVAC SEO Tips to Attract More Customers in 2026. 11 HVAC SEO Tips to Attract More Customers in 2026. Are you struggling with online visibility? Customers search for services like repairs or installations…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-seo-tips.png\":{\"title\":\"13 SEO Tips For Roofing Companies in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for 13 SEO Tips For Roofing Companies in 2026. 13 SEO Tips For Roofing Companies in 2026. Relevant keywords are the phrases homeowners type into search engines, like “emergency roof repair” or “shingle…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--electrician-marketing-ideas.png\":{\"title\":\"Electrician Advertising & Marketing Ideas That Get You More Calls - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Advertising & Marketing Ideas That Get You More Calls. Electrician Advertising & Marketing Ideas That Get You More Calls. Your Google Business Profile (GBP) is your digital calling card, appearing in local…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--hvac-seo-cost.png\":{\"title\":\"How Much Does HVAC SEO Cost? 2026 Pricing for HVAC Companies - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does HVAC SEO Cost? 2026 Pricing for HVAC Companies. How Much Does HVAC SEO Cost? 2026 Pricing for HVAC Companies. HVAC SEO cost runs $1,000 to $5,000 a month for most HVAC companies. One-time projects like a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--plumbing-marketing-ideas.png\":{\"title\":\"Top Plumbing Marketing Ideas to Grow Your Business Fast - Wonderweb Studio\",\"description\":\"Featured social preview for Top Plumbing Marketing Ideas to Grow Your Business Fast. Top Plumbing Marketing Ideas to Grow Your Business Fast. If your plumbing vans are sitting idle, or if you rely too heavily on word-of-mouth in a highly…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--web-design-trends-for-bathroom-remodelers.png\":{\"title\":\"13 Web Design Trends For Bathroom Remodelers - Wonderweb Studio\",\"description\":\"Featured social preview for 13 Web Design Trends For Bathroom Remodelers. 13 Web Design Trends For Bathroom Remodelers. Designers implement minimalist layouts to highlight your bathroom remodeling services portfolio without…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--how-get-kitchen-remodeling-leads.png\":{\"title\":\"How to Get Kitchen Remodeling Leads in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for How to Get Kitchen Remodeling Leads in 2026. How to Get Kitchen Remodeling Leads in 2026. Do you run a kitchen remodeling business but struggle to find steady leads? Potential clients search for ideas…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-marketing-ideas.png\":{\"title\":\"Bathroom Remodeling Marketing: 14 Strategies to Fill Your Calendar - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Marketing: 14 Strategies to Fill Your Calendar. Bathroom Remodeling Marketing: 14 Strategies to Fill Your Calendar. More homeowners want to stay in their homes as they age. This creates steady demand for…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--kitchen-remodeling-marketing-ideas.png\":{\"title\":\"Kitchen Remodeling Marketing Ideas: 11 Practical Ways to Build Better Inquiries - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling Marketing Ideas: 11 Practical Ways to Build Better Inquiries. Explore eleven practical kitchen remodeling marketing ideas, from project stories and useful service pages to qualified inquiries and clearer follow-up.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-mistakes-for-home-improvement-contractors.png\":{\"title\":\"7 Google Ads Mistakes That Are Burning Your Marketing Budget - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Google Ads Mistakes That Are Burning Your Marketing Budget. 7 Google Ads Mistakes That Are Burning Your Marketing Budget. This is the single most common mistake. You spend money on a highly specific ad for \\\"emergency…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--pest-control-marketing-ideas.png\":{\"title\":\"7 Proven Pest Control Marketing Ideas to Grow Your Business - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Proven Pest Control Marketing Ideas to Grow Your Business. 7 Proven Pest Control Marketing Ideas to Grow Your Business. Your Google Business Profile (or google business listing) is one of your most powerful - and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--seo-tips-for-pest-control-companies.png\":{\"title\":\"13 SEO Tips for Pest Control Companies to Dominate Local Search - Wonderweb Studio\",\"description\":\"Featured social preview for 13 SEO Tips for Pest Control Companies to Dominate Local Search. 13 SEO Tips for Pest Control Companies to Dominate Local Search. Search Engine Optimization (SEO) is the process of making your website more visible to…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--pest-control-seo-cost.png\":{\"title\":\"How Much Does Pest Control SEO Cost? A Detailed Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Pest Control SEO Cost? A Detailed Pricing Guide. How Much Does Pest Control SEO Cost? A Detailed Pricing Guide. Think of SEO like a service call. The cost to treat a small ant problem in a condo is…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--electrician-seo-cost.png\":{\"title\":\"Electrician SEO Cost: A Detailed Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician SEO Cost: A Detailed Pricing Guide. Electrician SEO Cost: A Detailed Pricing Guide. Different SEO tasks come with different price tags that contribute to total electrician SEO…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--how-to-get-hvac-leads.png\":{\"title\":\"How to Get HVAC Leads: 17 Proven Strategies That Actually Work - Wonderweb Studio\",\"description\":\"Featured social preview for How to Get HVAC Leads: 17 Proven Strategies That Actually Work. How to Get HVAC Leads: 17 Proven Strategies That Actually Work. HVAC companies need consistent lead flow to survive and grow. With equipment replacements…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--seo-tips-for-kitchen-remodeling-companies.png\":{\"title\":\"19 SEO Tips for Kitchen Remodeling Companies - Wonderweb Studio\",\"description\":\"Featured social preview for 19 SEO Tips for Kitchen Remodeling Companies. 19 SEO Tips for Kitchen Remodeling Companies. Your completed kitchens are SEO success gold waiting to be mined. Most kitchen remodelers dump all photos into…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--how-market-hvac-business.png\":{\"title\":\"How to market an HVAC Business [Step By Step Guide] - Wonderweb Studio\",\"description\":\"Featured social preview for How to market an HVAC Business [Step By Step Guide]. How to market an HVAC Business [Step By Step Guide]. Many contractors rely strictly on word-of-mouth. That works for a while. It keeps a one-truck operation…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--how-get-more-leads-as-electrician.png\":{\"title\":\"How to Get More Leads as an Electrician: 10 Proven Strategies That Work - Wonderweb Studio\",\"description\":\"Featured social preview for How to Get More Leads as an Electrician: 10 Proven Strategies That Work. How to Get More Leads as an Electrician: 10 Proven Strategies That Work. Your website is the center of your digital marketing strategy. Many electricians…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--home-services-marketing-tips.png\":{\"title\":\"13 Home Services Marketing Strategies That Fill Your Schedule - Wonderweb Studio\",\"description\":\"Featured social preview for 13 Home Services Marketing Strategies That Fill Your Schedule. 13 Home Services Marketing Strategies That Fill Your Schedule. The home services marketing strategies that bring in the most leads are a fast website, local…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--how-to-make-an-automation-a-step-by-step-guide-for-modern-bloggers.png\":{\"title\":\"How to Make an Automation: A Step-by-Step Guide for Modern Bloggers - Wonderweb Studio\",\"description\":\"Featured social preview for How to Make an Automation: A Step-by-Step Guide for Modern Bloggers. How to Make an Automation: A Step-by-Step Guide for Modern Bloggers. In the fast-paced digital landscape of the USA, manual blogging tasks can consume hours…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--landscaping-meta-ads-cost.png\":{\"title\":\"How Much Do Landscaping Meta Ads Cost? A Straight-Talk Guide for Business Owners - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Do Landscaping Meta Ads Cost? A Straight-Talk Guide for Business Owners. How Much Do Landscaping Meta Ads Cost? A Straight-Talk Guide for Business Owners. You rely on referrals to build your landscaping business. It’s how you got…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--electrician-web-design-cost.png\":{\"title\":\"Electrician Web Design Cost: What You Should Actually Pay in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Web Design Cost: What You Should Actually Pay in 2026. Electrician Web Design Cost: What You Should Actually Pay in 2026. If you run an electrical contracting business, you already know that word-of-mouth only…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--hvac-web-design-cost.png\":{\"title\":\"HVAC Web Design Cost: The Complete Pricing Guide for Heating & Air Contractors - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Web Design Cost: The Complete Pricing Guide for Heating & Air Contractors. HVAC Web Design Cost: The Complete Pricing Guide for Heating & Air Contractors. When it comes time to upgrade your digital presence, the first question on…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--kitchen-remodeling-web-design-cost.png\":{\"title\":\"Kitchen Remodeling Web Design Costs Explained (And Why It Pays Off) - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling Web Design Costs Explained (And Why It Pays Off). Kitchen Remodeling Web Design Costs Explained (And Why It Pays Off). Imagine this scenario: Like most homeowners seeking a full transformation, a local…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--home-inspection-web-design-cost.png\":{\"title\":\"The True Home Inspection Web Design Cost: A Complete Pricing Guide for 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for The True Home Inspection Web Design Cost: A Complete Pricing Guide for 2026. The True Home Inspection Web Design Cost: A Complete Pricing Guide for 2026. As a home inspector, your job is to uncover hidden flaws, structural issues…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--landscaping-web-design-cost.png\":{\"title\":\"Landscaping Web Design Cost: What You Should Expect to Pay in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping Web Design Cost: What You Should Expect to Pay in 2026. Landscaping Web Design Cost: What You Should Expect to Pay in 2026. Whether you're hiring a professional web developer or a full-service marketing company…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-web-design-cost.png\":{\"title\":\"How Much Does Bathroom Remodeling Web Design Cost? (And What Else You Need to Grow) - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Bathroom Remodeling Web Design Cost? (And What Else You Need to Grow). How Much Does Bathroom Remodeling Web Design Cost? (And What Else You Need to Grow). If you run a bathroom remodeling company, your website is your most…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-for-plumbers-guide.png\":{\"title\":\"Google Ads for Plumbers: The No-Fluff Guide to Getting More Calls in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads for Plumbers: The No-Fluff Guide to Getting More Calls in 2026. Google Ads for Plumbers: The No-Fluff Guide to Getting More Calls in 2026. If you're a plumber and your phone isn't ringing enough, you don't have a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--guide-to-facebook-ads-for-electricians.png\":{\"title\":\"The Complete Guide to Facebook Ads for Electricians in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for The Complete Guide to Facebook Ads for Electricians in 2026. The Complete Guide to Facebook Ads for Electricians in 2026. Are you tired of checking your phone only to find an empty schedule for the week? Many…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-meta-ads-guide.png\":{\"title\":\"Meta Ads for Roofing Companies: Offers, Creative and Qualified Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Meta Ads for Roofing Companies: Offers, Creative and Qualified Leads. Plan roofing Meta campaigns around real services, approved project evidence, useful qualification and a follow-up process that connects inquiries to work.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--meta-ads-kitchen-remodeling-guide.png\":{\"title\":\"Meta Ads for Kitchen Remodeling: 2026 Guide & Tips - Wonderweb Studio\",\"description\":\"Featured social preview for Meta Ads for Kitchen Remodeling: 2026 Guide & Tips. Meta Ads for Kitchen Remodeling: 2026 Guide & Tips. Are you tired of relying on unpredictable word-of-mouth referrals for your next big project? Waiting for…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--home-inspections-meta-ads-guide.png\":{\"title\":\"Meta Ads for Home Inspections: 2026 Guide to Getting More Qualified Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Meta Ads for Home Inspections: 2026 Guide to Getting More Qualified Leads. Meta Ads for Home Inspections: 2026 Guide to Getting More Qualified Leads. You stare at a calendar with too many blank spots. Relying entirely on a handful…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--facebook-ads-landscaping-guide.png\":{\"title\":\"Facebook Ads for Landscaping: 2026 Guide & Tips to Get More Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Facebook Ads for Landscaping: 2026 Guide & Tips to Get More Leads. Facebook Ads for Landscaping: 2026 Guide & Tips to Get More Leads. If your landscaping business relies on referrals or seasonal demand, you already know how…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--meta-ads-bathroom-remodeling-guide.png\":{\"title\":\"Meta Ads for Bathroom Remodeling Guide: The Ultimate 2026 Strategy - Wonderweb Studio\",\"description\":\"Featured social preview for Meta Ads for Bathroom Remodeling Guide: The Ultimate 2026 Strategy. Meta Ads for Bathroom Remodeling Guide: The Ultimate 2026 Strategy. Are you tired of fighting three other remodeling contractors over the exact same shared…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--plumbing-website-design-guide.png\":{\"title\":\"Plumbing Website Design: Complete Guide to Get More Leads in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing Website Design: Complete Guide to Get More Leads in 2026. Plumbing Website Design: Complete Guide to Get More Leads in 2026. This plumbing website services guide is your roadmap to every function your site should…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--electrician-web-design-guide.png\":{\"title\":\"Electrician Web Design Guide: How to Build a High-Converting Electrical Website in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Web Design Guide: How to Build a High-Converting Electrical Website in 2026. Electrician Web Design Guide: How to Build a High-Converting Electrical Website in 2026. An effective electrician website has three core goals: phone calls…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--kitchen-remodeling-website-design-guide.png\":{\"title\":\"Kitchen Remodeling Website Design Guide for Contractors (2026) - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling Website Design Guide for Contractors (2026). Kitchen Remodeling Website Design Guide for Contractors (2026). Welcome to your ultimate blueprint for digital success in the kitchen remodeling industry…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-roofing-seo-agencies.png\":{\"title\":\"Choosing Roofing SEO company and agency - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Roofing SEO company and agency - A Practical Guide. Choosing Roofing SEO company and agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--lead-generation-cost-for-electrician.png\":{\"title\":\"How Much Does Lead Generation Cost for Electrician Businesses? - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Lead Generation Cost for Electrician Businesses?. How Much Does Lead Generation Cost for Electrician Businesses?. Most digital marketing agencies hide their pricing . They want you on a 45-minute sales call…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-lead-generation-tips.png\":{\"title\":\"The Ultimate Guide to Bathroom Remodeling Lead Generation: 9 Tips to Get More Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for The Ultimate Guide to Bathroom Remodeling Lead Generation: 9 Tips to Get More Jobs. The Ultimate Guide to Bathroom Remodeling Lead Generation: 9 Tips to Get More Jobs. If you are a contractor trying to grow your bathroom remodeling…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--plumbing-lead-generation-tips.png\":{\"title\":\"How to Get More Plumbing Leads: 17 Proven Ways to Fill Your Dispatch Board - Wonderweb Studio\",\"description\":\"Featured social preview for How to Get More Plumbing Leads: 17 Proven Ways to Fill Your Dispatch Board. How to Get More Plumbing Leads: 17 Proven Ways to Fill Your Dispatch Board. Relying entirely on a third-party lead generation company or aggregate vendors…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--plumbing-lead-generation-cost.png\":{\"title\":\"The True Cost of Plumbing Leads: Stop Bleeding Profit and Start Booking Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for The True Cost of Plumbing Leads: Stop Bleeding Profit and Start Booking Jobs. The True Cost of Plumbing Leads: Stop Bleeding Profit and Start Booking Jobs. If there is one thing that keeps plumbing contractors awake at night, it is…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--mold-remediation-lead-generation-cost.png\":{\"title\":\"The True Cost of Mold Remediation Lead Generation in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for The True Cost of Mold Remediation Lead Generation in 2026. The True Cost of Mold Remediation Lead Generation in 2026. Understanding the actual cost of mold remediation lead generation remains the only way to scale…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--mold-remediation-google-lsa-cost.png\":{\"title\":\"Mold Remediation Google LSA Cost: Budgeting for Qualified Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Mold Remediation Google LSA Cost: Budgeting for Qualified Leads. Mold Remediation Google LSA Cost: Budgeting for Qualified Leads. Knowing your exact mold remediation Google LSA cost is the only way to build a profitable…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--mold-remediation-meta-ads-cost.png\":{\"title\":\"How Much Do Mold Remediation Meta Ads Cost? (2026 Pricing Breakdown) - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Do Mold Remediation Meta Ads Cost? (2026 Pricing Breakdown). How Much Do Mold Remediation Meta Ads Cost? (2026 Pricing Breakdown). If you want to know the true mold remediation Meta Ads cost , you need clear numbers…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--mold-remediation-technical-seo-cost.png\":{\"title\":\"How Much Does Mold Remediation Technical SEO Cost in 2026? - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Mold Remediation Technical SEO Cost in 2026?. How Much Does Mold Remediation Technical SEO Cost in 2026?. Understanding your mold remediation technical SEO cost is a critical first step when finalizing…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-electrician-web-design-agencies.png\":{\"title\":\"Choosing Electrician Web Design agency - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Electrician Web Design agency - A Practical Guide. Choosing Electrician Web Design agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-electrician-meta-ads-agencies.png\":{\"title\":\"Choosing Electrician Meta Ads agency to Dominate Local Feeds - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Electrician Meta Ads agency to Dominate Local Feeds - A Practical Guide. Choosing Electrician Meta Ads agency to Dominate Local Feeds - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-lead-generation-guide.png\":{\"title\":\"The Ultimate Guide to Bathroom Remodeling Lead Generation (2026 Edition) - Wonderweb Studio\",\"description\":\"Featured social preview for The Ultimate Guide to Bathroom Remodeling Lead Generation (2026 Edition). The Ultimate Guide to Bathroom Remodeling Lead Generation (2026 Edition). If you run a bathroom remodeling business, you already know the challenge. The…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-seo-guide.png\":{\"title\":\"Bathroom Remodeling SEO: A Step-by-Step Guide to Predictable Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling SEO: A Step-by-Step Guide to Predictable Leads. Bathroom Remodeling SEO: A Step-by-Step Guide to Predictable Leads. Bathroom remodeling SEO works in 5 steps: fix your site's speed and structure, build out…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--pool-cleaner-website-design-cost.png\":{\"title\":\"Pool Cleaner Website Design Cost: 2026 Pricing & ROI - Wonderweb Studio\",\"description\":\"Featured social preview for Pool Cleaner Website Design Cost: 2026 Pricing & ROI. Pool Cleaner Website Design Cost: 2026 Pricing & ROI. Understanding your exact pool cleaner website design cost is the necessary first step to building a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-plumbing-ppc-management-agencies.png\":{\"title\":\"Choosing Plumbing PPC Management agency to Dominate Your Local Market - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Plumbing PPC Management agency to Dominate Your Local Market - A Practical Guide. Choosing Plumbing PPC Management agency to Dominate Your Local Market - A Practical Guide. Use this guide to compare scope, relevant experience, ownership…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-hvac-seo-agencies.png\":{\"title\":\"Choosing HVAC SEO Company Options - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing HVAC SEO Company Options - A Practical Guide. Choosing HVAC SEO Company Options - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--pool-cleaner-digital-marketing-cost.png\":{\"title\":\"Pool Cleaner Digital Marketing Cost: 2026 Pricing Breakdown - Wonderweb Studio\",\"description\":\"Featured social preview for Pool Cleaner Digital Marketing Cost: 2026 Pricing Breakdown. Pool Cleaner Digital Marketing Cost: 2026 Pricing Breakdown. Business owners often struggle to pin down the exact pool cleaner digital marketing cost…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--pool-cleaner-seo-cost.png\":{\"title\":\"Pool Cleaner SEO Cost: 2026 Pricing Breakdown - Wonderweb Studio\",\"description\":\"Featured social preview for Pool Cleaner SEO Cost: 2026 Pricing Breakdown. Pool Cleaner SEO Cost: 2026 Pricing Breakdown. Most pool service companies spend between $1,500 and $3,500 per month on professional search engine…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--property-management-seo-cost.png\":{\"title\":\"2026 Property Management SEO Cost: Pricing, Budgets, and ROI Expected - Wonderweb Studio\",\"description\":\"Featured social preview for 2026 Property Management SEO Cost: Pricing, Budgets, and ROI Expected. 2026 Property Management SEO Cost: Pricing, Budgets, and ROI Expected. Property management SEO pricing ranges from $1,500 to $6,000 per month in the U.S…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--moving-company-seo-tips.png\":{\"title\":\"Moving Company Local SEO: Tips to Rank and Book More Moves in 2026 - Wonderweb Studio\",\"description\":\"Featured social preview for Moving Company Local SEO: Tips to Rank and Book More Moves in 2026. Moving Company Local SEO: Tips to Rank and Book More Moves in 2026. People don’t search for a moving company nationally - they search “movers near me” and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-tips-for-moving-companies.png\":{\"title\":\"9 Google Ads Tips for Moving Companies That Want More Booked Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for 9 Google Ads Tips for Moving Companies That Want More Booked Jobs. 9 Google Ads Tips for Moving Companies That Want More Booked Jobs. Empty calendar slots cost you money every day. While your trucks sit idle, competitors…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--meta-ads-tips-for-moving-companies.png\":{\"title\":\"Actionable Meta Ads Tips for Moving Companies to Fill Your Schedule - Wonderweb Studio\",\"description\":\"Featured social preview for Actionable Meta Ads Tips for Moving Companies to Fill Your Schedule. Actionable Meta Ads Tips for Moving Companies to Fill Your Schedule. This article outlines key meta ads tips for moving companies focused on improving…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--moving-company-ppc-management-tips.png\":{\"title\":\"Moving Company PPC Management Tips to Stop Wasting Ad Budget - Wonderweb Studio\",\"description\":\"Featured social preview for Moving Company PPC Management Tips to Stop Wasting Ad Budget. Moving Company PPC Management Tips to Stop Wasting Ad Budget. Watching your ad budget disappear without getting booked moves is frustrating. This guide…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--property-management-lead-generation-cost.png\":{\"title\":\"Property Management Lead Generation Cost: 2026 Pricing & ROI Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Property Management Lead Generation Cost: 2026 Pricing & ROI Guide. Property Management Lead Generation Cost: 2026 Pricing & ROI Guide. Property management companies planning their financial growth need clear answers on…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--top-carpet-cleaning-seo-agencies.png\":{\"title\":\"Choosing Carpet Cleaning SEO agency to Dominate Your Local Market - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Carpet Cleaning SEO agency to Dominate Your Local Market - A Practical Guide. Choosing Carpet Cleaning SEO agency to Dominate Your Local Market - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--appliance-repair-lead-generation-cost.png\":{\"title\":\"Appliance Repair Lead Generation Cost: 2026 Pricing & ROI Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Appliance Repair Lead Generation Cost: 2026 Pricing & ROI Guide. Appliance Repair Lead Generation Cost: 2026 Pricing & ROI Guide. Understanding your appliance repair lead generation cost is necessary to scale your local…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--seo-tips-septic-companies.png\":{\"title\":\"7 SEO Tips for Septic Companies to Drive Local Leads - Wonderweb Studio\",\"description\":\"Featured social preview for 7 SEO Tips for Septic Companies to Drive Local Leads. 7 SEO Tips for Septic Companies to Drive Local Leads. The best SEO services for septic companies focuses on optimizing your Google Business Profile for…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--house-cleaning-meta-ads-tips.png\":{\"title\":\"How to Build Recurring Routes: 7 Tips for House Cleaning Meta Ads - Wonderweb Studio\",\"description\":\"Featured social preview for How to Build Recurring Routes: 7 Tips for House Cleaning Meta Ads. How to Build Recurring Routes: 7 Tips for House Cleaning Meta Ads. The most effective strategy for house cleaning Meta ads is segmenting your campaigns to…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-tips-for-carpet-cleaners.png\":{\"title\":\"7 Tips for Running Profitable Carpet Cleaning Google Ads - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Tips for Running Profitable Carpet Cleaning Google Ads. 7 Tips for Running Profitable Carpet Cleaning Google Ads. The best way to run profitable Google Ads for a carpet cleaning business is to target high-intent…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--seo-tips-security-system-companies.png\":{\"title\":\"7 SEO Tips for Security System Companies to Get More Leads - Wonderweb Studio\",\"description\":\"Featured social preview for 7 SEO Tips for Security System Companies to Get More Leads. 7 SEO Tips for Security System Companies to Get More Leads. The most effective SEO strategy for security system companies is optimizing a Google Business…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--dumpster-rental-google-ads-tips.png\":{\"title\":\"7 Dumpster Rental Google Ads Tips - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Dumpster Rental Google Ads Tips. 7 Dumpster Rental Google Ads Tips. The most effective Google Ads strategy for dumpster rental companies focuses on high-intent local keywords like \\\"20 yard…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-management-tips-house-cleaning-businesses.png\":{\"title\":\"7 Website Management Tips for House Cleaning Businesses - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Website Management Tips for House Cleaning Businesses. 7 Website Management Tips for House Cleaning Businesses. Your website acts as the digital storefront for your company. Homeowners judge your reliability…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--carpet-cleaning-meta-ads-tips.png\":{\"title\":\"7 Carpet Cleaning Meta Ads Tips - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Carpet Cleaning Meta Ads Tips. 7 Carpet Cleaning Meta Ads Tips. The most effective carpet cleaning Meta Ads use short before-and-after videos of the extraction process, target local…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-tips-gutter-installation.png\":{\"title\":\"7 Google Ads Tips to Land High-Ticket Gutter Installations - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Google Ads Tips to Land High-Ticket Gutter Installations. 7 Google Ads Tips to Land High-Ticket Gutter Installations. Homeowners turn to Google when their gutters fail during a heavy storm. A well-managed ad…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--window-door-meta-ads-cost.png\":{\"title\":\"Meta Ads Cost For Window And Door Companies: A Detailed Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Meta Ads Cost For Window And Door Companies: A Detailed Pricing Guide. Meta Ads Cost For Window And Door Companies: A Detailed Pricing Guide. Window and door contractors lose thousands of dollars every year buying shared leads…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-house-cleaning-website-management-companies.png\":{\"title\":\"Choosing House Cleaning Website Management company - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing House Cleaning Website Management company - A Practical Guide. Choosing House Cleaning Website Management company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--meta-ads-tips-for-gutter-installation.png\":{\"title\":\"Meta Ads Tips for Gutter Installation: 7 Proven Strategies to Generate More High-Ticket Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Meta Ads Tips for Gutter Installation: 7 Proven Strategies to Generate More High-Ticket Leads. Meta Ads Tips for Gutter Installation: 7 Proven Strategies to Generate More High-Ticket Leads. The most effective Meta Ads tips for gutter installation…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-gutter-installation-google-ads-agencies.png\":{\"title\":\"Choosing Gutter Installation Google Ads agency - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Gutter Installation Google Ads agency - A Practical Guide. Choosing Gutter Installation Google Ads agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--home-services-private-equity-google-ads-cost.png\":{\"title\":\"Home Services Private Equity Google Ads Cost: Budget, CPC, CAC & ROI Guide (2026) - Wonderweb Studio\",\"description\":\"Featured social preview for Home Services Private Equity Google Ads Cost: Budget, CPC, CAC & ROI Guide (2026). Home Services Private Equity Google Ads Cost: Budget, CPC, CAC & ROI Guide (2026). Navigating pay-per-click (PPC) management within a multi-location roll-up…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-home-inspection-seo-agencies.png\":{\"title\":\"Choosing Home Inspection SEO agency - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Home Inspection SEO agency - A Practical Guide. Choosing Home Inspection SEO agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--home-services-private-equity-google-ads-tips.png\":{\"title\":\"7 Google Ads Tips for Home Services Private Equity Portfolios - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Google Ads Tips for Home Services Private Equity Portfolios. 7 Google Ads Tips for Home Services Private Equity Portfolios. Optimizing Google Ads is one part of controlling your overall home services private equity…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--home-services-lead-generation-tactics.png\":{\"title\":\"Home Services Lead Generation: Scale Like Private Equity - Wonderweb Studio\",\"description\":\"Featured social preview for Home Services Lead Generation: Scale Like Private Equity. Home Services Lead Generation: Scale Like Private Equity. Private equity firms acquire residential contractors and rapidly scale revenue by treating…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-local-services-ads-septic-companies.png\":{\"title\":\"Google Local Services Ads for Septic Companies: 2027 Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Google Local Services Ads for Septic Companies: 2027 Guide. Google Local Services Ads for Septic Companies: 2027 Guide. When a septic tank backs up into a home, a sewage line becomes clogged, or a commercial…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--septic-company-ppc-management-tactics.png\":{\"title\":\"PPC Management for Septic Companies: Lead Generation Tactics - Wonderweb Studio\",\"description\":\"Featured social preview for PPC Management for Septic Companies: Lead Generation Tactics. PPC Management for Septic Companies: Lead Generation Tactics. Septic emergencies and scheduled tank maintenance require two distinct search marketing…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--technical-seo-for-septic-companies.png\":{\"title\":\"Technical SEO for Septic Companies: 8 Critical Mistakes That Hurt Rankings and Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Technical SEO for Septic Companies: 8 Critical Mistakes That Hurt Rankings and Leads. Technical SEO for Septic Companies: 8 Critical Mistakes That Hurt Rankings and Leads. When a septic tank backs up, a drain field fails, or a property owner…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--link-building-septic-companies.png\":{\"title\":\"Link Building for Septic Companies: 2027 SEO Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Link Building for Septic Companies: 2027 SEO Guide. Link Building for Septic Companies: 2027 SEO Guide. Septic service providers face a unique digital hurdle: property owners rarely search for septic pumping…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--local-seo-septic-companies.png\":{\"title\":\"Local SEO for Septic Companies: Dominate the Map Pack - Wonderweb Studio\",\"description\":\"Featured social preview for Local SEO for Septic Companies: Dominate the Map Pack. Local SEO for Septic Companies: Dominate the Map Pack. Unlike broad digital marketing campaigns, localized search optimization zeroes in on homeowners…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--septic-content-marketing-ideas.png\":{\"title\":\"Septic Content Marketing: 8 Ideas for Steady Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Septic Content Marketing: 8 Ideas for Steady Leads. Septic Content Marketing: 8 Ideas for Steady Leads. Septic service providers often battle severe seasonal dips and high customer acquisition costs by…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--meta-ads-septic-companies-tactics.png\":{\"title\":\"Meta Ads for Septic Companies: 8 Creative Tactics - Wonderweb Studio\",\"description\":\"Featured social preview for Meta Ads for Septic Companies: 8 Creative Tactics. Meta Ads for Septic Companies: 8 Creative Tactics. Running profitable Meta Ads for septic companies requires a completely different playbook than standard…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-cost-septic-companies.png\":{\"title\":\"Google Ads Cost for Septic Companies: 2027 Budget Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads Cost for Septic Companies: 2027 Budget Guide. Google Ads Cost for Septic Companies: 2027 Budget Guide. Understanding the exact Google Ads cost for septic companies requires looking beyond surface-level…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-agencies-septic-companies.png\":{\"title\":\"Google Ads Agencies for Septic Companies: 2026 Comparison - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads Agencies for Septic Companies: 2026 Comparison. Google Ads Agencies for Septic Companies: 2026 Comparison. Running septic pumping, drain field repair, and tank installation services requires a steady…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--seo-siding-companies-high-ticket.png\":{\"title\":\"SEO for Siding Companies: Rank for High-Ticket Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for SEO for Siding Companies: Rank for High-Ticket Jobs. SEO for Siding Companies: Rank for High-Ticket Jobs. Homeowners do not purchase full exterior siding replacements on impulse. With average project scopes…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-web-design-tips-convert-leads.png\":{\"title\":\"Remodeling Web Design Tips: Turn Visitors Into Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Remodeling Web Design Tips: Turn Visitors Into Leads. Remodeling Web Design Tips: Turn Visitors Into Leads. To convert website visitors into booked consultations, home remodeling contractors must feature…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-management-companies-remodelers.png\":{\"title\":\"Choosing Website Management company for Remodelers - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Website Management company for Remodelers - A Practical Guide. Choosing Website Management company for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-content-marketing-cost.png\":{\"title\":\"Choosing How Much Does Content Marketing Cost for Remodeling company? 2026 Pricing Guide - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing How Much Does Content Marketing Cost for Remodeling company? 2026 Pricing Guide - A Practical Guide. Choosing How Much Does Content Marketing Cost for Remodeling company? 2026 Pricing Guide - A Practical Guide. Use this guide to compare scope, relevant…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-remodeling-content-marketing-agencies-compared.png\":{\"title\":\"Choosing Remodeling Marketing agency - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Remodeling Marketing agency - A Practical Guide. Choosing Remodeling Marketing agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the way a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-cro-cost.png\":{\"title\":\"Choosing How Much Does Conversion Rate Optimization Cost for Remodeling company? - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing How Much Does Conversion Rate Optimization Cost for Remodeling company? - A Practical Guide. Choosing How Much Does Conversion Rate Optimization Cost for Remodeling company? - A Practical Guide. Use this guide to compare scope, relevant experience…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-remodeling-franchise-marketing-agencies-compared.png\":{\"title\":\"Choosing Remodeling Marketing agency for Franchises - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Remodeling Marketing agency for Franchises - A Practical Guide. Choosing Remodeling Marketing agency for Franchises - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeler-google-business-profile-tips.png\":{\"title\":\"Google Business Profile Tips Remodeling Companies Use to Win the Map Pack - Wonderweb Studio\",\"description\":\"Featured social preview for Google Business Profile Tips Remodeling Companies Use to Win the Map Pack. Google Business Profile Tips Remodeling Companies Use to Win the Map Pack. Winning top placement in the Google local 3-pack separates thriving remodeling…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeler-google-lsa-tips.png\":{\"title\":\"Choosing Google Local Services Ads Best Practices for Remodeling company in 2027 - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Google Local Services Ads Best Practices for Remodeling company in 2027 - A Practical Guide. Choosing Google Local Services Ads Best Practices for Remodeling company in 2027 - A Practical Guide. Use this guide to compare scope, relevant experience…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeler-lead-generation-cost.png\":{\"title\":\"How Much Does Lead Generation Cost for Remodeling Companies? 2027 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Lead Generation Cost for Remodeling Companies? 2027 Pricing Guide. How Much Does Lead Generation Cost for Remodeling Companies? 2027 Pricing Guide. Remodeling lead generation costs typically range from $75 to $350 per…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeler-google-business-profile-cost.png\":{\"title\":\"Choosing How Much Does Google Business Profile Management Cost for Remodeling company? 2027 Pricing Guide - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing How Much Does Google Business Profile Management Cost for Remodeling company? 2027 Pricing Guide - A Practical Guide. Choosing How Much Does Google Business Profile Management Cost for Remodeling company? 2027 Pricing Guide - A Practical Guide. Use this guide to compare…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeler-meta-ads-cost.png\":{\"title\":\"How Much Do Meta Ads Cost for Remodeling Companies? 2027 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Do Meta Ads Cost for Remodeling Companies? 2027 Pricing Guide. How Much Do Meta Ads Cost for Remodeling Companies? 2027 Pricing Guide. Remodeling contractors running paid campaigns on Facebook and Instagram can expect…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeler-meta-ads-tips.png\":{\"title\":\"11 Meta Ads Tips Remodeling Companies Use to Fill the Pipeline - Wonderweb Studio\",\"description\":\"Featured social preview for 11 Meta Ads Tips Remodeling Companies Use to Fill the Pipeline. 11 Meta Ads Tips Remodeling Companies Use to Fill the Pipeline. Running profitable paid campaigns requires more than boosting posts and hoping local…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-remodeler-google-lsa-agencies-compared.png\":{\"title\":\"Choosing Google Local Services Ads Agency for Remodeling company - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Google Local Services Ads Agency for Remodeling company - A Practical Guide. Choosing Google Local Services Ads Agency for Remodeling company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-google-ads-tips.png\":{\"title\":\"8 Google Ads Tips Remodeling Companies Use to Book More Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for 8 Google Ads Tips Remodeling Companies Use to Book More Jobs. 8 Google Ads Tips Remodeling Companies Use to Book More Jobs. Running profitable Google Ads campaigns requires moving past broad keywords that burn your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-google-ads-cost.png\":{\"title\":\"How Much Do Google Ads Cost for Remodeling Companies? 2027 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Do Google Ads Cost for Remodeling Companies? 2027 Pricing Guide. How Much Do Google Ads Cost for Remodeling Companies? 2027 Pricing Guide. Remodeling contractors spend between $2,500 and $8,500 per month on Google Ads…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-ppc-management-tips.png\":{\"title\":\"PPC Management for Remodeling Companies: 11 Tactics That Cut Wasted Ad Spend - Wonderweb Studio\",\"description\":\"Featured social preview for PPC Management for Remodeling Companies: 11 Tactics That Cut Wasted Ad Spend. PPC Management for Remodeling Companies: 11 Tactics That Cut Wasted Ad Spend. Running paid search campaigns for home remodeling requires strict budget…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-remarketing-tips.png\":{\"title\":\"Choosing Remarketing Best Practices for Remodeling company in 2027 - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Remarketing Best Practices for Remodeling company in 2027 - A Practical Guide. Choosing Remarketing Best Practices for Remodeling company in 2027 - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-reputation-management-tips.png\":{\"title\":\"8 Reputation Management Mistakes Remodeling Companies Make and How to Fix Them - Wonderweb Studio\",\"description\":\"Featured social preview for 8 Reputation Management Mistakes Remodeling Companies Make and How to Fix Them. 8 Reputation Management Mistakes Remodeling Companies Make and How to Fix Them. You lose high ticket renovation jobs when your online profile shows outdated…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-technical-seo-tips.png\":{\"title\":\"Choosing Technical SEO Best Practices for Remodeling company in 2027 - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Technical SEO Best Practices for Remodeling company in 2027 - A Practical Guide. Choosing Technical SEO Best Practices for Remodeling company in 2027 - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-technical-seo-cost.png\":{\"title\":\"How Much Does Technical SEO Cost for Remodeling Companies? 2027 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Technical SEO Cost for Remodeling Companies? 2027 Pricing Guide. How Much Does Technical SEO Cost for Remodeling Companies? 2027 Pricing Guide. Remodeling technical SEO costs between $1,200 and $4,500 for an initial deep…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-remodeling-technical-seo-agencies-compared.png\":{\"title\":\"Choosing Technical SEO agency for Remodelers - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Technical SEO agency for Remodelers - A Practical Guide. Choosing Technical SEO agency for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-listing-management-tips.png\":{\"title\":\"Listing Management Tips for Remodeling Companies - Wonderweb Studio\",\"description\":\"Featured social preview for Listing Management Tips for Remodeling Companies. Listing Management Tips for Remodeling Companies. Accurate business citations signal trust directly to search engine ranking algorithms. When your company…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-email-marketing-tips.png\":{\"title\":\"7 Email Marketing Tips Remodeling Companies Use to Book More Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Email Marketing Tips Remodeling Companies Use to Book More Jobs. 7 Email Marketing Tips Remodeling Companies Use to Book More Jobs. Remodeling prospects rarely sign a five-figure agreement on first contact. Most…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-website-build-cost-guide.png\":{\"title\":\"How Much Does a Website Build Cost for Remodeling Companies? 2027 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does a Website Build Cost for Remodeling Companies? 2027 Pricing Guide. How Much Does a Website Build Cost for Remodeling Companies? 2027 Pricing Guide. A website build cost for remodeling companies typically ranges from $4,000…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-crm-automation-cost-guide.png\":{\"title\":\"How Much Does CRM Automation Cost for Remodeling Companies? 2027 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does CRM Automation Cost for Remodeling Companies? 2027 Pricing Guide. How Much Does CRM Automation Cost for Remodeling Companies? 2027 Pricing Guide. Remodeling contractors typically invest between $1,500 and $6,000 for…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeler-listing-management-companies-compared.png\":{\"title\":\"Choosing Listing Management company for Remodelers - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Listing Management company for Remodelers - A Practical Guide. Choosing Listing Management company for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--voice-search-optimization-agencies-remodelers.png\":{\"title\":\"Choosing Voice Search Optimization agency for Remodelers - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Voice Search Optimization agency for Remodelers - A Practical Guide. Choosing Voice Search Optimization agency for Remodelers - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-digital-marketing-buying-guide.png\":{\"title\":\"The Remodeling Company Guide to Buying Digital Marketing Services in 2027 - Wonderweb Studio\",\"description\":\"Featured social preview for The Remodeling Company Guide to Buying Digital Marketing Services in 2027. The Remodeling Company Guide to Buying Digital Marketing Services in 2027. Generalist agencies often struggle with home renovation services because…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-marketing-benchmarks.png\":{\"title\":\"Remodeling Marketing Benchmarks 2027: Budget, Cost Per Lead, and Return - Wonderweb Studio\",\"description\":\"Featured social preview for Remodeling Marketing Benchmarks 2027: Budget, Cost Per Lead, and Return. Remodeling Marketing Benchmarks 2027: Budget, Cost Per Lead, and Return. Planning your acquisition spend requires firm figures rather than guesswork. Most…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-website-platforms-remodeling-companies.png\":{\"title\":\"Choosing Website Platforms and Build Tools for Remodeling company in 2027 - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Website Platforms and Build Tools for Remodeling company in 2027 - A Practical Guide. Choosing Website Platforms and Build Tools for Remodeling company in 2027 - A Practical Guide. Use this guide to compare scope, relevant experience…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-link-building-tips.png\":{\"title\":\"Choosing Link Building Best Practices for Roofing company in 2027 - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Link Building Best Practices for Roofing company in 2027 - A Practical Guide. Choosing Link Building Best Practices for Roofing company in 2027 - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-link-building-cost-guide.png\":{\"title\":\"Choosing How Much Does Link Building Cost for Roofing company? 2027 Pricing Guide - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing How Much Does Link Building Cost for Roofing company? 2027 Pricing Guide - A Practical Guide. Choosing How Much Does Link Building Cost for Roofing company? 2027 Pricing Guide - A Practical Guide. Use this guide to compare scope, relevant experience…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--voice-search-tips-remodeling-playbook.png\":{\"title\":\"Voice Search Optimization Tips for Remodeling Companies: A Practical 2027 Playbook - Wonderweb Studio\",\"description\":\"Featured social preview for Voice Search Optimization Tips for Remodeling Companies: A Practical 2027 Playbook. Voice Search Optimization Tips for Remodeling Companies: A Practical 2027 Playbook. Voice assistants bypass traditional search engine results pages. Siri…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-website-build-mistakes-fix.png\":{\"title\":\"9 Website Build Mistakes Remodeling Companies Make and How to Fix Them - Wonderweb Studio\",\"description\":\"Featured social preview for 9 Website Build Mistakes Remodeling Companies Make and How to Fix Them. 9 Website Build Mistakes Remodeling Companies Make and How to Fix Them. Building an effective remodeling platform requires technical precision and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-crm-automation-proven-tactics.png\":{\"title\":\"How Remodeling Companies Win With CRM Automation: Proven Tactics - Wonderweb Studio\",\"description\":\"Featured social preview for How Remodeling Companies Win With CRM Automation: Proven Tactics. How Remodeling Companies Win With CRM Automation: Proven Tactics. CRM automation replaces manual data entry and sporadic follow-up with predictable…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--call-tracking-attribution-tips-remodelers.png\":{\"title\":\"7 Call Tracking and Attribution Tips Remodelers Use to Book More Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Call Tracking and Attribution Tips Remodelers Use to Book More Jobs. 7 Call Tracking and Attribution Tips Remodelers Use to Book More Jobs. You generate phone calls through your website, local listings, and paid campaigns…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-email-marketing-cost.png\":{\"title\":\"How Much Does Email Marketing Cost for Remodelers? 2027 Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for How Much Does Email Marketing Cost for Remodelers? 2027 Pricing Guide. How Much Does Email Marketing Cost for Remodelers? 2027 Pricing Guide. Your total monthly cost depends on multiple distinct factors that influence…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-digital-marketing-tools-technology.png\":{\"title\":\"8 Digital Marketing Tools and Technology Every Remodeling Company Should Use in 2027 - Wonderweb Studio\",\"description\":\"Featured social preview for 8 Digital Marketing Tools and Technology Every Remodeling Company Should Use in 2027. 8 Digital Marketing Tools and Technology Every Remodeling Company Should Use in 2027. Remodeling companies need connected marketing tools because one missed…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-website-management-tips.png\":{\"title\":\"7 Website Management Tips Roofing Companies Use to Book More Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Website Management Tips Roofing Companies Use to Book More Jobs. 7 Website Management Tips Roofing Companies Use to Book More Jobs. Without structured oversight, small technical failures accumulate and undermine marketing…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-content-marketing-cost-guide.png\":{\"title\":\"Choosing How Much Does Content Marketing Cost for Roofing company? 2027 Pricing Guide - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing How Much Does Content Marketing Cost for Roofing company? 2027 Pricing Guide - A Practical Guide. Choosing How Much Does Content Marketing Cost for Roofing company? 2027 Pricing Guide - A Practical Guide. Use this guide to compare scope, relevant…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--cro-cost-roofing-companies-guide.png\":{\"title\":\"Choosing How Much Does Conversion Rate Optimization Cost for Roofing company? 2027 Pricing Guide - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing How Much Does Conversion Rate Optimization Cost for Roofing company? 2027 Pricing Guide - A Practical Guide. Choosing How Much Does Conversion Rate Optimization Cost for Roofing company? 2027 Pricing Guide - A Practical Guide. Use this guide to compare scope…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-google-business-profile-tips.png\":{\"title\":\"12 Google Business Profile Tips That Get Roofing Companies Into the Local Map Pack - Wonderweb Studio\",\"description\":\"Featured social preview for 12 Google Business Profile Tips That Get Roofing Companies Into the Local Map Pack. 12 Google Business Profile Tips That Get Roofing Companies Into the Local Map Pack. Optimizing a roofing company's Google Business Profile involves…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--cro-agencies-roofing-companies-compared.png\":{\"title\":\"Choosing Conversion Rate Optimization agency for Roofing company - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Conversion Rate Optimization agency for Roofing company - A Practical Guide. Choosing Conversion Rate Optimization agency for Roofing company - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--cost-of-roofing-reputation-management-software-vs-agency-pricing.png\":{\"title\":\"Choosing Cost of Roofing Reputation Management - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Cost of Roofing Reputation Management - A Practical Guide. Choosing Cost of Roofing Reputation Management - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and the…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-technical-seo-cost.png\":{\"title\":\"Choosing How Much Does Technical SEO Cost for Roofing company? - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing How Much Does Technical SEO Cost for Roofing company? - A Practical Guide. Choosing How Much Does Technical SEO Cost for Roofing company? - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-roofing-crm-automation-agencies.png\":{\"title\":\"Choosing Roofing CRM Automation agency to Book More Jobs - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Roofing CRM Automation agency to Book More Jobs - A Practical Guide. Choosing Roofing CRM Automation agency to Book More Jobs - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-email-marketing-tips.png\":{\"title\":\"Choosing Roofing Email Marketing Tips and Top agency - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Roofing Email Marketing Tips and Top agency - A Practical Guide. Choosing Roofing Email Marketing Tips and Top agency - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--core-marketing-cost-bathroom-remodeling.png\":{\"title\":\"Choosing Digital Marketing Agency Core Services Cost for Bathroom Remodeling company - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Digital Marketing Agency Core Services Cost for Bathroom Remodeling company - A Practical Guide. Choosing Digital Marketing Agency Core Services Cost for Bathroom Remodeling company - A Practical Guide. Use this guide to compare scope, relevant…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-website-management-tips.png\":{\"title\":\"Bathroom Remodeling Website Management Tips: 7 Ways to Turn Traffic Into Design Consultations - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Website Management Tips: 7 Ways to Turn Traffic Into Design Consultations. Bathroom Remodeling Website Management Tips: 7 Ways to Turn Traffic Into Design Consultations. Website management for bathroom remodeling companies means…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--commercial-lead-generation-for-contractors.png\":{\"title\":\"Commercial Lead Generation for Contractors: How to Turn Inquiries Into Contracts - Wonderweb Studio\",\"description\":\"Featured social preview for Commercial Lead Generation for Contractors: How to Turn Inquiries Into Contracts. Commercial Lead Generation for Contractors: How to Turn Inquiries Into Contracts. Commercial lead generation helps contractors reach business buyers…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-cro-tips.png\":{\"title\":\"7 Tips for Bathroom Remodeling Conversion Rate Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Tips for Bathroom Remodeling Conversion Rate Optimization. 7 Tips for Bathroom Remodeling Conversion Rate Optimization. These 7 conversion rate optimization tips turn casual website traffic into scheduled estimate…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-business-profile-bathroom-remodeling-tips.png\":{\"title\":\"7 Proven Tips to Optimize Your Google Business Profile for Bathroom Remodeling - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Proven Tips to Optimize Your Google Business Profile for Bathroom Remodeling. 7 Proven Tips to Optimize Your Google Business Profile for Bathroom Remodeling. 7 Google Business Profile tips help bathroom remodeling companies show up in…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-lsa-bathroom-remodeling-tips.png\":{\"title\":\"7 Proven Tips for Using Google LSA to Grow Your Bathroom Remodeling Business - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Proven Tips for Using Google LSA to Grow Your Bathroom Remodeling Business. 7 Proven Tips for Using Google LSA to Grow Your Bathroom Remodeling Business. 7 Google Local Services Ads tips help bathroom remodeling companies turn paid…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-ppc-management-tips.png\":{\"title\":\"Bathroom Remodeling PPC Management Tips - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling PPC Management Tips. Bathroom Remodeling PPC Management Tips. Bathroom remodeling PPC management comes down to 7 practices, and most companies fund it with $1,500 to $5,000 per…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-reputation-management-cost.png\":{\"title\":\"Bathroom Remodeling Reputation Management Cost: What Contractors Should Budget - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling Reputation Management Cost: What Contractors Should Budget. Bathroom Remodeling Reputation Management Cost: What Contractors Should Budget. Homeowners almost always read reviews before they request a quote, so a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-technical-seo-tips.png\":{\"title\":\"7 Tips For Bathroom Remodeling Technical SEO - Wonderweb Studio\",\"description\":\"Featured social preview for 7 Tips For Bathroom Remodeling Technical SEO. 7 Tips For Bathroom Remodeling Technical SEO. Technical SEO for bathroom remodeling means fixing your website's speed, code, and structure so search engines…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--bathroom-remodeling-email-marketing-cost.png\":{\"title\":\"Email Marketing Cost for Bathroom Remodeling Contractors: Pricing Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Email Marketing Cost for Bathroom Remodeling Contractors: Pricing Guide. Email Marketing Cost for Bathroom Remodeling Contractors: Pricing Guide. Email marketing for bathroom remodeling companies typically costs between $300 and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--marketing-tools-and-technology-for-bathroom-remodeling.png\":{\"title\":\"Choosing Marketing Tools and Technology for Bathroom Remodeling company in 2026 - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Marketing Tools and Technology for Bathroom Remodeling company in 2026 - A Practical Guide. Choosing Marketing Tools and Technology for Bathroom Remodeling company in 2026 - A Practical Guide. Use this guide to compare scope, relevant experience…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--electricians-digital-marketing-agency-cost.png\":{\"title\":\"Choosing Digital Marketing Agency Cost for Electricians - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Digital Marketing Agency Cost for Electricians - A Practical Guide. Choosing Digital Marketing Agency Cost for Electricians - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--hvac-keywords.png\":{\"title\":\"HVAC Keywords: What Homeowners Search and Which Ones Book Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Keywords: What Homeowners Search and Which Ones Book Jobs. HVAC Keywords: What Homeowners Search and Which Ones Book Jobs. HVAC keywords are the phrases homeowners and building managers type when they need heating…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--hvac-local-services-ads.png\":{\"title\":\"HVAC Local Services Ads: Cost, Setup and Lead Quality - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC Local Services Ads: Cost, Setup and Lead Quality. HVAC Local Services Ads: Cost, Setup and Lead Quality. HVAC local services ads (LSA) are Google's pay-per-lead ads for HVAC companies: you pay when a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--solar-lead-generation-guide.png\":{\"title\":\"Solar Lead Generation: A Guide for Installers - Wonderweb Studio\",\"description\":\"Featured social preview for Solar Lead Generation: A Guide for Installers. Solar Lead Generation: A Guide for Installers. Solar lead generation is how an installer gets homeowners to request a quote. It runs through own marketing…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--window-cleaning-software-tools.png\":{\"title\":\"Window Cleaning Software: The Tools a Window Cleaning Company Needs to Book More Routes - Wonderweb Studio\",\"description\":\"Featured social preview for Window Cleaning Software: The Tools a Window Cleaning Company Needs to Book More Routes. Window Cleaning Software: The Tools a Window Cleaning Company Needs to Book More Routes. Window cleaning software is the set of tools a window cleaning…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--home-inspector-local-services-ads.png\":{\"title\":\"Home Inspector Local Services Ads: 7 Problems Inspectors Report and How to Fix Them - Wonderweb Studio\",\"description\":\"Featured social preview for Home Inspector Local Services Ads: 7 Problems Inspectors Report and How to Fix Them. Home Inspector Local Services Ads: 7 Problems Inspectors Report and How to Fix Them. Home inspector Local Services Ads usually stop producing leads for one…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--plumbing-website-builder-guide.png\":{\"title\":\"Plumbing Website Builder: How to Pick One That Gets the Phone to Ring More Often - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing Website Builder: How to Pick One That Gets the Phone to Ring More Often. Plumbing Website Builder: How to Pick One That Gets the Phone to Ring More Often. A plumbing website builder is a tool that lets a plumbing company put up a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--tree-service-advertising-guide.png\":{\"title\":\"Tree Service Advertising: Where a Tree Company Should Spend to Book More Estimates - Wonderweb Studio\",\"description\":\"Featured social preview for Tree Service Advertising: Where a Tree Company Should Spend to Book More Estimates. Tree Service Advertising: Where a Tree Company Should Spend to Book More Estimates. Tree service advertising is the paid and unpaid ways a tree company…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--handyman-advertising-guide.png\":{\"title\":\"Handyman Advertising: How a Handyman Business Can Get More Calls - Wonderweb Studio\",\"description\":\"Featured social preview for Handyman Advertising: How a Handyman Business Can Get More Calls. Handyman Advertising: How a Handyman Business Can Get More Calls. The best ways to advertise a handyman business match how people shop for small jobs. They…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--carpet-cleaning-advertising-guide.png\":{\"title\":\"Carpet Cleaning Advertising: How a Carpet Cleaner Can Fill the Calendar - Wonderweb Studio\",\"description\":\"Featured social preview for Carpet Cleaning Advertising: How a Carpet Cleaner Can Fill the Calendar. Carpet Cleaning Advertising: How a Carpet Cleaner Can Fill the Calendar. The best ways to advertise carpet cleaning match how people book it. Some call…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--how-to-choose-a-garage-door-marketing-agency.png\":{\"title\":\"Garage Door Marketing Agency: How to Choose One That Brings in Calls - Wonderweb Studio\",\"description\":\"Featured social preview for Garage Door Marketing Agency: How to Choose One That Brings in Calls. Garage Door Marketing Agency: How to Choose One That Brings in Calls. A garage door marketing agency is a firm that runs search, ads, website and review…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--how-to-choose-a-carpet-cleaning-marketing-agency.png\":{\"title\":\"Carpet Cleaning Marketing Agency: How to Choose One That Fills Your Calendar - Wonderweb Studio\",\"description\":\"Featured social preview for Carpet Cleaning Marketing Agency: How to Choose One That Fills Your Calendar. Carpet Cleaning Marketing Agency: How to Choose One That Fills Your Calendar. A carpet cleaning marketing agency is a firm that runs search, ads, website…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--gutter-advertising-guide.png\":{\"title\":\"Gutter Advertising: How a Gutter Company Can Get More Install Calls - Wonderweb Studio\",\"description\":\"Featured social preview for Gutter Advertising: How a Gutter Company Can Get More Install Calls. Gutter Advertising: How a Gutter Company Can Get More Install Calls. Gutter advertising is how a gutter company reaches homeowners who need gutters…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--siding-lead-generation-guide.png\":{\"title\":\"Siding Lead Generation: How a Siding Company Can Get More Steady Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Siding Lead Generation: How a Siding Company Can Get More Steady Leads. Siding Lead Generation: How a Siding Company Can Get More Steady Leads. Siding leads come from a few sources, and each suits a different stage of the…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--how-to-choose-a-septic-marketing-agency.png\":{\"title\":\"Septic Marketing Agency: How to Choose One That Books Service Calls - Wonderweb Studio\",\"description\":\"Featured social preview for Septic Marketing Agency: How to Choose One That Books Service Calls. Septic Marketing Agency: How to Choose One That Books Service Calls. A septic marketing agency is a firm that runs search, ads, website and review work for…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--best-roofing-lead-generation-agencies-tampa.png\":{\"title\":\"Choosing Roofing Lead Generation agency in Tampa - A Practical Guide - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing Roofing Lead Generation agency in Tampa - A Practical Guide. Choosing Roofing Lead Generation agency in Tampa - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your accounts and…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--solar-crm-software-tools.png\":{\"title\":\"Solar CRM Software: 7 Tools Compared for Solar Companies - Wonderweb Studio\",\"description\":\"Featured social preview for Solar CRM Software: 7 Tools Compared for Solar Companies. Solar CRM Software: 7 Tools Compared for Solar Companies. Solar CRM software should track every lead from first call to permit, and a free tool is enough to…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--handyman-facebook-ads-tips.png\":{\"title\":\"10 Handyman Facebook Ads Tips for Local Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for 10 Handyman Facebook Ads Tips for Local Jobs. 10 Handyman Facebook Ads Tips for Local Jobs. Handyman Facebook ads work best when one ad sells one small job to homeowners inside your real service radius…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--siding-software-tools.png\":{\"title\":\"Siding Software: 9 Tools for Siding Contractors - Wonderweb Studio\",\"description\":\"Featured social preview for Siding Software: 9 Tools for Siding Contractors. Siding Software: 9 Tools for Siding Contractors. Siding software pays off when it ties your ad spend to booked jobs. A siding contractor needs a job app, an…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--fire-protection-software-tools.png\":{\"title\":\"Fire Protection Software: 5 Tools for Inspections and Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Fire Protection Software: 5 Tools for Inspections and Leads. Fire Protection Software: 5 Tools for Inspections and Leads. Fire protection software starts with an inspection app that turns findings into proposals…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--restoration-software-tools.png\":{\"title\":\"Restoration Software: Tools for Jobs, Drying Logs and Claims - Wonderweb Studio\",\"description\":\"Featured social preview for Restoration Software: Tools for Jobs, Drying Logs and Claims. Restoration Software: Tools for Jobs, Drying Logs and Claims. Restoration software starts with one platform for job files, photos and drying records. Pick a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--pest-control-crm-tools.png\":{\"title\":\"Pest Control CRM: Six Tools That Track Leads and Renewals - Wonderweb Studio\",\"description\":\"Featured social preview for Pest Control CRM: Six Tools That Track Leads and Renewals. Pest Control CRM: Six Tools That Track Leads and Renewals. A pest control CRM should track every lead, every recurring service plan and every renewal in one…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--painting-software-tools.png\":{\"title\":\"Painting Software: 8 Tools for Estimates, Crews and Leads - Wonderweb Studio\",\"description\":\"Featured social preview for Painting Software: 8 Tools for Estimates, Crews and Leads. Painting Software: 8 Tools for Estimates, Crews and Leads. Painting software has to do three jobs: win the estimate, schedule the crew and get paid. Start…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--electrician-website-builder-tools.png\":{\"title\":\"Electrician Website Builder: 5 Options and What They Cost - Wonderweb Studio\",\"description\":\"Featured social preview for Electrician Website Builder: 5 Options and What They Cost. Electrician Website Builder: 5 Options and What They Cost. An electrician website builder gets a basic site live in days, but it does not bring in calls…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-software-tools.png\":{\"title\":\"Roofing Software: 7 Tools for Measuring, Proposals and Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Software: 7 Tools for Measuring, Proposals and Jobs. Roofing Software: 7 Tools for Measuring, Proposals and Jobs. Roofing software pays off when it matches how a roof job actually moves: measure, propose…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--appliance-repair-software-tools.png\":{\"title\":\"Appliance Repair Software: Dispatch, Booking and Invoicing Tools - Wonderweb Studio\",\"description\":\"Featured social preview for Appliance Repair Software: Dispatch, Booking and Invoicing Tools. Appliance Repair Software: Dispatch, Booking and Invoicing Tools. Appliance repair software starts with booking and dispatch, because every missed call is a…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--remodeling-software-tools.png\":{\"title\":\"Remodeling Software: 6 Tools for Bids, Change Orders and Jobs - Wonderweb Studio\",\"description\":\"Featured social preview for Remodeling Software: 6 Tools for Bids, Change Orders and Jobs. Remodeling Software: 6 Tools for Bids, Change Orders and Jobs. Remodeling software has to cover three jobs: bid the work, run the project and get paid…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--property-management-website-builder-tools.png\":{\"title\":\"Property Management Website Builder: 7 Options, Real Limits - Wonderweb Studio\",\"description\":\"Featured social preview for Property Management Website Builder: 7 Options, Real Limits. Property Management Website Builder: 7 Options, Real Limits. A property management website builder is either a stand-alone tool you pair with your software…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--carpet-cleaning-crm-tools.png\":{\"title\":\"Carpet Cleaning CRM: 7 Tools to Win Repeat Customers - Wonderweb Studio\",\"description\":\"Featured social preview for Carpet Cleaning CRM: 7 Tools to Win Repeat Customers. Carpet Cleaning CRM: 7 Tools to Win Repeat Customers. A carpet cleaning CRM stores every customer, reminds you to follow up and brings past customers back…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--plumber-local-services-ads-problems.png\":{\"title\":\"Plumber Local Services Ads: 6 Problems Owners Report and How to Fix Them - Wonderweb Studio\",\"description\":\"Featured social preview for Plumber Local Services Ads: 6 Problems Owners Report and How to Fix Them. Plumber Local Services Ads: 6 Problems Owners Report and How to Fix Them. Plumber local services ads go wrong mostly through wrong-job calls, changed lead…\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--ai-search-optimization.png\":{\"title\":\"AI Search Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for AI Search Optimization. AI search optimization, AEO and GEO services for small businesses. Clear answers, crawlable pages, accurate entities and evidence-led discovery reporting.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--local-services-ads.png\":{\"title\":\"Google Local Services Ads - Wonderweb Studio\",\"description\":\"Featured social preview for Google Local Services Ads. Google Local Services Ads management for eligible businesses. Profile setup support, service-area planning, lead reviews and practical booking reporting.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--microsoft-ads.png\":{\"title\":\"Microsoft Ads Management - Wonderweb Studio\",\"description\":\"Featured social preview for Microsoft Ads Management. Microsoft Advertising and Bing Ads management for service businesses. Search campaigns, budget controls, conversion tracking and qualified-lead reviews.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--linkedin-ads.png\":{\"title\":\"LinkedIn Ads Management - Wonderweb Studio\",\"description\":\"Featured social preview for LinkedIn Ads Management. LinkedIn Ads management for B2B and commercial-service businesses. Audience planning, creative, lead forms and reporting tied to qualified opportunities.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--email-marketing.png\":{\"title\":\"Email Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Email Marketing. Email marketing for small businesses and service companies. Newsletter planning, lifecycle messages, audience segmentation and measurable website journeys.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--reputation-management.png\":{\"title\":\"Reputation Management - Wonderweb Studio\",\"description\":\"Featured social preview for Reputation Management. Reputation management for service businesses. Ethical review requests, response workflows, profile consistency and reporting grounded in real customer feedback.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--conversion-rate-optimization.png\":{\"title\":\"Conversion Rate Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Conversion Rate Optimization. Conversion rate optimization for business websites. Journey research, form improvements, measurement checks and experiments matched to real traffic levels.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--lead-generation.png\":{\"title\":\"Lead Generation - Wonderweb Studio\",\"description\":\"Featured social preview for Lead Generation. Lead generation services for small businesses and home-service companies. Connected campaigns, landing pages, qualification and follow-up reporting.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--digital-media-buying.png\":{\"title\":\"Digital Media Buying - Wonderweb Studio\",\"description\":\"Featured social preview for Digital Media Buying. Digital media buying for growing businesses. Programmatic display, streaming TV and video campaign planning with clear inventory, creative and measurement scope.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--franchise-marketing.png\":{\"title\":\"Franchise & Multi-Location Marketing - Wonderweb Studio\",\"description\":\"Featured social preview for Franchise & Multi-Location Marketing. Franchise and multi-location marketing services. Shared brand standards, local campaign planning, location content and reporting across real service markets.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--ai-workflow-automation.png\":{\"title\":\"AI Workflow & Automation - Wonderweb Studio\",\"description\":\"Featured social preview for AI Workflow & Automation. AI workflow and automation services for small businesses. Process mapping, supported integrations, human review and tested handoffs for routine operations.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--web-design.png\":{\"title\":\"Website Design - Wonderweb Studio\",\"description\":\"Featured social preview for Website Design. Custom website design for small businesses and home-service companies. Clear messaging, responsive layouts and an easier path from visitor to inquiry.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--web-development.png\":{\"title\":\"Web Development - Wonderweb Studio\",\"description\":\"Featured social preview for Web Development. Website development for small businesses, from fast marketing sites to content systems and integrations. Built around how your business works.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--website-management.png\":{\"title\":\"Website Management - Wonderweb Studio\",\"description\":\"Featured social preview for Website Management. Ongoing website management, content updates and website care for small businesses. Keep your pages current and your inquiry journeys working.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--seo.png\":{\"title\":\"Search Engine Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Search Engine Optimization. SEO services for small businesses and home-service companies. Technical foundations, useful service content and search reporting connected to inquiries.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--local-seo.png\":{\"title\":\"Local SEO - Wonderweb Studio\",\"description\":\"Featured social preview for Local SEO. Local SEO for service businesses. Business profile care, accurate service information and location content that helps local customers make contact.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--google-ads.png\":{\"title\":\"Google Ads Management - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads Management. Google Ads management for small businesses and contractors. Focused campaigns, relevant landing pages and reporting that looks beyond clicks.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--meta-ads.png\":{\"title\":\"Meta Ads Management - Wonderweb Studio\",\"description\":\"Featured social preview for Meta Ads Management. Facebook and Instagram ads management with creative testing, relevant offers and a focus on lead quality. Meta campaigns for small businesses.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--social-media-management.png\":{\"title\":\"Social Media Management - Wonderweb Studio\",\"description\":\"Featured social preview for Social Media Management. Organic social media management for small businesses. Content calendars, post design, captions, scheduling and a clear approval process.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--content-creation.png\":{\"title\":\"Content Creation - Wonderweb Studio\",\"description\":\"Featured social preview for Content Creation. Website copy, articles and social content for small businesses. Clear messaging informed by customer questions, subject knowledge and search intent.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--content-management.png\":{\"title\":\"Content Management - Wonderweb Studio\",\"description\":\"Featured social preview for Content Management. Content management and publishing support for small business websites. Editorial calendars, CMS updates and content maintenance with clear ownership.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--graphic-design.png\":{\"title\":\"Graphic Design - Wonderweb Studio\",\"description\":\"Featured social preview for Graphic Design. Graphic design for social posts, digital campaigns and small business marketing. Clear briefs, consistent visual direction and usable deliverables.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--thumbnail-design.png\":{\"title\":\"Thumbnail Design - Wonderweb Studio\",\"description\":\"Featured social preview for Thumbnail Design. YouTube and social thumbnail design that communicates the idea clearly. Thoughtful composition, readable type and a consistent channel identity.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/services--landing-page-design.png\":{\"title\":\"Landing Page Design - Wonderweb Studio\",\"description\":\"Featured social preview for Landing Page Design. Campaign landing page design and development for Google and Meta Ads. Focused messaging, lead forms and conversion measurement.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries--roofing.png\":{\"title\":\"Roofing - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing. Websites, SEO, ads and content for roofing companies. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries--hvac.png\":{\"title\":\"HVAC - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC. Websites, SEO, ads and content for HVAC companies. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries--plumbing.png\":{\"title\":\"Plumbing - Wonderweb Studio\",\"description\":\"Featured social preview for Plumbing. Websites, SEO, ads and content for plumbing businesses. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries--electricians.png\":{\"title\":\"Electricians - Wonderweb Studio\",\"description\":\"Featured social preview for Electricians. Websites, SEO, ads and content for electrical contractors. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries--kitchen-remodeling.png\":{\"title\":\"Kitchen Remodeling - Wonderweb Studio\",\"description\":\"Featured social preview for Kitchen Remodeling. Websites, SEO, ads and content for kitchen remodeling businesses. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries--bathroom-remodeling.png\":{\"title\":\"Bathroom Remodeling - Wonderweb Studio\",\"description\":\"Featured social preview for Bathroom Remodeling. Websites, SEO, ads and content for bathroom remodelers. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries--landscaping.png\":{\"title\":\"Landscaping - Wonderweb Studio\",\"description\":\"Featured social preview for Landscaping. Websites, SEO, ads and content for landscaping businesses. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries--pest-control.png\":{\"title\":\"Pest Control - Wonderweb Studio\",\"description\":\"Featured social preview for Pest Control. Websites, SEO, ads and content for pest-control companies. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries--small-business.png\":{\"title\":\"Small Businesses - Wonderweb Studio\",\"description\":\"Featured social preview for Small Businesses. Websites, SEO, ads and content for small businesses worldwide. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries--roofing--seo.png\":{\"title\":\"Search Engine Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Search Engine Optimization. Search Engine Optimization for roofing companies. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries--roofing--web-design.png\":{\"title\":\"Website Design - Wonderweb Studio\",\"description\":\"Featured social preview for Website Design. Website Design for roofing companies. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries--hvac--seo.png\":{\"title\":\"Search Engine Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Search Engine Optimization. Search Engine Optimization for HVAC companies. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries--hvac--web-design.png\":{\"title\":\"Website Design - Wonderweb Studio\",\"description\":\"Featured social preview for Website Design. Website Design for HVAC companies. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries--plumbing--seo.png\":{\"title\":\"Search Engine Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Search Engine Optimization. Search Engine Optimization for plumbing businesses. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries--plumbing--web-design.png\":{\"title\":\"Website Design - Wonderweb Studio\",\"description\":\"Featured social preview for Website Design. Website Design for plumbing businesses. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries--electricians--seo.png\":{\"title\":\"Search Engine Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Search Engine Optimization. Search Engine Optimization for electrical contractors. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/industries--electricians--web-design.png\":{\"title\":\"Website Design - Wonderweb Studio\",\"description\":\"Featured social preview for Website Design. Website Design for electrical contractors. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--tampa.png\":{\"title\":\"Tampa - Wonderweb Studio\",\"description\":\"Featured social preview for Tampa. Web design, SEO, paid ads and social media for Tampa small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--chicago.png\":{\"title\":\"Chicago - Wonderweb Studio\",\"description\":\"Featured social preview for Chicago. Web design, SEO, paid ads and social media for Chicago small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--orlando.png\":{\"title\":\"Orlando - Wonderweb Studio\",\"description\":\"Featured social preview for Orlando. Web design, SEO, paid ads and social media for Orlando small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--boston.png\":{\"title\":\"Boston - Wonderweb Studio\",\"description\":\"Featured social preview for Boston. Web design, SEO, paid ads and social media for Boston small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--dallas.png\":{\"title\":\"Dallas - Wonderweb Studio\",\"description\":\"Featured social preview for Dallas. Web design, SEO, paid ads and social media for Dallas small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--houston.png\":{\"title\":\"Houston - Wonderweb Studio\",\"description\":\"Featured social preview for Houston. Web design, SEO, paid ads and social media for Houston small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--phoenix.png\":{\"title\":\"Phoenix - Wonderweb Studio\",\"description\":\"Featured social preview for Phoenix. Web design, SEO, paid ads and social media for Phoenix small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--los-angeles.png\":{\"title\":\"Los Angeles - Wonderweb Studio\",\"description\":\"Featured social preview for Los Angeles. Web design, SEO, paid ads and social media for Los Angeles small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--austin.png\":{\"title\":\"Austin - Wonderweb Studio\",\"description\":\"Featured social preview for Austin. Web design, SEO, paid ads and social media for Austin small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--denver.png\":{\"title\":\"Denver - Wonderweb Studio\",\"description\":\"Featured social preview for Denver. Web design, SEO, paid ads and social media for Denver small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--indianapolis.png\":{\"title\":\"Indianapolis - Wonderweb Studio\",\"description\":\"Featured social preview for Indianapolis. Web design, SEO, paid ads and social media for Indianapolis small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--miami.png\":{\"title\":\"Miami - Wonderweb Studio\",\"description\":\"Featured social preview for Miami. Web design, SEO, paid ads and social media for Miami small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--florida.png\":{\"title\":\"Florida - Wonderweb Studio\",\"description\":\"Featured social preview for Florida. Web design, SEO, paid ads and social media for Florida small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--indiana.png\":{\"title\":\"Indiana - Wonderweb Studio\",\"description\":\"Featured social preview for Indiana. Web design, SEO, paid ads and social media for Indiana small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--phoenix--seo.png\":{\"title\":\"Search Engine Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Search Engine Optimization. SEO for Phoenix businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--phoenix--google-ads.png\":{\"title\":\"Google Ads Management - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads Management. Google Ads Management for Phoenix businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--austin--seo.png\":{\"title\":\"Search Engine Optimization - Wonderweb Studio\",\"description\":\"Featured social preview for Search Engine Optimization. SEO for Austin businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--austin--google-ads.png\":{\"title\":\"Google Ads Management - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads Management. Google Ads Management for Austin businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/locations--denver--google-ads.png\":{\"title\":\"Google Ads Management - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads Management. Google Ads Management for Denver businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/work--allsafe-electric.png\":{\"title\":\"Allsafe Electric - Wonderweb Studio\",\"description\":\"Featured social preview for Allsafe Electric. A Next.js website for a Colorado electrical business, bringing service information, local content and inquiry handling into one customer journey.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/work--clear-day-baths.png\":{\"title\":\"Clear Day Baths - Wonderweb Studio\",\"description\":\"Featured social preview for Clear Day Baths. A bathroom remodeling website connecting service-area content, quote requests and CRM follow-up for a business serving Northern Virginia and Maryland.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/work--jr-watkins.png\":{\"title\":\"J.R. Watkins - Wonderweb Studio\",\"description\":\"Featured social preview for J.R. Watkins. Website development for J.R. Watkins, with a focus on responsive presentation, brand identity and a clear customer experience.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/work--workiz.png\":{\"title\":\"Workiz - Wonderweb Studio\",\"description\":\"Featured social preview for Workiz. Website development work for Workiz, a platform serving field-service businesses. A project at the intersection of software and the trades.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/work--windsor.png\":{\"title\":\"Windsor - Wonderweb Studio\",\"description\":\"Featured social preview for Windsor. E-commerce website design work focused on the Windsor shopping experience and its brand presentation.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/work--ezeie.png\":{\"title\":\"ezeie - Wonderweb Studio\",\"description\":\"Featured social preview for ezeie. A UX and web application project focused on updating an existing website experience for mobile and desktop use.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/work--california-olive-ranch.png\":{\"title\":\"California Olive Ranch - Wonderweb Studio\",\"description\":\"Featured social preview for California Olive Ranch. Website development work for California Olive Ranch, connecting brand presentation with a responsive web interface.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/work--crafted-look.png\":{\"title\":\"Crafted Look - Wonderweb Studio\",\"description\":\"Featured social preview for Crafted Look. A blog and editorial website built around approachable content, clear navigation and a responsive reading experience.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/work--the-unseen-threads.png\":{\"title\":\"The Unseen Threads - Wonderweb Studio\",\"description\":\"Featured social preview for The Unseen Threads. A blog and website design project with a focus on a responsive home for editorial content.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/work--read-the-anime.png\":{\"title\":\"Read The Anime - Wonderweb Studio\",\"description\":\"Featured social preview for Read The Anime. An anime-focused blog website project that organizes content into a responsive reading experience.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/work--dococlock.png\":{\"title\":\"DocoClock - Wonderweb Studio\",\"description\":\"Featured social preview for DocoClock. A healthcare platform bringing doctor discovery, appointments, live queues and digital prescriptions into one connected healthcare experience.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/work--pet-cy.png\":{\"title\":\"Pet-cy - Wonderweb Studio\",\"description\":\"Featured social preview for Pet-cy. An e-commerce storefront for a Cyprus pet supply business, bringing its catalog, offers and shopping information together.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/work--flow-web-design.png\":{\"title\":\"Flow website exploration - Wonderweb Studio\",\"description\":\"Featured social preview for Flow website exploration. Explore flow website exploration from Wonderweb Studio’s creative portfolio. See the visual direction and discuss a design brief for your business.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/work--ecommerce-experience.png\":{\"title\":\"Fashion storefront exploration - Wonderweb Studio\",\"description\":\"Featured social preview for Fashion storefront exploration. Explore fashion storefront exploration from Wonderweb Studio’s creative portfolio. See the visual direction and discuss a design brief for your business.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/work--interface-exploration.png\":{\"title\":\"Sign-in interface study - Wonderweb Studio\",\"description\":\"Featured social preview for Sign-in interface study. Explore sign-in interface study from Wonderweb Studio’s creative portfolio. See the visual direction and discuss a design brief for your business.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/work--thumbnail-creative.png\":{\"title\":\"YouTube thumbnail explorations - Wonderweb Studio\",\"description\":\"Featured social preview for YouTube thumbnail explorations. Explore youtube thumbnail explorations from Wonderweb Studio’s creative portfolio. See the visual direction and discuss a design brief for your business.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-cost-home-services.png\":{\"title\":\"What should a home-service business budget for Google Ads? - Wonderweb Studio\",\"description\":\"Featured social preview for What should a home-service business budget for Google Ads?. Separate media spend, management, landing pages and follow-up before deciding what a campaign really costs.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-seo-cost.png\":{\"title\":\"Roofing SEO cost: what should your proposal actually include? - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing SEO cost: what should your proposal actually include?. A useful SEO quote explains the work, the evidence and the review process - not just a monthly price.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-management-vs-maintenance.png\":{\"title\":\"Website management vs. maintenance: what do you need? - Wonderweb Studio\",\"description\":\"Featured social preview for Website management vs. maintenance: what do you need?. Keeping the site healthy and keeping its content useful are related jobs, but they are not the same scope.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--social-media-content-calendar.png\":{\"title\":\"A practical monthly content calendar for a small business - Wonderweb Studio\",\"description\":\"Featured social preview for A practical monthly content calendar for a small business. Build a repeatable plan from your work, your customers’ questions and one clear monthly offer.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-redesign-checklist.png\":{\"title\":\"Before you redesign your business website, check these six things - Wonderweb Studio\",\"description\":\"Featured social preview for Before you redesign your business website, check these six things. Protect the useful parts of your current website while improving the way it explains, proves and converts.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-vs-meta-ads.png\":{\"title\":\"Google Ads or Meta Ads: where should a small business start? - Wonderweb Studio\",\"description\":\"Featured social preview for Google Ads or Meta Ads: where should a small business start?. Choose the channel around customer intent, the offer, creative readiness and the way you handle leads.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--home-service-marketing-ideas.png\":{\"title\":\"9 practical marketing ideas for a home-service business - Wonderweb Studio\",\"description\":\"Featured social preview for 9 practical marketing ideas for a home-service business. A prioritized list of ways to connect your services, local visibility, project evidence and follow-up - without trying every channel at once.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--small-business-website-trust-signals.png\":{\"title\":\"11 trust signals every small-business website should explain - Wonderweb Studio\",\"description\":\"Featured social preview for 11 trust signals every small-business website should explain. Help visitors understand who you are, what you do and what happens next with specific evidence and clear information.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-conversion-improvements.png\":{\"title\":\"7 website improvements to make inquiries easier - Wonderweb Studio\",\"description\":\"Featured social preview for 7 website improvements to make inquiries easier. A practical review of the offer, proof, page layout and form journey before you spend more to attract visitors.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--social-media-post-ideas-small-business.png\":{\"title\":\"8 social media post ideas a small business can reuse - Wonderweb Studio\",\"description\":\"Featured social preview for 8 social media post ideas a small business can reuse. Build a sustainable calendar from customer questions, project material and the expertise already inside your business.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--questions-before-hiring-marketing-agency.png\":{\"title\":\"9 questions to ask before hiring a marketing agency - Wonderweb Studio\",\"description\":\"Featured social preview for 9 questions to ask before hiring a marketing agency. Compare agencies on scope, evidence, costs, account access and reporting so the proposal is easier to evaluate.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--youtube-thumbnail-design-checklist.png\":{\"title\":\"7 checks for a clearer YouTube thumbnail - Wonderweb Studio\",\"description\":\"Featured social preview for 7 checks for a clearer YouTube thumbnail. Use a clear focal point, readable type and honest visual promises to make thumbnail concepts easier to evaluate.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--choosing-roofing-seo-agency.png\":{\"title\":\"How to choose a roofing SEO agency: 7 checks before you sign - Wonderweb Studio\",\"description\":\"Featured social preview for How to choose a roofing SEO agency: 7 checks before you sign. Compare roofing SEO agencies by their research, service-page plan, reporting and scope. Seven practical checks before committing to a proposal.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--hvac-seo-planning-guide.png\":{\"title\":\"HVAC SEO: a practical plan for service pages and qualified inquiries - Wonderweb Studio\",\"description\":\"Featured social preview for HVAC SEO: a practical plan for service pages and qualified inquiries. Plan HVAC SEO around repair, replacement and maintenance intent. Learn how service pages, local information and inquiry tracking fit together.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--electrician-seo-checklist.png\":{\"title\":\"9 electrician SEO checks for a more useful service website - Wonderweb Studio\",\"description\":\"Featured social preview for 9 electrician SEO checks for a more useful service website. Review service pages, local information, project evidence and inquiry paths with this nine-point SEO checklist for electrical contractors.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--kitchen-remodeling-facebook-ads.png\":{\"title\":\"Facebook ads for kitchen remodeling: build a clearer campaign brief - Wonderweb Studio\",\"description\":\"Featured social preview for Facebook ads for kitchen remodeling: build a clearer campaign brief. Connect your kitchen remodeling offer, project imagery, landing page and follow-up before launching a Facebook or Instagram campaign.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--roofing-facebook-ads-guide.png\":{\"title\":\"Roofing Facebook ads: 6 decisions to make before launching - Wonderweb Studio\",\"description\":\"Featured social preview for Roofing Facebook ads: 6 decisions to make before launching. Plan a roofing Meta campaign around a clear offer, approved project proof, suitable inquiries and the sales team’s ability to follow up.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--restoration-seo-agency-checklist.png\":{\"title\":\"Choosing a restoration SEO partner: a scope and evidence checklist - Wonderweb Studio\",\"description\":\"Featured social preview for Choosing a restoration SEO partner: a scope and evidence checklist. Evaluate restoration SEO work by service intent, accurate availability, technical delivery and clear reporting rather than a list of ranking promises.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--auto-repair-website-planning-guide.png\":{\"title\":\"Auto repair website design: 8 things customers need before they book - Wonderweb Studio\",\"description\":\"Featured social preview for Auto repair website design: 8 things customers need before they book. Plan an auto repair website around service clarity, genuine shop information, useful proof and a booking request your team can handle.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--siding-marketing-agency-checklist.png\":{\"title\":\"Siding marketing: 7 questions to ask before hiring an agency - Wonderweb Studio\",\"description\":\"Featured social preview for Siding marketing: 7 questions to ask before hiring an agency. Compare siding marketing proposals by offer, project content, service area, channel choice and the quality of the estimate inquiries they aim to support.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-design-brief-business-owner.png\":{\"title\":\"How to write a website design brief your agency can use - Wonderweb Studio\",\"description\":\"Featured social preview for How to write a website design brief your agency can use. Prepare a website design brief with clear audiences, page priorities, content responsibilities and approval rules before asking for concepts.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--business-website-page-architecture.png\":{\"title\":\"How many pages does a business website really need? - Wonderweb Studio\",\"description\":\"Featured social preview for How many pages does a business website really need?. Choose website pages around customer decisions, distinct services and useful proof, with a practical method for avoiding thin or duplicate pages.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-wireframes-before-visual-design.png\":{\"title\":\"What should you approve at the website wireframe stage? - Wonderweb Studio\",\"description\":\"Featured social preview for What should you approve at the website wireframe stage?. Review website wireframes for messaging, page flow, evidence and mobile priorities before colors and visual polish make changes more expensive.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-project-photo-selection.png\":{\"title\":\"Which project photos should go on your business website? - Wonderweb Studio\",\"description\":\"Featured social preview for Which project photos should go on your business website?. Select project images that explain your work, protect customer privacy and support a clear website story instead of filling a decorative gallery.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-design-feedback-review-rounds.png\":{\"title\":\"How to give website design feedback that moves the project forward - Wonderweb Studio\",\"description\":\"Featured social preview for How to give website design feedback that moves the project forward. Turn scattered design opinions into clear website feedback with customer tasks, grouped decisions and a practical approach to review rounds.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-navigation-service-business.png\":{\"title\":\"Website navigation for a service business: what belongs in the menu? - Wonderweb Studio\",\"description\":\"Featured social preview for Website navigation for a service business: what belongs in the menu?. Plan a clear website menu that helps visitors find services, evidence and contact options without forcing every page into the main navigation.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-platform-requirements-before-build.png\":{\"title\":\"Choose a website platform by the work your team needs to do - Wonderweb Studio\",\"description\":\"Featured social preview for Choose a website platform by the work your team needs to do. Compare website platforms using editing needs, integrations, ownership and maintenance responsibilities before committing to a new build.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-form-email-crm-delivery.png\":{\"title\":\"From website form to inbox: planning a reliable lead handoff - Wonderweb Studio\",\"description\":\"Featured social preview for From website form to inbox: planning a reliable lead handoff. Plan how website inquiries reach your inbox or CRM, with clear field requirements, failure handling, ownership and end-to-end delivery checks.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--cms-content-model-service-business.png\":{\"title\":\"Plan a CMS your team can edit without breaking the design - Wonderweb Studio\",\"description\":\"Featured social preview for Plan a CMS your team can edit without breaking the design. Organize services, projects and articles into a practical CMS structure with reusable fields, publishing rules and a clear editing handoff.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-migration-url-inventory.png\":{\"title\":\"Build a URL inventory before moving your website - Wonderweb Studio\",\"description\":\"Featured social preview for Build a URL inventory before moving your website. Prepare a website migration inventory that connects old URLs, useful content, replacement pages and launch checks before the new site goes live.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-integration-scope-questions.png\":{\"title\":\"Questions to answer before adding a website integration - Wonderweb Studio\",\"description\":\"Featured social preview for Questions to answer before adding a website integration. Define a website integration around data, permissions, exceptions and support responsibilities so a simple connection does not hide a complex workflow.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-development-handoff-acceptance.png\":{\"title\":\"What to check before accepting a finished website build - Wonderweb Studio\",\"description\":\"Featured social preview for What to check before accepting a finished website build. Review a website build through real customer tasks, editing access, integration delivery and ownership documents before signing off the handoff.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-update-request-workflow.png\":{\"title\":\"Build a website update process that keeps requests moving - Wonderweb Studio\",\"description\":\"Featured social preview for Build a website update process that keeps requests moving. Organize website edits with complete briefs, clear priorities, review ownership and a visible queue that separates routine work from larger projects.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-incident-response-business-owner.png\":{\"title\":\"What to do when your business website stops working - Wonderweb Studio\",\"description\":\"Featured social preview for What to do when your business website stops working. Prepare a practical website incident plan covering lost inquiries, outages, account access, communication and recovery checks before a problem occurs.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--quarterly-website-review-priorities.png\":{\"title\":\"A quarterly website review for an established service business - Wonderweb Studio\",\"description\":\"Featured social preview for A quarterly website review for an established service business. Review website offers, inquiry journeys, project evidence and content priorities each quarter with a practical method for choosing useful improvements.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-management-report-what-to-read.png\":{\"title\":\"What a useful website management report should tell you - Wonderweb Studio\",\"description\":\"Featured social preview for What a useful website management report should tell you. Understand website management reports by separating completed work, open risks, inquiry checks and business decisions from activity counts alone.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-account-ownership-access-register.png\":{\"title\":\"Who owns your website accounts? Build a clear access register - Wonderweb Studio\",\"description\":\"Featured social preview for Who owns your website accounts? Build a clear access register. Record domain, hosting, CMS and integration ownership so your business can manage access, renewals and supplier changes without losing control.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--seasonal-website-updates-service-business.png\":{\"title\":\"Plan seasonal website updates without starting over each time - Wonderweb Studio\",\"description\":\"Featured social preview for Plan seasonal website updates without starting over each time. Prepare seasonal offers, service information and campaign pages with a reusable update schedule, accurate dates and a clear process for retiring promotions.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--landing-page-offer-brief.png\":{\"title\":\"Write a landing page brief around one clear offer - Wonderweb Studio\",\"description\":\"Featured social preview for Write a landing page brief around one clear offer. Define a campaign landing page with one audience, a clear offer, relevant proof and a measurable next step before designing the first screen.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--landing-page-lead-qualification-fields.png\":{\"title\":\"How much should your landing page form ask? - Wonderweb Studio\",\"description\":\"Featured social preview for How much should your landing page form ask?. Choose landing page form fields around the next sales action, balancing useful qualification with a clear and accessible inquiry experience.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--landing-page-traffic-no-inquiries.png\":{\"title\":\"Your landing page gets visits but few inquiries: where to look - Wonderweb Studio\",\"description\":\"Featured social preview for Your landing page gets visits but few inquiries: where to look. Diagnose a landing page with few inquiries by reviewing traffic intent, offer clarity, trust, form delivery and sales context before redesigning it.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--service-page-or-campaign-landing-page.png\":{\"title\":\"Service page or campaign landing page: which do you need? - Wonderweb Studio\",\"description\":\"Featured social preview for Service page or campaign landing page: which do you need?. Decide when a service page is enough and when a dedicated campaign landing page needs a different offer, structure or qualification process.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--landing-page-test-plan-small-budget.png\":{\"title\":\"Build a landing page test plan when traffic is limited - Wonderweb Studio\",\"description\":\"Featured social preview for Build a landing page test plan when traffic is limited. Plan useful landing page experiments with clear hypotheses, realistic evidence limits and sales feedback when your campaign does not have large traffic volume.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--landing-page-google-meta-message-match.png\":{\"title\":\"Adapt landing pages for search and social traffic - Wonderweb Studio\",\"description\":\"Featured social preview for Adapt landing pages for search and social traffic. Adapt landing page messaging for search and social visitors while keeping the offer, qualification and follow-up consistent across campaigns.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--youtube-thumbnail-creative-brief.png\":{\"title\":\"Write a thumbnail brief that matches the video - Wonderweb Studio\",\"description\":\"Featured social preview for Write a thumbnail brief that matches the video. Prepare a thumbnail design brief with the video’s real promise, audience, visual evidence and title direction before asking for creative concepts.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--thumbnail-title-pairing-guide.png\":{\"title\":\"Make the thumbnail and title work as one promise - Wonderweb Studio\",\"description\":\"Featured social preview for Make the thumbnail and title work as one promise. Create clearer video packaging by giving the thumbnail and title complementary roles, with accurate examples and a practical review process.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--thumbnail-series-brand-system.png\":{\"title\":\"Build a thumbnail system for a recurring video series - Wonderweb Studio\",\"description\":\"Featured social preview for Build a thumbnail system for a recurring video series. Create a recognizable thumbnail series with flexible layouts, consistent visual cues and enough variation to explain each episode’s actual subject.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--refresh-old-video-thumbnails.png\":{\"title\":\"When should you refresh an older video’s thumbnail? - Wonderweb Studio\",\"description\":\"Featured social preview for When should you refresh an older video’s thumbnail?. Review older video thumbnails with a clear reason for change, an accurate content promise and a record that separates packaging updates from other factors.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--thumbnail-testing-brief-and-review.png\":{\"title\":\"Plan a thumbnail test that answers a useful question - Wonderweb Studio\",\"description\":\"Featured social preview for Plan a thumbnail test that answers a useful question. Create meaningful thumbnail variants, document the hypothesis and review viewing context so testing produces useful learning rather than random design changes.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--thumbnail-production-batch-workflow.png\":{\"title\":\"A thumbnail production workflow for a busy content team - Wonderweb Studio\",\"description\":\"Featured social preview for A thumbnail production workflow for a busy content team. Plan a repeatable thumbnail workflow covering video briefs, asset collection, creative review, export checks and library organization for recurring content.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--seo-priority-backlog.png\":{\"title\":\"How to turn an SEO audit into a useful work backlog - Wonderweb Studio\",\"description\":\"Featured social preview for How to turn an SEO audit into a useful work backlog. Turn a long SEO audit into a practical work queue, with evidence, priorities, responsibilities and checks that connect fixes to business needs.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--service-page-keyword-overlap.png\":{\"title\":\"When two service pages compete: keep, combine or clarify? - Wonderweb Studio\",\"description\":\"Featured social preview for When two service pages compete: keep, combine or clarify?. Decide when overlapping service pages should stay separate, be improved or be combined, using customer intent and real search evidence.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--seo-reporting-business-decisions.png\":{\"title\":\"An SEO report should help you decide what to do next - Wonderweb Studio\",\"description\":\"Featured social preview for An SEO report should help you decide what to do next. Build an SEO report around useful questions: which services are being found, what visitors need and which changes deserve attention next.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--seo-migration-url-mapping.png\":{\"title\":\"Build a URL migration map before replacing your website - Wonderweb Studio\",\"description\":\"Featured social preview for Build a URL migration map before replacing your website. Plan old-to-new URL mappings before a website migration, preserve useful pages and verify redirects, internal links and search signals after launch.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--refresh-merge-or-retire-content.png\":{\"title\":\"Refresh, merge or retire: deciding what to do with old content - Wonderweb Studio\",\"description\":\"Featured social preview for Refresh, merge or retire: deciding what to do with old content. Assess older articles by usefulness, accuracy and intent, then choose a focused refresh, a thoughtful merge or a documented retirement.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--indexing-triage-for-service-websites.png\":{\"title\":\"A practical indexing triage for service-business websites - Wonderweb Studio\",\"description\":\"Featured social preview for A practical indexing triage for service-business websites. Separate access problems, indexing directives and content decisions when a service page is missing from search, then verify the relevant fix.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-business-profile-eligibility-checklist.png\":{\"title\":\"Check Google Business Profile eligibility before local SEO - Wonderweb Studio\",\"description\":\"Featured social preview for Check Google Business Profile eligibility before local SEO. Check whether your business qualifies for a Google Business Profile, describe its real operations and prepare accurate information before setup.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--multi-location-local-seo-structure.png\":{\"title\":\"Plan local SEO for multiple locations without confusing customers - Wonderweb Studio\",\"description\":\"Featured social preview for Plan local SEO for multiple locations without confusing customers. Organize real business locations and service areas into a clear website structure, with useful local content, ownership and measurement.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--customer-review-request-workflow.png\":{\"title\":\"Build a review-request workflow your team can maintain - Wonderweb Studio\",\"description\":\"Featured social preview for Build a review-request workflow your team can maintain. Create a consistent review-request process with clear ownership, honest customer invitations and useful responses that protect customer privacy.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--local-citation-audit.png\":{\"title\":\"Audit business listings without chasing directory counts - Wonderweb Studio\",\"description\":\"Featured social preview for Audit business listings without chasing directory counts. Review business listings for accuracy, ownership and customer usefulness, then prioritize corrections instead of chasing a larger directory count.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--service-area-pages-with-real-evidence.png\":{\"title\":\"What belongs on a useful service-area page? - Wonderweb Studio\",\"description\":\"Featured social preview for What belongs on a useful service-area page?. Create service-area pages that explain real coverage, relevant work and customer next steps, without inventing offices or repeating city-swapped copy.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--seasonal-local-seo-planning.png\":{\"title\":\"Plan seasonal local SEO around capacity and customer questions - Wonderweb Studio\",\"description\":\"Featured social preview for Plan seasonal local SEO around capacity and customer questions. Prepare local service content before seasonal demand, align it with real availability and keep customer information accurate when priorities change.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-search-term-review.png\":{\"title\":\"Review Google Ads search terms without blocking good customers - Wonderweb Studio\",\"description\":\"Featured social preview for Review Google Ads search terms without blocking good customers. Review search terms by customer intent, add negatives carefully and use real lead feedback to improve targeting without blocking relevant demand.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--qualified-lead-tracking-google-ads.png\":{\"title\":\"Track Google Ads leads beyond the first form submission - Wonderweb Studio\",\"description\":\"Featured social preview for Track Google Ads leads beyond the first form submission. Connect Google Ads inquiries to qualification and sales stages, with clear definitions, reliable handoffs and realistic reporting limitations.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-budget-by-service.png\":{\"title\":\"Allocate a Google Ads budget across services without guessing - Wonderweb Studio\",\"description\":\"Featured social preview for Allocate a Google Ads budget across services without guessing. Build a service-level advertising budget around capacity, economics and qualified inquiries, then expand only when the evidence supports it.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-search-campaign-launch-checklist.png\":{\"title\":\"A Google Search campaign launch checklist beyond the account settings - Wonderweb Studio\",\"description\":\"Featured social preview for A Google Search campaign launch checklist beyond the account settings. Check the offer, targeting, landing page, inquiry delivery and sales handoff before launching a Google Search campaign for a service business.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-experiment-log.png\":{\"title\":\"Keep a Google Ads experiment log that explains your decisions - Wonderweb Studio\",\"description\":\"Featured social preview for Keep a Google Ads experiment log that explains your decisions. Record campaign hypotheses, changes and review criteria so you can understand what a Google Ads test taught you and what should happen next.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--google-ads-message-match.png\":{\"title\":\"Match your Google Ads message to the landing-page decision - Wonderweb Studio\",\"description\":\"Featured social preview for Match your Google Ads message to the landing-page decision. Align the search ad, landing-page promise and inquiry process so customers understand the service and the next step before they make contact.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--meta-instant-forms-vs-website-forms.png\":{\"title\":\"Meta instant forms or website forms: choose the right lead journey - Wonderweb Studio\",\"description\":\"Featured social preview for Meta instant forms or website forms: choose the right lead journey. Compare Meta instant forms and website forms around customer understanding, qualification, delivery and sales outcomes instead of submission cost alone.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--meta-ad-creative-testing-matrix.png\":{\"title\":\"Build a Meta ad creative matrix that tests ideas, not just colors - Wonderweb Studio\",\"description\":\"Featured social preview for Build a Meta ad creative matrix that tests ideas, not just colors. Plan distinct Meta ad concepts around customer questions, evidence and offers, then use a clear test matrix to learn which messages deserve development.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--meta-lead-follow-up-workflow.png\":{\"title\":\"Create a Meta lead follow-up workflow before increasing spend - Wonderweb Studio\",\"description\":\"Featured social preview for Create a Meta lead follow-up workflow before increasing spend. Connect Meta lead capture to responsible follow-up, clear qualification and useful feedback so the business can evaluate more than form volume.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--meta-ad-fatigue-diagnosis.png\":{\"title\":\"Is your Meta ad tired, or has something else changed? - Wonderweb Studio\",\"description\":\"Featured social preview for Is your Meta ad tired, or has something else changed?. Investigate weaker Meta campaign results by checking the offer, audience, tracking and follow-up before assuming every decline is creative fatigue.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--meta-retargeting-audience-plan.png\":{\"title\":\"Plan Meta retargeting around the customer’s next question - Wonderweb Studio\",\"description\":\"Featured social preview for Plan Meta retargeting around the customer’s next question. Build a focused retargeting plan with relevant messages, sensible exclusions and clear measurement instead of repeating the same sales ad to everyone.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--meta-campaign-offer-planning.png\":{\"title\":\"Plan a Meta campaign offer the business can actually deliver - Wonderweb Studio\",\"description\":\"Featured social preview for Plan a Meta campaign offer the business can actually deliver. Create a Meta campaign offer with a specific audience, credible promise, clear boundaries and a next step your team can consistently deliver.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--social-media-approval-workflow.png\":{\"title\":\"A social media approval workflow that keeps posts moving - Wonderweb Studio\",\"description\":\"Featured social preview for A social media approval workflow that keeps posts moving. Set up clear reviewers, deadlines and change requests so your social posts are accurate, approved and ready without a daily rush to publish.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--social-media-monthly-report-decisions.png\":{\"title\":\"What a useful monthly social media report should help you decide - Wonderweb Studio\",\"description\":\"Featured social preview for What a useful monthly social media report should help you decide. Turn social reporting into practical decisions about content, inquiries and production effort instead of a collection of follower and reach totals.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--social-media-agency-handover-checklist.png\":{\"title\":\"How to hand social media accounts to a new management team - Wonderweb Studio\",\"description\":\"Featured social preview for How to hand social media accounts to a new management team. Prepare access, assets, approvals and current campaign context before a new team takes over your social accounts and publishing schedule.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--social-community-management-response-playbook.png\":{\"title\":\"Build a practical response playbook for social comments and messages - Wonderweb Studio\",\"description\":\"Featured social preview for Build a practical response playbook for social comments and messages. Decide who answers social questions, what needs escalation and how inquiries reach your team without losing the context of the conversation.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--social-platform-selection-small-business.png\":{\"title\":\"Choose social platforms around the work your team can sustain - Wonderweb Studio\",\"description\":\"Featured social preview for Choose social platforms around the work your team can sustain. Compare audience needs, usable assets and production capacity before deciding which social platforms deserve consistent attention from your team.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--social-media-project-photo-collection.png\":{\"title\":\"A project-photo collection routine your social team can use - Wonderweb Studio\",\"description\":\"Featured social preview for A project-photo collection routine your social team can use. Give your social team better source material with a simple routine for project photos, factual notes, permissions and organized handoffs.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--expert-interview-content-process.png\":{\"title\":\"Turn an expert interview into useful business content - Wonderweb Studio\",\"description\":\"Featured social preview for Turn an expert interview into useful business content. Capture practical knowledge from your team and turn it into accurate articles, service explanations and FAQs without asking experts to write drafts.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--business-content-brief-template.png\":{\"title\":\"What to include in a content brief before writing begins - Wonderweb Studio\",\"description\":\"Featured social preview for What to include in a content brief before writing begins. Define the reader, decision, evidence and next step before commissioning an article so writers can deliver useful content with fewer avoidable revisions.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--content-map-customer-decisions.png\":{\"title\":\"Map content to the decisions customers make before contacting you - Wonderweb Studio\",\"description\":\"Featured social preview for Map content to the decisions customers make before contacting you. Build an editorial plan around real buying questions so articles support service pages and help customers prepare for the right conversation.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--repurpose-guide-into-content-assets.png\":{\"title\":\"Repurpose one useful guide without repeating the same post everywhere - Wonderweb Studio\",\"description\":\"Featured social preview for Repurpose one useful guide without repeating the same post everywhere. Turn a substantial guide into distinct social, email and sales assets while preserving the facts and giving each format a clear purpose.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--editorial-fact-checking-business-content.png\":{\"title\":\"A fact-checking process for business articles and service copy - Wonderweb Studio\",\"description\":\"Featured social preview for A fact-checking process for business articles and service copy. Review claims, examples, sources and business details before publishing so your articles remain useful and your team can explain what supports them.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--case-study-content-evidence-brief.png\":{\"title\":\"Prepare a case-study brief when the project files are incomplete - Wonderweb Studio\",\"description\":\"Featured social preview for Prepare a case-study brief when the project files are incomplete. Organize project scope, timelines and available evidence before writing a case study, including what to do when analytics or client files are missing.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-content-inventory-audit.png\":{\"title\":\"Build a website content inventory that leads to useful decisions - Wonderweb Studio\",\"description\":\"Featured social preview for Build a website content inventory that leads to useful decisions. Inventory your pages, owners, evidence and next steps so a content audit becomes a practical improvement plan rather than a long spreadsheet of URLs.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--cms-editorial-roles-permissions.png\":{\"title\":\"Define CMS roles so publishing does not depend on one person - Wonderweb Studio\",\"description\":\"Featured social preview for Define CMS roles so publishing does not depend on one person. Assign clear drafting, review and publishing responsibilities so your website stays accurate without giving every contributor unrestricted control.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--content-migration-editorial-quality-checks.png\":{\"title\":\"Check a content migration beyond whether the pages imported - Wonderweb Studio\",\"description\":\"Featured social preview for Check a content migration beyond whether the pages imported. Review meaning, links, dates, images and inquiry paths after a content migration so imported pages remain accurate and useful on the new website.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--refresh-combine-retire-website-content.png\":{\"title\":\"Refresh, combine or retire: deciding what to do with older content - Wonderweb Studio\",\"description\":\"Featured social preview for Refresh, combine or retire: deciding what to do with older content. Assess older pages by usefulness, evidence and overlap, then choose a clear action that preserves helpful information and improves the reader’s path.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--multilingual-content-publishing-workflow.png\":{\"title\":\"Plan multilingual content updates without losing consistency - Wonderweb Studio\",\"description\":\"Featured social preview for Plan multilingual content updates without losing consistency. Coordinate source copy, local review, approvals and updates so each language version explains the same service accurately for its intended audience.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--website-content-request-queue.png\":{\"title\":\"Organize website content requests so important updates get finished - Wonderweb Studio\",\"description\":\"Featured social preview for Organize website content requests so important updates get finished. Give website edits clear briefs, priorities and acceptance checks so urgent corrections, routine updates and larger content projects do not compete blindly.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--small-business-brand-kit-handoff.png\":{\"title\":\"Build a brand kit your designers and staff can actually use - Wonderweb Studio\",\"description\":\"Featured social preview for Build a brand kit your designers and staff can actually use. Organize logos, colors, typography and real examples into a usable brand kit so everyday graphics stay recognizable as different people create them.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--graphic-design-brief-business-project.png\":{\"title\":\"Write a graphic design brief that makes the first draft useful - Wonderweb Studio\",\"description\":\"Featured social preview for Write a graphic design brief that makes the first draft useful. Give designers the audience, message, format and approved assets they need so the first draft solves a real communication problem for your business.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--constructive-design-feedback-process.png\":{\"title\":\"Give design feedback that improves the work without endless revisions - Wonderweb Studio\",\"description\":\"Featured social preview for Give design feedback that improves the work without endless revisions. Review design against its audience, message and practical use, then give clear feedback that helps your designer make the right changes efficiently.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--design-files-digital-print-handoff.png\":{\"title\":\"Prepare design files for digital and print without guessing the requirements - Wonderweb Studio\",\"description\":\"Featured social preview for Prepare design files for digital and print without guessing the requirements. Specify the real destination, source files and production checks for your graphics so web exports and printed materials arrive ready for their intended use.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--campaign-creative-asset-matrix.png\":{\"title\":\"Plan a campaign asset matrix before ordering a batch of graphics - Wonderweb Studio\",\"description\":\"Featured social preview for Plan a campaign asset matrix before ordering a batch of graphics. Map messages, audiences, formats and destinations before producing campaign graphics so every variation has a purpose and the review stays manageable.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/resources--readable-accessible-brand-graphics.png\":{\"title\":\"Make colorful brand graphics readable and accessible - Wonderweb Studio\",\"description\":\"Featured social preview for Make colorful brand graphics readable and accessible. Use hierarchy, contrast, text alternatives and real-size checks to create colorful graphics that communicate clearly across your website and campaigns.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/results--remodeling-lower-lead-cost.png\":{\"title\":\"A smarter campaign mix. 59.19% lower lead costs. - Wonderweb Studio\",\"description\":\"Featured social preview for A smarter campaign mix. 59.19% lower lead costs.. A remodeler facing more expensive search auctions diversified its campaign mix and increased total leads by 7.13%.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/results--remodeling-search-two-year-results.png\":{\"title\":\"85+ leads a month. A two-year search program. - Wonderweb Studio\",\"description\":\"Featured social preview for 85+ leads a month. A two-year search program.. An Indiana bathroom remodeler combined service-page improvements and paid search to build a sustained flow of inquiries.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/results--roofing-local-search.png\":{\"title\":\"More relevant searches. 53 booked appointments. - Wonderweb Studio\",\"description\":\"Featured social preview for More relevant searches. 53 booked appointments.. A roofing search strategy redirected attention from broad visibility toward homeowners within the service area.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"},\"/seo/results--bathroom-paid-search-efficiency.png\":{\"title\":\"More conversions. 43.66% lower cost per lead. - Wonderweb Studio\",\"description\":\"Featured social preview for More conversions. 43.66% lower cost per lead.. A bathroom remodeling advertising campaign focused its bidding and geographic targeting on conversion opportunities.\",\"width\":1200,\"height\":630,\"type\":\"image/png\"}}");
+}),
+"[project]/src/lib/indexing.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "isSiteIndexable",
+    ()=>isSiteIndexable
+]);
+function isSiteIndexable(env = {
+    SITE_INDEXABLE: process.env.SITE_INDEXABLE,
+    VERCEL_ENV: process.env.VERCEL_ENV
+}) {
+    // A production-scoped setting must never open a Vercel preview to indexing.
+    if (env.VERCEL_ENV && env.VERCEL_ENV !== 'production') return false;
+    if (env.SITE_INDEXABLE === 'false') return false;
+    if (env.SITE_INDEXABLE === 'true') return true;
+    // Local production builds remain private; actual Vercel production is public.
+    return env.VERCEL_ENV === 'production';
+}
+}),
+"[project]/src/lib/industry-details.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "industryDetails",
+    ()=>industryDetails
+]);
+const industryDetails = {
+    roofing: {
+        seo: [
+            'Map the searches around the roofing work you want: repairs, replacements, inspections and commercial projects where relevant. A roofing SEO page should not try to answer every home-improvement question. We use your services and existing search data to decide which pages need improvement or a separate brief.',
+            'Build service content around actual materials, project examples and the estimate process. Local information should reflect where your crews work. Useful roofing guides can answer planning questions and link naturally to the relevant service, while project details help explain experience without unsupported ranking or revenue claims.',
+            'Review non-brand roofing queries, relevant service-page traffic and qualified estimate requests. Separate out-of-area and unsuitable inquiries when evaluating progress. This helps prioritize content for the work the business can deliver rather than chasing broad impressions.'
+        ],
+        web: [
+            'A roofing website needs to help a homeowner understand the service and trust the next step. We plan the homepage, service pages and inquiry journey around real questions about repairs, replacements and estimates. Commercial work receives its own treatment when it has a different audience.',
+            'Project photography, accurate credentials and clear descriptions of materials can make the website useful. We organize those assets into a design that works on mobile and explains your service area. Any warranties, financing or insurance statements must be supplied and reviewed by your business.',
+            'The estimate form should collect useful information without creating unnecessary friction. We test submission delivery, provide a clear alternative contact route and organize pages with search visibility in mind. Existing useful URLs and content are reviewed before a redesign.'
+        ]
+    },
+    hvac: {
+        seo: [
+            'HVAC search intent changes with the problem: urgent repairs, replacements, maintenance and equipment questions require different answers. We map those needs to your actual services and decide which pages should handle each topic. The goal is a useful site structure, not a large number of nearly identical pages.',
+            'Seasonal content should be planned around the market and the information your customers need. We review business-profile accuracy, service pages, internal links and indexing issues. Equipment and efficiency claims need your subject review; we do not invent technical advice to fill a content calendar.',
+            'Track useful visibility by service group and compare appropriate seasonal periods. Review inquiries in the context of technician availability and answered calls. A ranking change alone does not tell the whole story of whether the business is receiving suitable jobs.'
+        ],
+        web: [
+            'An HVAC website must serve the visitor with an urgent problem and the homeowner planning a larger purchase. We create clear routes to repair, installation and maintenance information. Contact options and accurate service availability remain easy to find on mobile.',
+            'Equipment categories, service areas and the estimate process should be understandable without technical overload. We use your approved project imagery and business facts to explain the work. If you offer maintenance plans, the website describes their actual coverage and terms.',
+            'Your site needs to support the team that receives inquiries. We agree on form fields, routing and the information needed to schedule the next step. Performance, accessibility and relevant search metadata are checked as part of the build.'
+        ]
+    },
+    plumbing: {
+        seo: [
+            'Start with the plumbing services and locations the business can actually serve. Drain cleaning, water-heater work, repairs and larger installations can deserve distinct pages when their intent and content differ. We group synonymous searches instead of creating a page for every wording.',
+            'Local SEO work connects accurate business information with useful service content. We review page structure, important links and technical exclusions, then build a content plan around customer questions. Avoid claims of round-the-clock availability or coverage outside the business’s real capacity.',
+            'Review relevant search exposure and qualified plumbing inquiries together. When available, distinguish booked jobs from phone-link clicks and duplicate submissions. Service-level data is more useful than one broad traffic number when deciding what to improve next.'
+        ],
+        web: [
+            'Make it easy for a plumbing customer to see whether you handle the problem and serve the area. We design a short route to contact, especially on mobile, with service pages that explain the work without burying the next step.',
+            'Your website should distinguish urgent repairs from planned installations. Useful information includes the estimate process, what details to provide and accurate availability. Real images and relevant business credentials support trust without excessive badges or unsupported guarantees.',
+            'We test important contact journeys from page load through submission. Existing pages that attract relevant traffic are reviewed before URL changes, and a redirect plan handles genuine replacements. Ongoing website care can keep services and coverage current after launch.'
+        ]
+    },
+    electricians: {
+        seo: [
+            'An electrical contractor’s search strategy should reflect the type of work it wants. EV charging, panel upgrades, rewiring and commercial installation have different buyers. We map these opportunities to useful service pages and supporting content based on the real offer.',
+            'Technical information needs qualified business review. We help turn your knowledge into accessible content, organize supporting project evidence and improve the site’s crawl and linking structure. Local details should reflect real operations rather than a template with a new city name.',
+            'Measure relevant non-brand searches and qualified project inquiries. Commercial jobs and residential calls should be evaluated in context because their sales cycles differ. The content plan evolves with this evidence and the services you want to prioritize.'
+        ],
+        web: [
+            'A good electrical contractor website makes complex work understandable. We create clear routes for residential and commercial visitors, then explain specialist services at the right level of detail. Your qualified team reviews technical and safety claims before publication.',
+            'Use accurate credentials, project details and a simple process to help visitors assess fit. EV charger installations, panel upgrades and commercial projects can have distinct pages when the work supports them. The design should make the offer clear on both mobile and desktop.',
+            'We connect the site to your inquiry process, defining the fields needed for a useful first conversation. Search metadata, accessible navigation and responsive layouts support the experience. Larger integrations or additional service-area content are scoped separately.'
+        ]
+    }
+};
+}),
+"[project]/src/lib/locations.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "locationServices",
+    ()=>locationServices,
+    "locations",
+    ()=>locations
+]);
+const locations = [
+    {
+        slug: 'tampa',
+        name: 'Tampa',
+        region: 'Florida',
+        kind: 'city',
+        lead: 'A clearer digital presence for Tampa service businesses.',
+        focus: 'Turn a defined service area into a coherent website, search and advertising plan.',
+        areas: [
+            'Tampa',
+            'St. Petersburg',
+            'Clearwater'
+        ],
+        sectors: [
+            'Home services',
+            'Remodeling',
+            'Local small businesses'
+        ],
+        sections: [
+            [
+                'Define Tampa Bay coverage before buying traffic',
+                'A business that works in Tampa does not automatically accept every job across the wider area. We start with the places your team can reliably serve, the services you want to prioritize and how travel affects scheduling. That coverage informs the website copy and paid targeting. Nearby market examples are planning prompts, not a statement that your company serves them.'
+            ],
+            [
+                'Give each service a useful destination',
+                'A homeowner researching a bathroom remodel needs different information from someone looking for an urgent repair. We separate those decisions in the page structure, using approved project images, clear scope explanations and a useful inquiry route. A Tampa-focused page should describe the actual offer and next step rather than repeat the homepage with a city name added.'
+            ],
+            [
+                'Connect local discovery with social proof',
+                'Search pages can answer a service question while social content introduces projects, people and process. We align the landing destinations so visitors who discover a post can find the relevant service quickly. Reviews and project outcomes are used only when supplied and attributable. There is no need to borrow another company’s aggregate rating to make a page credible.'
+            ]
+        ],
+        campaign: [
+            [
+                'Start with priority coverage',
+                'Agree the neighborhoods or ZIP areas your team accepts, then review out-of-area inquiries separately.'
+            ],
+            [
+                'Test one service offer',
+                'Use a focused landing page for a defined service before expanding the campaign into unrelated jobs.'
+            ],
+            [
+                'Review the handoff',
+                'Check whether suitable requests were contacted and progressed to estimates, not simply counted as form submissions.'
+            ]
+        ],
+        services: [
+            'local-seo',
+            'web-design',
+            'google-ads',
+            'social-media-management'
+        ]
+    },
+    {
+        slug: 'chicago',
+        name: 'Chicago',
+        region: 'Illinois',
+        kind: 'city',
+        lead: 'Website and marketing support for Chicago businesses with a defined ambition.',
+        focus: 'Give city and suburban customers clear routes to the services you actually deliver.',
+        areas: [
+            'Chicago',
+            'Evanston',
+            'Oak Park'
+        ],
+        sectors: [
+            'Contractors',
+            'Professional services',
+            'Independent brands'
+        ],
+        sections: [
+            [
+                'Separate the audiences behind the same city name',
+                'A Chicago business may sell to homeowners, commercial property teams or other small businesses. Those audiences need different proof and contact information. We map the buyer and service together before deciding which pages and channels to prioritize. The resulting structure can support residential and commercial work without forcing both into the same generic pitch.'
+            ],
+            [
+                'Make coverage practical for the team',
+                'City and suburban inquiries can have different scheduling and travel implications. We work from your actual operating boundaries and use that information in content, forms and campaign settings. A broad metropolitan label should not hide where the business can take work. If you have multiple genuine locations, their individual details need a clear and maintainable home.'
+            ],
+            [
+                'Build a site that supports comparison',
+                'Visitors may compare several providers before contacting one. Useful service descriptions, project scope, credentials supplied by your team and a transparent estimate process help them evaluate fit. We organize those details into mobile-friendly pages and connect social project stories to the same offer. The aim is an informed inquiry, not a page crowded with unverified claims.'
+            ]
+        ],
+        campaign: [
+            [
+                'Choose the buyer first',
+                'Decide whether the first campaign serves homeowners, commercial buyers or another clearly defined audience.'
+            ],
+            [
+                'Match the destination',
+                'Create a page that explains the specific service and operating area behind the ad.'
+            ],
+            [
+                'Review by service type',
+                'Compare suitable inquiries and follow-up outcomes within comparable services instead of combining every contact into one total.'
+            ]
+        ],
+        services: [
+            'seo',
+            'web-design',
+            'google-ads',
+            'content-creation'
+        ]
+    },
+    {
+        slug: 'orlando',
+        name: 'Orlando',
+        region: 'Florida',
+        kind: 'city',
+        lead: 'Make your Orlando business easier to discover, understand and contact.',
+        focus: 'Bring your service pages, project stories and campaigns into one clear customer journey.',
+        areas: [
+            'Orlando',
+            'Winter Park',
+            'Kissimmee'
+        ],
+        sectors: [
+            'Home services',
+            'Property services',
+            'Small businesses'
+        ],
+        sections: [
+            [
+                'Distinguish the customer from the location',
+                'A property owner, a resident and a business manager may use similar search phrases while needing different services. We define the audience and the offer before writing pages. Your Orlando marketing plan should reflect who buys your work and the questions they ask, rather than trying to address every person who searches for the city.'
+            ],
+            [
+                'Explain the operating model',
+                'Some businesses take on one-time projects while others sell recurring care or maintenance. We give these offers distinct explanations, including what is included, how the first conversation works and which information the team needs. Service-area content supports that explanation with genuine coverage, without inventing a local branch or implying availability the business cannot provide.'
+            ],
+            [
+                'Use creative to show the work',
+                'A consistent visual library can connect the website with social posts and paid creative. We start from approved business imagery and build formats around the work: project details, process explainers and answers to common questions. Content is reviewed before publication so visitors receive an accurate picture of the services and the people behind them.'
+            ]
+        ],
+        campaign: [
+            [
+                'Clarify recurring versus project work',
+                'Use different messages when the purchase decision and customer value differ.'
+            ],
+            [
+                'Show relevant examples',
+                'Connect each campaign to approved work that helps the intended buyer assess your offer.'
+            ],
+            [
+                'Measure the useful next step',
+                'Track inquiries and the progression your team can substantiate, such as consultations or estimates.'
+            ]
+        ],
+        services: [
+            'web-design',
+            'local-seo',
+            'meta-ads',
+            'social-media-management'
+        ]
+    },
+    {
+        slug: 'boston',
+        name: 'Boston',
+        region: 'Massachusetts',
+        kind: 'city',
+        lead: 'Thoughtful websites and digital marketing for Boston businesses.',
+        focus: 'Translate specialist expertise into a clear, trustworthy online presence.',
+        areas: [
+            'Boston',
+            'Cambridge',
+            'Somerville'
+        ],
+        sectors: [
+            'Specialist contractors',
+            'Professional services',
+            'Small businesses'
+        ],
+        sections: [
+            [
+                'Make specialist services understandable',
+                'Your team may handle complex work that a first-time customer finds difficult to compare. We organize service pages around the problem, the scope and the steps involved. Technical or regulatory statements come from your qualified reviewers. Clear content lets a Boston prospect understand the offer without making the page an unsupported technical manual.'
+            ],
+            [
+                'Show the evidence behind the offer',
+                'A useful project page explains what was needed and what your team contributed. We help structure those stories with approved photography and specific scope details. When numerical results are available, their dates and measurement context matter. When they are not, a clear account of the work is more credible than a dramatic claim without a source.'
+            ],
+            [
+                'Connect discovery with a considered inquiry',
+                'Search, social content and paid campaigns can introduce different parts of the business. We connect them to pages that answer the next question and collect useful inquiry details. For longer sales cycles, the plan can include educational content and follow-up resources rather than treating every first visit as an immediate purchase opportunity.'
+            ]
+        ],
+        campaign: [
+            [
+                'Lead with the specialty',
+                'Choose a service that the business wants to grow and explain its value in accessible language.'
+            ],
+            [
+                'Create supporting proof',
+                'Use an approved project or process explanation to help prospects evaluate the work.'
+            ],
+            [
+                'Respect the sales cycle',
+                'Review suitable conversations and their progression, allowing for the time a considered purchase requires.'
+            ]
+        ],
+        services: [
+            'seo',
+            'content-creation',
+            'web-design',
+            'google-ads'
+        ]
+    },
+    {
+        slug: 'dallas',
+        name: 'Dallas',
+        region: 'Texas',
+        kind: 'city',
+        lead: 'A connected digital team for Dallas service businesses.',
+        focus: 'Focus your website and campaigns on the projects and territories that make business sense.',
+        areas: [
+            'Dallas',
+            'Plano',
+            'Irving'
+        ],
+        sectors: [
+            'Roofing',
+            'Remodeling',
+            'Business services'
+        ],
+        sections: [
+            [
+                'Choose a territory your team can support',
+                'A Dallas-focused campaign can become too broad when every nearby market is treated as equally useful. We start with coverage, crew capacity and the types of work you want. Those choices guide service-area content and advertising scope. Expansion is a decision based on operational fit and evidence, not simply a longer list of city names.'
+            ],
+            [
+                'Separate jobs with different economics',
+                'Repairs, replacement projects and recurring services may have very different values and sales processes. We keep those distinctions visible in the website and measurement plan. A dedicated page should explain a genuine service difference. That structure makes it easier to understand which inquiries a campaign is generating and whether they match the business priorities.'
+            ],
+            [
+                'Create one story across the customer journey',
+                'A prospect might first see a social post, later search the brand and eventually request an estimate. Your website and content should tell a consistent story at each step. We align the offer, approved imagery and inquiry instructions so the visitor does not need to reconstruct how the business works from disconnected channels.'
+            ]
+        ],
+        campaign: [
+            [
+                'Prioritize a service and territory',
+                'Agree the first offer and operating area before splitting budget across multiple markets.'
+            ],
+            [
+                'Align ad and page',
+                'Use the same service promise and relevant proof on the destination page.'
+            ],
+            [
+                'Close the feedback loop',
+                'Review qualified requests with the people who prepare estimates and know which work the team can deliver.'
+            ]
+        ],
+        services: [
+            'google-ads',
+            'seo',
+            'landing-page-design',
+            'meta-ads'
+        ]
+    },
+    {
+        slug: 'houston',
+        name: 'Houston',
+        region: 'Texas',
+        kind: 'city',
+        lead: 'Websites and marketing that support Houston’s service businesses.',
+        focus: 'Connect targeted search demand with clear service information and reliable lead handling.',
+        areas: [
+            'Houston',
+            'Katy',
+            'Sugar Land'
+        ],
+        sectors: [
+            'Roofing',
+            'HVAC',
+            'Local service businesses'
+        ],
+        sections: [
+            [
+                'Plan around service routes, not a broad label',
+                'The city name alone does not define a useful campaign boundary. We discuss where the team works, which jobs justify travel and how inquiries are assigned. Website content can then explain real coverage clearly, while paid targeting supports the same operational plan. We do not assume every nearby community belongs in your service area.'
+            ],
+            [
+                'Make urgent and planned work easy to distinguish',
+                'A visitor with an immediate service problem needs a short contact route and accurate availability. Someone planning a larger project needs more detail, examples and an explanation of the estimate process. We organize the content and inquiry fields around those differences so the site is useful to both without promising emergency coverage that the business has not confirmed.'
+            ],
+            [
+                'Treat lead handling as part of marketing',
+                'An inquiry is valuable only when the right team can respond. We review form delivery, contact options and the information collected before launching a campaign. Reporting then separates accepted submissions from suitable opportunities and booked work where your systems support that distinction. That makes optimization more practical than focusing on traffic alone.'
+            ]
+        ],
+        campaign: [
+            [
+                'Map a first service zone',
+                'Start from confirmed coverage and review location quality in incoming leads.'
+            ],
+            [
+                'Separate priority jobs',
+                'Give repairs, replacements or other distinct offers appropriate pages and campaign groups.'
+            ],
+            [
+                'Check response and outcomes',
+                'Use sales feedback to distinguish targeting problems from missed or delayed follow-up.'
+            ]
+        ],
+        services: [
+            'google-ads',
+            'local-seo',
+            'web-design',
+            'website-management'
+        ]
+    },
+    {
+        slug: 'phoenix',
+        name: 'Phoenix',
+        region: 'Arizona',
+        kind: 'city',
+        lead: 'A more useful digital presence for Phoenix businesses.',
+        focus: 'Build around service intent, real coverage and a consistent path from discovery to inquiry.',
+        areas: [
+            'Phoenix',
+            'Scottsdale',
+            'Tempe'
+        ],
+        sectors: [
+            'Home services',
+            'Local retailers',
+            'Growing small businesses'
+        ],
+        sections: [
+            [
+                'Give organic and paid search distinct jobs',
+                'A useful SEO page can answer a service question over time, while a focused paid campaign can test an offer with a defined budget. We plan these channels together but measure them separately. Your Phoenix website should provide a strong destination for both, with clear service explanations and a contact process that works on mobile.'
+            ],
+            [
+                'Translate coverage into useful content',
+                'Your customers need to know whether you can help with their problem and serve their location. We use your actual operating boundaries and project evidence to answer that question. A service-area page should provide more than a city name: relevant services, how appointments or estimates work and which information the team needs to begin.'
+            ],
+            [
+                'Connect social content to the next decision',
+                'Project posts and short explanations can introduce the business before a customer is ready to inquire. We give those posts a relevant destination, such as a service page or project story. A consistent visual direction helps the website and profiles feel connected, while tagged links can help distinguish social referrals from other traffic.'
+            ]
+        ],
+        campaign: [
+            [
+                'Establish the search baseline',
+                'Review priority pages and relevant queries before deciding which content to improve first.'
+            ],
+            [
+                'Test a focused campaign',
+                'Choose one service and an approved area, with a clear landing page and conversion definition.'
+            ],
+            [
+                'Expand with evidence',
+                'Use qualified inquiry feedback to decide whether a new service or coverage area deserves investment.'
+            ]
+        ],
+        services: [
+            'seo',
+            'google-ads',
+            'web-design',
+            'social-media-management'
+        ]
+    },
+    {
+        slug: 'los-angeles',
+        name: 'Los Angeles',
+        region: 'California',
+        kind: 'city',
+        lead: 'Distinctive websites and coherent marketing for Los Angeles businesses.',
+        focus: 'Turn a strong visual identity into clear service information and a useful conversion path.',
+        areas: [
+            'Los Angeles',
+            'Pasadena',
+            'Long Beach'
+        ],
+        sectors: [
+            'Creative businesses',
+            'Home services',
+            'Independent brands'
+        ],
+        sections: [
+            [
+                'Give the brand a clear commercial role',
+                'Visual quality matters, but visitors also need to understand the offer. We connect your design direction with service details, relevant projects and a next step. A Los Angeles business with several audiences may need separate page journeys, rather than a visually impressive homepage that leaves each buyer to work out where to go.'
+            ],
+            [
+                'Build around the real buying decision',
+                'A service project, a creative commission and an ongoing business relationship each require different information. We identify the scope questions, proof and contact details that help the right customer inquire. Where the business operates in a regulated field, its qualified reviewer supplies and approves the necessary claims; the website should not manufacture expertise.'
+            ],
+            [
+                'Make content production sustainable',
+                'A polished presence needs a repeatable source of useful material. We organize approved images, customer questions and project notes into content themes that can support the website and social channels. The publishing plan reflects the team’s capacity to supply and approve content, so consistency does not depend on producing a new campaign from scratch every week.'
+            ]
+        ],
+        campaign: [
+            [
+                'Choose the intended buyer',
+                'Specify the audience and desired inquiry before developing creative or campaign pages.'
+            ],
+            [
+                'Create a coherent asset set',
+                'Adapt approved brand material for the website, social posts and campaign placements.'
+            ],
+            [
+                'Evaluate inquiry quality',
+                'Look at whether the work attracts suitable briefs, not just whether the visuals generate attention.'
+            ]
+        ],
+        services: [
+            'web-design',
+            'graphic-design',
+            'social-media-management',
+            'content-creation'
+        ]
+    },
+    {
+        slug: 'austin',
+        name: 'Austin',
+        region: 'Texas',
+        kind: 'city',
+        lead: 'A digital presence ready for your Austin business’s next stage.',
+        focus: 'Connect a clear offer with the right search pages, campaigns and operational follow-through.',
+        areas: [
+            'Austin',
+            'Round Rock',
+            'Cedar Park'
+        ],
+        sectors: [
+            'Small businesses',
+            'Remodeling',
+            'Business services'
+        ],
+        sections: [
+            [
+                'Choose a clear starting offer',
+                'A growing business can have more ideas than its website can explain well. We identify the services that matter most now, the audience for each and the evidence available to support them. That produces a focused first scope for Austin marketing work, with room to add genuinely distinct pages as the offer develops.'
+            ],
+            [
+                'Make SEO and advertising support the same journey',
+                'Search content should answer useful questions, while paid campaigns need a specific message and destination. We connect those efforts through the website structure without treating every landing page as a new SEO opportunity. Pages with different purposes receive an appropriate indexing and navigation strategy, reducing overlap and keeping the site understandable.'
+            ],
+            [
+                'Build a handoff the business can maintain',
+                'Content editing, account access and lead routing should be decided before launch. We document who approves changes and who receives inquiries, then test the agreed workflows. A considered implementation helps a small team continue using the site after the initial project rather than depending on an undocumented chain of manual steps.'
+            ]
+        ],
+        campaign: [
+            [
+                'Define the first priority',
+                'Choose one service, audience and practical operating area for the initial work.'
+            ],
+            [
+                'Prepare the destination',
+                'Improve the page and inquiry handling before increasing traffic to it.'
+            ],
+            [
+                'Review and broaden',
+                'Use search and sales evidence to select the next content or campaign opportunity.'
+            ]
+        ],
+        services: [
+            'seo',
+            'google-ads',
+            'web-development',
+            'landing-page-design'
+        ]
+    },
+    {
+        slug: 'denver',
+        name: 'Denver',
+        region: 'Colorado',
+        kind: 'city',
+        lead: 'Focused digital marketing for Denver businesses.',
+        focus: 'Make the connection between campaign spending, useful visits and qualified conversations clearer.',
+        areas: [
+            'Denver',
+            'Aurora',
+            'Lakewood'
+        ],
+        sectors: [
+            'Home services',
+            'Professional services',
+            'Small businesses'
+        ],
+        sections: [
+            [
+                'Make paid search accountable to the offer',
+                'A Google Ads account needs more than active ads. We define the service, target area, budget and valuable conversion before launching or restructuring a campaign. The destination page should continue the message and explain the next step. For Denver businesses, the first scope starts with the work you actually want to sell, not every possible search phrase.'
+            ],
+            [
+                'Build a website that answers the next question',
+                'Visitors often need to assess scope, process and fit before reaching out. We use service pages and project evidence to make those decisions easier. A short inquiry path remains visible, but the page also gives considered buyers the detail they need. Mobile layouts, form delivery and clear success or failure feedback are part of that experience.'
+            ],
+            [
+                'Use an editorial plan beyond the campaign',
+                'Paid and organic channels do not need identical content. A recurring question from prospects can become a useful guide, a social post or an improvement to the main service page. We organize those opportunities around the customer journey and review their contribution in context rather than measuring every asset solely by immediate form submissions.'
+            ]
+        ],
+        campaign: [
+            [
+                'Audit conversion actions',
+                'Distinguish button clicks, accepted inquiries and qualified opportunities before evaluating account performance.'
+            ],
+            [
+                'Tighten intent and coverage',
+                'Review search terms, the offer and confirmed service boundaries together.'
+            ],
+            [
+                'Improve the whole path',
+                'Use campaign evidence to refine the ad, landing page and follow-up, not only the bid.'
+            ]
+        ],
+        services: [
+            'google-ads',
+            'landing-page-design',
+            'seo',
+            'content-creation'
+        ]
+    },
+    {
+        slug: 'indianapolis',
+        name: 'Indianapolis',
+        region: 'Indiana',
+        kind: 'city',
+        lead: 'Marketing built around the work your Indianapolis team wants next.',
+        focus: 'Give roofing and other local services a clearer connection between visibility and estimates.',
+        areas: [
+            'Indianapolis',
+            'Carmel',
+            'Fishers'
+        ],
+        sectors: [
+            'Roofing',
+            'Guttering',
+            'Home services'
+        ],
+        sections: [
+            [
+                'Keep related services understandable',
+                'A contractor may offer roofing, guttering and additional exterior work, but each customer arrives with a particular problem. We organize the website so those services are easy to find and explain how they relate. Shared expertise can support the brand without collapsing every service into one page that answers none of them in enough detail.'
+            ],
+            [
+                'Show the project, not just the finished photograph',
+                'Approved images become more useful when accompanied by a clear description of the job, scope and process. We help turn those details into project pages and social content. Exact client outcomes require records and a defined period; project descriptions can still demonstrate thoughtful work when numerical performance data is unavailable.'
+            ],
+            [
+                'Connect marketing to the estimate process',
+                'The inquiry form should ask for information that helps the team prepare the next step. Location and service needs may be useful; a long list of unnecessary questions may not be. We agree the handoff and review the quality of incoming requests with the people who understand capacity and project fit.'
+            ]
+        ],
+        campaign: [
+            [
+                'Choose the first service line',
+                'Prioritize a genuine business need rather than dividing attention evenly across every offering.'
+            ],
+            [
+                'Publish relevant proof',
+                'Use approved project details to support the corresponding service page and campaign.'
+            ],
+            [
+                'Review estimate quality',
+                'Track suitable requests and progress to estimates where your sales system makes that information available.'
+            ]
+        ],
+        services: [
+            'local-seo',
+            'google-ads',
+            'web-design',
+            'social-media-management'
+        ]
+    },
+    {
+        slug: 'miami',
+        name: 'Miami',
+        region: 'Florida',
+        kind: 'city',
+        lead: 'A connected website and marketing plan for Miami service businesses.',
+        focus: 'Help customers understand your service, coverage and contact options without unnecessary friction.',
+        areas: [
+            'Miami',
+            'Coral Gables',
+            'Doral'
+        ],
+        sectors: [
+            'Electrical contractors',
+            'HVAC',
+            'Local small businesses'
+        ],
+        sections: [
+            [
+                'Separate technical services by customer intent',
+                'Electrical and HVAC customers can be comparing a planned installation or seeking help with an existing problem. We give those journeys appropriate page content and calls to action. Technical and safety claims come from your qualified team. The marketing work makes the information understandable without pretending to replace professional advice.'
+            ],
+            [
+                'Be deliberate about language and coverage',
+                'If the business serves customers in more than one language, content production and review need to be scoped accordingly. We do not infer a language offering from the city alone. The same applies to coverage: the website and campaigns should describe areas the team confirms it can serve, with accurate contact information and availability.'
+            ],
+            [
+                'Create a reliable route from interest to contact',
+                'A social post or search ad should lead to a page that matches the service and explains what happens next. We review the form, destination inbox and follow-up responsibilities so visitors are not lost between systems. Measurement distinguishes traffic and engagement from accepted inquiries and the qualified work your team identifies.'
+            ]
+        ],
+        campaign: [
+            [
+                'Define service and language',
+                'Agree the specific offer, audience and approved language versions before producing assets.'
+            ],
+            [
+                'Match the page to intent',
+                'Give urgent and planned work suitable explanations and inquiry routes.'
+            ],
+            [
+                'Review operational fit',
+                'Use service type and location feedback to refine where the campaign spends.'
+            ]
+        ],
+        services: [
+            'web-design',
+            'google-ads',
+            'local-seo',
+            'meta-ads'
+        ]
+    },
+    {
+        slug: 'florida',
+        name: 'Florida',
+        region: 'United States',
+        kind: 'state',
+        lead: 'A coordinated marketing structure for Florida service businesses.',
+        focus: 'Support multiple real service areas without losing the detail that makes each one useful.',
+        areas: [
+            'Tampa',
+            'Orlando',
+            'Miami'
+        ],
+        sectors: [
+            'Roofing companies',
+            'Multi-location services',
+            'Growing contractors'
+        ],
+        sections: [
+            [
+                'Build a statewide hierarchy with local detail',
+                'A Florida strategy needs to distinguish the statewide offer from the individual markets a business actually serves. We plan a clear hub with relevant city or service pages where there is enough original detail. We do not generate a page for every municipality by swapping names. Each destination should help a customer understand coverage, services and the next step.'
+            ],
+            [
+                'Keep locations and service areas distinct',
+                'A physical branch, a mobile service area and a remotely supported market are different operating models. We reflect those differences in the website and review business-profile work only where eligibility and accurate information can be established. A broad expansion plan should not turn into invented addresses or duplicated profiles.'
+            ],
+            [
+                'Compare like with like across markets',
+                'Different service areas may have different budgets, offers or response teams. We document those differences before comparing performance. A statewide total can hide out-of-area leads or uneven follow-up. Where the data supports it, we review qualified inquiries by market and service so the next investment decision has a clear basis.'
+            ]
+        ],
+        campaign: [
+            [
+                'Audit the market structure',
+                'List real branches, service areas, responsible teams and the work available in each.'
+            ],
+            [
+                'Create distinct destinations',
+                'Publish local pages when coverage, process and evidence make them genuinely useful.'
+            ],
+            [
+                'Allocate with context',
+                'Review market-level opportunities and capacity rather than distribute budget equally by default.'
+            ]
+        ],
+        services: [
+            'local-seo',
+            'seo',
+            'google-ads',
+            'content-management'
+        ]
+    },
+    {
+        slug: 'indiana',
+        name: 'Indiana',
+        region: 'United States',
+        kind: 'state',
+        lead: 'Websites and digital marketing for Indiana home-service businesses.',
+        focus: 'Organize a growing service business around clear offers, real coverage and maintainable content.',
+        areas: [
+            'Indianapolis',
+            'Fort Wayne',
+            'South Bend'
+        ],
+        sectors: [
+            'Remodeling',
+            'Roofing',
+            'Multi-area contractors'
+        ],
+        sections: [
+            [
+                'Separate expansion plans from current coverage',
+                'A business may want to grow across Indiana while currently serving a smaller set of communities. We reflect the current offer accurately and plan future content as coverage becomes real. This keeps the website useful to customers and avoids publishing pages that suggest a team or branch exists where it does not.'
+            ],
+            [
+                'Give remodeling decisions enough detail',
+                'A planned home improvement often needs more information than a quick service call. We help organize project scope, examples, estimate steps and common questions into a coherent page journey. The same source material can support social posts, but the website remains the place to explain the full offer and the next conversation.'
+            ],
+            [
+                'Make a larger content library manageable',
+                'As services and markets expand, pages can overlap or become outdated. We define reusable content fields and ownership so updates remain consistent. Useful URLs and existing search traffic are reviewed before consolidation. A bigger site should be easier to navigate and maintain, not simply contain more versions of the same introduction.'
+            ]
+        ],
+        campaign: [
+            [
+                'Document current operations',
+                'Identify the services and areas the business can support today and the team responsible for inquiries.'
+            ],
+            [
+                'Build the first useful pages',
+                'Prioritize the service-market combinations with a distinct offer and enough original information.'
+            ],
+            [
+                'Maintain the structure',
+                'Review coverage, project examples and page overlap as the business grows.'
+            ]
+        ],
+        services: [
+            'web-design',
+            'seo',
+            'content-management',
+            'social-media-management'
+        ]
+    }
+];
+const locationServices = [
+    {
+        location: 'phoenix',
+        service: 'seo'
+    },
+    {
+        location: 'phoenix',
+        service: 'google-ads'
+    },
+    {
+        location: 'austin',
+        service: 'seo'
+    },
+    {
+        location: 'austin',
+        service: 'google-ads'
+    },
+    {
+        location: 'denver',
+        service: 'google-ads'
+    }
+];
+}),
+"[project]/src/lib/migrated-content.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "isReleased",
+    ()=>isReleased,
+    "migratedByPath",
+    ()=>migratedByPath,
+    "migratedEntries",
+    ()=>migratedEntries,
+    "migrationCover",
+    ()=>migrationCover,
+    "migrationLibraryPath",
+    ()=>migrationLibraryPath,
+    "migrationPageSize",
+    ()=>migrationPageSize,
+    "migrationSeoTitle",
+    ()=>migrationSeoTitle,
+    "publishedMigrations",
+    ()=>publishedMigrations
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$migrated$2f$index$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/migrated/index.json.[json].cjs [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$migration$2d$seo$2d$titles$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/migration-seo-titles.json.[json].cjs [app-rsc] (ecmascript)");
+;
+;
+const migratedEntries = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$migrated$2f$index$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"];
+const migrationPageSize = 24;
+function isReleased(entry, now = new Date()) {
+    const time = new Date(entry.published).getTime();
+    return Number.isFinite(time) && time <= Number(now);
+}
+function publishedMigrations(kind, now = new Date()) {
+    return migratedEntries.filter((e)=>(!kind || e.kind === kind) && isReleased(e, now)).sort((a, b)=>b.originalPublished.localeCompare(a.originalPublished) || a.slug.localeCompare(b.slug));
+}
+const migratedByPath = new Map(migratedEntries.map((e)=>[
+        e.path,
+        e
+    ]));
+function migrationCover(entry) {
+    return `/seo/${entry.path.slice(1, -1).replaceAll('/', '--')}.png`;
+}
+function migrationLibraryPath(kind, page = 1) {
+    return kind === 'resources' ? `/resources/library/${page}/` : page === 1 ? '/solutions/' : `/solutions/page/${page}/`;
+}
+function migrationSeoTitle(entry) {
+    return __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$migration$2d$seo$2d$titles$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"][entry.path] || entry.title;
+}
+}),
+"[project]/src/lib/practical-guides.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "practicalGuides",
+    ()=>practicalGuides
+]);
+const practicalGuides = [
+    {
+        slug: 'home-service-marketing-ideas',
+        title: '9 practical marketing ideas for a home-service business',
+        category: 'Marketing strategy',
+        summary: 'A prioritized list of ways to connect your services, local visibility, project evidence and follow-up - without trying every channel at once.',
+        readTime: '6 min read',
+        sections: [
+            {
+                title: '1. Choose the work you actually want more of',
+                body: 'Start with a service you can deliver profitably and reliably. A roofing replacement, an emergency repair and a maintenance visit need different messages. Write down the job type, service area, capacity and qualification questions before choosing a marketing channel. A specific offer makes the rest of the plan easier to judge.'
+            },
+            {
+                title: '2. Give that service a useful page',
+                body: 'Explain what the service includes, who it is for, where you provide it and what the estimate process looks like. Add relevant project photographs and answers to the questions your team hears. The page should help a potential customer make a decision, rather than repeat a keyword in every heading.'
+            },
+            {
+                title: '3. Keep local business information consistent',
+                body: 'Check the business name, contact details, opening hours and service information wherever you maintain a profile. For eligible businesses, review the Google Business Profile alongside the website. Only list genuine locations and services. Assign someone to keep information accurate when the business changes.'
+            },
+            {
+                title: '4. Turn completed jobs into project stories',
+                body: 'With permission, collect a few photographs and a short explanation of the customer’s problem, the work and the outcome. A useful project story does not need a dramatic percentage. A clear account of what you did can help the next customer understand your capability and the types of jobs you take on.'
+            },
+            {
+                title: '5. Answer the questions that delay a booking',
+                body: 'Ask your sales team what people need to know before agreeing to an estimate. Common themes include preparation, service boundaries, timelines and what changes the price. Publish accurate answers on the relevant service page, then reuse them in social content. Keep uncertain estimates conditional rather than presenting a universal promise.'
+            },
+            {
+                title: '6. Test a focused search campaign',
+                body: 'When the business can handle inquiries, consider a defined Google Ads test for one service and market. Separate media spend from management fees. Match the ad to a relevant page and check the full inquiry journey before launch. Review service-area fit and job quality as well as the number of submissions.'
+            },
+            {
+                title: '7. Give social posts a repeatable structure',
+                body: 'Rotate between real work, helpful answers, team or process content and a clear offer. A post should have one useful idea and an appropriate next step. Repurpose project material thoughtfully instead of posting the same caption everywhere. A realistic approval process is more useful than an ambitious calendar nobody can maintain.'
+            },
+            {
+                title: '8. Make follow-up someone’s responsibility',
+                body: 'Decide who responds to calls and forms, how unavailable inquiries are handled and where the outcome is recorded. A marketing report cannot explain the sales process if the team never records whether the lead was suitable. Use a simple shared pipeline before investing in complicated automation.'
+            },
+            {
+                title: '9. Review the bottleneck before adding another channel',
+                body: 'If suitable inquiries are arriving but few appointments are booked, inspect the offer and follow-up. If visitors reach the page but cannot understand the service, improve the page. If the journey works but relevant traffic is limited, investigate discovery. This sequence helps the next investment address the actual constraint.'
+            }
+        ],
+        checklist: [
+            'Pick one priority service and market.',
+            'Check the service page and inquiry route.',
+            'Collect one approved project story.',
+            'Assign lead follow-up and outcome tracking.',
+            'Review evidence before expanding spend.'
+        ],
+        related: [
+            'local-seo',
+            'google-ads',
+            'social-media-management'
+        ],
+        faqs: [
+            [
+                'Should I start with SEO or advertising?',
+                'Choose around the business need, existing website, budget and ability to handle leads. A focused paid test can support near-term learning, while SEO requires ongoing work and does not promise a fixed result date.'
+            ],
+            [
+                'Do I need to use every social network?',
+                'No. Begin with the channels your audience uses and that your team can maintain with useful content. Add another when there is a clear reason and enough capacity.'
+            ]
+        ],
+        sources: [
+            {
+                title: 'Google: helpful, reliable content',
+                url: 'https://developers.google.com/search/docs/fundamentals/creating-helpful-content'
+            }
+        ]
+    },
+    {
+        slug: 'small-business-website-trust-signals',
+        title: '11 trust signals every small-business website should explain',
+        category: 'Websites',
+        summary: 'Help visitors understand who you are, what you do and what happens next with specific evidence and clear information.',
+        readTime: '6 min read',
+        sections: [
+            {
+                title: '1. A clear description of the business',
+                body: 'Say what you do and who you help near the beginning of the page. Creative language can support the message, but it should not leave a visitor guessing whether you offer the service they need. Link the overview to detailed service pages.'
+            },
+            {
+                title: '2. Real people and relevant experience',
+                body: 'Introduce the person or team responsible for the work. Explain experience in the context of the services you offer. Use real names and photographs where appropriate, and distinguish a founder’s prior work from the company’s operating history.'
+            },
+            {
+                title: '3. Projects with a clear scope',
+                body: 'A gallery becomes more useful when each project explains the brief and your contribution. Design, development, campaign management and ongoing support are different roles. Describe the work you performed instead of implying you built every part of a client’s business.'
+            },
+            {
+                title: '4. Results with their measurement context',
+                body: 'When you publish a number, identify what it measures and the period or comparison. Conversions are not automatically customers, and one project does not establish a typical result. Readers should understand the baseline behind a percentage and any relevant limits.'
+            },
+            {
+                title: '5. Testimonials attributed accurately',
+                body: 'Keep the customer’s meaning and attribution intact. Do not rename the company being praised or present an employee’s personal endorsement as a review of unrelated services. An attributed comment about a specific project is more useful than a wall of anonymous stars.'
+            },
+            {
+                title: '6. Contact details that match the business',
+                body: 'Give visitors a working contact route and explain what information will help you respond. Only publish an address or phone number that belongs to the business and is actively maintained. Check the form all the way through to the destination inbox.'
+            },
+            {
+                title: '7. A visible delivery process',
+                body: 'Explain the steps between inquiry and delivery: discovery, scope, preparation, reviews and handoff. This makes the service feel understandable. Keep dates and response promises tied to what your team can actually provide rather than copying another company’s turnaround claims.'
+            },
+            {
+                title: '8. Useful pricing context',
+                body: 'If every project is quoted, show starting prices or explain the factors that change the scope. Separate one-time fees, recurring work, media spend and third-party subscriptions. Visitors do not need a checkout cart to benefit from a clear explanation of the investment.'
+            },
+            {
+                title: '9. Ownership and account responsibilities',
+                body: 'Explain in the proposal who controls the domain, website, advertising accounts and assets. Identify any licensed or third-party components. Making these responsibilities explicit helps the client understand the relationship before committing.'
+            },
+            {
+                title: '10. A website that works on a phone',
+                body: 'Readable text, comfortable buttons and straightforward forms affect whether visitors can use the information you provide. Test important journeys on a small screen. A polished desktop screenshot does not compensate for an unusable mobile form.'
+            },
+            {
+                title: '11. Honest answers to the next questions',
+                body: 'FAQs should address real uncertainty: scope, fit, timing, payment, revisions and what happens after launch. Place answers near the relevant decision. Update them when the offer changes, and avoid repeating a generic FAQ block on every page simply to increase word count.'
+            }
+        ],
+        checklist: [
+            'Name the people and the work accurately.',
+            'Explain the scope behind portfolio entries.',
+            'Give results a baseline and period.',
+            'Test contact and mobile journeys.',
+            'Make pricing and next steps understandable.'
+        ],
+        related: [
+            'web-design',
+            'content-creation'
+        ],
+        faqs: [
+            [
+                'Do client logos replace case studies?',
+                'No. Logos show a relationship only when you can accurately describe it. A project explanation gives visitors more useful evidence about what you contributed.'
+            ],
+            [
+                'Should I publish results without a source?',
+                'Use the project story and documented deliverables until the measurement can be supported. A useful portfolio does not require invented percentages.'
+            ]
+        ]
+    },
+    {
+        slug: 'website-conversion-improvements',
+        title: '7 website improvements to make inquiries easier',
+        category: 'Websites',
+        summary: 'A practical review of the offer, proof, page layout and form journey before you spend more to attract visitors.',
+        readTime: '5 min read',
+        sections: [
+            {
+                title: '1. Match the page to the visitor’s question',
+                body: 'A visitor clicking an ad for a specific service should reach a page that explains that service. Check the headline, imagery and next step against the promise that brought them there. If the page covers everything the company does, the person may have to search again to understand the offer.'
+            },
+            {
+                title: '2. Explain the next step in ordinary language',
+                body: 'Use a button label that describes what happens: request an estimate, discuss a project or book a consultation. Put that action near the information needed to make the decision. A page can have several opportunities to make contact without turning every paragraph into a sales pitch.'
+            },
+            {
+                title: '3. Place relevant proof near the decision',
+                body: 'Show a project similar to the visitor’s problem or a testimonial about the service they are considering. Explain what the project involved. Unrelated brand names may look impressive but leave the important question unanswered: can this team help with the work I need? '
+            },
+            {
+                title: '4. Ask for information you will actually use',
+                body: 'Review each required field. A first inquiry may need contact details, a service choice and a short description; a detailed application may need more. The right length depends on qualification needs. Avoid promising a universal conversion lift from simply removing fields.'
+            },
+            {
+                title: '5. Make failure states as clear as success',
+                body: 'If a message cannot be sent, say so and preserve the information the visitor entered. Provide another contact route. A success message should depend on the receiving service accepting the request, not just on a button click or a timer finishing.'
+            },
+            {
+                title: '6. Check the page on a real small screen',
+                body: 'Look for horizontal scrolling, tiny links, covered buttons and fields that zoom awkwardly. Check whether menus can be closed and whether expanded FAQs push the page in a predictable way. Test with the keyboard too; someone should be able to reach and use the primary action without a mouse.'
+            },
+            {
+                title: '7. Measure the stage that matters',
+                body: 'Track successful inquiries separately from visits and button clicks. Connect them with sales feedback where possible. If you change several things at once, be careful about attributing the result to a single edit. Small samples, seasonality and traffic changes can all affect the comparison.'
+            }
+        ],
+        checklist: [
+            'Compare the traffic source with the landing-page message.',
+            'Make the next step explicit.',
+            'Use proof relevant to the service.',
+            'Test errors and successful delivery.',
+            'Review inquiries alongside sales outcomes.'
+        ],
+        related: [
+            'landing-page-design',
+            'website-management'
+        ],
+        faqs: [
+            [
+                'Is a shorter landing page always better?',
+                'No. A simple offer may need little explanation, while an expensive or unfamiliar service may need more detail. Keep the information needed to make a confident decision.'
+            ],
+            [
+                'What should count as a form conversion?',
+                'Use a confirmed accepted submission rather than a click on the submit button. Keep qualification and sales outcomes as separate stages.'
+            ]
+        ]
+    },
+    {
+        slug: 'social-media-post-ideas-small-business',
+        title: '8 social media post ideas a small business can reuse',
+        category: 'Social & content',
+        summary: 'Build a sustainable calendar from customer questions, project material and the expertise already inside your business.',
+        readTime: '5 min read',
+        sections: [
+            {
+                title: '1. Answer one customer question',
+                body: 'Choose a question people ask before buying and give a useful answer. A contractor might explain what happens during an estimate. A studio might show what is needed before a website project starts. Keep the post focused enough that someone can understand it without reading a second post first.'
+            },
+            {
+                title: '2. Walk through a real project',
+                body: 'Show the starting point, the work and the finished detail, with permission. Explain what the viewer is looking at. A brief caption about a specific decision is usually more informative than a generic “another happy customer” statement.'
+            },
+            {
+                title: '3. Explain a choice customers struggle with',
+                body: 'Compare two options using criteria that matter to the buyer. For example, discuss a repair versus a replacement, or a website update versus a rebuild. Be clear about when the answer depends on an inspection or a more detailed brief.'
+            },
+            {
+                title: '4. Show the people or process',
+                body: 'Introduce the person responsible for an important part of the service, or show a stage people rarely see. Explain the care taken in that step. Everyday work can make a business feel more understandable without needing a staged corporate announcement.'
+            },
+            {
+                title: '5. Turn a checklist into a carousel',
+                body: 'Break a useful preparation checklist into a few readable slides. Give each slide a single point and a consistent visual hierarchy. Finish with the next step, such as reading the full guide or discussing the project. Avoid tiny text that only looks good on a large design canvas.'
+            },
+            {
+                title: '6. Explain what is included',
+                body: 'Use a post to clarify the scope of an offer. State what the customer receives and any important exclusions. For a recurring service, explain the allowance and review process. Specificity can help the right prospects recognize the offer and reduce unsuitable inquiries.'
+            },
+            {
+                title: '7. Share feedback with permission and context',
+                body: 'Keep an approved customer quotation accurate and attach it to the relevant project or service. Do not turn a positive comment into a claim about guaranteed results. A short, specific piece of feedback often tells the audience more than an unattributed five-star graphic.'
+            },
+            {
+                title: '8. Revisit a useful idea in another format',
+                body: 'A detailed guide can become a short video, an illustrated tip and a question-and-answer post. Adapt the message to the format rather than simply repeating the same caption. Link interested viewers to the relevant page and track the source when appropriate.'
+            }
+        ],
+        checklist: [
+            'Collect real questions and approved project material.',
+            'Choose four repeatable themes.',
+            'Assign review and approval responsibility.',
+            'Adapt layouts for the target channel.',
+            'Keep one clear idea in each post.'
+        ],
+        related: [
+            'social-media-management',
+            'content-creation',
+            'graphic-design'
+        ],
+        faqs: [
+            [
+                'How often should a small business post?',
+                'Choose a cadence you can maintain with useful, reviewed content. The right frequency depends on the channel, audience, assets and available production time.'
+            ],
+            [
+                'Can one idea be used on multiple platforms?',
+                'Yes. Adapt the wording, crop, length and next step to each platform instead of treating every channel as the same surface.'
+            ]
+        ]
+    },
+    {
+        slug: 'questions-before-hiring-marketing-agency',
+        title: '9 questions to ask before hiring a marketing agency',
+        category: 'Marketing strategy',
+        summary: 'Compare agencies on scope, evidence, costs, account access and reporting so the proposal is easier to evaluate.',
+        readTime: '5 min read',
+        sections: [
+            {
+                title: '1. What problem are we prioritizing?',
+                body: 'Ask the agency to explain the starting diagnosis. A website with a broken inquiry route needs different work from a working site with little relevant traffic. A recommendation should connect to the business problem rather than begin with a fixed list of every service the agency sells.'
+            },
+            {
+                title: '2. Which deliverables are included?',
+                body: 'Ask for the pages, campaigns, creative items, revisions and review points to be written down. Clarify what a “content deliverable” means and whether publishing is included. Defined allowances make proposals easier to compare and help both teams plan the work.'
+            },
+            {
+                title: '3. What is separate from the monthly fee?',
+                body: 'Check media spend, setup fees, new website builds, software subscriptions, filming and specialist integrations. A lower headline fee can cover less work. Compare the whole agreed scope and payment schedule, not just the number shown on a pricing card.'
+            },
+            {
+                title: '4. What do the project examples demonstrate?',
+                body: 'Look for work relevant to your business and ask what the agency contributed. For results, ask about the time period, baseline and definition of a lead. Distinguish a campaign conversion from a booked appointment or a completed sale.'
+            },
+            {
+                title: '5. Who controls the accounts and assets?',
+                body: 'Discuss the domain, hosting, advertising accounts, analytics and source files. The agreement should explain access and ownership, including licensed components. Understand what happens to the work and account access when the engagement ends.'
+            },
+            {
+                title: '6. What does your team need from mine?',
+                body: 'Identify who supplies service details, project photographs, approvals and sales feedback. Even a managed engagement depends on accurate business information. Establish a realistic approval process so missing assets or decisions do not repeatedly interrupt delivery.'
+            },
+            {
+                title: '7. What will the report help us decide?',
+                body: 'Ask how the agency connects activity to the goal of the engagement. Useful reporting explains what changed, what the evidence suggests and what should happen next. Traffic and impressions can be useful context, but they should not replace inquiry quality when lead generation is the objective.'
+            },
+            {
+                title: '8. How are changes and additional work handled?',
+                body: 'Ask what happens when priorities shift, an integration becomes more complex or a new location needs support. Clarify revision limits and the process for approving additional work. A written change process helps prevent surprise costs and unspoken expectations.'
+            },
+            {
+                title: '9. What happens in the first month?',
+                body: 'Request a practical outline of discovery, access, audits, initial deliverables and review points. A clear first month is more useful than a guaranteed revenue promise. Ask what would cause the plan to change and how those decisions will be discussed.'
+            }
+        ],
+        checklist: [
+            'Compare written scope and total costs.',
+            'Review relevant project evidence.',
+            'Clarify account ownership and access.',
+            'Name responsibilities on both sides.',
+            'Agree on first-month deliverables and reviews.'
+        ],
+        related: [
+            'web-design',
+            'google-ads',
+            'seo'
+        ],
+        faqs: [
+            [
+                'Should I choose the lowest quote?',
+                'Compare scope, delivery requirements and total cost first. A lower quote is useful only if it covers the work you actually need and the expectations are clear.'
+            ],
+            [
+                'Is a guaranteed first-place ranking a reliable promise?',
+                'No agency controls every ranking factor or search competitor. Evaluate the work, evidence and reporting rather than a guaranteed position.'
+            ]
+        ],
+        sources: [
+            {
+                title: 'Google: Do you need an SEO?',
+                url: 'https://developers.google.com/search/docs/fundamentals/do-i-need-seo'
+            }
+        ]
+    },
+    {
+        slug: 'youtube-thumbnail-design-checklist',
+        title: '7 checks for a clearer YouTube thumbnail',
+        category: 'Social & content',
+        summary: 'Use a clear focal point, readable type and honest visual promises to make thumbnail concepts easier to evaluate.',
+        readTime: '4 min read',
+        sections: [
+            {
+                title: '1. Decide what the viewer should notice first',
+                body: 'Choose one main subject, emotion or contrast that represents the video. If several objects compete equally, the idea can become harder to understand at a small size. Sketch the hierarchy before spending time on effects or detailed compositing.'
+            },
+            {
+                title: '2. Match the promise to the video',
+                body: 'The thumbnail and title should set up something the video actually delivers. Avoid presenting a result, person or event that is not part of the content. A strong first impression is more useful when the experience after the click matches it.'
+            },
+            {
+                title: '3. Check the crop at a small size',
+                body: 'View the design at roughly the size someone may encounter in a feed, not only at the full editing resolution. Check whether the subject remains recognizable and important details survive the crop. Keep useful information away from areas commonly covered by interface elements.'
+            },
+            {
+                title: '4. Use text only when it adds information',
+                body: 'A few clear words can support the idea, but the image does not need to repeat the entire title. Compare a text-free version with a short-text version. Make letter shapes and contrast readable before adding decoration or multiple typefaces.'
+            },
+            {
+                title: '5. Create separation between subject and background',
+                body: 'Use composition, lighting, color or depth to make the important element stand out. A simple background can be more useful than extra visual effects. Check the result in a lineup with your other thumbnails so each design has a clear role.'
+            },
+            {
+                title: '6. Keep the channel recognizable',
+                body: 'Define a few repeatable choices, such as typography, framing or a color family. Consistency does not require every thumbnail to use the same template. Let the subject change while preserving enough of the visual language to feel like the same channel.'
+            },
+            {
+                title: '7. Learn from actual audience behavior',
+                body: 'Where your publishing workflow supports comparison, review alternative concepts against relevant audience data. A thumbnail’s performance depends on the title, topic, distribution and audience as well as design. Do not treat one click-through figure as proof that a color or expression always works.'
+            }
+        ],
+        checklist: [
+            'Choose one focal point.',
+            'Keep the visual promise accurate.',
+            'Review at feed size.',
+            'Test short text against no text.',
+            'Use performance context when comparing designs.'
+        ],
+        related: [
+            'thumbnail-design',
+            'graphic-design',
+            'content-creation'
+        ],
+        faqs: [
+            [
+                'Can you guarantee a higher click-through rate?',
+                'No. Design is one part of performance alongside the topic, title, audience and distribution. We can create clear concepts and variations for a defined testing process.'
+            ],
+            [
+                'What should I provide for a thumbnail project?',
+                'Share the video topic, intended audience, title options, usable images, brand references and any relevant performance context. Confirm rights to the supplied images.'
+            ]
+        ]
+    }
+];
+}),
+"[project]/src/lib/pricing.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "customServicePrices",
+    ()=>customServicePrices,
+    "formatPrice",
+    ()=>formatPrice,
+    "paymentTerms",
+    ()=>paymentTerms,
+    "pricingCurrency",
+    ()=>pricingCurrency,
+    "pricingFaqs",
+    ()=>pricingFaqs,
+    "pricingOffers",
+    ()=>pricingOffers,
+    "servicePrices",
+    ()=>servicePrices,
+    "websiteProjects",
+    ()=>websiteProjects
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/site.ts [app-rsc] (ecmascript)");
+;
+const pricingCurrency = 'USD';
+const formatPrice = (price)=>`$${price.toLocaleString('en-US')}`;
+const servicePrices = [
+    {
+        id: 'local-services',
+        service: 'local-services-ads',
+        name: 'Google Local Services Ads',
+        group: 'Search & advertising',
+        price: 399,
+        cadence: 'month',
+        description: 'Management for one eligible local business profile and service market.',
+        includes: [
+            'Eligibility and profile preparation review',
+            'Service areas, hours and budget review',
+            'Monthly lead-quality and appointment summary'
+        ],
+        excludes: 'Google lead charges are separate. Screening is controlled by Google; verification, placement and lead volume are not guaranteed.'
+    },
+    {
+        id: 'ai-search',
+        service: 'ai-search-optimization',
+        name: 'AI search / AEO / GEO',
+        group: 'Search & advertising',
+        price: 2399,
+        cadence: 'month',
+        description: 'A focused discovery program connecting useful answers and reliable business information.',
+        includes: [
+            'One website and one priority market',
+            'Up to eight priority page reviews and two answer-focused content deliverables',
+            'Schema and crawler review, plus a documented discovery baseline'
+        ],
+        excludes: 'Major technical repairs, new websites, extra markets and tools are separate. The proposal defines implementation hours. AI mentions are not guaranteed.'
+    },
+    {
+        id: 'microsoft-search',
+        service: 'microsoft-ads',
+        name: 'Microsoft Ads management',
+        group: 'Search & advertising',
+        price: 799,
+        cadence: 'month',
+        description: 'A focused Microsoft Advertising search account with a measurable inquiry journey.',
+        includes: [
+            'One account and one market',
+            'Up to $5,000 monthly media spend managed',
+            'Campaign, search-term and qualified-lead review'
+        ],
+        excludes: 'Media spend, landing-page builds, creative commissions and CRM integrations are separate.'
+    },
+    {
+        id: 'linkedin-campaigns',
+        service: 'linkedin-ads',
+        name: 'LinkedIn Ads management',
+        group: 'Search & advertising',
+        price: 999,
+        cadence: 'month',
+        description: 'One B2B offer connected to a defined professional audience.',
+        includes: [
+            'One account, one market and one campaign offer',
+            'Two static creative concepts and one lead-form review',
+            'Up to $5,000 media spend managed with monthly quality reporting'
+        ],
+        excludes: 'Ad spend, new landing pages, video, lead magnets and custom CRM integration are separate.'
+    },
+    {
+        id: 'lead-program',
+        service: 'lead-generation',
+        name: 'Lead generation starter',
+        group: 'Search & advertising',
+        price: 1199,
+        cadence: 'month',
+        description: 'Connect one acquisition channel with qualification and reliable follow-up.',
+        includes: [
+            'One Google or Microsoft search account and one market',
+            'Up to $5,000 monthly media spend managed',
+            'One existing inquiry journey review and monthly qualification report'
+        ],
+        excludes: 'Media spend, new pages, CRM subscriptions, custom integrations and sales staffing are separate. This is an alternative scope to standalone search management, not a required add-on.'
+    },
+    {
+        id: 'email-campaigns',
+        service: 'email-marketing',
+        name: 'Email marketing',
+        group: 'Content & creative',
+        price: 499,
+        cadence: 'month',
+        description: 'Useful messages for an audience your business has permission to contact.',
+        includes: [
+            'Two campaigns on one existing email platform',
+            'Copy and layout using one existing brand template',
+            'One revision round, link checks and monthly reporting'
+        ],
+        excludes: 'Platform fees, purchased lists, new automation sequences, sender-domain repairs and integrations are excluded.'
+    },
+    {
+        id: 'customer-reputation',
+        service: 'reputation-management',
+        name: 'Reputation management',
+        group: 'Search & advertising',
+        price: 399,
+        cadence: 'month',
+        description: 'A consistent review-request and response process for one business location.',
+        includes: [
+            'Up to three existing business profiles',
+            'One neutral review-request workflow',
+            'Up to ten response drafts and a monthly feedback summary'
+        ],
+        excludes: 'Review software, customer service resolution and additional profiles are separate. No purchased reviews or guaranteed review removal.'
+    },
+    {
+        id: 'conversion-review',
+        service: 'conversion-rate-optimization',
+        name: 'Conversion review',
+        group: 'Website support',
+        price: 950,
+        cadence: 'project',
+        description: 'A practical improvement plan for one service-to-inquiry journey.',
+        includes: [
+            'Up to five pages and one form journey reviewed',
+            'Measurement, mobile usability and content findings',
+            'A prioritized action plan and one review call'
+        ],
+        excludes: 'Implementation, experiment tools, new page designs and ongoing testing are separately scoped.'
+    },
+    {
+        id: 'local-search',
+        service: 'local-seo',
+        name: 'Local SEO',
+        group: 'Search & advertising',
+        price: 399,
+        cadence: 'month',
+        description: 'A focused local search foundation for one real business location.',
+        includes: [
+            'One location and eligible business profile review',
+            'Service details, categories and consistency checks',
+            'One priority on-page review and monthly summary'
+        ],
+        excludes: 'Additional locations, original articles, paid listings and major technical repairs are separate.'
+    },
+    {
+        id: 'google-search',
+        service: 'google-ads',
+        name: 'Google Ads management',
+        group: 'Search & advertising',
+        price: 799,
+        cadence: 'month',
+        description: 'A focused search campaign for the services you want to sell.',
+        includes: [
+            'One account and one market',
+            'Up to $5,000 monthly media spend managed',
+            'Campaign, search-term and lead-quality review'
+        ],
+        excludes: 'Ad spend, new landing-page builds, call-tracking subscriptions and specialist integrations are separate.'
+    },
+    {
+        id: 'meta-campaigns',
+        service: 'meta-ads',
+        name: 'Meta Ads management',
+        group: 'Search & advertising',
+        price: 1599,
+        cadence: 'month',
+        description: 'Facebook and Instagram campaigns with a clear creative testing plan.',
+        includes: [
+            'One ad account and one market',
+            'Up to $5,000 monthly media spend managed',
+            'Up to four static creative concepts and monthly review'
+        ],
+        excludes: 'Ad spend, filming, organic posting, landing-page builds and third-party tools are separate.'
+    },
+    {
+        id: 'search-program',
+        service: 'seo',
+        name: 'Expanded SEO',
+        group: 'Search & advertising',
+        price: 2799,
+        cadence: 'month',
+        description: 'Technical priorities and useful content brought into one search program.',
+        includes: [
+            'One website and one priority market',
+            'Up to ten priority page reviews and two content deliverables',
+            'Technical backlog, implementation allowance and search reporting'
+        ],
+        excludes: 'The proposal defines implementation hours. Rebuilds, paid placements and additional markets are separate.'
+    },
+    {
+        id: 'organic-social',
+        service: 'social-media-management',
+        name: 'Social media management',
+        group: 'Content & creative',
+        price: 799,
+        cadence: 'month',
+        description: 'A consistent publishing rhythm built around your business.',
+        includes: [
+            'Eight posts adapted across two social profiles',
+            'Static design, captions and scheduling',
+            'One batch revision and monthly performance summary'
+        ],
+        excludes: 'Filming, paid ads, daily inbox replies and community management are separate. Eight posts is the total content allowance.'
+    },
+    {
+        id: 'editorial-content',
+        service: 'content-creation',
+        name: 'Content creation',
+        group: 'Content & creative',
+        price: 499,
+        cadence: 'month',
+        description: 'Original writing that answers the questions your buyers bring.',
+        includes: [
+            'Two articles or service-page drafts, up to 1,000 words each',
+            'Brief and source review using your subject expertise',
+            'One revision round per draft'
+        ],
+        excludes: 'Expert interviews, regulated-topic specialist review, design and CMS publishing are separate.'
+    },
+    {
+        id: 'content-publishing',
+        service: 'content-management',
+        name: 'Content management',
+        group: 'Content & creative',
+        price: 399,
+        cadence: 'month',
+        description: 'Turn approved copy and assets into well-presented website updates.',
+        includes: [
+            'Up to four supplied-content page updates on one CMS',
+            'Formatting, supplied images and internal-link checks',
+            'Publication review and a completed-work log'
+        ],
+        excludes: 'Original writing, bulk migrations, new templates and custom development are separate.'
+    },
+    {
+        id: 'graphic-design',
+        service: 'graphic-design',
+        name: 'Graphic design',
+        group: 'Content & creative',
+        price: 499,
+        cadence: 'month',
+        description: 'A regular supply of on-brand graphics for your next campaign.',
+        includes: [
+            'Four static graphics from an agreed brief',
+            'One primary format and one resize per graphic',
+            'Two consolidated revision rounds'
+        ],
+        excludes: 'Brand identity systems, illustration commissions, print production, video and animation are separate.'
+    },
+    {
+        id: 'video-thumbnails',
+        service: 'thumbnail-design',
+        name: 'Thumbnail design',
+        group: 'Content & creative',
+        price: 199,
+        cadence: 'month',
+        description: 'Clear, recognizable covers for the videos you are ready to publish.',
+        includes: [
+            'Four thumbnails using approved source assets',
+            'One alternative composition per thumbnail',
+            'One consolidated revision round'
+        ],
+        excludes: 'Video editing, photography and channel management are separate. Performance is not guaranteed.'
+    },
+    {
+        id: 'website-care',
+        service: 'website-management',
+        name: 'Website care & updates',
+        group: 'Website support',
+        price: 299,
+        cadence: 'month',
+        description: 'Keep one supported website current and its key journeys working.',
+        includes: [
+            'Routine platform and inquiry-path checks',
+            'Up to two hours of routine edits each month',
+            'A request queue and monthly work summary'
+        ],
+        excludes: 'Hosting, licenses, incident recovery and larger development work are separate. No 24/7 support is included.'
+    },
+    {
+        id: 'development-project',
+        service: 'web-development',
+        name: 'Development project',
+        group: 'Website support',
+        price: 1500,
+        cadence: 'project',
+        description: 'A defined integration or a small piece of custom website functionality.',
+        includes: [
+            'One agreed functionality brief',
+            'Implementation on an existing supported website',
+            'Testing and technical handoff'
+        ],
+        excludes: 'Full applications, redesigns, third-party subscriptions and ongoing maintenance are separately scoped.'
+    },
+    {
+        id: 'campaign-page',
+        service: 'landing-page-design',
+        name: 'Campaign landing page',
+        group: 'Website support',
+        price: 1500,
+        cadence: 'project',
+        description: 'One focused page that connects an offer to a useful inquiry.',
+        includes: [
+            'One responsive page using approved copy and assets',
+            'One inquiry form and basic event setup',
+            'One consolidated design revision and launch checks'
+        ],
+        excludes: 'Advertising, copywriting, hosting, CRM subscriptions and advanced integrations are separate.'
+    }
+];
+const customServicePrices = [
+    {
+        service: 'digital-media-buying',
+        name: 'Digital media buying',
+        description: 'Programmatic display, streaming TV and video campaigns.',
+        scope: 'The quote identifies platforms, markets, media commitments, creative production and reporting. Media and production costs are itemized separately.'
+    },
+    {
+        service: 'franchise-marketing',
+        name: 'Franchise & multi-location marketing',
+        description: 'Central brand standards with a location-by-location rollout.',
+        scope: 'Central setup, local profiles, campaigns, routing and reporting are priced by the agreed locations and responsibilities.'
+    },
+    {
+        service: 'ai-workflow-automation',
+        name: 'AI workflow & automation',
+        description: 'One defined operational workflow with supported integrations.',
+        scope: 'Discovery confirms systems, permissions, review steps and exception handling. Software, model usage, implementation and ongoing support are itemized.'
+    }
+];
+const websiteProjects = [
+    {
+        id: 'business-website',
+        name: 'Business website',
+        tag: 'A confident first impression',
+        price: 4500,
+        installment: 479,
+        months: 12,
+        description: 'A focused website for a clear service and an ambitious small business.',
+        includes: [
+            'Up to five core pages',
+            'Responsive design and development',
+            'Inquiry form and foundational metadata',
+            'One consolidated design revision and handoff'
+        ],
+        excludes: 'Original copywriting, migrations and integrations are separate.'
+    },
+    {
+        id: 'custom-website',
+        name: 'Custom website',
+        tag: 'More room for your story',
+        price: 7500,
+        installment: 799,
+        months: 12,
+        description: 'A larger site with a considered structure and a reusable content system.',
+        includes: [
+            'Up to ten core pages',
+            'Custom responsive layouts and a reusable page template',
+            'One standard CMS setup and inquiry form',
+            'Two design review rounds and launch checks'
+        ],
+        excludes: 'Complex migrations, original content production and paid integrations are separate.'
+    },
+    {
+        id: 'advanced-website',
+        name: 'Advanced website',
+        tag: 'Built around your operations',
+        price: 11500,
+        installment: 1199,
+        months: 12,
+        description: 'A larger content-led website with a defined integration requirement.',
+        includes: [
+            'Up to fifteen core pages',
+            'Structured content templates and responsive development',
+            'One standard integration, subject to technical review',
+            'Two design review rounds and documented handoff'
+        ],
+        excludes: 'Custom applications, large data migrations and further integrations receive a tailored quote.'
+    }
+];
+const paymentTerms = {
+    general: 'All starting prices are in USD, before applicable taxes. We confirm deliverables, timing, revisions and the final price in a written proposal before payment. Advertising spend and third-party subscriptions are separate.',
+    installments: 'The website payment option is a commitment to twelve monthly payments for the agreed project, not a cancel-anytime website subscription. Its total is higher than the pay-in-full price. The proposal confirms the payment schedule, handoff, ownership and any early settlement terms.',
+    hosting: 'Hosting and ongoing website care are quoted separately. Finishing the website payment plan does not automatically enroll you in another subscription.',
+    retainers: 'Recurring service scopes are reviewed with you before work starts. Your proposal specifies the start date, billing schedule, notice period and any minimum term; these differ from the twelve-payment website option.'
+};
+const pricingFaqs = [
+    [
+        'Can I hire you for just one service?',
+        'Yes. Choose a standalone service, a one-time project or a monthly partnership. The starting scopes above make the differences clear. We confirm the exact work before you commit.'
+    ],
+    [
+        'What is the difference between monthly marketing and website payments?',
+        paymentTerms.installments + ' Monthly marketing pays for the ongoing work and allowances in the selected service or partnership.'
+    ],
+    [
+        'Does the price include ad spend?',
+        'No. Media spend is paid separately to the relevant advertising platform. Our management fee covers the agreed campaign work, testing and reporting. Third-party tools are also separate.'
+    ],
+    [
+        'What happens after the twelve website payments?',
+        paymentTerms.hosting + ' Your signed proposal records the final project handoff and ownership terms.'
+    ],
+    [
+        'Can I change scope or discuss a discount?',
+        'Yes. We review your priorities, existing assets and delivery requirements on a call. Any agreed discount or scope adjustment appears in the proposal. Extra work is quoted before it starts.'
+    ],
+    [
+        'Are revisions and requests unlimited?',
+        'No. Each starting scope has an allowance. A revision adjusts an agreed brief; a new concept, additional page, new platform or new integration may need a separate estimate.'
+    ],
+    [
+        'When do I pay, and can I use Stripe or PayPal?',
+        'First we agree on the scope and payment schedule. Then we send an invoice or approved payment link with the available payment methods. Selecting an option on this page does not charge you.'
+    ],
+    [
+        'Can I cancel a monthly service?',
+        paymentTerms.retainers + ' We explain these terms before you accept the proposal.'
+    ],
+    [
+        'Can you support more locations, platforms or languages?',
+        'Yes, with a tailored scope. The starting allowances cover the stated website, market, accounts or profiles. Additional work is itemized so you can compare the total investment.'
+    ],
+    [
+        'Are rankings, leads or sales guaranteed?',
+        'No. We commit to the agreed work and reporting. Outcomes depend on your market, offer, budget, website, follow-up and factors outside the studio’s control.'
+    ]
+];
+function pricingOffers() {
+    return [
+        ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["plans"].map((p)=>({
+                id: `plan-${p.name.toLowerCase().replaceAll(' ', '-')}`,
+                name: `${p.name} monthly partnership`,
+                price: p.price,
+                cadence: 'month',
+                description: `${p.description} ${p.items.join('; ')}. ${p.note}`,
+                service: undefined,
+                months: undefined
+            })),
+        ...servicePrices.map((p)=>({
+                ...p,
+                description: `${p.description} ${p.includes.join('; ')}. ${p.excludes}`,
+                months: undefined
+            })),
+        ...customServicePrices.map((p)=>({
+                id: p.service,
+                name: p.name,
+                description: `${p.description} ${p.scope}`,
+                service: p.service,
+                price: undefined,
+                cadence: 'project',
+                months: undefined
+            })),
+        ...websiteProjects.flatMap((p)=>[
+                {
+                    id: `${p.id}-upfront`,
+                    name: `${p.name} - pay in full`,
+                    price: p.price,
+                    cadence: 'project',
+                    description: `${p.description} ${p.includes.join('; ')}. ${p.excludes}`,
+                    service: 'web-design',
+                    months: undefined
+                },
+                {
+                    id: `${p.id}-payments`,
+                    name: `${p.name} - twelve-payment option`,
+                    price: p.installment,
+                    cadence: 'month',
+                    description: `${p.months} monthly payments from ${formatPrice(p.installment)}; total ${formatPrice(p.installment * p.months)} USD. ${p.includes.join('; ')}. ${paymentTerms.installments} ${paymentTerms.hosting}`,
+                    service: 'web-design',
+                    months: p.months
+                }
+            ])
+    ];
+}
+}),
+"[project]/src/lib/projects.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "campaignStories",
+    ()=>campaignStories,
+    "clientProjects",
+    ()=>clientProjects
+]);
+const clientProjects = [
+    {
+        slug: 'allsafe-electric',
+        label: 'Allsafe Electric',
+        title: 'From a service search to the sales team.',
+        category: 'Home services · Website & lead capture',
+        filter: 'Home services',
+        image: '/work/allsafe-electric.webp',
+        description: 'A Next.js website for a Colorado electrical business, bringing service information, local content and inquiry handling into one customer journey.',
+        challenge: 'A contractor website has to do two jobs: help a homeowner understand the service and give the business a dependable way to handle the inquiry. The migration also needed to account for the existing pages.',
+        approach: 'The work combined a WordPress and Elementor migration with reusable service and location templates. Call tracking and quote forms were connected to the lead workflow, with URL mapping included in the migration plan.',
+        deliverables: [
+            'Next.js website development',
+            'Service and location page system',
+            'CallRail tracking and quote forms',
+            'Zapier-to-CRM lead handoff'
+        ],
+        website: 'https://allsafehomeservice.com/'
+    },
+    {
+        slug: 'clear-day-baths',
+        label: 'Clear Day Baths',
+        title: 'A clearer path to the next remodeling project.',
+        category: 'Home services · Website & automation',
+        filter: 'Home services',
+        image: '/work/clear-day-baths.webp',
+        description: 'A bathroom remodeling website connecting service-area content, quote requests and CRM follow-up for a business serving Northern Virginia and Maryland.',
+        challenge: 'Bathroom remodeling customers need to understand the offer and decide whether a company serves their area. Behind the website, the sales team needs usable inquiry information.',
+        approach: 'The project brought an existing WordPress site into a static-first Next.js structure. Service content, URL mapping, tracking and inquiry handoffs were treated as parts of the same delivery.',
+        deliverables: [
+            'WordPress-to-Next.js migration',
+            'Service-area content architecture',
+            'Technical SEO and URL mapping',
+            'Quote forms and CRM automation'
+        ],
+        website: 'https://cleardaybaths.com/'
+    },
+    {
+        slug: 'jr-watkins',
+        label: 'J.R. Watkins',
+        title: 'A familiar brand. A considered web experience.',
+        category: 'Brand website · Responsive development',
+        filter: 'Brands & commerce',
+        image: '/work/jr-watkins.webp',
+        description: 'Website development for J.R. Watkins, with a focus on responsive presentation, brand identity and a clear customer experience.',
+        challenge: 'An established consumer brand needs an online experience that feels consistent with the products people already know. The design and development work must support that identity across devices.',
+        approach: 'The project focused on the website interface, responsive implementation and search-friendly presentation. Product and brand information were considered together so the experience could feel coherent rather than assembled from disconnected pages.',
+        deliverables: [
+            'Website development',
+            'Responsive interface implementation',
+            'Brand-led presentation',
+            'Search-focused website improvements'
+        ],
+        website: 'https://jrwatkins.com/'
+    },
+    {
+        slug: 'workiz',
+        label: 'Workiz',
+        title: 'Making a service-business platform easier to explore.',
+        category: 'Business software · Web development',
+        filter: 'Web platforms',
+        image: '/work/workiz.webp',
+        description: 'Website development work for Workiz, a platform serving field-service businesses. A project at the intersection of software and the trades.',
+        challenge: 'Software buyers need to understand how a platform fits the way they work. A website needs to make that information approachable while supporting a consistent experience on smaller screens.',
+        approach: 'The work centered on content presentation, the web interface and responsive development. This portfolio entry describes the website contribution; it does not claim ownership of the Workiz software product.',
+        deliverables: [
+            'Website development',
+            'Responsive page presentation',
+            'Content and interface implementation'
+        ],
+        website: 'https://workiz.com/'
+    },
+    {
+        slug: 'windsor',
+        label: 'Windsor',
+        title: 'Fashion, with a confident digital presence.',
+        category: 'E-commerce · Website design',
+        filter: 'Brands & commerce',
+        image: '/work/windsor.webp',
+        description: 'E-commerce website design work focused on the Windsor shopping experience and its brand presentation.',
+        challenge: 'Fashion websites need to make room for product imagery without losing clarity in the shopping journey. The presentation must remain recognizable as the same brand across screen sizes.',
+        approach: 'The design work explored the relationship between brand identity, product presentation and the responsive storefront. The focus was the customer-facing web experience, with the visuals serving the shopping journey.',
+        deliverables: [
+            'E-commerce presentation',
+            'Brand-led website design',
+            'Responsive customer journey'
+        ],
+        website: 'https://windsorstore.com/'
+    },
+    {
+        slug: 'ezeie',
+        label: 'ezeie',
+        title: 'An existing platform, ready for smaller screens.',
+        category: 'UX design · Responsive web application',
+        filter: 'Web platforms',
+        image: '/work/ezeie.webp',
+        description: 'A UX and web application project focused on updating an existing website experience for mobile and desktop use.',
+        challenge: 'An interface that only works comfortably on a desktop limits the ways customers can use a platform. The redesign needed to consider the same information and actions at different sizes.',
+        approach: 'The project focused on the user experience, responsive layout and cross-device presentation. The aim was a coherent interface that feels considered on the screen the visitor actually has.',
+        deliverables: [
+            'Website experience redesign',
+            'Mobile-friendly layouts',
+            'Responsive frontend presentation'
+        ],
+        website: 'https://ezeie.com/'
+    },
+    {
+        slug: 'california-olive-ranch',
+        label: 'California Olive Ranch',
+        title: 'A distinctive brand, thoughtfully presented.',
+        category: 'Brand website · Web development',
+        filter: 'Brands & commerce',
+        image: '/work/california-olive.webp',
+        description: 'Website development work for California Olive Ranch, connecting brand presentation with a responsive web interface.',
+        challenge: 'A distinctive food brand needs a digital presentation that gives its products and story appropriate space. The experience also needs to work beyond a single ideal desktop layout.',
+        approach: 'The website work focused on the interface and responsive implementation, carrying the brand presentation into the browser. The project is shown as development work, without an unsupported claim about changes in sales.',
+        deliverables: [
+            'Website development',
+            'Brand experience implementation',
+            'Responsive web presentation'
+        ],
+        website: 'https://californiaoliveranch.com/'
+    },
+    {
+        slug: 'crafted-look',
+        label: 'Crafted Look',
+        title: 'An editorial home for ideas worth exploring.',
+        category: 'Editorial · Content website',
+        filter: 'Web platforms',
+        image: '/work/crafted-look.webp',
+        description: 'A blog and editorial website built around approachable content, clear navigation and a responsive reading experience.',
+        challenge: 'A content website needs to help a visitor move from one useful idea to the next. The reading experience and content organization matter as much as the homepage.',
+        approach: 'The work brought editorial content into a structured blog interface, with attention to navigation and responsive presentation. It illustrates the publishing side of our website work.',
+        deliverables: [
+            'Editorial website development',
+            'Content-led navigation',
+            'Responsive blog interface'
+        ],
+        website: 'https://craftedlook.com/'
+    },
+    {
+        slug: 'the-unseen-threads',
+        label: 'The Unseen Threads',
+        title: 'A place for stories to find their readers.',
+        category: 'Editorial · Website design',
+        filter: 'Web platforms',
+        image: '/work/unseen-threads.webp',
+        description: 'A blog and website design project with a focus on a responsive home for editorial content.',
+        challenge: 'A story-led website needs to create a comfortable place to read and explore. The design has to support the content rather than compete with it.',
+        approach: 'The work focused on the blog experience and responsive website presentation. Page structure and visual rhythm were considered as part of the reading journey.',
+        deliverables: [
+            'Blog website experience',
+            'Editorial web design',
+            'Responsive page presentation'
+        ],
+        website: 'https://theunseenthreads.com/'
+    },
+    {
+        slug: 'read-the-anime',
+        label: 'Read The Anime',
+        title: 'A content destination for a curious audience.',
+        category: 'Publishing · Web development',
+        filter: 'Web platforms',
+        image: '/work/read-the-anime.webp',
+        description: 'An anime-focused blog website project that organizes content into a responsive reading experience.',
+        challenge: 'A specialist publication needs to make a growing body of content approachable. Readers should be able to understand where they are and continue exploring relevant material.',
+        approach: 'The project centered on the blog interface, content organization and responsive implementation. It is an example of building for a subject-focused audience rather than a generic company brochure.',
+        deliverables: [
+            'Blog and content experience',
+            'Content-led page structure',
+            'Responsive web development'
+        ],
+        website: 'https://readtheanime.com/'
+    },
+    {
+        slug: 'dococlock',
+        label: 'DocoClock',
+        title: 'Connecting the appointment journey.',
+        category: 'Healthcare platform · Full-stack development',
+        filter: 'Web platforms',
+        image: '/work/dococlock.webp',
+        description: 'A healthcare platform bringing doctor discovery, appointments, live queues and digital prescriptions into one connected healthcare experience.',
+        challenge: 'Patients and healthcare teams need different tools around the same appointment. A shared platform has to accommodate those roles without making every screen do every job.',
+        approach: 'React and Supabase support six role-specific interfaces. The shared frontend also extends to Android through Capacitor. The project brings patient-facing discovery and appointment flows together with the interfaces used by clinical and administrative teams.',
+        deliverables: [
+            'Doctor and hospital discovery',
+            'Appointment and live-queue interfaces',
+            'Six role-specific experiences',
+            'Shared web and Android codebase'
+        ]
+    },
+    {
+        slug: 'pet-cy',
+        label: 'Pet-cy',
+        title: 'A welcoming storefront for pet essentials.',
+        category: 'E-commerce · Catalog & storefront',
+        filter: 'Brands & commerce',
+        image: '/work/pet-cy.webp',
+        description: 'An e-commerce storefront for a Cyprus pet supply business, bringing its catalog, offers and shopping information together.',
+        challenge: 'A pet supply business needs to present products and current offers clearly while making the store feel approachable to new shoppers.',
+        approach: 'The storefront brings the product catalog, special offers, gift cards and partnership information into one shopping experience. This entry describes the website scope, rather than attributing unverified revenue outcomes.',
+        deliverables: [
+            'E-commerce storefront',
+            'Product catalog presentation',
+            'Special offers and gift cards',
+            'Partnership information'
+        ]
+    }
+];
+const campaignStories = [
+    {
+        "slug": "remodeling-lower-lead-cost",
+        "label": "Bathroom remodeling company",
+        "title": "A smarter campaign mix. 59.19% lower lead costs.",
+        "metric": "−59.19%",
+        "metricLabel": "automated-campaign CPL vs. standard baseline",
+        "period": "90-day year-over-year review",
+        "service": "google-ads",
+        "description": "A remodeler facing more expensive search auctions diversified its campaign mix and increased total leads by 7.13%.",
+        "challenge": "Traditional search inquiries became more expensive as competition intensified. The company needed to protect lead volume without simply bidding more on the same searches.",
+        "approach": "The campaign mix expanded into automated cross-network placements and website-driven search ads, with budget directed toward more efficient inquiry sources.",
+        "results": [
+            [
+                "−59.19%",
+                "automated-campaign CPL vs. standard baseline"
+            ],
+            [
+                "−41.87%",
+                "website-driven search CPL vs. traditional campaigns"
+            ],
+            [
+                "+7.13%",
+                "total leads in the reported comparison"
+            ]
+        ],
+        "context": "The review compared 90-day periods year over year. The two cost reductions describe different campaign types against their stated baselines; neither is an account-wide reduction. Absolute dollar costs and closed-sale revenue are not supplied."
+    },
+    {
+        "slug": "remodeling-search-two-year-results",
+        "label": "Regional bathroom remodeler",
+        "title": "85+ leads a month. A two-year search program.",
+        "metric": "85+",
+        "metricLabel": "average monthly leads over two years",
+        "period": "Two-year reported average · SEO + paid search",
+        "service": "seo",
+        "description": "An Indiana bathroom remodeler combined service-page improvements and paid search to build a sustained flow of inquiries.",
+        "challenge": "The company needed local visibility for shower installations, tub-to-shower conversions and bathroom renovations in a competitive regional market.",
+        "approach": "The work aligned high-intent searches with improved service content and Google Ads. Local relevance and a useful route to inquiry supported the combined search program.",
+        "results": [
+            [
+                "85+",
+                "average monthly leads over two years"
+            ],
+            [
+                "4",
+                "core keywords reported in the top three"
+            ],
+            [
+                "8",
+                "keywords reported in the top ten"
+            ]
+        ],
+        "context": "The lead figure is a reported monthly average across two years, not a guaranteed minimum in every month or an organic-only result. Exact start and end dates and channel-level lead attribution are not supplied. Modeled sales estimates are excluded."
+    },
+    {
+        slug: 'roofing-local-search',
+        label: 'Regional roofing contractor',
+        title: 'More relevant searches. 53 booked appointments.',
+        metric: '53',
+        metricLabel: 'confirmed appointments',
+        period: 'Three-month campaign · Spring 2026',
+        service: 'local-seo',
+        description: 'A roofing search strategy redirected attention from broad visibility toward homeowners within the service area.',
+        challenge: 'The site attracted impressions from outside the contractor’s market. The priority was to reach people who could become local customers.',
+        approach: 'The work refocused content and metadata on local roofing intent, improved the technical structure, simplified quote requests and introduced call tracking.',
+        results: [
+            [
+                '53',
+                'confirmed appointments'
+            ],
+            [
+                '17',
+                'additional priority opportunities'
+            ],
+            [
+                '415 → 598',
+                'homepage clicks'
+            ]
+        ],
+        context: 'The appointment count covers the three-month campaign. Homepage clicks are a separate search metric; they should not be added to calls or form leads. Historical results are specific to this engagement.'
+    },
+    {
+        slug: 'bathroom-paid-search-efficiency',
+        label: 'Bathroom remodeling company',
+        title: 'More conversions. 43.66% lower cost per lead.',
+        metric: '−43.66%',
+        metricLabel: 'cost per lead versus launch phase',
+        period: 'Launch phase compared with optimized phase',
+        service: 'google-ads',
+        description: 'A bathroom remodeling advertising campaign focused its bidding and geographic targeting on conversion opportunities.',
+        challenge: 'The initial campaign phase produced four conversions at a relatively high acquisition cost.',
+        approach: 'The work shifted toward conversion-focused bidding, narrowed geographic targeting and used incoming performance data to refine the campaign.',
+        results: [
+            [
+                '4 → 21',
+                'recorded conversions'
+            ],
+            [
+                '−43.66%',
+                'cost per lead'
+            ],
+            [
+                '5.33% → 9.95%',
+                'conversion rate'
+            ]
+        ],
+        context: 'These figures compare campaign phases. The source does not specify equal-length date windows or confirm that every conversion became a customer. They are historical campaign results, not a forecast.'
+    }
+];
+}),
+"[project]/src/lib/schema.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "imageSchema",
+    ()=>imageSchema,
+    "organizationGraph",
+    ()=>organizationGraph,
+    "pageGraph",
+    ()=>pageGraph
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/site.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/seo.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2d$pages$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/seo-pages.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$image$2d$metadata$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/image-metadata.json.[json].cjs [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$articles$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/articles.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$pricing$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/pricing.ts [app-rsc] (ecmascript)");
+;
+;
+;
+;
+;
+;
+const orgId = `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].url}/#organization`;
+const websiteId = `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].url}/#website`;
+const personId = `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].url}/#founder`;
+const ref = (id)=>({
+        '@id': id
+    });
+function imageSchema(path) {
+    const image = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$image$2d$metadata$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"][path];
+    if (!image) throw new Error(`Missing image metadata: ${path}`);
+    const url = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["absoluteUrl"])(path);
+    return {
+        '@type': 'ImageObject',
+        '@id': `${url}#image`,
+        url,
+        contentUrl: url,
+        name: image.title,
+        caption: image.description,
+        description: image.description,
+        encodingFormat: image.type,
+        width: image.width,
+        height: image.height
+    };
+}
+function organizationGraph() {
+    return {
+        '@context': 'https://schema.org',
+        '@graph': [
+            {
+                '@type': 'Organization',
+                '@id': orgId,
+                name: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].name,
+                url: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].url}/`,
+                description: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].description,
+                areaServed: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].serviceAreas,
+                email: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].email,
+                logo: ref(`${(0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["absoluteUrl"])('/brand/wonderweb-studio.svg')}#image`),
+                sameAs: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].socials.map((s)=>s.url),
+                founder: ref(personId),
+                contactPoint: {
+                    '@type': 'ContactPoint',
+                    contactType: 'sales inquiries',
+                    email: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].email,
+                    url: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["absoluteUrl"])('/contact/'),
+                    availableLanguage: 'English'
+                }
+            },
+            imageSchema('/brand/wonderweb-studio.svg'),
+            {
+                '@type': 'WebSite',
+                '@id': websiteId,
+                url: `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].url}/`,
+                name: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].name,
+                description: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].description,
+                publisher: ref(orgId),
+                inLanguage: 'en'
+            },
+            {
+                '@type': 'Person',
+                '@id': personId,
+                name: 'Saikat Chowdhury',
+                jobTitle: 'Founder & CEO · Team Lead',
+                url: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["absoluteUrl"])('/about/'),
+                image: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["absoluteUrl"])('/work/saikat.webp'),
+                worksFor: ref(orgId)
+            }
+        ]
+    };
+}
+function pageGraph(path) {
+    const page = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2d$pages$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["seoByPath"].get(path);
+    if (!page) throw new Error(`No SEO entry for ${path}`);
+    const url = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["absoluteUrl"])(path);
+    const pageId = `${url}#webpage`;
+    const entityId = `${url}#main-entity`;
+    const imagePaths = [
+        ...new Set([
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2d$pages$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["seoImagePath"])(path),
+            ...page.images || []
+        ])
+    ];
+    const pageNode = {
+        '@type': page.type,
+        '@id': pageId,
+        url,
+        name: page.title,
+        description: page.description,
+        isPartOf: ref(websiteId),
+        publisher: ref(orgId),
+        inLanguage: 'en',
+        primaryImageOfPage: ref(`${(0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["absoluteUrl"])(imagePaths[0])}#image`),
+        image: imagePaths.map((p)=>ref(`${(0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["absoluteUrl"])(p)}#image`))
+    };
+    if (page.modified) pageNode.dateModified = page.modified;
+    if (page.published) pageNode.datePublished = page.published;
+    const nodes = [
+        pageNode,
+        ...imagePaths.map(imageSchema)
+    ];
+    if (path !== '/') {
+        const parts = path.split('/').filter(Boolean);
+        const breadcrumbs = [
+            '/',
+            ...parts.map((_, i)=>`/${parts.slice(0, i + 1).join('/')}/`)
+        ].filter((p)=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2d$pages$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["seoByPath"].has(p));
+        pageNode.breadcrumb = ref(`${url}#breadcrumb`);
+        nodes.push({
+            '@type': 'BreadcrumbList',
+            '@id': `${url}#breadcrumb`,
+            itemListElement: breadcrumbs.map((p, i)=>({
+                    '@type': 'ListItem',
+                    position: i + 1,
+                    name: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2d$pages$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["seoByPath"].get(p)?.label || page.label,
+                    item: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["absoluteUrl"])(p)
+                }))
+        });
+    }
+    if (page.entity) {
+        pageNode.mainEntity = ref(entityId);
+        nodes.push(mainEntity(page, entityId, pageId));
+    } else if (page.type === 'AboutPage') pageNode.mainEntity = ref(orgId);
+    else if (page.type === 'ContactPage') pageNode.about = ref(orgId);
+    if (path === '/' || path === '/about/') {
+        const videoId = `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].url}/#studio-introduction`;
+        pageNode.video = ref(videoId);
+        nodes.push({
+            '@type': 'VideoObject',
+            '@id': videoId,
+            name: 'Wonder Web Studio',
+            description: 'The original Wonderweb Studio introduction, showing the studio’s creative roots.',
+            thumbnailUrl: 'https://i.ytimg.com/vi/vi4cH6cD3Sg/hqdefault.jpg',
+            embedUrl: 'https://www.youtube-nocookie.com/embed/vi4cH6cD3Sg',
+            url: 'https://www.youtube.com/watch?v=vi4cH6cD3Sg',
+            uploadDate: '2023-11-05T08:08:25-08:00',
+            duration: 'PT1M15S',
+            creator: ref(orgId)
+        });
+    }
+    if (page.children) {
+        pageNode.mainEntity = ref(`${url}#list`);
+        nodes.push({
+            '@type': 'ItemList',
+            '@id': `${url}#list`,
+            name: page.title,
+            numberOfItems: page.children.length,
+            itemListElement: page.children.map((p, i)=>({
+                    '@type': 'ListItem',
+                    position: i + 1,
+                    name: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2d$pages$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["seoByPath"].get(p)?.label,
+                    url: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["absoluteUrl"])(p)
+                }))
+        });
+    }
+    return {
+        '@context': 'https://schema.org',
+        '@graph': nodes
+    };
+}
+function mainEntity(page, id, pageId) {
+    const base = {
+        '@type': page.entity,
+        '@id': id,
+        name: page.label,
+        description: page.description,
+        url: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["absoluteUrl"])(page.path),
+        mainEntityOfPage: ref(pageId),
+        image: ref(`${(0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["absoluteUrl"])((0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2d$pages$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["seoImagePath"])(page.path))}#image`)
+    };
+    if (page.entity === 'Service') return {
+        ...base,
+        name: page.title,
+        serviceType: page.serviceType,
+        provider: ref(orgId),
+        ...page.area ? {
+            areaServed: {
+                '@type': page.area.kind,
+                name: page.area.name,
+                containedInPlace: {
+                    '@type': page.area.kind === 'City' ? 'State' : 'Country',
+                    name: page.area.region
+                }
+            }
+        } : {
+            areaServed: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].serviceAreas
+        },
+        ...page.audience ? {
+            audience: {
+                '@type': 'BusinessAudience',
+                audienceType: page.audience
+            }
+        } : {}
+    };
+    if (page.entity === 'BlogPosting' || page.entity === 'Article') {
+        const a = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$articles$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["articles"].find((a)=>page.path === `/resources/${a.slug}/`);
+        return {
+            ...base,
+            headline: page.label,
+            inLanguage: 'en',
+            author: ref(orgId),
+            publisher: ref(orgId),
+            ...page.modified ? {
+                dateModified: page.modified
+            } : {},
+            ...page.published ? {
+                datePublished: page.published
+            } : {},
+            ...a ? {
+                articleSection: a.category,
+                ...a.sources ? {
+                    citation: a.sources.map((s)=>s.url)
+                } : {}
+            } : {}
+        };
+    }
+    if (page.entity === 'CreativeWork') return {
+        ...base,
+        creator: ref(orgId),
+        inLanguage: 'en',
+        image: page.images?.map((p)=>ref(`${(0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["absoluteUrl"])(p)}#image`))
+    };
+    if (page.entity === 'OfferCatalog') return {
+        ...base,
+        name: 'Website projects, standalone services and monthly partnerships',
+        itemListElement: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$pricing$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["pricingOffers"])().map((p)=>({
+                '@type': 'Offer',
+                '@id': `${(0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["absoluteUrl"])('/pricing/')}#offer-${p.id}`,
+                name: p.name,
+                description: `${p.description} ${p.price === undefined ? 'Tailored quote after discovery.' : 'Starting price; final scope and quote agreed before purchase.'}`,
+                url: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["absoluteUrl"])('/pricing/'),
+                seller: ref(orgId),
+                ...p.price === undefined ? {} : {
+                    priceSpecification: {
+                        '@type': 'UnitPriceSpecification',
+                        minPrice: p.price,
+                        priceCurrency: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$pricing$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["pricingCurrency"],
+                        unitText: p.cadence,
+                        ...p.months ? {
+                            billingDuration: p.months,
+                            unitCode: 'MON'
+                        } : {}
+                    }
+                },
+                itemOffered: {
+                    '@type': 'Service',
+                    name: p.name,
+                    provider: ref(orgId),
+                    ...p.service ? {
+                        url: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["absoluteUrl"])(`/services/${p.service}/`)
+                    } : {},
+                    description: p.description
+                }
+            }))
+    };
+    return base;
+}
+}),
+"[project]/src/lib/search-led-articles.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "searchLedArticles",
+    ()=>searchLedArticles
+]);
+const seoSource = {
+    title: 'Google Search Central: SEO starter guide',
+    url: 'https://developers.google.com/search/docs/fundamentals/seo-starter-guide'
+};
+const localSource = {
+    title: 'Google Business Profile: local ranking guidance',
+    url: 'https://support.google.com/business/answer/7091'
+};
+const searchLedArticles = [
+    {
+        slug: 'choosing-roofing-seo-agency',
+        title: 'How to choose a roofing SEO agency: 7 checks before you sign',
+        seoTitle: 'Choosing a Roofing SEO Agency: 7 Checks',
+        category: 'SEO',
+        summary: 'Compare roofing SEO agencies by their research, service-page plan, reporting and scope. Seven practical checks before committing to a proposal.',
+        readTime: '7 min read',
+        updated: '2026-11-08',
+        related: [
+            'seo',
+            'local-seo',
+            'web-design'
+        ],
+        sections: [
+            {
+                title: '1. Start with the roofing work you want to sell',
+                body: 'An agency cannot build a useful plan around “more traffic” alone. Tell it whether you want repair appointments, replacement estimates, commercial work or another clearly defined service. Explain your operating area, capacity and what makes an inquiry unsuitable. A good discovery process should turn those facts into priorities. Ask the agency to describe the first customer journey it would improve, from the search question to the estimate request, before judging a package by its list of tasks.'
+            },
+            {
+                title: '2. Ask to see how services and search intent become pages',
+                body: 'A proposal should distinguish commercial service pages from supporting articles. A roof replacement page explains the offer and the estimate process; a maintenance guide answers a different question. Ask how the agency will use existing URLs, avoid overlapping topics and connect related content. A spreadsheet full of similar city-and-keyword combinations is not yet a content strategy. The important deliverable is a coherent map of useful destinations with a reason for each page.'
+            },
+            {
+                title: '3. Check what “technical SEO” actually includes',
+                body: 'Request a plain-language explanation of the problems being investigated and how findings will become work. Indexing, navigation, redirects and the mobile inquiry journey may all matter, but the proposal should identify responsibilities. If the agency discovers an issue requiring development, will it implement the fix or send a recommendation to someone else? Clarify the boundary before signing. An audit has limited value when nobody is responsible for completing and checking the agreed changes.'
+            },
+            {
+                title: '4. Look for relevant evidence and its limits',
+                body: 'A roofing case study is useful when it explains the starting point, the work, the reporting window and the metric. Ask whether a number represents impressions, calls, qualified inquiries, booked estimates or customers. These stages should not be interchangeable. If revenue or advertising cost is missing, avoid inferring return on investment from a percentage. The strongest discussion makes room for uncertainty and explains which parts of the approach might transfer to your company.'
+            },
+            {
+                title: '5. Review local claims before they go live',
+                body: 'The business should approve service areas, qualifications, office details and project attribution. An agency should not invent a local office or turn a borrowed review into your own rating. Give it real project descriptions, approved photographs and accurate service information. Ask who reviews drafts and how corrections are handled. Useful local content comes from the business’s actual operations, not a promise to place every nearby town name on a separate page.'
+            },
+            {
+                title: '6. Agree what the monthly report needs to answer',
+                body: 'A useful review explains what was completed, what changed in relevant discovery and what happened to inquiries where that information is available. Separate branded searches from people discovering your services for the first time. Keep traffic measures distinct from booked work. Ask which records your sales team needs to supply, and decide who will review unsuitable inquiries. Without that feedback, it is difficult to know whether increased activity supports the jobs you want.'
+            },
+            {
+                title: '7. Compare the full scope and the handover',
+                body: 'Compare proposals on deliverables, content allowance, implementation, account access and review cadence. Ask what is excluded, how additional work is priced and what happens when the relationship ends. A lower monthly fee may cover a narrower service, while a larger fee still needs a clear explanation. Choose a scope your business can support with source material and follow-up. Wonderweb starts with a review of the site and offer before recommending its own deliverables.'
+            }
+        ],
+        checklist: [
+            'Name the priority roofing service and real coverage.',
+            'Ask for the first page and content decisions.',
+            'Separate reporting metrics from sales outcomes.',
+            'Confirm implementation, access and handover.',
+            'Review scope and exclusions in writing.'
+        ],
+        faqs: [
+            [
+                'Should I choose the agency promising the most keywords?',
+                'Keyword volume alone does not describe useful work. Ask which customer intents matter and which pages will address them. Several phrases can belong on one strong page.'
+            ],
+            [
+                'Can a roofing SEO agency guarantee first place?',
+                'No agency controls every factor in search rankings. Judge the proposed work, reporting and evidence rather than a guaranteed position.'
+            ],
+            [
+                'Is local SEO enough for a roofing company?',
+                'It depends on your site, offer and market. Business-profile work may support discovery, while service content, technical improvements and inquiry handling may need their own scope.'
+            ],
+            [
+                'How do I compare prices fairly?',
+                'Compare the content allowance, technical implementation, service areas, access, reporting and exclusions. A monthly number without those details is difficult to evaluate.'
+            ]
+        ],
+        sources: [
+            seoSource,
+            localSource
+        ]
+    },
+    {
+        slug: 'hvac-seo-planning-guide',
+        title: 'HVAC SEO: a practical plan for service pages and qualified inquiries',
+        seoTitle: 'HVAC SEO: Service Pages & Local Discovery',
+        category: 'SEO',
+        summary: 'Plan HVAC SEO around repair, replacement and maintenance intent. Learn how service pages, local information and inquiry tracking fit together.',
+        readTime: '6 min read',
+        updated: '2026-11-08',
+        related: [
+            'seo',
+            'local-seo',
+            'content-creation'
+        ],
+        sections: [
+            {
+                title: 'Separate urgent repair from planned replacement',
+                body: 'An HVAC business can serve several different buying journeys. Someone seeking a repair appointment needs clear service availability and a practical contact route. A customer comparing replacement options may need to understand the consultation, equipment discussion and estimate process. Maintenance introduces another set of questions. Map the offers your company actually provides before deciding how many pages to create. The objective is to make each important customer decision easier, rather than divide a keyword list mechanically.'
+            },
+            {
+                title: 'Give each priority service a useful page',
+                body: 'A service page should explain what the work involves, who it is for, where it is available and how to request the next step. Add the operational details your team can verify. If a quote requires an assessment, explain that instead of publishing a misleading universal price. Link to related guides where a topic needs a deeper answer. Keep the main service page focused enough that a visitor can understand the offer without reading an entire technical handbook.'
+            },
+            {
+                title: 'Use local information that the business can maintain',
+                body: 'Google describes local results in terms of relevance, distance and prominence. Accurate business information supports understanding, but an agency cannot remove the effect of a customer’s location. Confirm eligibility and details before changing a Business Profile. On the website, describe real service coverage and avoid implying branches that do not exist. Assign a reviewer for hours, contact information and availability so the information remains useful after the initial launch.'
+            },
+            {
+                title: 'Build a small supporting editorial plan',
+                body: 'Ask your team which questions arise before an appointment or estimate. Turn appropriate questions into guides that help a customer understand the process, prepare information or compare a service scope. These are editorial planning topics, not an invitation to publish unsafe repair instructions. Keep technical or safety-sensitive claims subject to qualified review. Each article should have a clear relationship with an actual service and a relevant next step for a reader who needs professional help.'
+            },
+            {
+                title: 'Check the website path before adding more content',
+                body: 'Open the priority page on a phone and follow the inquiry route yourself. Can a visitor tell which service is available, find the contact option and submit the needed details? Confirm where the submission arrives and how it is handled. The same practical review should consider broken links, outdated pages and changes to URLs. A new library of articles cannot compensate for a service page or form that prevents a suitable customer from making contact.'
+            },
+            {
+                title: 'Review discovery and lead quality separately',
+                body: 'Search impressions and clicks help explain discovery; they do not establish the value of the inquiry. Record the service requested, whether the address is in coverage and what happened after follow-up. Compare reporting periods with context about offer changes, available capacity and relevant seasonal differences supplied by the business. Use the review to choose the next improvement. It may be better wording or a clearer destination rather than another round of new pages.'
+            }
+        ],
+        checklist: [
+            'Map repair, replacement and maintenance journeys.',
+            'Approve service coverage and current availability.',
+            'Write one useful destination per important offer.',
+            'Connect supporting guides to relevant services.',
+            'Review inquiries alongside search activity.'
+        ],
+        faqs: [
+            [
+                'Does HVAC SEO require a separate page for every town?',
+                'No. Create a location page when accurate coverage, useful detail and customer intent justify it. Otherwise, improve the existing service or coverage explanation.'
+            ],
+            [
+                'Should every article target an immediate buyer?',
+                'No. Helpful supporting guides can answer earlier questions. They should still relate to your business and connect readers to an appropriate service when relevant.'
+            ],
+            [
+                'Can SEO replace customer follow-up?',
+                'No. Search work supports discovery. The team still needs to respond, qualify the request and record the next outcome.'
+            ],
+            [
+                'What should the first month focus on?',
+                'Agree the priorities after reviewing the existing website, account access and source material. A sensible first scope may combine technical fixes with one priority service-page improvement.'
+            ]
+        ],
+        sources: [
+            seoSource,
+            localSource
+        ]
+    },
+    {
+        slug: 'electrician-seo-checklist',
+        title: '9 electrician SEO checks for a more useful service website',
+        seoTitle: 'Electrician SEO: 9 Website Checks',
+        category: 'SEO',
+        summary: 'Review service pages, local information, project evidence and inquiry paths with this nine-point SEO checklist for electrical contractors.',
+        readTime: '6 min read',
+        updated: '2026-11-08',
+        related: [
+            'seo',
+            'local-seo',
+            'web-design'
+        ],
+        sections: [
+            {
+                title: '1–2. Define the offer and give it a clear destination',
+                body: 'List the electrical services the business wants to promote and identify who buys each one. Residential work, commercial projects and a specific installation offer may need different explanations. Then review whether each priority service has a useful destination on the site. A single page listing every possible job can make the company look broad while leaving a customer unsure about the work they need. Start with your actual offer rather than services copied from another contractor.'
+            },
+            {
+                title: '3. Explain the next step before asking for contact',
+                body: 'Tell the reader what happens after an inquiry. The business might arrange a conversation, request project information or schedule an assessment before quoting. Use the real process and avoid promising immediate attendance if availability varies. On mobile, the contact action should be easy to find and use. Ask your team what information helps route the request, then keep the form focused on those essentials instead of collecting details nobody needs at the first stage.'
+            },
+            {
+                title: '4. Keep coverage and business details accurate',
+                body: 'Review service areas, contact information and published hours together. The website should not imply that every service is offered everywhere. For an eligible Google Business Profile, use the business’s real details and approved operating information. Local discovery is influenced by factors including relevance and distance, so avoid treating a page title as a way to guarantee coverage in every search result. Accuracy makes the site more useful to a visitor deciding whether to call.'
+            },
+            {
+                title: '5–6. Show relevant projects and explain your contribution',
+                body: 'Use approved project material to show the kind of electrical work the business actually undertakes. Describe the brief and your contribution in accessible language. A photograph alone may leave readers guessing about the service it demonstrates. Keep customer identities and property details within the permissions granted. Only publish credentials, memberships and certifications that the business can verify. Genuine context is more valuable than a decorative claim that cannot be explained when a customer asks.'
+            },
+            {
+                title: '7. Answer customer questions without giving unsafe instructions',
+                body: 'Useful article topics can explain estimate preparation, the service process or how to describe a project to a professional. Avoid turning a marketing article into instructions for hazardous electrical work. Have appropriately qualified staff review technical claims before publication. For SEO planning, the key question is whether the article answers something a potential customer actually needs to know and whether it connects sensibly to a service your company provides.'
+            },
+            {
+                title: '8–9. Check the technical path and review real inquiries',
+                body: 'Confirm that important pages are reachable through links, existing URLs are handled when a redesign changes them, and forms work after edits. Then review search activity alongside inquiry records. A page gaining clicks may still attract the wrong project type or locations. Agree how to identify qualified requests and who records the follow-up. The combination of a clear service destination, reliable technical delivery and usable feedback gives the next content decision a stronger basis.'
+            }
+        ],
+        checklist: [
+            'Name the electrical services and buyer types.',
+            'Explain the real estimate or appointment process.',
+            'Confirm coverage and business details.',
+            'Use approved project and credential evidence.',
+            'Test contact paths and review inquiry quality.'
+        ],
+        faqs: [
+            [
+                'Can project pages help an electrician’s website?',
+                'They can help visitors understand relevant work when the brief and contribution are explained. Only use real, approved material and link it to the appropriate service.'
+            ],
+            [
+                'Should I publish DIY electrical tutorials for traffic?',
+                'Choose content that supports the customer safely. Questions about service scope and estimate preparation are often more appropriate than instructions for hazardous work.'
+            ],
+            [
+                'Is a faster website enough for better SEO?',
+                'Performance is one part of the experience. Useful content, clear service information, crawlable pages and a working inquiry path still matter.'
+            ],
+            [
+                'How should an electrician measure SEO progress?',
+                'Review relevant discovery and clicks, then separately review suitable inquiries, estimates and booked work where those records are available.'
+            ]
+        ],
+        sources: [
+            seoSource,
+            localSource
+        ]
+    },
+    {
+        slug: 'kitchen-remodeling-facebook-ads',
+        title: 'Facebook ads for kitchen remodeling: build a clearer campaign brief',
+        seoTitle: 'Facebook Ads for Kitchen Remodeling',
+        category: 'Paid advertising',
+        summary: 'Connect your kitchen remodeling offer, project imagery, landing page and follow-up before launching a Facebook or Instagram campaign.',
+        readTime: '6 min read',
+        updated: '2026-11-08',
+        related: [
+            'meta-ads',
+            'landing-page-design',
+            'graphic-design'
+        ],
+        sections: [
+            {
+                title: 'Define the project you want an inquiry about',
+                body: '“Kitchen remodeling” can describe very different scopes. Before drafting an ad, agree which projects the company wants to discuss, what it actually delivers and where it works. A complete renovation offer should not be confused with a smaller update. Explain any initial consultation process and the information needed before a quote. This brief gives creative, landing-page copy and sales follow-up the same starting point instead of asking each part of the campaign to invent its own offer.'
+            },
+            {
+                title: 'Choose imagery that makes the scope understandable',
+                body: 'Use project photographs the business is authorized to publish. Explain what changed and what the company contributed. A before-and-after pair can be useful, but it should represent the same project and avoid implying a result the business did not deliver. Select a clear focal point and readable supporting copy for the phone screen. Prepare a few distinct creative approaches based on the real offer rather than making many cosmetic variations of an unclear message.'
+            },
+            {
+                title: 'Match the landing destination to the advertisement',
+                body: 'A visitor interested in a kitchen project should reach information about that project type. A generic homepage may not explain the service or consultation in enough detail. The destination can show relevant work, describe the process and answer the questions that come before an inquiry. If an on-platform lead form is used, plan how the same context will be communicated during follow-up. The campaign should not promise one thing in the ad and require the sales team to correct it later.'
+            },
+            {
+                title: 'Ask enough to qualify the conversation',
+                body: 'Choose form questions the team will genuinely use. Service area, project type and a broad timeline may help route an inquiry, while a lengthy questionnaire can create unnecessary friction. Make clear what submitting the form means and how the business will respond. Do not describe a request as a confirmed appointment unless a real scheduling system reserves it. Review a sample of submissions with the person handling them to find missing context or questions that are not useful.'
+            },
+            {
+                title: 'Separate media, creative and management costs',
+                body: 'The advertising budget is only one part of the campaign. Management, production, landing-page work and the time spent following up have different roles. Ask for a written scope that identifies what is included and which assets the business supplies. Wonderweb’s standalone Meta management has a published starting scope, while final creative and landing-page allowances are agreed in the proposal. Use your own project economics to assess a test; a cost figure from another remodeler is not a forecast.'
+            },
+            {
+                title: 'Review the quality of the next conversation',
+                body: 'An inexpensive submission is not automatically a useful project opportunity. Track whether inquiries match the service area and scope, whether contact was made and what happened next. Review the creative and landing page alongside that feedback. If many people misunderstand the offer, refine the explanation before increasing the budget. If suitable inquiries are not receiving timely follow-up, address that handoff. The aim is a learning process that connects advertising activity with the business’s actual sales journey.'
+            }
+        ],
+        checklist: [
+            'Define the accepted project scope and coverage.',
+            'Confirm permission for every project image.',
+            'Match the ad and inquiry destination.',
+            'Agree qualification questions and response ownership.',
+            'Separate media and delivery costs.'
+        ],
+        faqs: [
+            [
+                'Should kitchen remodeling ads use a lead form or website page?',
+                'Choose based on the information the buyer needs and how the team follows up. A website page can provide more project context; an on-platform form still needs a clear offer and dependable handling.'
+            ],
+            [
+                'Do more leads always mean a better campaign?',
+                'No. Review project fit and follow-up outcomes alongside submission volume and cost.'
+            ],
+            [
+                'Can we advertise a fixed project price?',
+                'Only publish a price the business can support with clear scope and conditions. If the work requires an assessment, explain that process accurately.'
+            ],
+            [
+                'Can you guarantee a number of kitchen projects?',
+                'No. The campaign scope defines the work and measurement, not a guaranteed number of paying customers.'
+            ]
+        ]
+    },
+    {
+        slug: 'roofing-facebook-ads-guide',
+        title: 'Roofing Facebook ads: 6 decisions to make before launching',
+        seoTitle: 'Roofing Facebook Ads: A Planning Guide',
+        category: 'Paid advertising',
+        summary: 'Plan a roofing Meta campaign around a clear offer, approved project proof, suitable inquiries and the sales team’s ability to follow up.',
+        readTime: '6 min read',
+        updated: '2026-11-08',
+        related: [
+            'meta-ads',
+            'social-media-management',
+            'landing-page-design'
+        ],
+        sections: [
+            {
+                title: '1. Choose one roofing offer for the first test',
+                body: 'Start with the conversation you want the advertisement to generate. A replacement estimate, a repair inquiry and a maintenance discussion involve different needs. Define the work the company wants, the area it serves and any conditions the visitor needs to understand. An ad that tries to promote every service may make the next step unclear. A focused brief also makes it easier to decide whether the resulting inquiries match the original objective.'
+            },
+            {
+                title: '2. Use proof that belongs to the business',
+                body: 'Choose real project images with permission and explain the relevant scope. A finished roof photograph may be more useful when a caption describes the job type and the company’s role. Avoid unsupported savings, damage or insurance claims. Any credentials and guarantees need approval from the business. This is both a creative decision and a trust decision: the advertising should give the team a message it can confidently explain when someone calls.'
+            },
+            {
+                title: '3. Keep paid creative and organic posting connected',
+                body: 'Organic social posts can show the team, explain the process and provide project context. Paid creative needs a focused reason to respond to the offer. The two can share source material while serving different purposes. Build a small approved asset library so that campaigns and regular posts use consistent facts and visual standards. A project story can become several useful pieces of content without pretending that each variation represents a new project or result.'
+            },
+            {
+                title: '4. Decide what happens after the click',
+                body: 'The visitor may reach a landing page or a lead form. Either way, the next action should match the advertisement and explain what happens after submission. A roof-service inquiry should not become an unrelated sales pitch. If the business requires location and job details before arranging an estimate, make that process clear. Test the submission, the notification and the handoff before running the campaign, including what happens when required information is missing.'
+            },
+            {
+                title: '5. Give the sales team a simple qualification process',
+                body: 'Agree what makes an inquiry suitable and who will respond. Review job type, operating area and whether the request is a duplicate or an existing customer. Do not equate a contact detail with a booked estimate. Use a small set of consistent statuses so marketing and sales can discuss the same journey. The campaign can then be evaluated with context about whether the right people were reached and whether the next conversation actually happened.'
+            },
+            {
+                title: '6. Make the first review a decision, not a celebration',
+                body: 'Review the creative, offer, costs and inquiry feedback together. A large reach figure may be interesting, but it does not show how many suitable projects progressed. Compare changes against a defined baseline and note anything that changed in the business during the test. Decide whether to refine the message, improve the destination or expand the scope. Another company’s percentage increase should not determine your budget without your own costs, capacity and results.'
+            }
+        ],
+        checklist: [
+            'Pick a defined roofing offer.',
+            'Approve claims and project imagery.',
+            'Connect organic and paid content inputs.',
+            'Test the complete inquiry handoff.',
+            'Review qualification and estimates separately.'
+        ],
+        faqs: [
+            [
+                'Is a roofing Facebook campaign the same as posting regularly?',
+                'No. Paid campaigns require their own offer, budget and measurement plan. Organic posting can support credibility and supply useful project content.'
+            ],
+            [
+                'Should we copy another roofer’s successful advertisement?',
+                'Use references to understand presentation, but develop the message around your own offer and approved evidence. Another company’s claim or result may not apply to you.'
+            ],
+            [
+                'What counts as a useful lead?',
+                'Agree the definition with the business. It typically needs to reflect the accepted service, actual coverage and a real opportunity for follow-up rather than every submission.'
+            ],
+            [
+                'Can Meta ads replace the website?',
+                'Lead forms can be one contact route, but a website remains useful for explaining services and supporting evaluation. Choose the combination around the customer journey.'
+            ]
+        ]
+    },
+    {
+        slug: 'restoration-seo-agency-checklist',
+        title: 'Choosing a restoration SEO partner: a scope and evidence checklist',
+        seoTitle: 'Restoration SEO Agency Checklist',
+        category: 'SEO',
+        summary: 'Evaluate restoration SEO work by service intent, accurate availability, technical delivery and clear reporting rather than a list of ranking promises.',
+        readTime: '6 min read',
+        updated: '2026-11-08',
+        related: [
+            'seo',
+            'local-seo',
+            'website-management'
+        ],
+        sections: [
+            {
+                title: 'Distinguish the restoration services you actually provide',
+                body: 'Restoration businesses may offer several services with different buying journeys. The website should explain the work the team is qualified and prepared to deliver, instead of borrowing a broad service list from a competitor. Give a potential SEO partner the current offers, approved coverage and operational constraints. Ask how those facts will shape the page plan. A useful proposal begins with the business’s actual role and customers, not a preselected volume of articles.'
+            },
+            {
+                title: 'Check how urgent inquiries will be handled',
+                body: 'If the business accepts urgent requests, the published hours and response expectations must match the real operation. A prominent phone number is not enough when the call is not routed or answered as expected. Ask the agency to review the contact journey on mobile and clarify who is responsible for testing it. Avoid absolute response-time claims that the business cannot substantiate. For a customer under pressure, an accurate explanation is more useful than an inflated promise.'
+            },
+            {
+                title: 'Ask for a service-first content architecture',
+                body: 'A service page should explain scope, coverage and the next step. Supporting guides can help customers understand the process or prepare questions, but should not replace the service destination. Restoration topics can involve safety, insurance or technical details; those claims need review by an appropriate professional. An SEO supplier should explain how source material and approvals are handled. Large quantities of generic content can create review work without resolving the visitor’s actual uncertainty.'
+            },
+            {
+                title: 'Review the agency’s technical responsibilities',
+                body: 'Ask what happens after the audit identifies a problem. Content publishing, redirects, form changes and technical fixes may involve different people. The proposal should state which implementation work is included and which requires a separate developer or scope. Keep ownership of the domain and business accounts clear. A working relationship is easier to maintain when recommendations, approvals, implementation and verification have named responsibilities rather than being scattered across reports and emails.'
+            },
+            {
+                title: 'Evaluate case studies using the right measures',
+                body: 'A case study should identify the starting point, work and period, and distinguish traffic from qualified service requests. Ask whether reported calls were answered, whether inquiries matched coverage and whether a sales outcome was recorded. Do not treat an unsupported revenue claim as a substitute for those details. If the available evidence is limited, the agency should explain the limit. That makes it easier to decide which parts of the approach are relevant to your own situation.'
+            },
+            {
+                title: 'Choose an initial scope the team can support',
+                body: 'A practical first scope might improve the priority service destination, correct technical issues and establish a consistent review process. The exact work depends on the existing site and access. Agree how the business will supply factual details, approve copy and report inquiry quality. Compare proposals on deliverables and exclusions rather than the number of keywords. The next investment should follow a review of completed work and relevant outcomes, not an automatic expansion of every channel.'
+            }
+        ],
+        checklist: [
+            'Confirm the restoration services and coverage.',
+            'Approve availability and contact expectations.',
+            'Assign technical and factual reviewers.',
+            'Separate traffic, calls and qualified opportunities.',
+            'Compare implementation and handover terms.'
+        ],
+        faqs: [
+            [
+                'Should restoration pages claim round-the-clock service?',
+                'Only if the business actually provides it and the inquiry route supports that commitment. Published availability must reflect operations.'
+            ],
+            [
+                'Is every restoration article suitable for an agency writer?',
+                'No. Technical, safety or insurance-related claims need review by someone qualified to approve them.'
+            ],
+            [
+                'How many service-area pages should we create?',
+                'Use the business’s real coverage and available detail to decide. A distinct, useful destination matters more than a target page count.'
+            ],
+            [
+                'What does a good monthly report include?',
+                'It should explain completed work, relevant discovery, inquiry quality where available and the next decisions, with clear measurement periods.'
+            ]
+        ],
+        sources: [
+            seoSource,
+            localSource
+        ]
+    },
+    {
+        slug: 'auto-repair-website-planning-guide',
+        title: 'Auto repair website design: 8 things customers need before they book',
+        seoTitle: 'Auto Repair Website Design: 8 Essentials',
+        category: 'Websites',
+        summary: 'Plan an auto repair website around service clarity, genuine shop information, useful proof and a booking request your team can handle.',
+        readTime: '6 min read',
+        updated: '2026-11-08',
+        related: [
+            'web-design',
+            'web-development',
+            'website-management'
+        ],
+        sections: [
+            {
+                title: '1–2. Make the shop and its services easy to identify',
+                body: 'A visitor should quickly understand which business they are looking at and whether it handles the service they need. List the services the shop actually accepts and explain meaningful distinctions in plain language. Do not imply every vehicle or job type is supported unless the business can confirm it. A focused service page can explain the process and next step more clearly than a long homepage list that leaves a customer guessing about fit.'
+            },
+            {
+                title: '3. Give accurate location and contact information',
+                body: 'Use the shop’s real address where customers visit, current contact information and approved opening hours. If several locations operate differently, explain their details instead of routing everyone through a generic page. Check links and phone actions on a mobile device. Make it clear whether the contact option requests a booking, starts a conversation or reserves an actual slot. Customers should not mistake an unanswered form for a confirmed appointment.'
+            },
+            {
+                title: '4. Explain what happens before a quote',
+                body: 'Some requests require more information or an assessment before a responsible estimate can be given. Describe the shop’s process rather than implying a universal price for work that varies. Decide which details the team needs at the first stage and collect only those. Avoid turning the form into a technical quiz. The purpose is to help staff route the inquiry and arrange the next step, while setting an accurate expectation for the customer.'
+            },
+            {
+                title: '5–6. Show the real shop and relevant evidence',
+                body: 'Approved photographs of the shop, team and work can help visitors understand the business. Use images that represent the actual operation and avoid stock visuals that imply facilities or equipment the shop does not have. Publish verified qualifications and attributable feedback where permission allows. Explain the context of project examples rather than attaching unsupported outcomes. A smaller set of clear, authentic evidence can be more useful than an oversized gallery without captions.'
+            },
+            {
+                title: '7. Design the mobile booking request carefully',
+                body: 'Keep labels readable, controls easy to use and the confirmation message accurate. Explain whether staff will contact the customer to confirm availability. Test the notification as well as the visible form: the request must reach the right person with enough context to act. Provide a useful error message when submission fails. A reassuring success screen should only appear after the delivery system actually accepts the request.'
+            },
+            {
+                title: '8. Plan ongoing updates before launch',
+                body: 'Someone needs to maintain service availability, contact information, staff details and offers after the new site is finished. Agree what the shop can edit and what needs support. Preserve useful existing URLs or map redirects when changes are necessary. Review suitable booking requests and common customer questions to choose future improvements. A good website project includes a manageable way to keep the information accurate, rather than leaving the team with a polished site it cannot maintain.'
+            }
+        ],
+        checklist: [
+            'Approve services, vehicle coverage and shop details.',
+            'Explain estimates and appointment confirmation.',
+            'Use authentic imagery and verified claims.',
+            'Test phone links and complete form delivery.',
+            'Assign ownership for updates and URL changes.'
+        ],
+        faqs: [
+            [
+                'Do we need instant online booking?',
+                'Only if the scheduling system can accurately reserve availability. A preferred-time request with clear manual confirmation may be a better starting point.'
+            ],
+            [
+                'Should we put all services on one page?',
+                'An overview can introduce the offer, while important services may need their own explanation. Choose the structure around customer needs and available information.'
+            ],
+            [
+                'Can the site connect to our existing system?',
+                'The integration depends on the system’s supported interfaces and permissions. Review those before promising a connection or a delivery date.'
+            ],
+            [
+                'What should we measure after launch?',
+                'Track relevant inquiry actions and whether the shop receives suitable requests, then review the next business outcomes where records are available.'
+            ]
+        ]
+    },
+    {
+        slug: 'siding-marketing-agency-checklist',
+        title: 'Siding marketing: 7 questions to ask before hiring an agency',
+        seoTitle: 'Siding Marketing: 7 Agency Questions',
+        category: 'Marketing strategy',
+        summary: 'Compare siding marketing proposals by offer, project content, service area, channel choice and the quality of the estimate inquiries they aim to support.',
+        readTime: '6 min read',
+        updated: '2026-11-08',
+        related: [
+            'web-design',
+            'seo',
+            'google-ads',
+            'social-media-management'
+        ],
+        sections: [
+            {
+                title: '1. Which siding projects are we trying to win?',
+                body: 'Clarify whether the business wants replacement projects, repairs or another defined scope. Explain the work it accepts, the customers it serves and the operating area. An agency should understand those priorities before recommending channels. The resulting brief should help the team judge whether an inquiry is relevant. A generic promise of more leads can conceal disagreements about the type of project, budget or coverage the company actually wants.'
+            },
+            {
+                title: '2. What will the service page explain?',
+                body: 'A siding service page needs to help a buyer understand scope, process and the next step. Use the company’s approved descriptions of the work and explain where an assessment is necessary before quoting. Supporting product claims should be checked with the business and appropriate source material. Ask the agency which customer questions the existing site does not answer. The first improvement may be a clearer destination rather than a larger advertising campaign.'
+            },
+            {
+                title: '3. What project evidence can we publish?',
+                body: 'Prepare approved photographs and short project briefs explaining the company’s contribution. Distinguish a complete replacement from a smaller repair and avoid presenting unrelated images as one before-and-after sequence. Captions can connect visual work to the service a customer is considering. Agree client permissions and factual review before content production begins. That asset library can support the website and social posts without requiring the agency to invent project details.'
+            },
+            {
+                title: '4–5. How will coverage and channels fit together?',
+                body: 'Confirm the areas the team can reliably serve and how requests outside that area will be handled. Then ask why a particular channel is proposed. Search work can improve useful service destinations; paid search can test a focused offer; social content can explain projects and the company’s process. Each has different inputs and costs. The agency should explain the role of each channel instead of recommending the same bundle regardless of the website or sales situation.'
+            },
+            {
+                title: '6. How will we distinguish an inquiry from an estimate?',
+                body: 'Decide which stages can be recorded consistently. A form submission may become a qualified conversation, an estimate appointment and eventually accepted work. Those are separate events. Agree what information the sales team will return to the marketing review and how duplicates or unsuitable requests will be identified. The purpose is to learn whether the message reaches the right buyers, not simply to make a report’s total look larger.'
+            },
+            {
+                title: '7. What exactly are we buying each month?',
+                body: 'Ask for the content allowance, creative work, campaign responsibilities, technical implementation and reporting rhythm in writing. Identify media spend and third-party costs separately. Clarify account ownership, review rounds and the handover process if the scope changes or the relationship ends. Compare proposals on the work and decisions they support. A smaller initial scope can be sensible when source material is limited or the company is still refining the offer.'
+            }
+        ],
+        checklist: [
+            'Agree the preferred siding project and customer.',
+            'Review the service page before buying traffic.',
+            'Collect approved project evidence.',
+            'Confirm coverage and channel responsibilities.',
+            'Separate inquiries, estimates and booked work.'
+        ],
+        faqs: [
+            [
+                'Should I choose a specialist siding agency automatically?',
+                'Relevant experience can help, but still evaluate the actual proposal, evidence, implementation responsibilities and understanding of your business.'
+            ],
+            [
+                'Do I need both SEO and paid advertising?',
+                'Not necessarily at the same time. Choose priorities based on the site, offer, budget and readiness to handle inquiries.'
+            ],
+            [
+                'Are project photos enough for a strong landing page?',
+                'They help when approved and relevant, but visitors also need to understand the service, coverage and next step.'
+            ],
+            [
+                'Can a marketing agency guarantee booked siding jobs?',
+                'No. Marketing supports discovery and inquiries; project fit, pricing, follow-up and customer decisions also affect booked work.'
+            ]
+        ]
+    }
+];
+}),
+"[project]/src/lib/seo-pages.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "contentUpdated",
+    ()=>contentUpdated,
+    "getPublicSeoPages",
+    ()=>getPublicSeoPages,
+    "publicSeoPages",
+    ()=>publicSeoPages,
+    "seoByPath",
+    ()=>seoByPath,
+    "seoImagePath",
+    ()=>seoImagePath,
+    "seoPages",
+    ()=>seoPages
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$migrated$2d$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/migrated-content.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$editorial$2d$images$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/editorial-images.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/content.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$articles$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/articles.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$projects$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/projects.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$locations$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/locations.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$industry$2d$details$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/industry-details.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$service$2d$details$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/service-details.ts [app-rsc] (ecmascript)");
+;
+;
+;
+;
+;
+;
+;
+;
+const contentUpdated = '2026-11-07';
+const core = [
+    {
+        path: '/',
+        modified: '2026-11-11',
+        title: 'Web Design & Digital Marketing Agency',
+        description: 'A fully remote web design and digital marketing agency serving businesses worldwide. Websites, SEO, ads and social for the US, Canada, Australia and beyond.',
+        label: 'Home',
+        category: 'The studio',
+        type: 'WebPage',
+        images: [
+            '/art/wonder-blue-pink-grain.webp',
+            '/art/wonder-color-flow.webp',
+            '/art/wonder-citrus-flow.webp',
+            '/work/saikat.webp',
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$projects$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["campaignStories"].slice(0, 2).map((s)=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$editorial$2d$images$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["caseImage"])(s.slug).src),
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$projects$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["clientProjects"].slice(0, 6).map((p)=>p.image)
+        ]
+    },
+    {
+        path: '/about/',
+        modified: '2026-11-11',
+        title: 'About Wonderweb Studio',
+        description: 'Meet Wonderweb Studio, a fully remote agency serving the United States, Canada, Australia and businesses worldwide with websites, creative and marketing.',
+        label: 'About the studio',
+        category: 'The studio',
+        type: 'AboutPage',
+        images: [
+            '/work/saikat.webp'
+        ]
+    },
+    {
+        path: '/contact/',
+        modified: '2026-11-11',
+        title: 'Contact Wonderweb Studio',
+        description: 'Contact our remote team for websites, SEO, ads and social media. Serving the US, Canada, Australia and worldwide, with intro calls arranged in your time zone.',
+        label: 'Contact',
+        category: 'The studio',
+        type: 'ContactPage'
+    },
+    {
+        path: '/services/',
+        title: 'Web Design & Digital Marketing Services',
+        description: 'Explore website design, development, SEO, Google Ads, Meta campaigns, social media and creative services for small businesses worldwide.',
+        label: 'Services',
+        category: 'Services',
+        type: 'CollectionPage',
+        children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["services"].map((s)=>`/services/${s.slug}/`)
+    },
+    {
+        path: '/industries/',
+        title: 'Home Service & Small Business Marketing',
+        description: 'Explore digital marketing for roofing, HVAC, plumbing, electricians, remodelers and small businesses. Find a website and marketing plan for your industry.',
+        label: 'Industries',
+        category: 'Industries',
+        type: 'CollectionPage',
+        children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["industries"].map((i)=>`/industries/${i.slug}/`)
+    },
+    {
+        path: '/locations/',
+        title: 'Digital Marketing Locations',
+        description: 'Website design, SEO, paid advertising and social media support for US service markets. Explore our local marketing guides and remote studio approach.',
+        label: 'Locations',
+        category: 'Locations',
+        type: 'CollectionPage',
+        children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$locations$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["locations"].map((l)=>`/locations/${l.slug}/`)
+    },
+    {
+        path: '/pricing/',
+        modified: '2026-11-13',
+        title: 'Website & Digital Marketing Pricing',
+        description: 'Compare standalone services, monthly marketing and website projects from $4,500. Clear USD prices, scope, exclusions and twelve-payment website options.',
+        label: 'Pricing',
+        category: 'The studio',
+        type: 'WebPage',
+        entity: 'OfferCatalog',
+        images: [
+            '/art/wonder-color-flow.webp',
+            '/art/wonder-citrus-flow.webp'
+        ]
+    },
+    {
+        path: '/work/',
+        title: 'Website Design & Development Portfolio',
+        description: 'Explore client websites, e-commerce projects, web platforms and creative studies from Wonderweb Studio and our founder’s selected portfolio.',
+        label: 'Our work',
+        category: 'Portfolio',
+        type: 'CollectionPage',
+        children: [
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$projects$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["campaignStories"].map((s)=>`/results/${s.slug}/`),
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["work"].map((w)=>`/work/${w.slug}/`)
+        ],
+        images: [
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$projects$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["campaignStories"].map((s)=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$editorial$2d$images$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["caseImage"])(s.slug).src),
+            ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["work"].map((w)=>w.image)
+        ]
+    },
+    {
+        path: '/results/',
+        title: 'Digital Marketing Case Studies & Results',
+        description: 'Read selected roofing and bathroom remodeling campaign stories, including the approach, historical outcomes and measurement context.',
+        label: 'Campaign results',
+        category: 'Results',
+        type: 'CollectionPage',
+        children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$projects$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["campaignStories"].map((s)=>`/results/${s.slug}/`),
+        images: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$projects$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["campaignStories"].map((s)=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$editorial$2d$images$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["caseImage"])(s.slug).src)
+    },
+    {
+        path: '/resources/',
+        modified: '2026-11-13',
+        title: 'Small Business Marketing Blog & Guides',
+        description: 'Practical guides to website design, SEO budgets, Google Ads, social media content and ongoing website management for small and home-service businesses.',
+        label: 'Blog & guides',
+        category: 'Blog',
+        type: 'CollectionPage',
+        children: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$articles$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["articles"].map((a)=>`/resources/${a.slug}/`),
+        images: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$articles$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["articles"].map((a)=>__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$editorial$2d$images$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["editorialImages"][a.slug].src)
+    },
+    {
+        path: '/privacy-policy/',
+        modified: '2026-11-11',
+        title: 'Privacy Policy',
+        description: 'Learn how Wonderweb Studio handles inquiry details, optional analytics, embedded media and your privacy choices when you use this website.',
+        label: 'Privacy policy',
+        category: 'Policies',
+        type: 'WebPage'
+    },
+    {
+        path: '/terms/',
+        title: 'Website Terms',
+        description: 'Read Wonderweb Studio’s website terms, pricing context and project information. Service scope and payment terms are confirmed in a separate written proposal.',
+        label: 'Website terms',
+        category: 'Policies',
+        type: 'WebPage'
+    },
+    {
+        path: '/payments/',
+        title: 'Client Payments',
+        description: 'Payment information for approved Wonderweb Studio proposals and invoices. Contact the studio to confirm your scope and payment arrangements.',
+        label: 'Client payments',
+        category: 'Client information',
+        type: 'WebPage',
+        index: false
+    }
+];
+const shortService = (slug, title)=>slug === 'seo' ? 'SEO' : title;
+const articleTitles = {
+    'home-service-marketing-ideas': '9 Home Service Marketing Ideas',
+    'google-ads-cost-home-services': 'Google Ads Costs for Home Services',
+    'roofing-seo-cost': 'Roofing SEO Costs & Proposal Checklist',
+    'website-management-vs-maintenance': 'Website Management vs. Maintenance',
+    'social-media-content-calendar': 'Small Business Social Content Calendar',
+    'website-redesign-checklist': 'Business Website Redesign Checklist',
+    'google-ads-vs-meta-ads': 'Google Ads vs. Meta Ads for Small Business',
+    'small-business-website-trust-signals': '11 Small Business Website Trust Signals',
+    'social-media-post-ideas-small-business': '8 Social Media Post Ideas for Businesses',
+    'questions-before-hiring-marketing-agency': '9 Questions to Ask a Marketing Agency',
+    'website-conversion-checklist': 'Website Conversion Checklist'
+};
+const migrationLibraries = [
+    'resources',
+    'solutions'
+].flatMap((kind)=>Array.from({
+        length: Math.ceil(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$migrated$2d$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["migratedEntries"].filter((e)=>e.kind === kind).length / __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$migrated$2d$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["migrationPageSize"])
+    }, (_, i)=>({
+            path: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$migrated$2d$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["migrationLibraryPath"])(kind, i + 1),
+            title: `${kind === 'resources' ? 'Marketing Resource Library' : 'Industry Service Guides'}${i ? ` - Page ${i + 1}` : ''}`,
+            description: `Browse practical ${kind === 'resources' ? 'marketing resources' : 'industry service guides'} from Wonderweb Studio. Explore websites, search, advertising and content. Page ${i + 1}.`,
+            label: `${kind === 'resources' ? 'Resources' : 'Industry guides'} · ${i + 1}`,
+            category: 'Guide library',
+            type: 'CollectionPage',
+            modified: '2026-11-11'
+        })));
+const seoPages = [
+    ...core,
+    ...migrationLibraries,
+    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$migrated$2d$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["migratedEntries"].map((e)=>({
+            path: e.path,
+            title: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$migrated$2d$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["migrationSeoTitle"])(e),
+            description: e.summary,
+            label: e.title,
+            category: e.category,
+            type: 'WebPage',
+            entity: e.kind === 'resources' ? 'BlogPosting' : 'Article',
+            modified: e.updated > e.published.slice(0, 10) ? e.updated : e.published,
+            published: e.published,
+            availableAt: e.published,
+            images: []
+        })),
+    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["services"].map((s)=>({
+            modified: '2026-11-13',
+            path: `/services/${s.slug}/`,
+            title: `${shortService(s.slug, s.title)} Services`,
+            description: s.description,
+            label: s.title,
+            category: s.category,
+            type: 'WebPage',
+            entity: 'Service',
+            serviceType: s.title,
+            images: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$projects$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["clientProjects"].filter((p)=>p.slug === __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$service$2d$details$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["serviceDetails"][s.slug]?.project).map((p)=>p.image)
+        })),
+    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["industries"].map((i)=>({
+            path: `/industries/${i.slug}/`,
+            title: `${i.title} Marketing Agency`,
+            description: `Websites, SEO, ads and content for ${i.audience}. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.`,
+            label: i.title,
+            category: 'Industry marketing',
+            type: 'WebPage',
+            entity: 'Service',
+            serviceType: `${i.title} digital marketing`,
+            audience: i.audience
+        })),
+    ...Object.keys(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$industry$2d$details$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["industryDetails"]).flatMap((slug)=>[
+            'seo',
+            'web-design'
+        ].map((key)=>{
+            const i = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["industries"].find((i)=>i.slug === slug);
+            const s = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["services"].find((s)=>s.slug === key);
+            return {
+                path: `/industries/${slug}/${key}/`,
+                title: `${i.title} ${shortService(key, s.title)} Services`,
+                description: `${s.title} for ${i.audience}. Explore deliverables, our process and a focused plan for your website and inquiries with Wonderweb Studio.`,
+                label: s.title,
+                category: `${i.title} marketing`,
+                type: 'WebPage',
+                entity: 'Service',
+                serviceType: s.title,
+                audience: i.audience
+            };
+        })),
+    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$locations$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["locations"].map((l)=>({
+            modified: '2026-11-11',
+            path: `/locations/${l.slug}/`,
+            title: `${l.name} Web Design & Digital Marketing`,
+            description: `Web design, SEO, paid ads and social media for ${l.name} small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.`,
+            label: l.name,
+            category: 'Local marketing',
+            type: 'WebPage',
+            entity: 'Service',
+            serviceType: 'Web design and digital marketing',
+            area: {
+                name: l.name,
+                kind: l.kind === 'city' ? 'City' : 'State',
+                region: l.region
+            }
+        })),
+    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$locations$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["locationServices"].map((x)=>{
+        const l = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$locations$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["locations"].find((l)=>l.slug === x.location);
+        const s = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["services"].find((s)=>s.slug === x.service);
+        return {
+            modified: '2026-11-11',
+            path: `/locations/${x.location}/${x.service}/`,
+            title: `${l.name} ${shortService(s.slug, s.title)} Services`,
+            description: `${shortService(s.slug, s.title)} for ${l.name} businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.`,
+            label: s.title,
+            category: `${l.name} marketing`,
+            type: 'WebPage',
+            entity: 'Service',
+            serviceType: s.title,
+            area: {
+                name: l.name,
+                kind: 'City',
+                region: l.region
+            }
+        };
+    }),
+    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["work"].map((w)=>({
+            ...w.slug === 'dococlock' ? {
+                modified: '2026-11-11'
+            } : {},
+            path: `/work/${w.slug}/`,
+            title: `${w.label} - ${'challenge' in w ? 'Website Project' : 'Design Study'}`,
+            description: 'challenge' in w ? w.description : `Explore ${w.label.toLowerCase()} from Wonderweb Studio’s creative portfolio. See the visual direction and discuss a design brief for your business.`,
+            label: w.label,
+            category: w.category,
+            type: 'WebPage',
+            entity: 'CreativeWork',
+            images: [
+                w.image
+            ]
+        })),
+    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$articles$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["articles"].map((a)=>({
+            path: `/resources/${a.slug}/`,
+            title: a.seoTitle || articleTitles[a.slug] || a.title,
+            description: a.summary,
+            label: a.title,
+            category: a.category,
+            type: 'WebPage',
+            entity: 'BlogPosting',
+            modified: a.updated || contentUpdated,
+            ...a.published ? {
+                published: a.published
+            } : {},
+            images: [
+                __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$editorial$2d$images$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["editorialImages"][a.slug].src
+            ]
+        })),
+    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$projects$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["campaignStories"].map((s)=>({
+            modified: '2026-11-08',
+            path: `/results/${s.slug}/`,
+            title: ({
+                'roofing-local-search': 'Roofing SEO: 53 Booked Appointments',
+                'bathroom-paid-search-efficiency': 'Bathroom Ads: 43.66% Lower Cost per Lead',
+                'remodeling-lower-lead-cost': 'Remodeling Ads: 59.19% Lower Lead Costs',
+                'remodeling-search-two-year-results': 'Bathroom Marketing: Two-Year Lead Results'
+            })[s.slug],
+            description: s.description,
+            label: s.title,
+            category: 'Campaign case study',
+            type: 'WebPage',
+            entity: 'Article',
+            images: [
+                (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$editorial$2d$images$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["caseImage"])(s.slug).src
+            ]
+        }))
+];
+const seoByPath = new Map(seoPages.map((p)=>[
+        p.path,
+        p
+    ]));
+function getPublicSeoPages(now = new Date()) {
+    return seoPages.filter((p)=>p.index !== false && (!p.availableAt || (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$migrated$2d$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["isReleased"])({
+            published: p.availableAt
+        }, now)));
+}
+const publicSeoPages = getPublicSeoPages();
+const seoImagePath = (path)=>`/seo/${path === '/' ? 'home' : path.replace(/^\//, '').replace(/\/$/, '').replaceAll('/', '--')}.png`;
+}),
+"[project]/src/lib/seo.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "absoluteUrl",
+    ()=>absoluteUrl,
+    "metadata",
+    ()=>metadata
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$migrated$2d$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/migrated-content.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$content$2d$paths$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/content-paths.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/site.ts [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2d$pages$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/seo-pages.ts [app-rsc] (ecmascript)");
+;
+;
+;
+;
+const absoluteUrl = (path)=>new URL(path, `${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].url}/`).href;
+function metadata(title, description, path) {
+    const page = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2d$pages$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["seoByPath"].get(path);
+    const name = page?.title || title;
+    const summary = page?.description || description;
+    const image = {
+        url: absoluteUrl((0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$seo$2d$pages$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["seoImagePath"])(path)),
+        width: 1200,
+        height: 630,
+        type: 'image/png',
+        alt: `${page?.label || name} - Wonderweb Studio`
+    };
+    const canIndex = __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["indexable"] && page?.index !== false && (!page?.availableAt || (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$migrated$2d$content$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["isReleased"])({
+        published: page.availableAt
+    }));
+    return {
+        title: {
+            absolute: `${name} | ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].name}`
+        },
+        description: summary,
+        category: page?.category,
+        ...page?.entity === 'BlogPosting' || page?.entity === 'Article' ? {
+            authors: [
+                {
+                    name: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].name,
+                    url: absoluteUrl('/about/')
+                }
+            ]
+        } : {},
+        alternates: {
+            canonical: absoluteUrl(path),
+            ...page && page.index !== false ? {
+                types: {
+                    'text/markdown': absoluteUrl((0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$content$2d$paths$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["markdownPath"])(path))
+                }
+            } : {}
+        },
+        robots: {
+            index: canIndex,
+            follow: canIndex,
+            googleBot: {
+                index: canIndex,
+                follow: canIndex,
+                'max-image-preview': 'large',
+                'max-snippet': -1,
+                'max-video-preview': -1
+            }
+        },
+        openGraph: {
+            title: `${name} | ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].name}`,
+            description: summary,
+            url: absoluteUrl(path),
+            siteName: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].name,
+            locale: 'en_US',
+            type: page?.entity === 'BlogPosting' || page?.entity === 'Article' ? 'article' : 'website',
+            ...page?.modified ? {
+                modifiedTime: page.modified
+            } : {},
+            ...page?.published ? {
+                publishedTime: page.published
+            } : {},
+            images: [
+                image
+            ]
+        },
+        twitter: {
+            card: 'summary_large_image',
+            title: `${name} | ${__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$site$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["site"].name}`,
+            description: summary,
+            images: [
+                {
+                    url: image.url,
+                    alt: image.alt
+                }
+            ]
+        }
+    };
+}
+}),
+"[project]/src/lib/service-details.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "serviceDetails",
+    ()=>serviceDetails
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$expanded$2d$services$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/expanded-services.json.[json].cjs [app-rsc] (ecmascript)");
+;
+const serviceDetails = {
+    ...Object.fromEntries(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$expanded$2d$services$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"].map((s)=>[
+            s.slug,
+            s.detail
+        ])),
+    'web-design': {
+        tone: 'lilac',
+        visual: 'web',
+        label: 'Your next first impression',
+        caption: 'A deliberate journey from homepage to hello.',
+        tiles: [
+            'Your story',
+            'Your work',
+            'Their next step'
+        ],
+        fit: 'Your business has moved forward but your website still tells an old story. You may have new services, better projects or a stronger offer that visitors never see. A redesign brings those pieces into a clear customer journey, with a visual direction that belongs to your business.',
+        outcome: 'An approved design system and a responsive website, with the page types, content responsibilities and launch requirements agreed before production. We can work from an existing brand or scope a new visual direction alongside the site.',
+        steps: [
+            [
+                'Discover the decision',
+                'We review the current site, speak about your best-fit customers and map the questions that come before an inquiry. Existing search traffic and useful pages inform what we retain. The output is a page plan and a short list of design priorities.'
+            ],
+            [
+                'Design the experience',
+                'We establish typography, colors, imagery and key layouts, then apply them to service, project and conversion pages. Feedback happens at defined milestones so the homepage and inner pages develop together. Mobile layouts receive their own review.'
+            ],
+            [
+                'Build, review and launch',
+                'Approved designs move into development. We review real content, test navigation and forms, check important URLs and agree the launch sequence. Your team receives the access and editing guidance included in the proposal.'
+            ]
+        ],
+        checks: [
+            [
+                'Content before decoration',
+                'Each section answers a buyer question. We decide where projects, FAQs, pricing context and inquiry options make the page more useful.'
+            ],
+            [
+                'A practical handoff',
+                'We identify what you can edit, who owns hosting and how future changes are requested. Ongoing care is available separately.'
+            ]
+        ],
+        inputs: [
+            'Brand files and approved photography',
+            'Existing site access and important URLs',
+            'Service details and genuine project examples',
+            'One person responsible for consolidated feedback'
+        ],
+        metrics: [
+            'Successful inquiry journeys',
+            'Mobile usability',
+            'Relevant page engagement',
+            'Technical launch checks'
+        ],
+        faq: [
+            [
+                'How many pages are included?',
+                'The page inventory is agreed in the proposal. A brochure site, a multi-service site and a large content migration need different scopes; we do not hide an unlimited-page promise in a fixed price.'
+            ],
+            [
+                'Will my current rankings survive a redesign?',
+                'We review indexed URLs, important content and redirects to reduce migration risk. Rankings can change after a redesign, so we monitor indexing and traffic after launch rather than guarantee a position.'
+            ]
+        ],
+        project: 'allsafe-electric'
+    },
+    'web-development': {
+        tone: 'blue',
+        visual: 'web',
+        label: 'Built to work beautifully',
+        caption: 'Content, interfaces and integrations. Connected.',
+        tiles: [
+            'Components',
+            'Content',
+            'Connections'
+        ],
+        fit: 'You have a design or an operational requirement that a basic template cannot handle cleanly. Perhaps your team needs a better publishing workflow, your inquiry form must connect to another system, or an existing site is becoming difficult to maintain.',
+        outcome: 'A working implementation with documented content structures, approved integrations and deployment responsibilities. The build is scoped around the jobs your website needs to do, with maintainability considered alongside the first launch.',
+        steps: [
+            [
+                'Specify the system',
+                'We list page types, editable fields, user journeys and integration requirements. We check external systems before promising a connection and agree who supplies account access, content and approvals. This creates a build specification the team can review.'
+            ],
+            [
+                'Develop in reviewable stages',
+                'Reusable components and structured content make the site consistent. We connect approved APIs on the server where appropriate, handle loading and failure states, and provide preview milestones so you can review functionality before release.'
+            ],
+            [
+                'Test the complete journey',
+                'A working button is only one part of a working system. We test form validation, delivery responses, important links, permissions and responsive behavior. Deployment notes explain required configuration and ongoing ownership.'
+            ]
+        ],
+        checks: [
+            [
+                'Choose an editor deliberately',
+                'A custom build can use a CMS or structured source content. We agree how nontechnical editors will publish before selecting the implementation.'
+            ],
+            [
+                'Plan for failure as well as success',
+                'Integrations can time out or reject requests. Clear feedback and documented recovery steps help your team handle those situations.'
+            ]
+        ],
+        inputs: [
+            'Approved designs or design scope',
+            'Required CMS and integration details',
+            'Hosting and account ownership information',
+            'Sample content and acceptance criteria'
+        ],
+        metrics: [
+            'End-to-end workflow completion',
+            'Page performance',
+            'Accessibility checks',
+            'Maintainability and handoff'
+        ],
+        faq: [
+            [
+                'Can you build a custom tool inside my website?',
+                'Yes, after defining inputs, outputs, permissions and data handling. Calculators, portals and custom workflows are estimated separately from standard marketing pages.'
+            ],
+            [
+                'Who owns the code?',
+                'Ownership, licensed dependencies and handoff access are specified in the agreement. We make these responsibilities clear before development starts.'
+            ]
+        ],
+        project: 'workiz'
+    },
+    'website-management': {
+        tone: 'mint',
+        visual: 'workflow',
+        label: 'A website that keeps up',
+        caption: 'Requests become reviewed, published improvements.',
+        tiles: [
+            'Requested',
+            'In review',
+            'Published'
+        ],
+        fit: 'Your site is live, but small changes are accumulating. Offers are outdated, team details need updating or nobody has clear responsibility for routine checks. Management gives those tasks a defined process instead of an uncertain collection of favors.',
+        outcome: 'An agreed monthly work allowance, a request queue and a record of completed changes. Maintenance responsibilities depend on your platform and hosting; your plan identifies routine work, larger projects and how urgent issues are escalated.',
+        steps: [
+            [
+                'Audit the starting point',
+                'We inventory the platform, hosting, access, forms and priority pages. Existing issues are separated from new requests, and we agree on a sensible first queue. Larger repairs are estimated before they consume a monthly editing allowance.'
+            ],
+            [
+                'Review and ship updates',
+                'Requests include the source text, imagery and desired outcome. We clarify missing details, preview meaningful changes and publish after the agreed review. This makes ongoing website work easier to track and approve.'
+            ],
+            [
+                'Check and prioritize again',
+                'We review completed work and the next priorities. Search or inquiry data can suggest an update, but business changes also matter: new services, discontinued offers and revised coverage should be reflected promptly.'
+            ]
+        ],
+        checks: [
+            [
+                'Know the maintenance boundary',
+                'Content management, software updates, backups and hosting support are different responsibilities. The proposal states which party handles each.'
+            ],
+            [
+                'Keep a useful change history',
+                'Documenting what changed helps explain later issues and avoids repeating work. Significant URL changes receive a redirect review.'
+            ]
+        ],
+        inputs: [
+            'Website and hosting access',
+            'A prioritized request list',
+            'Approved replacement content',
+            'An escalation contact'
+        ],
+        metrics: [
+            'Completed requests',
+            'Form and link health',
+            'Content freshness',
+            'Outstanding issues'
+        ],
+        faq: [
+            [
+                'Is support available around the clock?',
+                'Response windows and escalation arrangements are set in the agreement. Standard website management is not an implied 24/7 incident response service.'
+            ],
+            [
+                'Are redesigns part of monthly management?',
+                'Routine updates use the agreed allowance. A new design system, complex integration or substantial rebuild is scoped separately.'
+            ]
+        ]
+    },
+    'seo': {
+        tone: 'lime',
+        visual: 'search',
+        label: 'Help the right people find you',
+        caption: 'Useful pages. Clear structure. Measurable learning.',
+        tiles: [
+            'Search intent',
+            'Useful content',
+            'Qualified visits'
+        ],
+        fit: 'You want more visibility for the services you actually sell, but your content is thin, scattered or technically hard to discover. SEO connects search demand with pages that answer a real question and help a relevant visitor take the next step.',
+        outcome: 'A prioritized technical and content roadmap, followed by the agreed implementation and reporting. We connect each topic to a primary page so content grows coherently rather than becoming a collection of overlapping keyword pages.',
+        steps: [
+            [
+                'Establish the baseline',
+                'We review Search Console, analytics, important landing pages and indexing signals where access is available. We distinguish brand searches from service discovery and identify technical exclusions, content gaps and competing pages within your own site.'
+            ],
+            [
+                'Improve the pages that matter',
+                'We prioritize pages by relevance, business value and the work required. Changes may include better service explanations, original project evidence, metadata, internal links or technical fixes. New content receives a clear brief and a defined place in the site.'
+            ],
+            [
+                'Learn from search and sales',
+                'We compare appropriate periods and inspect which queries and pages attract relevant visitors. Your team helps identify qualified inquiries and booked work. That feedback guides the next content cycle instead of treating every visit as equal.'
+            ]
+        ],
+        checks: [
+            [
+                'Depth with a purpose',
+                'Useful FAQs, examples and comparisons can help a visitor decide. Adding text just to reach a word count does not make a page useful.'
+            ],
+            [
+                'Keep the site understandable',
+                'Titles, headings, internal links and canonicals help organize content. Technical checks support the content; they do not replace it.'
+            ]
+        ],
+        inputs: [
+            'Search Console and analytics access',
+            'Priority services and target markets',
+            'Subject expertise and real project evidence',
+            'Access to implement approved changes'
+        ],
+        metrics: [
+            'Relevant non-brand search clicks',
+            'Indexing of priority pages',
+            'Qualified organic inquiries',
+            'Service-page engagement'
+        ],
+        faq: [
+            [
+                'How long does SEO take?',
+                'Timing depends on the starting site, competition, implementation and search demand. We set review milestones and report work and evidence; a fixed ranking or traffic result is not guaranteed.'
+            ],
+            [
+                'Does every keyword need its own page?',
+                'No. Closely related phrases usually belong on one useful page. Separate pages are justified when the audience, offer or question is meaningfully different.'
+            ]
+        ]
+    },
+    'local-seo': {
+        tone: 'orange',
+        visual: 'search',
+        label: 'Relevant to your service area',
+        caption: 'Connect the business, its services and real coverage.',
+        tiles: [
+            'Your business',
+            'Your area',
+            'Your customers'
+        ],
+        fit: 'Your business depends on customers in a defined area. You need the website and business listings to explain where you work, what you do and how to contact you, without attracting inquiries your team cannot fulfill.',
+        outcome: 'A local visibility plan covering eligible business-profile improvements, website information and useful service-area content. We work with the business facts you can substantiate and keep profile responsibilities clear.',
+        steps: [
+            [
+                'Map real coverage',
+                'We discuss service boundaries, locations, priority jobs and travel constraints. The website plan distinguishes genuine offices from areas served remotely or by mobile teams. That distinction is also important when reviewing business listings.'
+            ],
+            [
+                'Connect profiles and pages',
+                'We review business details, relevant services, contact routes and existing profile access. Website pages explain the actual offer and service process. Location content uses real operational detail instead of replacing a city name in an otherwise identical page.'
+            ],
+            [
+                'Review local inquiry quality',
+                'We look at relevant search activity and the locations behind suitable inquiries. Your feedback helps identify wasted coverage and promising service areas. Changes to hours, services and business details are maintained through an agreed process.'
+            ]
+        ],
+        checks: [
+            [
+                'Accuracy comes first',
+                'Do not create an address or office to appear closer to a customer. Local information should match how the business actually operates.'
+            ],
+            [
+                'Build real local evidence',
+                'Approved projects, service-area explanations and genuine customer feedback are more useful than repetitive city lists.'
+            ]
+        ],
+        inputs: [
+            'Business-profile access where eligible',
+            'Actual address and service-area details',
+            'Accurate hours and contact information',
+            'Approved local project examples'
+        ],
+        metrics: [
+            'Relevant local search discovery',
+            'Profile interactions in context',
+            'Service-area inquiry quality',
+            'Consistency of business information'
+        ],
+        faq: [
+            [
+                'Can you guarantee the map pack?',
+                'No. Local visibility depends on several factors outside an agency’s control. We improve eligible information and relevant content and report what changes.'
+            ],
+            [
+                'Can a service-area business use local SEO?',
+                'Yes. We plan around its real operating model and applicable platform eligibility, without inventing a storefront.'
+            ]
+        ]
+    },
+    'google-ads': {
+        tone: 'blue',
+        visual: 'campaign',
+        label: 'From search to a useful inquiry',
+        caption: 'The query, the ad and the landing page should agree.',
+        tiles: [
+            'Intent',
+            'Offer',
+            'Inquiry'
+        ],
+        fit: 'You want to reach people actively looking for your service. Your existing account may be spending without clear lead quality, or you may need a controlled first campaign with a defined market and budget.',
+        outcome: 'A scoped search campaign, relevant landing-page recommendations and measurement of agreed conversion actions. Media spend is paid separately from management; your proposal identifies accounts, geography and campaign responsibilities.',
+        steps: [
+            [
+                'Define a valuable conversion',
+                'We agree what counts as an inquiry and how the team will judge its quality. We review the landing page, target locations and offer before allocating budget. Calls, forms and booked jobs are distinct measures, not interchangeable results.'
+            ],
+            [
+                'Launch with focused intent',
+                'Campaign structure connects related searches, messages and destinations. We review geographic settings, search terms and exclusions as data becomes available. A clear first scope makes it easier to learn where spend is useful.'
+            ],
+            [
+                'Optimize with sales feedback',
+                'We examine costs, relevant search terms and qualified opportunities together. Changes can involve budgets, targeting, ads or the page itself. We document the reason for a change and review its effect rather than presenting activity as performance.'
+            ]
+        ],
+        checks: [
+            [
+                'The page is part of the campaign',
+                'A relevant ad cannot resolve an unclear offer or broken form. We inspect the complete inquiry route before treating tracking as ready.'
+            ],
+            [
+                'Capacity shapes the budget',
+                'Campaign priorities should reflect your service area and ability to respond. More leads are not useful if the business cannot handle them.'
+            ]
+        ],
+        inputs: [
+            'Google Ads account access',
+            'Approved offer and geographic coverage',
+            'Media budget separate from fees',
+            'Conversion setup and sales feedback'
+        ],
+        metrics: [
+            'Qualified inquiries',
+            'Cost per qualified inquiry',
+            'Relevant search terms',
+            'Conversion delivery health'
+        ],
+        faq: [
+            [
+                'Is ad spend included in your fee?',
+                'No. Advertising spend is separate and paid to the platform. Your proposal identifies the monthly management scope and any landing-page work.'
+            ],
+            [
+                'Will every click become a lead?',
+                'No. We improve targeting and the landing experience, but conversion depends on the offer, demand, competition and follow-up.'
+            ]
+        ],
+        project: 'allsafe-electric'
+    },
+    'meta-ads': {
+        tone: 'pink',
+        visual: 'campaign',
+        label: 'Creative that starts a conversation',
+        caption: 'A useful offer meets a thoughtful creative test.',
+        tiles: [
+            'Creative',
+            'Audience',
+            'Follow-up'
+        ],
+        fit: 'Your offer benefits from being seen before someone searches for it. You need Facebook and Instagram campaigns with clear creative, a relevant destination and a practical follow-up process for the inquiries they generate.',
+        outcome: 'A defined campaign plan with creative concepts, approved targeting and a measurement approach. The scope identifies whether we use website forms, native lead forms or another approved journey, plus who handles each follow-up.',
+        steps: [
+            [
+                'Shape the offer',
+                'We discuss the audience, the service and the reason to act. Supporting claims and project imagery need to be genuine. The brief sets the creative direction and explains what a suitable prospect should understand before inquiring.'
+            ],
+            [
+                'Test deliberate variations',
+                'We develop agreed variations in imagery, opening message or offer presentation. Each variation has a reason to exist. Results are evaluated with enough context to avoid mistaking a small short-term fluctuation for a reliable winner.'
+            ],
+            [
+                'Connect leads to outcomes',
+                'We review delivery, response quality and feedback from the sales team. Cheap submissions are not necessarily valuable opportunities. Campaign and landing-page decisions reflect the people you can actually serve.'
+            ]
+        ],
+        checks: [
+            [
+                'Organic and paid have different jobs',
+                'Managing posts is separate from managing paid campaigns. The proposal explains how the two work together and which deliverables are included.'
+            ],
+            [
+                'Follow-up is part of the design',
+                'We agree where leads go and who responds. A good campaign needs a clear operational handoff.'
+            ]
+        ],
+        inputs: [
+            'Business and advertising account access',
+            'Approved creative and offer details',
+            'A separate media budget',
+            'A working lead response process'
+        ],
+        metrics: [
+            'Qualified submissions',
+            'Creative response in context',
+            'Cost per suitable opportunity',
+            'Follow-up completion'
+        ],
+        faq: [
+            [
+                'Does this include daily social posting?',
+                'Organic publishing is a separate service unless your package explicitly combines it with paid advertising.'
+            ],
+            [
+                'Can you run campaigns without a new website?',
+                'Sometimes. We review the current destination or native form route first. Any required landing-page work is identified before launch.'
+            ]
+        ]
+    },
+    'social-media-management': {
+        tone: 'pink',
+        visual: 'social',
+        label: 'Show up with something to say',
+        caption: 'A consistent presence, grounded in your actual business.',
+        tiles: [
+            'Make it useful',
+            'Make it yours',
+            'Keep it consistent'
+        ],
+        fit: 'You have good work and useful expertise but little time to turn them into a coherent social presence. Your channels may be irregular, disconnected from the website or full of posts that do not explain what your business does.',
+        outcome: 'A scoped content calendar, approved post production and publishing across the agreed profiles. We define formats, review deadlines and whether community replies are included so your team knows what happens each month.',
+        steps: [
+            [
+                'Find your content pillars',
+                'We build themes around customer questions, project work, the people behind the business and useful service explanations. Your existing posts and brand materials help identify a direction. We agree what each channel is supposed to contribute.'
+            ],
+            [
+                'Create and approve in batches',
+                'Posts are planned as a sequence rather than isolated last-minute requests. Copy, graphics and format choices suit the platform. Your team checks business facts and time-sensitive offers before scheduled publication.'
+            ],
+            [
+                'Connect engagement to visits',
+                'We use sensible destinations and campaign tags where appropriate, then review profile activity, relevant engagement and website referrals. A popular post can inform the next idea, but follower counts alone do not establish business impact.'
+            ]
+        ],
+        checks: [
+            [
+                'Use the same story across channels',
+                'A social post should connect with the service page or resource it introduces. That helps visitors continue the journey after clicking.'
+            ],
+            [
+                'Build a reusable asset library',
+                'Approved project photos, short answers and brand elements make future content easier to produce without repeating the same post.'
+            ]
+        ],
+        inputs: [
+            'Access to the agreed social profiles',
+            'Project photos and business updates',
+            'Brand voice and offer information',
+            'An approval contact and review schedule'
+        ],
+        metrics: [
+            'Relevant engagement',
+            'Profile visits',
+            'Tagged website referrals',
+            'Assisted inquiries where measurable'
+        ],
+        faq: [
+            [
+                'Which platforms can you manage?',
+                'We scope the profiles around your audience and available content, including Facebook, Instagram and Pinterest where appropriate. Each platform needs suitable formats and goals.'
+            ],
+            [
+                'Can you promise 3× or 5× growth?',
+                'No. Any illustrative growth chart is an example, not a forecast. Actual performance depends on the starting audience, content, platform distribution and the business offer.'
+            ]
+        ],
+        project: 'crafted-look'
+    },
+    'content-creation': {
+        tone: 'orange',
+        visual: 'creative',
+        label: 'Your expertise, made useful',
+        caption: 'One strong idea. The right format for each audience.',
+        tiles: [
+            'The question',
+            'The story',
+            'The next step'
+        ],
+        fit: 'Your team knows its subject, but turning that expertise into clear pages, articles and social content is difficult. You need writing and creative that explain the offer accurately and answer questions customers really ask.',
+        outcome: 'A set of approved briefs and finished content deliverables in the agreed formats. We identify research, subject review and asset needs early so the work has a reliable factual foundation.',
+        steps: [
+            [
+                'Gather the source material',
+                'We review customer questions, existing pages, project notes and your team’s expertise. A content brief records the audience, purpose, evidence and destination. Gaps that require your input are surfaced before a draft becomes a polished assumption.'
+            ],
+            [
+                'Build the narrative',
+                'We structure the information around what the reader needs to understand next. Examples, comparisons and FAQs are included when they clarify the topic. Search language informs the work without forcing the same phrase into every heading.'
+            ],
+            [
+                'Review and adapt',
+                'Your team reviews business facts, and we refine clarity and structure. An approved article can inspire a carousel or short post, but each adaptation needs the right length, framing and next step for its channel.'
+            ]
+        ],
+        checks: [
+            [
+                'Claims need a source',
+                'Client results, pricing and technical statements should be supported. A compelling story does not require invented evidence.'
+            ],
+            [
+                'Give every asset a destination',
+                'Content should sit within a useful page structure or campaign. We identify related resources and relevant links during the brief.'
+            ]
+        ],
+        inputs: [
+            'Subject expertise and source material',
+            'Brand voice and customer questions',
+            'Approved images or creative scope',
+            'Business-fact review'
+        ],
+        metrics: [
+            'Delivery against the brief',
+            'Useful engagement',
+            'Relevant search discovery',
+            'Content-assisted inquiries'
+        ],
+        faq: [
+            [
+                'Do you use AI in content production?',
+                'Tools may support research organization and drafting, but content still needs original business detail, editing and factual review. We do not publish unsupported results or unreviewed technical advice.'
+            ],
+            [
+                'Can you write service pages and articles?',
+                'Yes. We scope page copy, educational articles, social copy and creative adaptations according to the work needed.'
+            ]
+        ]
+    },
+    'content-management': {
+        tone: 'mint',
+        visual: 'workflow',
+        label: 'From draft to done',
+        caption: 'A publishing process your team can follow.',
+        tiles: [
+            'Brief',
+            'Review',
+            'Publish'
+        ],
+        fit: 'Your business already produces content, but drafts get stuck, formats drift and old pages become inaccurate. You need a dependable editorial process that makes ownership, deadlines and the next action visible.',
+        outcome: 'An organized publishing calendar and a defined workflow for review, formatting and maintenance. New content creation can be combined with management, but the responsibilities and volume are itemized.',
+        steps: [
+            [
+                'Organize the library',
+                'We inventory priority content and identify who owns each type. We note missing approvals, outdated offers and overlapping pages. This creates a practical publishing queue instead of assuming that every old article needs a rewrite.'
+            ],
+            [
+                'Prepare each release',
+                'Approved content is formatted for its destination, with headings, images, metadata and relevant links checked. We confirm the page is reachable from the appropriate hub and that its intended next step works.'
+            ],
+            [
+                'Maintain and improve',
+                'We schedule updates for content that changes and review the library for gaps. When pages overlap, we recommend a considered consolidation or redirect rather than deleting useful URLs without a plan.'
+            ]
+        ],
+        checks: [
+            [
+                'One accountable review path',
+                'A named business reviewer helps avoid conflicting edits. We agree how feedback is collected and when publication is authorized.'
+            ],
+            [
+                'Freshness has a purpose',
+                'Updating a date is not the same as updating an article. We focus on factual changes and genuinely useful improvements.'
+            ]
+        ],
+        inputs: [
+            'CMS access and publishing permissions',
+            'Existing drafts and editorial calendar',
+            'Content owners and reviewers',
+            'Brand and formatting guidance'
+        ],
+        metrics: [
+            'Publishing reliability',
+            'Review turnaround',
+            'Broken or outdated content',
+            'Library coverage'
+        ],
+        faq: [
+            [
+                'Does this include writing new articles?',
+                'Only when content production is included in the scope. Publishing and maintaining supplied content can also be a standalone service.'
+            ],
+            [
+                'Can you work in my current CMS?',
+                'We review its permissions, templates and publishing workflow first. Any platform work needed to support the process is scoped separately.'
+            ]
+        ]
+    },
+    'graphic-design': {
+        tone: 'lime',
+        visual: 'creative',
+        label: 'Make your brand feel like itself',
+        caption: 'A visual language that travels across channels.',
+        tiles: [
+            'Identity',
+            'Campaign',
+            'Consistency'
+        ],
+        fit: 'Your website, posts and campaign assets look as though they come from different businesses. You need a coherent visual direction and practical graphics that stay recognizable across formats and sizes.',
+        outcome: 'Approved concepts and production-ready assets in the formats defined by the brief. The proposal states whether editable files, reusable templates or brand guidelines are included, along with revision milestones.',
+        steps: [
+            [
+                'Establish the direction',
+                'We review the brand, audience and intended use. References help clarify taste, but the final direction should fit your business. The brief records message hierarchy, dimensions and the action the asset supports.'
+            ],
+            [
+                'Develop the system',
+                'We explore composition, type, color and imagery, then refine a chosen direction. A campaign set should feel related across placements while respecting the different reading distances and available space.'
+            ],
+            [
+                'Prepare the handoff',
+                'Exports are organized for their destinations and named clearly. Where agreed, templates and usage notes make future production more consistent. Licensed assets and editable-file requirements are resolved before delivery.'
+            ]
+        ],
+        checks: [
+            [
+                'Design at the real viewing size',
+                'A desktop mockup can hide unreadable social text. We review graphics at the size and context in which people will encounter them.'
+            ],
+            [
+                'Keep the message central',
+                'Decoration should support the offer or idea. The viewer should understand the important point without deciphering a crowded layout.'
+            ]
+        ],
+        inputs: [
+            'Logo and existing brand assets',
+            'The message and audience',
+            'Required dimensions and channels',
+            'Examples of preferred visual direction'
+        ],
+        metrics: [
+            'Brand consistency',
+            'Readability at placement size',
+            'Asset readiness',
+            'Campaign learning when available'
+        ],
+        faq: [
+            [
+                'Can you create reusable social templates?',
+                'Yes. We define the editing tool, template types and handoff instructions as part of the scope.'
+            ],
+            [
+                'Are stock images and fonts included?',
+                'Licensing needs vary. Any third-party asset costs and usage restrictions are identified in the proposal.'
+            ]
+        ],
+        project: 'crafted-look'
+    },
+    'thumbnail-design': {
+        tone: 'orange',
+        visual: 'creative',
+        label: 'Small frame. Big idea.',
+        caption: 'Make the promise clear before the first click.',
+        tiles: [
+            'A clear subject',
+            'One focal point',
+            'An honest promise'
+        ],
+        fit: 'Your videos contain useful material, but their thumbnails are hard to read or do not communicate the central idea. You want a recognizable visual style and concepts that work with the title instead of repeating it.',
+        outcome: 'Thumbnail concepts and final exports for the agreed videos, with variations when testing is included. We develop the visual promise from the actual content and check the result at small viewing sizes.',
+        steps: [
+            [
+                'Find the strongest idea',
+                'We review the video subject, audience and proposed title. The concept should identify a compelling reason to watch without implying events or results that do not appear in the video.'
+            ],
+            [
+                'Build a readable composition',
+                'We choose a focal point, crop and contrast that survive a small feed placement. Text stays deliberate and limited. Where useful, variations explore a different visual idea rather than a cosmetic change alone.'
+            ],
+            [
+                'Learn with the video context',
+                'If analytics are available, we review click-through rate with impressions, distribution and viewing behavior. A thumbnail is one part of performance; the title, topic and video itself also affect the outcome.'
+            ]
+        ],
+        checks: [
+            [
+                'Check the feed view',
+                'The design is reviewed at a reduced size so important details do not disappear when displayed beside other videos.'
+            ],
+            [
+                'Create recognition without sameness',
+                'Consistent color and type can support a channel identity while each video retains a distinct visual idea.'
+            ]
+        ],
+        inputs: [
+            'Video brief or rough cut',
+            'Proposed title and target audience',
+            'Approved portraits or source images',
+            'Channel references and brand assets'
+        ],
+        metrics: [
+            'Readability and message fit',
+            'CTR with impression context',
+            'Variant learning when available',
+            'Consistency across the channel'
+        ],
+        faq: [
+            [
+                'Can you guarantee more video views?',
+                'No. Design can improve clarity and appeal, but views depend on the topic, distribution, audience and video quality as well as the thumbnail.'
+            ],
+            [
+                'Can you redesign older thumbnails?',
+                'Yes. We can review a selected group of videos, define new concepts and use available analytics to prioritize the work.'
+            ]
+        ]
+    },
+    'landing-page-design': {
+        tone: 'pink',
+        visual: 'web',
+        label: 'One offer. A clearer decision.',
+        caption: 'Keep the next step easy to understand.',
+        tiles: [
+            'Match the ad',
+            'Answer the doubt',
+            'Make contact'
+        ],
+        fit: 'Your ads are sending visitors to a generic homepage, or a campaign page has too many competing messages. You need a focused destination built around one service, audience and action.',
+        outcome: 'A dedicated landing-page structure, design and implementation within the agreed scope, plus a defined inquiry and measurement path. We identify copy, proof and integration requirements before production begins.',
+        steps: [
+            [
+                'Align message and intent',
+                'We review the campaign promise and the visitor’s likely questions. The brief sets the offer, audience, proof and desired action. This prevents a disconnect between what the ad suggests and what the page actually delivers.'
+            ],
+            [
+                'Build the decision path',
+                'The page introduces the offer, shows relevant evidence and explains what happens next. FAQs address real objections. Form fields collect the information your team needs without asking for details that do not help qualification.'
+            ],
+            [
+                'Check and learn',
+                'We test the page, submission handling and agreed conversion event. Once meaningful traffic is available, we can define a test with a clear hypothesis. Changing several unrelated elements at once makes the learning harder to interpret.'
+            ]
+        ],
+        checks: [
+            [
+                'A form needs a destination',
+                'We confirm who receives the request and how the visitor knows it was accepted. Failure states retain a useful alternative contact route.'
+            ],
+            [
+                'Proof should match the offer',
+                'A relevant project or testimonial helps a buyer assess the specific service. Unrelated numbers can distract from the decision.'
+            ]
+        ],
+        inputs: [
+            'Campaign offer and source ads',
+            'Approved proof and business facts',
+            'Form or CRM requirements',
+            'Conversion definitions'
+        ],
+        metrics: [
+            'Accepted inquiries',
+            'Qualified lead rate',
+            'Page engagement',
+            'Conversion-path reliability'
+        ],
+        faq: [
+            [
+                'Can one landing page support multiple ads?',
+                'Yes, when the ads share a relevant offer and audience. Different services or materially different promises may need separate destinations.'
+            ],
+            [
+                'Does the page need to be indexed?',
+                'That depends on its purpose and relationship to the main site. We agree its indexing and canonical strategy rather than treating every campaign page as an SEO page.'
+            ]
+        ]
+    }
+};
+}),
+"[project]/src/lib/service-guides.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "serviceGuides",
+    ()=>serviceGuides
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$service$2d$guides$2d$web$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/service-guides-web.json.[json].cjs [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$service$2d$guides$2d$search$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/service-guides-search.json.[json].cjs [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$service$2d$guides$2d$creative$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/data/service-guides-creative.json.[json].cjs [app-rsc] (ecmascript)");
+;
+;
+;
+/** Original editorial batch. Public dates reflect the Wonderweb edition, never a source site's age. */ const connectedServices = {
+    seo: [
+        'ai-search-optimization'
+    ],
+    'local-seo': [
+        'local-services-ads',
+        'reputation-management'
+    ],
+    'google-ads': [
+        'microsoft-ads',
+        'lead-generation'
+    ],
+    'meta-ads': [
+        'linkedin-ads',
+        'digital-media-buying'
+    ],
+    'content-creation': [
+        'email-marketing'
+    ],
+    'landing-page-design': [
+        'conversion-rate-optimization'
+    ],
+    'website-management': [
+        'franchise-marketing'
+    ],
+    'web-development': [
+        'ai-workflow-automation'
+    ]
+};
+const serviceGuides = [
+    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$service$2d$guides$2d$web$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"],
+    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$service$2d$guides$2d$search$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"],
+    ...__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$service$2d$guides$2d$creative$2e$json$2e5b$json$5d2e$cjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"]
+].map((a)=>({
+        ...a,
+        published: '2026-11-13',
+        updated: '2026-11-13',
+        related: [
+            ...new Set([
+                ...a.related,
+                ...connectedServices[a.primaryService || ''] || []
+            ])
+        ]
+    }));
+}),
+"[project]/src/lib/site.ts [app-rsc] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "indexable",
+    ()=>indexable,
+    "jsonLd",
+    ()=>jsonLd,
+    "plans",
+    ()=>plans,
+    "site",
+    ()=>site,
+    "studioCoverageFaq",
+    ()=>studioCoverageFaq
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$indexing$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/indexing.ts [app-rsc] (ecmascript)");
+;
+const site = {
+    name: 'Wonderweb Studio',
+    url: (process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wonderwebstudio.com').replace(/\/+$/, ''),
+    email: 'info@wonderwebstudio.com',
+    description: 'Remote web design and digital marketing agency serving businesses worldwide, including the United States, Canada and Australia. Websites, SEO, ads and social.',
+    positioning: 'Wonderweb Studio is a fully remote web design and digital marketing agency serving businesses worldwide, including the United States, Canada and Australia.',
+    serviceAreas: [
+        'Worldwide',
+        'United States',
+        'Canada',
+        'Australia'
+    ],
+    socials: [
+        {
+            name: 'Instagram',
+            url: 'https://www.instagram.com/wonderwebstudio'
+        },
+        {
+            name: 'Facebook',
+            url: 'https://www.facebook.com/wonderwebstudioltd'
+        },
+        {
+            name: 'YouTube',
+            url: 'https://www.youtube.com/@WonderWebStudio'
+        },
+        {
+            name: 'Threads',
+            url: 'https://www.threads.com/@wonderwebstudio'
+        },
+        {
+            name: 'Pinterest',
+            url: 'https://www.pinterest.com/wonderwebstudioltd/'
+        }
+    ]
+};
+const studioCoverageFaq = [
+    'Where does Wonderweb Studio work with clients?',
+    'We are a fully remote agency serving businesses worldwide, including the United States, Canada and Australia. Our team collaborates across locations, with a shared project plan and review times agreed around your time zone. Our market guides describe the businesses we serve, not physical studio offices.'
+];
+const indexable = (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$indexing$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["isSiteIndexable"])();
+function jsonLd(value) {
+    return JSON.stringify(value).replace(/</g, '\\u003c');
+}
+const plans = [
+    {
+        name: 'Foundation',
+        price: 1199,
+        tag: 'Build your presence',
+        description: 'For businesses that need a stronger website and a clear local search foundation.',
+        items: [
+            'One business location',
+            'Website care & up to 2 hours of edits',
+            'Local profile and on-page SEO review',
+            'One priority content or page update / month',
+            'Monthly performance summary'
+        ],
+        note: 'Paid campaign management and ad spend are separate.'
+    },
+    {
+        name: 'Growth',
+        price: 1999,
+        tag: 'Create more opportunities',
+        description: 'Connect local SEO, content and one paid channel around a focused offer.',
+        items: [
+            'Everything in Foundation',
+            'Google Ads OR Meta Ads management',
+            'One campaign landing-page improvement / month',
+            'Two content deliverables / month',
+            'Monthly strategy and lead-quality review'
+        ],
+        note: 'One ad account, one market and up to $5,000 monthly ad spend managed. Ad spend paid separately.'
+    },
+    {
+        name: 'Full Studio',
+        price: 3999,
+        tag: 'Your connected marketing team',
+        description: 'Bring your website, search, ads and social content into one coordinated plan.',
+        items: [
+            'Everything in Foundation',
+            'Google Ads AND Meta Ads management',
+            'Four content deliverables / month',
+            'Eight organic social posts across 2 profiles',
+            'Creative testing and twice-monthly reviews'
+        ],
+        note: 'One market, two ad accounts and up to $10,000 combined monthly ad spend managed. Ad spend paid separately.'
+    }
+];
+}),
+];
+
+//# sourceMappingURL=src_lib_14q1596w6h1yd._.js.map
