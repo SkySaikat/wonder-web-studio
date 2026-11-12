@@ -65,20 +65,20 @@
         "Visible evidence",
         "Connected expertise"
       ],
-      "fit": "AI search optimization is useful when customers ask detailed questions about providers, services and alternatives. We identify those questions, review your existing answers and check whether the business information is consistent across your site. The starting point is a clear account of your expertise, actual service area and evidence. A special text file cannot substitute for a useful website.",
-      "outcome": "You receive a prioritized content and technical backlog, the agreed improvements and a review of observable discovery. Google states that its AI search features use foundational SEO requirements, with no special additional optimization required. We do not sell guaranteed mentions, preferred recommendations or a supposed submission shortcut. The proposal defines the websites, topics and implementation allowance covered.",
+      "fit": "You already have expertise worth sharing, but the website scatters it across unclear service descriptions and disconnected articles. Customers struggle to find a concise answer, and your team has no consistent way to review answer-based discovery.",
+      "outcome": "A documented question map, an agreed batch of improved pages and a technical action log. Each recommendation identifies its purpose, supporting evidence and review method so your team can distinguish completed work from an untested hypothesis.",
       "steps": [
         [
-          "Build answers with enough context",
-          "An answer should explain the conditions under which advice applies. We organize definitions, comparisons, costs and process questions into readable sections, then support them with real examples and appropriate primary sources. A roofing business might explain the difference between repair and replacement assessments without diagnosing a property it has never inspected. Relevant service and project pages give readers a practical next step."
+          "Establish the baseline",
+          "Choose representative customer questions and record the current pages that answer them. Review business facts and discovery observations together before selecting the first improvements."
         ],
         [
-          "Connect the technical and editorial work",
-          "We review crawl access, indexability, canonical URLs, navigation and page relationships. Structured data describes information a visitor can actually see. Organization, service and article details should agree instead of presenting different identities to different crawlers. Markdown can provide an additional readable format, but it stays consistent with the main page and does not carry hidden promotional claims."
+          "Improve the priority answers",
+          "Combine subject expertise, verified evidence and readable page structure. Review the relevant technical tasks alongside the copy so the improved answer has a clear place in the website."
         ],
         [
-          "Measure a changing discovery environment",
-          "We record a repeatable set of relevant questions and note the date, market and platform used for each observation. Responses can vary, so one screenshot is not proof of lasting visibility. Search Console, referral traffic and qualified inquiries help provide context. We separate observed references from traffic and sales rather than attributing every improvement to AI search."
+          "Review and maintain",
+          "Compare the same questions and available referral measures at the next review. Record changes in the business or platform context, then decide which answers need clarification or expansion."
         ]
       ],
       "checks": [
@@ -172,20 +172,20 @@
         "Local coverage",
         "Booked conversation"
       ],
-      "fit": "Local Services Ads availability and screening requirements vary by business category and market. We review the current platform requirements before recommending a launch. The business supplies its own accurate registration, licensing, insurance and verification material when requested. Agency support helps organize the process; it cannot guarantee approval or replace the advertiser’s responsibilities.",
-      "outcome": "The starting engagement covers one eligible business profile and an agreed market. You receive a work log, budget review and lead-quality summary. Google’s lead charges are separate from our management fee. Additional profiles, a new CRM connection or wider operational support are quoted before the scope changes.",
+      "fit": "Your business receives local inquiries but lacks a clear picture of which jobs become useful appointments. The profile, operating hours or response process may need attention before additional lead spend can be evaluated sensibly.",
+      "outcome": "One agreed profile-management process, a reliable lead classification routine and a recurring review of appointments against platform charges. Your team can see what was changed and which operational questions still need an answer.",
       "steps": [
         [
-          "Describe the jobs and areas you can serve",
-          "A broad service area may generate inquiries the team cannot handle efficiently. We work with you to define actual coverage, offered job types and operating hours. If the business does not provide emergency service, the profile should not suggest otherwise. Changes in staffing or travel limits belong in the campaign review, not just in an internal dispatch conversation."
+          "Prepare the profile",
+          "Collect the business facts and requested evidence, then identify outstanding setup steps. Record the services, coverage and budget the business has approved."
         ],
         [
-          "Prepare the response workflow",
-          "Lead handling is part of campaign readiness. Decide who answers calls, who checks messages, how missed contacts are followed up and how appointments are recorded. A plumbing company might distinguish urgent repairs from planned water-heater work. Those categories help assess suitability and give the agency useful feedback beyond the platform’s total lead count."
+          "Connect the response team",
+          "Confirm who receives each inquiry and how outcomes will be recorded. Review sample records with dispatch so suitability and appointment statuses mean the same thing to everyone."
         ],
         [
-          "Review quality and billing in context",
-          "We compare platform lead records with your qualification and booking notes. Duplicate contacts, wrong service requests and unanswered inquiries need different actions. Where a billing concern arises, we review the current platform process and available evidence. We do not promise that a disputed inquiry will receive credit or describe historic dispute features as permanent rules."
+          "Review and adjust",
+          "Compare inquiry types, responses and bookings over an agreed period. Prioritize profile corrections, budget decisions and response-process improvements using the actual records."
         ]
       ],
       "checks": [
@@ -279,20 +279,20 @@
         "A clear offer",
         "Measured inquiry"
       ],
-      "fit": "Microsoft Advertising can complement an existing search program, but it deserves its own budget decision. We review the services you want to promote, the markets you can cover and the evidence available in the account. A working Google campaign provides useful learning, not proof that another channel will deliver the same volume or economics.",
-      "outcome": "A first scope can focus on one account, one market and a defined service group. The review separates management fees, media spend and any landing-page work. Where the channel produces suitable opportunities within your agreed economics, we can discuss expansion. Where it does not, the report should make the limitations and next decision clear.",
+      "fit": "You want to test another search channel without losing sight of acquisition cost or lead quality. The business has a defined service, a usable destination page and someone available to review the inquiries that follow.",
+      "outcome": "A clearly configured search account, documented conversion definitions and a practical review of whether this channel deserves further investment. The test produces evidence for a decision, including limitations where the volume is small.",
       "steps": [
         [
-          "Build or review the campaign deliberately",
-          "Campaign groups, keywords and ad messages should reflect distinct service intent. If an import is appropriate, we review the resulting settings, destinations and tracking before launch. An inherited bid, location setting or ad extension can be unsuitable for the new account. We document the configuration so the first performance review has a clear baseline."
+          "Frame the channel test",
+          "Record the market, service, test budget and qualification criteria. Review existing search learning and decide what can transfer to the new account."
         ],
         [
-          "Make the landing experience consistent",
-          "Visitors should arrive on a page that matches the service and promise in the ad. We review mobile usability, contact options, service-area information and the inquiry route. A call click and a completed conversation are different outcomes. Tracking design identifies which event is being measured and where sales feedback must provide the rest of the story."
+          "Launch with checks",
+          "Build or review the campaigns, validate destinations and confirm tracking. Keep a configuration record so later changes can be compared with the launch baseline."
         ],
         [
-          "Review search quality and operational fit",
-          "Search terms, audience settings and available placement information help explain where budget is going. Your team’s qualification notes add the business context. A campaign can appear efficient while attracting work you cannot fulfill. We agree a review rhythm and use evidence to adjust exclusions, messaging and budget instead of treating every fluctuation as a reason to rebuild."
+          "Assess suitable opportunities",
+          "Combine account performance with sales feedback. Identify wasted searches, useful demand and operational limits before proposing a budget increase."
         ]
       ],
       "checks": [
@@ -386,20 +386,20 @@
         "A useful offer",
         "A real conversation"
       ],
-      "fit": "LinkedIn campaigns are most useful to assess when the buyer’s professional role matters. A commercial contractor reaching property decision-makers has a different brief from a residential emergency service. We identify the buying roles, company context, problem and credible offer before proposing a campaign. A broad professional audience alone is not a sufficient targeting strategy.",
-      "outcome": "The initial program covers an agreed account, audience and creative allowance. Media spend is separate, and larger creative or integration requirements are priced explicitly. We record the hypothesis and stopping conditions before launch. The next step may be a new message, a narrower audience, a stronger offer or a decision to prioritize another channel.",
+      "fit": "Your ideal buyer is a professional decision-maker, but existing marketing is aimed at a broad consumer audience. You need an offer and qualification process that reflect the longer conversation behind a commercial purchase.",
+      "outcome": "A campaign brief, approved creative and a tested lead handoff for one professional audience. Reporting follows the agreed stages from response to meaningful sales opportunity, with the buying cycle made explicit.",
       "steps": [
         [
-          "Offer something that fits the buying stage",
-          "An unfamiliar prospect may need a useful planning resource, a relevant project explanation or a consultation with a clearly stated purpose. We align creative, copy and the destination around one offer. Claims about project outcomes require evidence. A lead magnet should be genuinely useful instead of hiding a thin sales pitch behind a long form."
+          "Define the buying role",
+          "Identify who experiences the problem, who influences the decision and what information each needs. Choose one audience and a useful first offer."
         ],
         [
-          "Build a reliable form and follow-up route",
-          "We define the information needed for a useful first conversation and review the permissions required to retrieve leads. Native forms and website forms each need a tested handoff to the person responsible for follow-up. The confirmation message should explain what happens next. Any integration, email sequence or CRM work is itemized in the scope."
+          "Prepare the campaign journey",
+          "Align the creative, form and confirmation with the offer. Test access to lead records and confirm the person responsible for the first response."
         ],
         [
-          "Judge opportunities beyond the submission",
-          "Professional targeting does not guarantee that every respondent has purchasing authority or an active project. We agree qualification categories with your sales team and review fit, response, meeting outcomes and pipeline progress. Longer commercial buying cycles require a different evaluation window from an urgent consumer service. Reporting should state those limits instead of presenting every download as a sale."
+          "Learn from sales feedback",
+          "Review fit, replies and meeting outcomes alongside campaign metrics. Use the findings to improve the audience definition or offer before expanding the program."
         ]
       ],
       "checks": [
@@ -493,20 +493,20 @@
         "A useful message",
         "A clear next step"
       ],
-      "fit": "A useful email program begins with how contacts joined, what they expect and which messages are appropriate. We review the audience source, existing preferences and unsubscribe process before proposing a campaign. Customer reminders, active prospects and newsletter readers should not automatically receive identical messages. Your business remains responsible for confirming its permissions and applicable requirements.",
-      "outcome": "Clicks, replies, inquiries and unsubscribes provide different kinds of feedback. Open-rate data can be affected by privacy features, so it should not carry the entire evaluation. We agree campaign tags and conversion events, then review whether useful website actions or conversations followed. The reporting distinguishes observed outcomes from assumptions about attribution.",
+      "fit": "You have an existing audience or customer list but no dependable rhythm for useful communication. Messages may be written at the last minute, sent to everyone or disconnected from the website and sales process.",
+      "outcome": "An approved campaign calendar, reusable production process and reporting that explains useful responses. Your team knows which messages are going out, why each audience receives them and who handles the next conversation.",
       "steps": [
         [
-          "Choose the purpose of each sequence",
-          "A newsletter shares useful expertise; an estimate follow-up answers outstanding questions; a maintenance reminder helps an existing customer plan. We map the trigger, intended reader, message and next action for each use case. This prevents a complicated automation from becoming a series of disconnected promotions. The initial scope concentrates on a manageable set of messages."
+          "Map audience and purpose",
+          "Review how contacts joined and what they expect. Choose the first campaign goal, destination and audience segment before drafting copy."
         ],
         [
-          "Write for a specific decision",
-          "Email copy should make the reason for contacting the reader clear. A landscaping reminder might explain seasonal scheduling and link to the relevant service page. A remodeler could answer planning questions after an inquiry. Subject lines and previews need to match the message. Any prices, deadlines or capacity claims are approved by the business rather than added for artificial urgency."
+          "Produce and approve",
+          "Prepare the message and layout, check facts and links, and collect one consolidated approval. Record the selected audience and suppression checks before release."
         ],
         [
-          "Check the complete delivery journey",
-          "We review templates at mobile size, test links and forms, and confirm the landing page follows through on the offer. Audience selections and suppression rules are checked before an approved send. Sender setup and platform access are reviewed within the technical scope. Integration problems receive their own estimate when they require development beyond campaign production."
+          "Review the response",
+          "Connect campaign activity with replies, website actions and list-health signals. Use those observations to decide the next message rather than repeat an unhelpful promotion."
         ]
       ],
       "checks": [
@@ -600,20 +600,20 @@
         "Thoughtful responses",
         "Accurate profiles"
       ],
-      "fit": "Customers may find inconsistent hours, unanswered reviews or confusing service information before reaching your website. We inventory the relevant public profiles and identify which issues affect their decision. A reputation program should connect marketing with operational feedback. If repeated complaints describe missed calls or unclear estimates, the underlying process needs attention alongside the public response.",
-      "outcome": "The monthly review separates profile corrections, response activity and recurring customer themes. A stronger request process does not establish that service quality has improved, so we discuss operational observations with your team. You receive an action log and priorities for the next cycle. The aim is reliable business information and an accountable feedback process that customers can trust.",
+      "fit": "Customer feedback exists across several profiles, yet nobody owns the complete process. Review requests are inconsistent, responses stall and recurring concerns are not reaching the people who can resolve them.",
+      "outcome": "A neutral request workflow, response responsibilities and a recurring action log. The engagement makes public business information easier to maintain and turns feedback themes into specific questions for your operations team.",
       "steps": [
         [
-          "Ask real customers without filtering by sentiment",
-          "We help define a neutral request process for eligible customers after an appropriate service milestone. The process should not ask only happy customers to review publicly while hiding everyone else in a private route. No fabricated reviews, paid positive ratings or invented customer identities are included. Requests should explain the action simply and respect the platform’s current rules."
+          "Inventory the public picture",
+          "Identify the profiles customers encounter and record accuracy or response gaps. Confirm authorized access and the owner of each business fact."
         ],
         [
-          "Respond with care and protect private information",
-          "A response can acknowledge the issue and explain the next step without exposing job details, payment information or personal circumstances. We prepare response guidance and identify situations that require the business owner’s review. Serious complaints may need direct resolution outside the public thread. Templates support consistency, but the final response should address what the person actually said."
+          "Put the workflow in place",
+          "Agree when neutral requests are appropriate and how responses are reviewed. Prepare an escalation path for sensitive issues that require direct attention."
         ],
         [
-          "Keep profiles accurate as the business changes",
-          "Service areas, hours, links and contact information need a named owner. We review the profiles included in your scope and record changes so future updates do not contradict each other. We do not invent additional offices or promise review removal. A platform-policy issue is assessed against the available evidence and the platform’s reporting process."
+          "Close the feedback loop",
+          "Review recurring concerns with the business owner. Track profile corrections and agreed operational actions, not only the quantity of new reviews."
         ]
       ],
       "checks": [
@@ -707,20 +707,20 @@
         "Remove the friction",
         "Review the outcome"
       ],
-      "fit": "A conversion could be a submitted form, a completed purchase or a booked consultation. These are not interchangeable, and some events can fire without a successful business outcome. We audit the existing measurement and agree the primary action before comparing pages. The baseline includes traffic source, device, service intent and the available lead-quality feedback.",
-      "outcome": "More submissions are not necessarily better if the additional inquiries are irrelevant. We review qualification, appointments and sales feedback alongside the page conversion measure. A higher rate during a promotion or seasonal peak does not prove the design caused the change. The deliverable is a documented learning and improvement process, with implementation hours and experiments defined in the proposal.",
+      "fit": "Your site receives relevant visitors, but the reasons they stop short of contacting you are unclear. You need a prioritized explanation of the friction before commissioning another redesign or spending more to bring people to the same journey.",
+      "outcome": "A measurement check and a ranked improvement backlog with the evidence behind each recommendation. Depending on the agreed scope, the next phase may be implementation, user research or a properly specified experiment.",
       "steps": [
         [
-          "Find friction in the actual customer journey",
-          "We review the offer, navigation, page content, form fields and confirmation process. A visitor may understand the service but be unable to judge the price range or next step. Mobile usability can reveal problems hidden by a spacious desktop layout. Where recordings or research tools are appropriate, we agree the privacy settings and interpretation before collecting data."
+          "Establish a reliable baseline",
+          "Confirm the primary action and inspect how it is recorded. Compare the relevant devices, traffic sources and service journeys before interpreting a blended rate."
         ],
         [
-          "Prioritize changes by evidence and effort",
-          "A broken form should be fixed before testing subtle button variations. We organize proposed changes by their supporting evidence, likely relevance and implementation cost. Clearer service-area information, useful proof or a shorter form can each address a different concern. The plan records the expected mechanism so a later review can explain why the change did or did not help."
+          "Investigate the friction",
+          "Review the offer, information gaps, form behavior and mobile experience. Document observations and distinguish confirmed defects from ideas that still need testing."
         ],
         [
-          "Use an evaluation method that fits the traffic",
-          "A low-volume website may not support a quick, reliable A/B test. In that case, usability checks and carefully documented sequential changes can still improve the experience, with appropriate caution about attribution. When an experiment is feasible, we specify the hypothesis, primary measure, audience and review criteria in advance rather than selecting a favorable result afterward."
+          "Evaluate the improvement",
+          "Use the method suited to the available traffic and business cycle. Record the change, observation window, outcome and limits before choosing another test."
         ]
       ],
       "checks": [
@@ -814,20 +814,20 @@
         "A useful inquiry",
         "A clear handoff"
       ],
-      "fit": "A business can attract inquiries and still struggle to fill the right jobs. We define the priority service, real coverage, project fit and delivery capacity before choosing a channel. The definition includes exclusions such as unsupported locations or work below your minimum scope. This creates a shared basis for evaluating marketing rather than arguing about whether every contact counts.",
-      "outcome": "Reports distinguish raw inquiries, qualified opportunities, appointments and customers where reliable data exists. Media fees, management and other delivery costs should be visible when assessing acquisition economics. We do not promise a fixed number of leads or guaranteed revenue. The proposal defines channels, markets, creative allowances and the operational responsibilities required to run the program.",
+      "fit": "Your marketing channels produce contacts, but the team cannot agree which ones fit the business or where opportunities are being lost. You need a shared acquisition and follow-up plan around services you can actually deliver.",
+      "outcome": "A defined lead journey with qualification rules, responsible owners and useful reporting. Campaign work and operational handoffs are connected so the next review can locate problems between the first click and a sales conversation.",
       "steps": [
         [
-          "Match the offer to the buying journey",
-          "Urgent demand, planned purchases and longer commercial projects need different messages. Search advertising may address an active need; social campaigns can introduce an offer; organic content can answer questions over time. We choose a starting combination based on the business and available evidence. More channels add coordination work and should have a specific purpose."
+          "Define the opportunity",
+          "Agree priority work, coverage, exclusions and capacity. Set the initial channel and qualification criteria using the information already available."
         ],
         [
-          "Build the path from interest to a record",
-          "The ad or article, landing page, form and confirmation should describe the same offer. We review whether a successful inquiry reaches the right inbox or system with enough context to respond. Source tags and qualification fields are designed to help decisions, not burden visitors with an unnecessary questionnaire. Custom integrations are defined before implementation begins."
+          "Connect capture and response",
+          "Review the destination, form or call route and receiving system. Test a realistic inquiry and confirm the team can act on its context."
         ],
         [
-          "Give follow-up a named owner",
-          "A campaign cannot compensate for every missed call or unanswered email. We agree who receives inquiries, how the team records contact attempts and which status changes matter. Estimates, appointments and sales need consistent definitions. For a remodeler, for example, a useful consultation request and an accepted project are separate milestones with different time windows."
+          "Review the full path",
+          "Compare inquiries, qualification and appointment outcomes. Separate a campaign mismatch from a slow response or unavailable service before changing the budget."
         ]
       ],
       "checks": [
@@ -921,20 +921,20 @@
         "Suitable inventory",
         "Measured delivery"
       ],
-      "fit": "Display, streaming TV and online video can support awareness, consideration or remarketing, but they are not interchangeable with high-intent search. We review the offer, audience, available creative and existing acquisition program before recommending a media mix. A campaign should have a defined role and budget rather than simply add another logo to the marketing plan.",
-      "outcome": "Reporting should show the available inventory and audience breakdown, not only a blended total. We assess the agreed placement controls, frequency, creative response and website actions. The next budget decision follows the purpose of the campaign. Emerging ad channels are evaluated individually; no platform access, beta invitation or unsupported ad format is promised.",
+      "fit": "You have an approved offer and creative assets, and want to assess formats beyond your existing search or social activity. The next step needs a clear purpose, transparent media costs and an explanation of what the reporting can establish.",
+      "outcome": "A media brief identifying the selected inventory, creative requirements, responsibilities and evaluation method. Delivery reporting shows the available distribution details and distinguishes observed response from attributed or estimated effects.",
       "steps": [
         [
-          "Make the buying arrangement understandable",
-          "The proposal identifies the platform or buying partner, available markets, planned inventory and management responsibilities. Programmatic buying describes a method of purchasing inventory, not a promise of superior customers. We review available suitability controls and exclusions with you. Access, minimum budgets and formats depend on the selected platform and are confirmed before an agreement is made."
+          "Write the media brief",
+          "Define the audience, market, message and intended role of the campaign. Confirm access and minimum requirements with the proposed buying platform or partner."
         ],
         [
-          "Prepare the creative and the destination together",
-          "A video placement needs an approved asset in the correct format, a clear message and an appropriate next step. A display campaign may need several sizes and a relevant landing page. We list these production requirements before launch. Filming, voiceovers, licensing and substantial animation are separate deliverables unless explicitly included in the creative scope."
+          "Prepare assets and controls",
+          "Check creative specifications, destination pages and available placement settings. Record the approved budget and reporting definitions before launch."
         ],
         [
-          "Measure reach and response without overstating attribution",
-          "We distinguish delivery measures such as impressions and reach from visits, inquiries and sales. View-through reporting needs particular care because an exposed person may later convert for another reason. The measurement brief records the attribution window and available limitations. Where feasible, we discuss comparison approaches and whether the budget is sufficient to learn something useful."
+          "Review distribution and response",
+          "Compare delivery against the plan and examine the available placement data. Discuss the observed website actions and attribution limits before allocating the next budget."
         ]
       ],
       "checks": [
@@ -1028,20 +1028,20 @@
         "Local truth",
         "Connected reporting"
       ],
-      "fit": "A franchise or multi-location business needs clarity about who approves offers, pays for media and handles inquiries. We begin with the operating structure rather than copying one campaign across every territory. Shared brand requirements and location-specific facts are recorded separately. This prevents a national promotion from advertising a service a particular branch does not provide.",
-      "outcome": "An initial group of locations can reveal content, routing and approval problems before wider rollout. Reporting separates individual markets and explains differences in services, budgets and periods. A blended average can hide an underperforming branch or a capacity issue. The deliverable is a repeatable operating plan with clear local exceptions, not a promise that every market will perform identically.",
+      "fit": "Your brand operates across real locations with different staff, territories and service priorities. Central assets help, but local facts, approvals and inquiry routing need a reliable system to prevent contradictory marketing.",
+      "outcome": "A rollout framework that separates shared brand work from each location’s responsibilities. Page standards, campaign ownership and reporting definitions make additional markets easier to introduce without losing the local context customers need.",
       "steps": [
         [
-          "Build a useful location information system",
-          "Each real location needs accurate contact details, service coverage, hours and relevant evidence. We organize page templates and profile responsibilities so local information can be maintained consistently. A page should help a customer choose the right branch. It should not invent an office, testimonial or local team merely to create another search landing page."
+          "Map the operating model",
+          "Document locations, territory rules, approvers and account ownership. Identify the differences that must survive a shared template or campaign structure."
         ],
         [
-          "Plan budgets around capacity and market conditions",
-          "Different locations may have different service priorities, available staff and demand. We document the initial allocation and the evidence used to review it. Shared advertising accounts and separate local accounts each create operational considerations. The proposal states the chosen structure, permissions and responsibilities so reporting and handoff remain understandable."
+          "Pilot the approach",
+          "Choose an initial group of locations and test the content, approval and routing process. Resolve gaps before expanding the same system across the network."
         ],
         [
-          "Route inquiries to a responsible team",
-          "A national form is only useful if the right branch receives the inquiry and knows what to do next. We review routing rules, territory overlap, missing-location cases and the feedback needed to qualify opportunities. Where a CRM integration is required, the technical work is scoped separately. A test submission should confirm the actual destination before a campaign expands."
+          "Compare and roll out",
+          "Review comparable measures by market and record justified local exceptions. Use the pilot findings to improve the next release group."
         ]
       ],
       "checks": [
@@ -1135,20 +1135,20 @@
         "Connect the systems",
         "Keep people in control"
       ],
-      "fit": "An automation project should name the task, its owner and the cost of getting it wrong. Examples include organizing approved content drafts, routing inquiry records or preparing a summary for a team member to review. We map the current process before choosing a tool. A poorly defined workflow becomes harder to understand when automation is added around it.",
-      "outcome": "You receive documentation of the workflow, dependencies, permissions and operating procedure within the agreed scope. Monitoring, later model changes and new integrations are discussed separately. We do not promise a fully autonomous employee or savings that have not been measured. A useful automation should leave your team able to understand what happened and intervene when needed.",
+      "fit": "A recurring task moves between tools and people with too much manual copying or unclear handoffs. You need to understand the workflow and its failure cases before deciding whether rules, integrations or an AI-assisted step will help.",
+      "outcome": "A scoped working automation with documented permissions, review points and exception handling. The handoff explains how to operate it, where to inspect failures and which ongoing usage or support costs remain.",
       "steps": [
         [
-          "Choose what the system can decide and what people approve",
-          "Deterministic rules are often appropriate for known routing conditions. An AI-assisted step may help with text organization or classification, but its output needs an evaluation method and an exception path. We identify where a human must confirm facts, approve a message or resolve ambiguity. The brief does not assume that every repetitive task needs a language model."
+          "Specify the task",
+          "Map the current inputs, decisions, systems and outputs. Agree the person responsible for exceptions and choose representative examples for evaluation."
         ],
         [
-          "Connect systems with appropriate access",
-          "The implementation uses the supported permissions and integration methods available in your systems. We agree which information the workflow needs and where it is processed. Credentials are managed through the deployment environment rather than exposed in public content. Platform subscriptions and model usage are separate costs unless explicitly included in the proposal."
+          "Build a controlled pilot",
+          "Implement the smallest useful workflow with appropriate access. Test ordinary inputs, ambiguous cases and failures before expanding the automation’s responsibilities."
         ],
         [
-          "Test the cases that interrupt ordinary work",
-          "A successful demonstration is only one scenario. We test missing fields, duplicate records, rejected permissions, slow responses and unexpected input where relevant. The workflow needs a visible error state and a named owner for unresolved items. For AI-assisted steps, a representative evaluation set helps establish whether the outputs are useful enough for the intended task."
+          "Evaluate and hand over",
+          "Review output quality and operating effort against the baseline. Document limitations, monitoring and intervention steps so the team can use the workflow confidently."
         ]
       ],
       "checks": [
