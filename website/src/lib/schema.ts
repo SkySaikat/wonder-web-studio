@@ -27,7 +27,7 @@ export function pageGraph(path:string){
  const page=seoByPath.get(path);if(!page)throw new Error(`No SEO entry for ${path}`);
  const url=absoluteUrl(path);const pageId=`${url}#webpage`;const entityId=`${url}#main-entity`;
  const imagePaths=[...new Set([featuredImagePath(path),...(page.images||[]),seoImagePath(path)])];
- const pageNode:Node={'@type':page.type,'@id':pageId,url,name:page.title,description:page.description,isPartOf:ref(websiteId),publisher:ref(orgId),inLanguage:'en',primaryImageOfPage:ref(`${absoluteUrl(imagePaths[0])}#image`),image:imagePaths.map(p=>ref(`${absoluteUrl(p)}#image`))};
+ const pageNode:Node={'@type':page.type,'@id':pageId,url,name:page.title,description:page.description,isPartOf:ref(websiteId),publisher:ref(orgId),inLanguage:'en',audience:{'@type':'BusinessAudience',audienceType:page.area?`Businesses in ${page.area.name}`:'US small businesses and home-service companies, with services available worldwide'},primaryImageOfPage:ref(`${absoluteUrl(imagePaths[0])}#image`),image:imagePaths.map(p=>ref(`${absoluteUrl(p)}#image`))};
  if(page.modified)pageNode.dateModified=page.modified;
  if(page.published)pageNode.datePublished=page.published;
  const nodes:Node[]=[pageNode,...imagePaths.map(imageSchema)];

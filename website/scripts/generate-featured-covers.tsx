@@ -28,16 +28,18 @@ function artwork(page:(typeof seoPages)[number]){
 async function main(){
  await mkdir('public/featured',{recursive:true});
  let previous:Record<string,Cover>={};try{previous=JSON.parse(await readFile('src/lib/featured-covers.json','utf8'))}catch{}
- const covers:Record<string,Cover>={};let generated=0;
+ const covers:Record<string,Cover>=process.argv[2]?{...previous}:{};let generated=0;
  const artworkCache=new Map<string,Buffer>();
  for(const page of seoPages){
+  if(process.argv[2]&&page.path!==process.argv[2])continue;
   const art=artwork(page);const src=featuredImagePath(page.path);const title=page.title;
   let bytes=artworkCache.get(art.src);if(!bytes){bytes=await readFile(`public${art.src}`);artworkCache.set(art.src,bytes);}
-  const signature=createHash('sha256').update(bytes).update(JSON.stringify({v:1,title,category:page.category})).digest('hex');
-  const alt=`${title}. ${art.alt}`;
-  covers[src]={src,artwork:art.src,title:`${title} | Wonderweb Studio`,alt,description:`${art.alt} Featured cover for ${title}. ${art.concept?'Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.':'Portfolio image from the selected project.'}`,width:1440,height:810,type:'image/webp',signature};
+  const signature=createHash('sha256').update(bytes).update(JSON.stringify({v:2,title,category:page.category})).digest('hex');
+  const visualDescription=art.alt.replace(/\s+No(?:\s| fake)[^.]*\.?/g,'').trim();
+  const alt=`${title}. ${visualDescription}`;
+  covers[src]={src,artwork:art.src,title:`${title} | Wonderweb Studio`,alt,description:`${visualDescription} Featured cover for ${title}. ${art.concept?'Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.':'Portfolio image from the selected project.'}`,width:1440,height:810,type:'image/webp',signature};
   if(previous[src]?.signature===signature){try{await readFile(`public${src}`);continue}catch{}}
-  const photo=`data:image/webp;base64,${(await sharp(bytes).resize(1440,610,{fit:'cover'}).webp({quality:90}).toBuffer()).toString('base64')}`;
+  const photo=`data:image/png;base64,${(await sharp(bytes).resize(1440,610,{fit:'cover'}).png().toBuffer()).toString('base64')}`;
   const response=new ImageResponse(<div style={{display:'flex',flexDirection:'column',width:'100%',height:'100%',background:'#f4f0ea',color:'#25202d'}}>
    <img src={photo} width={1440} height={610} style={{objectFit:'cover'}}/>
    <div style={{display:'flex',padding:'26px 48px',flex:1,gap:18,flexDirection:'column',justifyContent:'center',borderTop:'1px solid #e3dbe9'}}>

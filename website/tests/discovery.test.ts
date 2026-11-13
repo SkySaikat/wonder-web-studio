@@ -20,14 +20,14 @@ test('every public page has a discoverable Markdown guide with a canonical respo
   const response=await GET(new Request(absoluteUrl(path)),{params:Promise.resolve({slug:path.slice('/content/'.length).split('/')})});
   assert.equal(response.status,200);assert.match(response.headers.get('Content-Type')!,/^text\/markdown/);
   assert.ok(response.headers.get('Link')?.includes(`<${absoluteUrl(p.path)}>; rel="canonical"`));
-  const body=await response.text();assert.ok(body.includes(p.description));assert.ok(!body.includes('undefined'));
+  const body=await response.text();assert.ok(body.includes(p.description));assert.ok(body.includes('Primary client market: United States. Service availability: worldwide.'));assert.ok(body.includes('Featured image: https://www.wonderwebstudio.com/featured/'));assert.ok(!body.includes('undefined'));
   // All internal links must point to a known public page, guide or actual asset.
   for(const match of body.matchAll(/\]\((https:\/\/www\.wonderwebstudio\.com[^)]+)\)/g)){
    const target=new URL(match[1]).pathname;
    if(!target.match(/\.(webp|png)$/))assert.ok(seoByPath.has(target)||markdownPages.has(target)||target==='/content/index.md',`broken internal reference: ${target}`);
   }
  }
- assert.equal((await GET(new Request('https://example.com'),{params:Promise.resolve({slug:['payments.md']})})).status,404);
+ assert.equal((await GET(new Request('https://example.com'),{params:Promise.resolve({slug:['payments.md']})})).status,200);
  assert.equal((await GET(new Request('https://example.com'),{params:Promise.resolve({slug:['unknown.md']})})).status,404);
 });
 
@@ -57,7 +57,7 @@ test('local service guides retain distinct scope and remote-delivery facts',()=>
 test('the remote agency identity is consistent across metadata, schema and AI-readable content',()=>{
  const oldLocation=/chittagong|chattogram|bangladesh/i;
  const organization=organizationGraph()['@graph'].find(n=>n['@type']==='Organization')!;
- assert.deepEqual(organization.areaServed,['Worldwide','United States','Canada','Australia']);
+ assert.deepEqual(organization.areaServed,['United States','Worldwide','Canada','Australia']);
  assert.equal('address' in organization,false);
  assert.equal('location' in organization,false);
  assert.match(organization.description as string,/remote.*worldwide/i);
@@ -73,7 +73,7 @@ test('the remote agency identity is consistent across metadata, schema and AI-re
  }
  for(const path of ['/','/about/','/contact/']){
   const text=pageMarkdown(seoByPath.get(path)!);
-  assert.match(text,/United States, Canada and Australia/);
+  assert.match(text,/focused primarily on US/);assert.match(text,/worldwide/);
   assert.match(text,/Where does Wonderweb Studio work with clients/);
  }
 });

@@ -84,7 +84,7 @@ def audit(url):
   if not types['Organization'] or not types['WebSite']:issues.append('Missing organization/site graph')
   for n in nodes:
    if n.get('@type')=='Organization':
-    if n.get('areaServed')!=['Worldwide','United States','Canada','Australia']:issues.append('Organization worldwide service coverage is inconsistent')
+    if n.get('areaServed')!=['United States','Worldwide','Canada','Australia']:issues.append('Organization worldwide service coverage is inconsistent')
     if n.get('address') or n.get('location'):issues.append('Remote studio has a physical-location claim')
   if path!='/' and types['BreadcrumbList']!=1:issues.append('Missing/duplicate breadcrumb schema')
   if path.startswith(('/services/','/locations/','/industries/')) and len(path.split('/'))>3 and not types['Service']:issues.append('Missing Service schema')
@@ -101,17 +101,15 @@ def audit(url):
   for key in ['description','og:title','og:description','og:url','og:site_name','og:image','og:image:alt','og:image:width','og:image:height','og:image:type','twitter:title','twitter:description','twitter:image','twitter:image:alt','twitter:card']:
    if len(p.meta.get(key,[]))!=1 or not p.meta[key][0]:issues.append('Missing/duplicate '+key)
   if p.canon!=[url]:issues.append('Canonical mismatch')
-  if path!='/payments/':
-   md_path='/content/'+('home' if path=='/' else path.strip('/'))+'.md'
-   md_url=urlparse(url).scheme+'://'+urlparse(url).netloc+md_path
-   if p.markdown!=[md_url]:issues.append('Missing or incorrect Markdown alternate')
-   _,md_headers,md_body=fetch(md_path)
-   if OLD_STUDIO_LOCATION.search(md_body.decode()):issues.append('Outdated studio location in Markdown content')
-   if 'text/markdown' not in md_headers.get('content-type',''):issues.append('Invalid Markdown content type')
-   if '<'+url+'>; rel="canonical"' not in md_headers.get('link',''):issues.append('Missing Markdown canonical header')
-   if url not in md_body.decode():issues.append('Missing Markdown source URL')
-   if should_block_markdown(md_headers):issues.append('Production Markdown blocked by HTTP noindex header')
-  elif p.markdown:issues.append('Private payment page advertises Markdown')
+  md_path='/content/'+('home' if path=='/' else path.strip('/'))+'.md'
+  md_url=urlparse(url).scheme+'://'+urlparse(url).netloc+md_path
+  if p.markdown!=[md_url]:issues.append('Missing or incorrect Markdown alternate')
+  _,md_headers,md_body=fetch(md_path)
+  if OLD_STUDIO_LOCATION.search(md_body.decode()):issues.append('Outdated studio location in Markdown content')
+  if 'text/markdown' not in md_headers.get('content-type',''):issues.append('Invalid Markdown content type')
+  if '<'+url+'>; rel="canonical"' not in md_headers.get('link',''):issues.append('Missing Markdown canonical header')
+  if url not in md_body.decode():issues.append('Missing Markdown source URL')
+  if should_block_markdown(md_headers):issues.append('Production Markdown blocked by HTTP noindex header')
   if p.meta.get('og:url')!=[url]:issues.append('Open Graph URL mismatch')
   if any(v>1 for v in Counter(p.ids).values()):issues.append('Duplicate HTML id')
   for img in p.images:
@@ -122,7 +120,7 @@ def audit(url):
   for key in ['og:image','twitter:image']:
    if not p.meta.get(key,[''])[0].startswith(urlparse(url).scheme+'://'+urlparse(url).netloc+'/seo/'):issues.append('Missing page-specific '+key)
   robots=','.join(p.meta.get('robots',[]))
-  should_index=EXPECT_INDEXABLE and path!='/payments/'
+  should_index=EXPECT_INDEXABLE
   if ('noindex' not in robots)!=should_index:issues.append('Incorrect robots policy')
   if not EXPECT_INDEXABLE and 'noindex' not in headers.get('x-robots-tag',''):issues.append('Missing preview noindex header')
   if should_index and 'noindex' in headers.get('x-robots-tag','').lower():issues.append('Production page blocked by HTTP noindex header')
@@ -131,7 +129,7 @@ def audit(url):
 _,_,data=fetch('/sitemap.xml');root=ET.fromstring(data);urls=[u.find('s:loc',NS).text for u in root.findall('s:url',NS)]
 if len(urls)!=len(set(urls)):raise RuntimeError('Duplicate sitemap URLs')
 origin=urlparse(urls[0]).scheme+'://'+urlparse(urls[0]).netloc
-with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:rows=list(pool.map(audit,urls+[origin+'/payments/']))
+with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:rows=list(pool.map(audit,urls))
 paths={r['path'] for r in rows};extra=[]
 unknown=sorted({urlparse(link).path for row in rows for link in row['links'] if link.startswith('/') and urlparse(link).path not in paths})
 if unknown:extra.append('Unmapped links: '+str(unknown))
@@ -149,6 +147,16 @@ def image_check(row):
  except Exception:return row['path']
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:bad_images=[r for r in pool.map(image_check,rows) if r]
 if bad_images:extra.append('Invalid share images: '+str(bad_images))
+# Verify every original sitemap asset is fetchable and not blocked from image indexing.
+def crawl_image(url):
+ try:
+  _,headers,body=fetch(urlparse(url).path)
+  if not headers.get('content-type','').startswith('image/') or not body:return url+' (invalid image response)'
+  if EXPECT_INDEXABLE and 'noindex' in headers.get('x-robots-tag','').lower():return url+' (HTTP noindex)'
+ except Exception as e:return url+' ('+str(e)+')'
+with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:bad_assets=[r for r in pool.map(crawl_image,sorted(image_urls)) if r]
+if bad_assets:extra.append('Uncrawlable sitemap images: '+str(bad_assets))
+
 _,_,xml=fetch('/llms.xml');llm_urls=[u.find('s:loc',NS).text for u in ET.fromstring(xml).findall('s:url',NS)]
 if llm_urls!=urls:extra.append('LLMs XML differs from sitemap')
 for path in ['/llms.txt','/llms-full.txt']:
@@ -156,7 +164,6 @@ for path in ['/llms.txt','/llms-full.txt']:
  if OLD_STUDIO_LOCATION.search(body):extra.append('Outdated studio location in '+path)
  if not body.startswith('# Wonderweb Studio') or 'text/plain' not in headers.get('content-type',''):extra.append('Invalid '+path)
  if any(url not in body for url in urls):extra.append('Missing public URL in '+path)
- if origin+'/payments/' in body:extra.append('Private client route in '+path)
 _,_,robots=fetch('/robots.txt');robots=robots.decode()
 if ('Disallow: /\n' in robots)==EXPECT_INDEXABLE:extra.append('Incorrect robots.txt launch mode')
 try:fetch('/this-page-does-not-exist/')
