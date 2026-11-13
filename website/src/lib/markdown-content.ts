@@ -1,3 +1,4 @@
+import {featuredImagePath} from './featured-path';
 import {migratedByPath,publishedMigrations,migrationPageSize,migrationLibraryPath} from './migrated-content';
 import {migratedDocument} from './migrated-body';
 import {locationReading} from './location-reading';
@@ -7,7 +8,6 @@ import {servicePrices,customServicePrices,websiteProjects,formatPrice,paymentTer
 import {caseStudyDetails} from './case-study-details';
 import {services,industries,work} from './content';
 import {markdownPath} from './content-paths';
-import {editorialImages} from './editorial-images';
 import {industryDetails} from './industry-details';
 import {locationAnswers} from './location-answers';
 import {marketBriefs} from './location-depth';
@@ -32,8 +32,7 @@ export function markdownBody(page:SeoPage):string{
  const blocks:string[]=[];
  if(kind==='resources'&&slug){
   const a=articles.find(a=>a.slug===slug)!;
-  const image=editorialImages[slug];
-  blocks.push(`Author: Wonderweb Studio editorial team\n\n![${image.alt}](${absoluteUrl(image.src)})`,sections(a.sections.map(s=>[s.title,s.body+(s.links?.length?'\n\n'+s.links.map(l=>`[${l.label}](${absoluteUrl(l.href)})`).join(' · '):'')])),`## Your next-step checklist\n\n${bullets(a.checklist)}`,faq(a.faqs||[]));
+  blocks.push(`Author: Wonderweb Studio editorial team`,sections(a.sections.map(s=>[s.title,s.body+(s.links?.length?'\n\n'+s.links.map(l=>`[${l.label}](${absoluteUrl(l.href)})`).join(' · '):'')])),`## Your next-step checklist\n\n${bullets(a.checklist)}`,faq(a.faqs||[]));
   if(a.sources?.length)blocks.push(`## Further reading\n\n${bullets(a.sources.map(s=>`[${s.title}](${s.url})`))}`);
   blocks.push(`## Related guides\n\n${links(relatedArticles(a).map(a=>`/resources/${a.slug}/`))}`);
   blocks.push(`## Related services\n\n${links(a.related.map(s=>`/services/${s}/`))}`);
@@ -69,13 +68,14 @@ export function markdownBody(page:SeoPage):string{
  if(page.path==='/pricing/')blocks.push(paymentTerms.general,sections(plans.map(p=>[p.name,`From $${p.price} USD per month. ${p.description}\n\n${bullets(p.items)}\n\n${p.note}`])),sections(servicePrices.map(p=>[p.name,`From ${formatPrice(p.price)} USD per ${p.cadence}. ${p.description}\n\n${bullets(p.includes)}\n\n${p.excludes}\n\n[Explore the service](${absoluteUrl(`/services/${p.service}/`)})`])),sections(websiteProjects.map(p=>[p.name,`From ${formatPrice(p.price)} USD paid in full, or ${p.months} monthly payments from ${formatPrice(p.installment)} USD. Payment-plan total: ${formatPrice(p.installment*p.months)} USD.\n\n${bullets(p.includes)}\n\n${p.excludes}`])),sections(customServicePrices.map(p=>[p.name,`Scoped quote. ${p.description} ${p.scope}`])),paymentTerms.installments,paymentTerms.hosting,paymentTerms.retainers,faq(pricingFaqs));
  if(page.path==='/'||page.path==='/about/'||page.path==='/contact/')blocks.push(`## Studio facts\n\n${site.positioning} We provide websites, SEO, paid advertising, social media and creative content for small businesses and home-service companies. Founder, CEO and team lead: Saikat Chowdhury. Our team collaborates across locations and time zones.\n\nContact: ${site.email}. Call requests include a preferred date and time and require confirmation.`,faq([studioCoverageFaq]),links(['/services/','/pricing/','/results/','/locations/','/contact/']));
  if(page.children?.length)blocks.push(`## Explore\n\n${links(page.children)}`);
+ if(kind==='payments')blocks.push('Payment follows an approved proposal and invoice. Confirm the amount, currency and reference with the studio before paying. This public guide contains no client-specific invoice or payment details. Contact info@wonderwebstudio.com for your invoice link.');
  if(kind==='privacy-policy'||kind==='terms')blocks.push(`This is a discovery summary. Read the complete current policy on the [canonical website page](${absoluteUrl(page.path)}).`);
  return blocks.filter(Boolean).join('\n\n');
 }
 
 export function pageMarkdown(page:SeoPage):string{
- return `# ${page.title}\n\n> ${page.description}\n\nCanonical page: ${absoluteUrl(page.path)}\nFormat: Markdown content guide, generated from the website’s editorial data. The HTML page is the complete reference.\n${page.published?`Published: ${page.published}\n`:''}${page.modified?`Updated: ${page.modified}\n`:''}\n${markdownBody(page)}\n\n---\n\n[Contact Wonderweb Studio](${absoluteUrl('/contact/')}) · [Content directory](${absoluteUrl('/content/index.md')})\n`;
+ return `# ${page.title}\n\n> ${page.description}\n\nCanonical page: ${absoluteUrl(page.path)}\nPublisher: ${site.positioning}\nPrimary client market: United States. Service availability: worldwide.\nFeatured image: ${absoluteUrl(featuredImagePath(page.path))}\nFormat: Markdown content guide, generated from the website’s editorial data. The HTML page is the complete reference.\n${page.published?`Published: ${page.published}\n`:''}${page.modified?`Updated: ${page.modified}\n`:''}\n![${page.title} featured editorial cover](${absoluteUrl(featuredImagePath(page.path))})\n\n${markdownBody(page)}\n\n---\n\n[Contact Wonderweb Studio](${absoluteUrl('/contact/')}) · [Content directory](${absoluteUrl('/content/index.md')})\n`;
 }
 
 export const markdownPages=new Map(seoPages.filter(p=>p.index!==false).map(p=>[markdownPath(p.path),p]));
-export function markdownIndex(){return `# Wonderweb Studio content directory\n\nMarkdown guides to the public website. Canonical HTML pages remain the primary reference.\n\n${getPublicSeoPages().map(p=>`- [${p.title}](${absoluteUrl(markdownPath(p.path))}) - [Website page](${absoluteUrl(p.path)}): ${p.description}`).join('\n')}\n`;}
+export function markdownIndex(){return `# Wonderweb Studio content directory\n\n${site.positioning}\n\nMarkdown guides to the public website. Canonical HTML pages remain the primary reference.\n\n${getPublicSeoPages().map(p=>`- [${p.title}](${absoluteUrl(markdownPath(p.path))}) - [Website page](${absoluteUrl(p.path)}): ${p.description}`).join('\n')}\n`;}

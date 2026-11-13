@@ -3,9 +3,9 @@ export const site = {
   name: 'Wonderweb Studio',
   url: (process.env.NEXT_PUBLIC_SITE_URL || 'https://www.wonderwebstudio.com').replace(/\/+$/, ''),
   email: 'info@wonderwebstudio.com',
-  description: 'Remote web design and digital marketing agency serving businesses worldwide, including the United States, Canada and Australia. Websites, SEO, ads and social.',
-  positioning: 'Wonderweb Studio is a fully remote web design and digital marketing agency serving businesses worldwide, including the United States, Canada and Australia.',
-  serviceAreas: ['Worldwide', 'United States', 'Canada', 'Australia'],
+  description: 'Web design and digital marketing for US small businesses and home-service companies. A fully remote agency serving US clients first and businesses worldwide.',
+  positioning: 'Wonderweb Studio is a fully remote web design and digital marketing agency focused primarily on US small businesses and home-service companies, with services available worldwide, including Canada and Australia.',
+  serviceAreas: ['United States', 'Worldwide', 'Canada', 'Australia'],
   socials: [
     { name: 'Instagram', url: 'https://www.instagram.com/wonderwebstudio' },
     { name: 'Facebook', url: 'https://www.facebook.com/wonderwebstudioltd' },
@@ -16,7 +16,7 @@ export const site = {
 };
 export const studioCoverageFaq:[string,string]=[
   'Where does Wonderweb Studio work with clients?',
-  'We are a fully remote agency serving businesses worldwide, including the United States, Canada and Australia. Our team collaborates across locations, with a shared project plan and review times agreed around your time zone. Our market guides describe the businesses we serve, not physical studio offices.',
+  'We are a fully remote agency focused primarily on US small businesses and home-service companies. We also serve businesses worldwide, including Canada and Australia. Our team collaborates across locations, with a shared project plan and review times agreed around your time zone. Our market guides describe the businesses we serve, not physical studio offices.',
 ];
 export const indexable = isSiteIndexable();
 export function jsonLd(value: unknown) { return JSON.stringify(value).replace(/</g, '\\u003c'); }

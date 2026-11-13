@@ -1,0 +1,211 @@
+{
+  "model": "gemini-3.1-flash-image",
+  "generated": "2026-11-13",
+  "provider": "Google Gemini API",
+  "style": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.",
+  "assets": [
+    {
+      "slug": "ai-search-optimization",
+      "file": "/editorial/topics/ai-search-optimization.webp",
+      "scene": "A translucent search lens above a stack of cited article cards, with a small connected constellation representing AI discovery.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A translucent search lens above a stack of cited article cards, with a small connected constellation representing AI discovery.",
+      "sha256": "d56a43c6399bf0fe3d939f812bad719881569ba11752dd9c37837f2b4844b95d"
+    },
+    {
+      "slug": "local-services-ads",
+      "file": "/editorial/topics/local-services-ads.webp",
+      "scene": "A miniature home-service van beside a house, a phone inquiry card and a neighborhood location pin.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A miniature home-service van beside a house, a phone inquiry card and a neighborhood location pin.",
+      "sha256": "3a0abaf0bb8a39789612273fd0a8e8ef681d01d674e8445f92bde6ee4a12691f"
+    },
+    {
+      "slug": "microsoft-ads",
+      "file": "/editorial/topics/microsoft-ads.webp",
+      "scene": "A cobalt search window, a precise pointer and a small storefront connected by a curved path.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A cobalt search window, a precise pointer and a small storefront connected by a curved path.",
+      "sha256": "75989b6e78a17efe1b3b10c461562fdef846e52befce7d48e41d6d58c0067926"
+    },
+    {
+      "slug": "linkedin-ads",
+      "file": "/editorial/topics/linkedin-ads.webp",
+      "scene": "Three professional profile cards connected to a business proposal folder, with a small conversation bubble.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: Three professional profile cards connected to a business proposal folder, with a small conversation bubble.",
+      "sha256": "c3235b7fbe731169becaf54d4fd3cced4f14ebfb8d917149d16dfde174918b57"
+    },
+    {
+      "slug": "email-marketing",
+      "file": "/editorial/topics/email-marketing.webp",
+      "scene": "An open envelope with carefully arranged newsletter cards, a small calendar and a reply bubble.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: An open envelope with carefully arranged newsletter cards, a small calendar and a reply bubble.",
+      "sha256": "b69524fc6f4064664ca37cf02e7b4935625eb5cab16a8e6b10008383be82853e"
+    },
+    {
+      "slug": "reputation-management",
+      "file": "/editorial/topics/reputation-management.webp",
+      "scene": "A storefront beside authentic-looking review cards with empty text lines, conversation bubbles and a small protective shield. No stars or rating numbers.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A storefront beside authentic-looking review cards with empty text lines, conversation bubbles and a small protective shield. No stars or rating numbers.",
+      "sha256": "593394fbed723bec6af04747fbd62d9c509737c031874c07eb7b0083de58c926"
+    },
+    {
+      "slug": "conversion-rate-optimization",
+      "file": "/editorial/topics/conversion-rate-optimization.webp",
+      "scene": "Two different landing-page wireframes beside a cursor and a branching path ending in a clear inquiry form.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: Two different landing-page wireframes beside a cursor and a branching path ending in a clear inquiry form.",
+      "sha256": "55457cca7980a609295420e601b0a6b812887afb6fc47eca55787bfd1f8f107c"
+    },
+    {
+      "slug": "lead-generation",
+      "file": "/editorial/topics/lead-generation.webp",
+      "scene": "A small storefront connected by a flowing path to a contact card, a phone and an appointment calendar.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A small storefront connected by a flowing path to a contact card, a phone and an appointment calendar.",
+      "sha256": "221bb3f5ac58265765b894203873b1d4041edb98b9068204458b7d0779b47466"
+    },
+    {
+      "slug": "digital-media-buying",
+      "file": "/editorial/topics/digital-media-buying.webp",
+      "scene": "A coordinated set of advertising placements on a television, mobile screen and desktop display, with abstract creative panels.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A coordinated set of advertising placements on a television, mobile screen and desktop display, with abstract creative panels.",
+      "sha256": "26e7ca6ef409d819aa617ada1ce4f07a2583307784fab9a5b49d276c12b93a6d"
+    },
+    {
+      "slug": "franchise-marketing",
+      "file": "/editorial/topics/franchise-marketing.webp",
+      "scene": "Several distinct miniature storefronts joined by a shared planning grid and individual location pins.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: Several distinct miniature storefronts joined by a shared planning grid and individual location pins.",
+      "sha256": "b11375db551d3c3b11b66571c3ccbb99167af235c380effe8f3c3669bdb0b080"
+    },
+    {
+      "slug": "ai-workflow-automation",
+      "file": "/editorial/topics/ai-workflow-automation.webp",
+      "scene": "A carefully connected sequence of document, approval and calendar modules, with a small translucent automation hub.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A carefully connected sequence of document, approval and calendar modules, with a small translucent automation hub.",
+      "sha256": "391b249b9432ed32b80f1caf8be139ed584f9b4431ffab9f37a476bce5708ff4"
+    },
+    {
+      "slug": "web-design",
+      "file": "/editorial/topics/web-design.webp",
+      "scene": "An art-directed desktop browser and mobile layout surrounded by typography tiles and a subtle lavender color swatch.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: An art-directed desktop browser and mobile layout surrounded by typography tiles and a subtle lavender color swatch.",
+      "sha256": "c6e8e5948607264bf475438c4a5eb22c88769d25d2385ff58d77324aca179ee3"
+    },
+    {
+      "slug": "web-development",
+      "file": "/editorial/topics/web-development.webp",
+      "scene": "Layered browser panels with modular code blocks, a small bracket sculpture and a responsive mobile screen. No fake readable code.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: Layered browser panels with modular code blocks, a small bracket sculpture and a responsive mobile screen. No fake readable code.",
+      "sha256": "098f7abd5b50724bb86b62832c26f3f4d1b1b2c7aafe74ea70c8f35a767a995f"
+    },
+    {
+      "slug": "website-management",
+      "file": "/editorial/topics/website-management.webp",
+      "scene": "A tidy website dashboard with a content update card, calendar tile and small maintenance tool.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A tidy website dashboard with a content update card, calendar tile and small maintenance tool.",
+      "sha256": "7f65da37b431c72ea70977b0ae6f0b1a0dbcf0d5a02f5950bd0dd81afaa07d2a"
+    },
+    {
+      "slug": "seo",
+      "file": "/editorial/topics/seo.webp",
+      "scene": "A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages.",
+      "sha256": "b6a1ea48b73cf07e53c979c24bd139f082e9fdd6efae034e9c92d7c71d9d4d63"
+    },
+    {
+      "slug": "local-seo",
+      "file": "/editorial/topics/local-seo.webp",
+      "scene": "A small neighborhood of home-service businesses, a map tile and a prominent location pin connected to a search panel.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A small neighborhood of home-service businesses, a map tile and a prominent location pin connected to a search panel.",
+      "sha256": "c5c55716960f7363601b5cc14da00977340d8bd52865c8dd54682eac947c9847"
+    },
+    {
+      "slug": "google-ads",
+      "file": "/editorial/topics/google-ads.webp",
+      "scene": "A search results panel beside a campaign budget dial and a small home-service business model. No performance figures.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A search results panel beside a campaign budget dial and a small home-service business model. No performance figures.",
+      "sha256": "cabb3747b68aafedd6d4300834a9a55faed8cd87e472a3e1d06e4062b3f57c14"
+    },
+    {
+      "slug": "meta-ads",
+      "file": "/editorial/topics/meta-ads.webp",
+      "scene": "Two mobile social advertising frames with creative photo shapes, a campaign planning board and a small audience cluster.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: Two mobile social advertising frames with creative photo shapes, a campaign planning board and a small audience cluster.",
+      "sha256": "7264fd71acc1243db2c103d8541f76aabcd6f32159370bf3298dc347179bff31"
+    },
+    {
+      "slug": "social-media-management",
+      "file": "/editorial/topics/social-media-management.webp",
+      "scene": "An editorial calendar surrounded by coordinated social post cards, a camera and a conversation bubble.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: An editorial calendar surrounded by coordinated social post cards, a camera and a conversation bubble.",
+      "sha256": "0a66411f1ac49ccbc8887df1c621464a733ba40efc2765e750401b242f68ffbe"
+    },
+    {
+      "slug": "content-creation",
+      "file": "/editorial/topics/content-creation.webp",
+      "scene": "A beautifully arranged open notebook, article pages, a camera and a small recording microphone.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A beautifully arranged open notebook, article pages, a camera and a small recording microphone.",
+      "sha256": "72764c1d4a28caa78b051fafd32a1c5ed34ad7061feef0ca1f807e9dd9d5e3b3"
+    },
+    {
+      "slug": "content-management",
+      "file": "/editorial/topics/content-management.webp",
+      "scene": "A content library with folders, draft cards, an approval checkmark and a publishing calendar.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A content library with folders, draft cards, an approval checkmark and a publishing calendar.",
+      "sha256": "89594c1d54e2ffe9acefca154c73a66a3cb967a477cfb7cef3171d2104ce6609"
+    },
+    {
+      "slug": "graphic-design",
+      "file": "/editorial/topics/graphic-design.webp",
+      "scene": "Layered brand cards, color swatches, geometric typography pieces and a precise layout grid.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: Layered brand cards, color swatches, geometric typography pieces and a precise layout grid.",
+      "sha256": "81580a3b6fbfa90e0d23cc580b216e1243df0d7096d7e838b0348f1bb6538cc0"
+    },
+    {
+      "slug": "thumbnail-design",
+      "file": "/editorial/topics/thumbnail-design.webp",
+      "scene": "A large video thumbnail composition with an abstract portrait silhouette, a play symbol and crop corners.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A large video thumbnail composition with an abstract portrait silhouette, a play symbol and crop corners.",
+      "sha256": "49b7fa164a6c141cc2cd2f8d5d471284bc13a5f7ecea6ccb430aa2a13f67a521"
+    },
+    {
+      "slug": "landing-page-design",
+      "file": "/editorial/topics/landing-page-design.webp",
+      "scene": "A focused landing-page browser panel with a headline block, a single call-to-action button and a short contact form.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A focused landing-page browser panel with a headline block, a single call-to-action button and a short contact form.",
+      "sha256": "ddab3d9ca686db77c6e8ce1cb35c02149d22af0093177c58fd24cbe623eed33f"
+    },
+    {
+      "slug": "remote-studio",
+      "file": "/editorial/topics/remote-studio.webp",
+      "scene": "A refined global collaboration composition with a globe, connected laptop screens and a shared creative brief. No flags or buildings implying a physical office.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A refined global collaboration composition with a globe, connected laptop screens and a shared creative brief. No flags or buildings implying a physical office.",
+      "sha256": "8f5d43a67b996d70b5277a0e78c2f45580159d4f9d9ad41e275223ddbfab4ae2"
+    },
+    {
+      "slug": "home-services",
+      "file": "/editorial/topics/home-services.webp",
+      "scene": "An elegant miniature neighborhood featuring a roof, an HVAC unit, plumbing tools and a contractor van around a shared marketing brief.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: An elegant miniature neighborhood featuring a roof, an HVAC unit, plumbing tools and a contractor van around a shared marketing brief.",
+      "sha256": "6405bc264e5161e219574fb70de36a5380192f482f2fc703682f02fa96ad8f1e"
+    },
+    {
+      "slug": "market-planning",
+      "file": "/editorial/topics/market-planning.webp",
+      "scene": "A folded map with neighborhood blocks, service-area boundary lines and a search lens. No real address or office marker.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A folded map with neighborhood blocks, service-area boundary lines and a search lens. No real address or office marker.",
+      "sha256": "4593095e388508673485f45fec03026af6198704b3a5f5c3601e65a7979e6726"
+    },
+    {
+      "slug": "editorial-library",
+      "file": "/editorial/topics/editorial-library.webp",
+      "scene": "A curated stack of field guides, open notebook, search lens and bookmarked content cards.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A curated stack of field guides, open notebook, search lens and bookmarked content cards.",
+      "sha256": "994224e366beed79a56cb95554e3424aa6954a359455b915aa0e30dc7f0ba1d0"
+    },
+    {
+      "slug": "project-agreement",
+      "file": "/editorial/topics/project-agreement.webp",
+      "scene": "A neatly arranged project brief, transparent shield, envelope and agreement folder with blank lines. No legal seals or readable private details.",
+      "prompt": "Create a polished editorial illustration for Wonderweb Studio, a remote web design and digital marketing agency focused on US small businesses and serving clients worldwide. Landscape 16:9. Sophisticated tactile 3D paper-and-ceramic forms, fine sand-like grain, soft studio shadows, warm ivory background, cobalt and lavender with a restrained lime accent. Distinct thoughtful composition, objects large and readable on mobile, elegant professional design. No text, letters, numbers, logos, watermarks, flags, fake metrics, money piles or growth promises. Conceptual artwork, not a photograph of a real client or office.\nSubject: A neatly arranged project brief, transparent shield, envelope and agreement folder with blank lines. No legal seals or readable private details.",
+      "sha256": "b25c5e4e8b37ee8350b00e9b5a19cf0c3fe125b25c09a096db52b93fd044c5bf"
+    }
+  ]
+}

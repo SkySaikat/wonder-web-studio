@@ -1,3 +1,4 @@
+import {featuredImagePath} from './featured-path';
 import {site} from './site';
 import {absoluteUrl} from './seo';
 import {seoByPath, seoImagePath, type SeoPage} from './seo-pages';
@@ -17,7 +18,7 @@ export function imageSchema(path:string):Node{
  return {'@type':'ImageObject','@id':`${url}#image`,url,contentUrl:url,name:image.title,caption:image.description,description:image.description,encodingFormat:image.type,width:image.width,height:image.height};
 }
 export function organizationGraph(){return {'@context':'https://schema.org','@graph':[
- {'@type':'Organization','@id':orgId,name:site.name,url:`${site.url}/`,description:site.description,areaServed:site.serviceAreas,email:site.email,logo:ref(`${absoluteUrl('/brand/wonderweb-studio.svg')}#image`),sameAs:site.socials.map(s=>s.url),founder:ref(personId),contactPoint:{'@type':'ContactPoint',contactType:'sales inquiries',email:site.email,url:absoluteUrl('/contact/'),availableLanguage:'English'}},
+ {'@type':'Organization','@id':orgId,name:site.name,url:`${site.url}/`,description:site.description,areaServed:site.serviceAreas,knowsAbout:['Web design','SEO','Paid advertising','Social media marketing','US small-business marketing'],email:site.email,logo:ref(`${absoluteUrl('/brand/wonderweb-studio.svg')}#image`),sameAs:site.socials.map(s=>s.url),founder:ref(personId),contactPoint:{'@type':'ContactPoint',contactType:'sales inquiries',email:site.email,url:absoluteUrl('/contact/'),availableLanguage:'English'}},
  imageSchema('/brand/wonderweb-studio.svg'),
  {'@type':'WebSite','@id':websiteId,url:`${site.url}/`,name:site.name,description:site.description,publisher:ref(orgId),inLanguage:'en'},
  {'@type':'Person','@id':personId,name:'Saikat Chowdhury',jobTitle:'Founder & CEO · Team Lead',url:absoluteUrl('/about/'),image:absoluteUrl('/work/saikat.webp'),worksFor:ref(orgId)},
@@ -25,7 +26,7 @@ export function organizationGraph(){return {'@context':'https://schema.org','@gr
 export function pageGraph(path:string){
  const page=seoByPath.get(path);if(!page)throw new Error(`No SEO entry for ${path}`);
  const url=absoluteUrl(path);const pageId=`${url}#webpage`;const entityId=`${url}#main-entity`;
- const imagePaths=[...new Set([seoImagePath(path),...(page.images||[])])];
+ const imagePaths=[...new Set([featuredImagePath(path),...(page.images||[]),seoImagePath(path)])];
  const pageNode:Node={'@type':page.type,'@id':pageId,url,name:page.title,description:page.description,isPartOf:ref(websiteId),publisher:ref(orgId),inLanguage:'en',primaryImageOfPage:ref(`${absoluteUrl(imagePaths[0])}#image`),image:imagePaths.map(p=>ref(`${absoluteUrl(p)}#image`))};
  if(page.modified)pageNode.dateModified=page.modified;
  if(page.published)pageNode.datePublished=page.published;
@@ -51,7 +52,7 @@ export function pageGraph(path:string){
  return {'@context':'https://schema.org','@graph':nodes};
 }
 function mainEntity(page:SeoPage,id:string,pageId:string):Node{
- const base:Node={'@type':page.entity,'@id':id,name:page.label,description:page.description,url:absoluteUrl(page.path),mainEntityOfPage:ref(pageId),image:ref(`${absoluteUrl(seoImagePath(page.path))}#image`)};
+ const base:Node={'@type':page.entity,'@id':id,name:page.label,description:page.description,url:absoluteUrl(page.path),mainEntityOfPage:ref(pageId),image:ref(`${absoluteUrl(featuredImagePath(page.path))}#image`)};
  if(page.entity==='Service')return {...base,name:page.title,serviceType:page.serviceType,provider:ref(orgId),...(page.area?{areaServed:{'@type':page.area.kind,name:page.area.name,containedInPlace:{'@type':page.area.kind==='City'?'State':'Country',name:page.area.region}}}:{areaServed:site.serviceAreas}),...(page.audience?{audience:{'@type':'BusinessAudience',audienceType:page.audience}}:{})};
  if(page.entity==='BlogPosting'||page.entity==='Article'){
   const a=articles.find(a=>page.path===`/resources/${a.slug}/`);

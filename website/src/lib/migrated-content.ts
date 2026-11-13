@@ -1,3 +1,4 @@
+import {featuredImagePath} from './featured-path';
 import entries from '@/data/migrated/index.json';
 import seoTitles from '@/data/migration-seo-titles.json';
 
@@ -13,7 +14,7 @@ export function publishedMigrations(kind?:string,now:Date|number=new Date()) {
  return migratedEntries.filter(e=>(!kind||e.kind===kind)&&isReleased(e,now)).sort((a,b)=>b.originalPublished.localeCompare(a.originalPublished)||a.slug.localeCompare(b.slug));
 }
 export const migratedByPath = new Map(migratedEntries.map(e=>[e.path,e]));
-export function migrationCover(entry:MigratedEntry) {return `/seo/${entry.path.slice(1,-1).replaceAll('/','--')}.png`;}
+export function migrationCover(entry:MigratedEntry) {return featuredImagePath(entry.path);}
 export function migrationLibraryPath(kind:string,page=1){return kind==='resources'?`/resources/library/${page}/`:page===1?'/solutions/':`/solutions/page/${page}/`;}
 
 /** Keep search snippets concise while retaining the full editorial headline. */

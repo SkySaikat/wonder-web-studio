@@ -1,0 +1,12 @@
+.page-featured-image{margin:0;overflow:hidden;border-radius:24px;border:1px solid #dfd6e6;background:#f4f0ea;box-shadow:0 12px 32px #3723430a}
+.page-featured-image img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover}
+.page-hero-with-image .page-hero-content{display:grid;grid-template-columns:1.15fr 1fr;gap:48px;align-items:center}
+.page-hero-with-image h1{font-size:clamp(42px,4.3vw,76px)}
+.page-hero-with-image .page-featured-image{transform:rotate(1.5deg)}
+.service-featured-row{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center;margin-bottom:48px}
+.service-featured-row .section-heading{display:block;margin:0}
+.service-featured-row .heading-aside{margin-top:24px;max-width:100%}
+.location-poster .page-featured-image{margin:24px 0;box-shadow:none}
+.prose .page-featured-image{margin-bottom:32px}
+@media(max-width:850px){.page-hero-with-image .page-hero-content,.service-featured-row{grid-template-columns:1fr;gap:30px}.page-hero-with-image .page-featured-image{max-width:650px;transform:none}.page-featured-image{border-radius:18px}}
+@media(prefers-reduced-motion:reduce){.page-hero-with-image .page-featured-image{transform:none}}

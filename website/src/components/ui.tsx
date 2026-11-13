@@ -1,3 +1,4 @@
+import {FeaturedImage} from './featured-image';
 import Link from 'next/link';
 import {BookCallButton} from './booking';
 import { ArrowUpRight, ArrowRight, Plus, Check } from 'lucide-react';
@@ -12,8 +13,8 @@ export function Breadcrumbs({items}:{items:{label:string;href?:string}[]}) {
   const list=[{label:'Home',href:'/'},...items];
   return <><nav aria-label="Breadcrumb" className="breadcrumbs">{list.map((item,i)=><span key={i}>{i>0?<span aria-hidden="true">/</span>:null}{item.href?<Link href={item.href}>{item.label}</Link>:<span aria-current="page">{item.label}</span>}</span>)}</nav></>;
 }
-export function PageHero({eyebrow,title,description,crumbs,children}:{eyebrow:string;title:string;description:string;crumbs?:{label:string;href?:string}[];children?:ReactNode}) {
-  return <section className="page-hero"><div className="container">{crumbs?<Breadcrumbs items={crumbs}/>:null}<Eyebrow>{eyebrow}</Eyebrow><h1>{title}</h1><p className="hero-description">{description}</p>{children}</div></section>;
+export function PageHero({eyebrow,title,description,crumbs,children,featuredPath}:{eyebrow:string;title:string;description:string;crumbs?:{label:string;href?:string}[];children?:ReactNode;featuredPath?:string}) {
+  return <section className={`page-hero ${featuredPath?'page-hero-with-image':''}`}><div className="container">{crumbs?<Breadcrumbs items={crumbs}/>:null}<div className="page-hero-content"><div><Eyebrow>{eyebrow}</Eyebrow><h1>{title}</h1><p className="hero-description">{description}</p>{children}</div>{featuredPath?<FeaturedImage path={featuredPath} priority/>:null}</div></div></section>;
 }
 export function CTA({title='Your next chapter starts with a conversation.',text='Tell us where your business is today and where you want it to go. We’ll help you find a useful next step.'}:{title?:string;text?:string}) {
   return <section className="cta-section"><div className="container cta-inner"><div><Eyebrow>LET’S MAKE SOMETHING MATTER</Eyebrow><h2>{title}</h2><p>{text}</p></div><BookCallButton className="cta-circle" icon={false}><ArrowUpRight size={58}/><span>Book a call</span></BookCallButton></div></section>;
