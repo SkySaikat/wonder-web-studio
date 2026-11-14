@@ -1,0 +1,22 @@
+.momentum-section{background:#ece7f0}
+.momentum-heading{display:grid;grid-template-columns:1.5fr 1fr;gap:70px;align-items:center;margin-bottom:42px}
+.momentum-heading h2{margin:22px 0;font-size:clamp(44px,5vw,70px);line-height:1.04;letter-spacing:-.045em}
+.momentum-heading p{max-width:650px;font-size:17px;line-height:1.85;color:#655a6d}
+.momentum-focus{justify-self:end;display:grid;grid-template-columns:24px 1fr;align-items:center;gap:18px 16px;border-left:1px solid #cfc2da;padding:20px 0 20px 32px;color:#5c4377;font-size:20px;letter-spacing:-.025em}
+.momentum-card{margin:0;background:#fcfafc;border:1px solid #d5c9df;border-radius:28px;padding:38px 40px 24px;box-shadow:0 18px 55px #4e33550a}
+.momentum-card-heading{display:flex;gap:28px;justify-content:space-between;align-items:flex-start}
+.momentum-card-heading h3{font-size:30px;font-weight:500;line-height:1.2;letter-spacing:-.035em;margin:16px 0 0}
+.momentum-legend{font-size:12px;display:flex;align-items:center;gap:9px;color:#796887;padding-top:8px}
+.momentum-legend i{width:7px;height:7px;background:#6d4c95;border-radius:50%;flex-shrink:0}
+.momentum-plot{position:relative;margin-top:14px}
+.momentum-plot svg{display:block;width:100%;height:340px;overflow:visible}
+.momentum-start{position:absolute;left:27%;top:40%;display:flex;flex-direction:column;gap:5px;font-size:13px;color:#604677;transform:translateX(-5px)}
+.momentum-start svg{width:25px;height:25px;align-self:flex-start}
+.momentum-axis{display:flex;justify-content:space-between;gap:25px;padding:0 2.5%;font-size:12px;color:#7b6d83}
+.momentum-card figcaption{font-size:11px;color:#807487;line-height:1.6;margin-top:24px;border-top:1px solid #e9e1ee;padding-top:18px}
+.momentum-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin-top:34px}
+.momentum-steps h3{font-size:19px;font-weight:500;letter-spacing:-.025em;margin:0 0 10px;color:#45344f}
+.momentum-steps p{font-size:14px;line-height:1.8;color:#6d6174;margin:0}
+.momentum-actions{display:flex;gap:30px;align-items:center;margin-top:32px;flex-wrap:wrap}
+@media(max-width:850px){.momentum-heading{grid-template-columns:1fr;gap:18px}.momentum-focus{justify-self:start;font-size:17px;padding:14px 0 14px 22px;gap:13px 14px}.momentum-card{padding:28px 25px 22px}.momentum-card-heading{flex-direction:column;gap:14px}.momentum-steps{gap:22px}}
+@media(max-width:600px){.momentum-heading{margin-bottom:28px}.momentum-heading p{font-size:15px}.momentum-card{border-radius:22px;padding:26px 18px 20px}.momentum-card-heading h3{font-size:27px}.momentum-plot{margin-top:24px}.momentum-plot>svg{height:220px}.momentum-start{font-size:11px;top:35%}.momentum-axis{font-size:10px;gap:30px;line-height:1.5}.momentum-axis span:last-child{text-align:right;max-width:130px}.momentum-steps{grid-template-columns:1fr;gap:22px}.momentum-steps h3{font-size:20px}.momentum-card figcaption{font-size:10px}.momentum-actions{gap:22px}.momentum-actions>.button{width:100%;justify-content:center}.momentum-actions>.text-link{font-size:13px}.studio-featured-plan .studio-plan-cta{font-size:14px}.studio-featured-plan h3>span{flex-shrink:0}.studio-cta-icon{flex-shrink:0}}
