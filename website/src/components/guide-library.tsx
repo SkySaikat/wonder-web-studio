@@ -15,7 +15,7 @@ function GuideForm({guide}:{guide:Guide}){
   const widget=useRef<HTMLDivElement>(null);const widgetId=useRef<string|null>(null);const requestId=useRef('');
   const key=process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
   function mountWidget(){if(widget.current&&window.turnstile&&!widgetId.current)widgetId.current=window.turnstile.render(widget.current,{sitekey:key,action:'inquiry',theme:'light',callback:(value:string)=>setToken(value),'expired-callback':()=>setToken(''),'error-callback':()=>{setToken('');setError('The security check could not load. Please try again.')}});}
-  useEffect(()=>{requestId.current=crypto.randomUUID();mountWidget();return()=>{if(widgetId.current)window.turnstile?.remove(widgetId.current)}},[]);
+  useEffect(()=>{requestId.current=crypto.randomUUID();mountWidget();return()=>{if(widgetId.current)window.turnstile?.remove(widgetId.current);widgetId.current=null}},[]);
   async function submit(event:React.FormEvent<HTMLFormElement>){
     event.preventDefault();if(status==='sending')return;setError('');
     if(key&&!token){setError('Please complete the security check.');return;}

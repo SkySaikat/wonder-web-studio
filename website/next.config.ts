@@ -4,6 +4,7 @@ import guides from './src/data/download-guides.json';
 
 const config: NextConfig = {
   trailingSlash: true,
+  serverExternalPackages: ['nodemailer'],
   outputFileTracingIncludes: {'/*':['./src/data/migrated/*.json'],'/api/guides/*':['./private/guides/*']},
   poweredByHeader: false,
   async redirects() {
