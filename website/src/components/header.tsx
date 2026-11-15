@@ -1,40 +1,20 @@
 'use client';
 import Link from 'next/link';
-import {BookCallButton} from './booking';
 import Image from '@/components/content-image';
-import { useEffect, useRef, useState } from 'react';
-import { usePathname } from 'next/navigation';
-import { ArrowUpRight, Menu, X, ChevronDown } from 'lucide-react';
-const groups=[{title:'Websites & conversion',links:[['Website design','web-design'],['Web development','web-development'],['Website management','website-management'],['AI workflows','ai-workflow-automation'],['Landing pages','landing-page-design'],['Conversion optimization','conversion-rate-optimization']]},{title:'Search & advertising',links:[['SEO','seo'],['Local SEO','local-seo'],['AI search / AEO','ai-search-optimization'],['Google Ads','google-ads'],['Local Services Ads','local-services-ads'],['Meta Ads','meta-ads'],['Microsoft Ads','microsoft-ads'],['LinkedIn Ads','linkedin-ads'],['Digital media buying','digital-media-buying']]},{title:'Content & growth',links:[['Social media','social-media-management'],['Content creation','content-creation'],['Content management','content-management'],['Email marketing','email-marketing'],['Reputation management','reputation-management'],['Lead generation','lead-generation'],['Franchise marketing','franchise-marketing'],['Graphic design','graphic-design'],['Thumbnails','thumbnail-design']]}];
+import {BookCallButton} from './booking';
+import {useState,useEffect,useRef} from 'react';
+import {usePathname} from 'next/navigation';
+import {ArrowUpRight,Menu,X,ChevronDown,Globe,Search,Layers,BookOpen,Sparkles} from 'lucide-react';
+import {serviceGroups} from '@/lib/navigation';
+const industryGroups=[{title:'Home services',links:[['Roofing','roofing'],['HVAC','hvac'],['Plumbing','plumbing'],['Electricians','electricians']]},{title:'Home & outdoor',links:[['Bathroom remodeling','bathroom-remodeling'],['Kitchen remodeling','kitchen-remodeling'],['Landscaping','landscaping'],['Pest control','pest-control']]},{title:'Find your fit',links:[['Small businesses','small-business'],['Explore all industries','']]}];
+const resources=[{title:'Learn & plan',links:[['Free downloadable guides','/guides/'],['Blog & practical advice','/resources/'],['Industry service guides','/solutions/']]},{title:'See the work',links:[['Campaign case studies','/results/'],['Website portfolio','/work/'],['Meet the studio','/about/']]},{title:'Make your next move',links:[['Pricing & starting scopes','/pricing/'],['Markets we serve','/locations/'],['Contact the team','/contact/']]}];
 export function Header(){
-  const headerRef=useRef<HTMLElement>(null);
-  const servicesTrigger=useRef<HTMLButtonElement>(null);
-  const hoverTimer=useRef<ReturnType<typeof setTimeout>|null>(null);
-  function cancelHoverClose(){if(hoverTimer.current)clearTimeout(hoverTimer.current)}
-  function openOnHover(){if(window.matchMedia('(hover:hover) and (min-width:1041px)').matches){cancelHoverClose();setServicesOpen(true);setHidden(false)}}
-  function closeOnLeave(){if(window.matchMedia('(hover:hover) and (min-width:1041px)').matches){cancelHoverClose();hoverTimer.current=setTimeout(()=>setServicesOpen(false),180)}}
-  useEffect(()=>()=>cancelHoverClose(),[]);
-  const [hidden,setHidden]=useState(false);
-  const [menu,setMenu]=useState(false);const [servicesOpen,setServicesOpen]=useState(false);const path=usePathname();
-  useEffect(()=>{setMenu(false);setServicesOpen(false);setHidden(false)},[path]);
-  useEffect(()=>{const close=(e:KeyboardEvent)=>{if(e.key==='Escape'){setMenu(false);setServicesOpen(false);if(servicesOpen)servicesTrigger.current?.focus()}};document.addEventListener('keydown',close);return()=>document.removeEventListener('keydown',close)},[servicesOpen]);
-  useEffect(()=>{
-    let previous=Math.max(0,window.scrollY);let travel=0;let direction=0;let frame=0;
-    const update=()=>{
-      frame=0;
-      const maxScroll=Math.max(0,document.documentElement.scrollHeight-window.innerHeight);
-      const current=Math.max(0,Math.min(window.scrollY,maxScroll));
-      const delta=current-previous;previous=current;
-      if(current<120){setHidden(false);travel=0;return;}
-      if(menu||servicesOpen||(headerRef.current?.contains(document.activeElement)&&document.activeElement?.matches(':focus-visible'))){setHidden(false);travel=0;return;}
-      const nextDirection=Math.sign(delta);
-      if(!nextDirection)return;
-      travel=nextDirection===direction?travel+Math.abs(delta):Math.abs(delta);direction=nextDirection;
-      if(travel>=14){setHidden(nextDirection>0);travel=0;}
-    };
-    const onScroll=()=>{if(!frame)frame=window.requestAnimationFrame(update)};
-    window.addEventListener('scroll',onScroll,{passive:true});
-    return()=>{window.removeEventListener('scroll',onScroll);window.cancelAnimationFrame(frame)};
-  },[menu,servicesOpen,path]);
-  return <header ref={headerRef} className={`site-header ${hidden&&!menu&&!servicesOpen?'header-hidden':''}`} onFocusCapture={()=>setHidden(false)}><div className="container header-inner"><Link href="/" className="logo" aria-label="Wonderweb Studio home"><Image src="/brand/wonderweb-studio.svg" alt="Wonderweb Studio" width={177} height={51} priority/></Link><nav className={`main-nav ${menu?'is-open':''}`} id="primary-navigation" aria-label="Main navigation"><div className="nav-dropdown" onMouseEnter={openOnHover} onMouseLeave={closeOnLeave} onBlur={e=>{if(!e.currentTarget.contains(e.relatedTarget as Node|null))setServicesOpen(false)}}><button ref={servicesTrigger} type="button" aria-expanded={servicesOpen} aria-controls="service-menu" onClick={()=>setServicesOpen(!servicesOpen)}>Services<ChevronDown size={14}/></button>{servicesOpen?<div id="service-menu" className="mega-menu">{groups.map(g=><div key={g.title}><span>{g.title}</span>{g.links.map(([label,slug])=><Link key={slug} href={`/services/${slug}/`}>{label}</Link>)}</div>)}<Link href="/services/" className="all-services">Explore all services <ArrowUpRight size={16}/></Link></div>:null}</div><Link href="/work/">Our work</Link><Link href="/industries/">Who we help</Link><Link href="/locations/">Locations</Link><Link href="/pricing/">Pricing</Link><Link href="/resources/">Blog</Link><Link href="/about/">The studio</Link><BookCallButton className="mobile-contact" onOpen={()=>{setMenu(false);setServicesOpen(false)}}/></nav><BookCallButton className="header-cta" onOpen={()=>{setMenu(false);setServicesOpen(false)}}/><button className="menu-toggle" onClick={()=>setMenu(!menu)} aria-label={menu?'Close menu':'Open menu'} aria-expanded={menu} aria-controls="primary-navigation">{menu?<X/>:<Menu/>}</button></div>{servicesOpen?<button className="menu-backdrop" tabIndex={-1} onClick={()=>setServicesOpen(false)} aria-label="Close services menu"/>:null}</header>;
+ const [open,setOpen]=useState<string|null>(null);const[mobile,setMobile]=useState(false);const path=usePathname();const ref=useRef<HTMLElement>(null);const lastTrigger=useRef<HTMLButtonElement|null>(null);const timer=useRef<ReturnType<typeof setTimeout>|null>(null);
+ const close=()=>{setOpen(null);setMobile(false)};
+ useEffect(()=>{setOpen(null);setMobile(false)},[path]);
+ useEffect(()=>{const esc=(e:KeyboardEvent)=>{if(e.key==='Escape'){setOpen(null);setMobile(false);lastTrigger.current?.focus()}};const outside=(e:PointerEvent)=>{if(!ref.current?.contains(e.target as Node)){setOpen(null);setMobile(false)}};document.addEventListener('keydown',esc);document.addEventListener('pointerdown',outside);return()=>{document.removeEventListener('keydown',esc);document.removeEventListener('pointerdown',outside);if(timer.current)clearTimeout(timer.current)}},[]);
+ const cancel=()=>{if(timer.current)clearTimeout(timer.current)};
+ function hover(name:string){if(window.matchMedia('(hover:hover) and (min-width:1041px)').matches){cancel();setOpen(name)}}
+ function leave(){if(window.matchMedia('(hover:hover) and (min-width:1041px)').matches){cancel();timer.current=setTimeout(()=>setOpen(null),180)}}
+ return <header className="site-header" ref={ref}><div className="container header-inner"><Link href="/" className="logo" aria-label="Wonderweb Studio home"><Image src="/brand/wonderweb-studio.svg" alt="Wonderweb Studio" width={177} height={51} priority/></Link><nav className={`main-nav ${mobile?'is-open':''}`} id="primary-navigation" aria-label="Main navigation">{['Services','Who we help','Resources'].map((name,index)=>{const menuGroups=index===0?serviceGroups:index===1?industryGroups:resources;const Icon=index===0?Search:index===1?Globe:BookOpen;return <div className="nav-dropdown" key={name} onMouseEnter={()=>hover(name)} onMouseLeave={leave} onBlur={e=>{if(!e.currentTarget.contains(e.relatedTarget as Node|null))setOpen(null)}}><button type="button" aria-expanded={open===name} aria-controls={`studio-menu-${index}`} onMouseEnter={e=>{lastTrigger.current=e.currentTarget}} onClick={e=>{cancel();lastTrigger.current=e.currentTarget;setOpen(e.detail>0&&window.matchMedia('(hover:hover)').matches?name:open===name?null:name)}}>{name}<ChevronDown size={14}/></button>{open===name?<div className="studio-mega" id={`studio-menu-${index}`} onMouseEnter={cancel}>{menuGroups.map((g,i)=><div className="studio-mega-group" key={g.title}><span>{g.title}</span>{g.links.map(([label,target])=><Link onClick={close} key={target} href={index===0?`/services/${target}/`:index===1?(target?`/industries/${target}/`:'/industries/'):target}>{i===0?<Icon/>:i===1?<Layers/>:<ArrowUpRight/>}{label}</Link>)}</div>)}<aside className="studio-mega-promo"><Sparkles size={30}/><h3>{index===2?'Your next good idea starts here.':'A little wonder. A clearer plan.'}</h3><p>{index===2?'Practical guides and real project stories to help you make your next decision.':'Tell us where you want to grow. We’ll connect the right people and the right work.'}</p>{index===2?<Link className="button" href="/guides/" onClick={close}>Explore free guides ↗</Link>:<BookCallButton onOpen={close}>Book a call</BookCallButton>}</aside><div className="studio-mega-bottom"><Link onClick={close} href={index===0?'/services/':index===1?'/industries/':'/resources/'}>Explore {name.toLowerCase()} ↗</Link><Link onClick={close} href="/results/">See campaign results ↗</Link><span>US focused. Fully remote. Worldwide.</span></div></div>:null}</div>})}<Link href="/work/">Our work</Link><Link href="/pricing/">Pricing</Link><Link href="/about/">The studio</Link><BookCallButton className="mobile-contact" onOpen={close}/></nav><BookCallButton className="header-cta" onOpen={close}/><button className="menu-toggle" type="button" onClick={e=>{lastTrigger.current=e.currentTarget;setMobile(!mobile);setOpen(null)}} aria-label={mobile?'Close menu':'Open menu'} aria-expanded={mobile} aria-controls="primary-navigation">{mobile?<X/>:<Menu/>}</button></div>{open?<button className="menu-backdrop" tabIndex={-1} onClick={()=>setOpen(null)} aria-label="Close navigation menu"/>:null}</header>
 }

@@ -19,6 +19,7 @@ export type SeoPage = {
 // Editorial update date, not the date of each build. No invented first-publication dates.
 export const contentUpdated='2026-11-07';
 const core:SeoPage[]=[
+ {path:'/guides/',modified:'2026-11-15',title:'Free Contractor SEO & Google Ads Guides',description:'Download free SEO and Google Ads guides, lead checklists, campaign scorecards and negative keyword worksheets for home-service businesses.',label:'Free guides',category:'Resources',type:'CollectionPage'},
  {path:'/',modified:'2026-11-15',title:'Web Design & Digital Marketing Agency',description:'Web design, SEO, ads and social media for US small businesses and home-service companies. A fully remote agency focused on US clients and serving worldwide.',label:'Home',category:'The studio',type:'WebPage',images:['/art/wonder-blue-pink-grain.webp','/art/wonder-color-flow.webp','/art/wonder-citrus-flow.webp','/work/saikat.webp',...campaignStories.slice(0,2).map(s=>caseImage(s.slug).src),...clientProjects.slice(0,6).map(p=>p.image)]},
  {path:'/about/',modified:'2026-11-13',title:'About Wonderweb Studio',description:'Meet Wonderweb Studio, a remote web and marketing agency focused primarily on US small businesses, with creative and digital services available worldwide.',label:'About the studio',category:'The studio',type:'AboutPage',images:['/work/saikat.webp']},
  {path:'/contact/',modified:'2026-11-13',title:'Contact Wonderweb Studio',description:'Contact our US-focused remote agency for websites, SEO, ads and social media. We serve clients worldwide, with intro calls arranged in your time zone.',label:'Contact',category:'The studio',type:'ContactPage'},
@@ -31,7 +32,7 @@ const core:SeoPage[]=[
  {path:'/resources/',modified:'2026-11-13',title:'Small Business Marketing Blog & Guides',description:'Practical guides to website design, SEO budgets, Google Ads, social media content and ongoing website management for small and home-service businesses.',label:'Blog & guides',category:'Blog',type:'CollectionPage',children:articles.map(a=>`/resources/${a.slug}/`),images:articles.map(a=>editorialImages[a.slug].src)},
  {path:'/privacy-policy/',modified:'2026-11-11',title:'Privacy Policy',description:'Learn how Wonderweb Studio handles inquiry details, optional analytics, embedded media and your privacy choices when you use this website.',label:'Privacy policy',category:'Policies',type:'WebPage'},
  {path:'/terms/',title:'Website Terms',description:'Read Wonderweb Studio’s website terms, pricing context and project information. Service scope and payment terms are confirmed in a separate written proposal.',label:'Website terms',category:'Policies',type:'WebPage'},
- {path:'/payments/',title:'Client Payments',description:'Payment information for approved Wonderweb Studio proposals and invoices. Contact the studio to confirm your scope and payment arrangements.',label:'Client payments',category:'Client information',type:'WebPage'},
+ {path:'/payments/',index:false,title:'Client Payments',description:'Payment information for approved Wonderweb Studio proposals and invoices. Contact the studio to confirm your scope and payment arrangements.',label:'Client payments',category:'Client information',type:'WebPage'},
 ];
 const shortService=(slug:string,title:string)=>slug==='seo'?'SEO':title;
 const articleTitles:Record<string,string>={

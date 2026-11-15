@@ -475,13 +475,13 @@
   "/featured/solutions--solar-technical-seo-v2.webp": {
     "src": "/featured/solutions--solar-technical-seo-v2.webp",
     "artwork": "/editorial/topics/seo.webp",
-    "title": "Solar Technical SEO Agency | Wonderweb Studio",
-    "alt": "Solar Technical SEO Agency. A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages.",
-    "description": "A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages. Featured cover for Solar Technical SEO Agency. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "title": "Technical SEO for Solar Websites: What to Review | Wonderweb Studio",
+    "alt": "Technical SEO for Solar Websites: What to Review. A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages.",
+    "description": "A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages. Featured cover for Technical SEO for Solar Websites: What to Review. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "fb3425ffb68b4cf047889f062d3a5558221a98d39020c67314478b00b455de2a"
+    "signature": "d69090cfb3d0fc985b12bfbc0528d5e315ed5c1e7c71eb0773206b0e2ee7e83d"
   },
   "/featured/solutions--solar-link-building-v2.webp": {
     "src": "/featured/solutions--solar-link-building-v2.webp",
@@ -695,13 +695,13 @@
   "/featured/solutions--plumbing-seo-agency-v2.webp": {
     "src": "/featured/solutions--plumbing-seo-agency-v2.webp",
     "artwork": "/editorial/topics/seo.webp",
-    "title": "Plumbing SEO Agency | Wonderweb Studio",
-    "alt": "Plumbing SEO Agency. A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages.",
-    "description": "A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages. Featured cover for Plumbing SEO Agency. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "title": "What to Include in a Plumbing SEO Scope | Wonderweb Studio",
+    "alt": "What to Include in a Plumbing SEO Scope. A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages.",
+    "description": "A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages. Featured cover for What to Include in a Plumbing SEO Scope. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "977a2ec78b807e021f75803a5363fdb901f7c62e161539aa7dcb56b432d3a4a8"
+    "signature": "f944a5462a4b4705244f9d57a5d6d99b2121395b803b5dee1c70d6e0d4f16e51"
   },
   "/featured/solutions--google-ads-roofers-v2.webp": {
     "src": "/featured/solutions--google-ads-roofers-v2.webp",
@@ -7262,13 +7262,13 @@
   "/featured/resources--roofing-technical-seo-cost-v2.webp": {
     "src": "/featured/resources--roofing-technical-seo-cost-v2.webp",
     "artwork": "/editorial/topics/seo.webp",
-    "title": "Roofing Companies: Technical SEO Cost | Wonderweb Studio",
-    "alt": "Roofing Companies: Technical SEO Cost. A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages.",
-    "description": "A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages. Featured cover for Roofing Companies: Technical SEO Cost. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "title": "Roofing Technical SEO Costs & Scope | Wonderweb Studio",
+    "alt": "Roofing Technical SEO Costs & Scope. A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages.",
+    "description": "A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages. Featured cover for Roofing Technical SEO Costs & Scope. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "20f12bd2d78fe7f64ac409ca811a6ceaab9ca0b4a5e3a4013b0ae148092a2d8d"
+    "signature": "67faa0b1fe94eef905e0df06776c13afc57ea9f8ec2ab64ecdf9cdcf5096f9f3"
   },
   "/featured/resources--best-roofing-crm-automation-agencies-v2.webp": {
     "src": "/featured/resources--best-roofing-crm-automation-agencies-v2.webp",
@@ -9700,5 +9700,16 @@
     "height": 810,
     "type": "image/webp",
     "signature": "83b0be9c2857eab529b70602d9917dea1be710a15d7de9ba330f5e6808237e14"
+  },
+  "/featured/guides-v2.webp": {
+    "src": "/featured/guides-v2.webp",
+    "artwork": "/editorial/topics/remote-studio.webp",
+    "title": "Free Contractor SEO & Google Ads Guides | Wonderweb Studio",
+    "alt": "Free Contractor SEO & Google Ads Guides. A refined global collaboration composition with a globe, connected laptop screens and a shared creative brief.",
+    "description": "A refined global collaboration composition with a globe, connected laptop screens and a shared creative brief. Featured cover for Free Contractor SEO & Google Ads Guides. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp",
+    "signature": "4049cda6d0c2683fa7f5f80f4c36f14dd2208ad6b728145bdf97b0f07ae4d4ef"
   }
 }

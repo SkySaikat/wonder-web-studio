@@ -27,7 +27,7 @@ test('every public page has a discoverable Markdown guide with a canonical respo
    if(!target.match(/\.(webp|png)$/))assert.ok(seoByPath.has(target)||markdownPages.has(target)||target==='/content/index.md',`broken internal reference: ${target}`);
   }
  }
- assert.equal((await GET(new Request('https://example.com'),{params:Promise.resolve({slug:['payments.md']})})).status,200);
+ assert.equal((await GET(new Request('https://example.com'),{params:Promise.resolve({slug:['payments.md']})})).status,404);
  assert.equal((await GET(new Request('https://example.com'),{params:Promise.resolve({slug:['unknown.md']})})).status,404);
 });
 

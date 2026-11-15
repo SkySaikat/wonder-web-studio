@@ -11,13 +11,15 @@ import {editorialImages} from '../src/lib/editorial-images';
 import {work} from '../src/lib/content';
 
 async function main(){
+ const only=process.argv[2];
  await mkdir('public/seo',{recursive:true});
  const currentCovers=new Set(seoPages.map(p=>seoImagePath(p.path).slice('/seo/'.length)));
- for(const filename of await readdir('public/seo')){if(filename.endsWith('.png')&&!currentCovers.has(filename))await unlink(`public/seo/${filename}`);}
+ if(!only)for(const filename of await readdir('public/seo')){if(filename.endsWith('.png')&&!currentCovers.has(filename))await unlink(`public/seo/${filename}`);}
  let prior:Record<string,string>={};try{prior=JSON.parse(await readFile('.seo-image-cache.json','utf8'))}catch{}
- const signatures:Record<string,string>={};let generated=0;
+ const signatures:Record<string,string>=only?{...prior}:{};let generated=0;
  const palettes=['#c4a2ff','#d4ef87','#ffbc85','#ffabd2','#a7d9f8','#9be0c4'];
  for(const [i,page] of seoPages.entries()){
+  if(only&&page.path!==only)continue;
   const output=`public${seoImagePath(page.path)}`;
   const cover=covers[featuredImagePath(page.path) as keyof typeof covers];const imageSource=cover?.artwork||page.images?.[0];const imageDigest=imageSource?createHash('sha256').update(await readFile(`public${imageSource}`)).digest('hex'):'';
   const signature=createHash('sha256').update(JSON.stringify({version:3,title:page.title,category:page.category,imageDigest,palette:palettes[i%palettes.length]})).digest('hex');signatures[page.path]=signature;

@@ -15,7 +15,8 @@ import {llmsText,llmsFullText} from '../src/lib/discovery';
 test('all editorial URLs have unique metadata and actual generated images',()=>{
  for(const field of ['path','title','description'] as const)assert.equal(new Set(seoPages.map(p=>p[field])).size,seoPages.length,`duplicate ${field}`);
  for(const p of seoPages){assert.ok(`${p.title} | Wonderweb Studio`.length<=85,`overlong title: ${p.path}`);assert.match(p.path,/^\/(?:[a-z0-9-]+\/)*$/);assert.ok(existsSync(`public${seoImagePath(p.path)}`));const cover=featuredCovers[featuredImagePath(p.path) as keyof typeof featuredCovers];assert.ok(cover,`missing cover: ${p.path}`);assert.ok(existsSync(`public${cover.src}`));assert.ok(existsSync(`public${cover.artwork}`));assert.ok(cover.alt.length>20&&cover.description.length>30);assert.equal(cover.width/cover.height,16/9);const m=metadata('fallback','fallback',p.path);assert.deepEqual(m.title,{absolute:`${p.title} | Wonderweb Studio`});assert.equal(m.description,p.description);}
- assert.ok(publicSeoPages.some(p=>p.path==='/payments/'));
+ assert.ok(!publicSeoPages.some(p=>p.path==='/payments/'));
+ assert.ok(publicSeoPages.some(p=>p.path==='/guides/'));
 });
 test('page graph identifiers resolve locally and location pages represent service areas',()=>{
  for(const p of seoPages){
@@ -27,14 +28,14 @@ test('page graph identifiers resolve locally and location pages represent servic
   if(p.area){const service=graphs.find(n=>n['@type']==='Service')!;assert.deepEqual((service.areaServed as Record<string,unknown>).name,p.area.name);assert.equal(service.address,undefined);}
  }
 });
-test('discovery files cover every public page, including payment information',()=>{
- for(const content of [llmsText(),llmsFullText()]){for(const p of publicSeoPages)assert.ok(content.includes(`wonderwebstudio.com${p.path}`));assert.ok(content.includes('/payments/'));}
+test('discovery files cover every public page, excluding non-indexed payment information',()=>{
+ for(const content of [llmsText(),llmsFullText()]){for(const p of publicSeoPages)assert.ok(content.includes(`wonderwebstudio.com${p.path}`));assert.ok(!content.includes('https://www.wonderwebstudio.com/payments/')); }
 });
-test('preview and launch modes produce opposite crawl directives including the public payment-information page',()=>{
+test('preview and launch modes produce opposite crawl directives while payment information stays noindex',()=>{
  const script="const {metadata}=require('./src/lib/seo.ts');const robots=require('./src/app/robots.ts').default;console.log(JSON.stringify({home:metadata('','','/').robots,payment:metadata('','','/payments/').robots,robots:robots()}))";
  for(const enabled of [false,true]){
   const output=execFileSync(process.execPath,['--import','tsx','-e',script],{env:{...process.env,SITE_INDEXABLE:String(enabled),VERCEL_ENV:''},encoding:'utf8'});
-  const r=JSON.parse(output);assert.equal(r.home.index,enabled);assert.equal(r.payment.index,enabled);assert.equal(r.robots.rules.allow,enabled?'/':undefined);assert.deepEqual(r.robots.rules.disallow,enabled?['/api/']:'/');
+  const r=JSON.parse(output);assert.equal(r.home.index,enabled);assert.equal(r.payment.index,false);assert.equal(r.robots.rules.allow,enabled?'/':undefined);assert.deepEqual(r.robots.rules.disallow,enabled?['/api/']:'/');
  }
 });
 test('JSON-LD escapes content that could otherwise break out of the script element',()=>{
@@ -65,7 +66,7 @@ test('production indexing defaults and preview isolation stay consistent across 
    const script="const {metadata}=require('./src/lib/seo.ts');const robots=require('./src/app/robots.ts').default;console.log(JSON.stringify({home:metadata('','','/'),payment:metadata('','','/payments/').robots,robots:robots()}))";
    const r=JSON.parse(execFileSync(process.execPath,['--import','tsx','-e',script],{env:process.env,encoding:'utf8'}));
    assert.equal(r.home.robots.index,c.expected);
-   assert.equal(r.payment.index,c.expected);
+   assert.equal(r.payment.index,false);
    assert.deepEqual(r.robots.rules.disallow,c.expected?['/api/']:'/');
    assert.equal(r.home.alternates.canonical,'https://www.wonderwebstudio.com/');
    assert.equal(r.robots.sitemap,'https://www.wonderwebstudio.com/sitemap.xml');

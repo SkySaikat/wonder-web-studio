@@ -1,0 +1,105 @@
+﻿Candidate,Match type,Review before applying
+jobs,Broad,Check actual search intent and service fit
+job,Broad,Check actual search intent and service fit
+careers,Broad,Check actual search intent and service fit
+career,Broad,Check actual search intent and service fit
+hiring,Broad,Check actual search intent and service fit
+salary,Broad,Check actual search intent and service fit
+wage,Broad,Check actual search intent and service fit
+resume,Broad,Check actual search intent and service fit
+indeed,Broad,Check actual search intent and service fit
+apprentice,Broad,Check actual search intent and service fit
+apprenticeship,Broad,Check actual search intent and service fit
+internship,Broad,Check actual search intent and service fit
+school,Broad,Check actual search intent and service fit
+course,Broad,Check actual search intent and service fit
+training,Broad,Check actual search intent and service fit
+"""certification class""",Phrase,Check actual search intent and service fit
+"""license exam""",Phrase,Check actual search intent and service fit
+"""how to become""",Phrase,Check actual search intent and service fit
+"""near me hiring""",Phrase,Check actual search intent and service fit
+"""looking for work""",Phrase,Check actual search intent and service fit
+diy,Broad,Check actual search intent and service fit
+"""how to""",Phrase,Check actual search intent and service fit
+"""do it yourself""",Phrase,Check actual search intent and service fit
+tutorial,Broad,Check actual search intent and service fit
+"""step by step""",Phrase,Check actual search intent and service fit
+youtube,Broad,Check actual search intent and service fit
+video,Broad,Check actual search intent and service fit
+diagram,Broad,Check actual search intent and service fit
+reddit,Broad,Check actual search intent and service fit
+instructions,Broad,Check actual search intent and service fit
+"""supply house""",Phrase,Check actual search intent and service fit
+"""supply store""",Phrase,Check actual search intent and service fit
+"""electrical supply""",Phrase,Check actual search intent and service fit
+wholesale,Broad,Check actual search intent and service fit
+distributor,Broad,Check actual search intent and service fit
+"""home depot""",Phrase,Check actual search intent and service fit
+lowes,Broad,Check actual search intent and service fit
+menards,Broad,Check actual search intent and service fit
+graybar,Broad,Check actual search intent and service fit
+platt,Broad,Check actual search intent and service fit
+"""wire gauge""",Phrase,Check actual search intent and service fit
+"""wiring diagram""",Phrase,Check actual search intent and service fit
+"""breaker box for sale""",Phrase,Check actual search intent and service fit
+"""model number""",Phrase,Check actual search intent and service fit
+"""replacement parts""",Phrase,Check actual search intent and service fit
+"""spec sheet""",Phrase,Check actual search intent and service fit
+amazon,Broad,Check actual search intent and service fit
+"""for sale""",Phrase,Check actual search intent and service fit
+"""power outage map""",Phrase,Check actual search intent and service fit
+"""outage map""",Phrase,Check actual search intent and service fit
+"""electric bill""",Phrase,Check actual search intent and service fit
+"""pay bill""",Phrase,Check actual search intent and service fit
+"""utility company""",Phrase,Check actual search intent and service fit
+"""electric company""",Phrase,Check actual search intent and service fit
+"""power company""",Phrase,Check actual search intent and service fit
+"""energy plans""",Phrase,Check actual search intent and service fit
+"""electricity rates""",Phrase,Check actual search intent and service fit
+"""smart meter""",Phrase,Check actual search intent and service fit
+"""electric guitar""",Phrase,Check actual search intent and service fit
+"""electric car""",Phrase,Check actual search intent and service fit
+"""electric bike""",Phrase,Check actual search intent and service fit
+"""electric scooter""",Phrase,Check actual search intent and service fit
+"""electric fireplace""",Phrase,Check actual search intent and service fit
+"""electric blanket""",Phrase,Check actual search intent and service fit
+"""appliance repair""",Phrase,Check actual search intent and service fit
+"""tv repair""",Phrase,Check actual search intent and service fit
+"""phone repair""",Phrase,Check actual search intent and service fit
+"""auto electrician""",Phrase,Check actual search intent and service fit
+"""car electrical""",Phrase,Check actual search intent and service fit
+"""boat wiring""",Phrase,Check actual search intent and service fit
+hvac,Broad,Check actual search intent and service fit
+"""electrical engineering""",Phrase,Check actual search intent and service fit
+"""electrician tools""",Phrase,Check actual search intent and service fit
+multimeter,Broad,Check actual search intent and service fit
+lawsuit,Broad,Check actual search intent and service fit
+lawyer,Broad,Check actual search intent and service fit
+attorney,Broad,Check actual search intent and service fit
+complaint,Broad,Check actual search intent and service fit
+"""bbb complaint""",Phrase,Check actual search intent and service fit
+scam,Broad,Check actual search intent and service fit
+"""report a contractor""",Phrase,Check actual search intent and service fit
+"""license lookup""",Phrase,Check actual search intent and service fit
+osha,Broad,Check actual search intent and service fit
+"""code book""",Phrase,Check actual search intent and service fit
+free,Broad,Check actual search intent and service fit
+grant,Broad,Check actual search intent and service fit
+grants,Broad,Check actual search intent and service fit
+"""assistance program""",Phrase,Check actual search intent and service fit
+"""low income""",Phrase,Check actual search intent and service fit
+"""government program""",Phrase,Check actual search intent and service fit
+charity,Broad,Check actual search intent and service fit
+volunteer,Broad,Check actual search intent and service fit
+pictures,Broad,Check actual search intent and service fit
+photos,Broad,Check actual search intent and service fit
+images,Broad,Check actual search intent and service fit
+pinterest,Broad,Check actual search intent and service fit
+clipart,Broad,Check actual search intent and service fit
+drawing,Broad,Check actual search intent and service fit
+minecraft,Broad,Check actual search intent and service fit
+lego,Broad,Check actual search intent and service fit
+toy,Broad,Check actual search intent and service fit
+game,Broad,Check actual search intent and service fit
+simulator,Broad,Check actual search intent and service fit
+costume,Broad,Check actual search intent and service fit

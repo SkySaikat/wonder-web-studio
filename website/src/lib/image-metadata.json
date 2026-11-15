@@ -301,8 +301,8 @@
     "type": "image/webp"
   },
   "/featured/solutions--solar-technical-seo-v2.webp": {
-    "title": "Solar Technical SEO Agency | Wonderweb Studio",
-    "description": "A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages. Featured cover for Solar Technical SEO Agency. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "title": "Technical SEO for Solar Websites: What to Review | Wonderweb Studio",
+    "description": "A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages. Featured cover for Technical SEO for Solar Websites: What to Review. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
@@ -441,8 +441,8 @@
     "type": "image/webp"
   },
   "/featured/solutions--plumbing-seo-agency-v2.webp": {
-    "title": "Plumbing SEO Agency | Wonderweb Studio",
-    "description": "A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages. Featured cover for Plumbing SEO Agency. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "title": "What to Include in a Plumbing SEO Scope | Wonderweb Studio",
+    "description": "A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages. Featured cover for What to Include in a Plumbing SEO Scope. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
@@ -4620,8 +4620,8 @@
     "type": "image/webp"
   },
   "/featured/resources--roofing-technical-seo-cost-v2.webp": {
-    "title": "Roofing Companies: Technical SEO Cost | Wonderweb Studio",
-    "description": "A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages. Featured cover for Roofing Companies: Technical SEO Cost. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "title": "Roofing Technical SEO Costs & Scope | Wonderweb Studio",
+    "description": "A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages. Featured cover for Roofing Technical SEO Costs & Scope. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
@@ -6173,6 +6173,13 @@
     "height": 810,
     "type": "image/webp"
   },
+  "/featured/guides-v2.webp": {
+    "title": "Free Contractor SEO & Google Ads Guides | Wonderweb Studio",
+    "description": "A refined global collaboration composition with a globe, connected laptop screens and a shared creative brief. Featured cover for Free Contractor SEO & Google Ads Guides. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
   "/editorial/topics/ai-search-optimization.webp": {
     "title": "ai search optimization editorial illustration",
     "description": "A translucent search lens above a stack of cited article cards, with a small connected constellation representing AI discovery. Gemini-generated conceptual artwork for Wonderweb Studio.",
@@ -6698,6 +6705,13 @@
     "height": 1350,
     "type": "image/webp"
   },
+  "/seo/guides.png": {
+    "title": "Free guides - Wonderweb Studio",
+    "description": "Featured social preview for Free guides. Download free SEO and Google Ads guides, lead checklists, campaign scorecards and negative keyword worksheets for home-service businesses.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
   "/seo/home.png": {
     "title": "Home - Wonderweb Studio",
     "description": "Featured social preview for Home. Web design, SEO, ads and social media for US small businesses and home-service companies. A fully remote agency focused on US clients and serving worldwide.",
@@ -7000,8 +7014,8 @@
     "type": "image/png"
   },
   "/seo/solutions--solar-technical-seo.png": {
-    "title": "Solar Technical SEO Agency - Wonderweb Studio",
-    "description": "Featured social preview for Solar Technical SEO Agency. Solar Technical SEO Agency. Search engine bots must find your content easily to rank it high in the search engine results…",
+    "title": "Technical SEO for Solar Websites: What to Review - Wonderweb Studio",
+    "description": "Featured social preview for Technical SEO for Solar Websites: What to Review. Review crawlability, service-page structure, mobile performance and redirects for a solar website. Understand what technical SEO can improve and how to measure it.",
     "width": 1200,
     "height": 630,
     "type": "image/png"
@@ -7140,8 +7154,8 @@
     "type": "image/png"
   },
   "/seo/solutions--plumbing-seo-agency.png": {
-    "title": "Plumbing SEO Agency - Wonderweb Studio",
-    "description": "Featured social preview for Plumbing SEO Agency. Plumbing SEO Agency. That starts with your Google Business Profile, your reviews, and matching listings on Yelp, Angi, and…",
+    "title": "What to Include in a Plumbing SEO Scope - Wonderweb Studio",
+    "description": "Featured social preview for What to Include in a Plumbing SEO Scope. A planning guide to plumbing SEO deliverables, local visibility, service pages and reporting. Learn what to ask for before choosing an agency.",
     "width": 1200,
     "height": 630,
     "type": "image/png"
@@ -11319,8 +11333,8 @@
     "type": "image/png"
   },
   "/seo/resources--roofing-technical-seo-cost.png": {
-    "title": "Choosing How Much Does Technical SEO Cost for Roofing company? - A Practical Guide - Wonderweb Studio",
-    "description": "Featured social preview for Choosing How Much Does Technical SEO Cost for Roofing company? - A Practical Guide. Choosing How Much Does Technical SEO Cost for Roofing company? - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your…",
+    "title": "Technical SEO Costs for Roofing Companies: A Practical Guide - Wonderweb Studio",
+    "description": "Featured social preview for Technical SEO Costs for Roofing Companies: A Practical Guide. Compare roofing technical SEO costs, audit scope, implementation work and reporting. Use a practical checklist to evaluate a proposal before committing.",
     "width": 1200,
     "height": 630,
     "type": "image/png"
