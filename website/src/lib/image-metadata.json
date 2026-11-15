@@ -1,4 +1,102 @@
 {
+  "/results/remodeling-lower-lead-cost.webp": {
+    "title": "Bathroom remodeling company",
+    "description": "Home-service sector photograph from the owner-authorized BuiltRight library; illustrative of the service.",
+    "width": 1400,
+    "height": 933,
+    "type": "image/webp"
+  },
+  "/results/remodeling-search-two-year-results.webp": {
+    "title": "Regional bathroom remodeler",
+    "description": "Home-service sector photograph from the owner-authorized BuiltRight library; illustrative of the service.",
+    "width": 1400,
+    "height": 934,
+    "type": "image/webp"
+  },
+  "/results/roofing-local-search.webp": {
+    "title": "Regional roofing contractor",
+    "description": "Home-service sector photograph from the owner-authorized BuiltRight library; illustrative of the service.",
+    "width": 1400,
+    "height": 950,
+    "type": "image/webp"
+  },
+  "/results/bathroom-paid-search-efficiency.webp": {
+    "title": "Bathroom remodeling company",
+    "description": "Home-service sector photograph from the owner-authorized BuiltRight library; illustrative of the service.",
+    "width": 1400,
+    "height": 933,
+    "type": "image/webp"
+  },
+  "/results/remodeling-search-reach.webp": {
+    "title": "Bathroom remodeling company",
+    "description": "Home-service sector photograph from the owner-authorized BuiltRight library; illustrative of the service.",
+    "width": 1400,
+    "height": 933,
+    "type": "image/webp"
+  },
+  "/results/residential-glass-bookings.webp": {
+    "title": "Residential glass company",
+    "description": "Home-service sector photograph from the owner-authorized BuiltRight library; illustrative of the service.",
+    "width": 1400,
+    "height": 933,
+    "type": "image/webp"
+  },
+  "/services/ai-hero.webp": {
+    "title": "AI Search Optimization",
+    "description": "A chrome asterisk and connected answer cards illustrating AI search citations.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/local-hero.webp": {
+    "title": "Google Local Services Ads",
+    "description": "A home, service-area map and lime location marker.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/paid-hero.webp": {
+    "title": "Microsoft Ads Management",
+    "description": "Conceptual advertising artwork with a business owner, tablet and search panels.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/social-hero.webp": {
+    "title": "LinkedIn Ads Management",
+    "description": "Conceptual artwork of a business owner planning content on a phone.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/automation-hero.webp": {
+    "title": "Email Marketing",
+    "description": "Connected message, calendar and task cards illustrating a business workflow.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/web-hero.webp": {
+    "title": "Conversion Rate Optimization",
+    "description": "Responsive website screens and a chrome cursor in a vibrant cobalt studio composition.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/search-hero.webp": {
+    "title": "Search Engine Optimization",
+    "description": "A search lens over a model neighborhood and search-result panels.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/creative-hero.webp": {
+    "title": "Content Creation",
+    "description": "A creative studio composition of campaign frames, camera and vivid color swatches.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
   "/featured/home-v2.webp": {
     "title": "Web Design & Digital Marketing Agency | Wonderweb Studio",
     "description": "A refined global collaboration composition with a globe, connected laptop screens and a shared creative brief. Featured cover for Web Design & Digital Marketing Agency. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
@@ -4929,168 +5027,168 @@
   },
   "/featured/services--ai-search-optimization-v2.webp": {
     "title": "AI Search Optimization Services | Wonderweb Studio",
-    "description": "A translucent search lens above a stack of cited article cards, with a small connected constellation representing AI discovery. Featured cover for AI Search Optimization Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "A chrome asterisk and connected answer cards illustrating AI search citations. Featured cover for AI Search Optimization Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--local-services-ads-v2.webp": {
     "title": "Google Local Services Ads Services | Wonderweb Studio",
-    "description": "A miniature home-service van beside a house, a phone inquiry card and a neighborhood location pin. Featured cover for Google Local Services Ads Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "A home, service-area map and lime location marker. Featured cover for Google Local Services Ads Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--microsoft-ads-v2.webp": {
     "title": "Microsoft Ads Management Services | Wonderweb Studio",
-    "description": "A cobalt search window, a precise pointer and a small storefront connected by a curved path. Featured cover for Microsoft Ads Management Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Conceptual advertising artwork with a business owner, tablet and search panels. Featured cover for Microsoft Ads Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--linkedin-ads-v2.webp": {
     "title": "LinkedIn Ads Management Services | Wonderweb Studio",
-    "description": "Three professional profile cards connected to a business proposal folder, with a small conversation bubble. Featured cover for LinkedIn Ads Management Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Conceptual artwork of a business owner planning content on a phone. Featured cover for LinkedIn Ads Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--email-marketing-v2.webp": {
     "title": "Email Marketing Services | Wonderweb Studio",
-    "description": "An open envelope with carefully arranged newsletter cards, a small calendar and a reply bubble. Featured cover for Email Marketing Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Connected message, calendar and task cards illustrating a business workflow. Featured cover for Email Marketing Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--reputation-management-v2.webp": {
     "title": "Reputation Management Services | Wonderweb Studio",
-    "description": "A storefront beside authentic-looking review cards with empty text lines, conversation bubbles and a small protective shield. Featured cover for Reputation Management Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "A home, service-area map and lime location marker. Featured cover for Reputation Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--conversion-rate-optimization-v2.webp": {
     "title": "Conversion Rate Optimization Services | Wonderweb Studio",
-    "description": "Two different landing-page wireframes beside a cursor and a branching path ending in a clear inquiry form. Featured cover for Conversion Rate Optimization Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Responsive website screens and a chrome cursor in a vibrant cobalt studio composition. Featured cover for Conversion Rate Optimization Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--lead-generation-v2.webp": {
     "title": "Lead Generation Services | Wonderweb Studio",
-    "description": "A small storefront connected by a flowing path to a contact card, a phone and an appointment calendar. Featured cover for Lead Generation Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Conceptual advertising artwork with a business owner, tablet and search panels. Featured cover for Lead Generation Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--digital-media-buying-v2.webp": {
     "title": "Digital Media Buying Services | Wonderweb Studio",
-    "description": "A coordinated set of advertising placements on a television, mobile screen and desktop display, with abstract creative panels. Featured cover for Digital Media Buying Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Conceptual advertising artwork with a business owner, tablet and search panels. Featured cover for Digital Media Buying Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--franchise-marketing-v2.webp": {
     "title": "Franchise & Multi-Location Marketing Services | Wonderweb Studio",
-    "description": "Several distinct miniature storefronts joined by a shared planning grid and individual location pins. Featured cover for Franchise & Multi-Location Marketing Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "A home, service-area map and lime location marker. Featured cover for Franchise & Multi-Location Marketing Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--ai-workflow-automation-v2.webp": {
     "title": "AI Workflow & Automation Services | Wonderweb Studio",
-    "description": "A carefully connected sequence of document, approval and calendar modules, with a small translucent automation hub. Featured cover for AI Workflow & Automation Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Connected message, calendar and task cards illustrating a business workflow. Featured cover for AI Workflow & Automation Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--web-design-v2.webp": {
     "title": "Website Design Services | Wonderweb Studio",
-    "description": "An art-directed desktop browser and mobile layout surrounded by typography tiles and a subtle lavender color swatch. Featured cover for Website Design Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Responsive website screens and a chrome cursor in a vibrant cobalt studio composition. Featured cover for Website Design Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--web-development-v2.webp": {
     "title": "Web Development Services | Wonderweb Studio",
-    "description": "Layered browser panels with modular code blocks, a small bracket sculpture and a responsive mobile screen. Featured cover for Web Development Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Responsive website screens and a chrome cursor in a vibrant cobalt studio composition. Featured cover for Web Development Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--website-management-v2.webp": {
     "title": "Website Management Services | Wonderweb Studio",
-    "description": "A tidy website dashboard with a content update card, calendar tile and small maintenance tool. Featured cover for Website Management Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Connected message, calendar and task cards illustrating a business workflow. Featured cover for Website Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--seo-v2.webp": {
     "title": "SEO Services | Wonderweb Studio",
-    "description": "A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages. Featured cover for SEO Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "A search lens over a model neighborhood and search-result panels. Featured cover for SEO Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--local-seo-v2.webp": {
     "title": "Local SEO Services | Wonderweb Studio",
-    "description": "A small neighborhood of home-service businesses, a map tile and a prominent location pin connected to a search panel. Featured cover for Local SEO Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "A home, service-area map and lime location marker. Featured cover for Local SEO Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--google-ads-v2.webp": {
     "title": "Google Ads Management Services | Wonderweb Studio",
-    "description": "A search results panel beside a campaign budget dial and a small home-service business model. Featured cover for Google Ads Management Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Conceptual advertising artwork with a business owner, tablet and search panels. Featured cover for Google Ads Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--meta-ads-v2.webp": {
     "title": "Meta Ads Management Services | Wonderweb Studio",
-    "description": "Two mobile social advertising frames with creative photo shapes, a campaign planning board and a small audience cluster. Featured cover for Meta Ads Management Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Conceptual artwork of a business owner planning content on a phone. Featured cover for Meta Ads Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--social-media-management-v2.webp": {
     "title": "Social Media Management Services | Wonderweb Studio",
-    "description": "An editorial calendar surrounded by coordinated social post cards, a camera and a conversation bubble. Featured cover for Social Media Management Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Conceptual artwork of a business owner planning content on a phone. Featured cover for Social Media Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--content-creation-v2.webp": {
     "title": "Content Creation Services | Wonderweb Studio",
-    "description": "A beautifully arranged open notebook, article pages, a camera and a small recording microphone. Featured cover for Content Creation Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "A creative studio composition of campaign frames, camera and vivid color swatches. Featured cover for Content Creation Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--content-management-v2.webp": {
     "title": "Content Management Services | Wonderweb Studio",
-    "description": "A content library with folders, draft cards, an approval checkmark and a publishing calendar. Featured cover for Content Management Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Connected message, calendar and task cards illustrating a business workflow. Featured cover for Content Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--graphic-design-v2.webp": {
     "title": "Graphic Design Services | Wonderweb Studio",
-    "description": "Layered brand cards, color swatches, geometric typography pieces and a precise layout grid. Featured cover for Graphic Design Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "A creative studio composition of campaign frames, camera and vivid color swatches. Featured cover for Graphic Design Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--thumbnail-design-v2.webp": {
     "title": "Thumbnail Design Services | Wonderweb Studio",
-    "description": "A large video thumbnail composition with an abstract portrait silhouette, a play symbol and crop corners. Featured cover for Thumbnail Design Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "A creative studio composition of campaign frames, camera and vivid color swatches. Featured cover for Thumbnail Design Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--landing-page-design-v2.webp": {
     "title": "Landing Page Design Services | Wonderweb Studio",
-    "description": "A focused landing-page browser panel with a headline block, a single call-to-action button and a short contact form. Featured cover for Landing Page Design Services. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Responsive website screens and a chrome cursor in a vibrant cobalt studio composition. Featured cover for Landing Page Design Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
@@ -6147,28 +6245,28 @@
   },
   "/featured/results--remodeling-lower-lead-cost-v2.webp": {
     "title": "Remodeling Ads: 59.19% Lower Lead Costs | Wonderweb Studio",
-    "description": "Conceptual bathroom renovation and balanced campaign elements illustrating lead-cost efficiency. Featured cover for Remodeling Ads: 59.19% Lower Lead Costs. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Home-service sector photograph from the owner-authorized BuiltRight library; illustrative of the service. Featured cover for Remodeling Ads: 59.19% Lower Lead Costs. Owner-authorized sector photograph used to illustrate the campaign.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/results--remodeling-search-two-year-results-v2.webp": {
     "title": "Bathroom Marketing: Two-Year Lead Results | Wonderweb Studio",
-    "description": "Conceptual bathroom showroom, search lens and calendars illustrating a sustained search program. Featured cover for Bathroom Marketing: Two-Year Lead Results. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Home-service sector photograph from the owner-authorized BuiltRight library; illustrative of the service. Featured cover for Bathroom Marketing: Two-Year Lead Results. Owner-authorized sector photograph used to illustrate the campaign.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/results--roofing-local-search-v2.webp": {
     "title": "Roofing SEO: 53 Booked Appointments | Wonderweb Studio",
-    "description": "Illustration of a roofing neighborhood, location pin and appointment calendar. Featured cover for Roofing SEO: 53 Booked Appointments. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Home-service sector photograph from the owner-authorized BuiltRight library; illustrative of the service. Featured cover for Roofing SEO: 53 Booked Appointments. Owner-authorized sector photograph used to illustrate the campaign.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/results--bathroom-paid-search-efficiency-v2.webp": {
     "title": "Bathroom Ads: 43.66% Lower Cost per Lead | Wonderweb Studio",
-    "description": "Illustration of a bathroom remodeling scene and campaign-planning elements. Featured cover for Bathroom Ads: 43.66% Lower Cost per Lead. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "description": "Home-service sector photograph from the owner-authorized BuiltRight library; illustrative of the service. Featured cover for Bathroom Ads: 43.66% Lower Cost per Lead. Owner-authorized sector photograph used to illustrate the campaign.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
@@ -6176,6 +6274,20 @@
   "/featured/guides-v2.webp": {
     "title": "Free Contractor SEO & Google Ads Guides | Wonderweb Studio",
     "description": "A refined global collaboration composition with a globe, connected laptop screens and a shared creative brief. Featured cover for Free Contractor SEO & Google Ads Guides. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/featured/results--remodeling-search-reach-v2.webp": {
+    "title": "Bathroom Ads: More Reach, Lower Lead Cost | Wonderweb Studio",
+    "description": "Home-service sector photograph from the owner-authorized BuiltRight library; illustrative of the service. Featured cover for Bathroom Ads: More Reach, Lower Lead Cost. Owner-authorized sector photograph used to illustrate the campaign.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/featured/results--residential-glass-bookings-v2.webp": {
+    "title": "Glass Company Ads: 32.8% More Bookings | Wonderweb Studio",
+    "description": "Home-service sector photograph from the owner-authorized BuiltRight library; illustrative of the service. Featured cover for Glass Company Ads: 32.8% More Bookings. Owner-authorized sector photograph used to illustrate the campaign.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
@@ -12882,6 +12994,20 @@
   "/seo/results--bathroom-paid-search-efficiency.png": {
     "title": "More conversions. 43.66% lower cost per lead. - Wonderweb Studio",
     "description": "Featured social preview for More conversions. 43.66% lower cost per lead.. A bathroom remodeling advertising campaign focused its bidding and geographic targeting on conversion opportunities.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/results--remodeling-search-reach.png": {
+    "title": "More reach. Lower cost per inquiry. - Wonderweb Studio",
+    "description": "Featured social preview for More reach. Lower cost per inquiry.. A bathroom remodeler expanded long-tail search coverage, increased conversions by 10% and reduced reported cost per lead to $54.62.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/results--residential-glass-bookings.png": {
+    "title": "32.8% more bookings. A clearer mobile journey. - Wonderweb Studio",
+    "description": "Featured social preview for 32.8% more bookings. A clearer mobile journey.. A residential glass business expanded relevant search coverage and prioritized mobile inquiries, reporting 32.8% more overall bookings.",
     "width": 1200,
     "height": 630,
     "type": "image/png"

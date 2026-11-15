@@ -7,7 +7,7 @@
     "category": "Lead journey checklist",
     "description": "Find the gaps before you buy more leads.",
     "pages": 7,
-    "pdf": "/guides/electrician-free-report.pdf",
+    "pdf": "/api/guides/electrician-free-report/",
     "cover": "/guides/electrician-free-report.webp"
   },
   {
@@ -18,7 +18,7 @@
     "category": "Google Ads field guide",
     "description": "Connect the right searches with the right jobs.",
     "pages": 9,
-    "pdf": "/guides/electrician-google-ads-guide.pdf",
+    "pdf": "/api/guides/electrician-google-ads-guide/",
     "cover": "/guides/electrician-google-ads-guide.webp"
   },
   {
@@ -29,7 +29,7 @@
     "category": "Google Ads scorecard",
     "description": "Ten checks. A clearer campaign.",
     "pages": 4,
-    "pdf": "/guides/electrician-google-ads-scorecard.pdf",
+    "pdf": "/api/guides/electrician-google-ads-scorecard/",
     "cover": "/guides/electrician-google-ads-scorecard.webp"
   },
   {
@@ -40,9 +40,9 @@
     "category": "Negative keyword workbook",
     "description": "Make your search budget more deliberate.",
     "pages": 9,
-    "pdf": "/guides/electrician-negative-keyword-vault.pdf",
+    "pdf": "/api/guides/electrician-negative-keyword-vault/",
     "cover": "/guides/electrician-negative-keyword-vault.webp",
-    "csv": "/guides/electrician-negative-keyword-vault.csv"
+    "csv": "/api/guides/electrician-negative-keyword-vault/?format=csv"
   },
   {
     "slug": "electrician-seo-guide",
@@ -52,7 +52,7 @@
     "category": "SEO field guide",
     "description": "Build a stronger local search presence.",
     "pages": 9,
-    "pdf": "/guides/electrician-seo-guide.pdf",
+    "pdf": "/api/guides/electrician-seo-guide/",
     "cover": "/guides/electrician-seo-guide.webp"
   },
   {
@@ -63,7 +63,7 @@
     "category": "Lead journey checklist",
     "description": "Find the gaps before you buy more leads.",
     "pages": 7,
-    "pdf": "/guides/general-contractor-free-report.pdf",
+    "pdf": "/api/guides/general-contractor-free-report/",
     "cover": "/guides/general-contractor-free-report.webp"
   },
   {
@@ -74,7 +74,7 @@
     "category": "Google Ads field guide",
     "description": "Connect the right searches with the right jobs.",
     "pages": 9,
-    "pdf": "/guides/general-contractor-google-ads-guide.pdf",
+    "pdf": "/api/guides/general-contractor-google-ads-guide/",
     "cover": "/guides/general-contractor-google-ads-guide.webp"
   },
   {
@@ -85,7 +85,7 @@
     "category": "Google Ads scorecard",
     "description": "Ten checks. A clearer campaign.",
     "pages": 4,
-    "pdf": "/guides/general-contractor-google-ads-scorecard.pdf",
+    "pdf": "/api/guides/general-contractor-google-ads-scorecard/",
     "cover": "/guides/general-contractor-google-ads-scorecard.webp"
   },
   {
@@ -96,9 +96,9 @@
     "category": "Negative keyword workbook",
     "description": "Make your search budget more deliberate.",
     "pages": 11,
-    "pdf": "/guides/general-contractor-negative-keyword-vault.pdf",
+    "pdf": "/api/guides/general-contractor-negative-keyword-vault/",
     "cover": "/guides/general-contractor-negative-keyword-vault.webp",
-    "csv": "/guides/general-contractor-negative-keyword-vault.csv"
+    "csv": "/api/guides/general-contractor-negative-keyword-vault/?format=csv"
   },
   {
     "slug": "general-contractor-seo-guide",
@@ -108,7 +108,7 @@
     "category": "SEO field guide",
     "description": "Build a stronger local search presence.",
     "pages": 9,
-    "pdf": "/guides/general-contractor-seo-guide.pdf",
+    "pdf": "/api/guides/general-contractor-seo-guide/",
     "cover": "/guides/general-contractor-seo-guide.webp"
   },
   {
@@ -119,7 +119,7 @@
     "category": "Lead journey checklist",
     "description": "Find the gaps before you buy more leads.",
     "pages": 7,
-    "pdf": "/guides/plumbing-free-report.pdf",
+    "pdf": "/api/guides/plumbing-free-report/",
     "cover": "/guides/plumbing-free-report.webp"
   },
   {
@@ -130,7 +130,7 @@
     "category": "Google Ads field guide",
     "description": "Connect the right searches with the right jobs.",
     "pages": 9,
-    "pdf": "/guides/plumbing-google-ads-guide.pdf",
+    "pdf": "/api/guides/plumbing-google-ads-guide/",
     "cover": "/guides/plumbing-google-ads-guide.webp"
   },
   {
@@ -141,7 +141,7 @@
     "category": "Google Ads scorecard",
     "description": "Ten checks. A clearer campaign.",
     "pages": 4,
-    "pdf": "/guides/plumbing-google-ads-scorecard.pdf",
+    "pdf": "/api/guides/plumbing-google-ads-scorecard/",
     "cover": "/guides/plumbing-google-ads-scorecard.webp"
   },
   {
@@ -152,9 +152,9 @@
     "category": "Negative keyword workbook",
     "description": "Make your search budget more deliberate.",
     "pages": 9,
-    "pdf": "/guides/plumbing-negative-keyword-vault.pdf",
+    "pdf": "/api/guides/plumbing-negative-keyword-vault/",
     "cover": "/guides/plumbing-negative-keyword-vault.webp",
-    "csv": "/guides/plumbing-negative-keyword-vault.csv"
+    "csv": "/api/guides/plumbing-negative-keyword-vault/?format=csv"
   },
   {
     "slug": "plumbing-seo-guide",
@@ -164,7 +164,7 @@
     "category": "SEO field guide",
     "description": "Build a stronger local search presence.",
     "pages": 9,
-    "pdf": "/guides/plumbing-seo-guide.pdf",
+    "pdf": "/api/guides/plumbing-seo-guide/",
     "cover": "/guides/plumbing-seo-guide.webp"
   },
   {
@@ -175,7 +175,7 @@
     "category": "Lead journey checklist",
     "description": "Find the gaps before you buy more leads.",
     "pages": 7,
-    "pdf": "/guides/roofing-free-report.pdf",
+    "pdf": "/api/guides/roofing-free-report/",
     "cover": "/guides/roofing-free-report.webp"
   },
   {
@@ -186,7 +186,7 @@
     "category": "Google Ads field guide",
     "description": "Connect the right searches with the right jobs.",
     "pages": 9,
-    "pdf": "/guides/roofing-google-ads-guide.pdf",
+    "pdf": "/api/guides/roofing-google-ads-guide/",
     "cover": "/guides/roofing-google-ads-guide.webp"
   },
   {
@@ -197,7 +197,7 @@
     "category": "Google Ads scorecard",
     "description": "Ten checks. A clearer campaign.",
     "pages": 4,
-    "pdf": "/guides/roofing-google-ads-scorecard.pdf",
+    "pdf": "/api/guides/roofing-google-ads-scorecard/",
     "cover": "/guides/roofing-google-ads-scorecard.webp"
   },
   {
@@ -208,9 +208,9 @@
     "category": "Negative keyword workbook",
     "description": "Make your search budget more deliberate.",
     "pages": 9,
-    "pdf": "/guides/roofing-negative-keyword-vault.pdf",
+    "pdf": "/api/guides/roofing-negative-keyword-vault/",
     "cover": "/guides/roofing-negative-keyword-vault.webp",
-    "csv": "/guides/roofing-negative-keyword-vault.csv"
+    "csv": "/api/guides/roofing-negative-keyword-vault/?format=csv"
   },
   {
     "slug": "roofing-seo-guide",
@@ -220,7 +220,7 @@
     "category": "SEO field guide",
     "description": "Build a stronger local search presence.",
     "pages": 9,
-    "pdf": "/guides/roofing-seo-guide.pdf",
+    "pdf": "/api/guides/roofing-seo-guide/",
     "cover": "/guides/roofing-seo-guide.webp"
   }
 ]

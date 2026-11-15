@@ -107,4 +107,4 @@ export const caseImageKeys:Record<string,string>={
  "remodeling-lower-lead-cost":"case-remodeling-lead-cost",
  "remodeling-search-two-year-results":"case-remodeling-two-year-search"
 };
-export const caseImage=(slug:string)=>editorialImages[caseImageKeys[slug]];
+export const caseImage=(slug:string)=>({src:`/results/${slug}.webp`,alt:'Home-service sector photograph from the owner-authorized BuiltRight library; illustrative of the service.'});

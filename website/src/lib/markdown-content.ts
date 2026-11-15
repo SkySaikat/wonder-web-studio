@@ -31,7 +31,7 @@ export function markdownBody(page:SeoPage):string{
  if(migrated){const doc=migratedDocument(migrated);return `Original publication: ${migrated.originalPublished}\nWonderweb adaptation: ${migrated.published}\n\n${doc.editorialReview?.status==='rewritten'?`Rewritten for Wonderweb Studio on ${doc.editorialReview.reviewed} with expanded examples and current primary references.`:'Adapted from owner-supplied editorial material. Cost examples and platform details reflect the original context; check current quotes and documentation.'}\n\n${doc.markdown}\n\n## Put the ideas into practice\n\n${links([`/services/${migrated.service}/`,'/pricing/',...serviceReading(migrated.service).slice(0,3).map(a=>`/resources/${a.slug}/`)])}`;}
  const [kind,slug,service]=page.path.split('/').filter(Boolean);
  const blocks:string[]=[];
- if(kind==='guides')blocks.push('Free downloadable guides for home-service businesses. No email required.',...downloadGuides.map(g=>`## ${g.title}\n\n${g.description}\n\n[Download PDF (${g.pages} pages)](${absoluteUrl(g.pdf)})${'csv' in g&&g.csv?`\n\n[Editable keyword CSV](${absoluteUrl(g.csv)})`:''}`));
+ if(kind==='guides')blocks.push('Free guides for home-service businesses, unlocked after business signup.',...downloadGuides.map(g=>`## ${g.title}\n\n${g.description}\n\n[Get this guide (${g.pages} pages; business signup required)](${absoluteUrl('/guides/')}#${g.slug})`));
  if(kind==='resources'&&slug){
   const a=articles.find(a=>a.slug===slug)!;
   blocks.push(`Author: Wonderweb Studio editorial team`,sections(a.sections.map(s=>[s.title,s.body+(s.links?.length?'\n\n'+s.links.map(l=>`[${l.label}](${absoluteUrl(l.href)})`).join(' · '):'')])),`## Your next-step checklist\n\n${bullets(a.checklist)}`,faq(a.faqs||[]));

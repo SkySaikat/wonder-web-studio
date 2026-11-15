@@ -1,0 +1,45 @@
+{
+  "mode": "built-in imagegen",
+  "assets": [
+    {
+      "slug": "paid",
+      "prompt": "Use case: ads-marketing. Create a polished, premium website service-hero image for Wonderweb Studio, landscape 4:3. A confident professional American home-service business owner in their early 40s wearing a clean navy work shirt, reviewing a tablet, three-quarter portrait on the right half. Candid commercial photography, believable skin and hands, warm directional studio lighting. Compose this as an art-directed photorealistic collage with sculptural electric COBALT BLUE (#2310d5) folded forms and finely grained flowing textures across the full background, accents of vivid citrus orange and electric lime, very small hot-magenta highlights. Strong dimensional layering, bold and vibrant, clean professional agency art direction, warm off-white shapes where appropriate. Theme: precision paid search advertising, represented by one large clean floating white search panel silhouette and three layered blank result lines on the left half, no text, no lettering, no numbers, no logos, no badges. The final UI text will be overlaid in code. Person must look natural and professional, not an agency employee portrait, not a real client endorsement. Avoid pastel purple/pink wash, generic beige 3D toy look, money, stock-photo handshakes, upward fake data charts, busy decorative icons. Full-bleed composition without a border. The image itself must be complete and beautiful, not a website mockup.",
+      "output": "/services/paid-hero.webp"
+    },
+    {
+      "slug": "web",
+      "prompt": "Create a premium website service-hero artwork, landscape 4:3, full bleed. Wonderweb Studio art direction: richly saturated electric COBALT BLUE #2310d5 flowing finely grained folded textures, bold CITRUS ORANGE and ELECTRIC LIME accents, warm paper white negative shapes, tiny magenta highlights only. Beautiful directional studio lighting, tactile and photorealistic, sculptural sophisticated composition with depth and clear focal point. Not pastel, no purple/pink wash, not a toy-like illustration, no fake charts or metrics, no words, no numbers, no logos. NOT a website screenshot. Theme: An architectural composition of a sleek laptop and floating responsive browser frames, a refined home-service website depicted with photo blocks and blank typographic lines, one mobile screen, a sculptural chrome cursor. No humans.",
+      "output": "/services/web-hero.webp"
+    },
+    {
+      "slug": "search",
+      "prompt": "Create a premium website service-hero artwork, landscape 4:3, full bleed. Wonderweb Studio art direction: richly saturated electric COBALT BLUE #2310d5 flowing finely grained folded textures, bold CITRUS ORANGE and ELECTRIC LIME accents, warm paper white negative shapes, tiny magenta highlights only. Beautiful directional studio lighting, tactile and photorealistic, sculptural sophisticated composition with depth and clear focal point. Not pastel, no purple/pink wash, not a toy-like illustration, no fake charts or metrics, no words, no numbers, no logos. NOT a website screenshot. Theme: A magnifying lens focusing on a beautiful miniature residential neighborhood and a layered white search-results panel. Sophisticated photorealistic architectural model, no humans.",
+      "output": "/services/search-hero.webp"
+    },
+    {
+      "slug": "local",
+      "prompt": "Create a premium website service-hero artwork, landscape 4:3, full bleed. Wonderweb Studio art direction: richly saturated electric COBALT BLUE #2310d5 flowing finely grained folded textures, bold CITRUS ORANGE and ELECTRIC LIME accents, warm paper white negative shapes, tiny magenta highlights only. Beautiful directional studio lighting, tactile and photorealistic, sculptural sophisticated composition with depth and clear focal point. Not pastel, no purple/pink wash, not a toy-like illustration, no fake charts or metrics, no words, no numbers, no logos. NOT a website screenshot. Theme: A photorealistic handsome suburban home and map terrain with a single large electric lime location marker, warm sunlight and chrome details, sophisticated architectural editorial collage. No humans.",
+      "output": "/services/local-hero.webp"
+    },
+    {
+      "slug": "ai",
+      "prompt": "Create a premium website service-hero artwork, landscape 4:3, full bleed. Wonderweb Studio art direction: richly saturated electric COBALT BLUE #2310d5 flowing finely grained folded textures, bold CITRUS ORANGE and ELECTRIC LIME accents, warm paper white negative shapes, tiny magenta highlights only. Beautiful directional studio lighting, tactile and photorealistic, sculptural sophisticated composition with depth and clear focal point. Not pastel, no purple/pink wash, not a toy-like illustration, no fake charts or metrics, no words, no numbers, no logos. NOT a website screenshot. Theme: A sculptural chrome asterisk interwoven with translucent glass answer cards, delicate branching citation lines connecting to small website panels. Smart, elegant editorial art, no robots or humans.",
+      "output": "/services/ai-hero.webp"
+    },
+    {
+      "slug": "creative",
+      "prompt": "Create a premium website service-hero artwork, landscape 4:3, full bleed. Wonderweb Studio art direction: richly saturated electric COBALT BLUE #2310d5 flowing finely grained folded textures, bold CITRUS ORANGE and ELECTRIC LIME accents, warm paper white negative shapes, tiny magenta highlights only. Beautiful directional studio lighting, tactile and photorealistic, sculptural sophisticated composition with depth and clear focal point. Not pastel, no purple/pink wash, not a toy-like illustration, no fake charts or metrics, no words, no numbers, no logos. NOT a website screenshot. Theme: A striking creative studio still life with bold geometric brand posters, an orange sphere, chrome ribbon, camera and immaculate color swatches. Typography must be blank, no people.",
+      "output": "/services/creative-hero.webp"
+    },
+    {
+      "slug": "automation",
+      "prompt": "Create a premium website service-hero artwork, landscape 4:3, full bleed. Wonderweb Studio art direction: richly saturated electric COBALT BLUE #2310d5 flowing finely grained folded textures, bold CITRUS ORANGE and ELECTRIC LIME accents, warm paper white negative shapes, tiny magenta highlights only. Beautiful directional studio lighting, tactile and photorealistic, sculptural sophisticated composition with depth and clear focal point. Not pastel, no purple/pink wash, not a toy-like illustration, no fake charts or metrics, no words, no numbers, no logos. NOT a website screenshot. Theme: An elegant flowing pipeline of frosted glass tiles connected by orange cables, an incoming message tile, calendar tile and completed checklist tile, precision chrome connectors, no robots or people.",
+      "output": "/services/automation-hero.webp"
+    },
+    {
+      "slug": "social",
+      "prompt": "Create a premium website service-hero artwork, landscape 4:3, full bleed. Wonderweb Studio art direction: richly saturated electric COBALT BLUE #2310d5 flowing finely grained folded textures, bold CITRUS ORANGE and ELECTRIC LIME accents, warm paper white negative shapes, tiny magenta highlights only. Beautiful directional studio lighting, tactile and photorealistic, sculptural sophisticated composition with depth and clear focal point. Not pastel, no purple/pink wash, not a toy-like illustration, no fake charts or metrics, no words, no numbers, no logos. NOT a website screenshot. Theme: A professional female small-business owner in a navy jacket, cropped waist up on the right, planning content on her smartphone. Large floating editorial social-content photo frames on the left, candid craftsmanship and beautiful residential interiors in the frames. No text.",
+      "output": "/services/social-hero.webp"
+    }
+  ]
+}

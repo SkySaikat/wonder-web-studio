@@ -1,0 +1,35 @@
+{
+  "context": "Owner-authorized BuiltRight photo library. Sector imagery, not independently verified photographs of each campaign client.",
+  "assets": [
+    {
+      "slug": "remodeling-search-reach",
+      "source": "https://builtrightdigital.com/wp-content/uploads/2021/01/bathroom-remodeling-home-remodeling-10.jpg",
+      "output": "/results/remodeling-search-reach.webp"
+    },
+    {
+      "slug": "bathroom-paid-search-efficiency",
+      "source": "https://builtrightdigital.com/wp-content/uploads/2024/11/american-bathtub-13-1536x1024.jpg",
+      "output": "/results/bathroom-paid-search-efficiency.webp"
+    },
+    {
+      "slug": "remodeling-lower-lead-cost",
+      "source": "https://builtrightdigital.com/wp-content/uploads/2024/11/american-bathtub-14-1536x1024.jpg",
+      "output": "/results/remodeling-lower-lead-cost.webp"
+    },
+    {
+      "slug": "residential-glass-bookings",
+      "source": "https://builtrightdigital.com/wp-content/uploads/2021/03/replacement-windows-phoenix-az-RemodAZ-9-1536x1024.jpg",
+      "output": "/results/residential-glass-bookings.webp"
+    },
+    {
+      "slug": "roofing-local-search",
+      "source": "https://builtrightdigital.com/wp-content/uploads/2022/06/Roof-Repair-tampa-fort-wayne-by-triple-s-remodeling-2-1536x1042.jpg",
+      "output": "/results/roofing-local-search.webp"
+    },
+    {
+      "slug": "remodeling-search-two-year-results",
+      "source": "https://builtrightdigital.com/wp-content/uploads/2022/06/LuxeKitchenandBathKitchens_8.jpg",
+      "output": "/results/remodeling-search-two-year-results.webp"
+    }
+  ]
+}

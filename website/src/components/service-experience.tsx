@@ -1,35 +1,71 @@
 'use client';
 
-import {useState} from 'react';
+import {useEffect,useRef,useState} from 'react';
 import Image from '@/components/content-image';
-import {ArrowUpRight,Check,Search,MousePointer2,Phone,BarChart3} from 'lucide-react';
+import {ArrowUpRight,ArrowLeft,ArrowRight,Check,Search,Phone,BarChart3,Pause,Play,MapPin,MousePointer2,Sparkles,Mail,CalendarDays,ShieldCheck,Workflow} from 'lucide-react';
+import {BookCallButton} from './booking';
+import {serviceVisual} from '@/lib/service-visuals';
 import type {ServiceDetail} from '@/lib/service-details';
 
-export function ServiceHeroImage({title,detail}:{title:string;detail:ServiceDetail}) {
- const search=detail.visual==='search'||title.includes('Ads');
- return <div className={`service-scene scene-${detail.visual}`}>
-  <div className="scene-orbit" aria-hidden="true"/>
-  <Image className="scene-person" src="/work/saikat.webp" alt="Saikat Chowdhury, Wonderweb Studio founder and team lead" width={520} height={640} sizes="(max-width:750px) 80vw, 38vw" priority/>
-  <div className="scene-card scene-top"><span className="scene-icon"><Search size={19}/></span><div><small>{search?'ILLUSTRATIVE SEARCH PREVIEW':'YOUR NEXT OPPORTUNITY'}</small><strong>{search?'roof repair near me':detail.tiles[0]}</strong><span>{search?'Your service. Your market. A clear next step.':`${title}, with a clear purpose.`}</span></div></div>
-  <div className="scene-card scene-side"><span className="scene-icon"><Check size={19}/></span><div><small>THE DETAILS, CONNECTED</small><strong>{detail.tiles[1]}</strong></div></div>
-  <div className="scene-card scene-bottom"><div><small>REAL PEOPLE. SHARED AMBITION.</small><strong>Your team at Wonderweb.</strong><span>Saikat Chowdhury · Founder & team lead</span></div><ArrowUpRight/></div>
- </div>;
+export function ServiceHeroImage({title,detail,slug}:{title:string;detail:ServiceDetail;slug:string}){
+ const art=serviceVisual(slug);
+ return <figure className={`service-art art-${art.family}`}>
+  <Image src={art.src} alt={art.alt} fill sizes="(max-width:750px) 92vw, 46vw" priority/>
+  <span className="art-label"><span/> THE WONDERWEB WAY</span>
+  {art.family==='paid'?<div className="art-search-copy" aria-hidden="true"><span>your next customer</span><strong>The right search.</strong><span>A better connection.</span><span>A clear next step.</span></div>:null}
+  <figcaption><span>{detail.tiles[0]}</span><strong>{detail.caption}</strong><ArrowUpRight size={25}/></figcaption>
+  <span className="art-stamp" aria-hidden="true"><Sparkles size={23}/><span>MAKE THE<br/>WONDER HAPPEN</span></span>
+ </figure>;
 }
 
-export function ServiceDemo({title,detail,slug}:{title:string;detail:ServiceDetail;slug:string}) {
- const [step,setStep]=useState(0);
- const search=detail.visual==='search'||['google-ads','microsoft-ads','local-services-ads','lead-generation'].includes(slug);
- const labels=search?['Find the right search','Make the connection','Review the inquiry']:detail.tiles;
- return <div className="service-demo">
-  <div className="demo-controls" aria-label={`${title} walkthrough`}>{labels.map((label,i)=><button key={label} type="button" aria-pressed={step===i} onClick={()=>setStep(i)}><span>0{i+1}</span>{label}</button>)}</div>
-  <div className="demo-stage" key={step}>
-   {search&&step===0?<><div className="demo-search"><Search size={21}/><span className="typed-query">roof repair near me</span></div><div className="demo-result"><small>{slug.includes('ads')?'Sponsored · ':''}Your company · your service area</small><strong>Roof repair from a team you can trust</strong><p>Clear service details. Relevant local work. An easy way to request an estimate.</p><span><Phone size={15}/> Request an estimate <ArrowUpRight size={15}/></span></div><div className="demo-ghost"/><div className="demo-chip"><Check size={16}/> Match the service to the search</div></>:step===1?<><div className="demo-browser"><span>YOUR BUSINESS / {title.toUpperCase()}</span><h3>{detail.label}</h3><p>{detail.tiles[1]}</p><div className="demo-mini-grid"><i/><i/><i/></div><span className="demo-faux-button">A clear next step <ArrowUpRight size={17}/></span><MousePointer2 className="demo-pointer" size={35}/></div><div className="demo-chip"><Check size={16}/> One connected customer journey</div></>:<><div className="demo-report"><BarChart3 size={28}/><h3>{step===2?'Make the next decision clearer.':detail.label}</h3>{(step===2?detail.metrics.slice(0,3):detail.tiles).map((m,i)=><div key={m}><span>{m}</span><span className="demo-check"><Check size={15}/></span></div>)}</div><div className="demo-chip"><Check size={16}/> {step===2?'Review, learn and improve':'Built around your business'}</div></>}
-  </div><p className="demo-caption">Illustrative walkthrough. Search placement and results are not guaranteed.</p>
+type Visual='search'|'local'|'journey'|'report'|'web'|'ai'|'creative'|'workflow';
+type Panel={label:string;title:string;body:string;items:string[];visual:Visual};
+function panelsFor(detail:ServiceDetail,slug:string):Panel[]{
+ if(['google-ads','microsoft-ads','lead-generation','digital-media-buying'].includes(slug))return [
+  {label:'Search intent',title:'Be there when the search gets serious.',body:'Connect the services you want to sell with the searches that show real intent. A useful ad starts with understanding the job behind the words.',items:['Service-specific keyword groups','Clear, relevant ad copy','Search-term and exclusion reviews'],visual:'search'},
+  {label:'The right audience',title:'Your budget has a service area, too.',body:'Build the campaign around the places you serve, the work you want and the capacity of your team. Review where inquiries actually come from.',items:['Real service boundaries','Useful landing-page destinations','Budget aligned with priorities'],visual:'local'},
+  {label:'The next conversation',title:'Give interested people a reason to return.',body:'Connect the first visit with a useful next step. Where appropriate and permitted, relevant remarketing can support the decision while your team handles the conversation.',items:['A consistent service offer','Audience and consent requirements','A clear follow-up handoff'],visual:'journey'},
+  {label:'The full picture',title:'Know what happened after the click.',body:'Make calls and forms reviewable, then connect them with qualification and sales feedback. The next decision needs more than an impression count.',items:['Tested conversion actions','Inquiry quality and source','Cost and outcome reviews'],visual:'report'},
+ ];
+ const visual:Visual=slug==='ai-search-optimization'?'ai':detail.visual==='search'?(slug==='local-seo'?'local':'search'):detail.visual==='web'?'web':detail.visual==='creative'||detail.visual==='social'?'creative':detail.visual==='workflow'?'workflow':'journey';
+ return detail.steps.map(([title,body],i)=>({label:detail.tiles[i]||`Stage ${i+1}`,title,body,items:i===0?detail.inputs.slice(0,3):i===1?detail.tiles:detail.metrics.slice(0,3),visual:i===0?visual:i===1?(visual==='ai'?'ai':visual==='creative'?'creative':visual==='workflow'?'workflow':'web'):'report'}));
+}
+
+function WalkthroughVisual({mode,detail,title}:{mode:Visual;detail:ServiceDetail;title:string}){
+ if(mode==='search')return <div className="walk-search">
+  <div className="walk-search-box pop-in"><span className="search-letter">G</span><span className="walk-query">bathroom remodeling near me</span><Search size={21}/></div>
+  <div className="walk-ad pop-in"><small>Sponsored · yourbusiness.com</small><span className="walk-ad-url"><span>Y</span>Your local remodeling team</span><h4>Make room for your next chapter.</h4><p>Bathroom remodeling built around your home. Explore the process, see the work and request an estimate.</p><div className="walk-ad-links"><span><Phone size={13}/> Talk to the team</span><span>Explore projects</span></div></div>
+  <div className="walk-note pop-in"><span><Check size={18}/></span><div><strong>Intent meets a useful offer.</strong><small>A clear route from search to inquiry.</small></div></div>
  </div>;
+ if(mode==='local')return <div className="walk-map"><div className="map-road road-one"/><div className="map-road road-two"/><div className="map-coverage"/>{[1,2,3,4].map((p)=><span key={p} className={`map-marker marker-${p} pop-in`}><MapPin size={p===1?35:23}/></span>)}<span className="map-label">YOUR SERVICE AREA</span><div className="map-business pop-in"><span className="business-avatar">Y</span><div><strong>Your business. Your coverage.</strong><small>Relevant services · Local inquiries</small></div><ShieldCheck/></div><div className="map-key"><i/> In your area <span/> Outside your coverage</div></div>;
+ if(mode==='journey'||mode==='workflow')return <div className="walk-journey">{(mode==='workflow'?[[Mail,'Request received','Capture the right details'],[Workflow,'Route to the right owner','Connect the approved systems'],[CalendarDays,'Follow up thoughtfully','Keep the human review'],[Check,'Review the outcome','Learn from the completed work']]:[[MousePointer2,'Discover','A homeowner visits your service page'],[Sparkles,'Reconnect','A relevant reminder of your offer'],[Phone,'Start a conversation','The next step is easy to take'],[Check,'Qualify & follow up','Your team reviews the real opportunity']]).map(([Icon,label,caption],i)=>{const Glyph=Icon as typeof Mail;return <div className="journey-event pop-in" key={String(label)}><span className="journey-node"><Glyph size={21}/></span><div><small>0{i+1}</small><strong>{String(label)}</strong><p>{String(caption)}</p></div>{i===3?<span className="journey-done">Connected <Check size={12}/></span>:null}</div>})}</div>;
+ if(mode==='ai')return <div className="walk-ai"><div className="ai-question pop-in">What should I look for in a local service company?<Sparkles size={20}/></div><div className="ai-answer pop-in"><span><Sparkles size={20}/> A useful answer begins with useful sources.</span><p>Clear service information. Relevant experience. A business people can verify.</p><div className="answer-lines"><i/><i/><i/></div><div className="ai-sources">{['Services','Project experience','Business details'].map((t,i)=><span key={t} className="pop-in"><b>0{i+1}</b>{t}<ArrowUpRight size={14}/></span>)}</div></div><p className="visual-footnote">Illustrative answer structure, not a promised citation.</p></div>;
+ if(mode==='web')return <div className="walk-browser pop-in"><div className="browser-bar"><i/><i/><i/><span>yourbusiness.com</span></div><div className="browser-content"><span>THOUGHTFULLY MADE. CLEARLY YOURS.</span><h4>A place for your<br/><em>next chapter.</em></h4><Image src="/services/web-hero.webp" alt="" width={400} height={270}/><p>Your story. The work behind it.<br/>A simple way to say hello.</p><span className="browser-cta">Let’s talk <ArrowUpRight size={14}/></span></div><MousePointer2 className="browser-pointer" size={37}/><div className="browser-mobile pop-in"><span/><Image src="/services/web-hero.webp" alt="" width={100} height={100}/><i/><i/><b>Say hello ↗</b></div></div>;
+ if(mode==='creative')return <div className="walk-creative"><div className="creative-board board-back pop-in"><span>YOUR BRAND,<br/>IN EVERY FRAME.</span><Image src="/services/creative-hero.webp" alt="" fill sizes="250px"/></div><div className="creative-board board-front pop-in"><Image src="/services/social-hero.webp" alt="" width={260} height={200}/><span>Something<br/><em>worth sharing.</em></span><div><i/><i/><i/><ArrowUpRight/></div></div><span className="creative-tag pop-in"><Check size={15}/> One recognizable visual language</span></div>;
+ return <div className="walk-dashboard"><div className="dashboard-top"><span><BarChart3 size={18}/> THE BUSINESS VIEW</span><span className="sample-pill">EXAMPLE</span></div><div className="dashboard-stats">{['Inquiries','Qualified','Booked work'].map((m,i)=><div className="pop-in" key={m}><small>0{i+1}</small><strong>{m}</strong><span>{['Track the source','Review the fit','Connect sales feedback'][i]}</span></div>)}</div><div className="dashboard-chart" aria-hidden="true">{[39,55,44,68,59,82,72,94].map((h,i)=><div key={i}><i style={{height:`${h}%`,animationDelay:`${i*.09}s`}}/><span>W{i+1}</span></div>)}</div><div className="dashboard-bottom pop-in"><Check size={18}/><span>{detail.metrics[0]||title}<small>Useful evidence for the next decision</small></span><ArrowUpRight size={19}/></div></div>;
+}
+
+export function ServiceDemo({title,detail,slug}:{title:string;detail:ServiceDetail;slug:string}){
+ const panels=panelsFor(detail,slug);const [active,setActive]=useState(0);const [paused,setPaused]=useState(false);const [hover,setHover]=useState(false);const [visible,setVisible]=useState(false);const [motion,setMotion]=useState(false);const root=useRef<HTMLElement>(null);
+ useEffect(()=>{const media=window.matchMedia('(prefers-reduced-motion: reduce)');const update=()=>setMotion(!media.matches&&document.documentElement.dataset.motion!=='paused'&&document.visibilityState==='visible');update();const observer=new MutationObserver(update);observer.observe(document.documentElement,{attributes:true,attributeFilter:['data-motion']});media.addEventListener('change',update);document.addEventListener('visibilitychange',update);const intersection=new IntersectionObserver(entries=>setVisible(entries.some(e=>e.isIntersecting)),{threshold:.25});if(root.current)intersection.observe(root.current);return()=>{observer.disconnect();intersection.disconnect();media.removeEventListener('change',update);document.removeEventListener('visibilitychange',update)}},[]);
+ const running=visible&&motion&&!paused&&!hover;
+ useEffect(()=>{if(!running)return;const timer=window.setInterval(()=>setActive(i=>(i+1)%panels.length),9500);return()=>clearInterval(timer)},[running,panels.length,active]);
+ function select(index:number){setActive((index+panels.length)%panels.length);setPaused(true);}
+ const panel=panels[active];
+ return <section ref={root} className="service-showcase section" aria-label={`${title} walkthrough`} onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)} onFocusCapture={()=>setHover(true)} onBlurCapture={event=>{if(!event.currentTarget.contains(event.relatedTarget))setHover(false)}}>
+  <div className="container"><div className="showcase-heading"><div><span className="small-label">A CLOSER LOOK AT THE WORK</span><h2>{detail.label}<em>.</em></h2><p>Explore the details that make the difference.</p></div><div className="showcase-controls"><button aria-label="Previous stage" onClick={()=>select(active-1)}><ArrowLeft/></button><button aria-label="Next stage" onClick={()=>select(active+1)}><ArrowRight/></button><button aria-label={paused?'Play walkthrough':'Pause walkthrough'} aria-pressed={paused} onClick={()=>setPaused(!paused)}>{paused?<Play size={18}/>:<Pause size={18}/>}</button></div></div>
+  <div className="showcase-tabs" role="group" aria-label="Choose a stage">{panels.map((p,i)=><button key={p.label} aria-pressed={active===i} onClick={()=>select(i)}><span>0{i+1}</span>{p.label}<i key={`${active}-${running}`} className={active===i&&running?'is-running':''}/></button>)}</div>
+  <article className="showcase-panel" key={active+'-'+visible}><div className="showcase-copy"><span className="panel-number">0{active+1} / 0{panels.length}</span><h3>{panel.title}</h3><p>{panel.body}</p><ul>{panel.items.map(item=><li key={item}><Check size={16}/>{item}</li>)}</ul><BookCallButton service={title}>Talk about your business</BookCallButton></div><div className={`showcase-visual visual-${panel.visual}`}><WalkthroughVisual mode={panel.visual} detail={detail} title={title}/></div></article>
+  <p className="showcase-caption">Illustrative walkthrough. Scope is agreed in your proposal; placement and business outcomes vary.</p></div>
+ </section>;
 }
 
 export function InvestmentPlanner(){
  const [budget,setBudget]=useState(3000);const [cost,setCost]=useState(150);const [close,setClose]=useState(20);
  const leads=budget/cost; const jobs=leads*close/100;
  return <div className="investment-planner"><div className="planner-heading"><BarChart3/><span>EXPLORE THE ECONOMICS</span></div><h3>What does a useful<br/>inquiry mean to you?</h3><p>Change the assumptions to see how media spend, lead cost and sales follow-up connect.</p><label>Monthly media budget <strong>${budget.toLocaleString('en-US')}</strong><input type="range" min="1000" max="20000" step="500" value={budget} onChange={e=>setBudget(Number(e.target.value))}/></label><label>Assumed cost per inquiry <strong>${cost}</strong><input type="range" min="50" max="500" step="10" value={cost} onChange={e=>setCost(Number(e.target.value))}/></label><label>Assumed close rate <strong>{close}%</strong><input type="range" min="5" max="50" step="5" value={close} onChange={e=>setClose(Number(e.target.value))}/></label><div className="planner-totals" aria-live="polite"><div><strong>{leads.toFixed(0)}</strong><span>modeled inquiries</span></div><div><strong>{jobs.toFixed(1)}</strong><span>modeled customers</span></div><div><strong>${Math.round(budget/jobs).toLocaleString('en-US')}</strong><span>media cost / customer</span></div></div><small>Planning example only, not a forecast. Excludes agency fees, delivery costs and taxes. Inquiries = budget ÷ cost per inquiry; customers = inquiries × close rate.</small></div>;
+}
+
+export function BenefitVisual({index}:{index:number}){
+ return <div className={'benefit-visual benefit-'+index} aria-hidden="true">{index===0?<><span className="benefit-chip"><Check size={14}/> One clear priority</span><div className="benefit-focus"><Search size={24}/><div><i/><i/><i/></div><span><Check size={15}/></span></div></>:index===1?<><span className="benefit-chip">Every handoff, connected</span><div className="benefit-flow"><span><Mail size={22}/><small>Brief</small></span><i/><span><Workflow size={22}/><small>Create</small></span><i/><span><Check size={22}/><small>Review</small></span></div></>:<><span className="benefit-chip"><BarChart3 size={14}/> Useful feedback</span><div className="benefit-bars">{[40,63,48,78,67,90].map((h,i)=><i style={{height:h+'%',animationDelay:i*.1+'s'}} key={i}/>)}</div></>}</div>;
 }

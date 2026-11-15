@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import {existsSync} from 'node:fs';
 import {articles} from '../src/lib/articles';
 import {markdownPath} from '../src/lib/content-paths';
 import {formatEditorialDate} from '../src/lib/editorial-dates';
@@ -24,7 +25,8 @@ test('every public page has a discoverable Markdown guide with a canonical respo
   // All internal links must point to a known public page, guide or actual asset.
   for(const match of body.matchAll(/\]\((https:\/\/www\.wonderwebstudio\.com[^)]+)\)/g)){
    const target=new URL(match[1]).pathname;
-   if(!target.match(/\.(webp|png)$/))assert.ok(seoByPath.has(target)||markdownPages.has(target)||target==='/content/index.md',`broken internal reference: ${target}`);
+   if(target.match(/\.(webp|png|pdf|csv)$/))assert.ok(existsSync(`public${target}`),`missing downloadable asset: ${target}`);
+   else assert.ok(seoByPath.has(target)||markdownPages.has(target)||target==='/content/index.md',`broken internal reference: ${target}`);
   }
  }
  assert.equal((await GET(new Request('https://example.com'),{params:Promise.resolve({slug:['payments.md']})})).status,404);

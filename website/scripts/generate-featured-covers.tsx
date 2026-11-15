@@ -1,3 +1,4 @@
+import {serviceVisual} from '../src/lib/service-visuals';
 import React from 'react';
 import {ImageResponse} from 'next/og';
 import sharp from 'sharp';
@@ -14,8 +15,9 @@ type Cover={src:string;artwork:string;title:string;alt:string;description:string
 const articleByPath=new Map(articles.map(a=>[`/resources/${a.slug}/`,a]));
 function artwork(page:(typeof seoPages)[number]){
  const [kind,slug,service]=page.path.split('/').filter(Boolean);
+ if(kind==='services'&&slug)return {...serviceVisual(slug),concept:true};
  if(kind==='work'&&slug){const src=page.images?.find(p=>p.startsWith('/work/'));if(src)return {src,alt:`Selected ${page.label} website project preview.`,concept:false};}
- if(kind==='results'&&slug){const image=caseImage(slug);if(image)return {...image,concept:true};}
+ if(kind==='results'&&slug){const image=caseImage(slug);if(image)return {...image,concept:false};}
  const article=articleByPath.get(page.path);const existing=article&&editorialImages[article.slug];
  if(existing&&!existing.src.includes('/guides/')&&!existing.src.startsWith('/featured/'))return {...existing,concept:true};
  let topic=migratedByPath.get(page.path)?.service||article?.primaryService||article?.related[0]||'';
@@ -31,13 +33,13 @@ async function main(){
  const covers:Record<string,Cover>=process.argv[2]?{...previous}:{};let generated=0;
  const artworkCache=new Map<string,Buffer>();
  for(const page of seoPages){
-  if(process.argv[2]&&page.path!==process.argv[2])continue;
+  if(process.argv[2]&&!process.argv[2].split(',').includes(page.path))continue;
   const art=artwork(page);const src=featuredImagePath(page.path);const title=page.title;
   let bytes=artworkCache.get(art.src);if(!bytes){bytes=await readFile(`public${art.src}`);artworkCache.set(art.src,bytes);}
   const signature=createHash('sha256').update(bytes).update(JSON.stringify({v:2,title,category:page.category})).digest('hex');
   const visualDescription=art.alt.replace(/\s+No(?:\s| fake)[^.]*\.?/g,'').trim();
   const alt=`${title}. ${visualDescription}`;
-  covers[src]={src,artwork:art.src,title:`${title} | Wonderweb Studio`,alt,description:`${visualDescription} Featured cover for ${title}. ${art.concept?'Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.':'Portfolio image from the selected project.'}`,width:1440,height:810,type:'image/webp',signature};
+  covers[src]={src,artwork:art.src,title:`${title} | Wonderweb Studio`,alt,description:`${visualDescription} Featured cover for ${title}. ${art.concept?(page.path.startsWith('/services/')?'Conceptual service artwork generated with built-in imagegen; not a client photograph.':'Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.'):(page.path.startsWith('/results/')?'Owner-authorized sector photograph used to illustrate the campaign.':'Portfolio image from the selected project.')}`,width:1440,height:810,type:'image/webp',signature};
   if(previous[src]?.signature===signature){try{await readFile(`public${src}`);continue}catch{}}
   const photo=`data:image/png;base64,${(await sharp(bytes).resize(1440,610,{fit:'cover'}).png().toBuffer()).toString('base64')}`;
   const response=new ImageResponse(<div style={{display:'flex',flexDirection:'column',width:'100%',height:'100%',background:'#f4f0ea',color:'#25202d'}}>

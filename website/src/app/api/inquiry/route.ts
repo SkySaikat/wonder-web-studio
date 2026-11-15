@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { leadSchema } from '@/lib/leads';
 import {leadDeliveryConfig,sendLead} from '@/lib/lead-delivery';
 import {site} from '@/lib/site';
+import {createGuideGrant,guideAccessSeconds,guideCookieName,guideSigningKey} from '@/lib/guide-access';
 export const runtime='nodejs';
 export const dynamic='force-dynamic';
 export const maxDuration=60;
@@ -30,7 +31,14 @@ export async function POST(request:Request){
       if(!result.success||result.action!=='inquiry'||result.hostname!==new URL(origin).hostname)return respond('The security check expired. Please try again.',400);
     }catch{return respond('The security check could not complete. Please try again.',503);}
   }
-  try {await sendLead(lead,config);return NextResponse.json({ok:true,reference:lead.requestId},{headers:{'Cache-Control':'no-store'}});}
+  try {
+    await sendLead(lead,config);
+    const response=NextResponse.json({ok:true,reference:lead.requestId},{headers:{'Cache-Control':'no-store'}});
+    if(lead.guide)response.cookies.set(guideCookieName(lead.guide.slug),createGuideGrant(lead.guide.slug,guideSigningKey()),{
+      httpOnly:true,secure:process.env.NODE_ENV==='production',sameSite:'lax',maxAge:guideAccessSeconds,path:`/api/guides/${lead.guide.slug}/`,
+    });
+    return response;
+  }
   catch(error){
     const failure=error as {code?:unknown;responseCode?:unknown};
     // Log diagnostic codes only; never log SMTP credentials or a visitor's message.

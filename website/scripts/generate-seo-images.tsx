@@ -1,3 +1,7 @@
+import {campaignStories} from '../src/lib/projects';
+import {caseImage} from '../src/lib/editorial-images';
+import {serviceVisual} from '../src/lib/service-visuals';
+import {services} from '../src/lib/content';
 import covers from '../src/lib/featured-covers.json';
 import artCatalog from './featured-art-catalog.json';
 import {featuredImagePath} from '../src/lib/featured-path';
@@ -11,7 +15,7 @@ import {editorialImages} from '../src/lib/editorial-images';
 import {work} from '../src/lib/content';
 
 async function main(){
- const only=process.argv[2];
+ const only=process.argv[2]?.split(',');
  await mkdir('public/seo',{recursive:true});
  const currentCovers=new Set(seoPages.map(p=>seoImagePath(p.path).slice('/seo/'.length)));
  if(!only)for(const filename of await readdir('public/seo')){if(filename.endsWith('.png')&&!currentCovers.has(filename))await unlink(`public/seo/${filename}`);}
@@ -19,7 +23,7 @@ async function main(){
  const signatures:Record<string,string>=only?{...prior}:{};let generated=0;
  const palettes=['#c4a2ff','#d4ef87','#ffbc85','#ffabd2','#a7d9f8','#9be0c4'];
  for(const [i,page] of seoPages.entries()){
-  if(only&&page.path!==only)continue;
+  if(only&&!only.includes(page.path))continue;
   const output=`public${seoImagePath(page.path)}`;
   const cover=covers[featuredImagePath(page.path) as keyof typeof covers];const imageSource=cover?.artwork||page.images?.[0];const imageDigest=imageSource?createHash('sha256').update(await readFile(`public${imageSource}`)).digest('hex'):'';
   const signature=createHash('sha256').update(JSON.stringify({version:3,title:page.title,category:page.category,imageDigest,palette:palettes[i%palettes.length]})).digest('hex');signatures[page.path]=signature;
@@ -37,7 +41,7 @@ async function main(){
  }
  await writeFile('.seo-image-cache.json',JSON.stringify(signatures));
  const records:Record<string,{title:string;description:string;width:number;height:number;type:string}>={};
- const sources=[...Object.values(covers).map(image=>({src:image.src,title:image.title,description:image.description})),...Object.entries(artCatalog).map(([slug,scene])=>({src:`/editorial/topics/${slug}.webp`,title:`${slug.replaceAll('-',' ')} editorial illustration`,description:`${scene} Gemini-generated conceptual artwork for Wonderweb Studio.`})),...Object.values(editorialImages).map(image=>({src:image.src,title:image.alt,description:image.alt+(image.src.startsWith('/editorial/guides/')?' Original editorial title-card design; not a client project photograph.':' AI-generated conceptual editorial artwork; not a client project photograph.')})),...work.map(w=>({src:w.image,title:`${w.label} - ${w.category}`,description:`${w.label} project preview. ${w.description}`})),
+ const sources=[...campaignStories.map(s=>({...caseImage(s.slug),title:s.label,description:caseImage(s.slug).alt})),...services.map(s=>({...serviceVisual(s.slug),title:s.title,description:serviceVisual(s.slug).alt})),...Object.values(covers).map(image=>({src:image.src,title:image.title,description:image.description})),...Object.entries(artCatalog).map(([slug,scene])=>({src:`/editorial/topics/${slug}.webp`,title:`${slug.replaceAll('-',' ')} editorial illustration`,description:`${scene} Gemini-generated conceptual artwork for Wonderweb Studio.`})),...Object.values(editorialImages).map(image=>({src:image.src,title:image.alt,description:image.alt+(image.src.startsWith('/editorial/guides/')?' Original editorial title-card design; not a client project photograph.':' AI-generated conceptual editorial artwork; not a client project photograph.')})),...work.map(w=>({src:w.image,title:`${w.label} - ${w.category}`,description:`${w.label} project preview. ${w.description}`})),
   {src:'/work/saikat.webp',title:'Saikat Chowdhury, Founder & CEO',description:'Portrait of Saikat Chowdhury, Wonderweb Studio founder, CEO and team lead.'},
   {src:'/brand/wonderweb-studio.svg',title:'Wonderweb Studio logo',description:'Wonderweb Studio brand logo.'},
   {src:'/art/wonder-sculpture.png',title:'Wonderweb Studio creative artwork',description:'Abstract blue and lilac sculptural artwork created for the Wonderweb Studio homepage.'},
