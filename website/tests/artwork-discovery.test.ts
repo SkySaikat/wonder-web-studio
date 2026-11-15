@@ -42,6 +42,6 @@ test('sitemap retains all public HTML routes and nests their service and guide i
 test('guide schema describes signup access and service Markdown preserves visible FAQs and artwork',()=>{
  const graph=pageGraph('/guides/')['@graph'];const list=graph.find(n=>n['@type']==='ItemList')!;
  assert.equal(list.numberOfItems,20);
- for(const row of list.itemListElement as {item:{conditionsOfAccess:string;encodingFormat:string;url:string}}[]){assert.match(row.item.conditionsOfAccess,/signup/);assert.equal(row.item.encodingFormat,'application/pdf');assert.ok(row.item.url.includes('/guides/#'));}
+ for(const row of list.itemListElement as {item:{conditionsOfAccess:string;encodingFormat:string;url:string}}[]){assert.match(row.item.conditionsOfAccess,/signup/);assert.equal(row.item.encodingFormat,'application/pdf');assert.ok(seoByPath.has(new URL(row.item.url).pathname));assert.match(row.item.url,/\/guides\/[a-z-]+\/$/);}
  for(const service of services){const md=pageMarkdown(seoByPath.get(`/services/${service.slug}/`)!);assert.ok(md.includes(serviceVisual(service.slug).src));for(const [q,a]of [...service.faq,...serviceDetails[service.slug].faq]){assert.ok(md.includes(q));/* First visible answer wins when a question is repeated. */if(!service.faq.some(([other])=>other===q))assert.ok(md.includes(a));}}
 });

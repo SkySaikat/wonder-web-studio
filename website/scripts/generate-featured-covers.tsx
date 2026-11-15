@@ -1,4 +1,5 @@
 import {serviceVisual} from '../src/lib/service-visuals';
+import {guideLandingBySlug} from '../src/lib/guide-landings';
 import React from 'react';
 import {ImageResponse} from 'next/og';
 import sharp from 'sharp';
@@ -15,6 +16,7 @@ type Cover={src:string;artwork:string;title:string;alt:string;description:string
 const articleByPath=new Map(articles.map(a=>[`/resources/${a.slug}/`,a]));
 function artwork(page:(typeof seoPages)[number]){
  const [kind,slug,service]=page.path.split('/').filter(Boolean);
+ if(kind==='guides'&&slug){const guide=guideLandingBySlug.get(slug)?.guide;if(guide)return {src:guide.artwork,alt:guide.coverAlt.replace(`${guide.title} cover: `,''),concept:true};}
  if(kind==='services'&&slug)return {...serviceVisual(slug),concept:true};
  if(kind==='work'&&slug){const src=page.images?.find(p=>p.startsWith('/work/'));if(src)return {src,alt:`Selected ${page.label} website project preview.`,concept:false};}
  if(kind==='results'&&slug){const image=caseImage(slug);if(image)return {...image,concept:false};}

@@ -2,6 +2,7 @@ import {serviceVisual} from './service-visuals';
 import {caseSources} from './case-sources';
 import {featuredImagePath} from './featured-path';
 import downloadGuides from '../data/download-guides.json';
+import {guideLandingBySlug,guidePath,relatedGuideLandings} from './guide-landings';
 import {migratedByPath,publishedMigrations,migrationPageSize,migrationLibraryPath} from './migrated-content';
 import {migratedDocument} from './migrated-body';
 import {locationReading} from './location-reading';
@@ -33,7 +34,12 @@ export function markdownBody(page:SeoPage):string{
  if(migrated){const doc=migratedDocument(migrated);return `Original publication: ${migrated.originalPublished}\nWonderweb adaptation: ${migrated.published}\n\n${doc.editorialReview?.status==='rewritten'?`Rewritten for Wonderweb Studio on ${doc.editorialReview.reviewed} with expanded examples and current primary references.`:'Adapted from owner-supplied editorial material. Cost examples and platform details reflect the original context; check current quotes and documentation.'}\n\n${doc.markdown}\n\n## Put the ideas into practice\n\n${links([`/services/${migrated.service}/`,'/pricing/',...serviceReading(migrated.service).slice(0,3).map(a=>`/resources/${a.slug}/`)])}`;}
  const [kind,slug,service]=page.path.split('/').filter(Boolean);
  const blocks:string[]=[];
- if(kind==='guides')blocks.push('Free guides for home-service businesses, unlocked after business signup.',...downloadGuides.map(g=>`## ${g.title}\n\n${g.description}\n\n[Get this guide (${g.pages} pages; business signup required)](${absoluteUrl('/guides/')}#${g.slug})`));
+ if(kind==='guides'&&!slug)blocks.push('Free guides for home-service businesses. Explore the advice and services on each guide’s own page, then request the PDF through its business-details form.',...downloadGuides.map(g=>`## ${g.title}\n\n${g.description}\n\n[Explore this guide (${g.pages} pages)](${absoluteUrl(guidePath(g.slug))})`));
+ if(kind==='guides'&&slug){
+  const p=guideLandingBySlug.get(slug)!;
+  blocks.push(p.headline,p.intro,sections([[p.context.title,p.context.body]]),p.trade.focus,sections(p.steps.map(s=>[s.title,s.body])),`## Make this a habit\n\n${bullets(p.dos)}`,`## Give these a miss\n\n${bullets(p.donts)}`,`## How Wonderweb Studio can help\n\n${bullets(p.help)}\n\nWe agree on responsibilities, deliverables and pricing in a written scope. The guide is yours to use whether or not you hire us.`,links([`/services/${p.service}/`,p.trade.industryPath]),`## Get your free guide: ${p.guide.title}\n\n${p.guide.pages}-page PDF${'csv' in p.guide?' and editable CSV':''}.\n\n${bullets(p.inside)}\n\n[Complete the business-details form to unlock your guide](${absoluteUrl(p.path)}#free-guide). With your consent, Wonderweb Studio may follow up about your guide and marketing goals.`,faq(p.faqs),`## Related guides\n\n${links(relatedGuideLandings(slug).map(p=>p.path))}`);
+  if(p.sources.length)blocks.push(`## Platform references\n\n${bullets(p.sources.map(s=>`[${s.title}](${s.url})`))}`);
+ }
  if(kind==='resources'&&slug){
   const a=articles.find(a=>a.slug===slug)!;
   blocks.push(`Author: Wonderweb Studio editorial team`,sections(a.sections.map(s=>[s.title,s.body+(s.links?.length?'\n\n'+s.links.map(l=>`[${l.label}](${absoluteUrl(l.href)})`).join(' · '):'')])),`## Your next-step checklist\n\n${bullets(a.checklist)}`,faq(a.faqs||[]));

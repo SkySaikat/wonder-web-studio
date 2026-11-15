@@ -21,6 +21,7 @@ export function llmsText(){
  ['Portfolio',publicSeoPages.filter(p=>p.path.startsWith('/work/')&&p.path!=='/work/')],
  ['Campaign case studies',publicSeoPages.filter(p=>p.path.startsWith('/results/')&&p.path!=='/results/')],
  ['Marketing resources',publicSeoPages.filter(p=>p.path.startsWith('/resources/')&&p.path!=='/resources/')],
+ ['Free trade-specific guides',publicSeoPages.filter(p=>p.path.startsWith('/guides/')&&p.path!=='/guides/')],
  ['Industry service guides',publicSeoPages.filter(p=>p.path.startsWith('/solutions/')&&p.path!=='/solutions/')],
  ['Policies',publicSeoPages.filter(p=>['/privacy-policy/','/terms/'].includes(p.path))]] as const;
  return intro+'\n'+groups.map(([name,pages])=>`## ${name}\n\n${pages.map(p=>`- [${p.title}](${absoluteUrl(p.path)}): ${p.description} ([Markdown](${absoluteUrl(markdownPath(p.path))}))`).join('\n')}`).join('\n\n')+`\n\n## Machine-readable references\n\n- [Markdown directory](${absoluteUrl('/content/index.md')}): Individual content guides with canonical website links.\n- [Expanded content guide](${absoluteUrl('/llms-full.txt')}): Plain-text service, project and article content.\n- [XML sitemap](${absoluteUrl('/sitemap.xml')}): Canonical public page and image URLs.\n`;

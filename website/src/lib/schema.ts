@@ -1,4 +1,5 @@
 import downloadGuides from '../data/download-guides.json';
+import {guideLandingBySlug,guidePath} from './guide-landings';
 import {featuredImagePath} from './featured-path';
 import {site} from './site';
 import {absoluteUrl} from './seo';
@@ -48,7 +49,13 @@ export function pageGraph(path:string){
  }
  if(path==='/guides/'){
   const listId=`${url}#guides`;pageNode.mainEntity=ref(listId);
-  nodes.push({'@type':'ItemList','@id':listId,name:'Business-signup marketing guides',numberOfItems:downloadGuides.length,itemListElement:downloadGuides.map((g,i)=>({'@type':'ListItem',position:i+1,item:{'@type':'DigitalDocument','@id':`${url}#${g.slug}`,name:g.title,description:g.description,url:`${url}#${g.slug}`,inLanguage:'en',encodingFormat:'application/pdf',isAccessibleForFree:true,conditionsOfAccess:'Business signup is required before downloading.',publisher:ref(orgId),image:ref(`${absoluteUrl(g.cover)}#image`)}}))});
+  nodes.push({'@type':'ItemList','@id':listId,name:'Free marketing guides',numberOfItems:downloadGuides.length,itemListElement:downloadGuides.map((g,i)=>({'@type':'ListItem',position:i+1,item:{'@type':'DigitalDocument','@id':`${absoluteUrl(guidePath(g.slug))}#guide`,name:g.title,description:g.description,url:absoluteUrl(guidePath(g.slug)),inLanguage:'en',encodingFormat:'application/pdf',isAccessibleForFree:true,conditionsOfAccess:'Business signup is required before downloading.',publisher:ref(orgId),image:ref(`${absoluteUrl(g.cover)}#image`)}}))});
+ }
+ const guidePage=path.startsWith('/guides/')?guideLandingBySlug.get(path.split('/')[2]):undefined;
+ if(guidePage){
+  const g=guidePage.guide;const guideId=`${url}#guide`;
+  pageNode.hasPart=ref(guideId);
+  nodes.push({'@type':'DigitalDocument','@id':guideId,name:g.title,description:g.description,url:`${url}#free-guide`,inLanguage:'en',encodingFormat:'application/pdf',isAccessibleForFree:true,conditionsOfAccess:'Complete the business-details form and consent to contact to unlock the download.',publisher:ref(orgId),about:ref(entityId),image:ref(`${absoluteUrl(g.cover)}#image`)});
  }
  if(page.children){
   pageNode.mainEntity=ref(`${url}#list`);

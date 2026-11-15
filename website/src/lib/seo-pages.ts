@@ -1,5 +1,6 @@
 import {serviceVisual} from './service-visuals';
 import downloadGuides from '../data/download-guides.json';
+import {guideLandings} from './guide-landings';
 import {featuredImagePath} from './featured-path';
 import {migratedEntries,migrationPageSize,migrationLibraryPath,isReleased,migrationSeoTitle} from './migrated-content';
 import {editorialImages,caseImage} from './editorial-images';
@@ -52,6 +53,7 @@ const articleTitles:Record<string,string>={
 };
 const migrationLibraries:SeoPage[]=['resources','solutions'].flatMap(kind=>Array.from({length:Math.ceil(migratedEntries.filter(e=>e.kind===kind).length/migrationPageSize)},(_,i)=>({path:migrationLibraryPath(kind,i+1),title:`${kind==='resources'?'Marketing Resource Library':'Industry Service Guides'}${i?` - Page ${i+1}`:''}`,description:`Browse practical ${kind==='resources'?'marketing resources':'industry service guides'} from Wonderweb Studio. Explore websites, search, advertising and content. Page ${i+1}.`,label:`${kind==='resources'?'Resources':'Industry guides'} · ${i+1}`,category:'Guide library',type:'CollectionPage' as const,modified:'2026-11-11'})));
 const baseSeoPages:SeoPage[]=[...core,...migrationLibraries,
+ ...guideLandings.map(p=>({path:p.path,title:p.title,description:p.description,label:p.guide.title,category:'Free marketing guides',type:'WebPage' as const,entity:'Service' as const,serviceType:p.serviceLabel,audience:p.trade.audience,modified:'2026-11-16',images:[p.guide.artwork,p.guide.cover]})),
  ...migratedEntries.map(e=>({path:e.path,title:migrationSeoTitle(e),description:e.summary,label:e.title,category:e.category,type:'WebPage' as const,entity:(e.kind==='resources'?'BlogPosting':'Article') as 'BlogPosting'|'Article',modified:e.updated>e.published.slice(0,10)?e.updated:e.published,published:e.published,availableAt:e.published,images:[]})),
  ...services.map(s=>({modified:'2026-11-16',path:`/services/${s.slug}/`,title:`${shortService(s.slug,s.title)} Services`,description:s.description,label:s.title,category:s.category,type:'WebPage' as const,entity:'Service' as const,serviceType:s.title,images:[serviceVisual(s.slug).src,...clientProjects.filter(p=>p.slug===serviceDetails[s.slug]?.project).map(p=>p.image)]})),
  ...industries.map(i=>({path:`/industries/${i.slug}/`,title:`${i.title} Marketing Agency`,description:`Websites, SEO, ads and content for ${i.audience}. Explore a connected plan, clear deliverables and inquiry support from Wonderweb Studio.`,label:i.title,category:'Industry marketing',type:'WebPage' as const,entity:'Service' as const,serviceType:`${i.title} digital marketing`,audience:i.audience})),

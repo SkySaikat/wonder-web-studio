@@ -4,8 +4,13 @@ import {campaignStories,clientProjects} from '@/lib/projects';
 import {caseImage} from '@/lib/editorial-images';
 import {CaseStudyShowcase} from './case-study-showcase';
 import {Eyebrow} from './ui';
+import {guideLandings} from '@/lib/guide-landings';
 
-export function GuideBanner(){return <aside className="service-guide-banner container"><span className="guide-book"><BookOpen size={32}/></span><div><small>SMALL READS. USEFUL NEXT STEPS.</small><h2>A little knowledge. A better next move.</h2><p>Practical SEO and Google Ads field guides for your trade. Free with business signup.</p></div><Link className="button" href="/guides/">Get your free guide <ArrowUpRight size={18}/></Link></aside>}
+export function GuideBanner({service}:{service?:string}){
+ const topic=service==='local-seo'?'seo':service;
+ const pages=guideLandings.filter(p=>p.service===topic&&(!p.guide.slug.includes('google-ads')||p.guide.slug.endsWith('google-ads-guide'))&&!p.guide.slug.endsWith('negative-keyword-vault'));
+ return <aside className="service-guide-banner container"><span className="guide-book"><BookOpen size={32}/></span><div><small>SMALL READS. USEFUL NEXT STEPS.</small><h2>A little knowledge. A better next move.</h2><p>Practical marketing advice and free guides, made for your trade.</p>{pages.length?<nav className="guide-service-links" aria-label="Free guides by trade">{pages.map(p=><Link href={p.path} key={p.path}>{p.guide.industry} guide</Link>)}</nav>:null}</div><Link className="button" href="/guides/">Get your free guide <ArrowUpRight size={18}/></Link></aside>;
+}
 
 export function ServiceProof({slug}:{slug:string}){
  const search=['seo','local-seo','ai-search-optimization','franchise-marketing'];const paid=['google-ads','microsoft-ads','lead-generation','digital-media-buying','local-services-ads'];
