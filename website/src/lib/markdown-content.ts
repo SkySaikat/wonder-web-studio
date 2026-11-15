@@ -1,3 +1,5 @@
+import {serviceVisual} from './service-visuals';
+import {caseSources} from './case-sources';
 import {featuredImagePath} from './featured-path';
 import downloadGuides from '../data/download-guides.json';
 import {migratedByPath,publishedMigrations,migrationPageSize,migrationLibraryPath} from './migrated-content';
@@ -41,9 +43,9 @@ export function markdownBody(page:SeoPage):string{
  }
  if(kind==='services'&&slug){
   const s=services.find(s=>s.slug===slug)!;const d=serviceDetails[slug];
-  blocks.push(s.intro,sections(s.sections.map(s=>[s.title,s.body])),`## Deliverables\n\n${bullets(s.deliverables)}`);
+  blocks.push(s.intro,`![${serviceVisual(slug).alt}](${absoluteUrl(serviceVisual(slug).src)})`,sections(s.sections.map(s=>[s.title,s.body])),`## Deliverables\n\n${bullets(s.deliverables)}`);
   blocks.push(`## Guides to ${s.title}\n\n${links(serviceReading(slug).map(a=>`/resources/${a.slug}/`))}`,`## Industry reading\n\n${links(serviceArchiveReading(slug).map(a=>a.path))}`,`## Pricing\n\n[Review starting prices, scope and payment options](${absoluteUrl('/pricing/')})`);
-  if(d)blocks.push(`## Who this is for\n\n${d.fit}\n\n${d.outcome}`,sections(d.steps),sections(d.checks),`## Inputs\n\n${bullets(d.inputs)}`,`## Measurement\n\n${bullets(d.metrics)}`,faq(d.faq));
+  if(d)blocks.push(`## Who this is for\n\n${d.fit}\n\n${d.outcome}`,sections(d.steps),sections(d.checks),`## Inputs\n\n${bullets(d.inputs)}`,`## Measurement\n\n${bullets(d.metrics)}`,faq([...s.faq,...d.faq].filter(([question],index,items)=>items.findIndex(([candidate])=>candidate===question)===index)));
  }
  if(kind==='locations'&&slug){
   const l=locations.find(l=>l.slug===slug)!;const brief=marketBriefs[slug];
@@ -64,6 +66,7 @@ export function markdownBody(page:SeoPage):string{
  }
  if(kind==='results'&&slug){
   const s=campaignStories.find(s=>s.slug===slug)!;const d=caseStudyDetails[slug];
+  if(caseSources[slug])blocks.push(`Originally delivered through BuiltRight Digital. [Original case study](${caseSources[slug]}). Shared with the business owner’s permission.`);
   blocks.push(`## Campaign context\n\n${s.period}\n\n${s.challenge}\n\n${s.approach}`,`## Reported outcomes\n\n${bullets(s.results.map(([v,l])=>`${v} ${l}`))}\n\n${s.context}`,d.intro,sections(d.chapters),`## Lessons\n\n${d.lessons}`,faq(d.questions),`## Further reading\n\n${links(d.reading.map(s=>`/resources/${s}/`))}`);
  }
  if(kind==='work'&&slug){const w=work.find(w=>w.slug===slug)!;blocks.push('challenge' in w?`## Brief\n\n${w.challenge}\n\n## Approach\n\n${w.approach}\n\n## Deliverables\n\n${bullets(w.deliverables)}`:'A creative exploration from the studio’s earlier portfolio; not a measured campaign result.');}

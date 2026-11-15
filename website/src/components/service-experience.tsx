@@ -1,6 +1,7 @@
 'use client';
 
 import {useEffect,useRef,useState} from 'react';
+import {useEntrance} from './use-entrance';
 import Image from '@/components/content-image';
 import {ArrowUpRight,ArrowLeft,ArrowRight,Check,Search,Phone,BarChart3,Pause,Play,MapPin,MousePointer2,Sparkles,Mail,CalendarDays,ShieldCheck,Workflow} from 'lucide-react';
 import {BookCallButton} from './booking';
@@ -9,13 +10,26 @@ import type {ServiceDetail} from '@/lib/service-details';
 
 export function ServiceHeroImage({title,detail,slug}:{title:string;detail:ServiceDetail;slug:string}){
  const art=serviceVisual(slug);
- return <figure className={`service-art art-${art.family}`}>
-  <Image src={art.src} alt={art.alt} fill sizes="(max-width:750px) 92vw, 46vw" priority/>
-  <span className="art-label"><span/> THE WONDERWEB WAY</span>
-  {art.family==='paid'?<div className="art-search-copy" aria-hidden="true"><span>your next customer</span><strong>The right search.</strong><span>A better connection.</span><span>A clear next step.</span></div>:null}
-  <figcaption><span>{detail.tiles[0]}</span><strong>{detail.caption.length>90?detail.tiles.join('. ')+'.':detail.caption}</strong><ArrowUpRight size={25}/></figcaption>
-  <span className="art-stamp" aria-hidden="true"><Sparkles size={23}/><span>MAKE THE<br/>WONDER HAPPEN</span></span>
- </figure>;
+ const query=art.family==='paid'||art.family==='local'?'roof repair near me':art.family==='search'||art.family==='ai'?'the right local specialist':art.family==='web'?'a website that feels like you':art.family==='automation'?'a better way to follow up':'ideas worth discovering';
+ return <div className="service-hero-scene">
+  <figure className={`service-art art-${art.family}`}>
+   <Image src={art.src} alt={art.alt} fill sizes="(max-width:750px) 86vw, 43vw" priority/>
+   <span className="art-label"><span/> THE WONDERWEB WAY</span>
+   <figcaption><span>{detail.tiles[0]}</span><strong>{detail.caption.length>90?detail.tiles.join('. ')+'.':detail.caption}</strong><ArrowUpRight size={25}/></figcaption>
+   <span className="art-stamp" aria-hidden="true"><Sparkles size={23}/><span>MAKE THE<br/>WONDER HAPPEN</span></span>
+  </figure>
+  <div className="hero-orbit" aria-hidden="true"><span><Search size={19}/></span><span><MapPin size={19}/></span><span><MousePointer2 size={19}/></span></div>
+  <div className="hero-floating-card hero-search-card" aria-hidden="true">
+   <span className="hero-card-label"><b>01</b> A USEFUL FIRST IMPRESSION</span>
+   <div className="hero-query"><Search size={13}/><span>{query}</span></div>
+   <div className="hero-search-result"><small>YOUR BUSINESS · THE RIGHT MOMENT</small><strong>{title}</strong><span>Clear expertise. A relevant next step.</span></div>
+  </div>
+  <div className="hero-floating-card hero-fit-card" aria-hidden="true">
+   <span className="hero-card-label"><b>02</b> MAKE IT RELEVANT</span>
+   <span><Check size={13}/> A clear message</span><span><Check size={13}/> A useful destination</span>
+  </div>
+  <div className="hero-floating-card hero-contact-card" aria-hidden="true"><span><Phone size={19}/></span><div><small>03 / START A CONVERSATION</small><strong>From interest to hello.</strong></div><ArrowUpRight size={18}/></div>
+ </div>;
 }
 
 type Visual='search'|'local'|'journey'|'report'|'web'|'ai'|'creative'|'workflow';
@@ -31,7 +45,8 @@ function panelsFor(detail:ServiceDetail,slug:string):Panel[]{
  return detail.steps.map(([title,body],i)=>({label:detail.tiles[i]||`Stage ${i+1}`,title,body,items:i===0?detail.inputs.slice(0,3):i===1?detail.tiles:detail.metrics.slice(0,3),visual:i===0?visual:i===1?(visual==='ai'?'ai':visual==='creative'?'creative':visual==='workflow'?'workflow':'web'):'report'}));
 }
 
-function WalkthroughVisual({mode,detail,title}:{mode:Visual;detail:ServiceDetail;title:string}){
+function WalkthroughVisual({mode,detail,title,slug}:{mode:Visual;detail:ServiceDetail;title:string;slug:string}){
+ const art=serviceVisual(slug).src;
  if(mode==='search')return <div className="walk-search">
   <div className="walk-search-box pop-in"><span className="search-letter">G</span><span className="walk-query">bathroom remodeling near me</span><Search size={21}/></div>
   <div className="walk-ad pop-in"><small>Sponsored · yourbusiness.com</small><span className="walk-ad-url"><span>Y</span>Your local remodeling team</span><h4>Make room for your next chapter.</h4><p>Bathroom remodeling built around your home. Explore the process, see the work and request an estimate.</p><div className="walk-ad-links"><span><Phone size={13}/> Talk to the team</span><span>Explore projects</span></div></div>
@@ -40,8 +55,8 @@ function WalkthroughVisual({mode,detail,title}:{mode:Visual;detail:ServiceDetail
  if(mode==='local')return <div className="walk-map"><div className="map-road road-one"/><div className="map-road road-two"/><div className="map-coverage"/>{[1,2,3,4].map((p)=><span key={p} className={`map-marker marker-${p} pop-in`}><MapPin size={p===1?35:23}/></span>)}<span className="map-label">YOUR SERVICE AREA</span><div className="map-business pop-in"><span className="business-avatar">Y</span><div><strong>Your business. Your coverage.</strong><small>Relevant services · Local inquiries</small></div><ShieldCheck/></div><div className="map-key"><i/> In your area <span/> Outside your coverage</div></div>;
  if(mode==='journey'||mode==='workflow')return <div className="walk-journey">{(mode==='workflow'?[[Mail,'Request received','Capture the right details'],[Workflow,'Route to the right owner','Connect the approved systems'],[CalendarDays,'Follow up thoughtfully','Keep the human review'],[Check,'Review the outcome','Learn from the completed work']]:[[MousePointer2,'Discover','A homeowner visits your service page'],[Sparkles,'Reconnect','A relevant reminder of your offer'],[Phone,'Start a conversation','The next step is easy to take'],[Check,'Qualify & follow up','Your team reviews the real opportunity']]).map(([Icon,label,caption],i)=>{const Glyph=Icon as typeof Mail;return <div className="journey-event pop-in" key={String(label)}><span className="journey-node"><Glyph size={21}/></span><div><small>0{i+1}</small><strong>{String(label)}</strong><p>{String(caption)}</p></div>{i===3?<span className="journey-done">Connected <Check size={12}/></span>:null}</div>})}</div>;
  if(mode==='ai')return <div className="walk-ai"><div className="ai-question pop-in">What should I look for in a local service company?<Sparkles size={20}/></div><div className="ai-answer pop-in"><span><Sparkles size={20}/> A useful answer begins with useful sources.</span><p>Clear service information. Relevant experience. A business people can verify.</p><div className="answer-lines"><i/><i/><i/></div><div className="ai-sources">{['Services','Project experience','Business details'].map((t,i)=><span key={t} className="pop-in"><b>0{i+1}</b>{t}<ArrowUpRight size={14}/></span>)}</div></div><p className="visual-footnote">Illustrative answer structure, not a promised citation.</p></div>;
- if(mode==='web')return <div className="walk-browser pop-in"><div className="browser-bar"><i/><i/><i/><span>yourbusiness.com</span></div><div className="browser-content"><span>THOUGHTFULLY MADE. CLEARLY YOURS.</span><h4>A place for your<br/><em>next chapter.</em></h4><Image src="/services/web-hero.webp" alt="" width={400} height={270}/><p>Your story. The work behind it.<br/>A simple way to say hello.</p><span className="browser-cta">Let’s talk <ArrowUpRight size={14}/></span></div><MousePointer2 className="browser-pointer" size={37}/><div className="browser-mobile pop-in"><span/><Image src="/services/web-hero.webp" alt="" width={100} height={100}/><i/><i/><b>Say hello ↗</b></div></div>;
- if(mode==='creative')return <div className="walk-creative"><div className="creative-board board-back pop-in"><span>YOUR BRAND,<br/>IN EVERY FRAME.</span><Image src="/services/creative-hero.webp" alt="" fill sizes="250px"/></div><div className="creative-board board-front pop-in"><Image src="/services/social-hero.webp" alt="" width={260} height={200}/><span>Something<br/><em>worth sharing.</em></span><div><i/><i/><i/><ArrowUpRight/></div></div><span className="creative-tag pop-in"><Check size={15}/> One recognizable visual language</span></div>;
+ if(mode==='web')return <div className="walk-browser pop-in"><div className="browser-bar"><i/><i/><i/><span>yourbusiness.com</span></div><div className="browser-content"><span>THOUGHTFULLY MADE. CLEARLY YOURS.</span><h4>A place for your<br/><em>next chapter.</em></h4><Image src={art} alt="" width={400} height={270}/><p>Your story. The work behind it.<br/>A simple way to say hello.</p><span className="browser-cta">Let’s talk <ArrowUpRight size={14}/></span></div><MousePointer2 className="browser-pointer" size={37}/><div className="browser-mobile pop-in"><span/><Image src={art} alt="" width={100} height={100}/><i/><i/><b>Say hello ↗</b></div></div>;
+ if(mode==='creative')return <div className="walk-creative"><div className="creative-board board-back pop-in"><span>YOUR BRAND,<br/>IN EVERY FRAME.</span><Image src={art} alt="" fill sizes="250px"/></div><div className="creative-board board-front pop-in"><Image src={art} alt="" width={260} height={200}/><span>Something<br/><em>worth sharing.</em></span><div><i/><i/><i/><ArrowUpRight/></div></div><span className="creative-tag pop-in"><Check size={15}/> One recognizable visual language</span></div>;
  return <div className="walk-dashboard"><div className="dashboard-top"><span><BarChart3 size={18}/> THE BUSINESS VIEW</span><span className="sample-pill">EXAMPLE</span></div><div className="dashboard-stats">{['Inquiries','Qualified','Booked work'].map((m,i)=><div className="pop-in" key={m}><small>0{i+1}</small><strong>{m}</strong><span>{['Track the source','Review the fit','Connect sales feedback'][i]}</span></div>)}</div><div className="dashboard-chart" aria-hidden="true">{[39,55,44,68,59,82,72,94].map((h,i)=><div key={i}><i style={{height:`${h}%`,animationDelay:`${i*.09}s`}}/><span>W{i+1}</span></div>)}</div><div className="dashboard-bottom pop-in"><Check size={18}/><span>{detail.metrics[0]||title}<small>Useful evidence for the next decision</small></span><ArrowUpRight size={19}/></div></div>;
 }
 
@@ -55,7 +70,7 @@ export function ServiceDemo({title,detail,slug}:{title:string;detail:ServiceDeta
  return <section ref={root} className="service-showcase section" aria-label={`${title} walkthrough`} onMouseEnter={()=>setHover(true)} onMouseLeave={()=>setHover(false)} onFocusCapture={()=>setHover(true)} onBlurCapture={event=>{if(!event.currentTarget.contains(event.relatedTarget))setHover(false)}}>
   <div className="container"><div className="showcase-heading"><div><span className="small-label">A CLOSER LOOK AT THE WORK</span><h2>{detail.label.replace(/\.$/,'')}<em>.</em></h2><p>Explore the details that make the difference.</p></div><div className="showcase-controls"><button aria-label="Previous stage" onClick={()=>select(active-1)}><ArrowLeft/></button><button aria-label="Next stage" onClick={()=>select(active+1)}><ArrowRight/></button><button aria-label={paused?'Play walkthrough':'Pause walkthrough'} aria-pressed={paused} onClick={()=>setPaused(!paused)}>{paused?<Play size={18}/>:<Pause size={18}/>}</button></div></div>
   <div className="showcase-tabs" role="group" aria-label="Choose a stage">{panels.map((p,i)=><button key={p.label} aria-pressed={active===i} onClick={()=>select(i)}><span>0{i+1}</span>{p.label}<i key={`${active}-${running}`} className={active===i&&running?'is-running':''}/></button>)}</div>
-  <article className="showcase-panel" key={active+'-'+visible}><div className="showcase-copy"><span className="panel-number">0{active+1} / 0{panels.length}</span><h3>{panel.title}</h3><p>{panel.body}</p><ul>{panel.items.map(item=><li key={item}><Check size={16}/>{item}</li>)}</ul><BookCallButton service={title}>Talk about your business</BookCallButton></div><div className={`showcase-visual visual-${panel.visual}`}><WalkthroughVisual mode={panel.visual} detail={detail} title={title}/></div></article>
+  <article className="showcase-panel" key={active+'-'+visible}><div className="showcase-copy"><span className="panel-number">0{active+1} / 0{panels.length}</span><h3>{panel.title}</h3><p>{panel.body}</p><ul>{panel.items.map(item=><li key={item}><Check size={16}/>{item}</li>)}</ul><BookCallButton service={title}>Talk about your business</BookCallButton></div><div className={`showcase-visual visual-${panel.visual}`}><WalkthroughVisual mode={panel.visual} detail={detail} title={title} slug={slug}/></div></article>
   <p className="showcase-caption">Illustrative walkthrough. Scope is agreed in your proposal; placement and business outcomes vary.</p></div>
  </section>;
 }
@@ -67,5 +82,6 @@ export function InvestmentPlanner(){
 }
 
 export function BenefitVisual({index}:{index:number}){
- return <div className={'benefit-visual benefit-'+index} aria-hidden="true">{index===0?<><span className="benefit-chip"><Check size={14}/> One clear priority</span><div className="benefit-focus"><Search size={24}/><div><i/><i/><i/></div><span><Check size={15}/></span></div></>:index===1?<><span className="benefit-chip">Every handoff, connected</span><div className="benefit-flow"><span><Mail size={22}/><small>Brief</small></span><i/><span><Workflow size={22}/><small>Create</small></span><i/><span><Check size={22}/><small>Review</small></span></div></>:<><span className="benefit-chip"><BarChart3 size={14}/> Useful feedback</span><div className="benefit-bars">{[40,63,48,78,67,90].map((h,i)=><i style={{height:h+'%',animationDelay:i*.1+'s'}} key={i}/>)}</div></>}</div>;
+ const {ref,entered}=useEntrance<HTMLDivElement>();
+ return <div ref={ref} data-entered={entered} className={'benefit-visual benefit-'+index} aria-hidden="true">{index===0?<><span className="benefit-chip"><Check size={14}/> One clear priority</span><div className="benefit-focus"><Search size={24}/><div><i/><i/><i/></div><span><Check size={15}/></span></div></>:index===1?<><span className="benefit-chip">Every handoff, connected</span><div className="benefit-flow"><span><Mail size={22}/><small>Brief</small></span><i/><span><Workflow size={22}/><small>Create</small></span><i/><span><Check size={22}/><small>Review</small></span></div></>:<><span className="benefit-chip"><BarChart3 size={14}/> Useful feedback</span><div className="benefit-bars">{[40,63,48,78,67,90].map((h,i)=><i style={{height:h+'%',animationDelay:i*.1+'s'}} key={i}/>)}</div></>}</div>;
 }

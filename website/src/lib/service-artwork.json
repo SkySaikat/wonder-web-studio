@@ -1,0 +1,146 @@
+{
+  "google-ads": {
+    "family": "paid",
+    "src": "/services/paid-hero.webp",
+    "alt": "Conceptual advertising artwork with a business owner, tablet and search panels.",
+    "description": "Conceptual advertising artwork with a business owner, tablet and search panels. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "web-design": {
+    "family": "web",
+    "src": "/services/web-hero.webp",
+    "alt": "Responsive website screens and a chrome cursor in a vibrant cobalt studio composition.",
+    "description": "Responsive website screens and a chrome cursor in a vibrant cobalt studio composition. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "seo": {
+    "family": "search",
+    "src": "/services/search-hero.webp",
+    "alt": "A search lens over a model neighborhood and search-result panels.",
+    "description": "A search lens over a model neighborhood and search-result panels. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "local-seo": {
+    "family": "local",
+    "src": "/services/local-hero.webp",
+    "alt": "A home, service-area map and lime location marker.",
+    "description": "A home, service-area map and lime location marker. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "ai-search-optimization": {
+    "family": "ai",
+    "src": "/services/ai-hero.webp",
+    "alt": "A chrome asterisk and connected answer cards illustrating AI search citations.",
+    "description": "A chrome asterisk and connected answer cards illustrating AI search citations. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "ai-workflow-automation": {
+    "family": "automation",
+    "src": "/services/automation-hero.webp",
+    "alt": "Connected message, calendar and task cards illustrating a business workflow.",
+    "description": "Connected message, calendar and task cards illustrating a business workflow. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "social-media-management": {
+    "family": "social",
+    "src": "/services/social-hero.webp",
+    "alt": "Conceptual artwork of a business owner planning content on a phone.",
+    "description": "Conceptual artwork of a business owner planning content on a phone. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "graphic-design": {
+    "family": "creative",
+    "src": "/services/creative-hero.webp",
+    "alt": "A creative studio composition of campaign frames, camera and vivid color swatches.",
+    "description": "A creative studio composition of campaign frames, camera and vivid color swatches. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "microsoft-ads": {
+    "family": "paid",
+    "src": "/services/microsoft-ads-hero.webp",
+    "alt": "A chrome window prism, orange search lens and campaign cards illustrating Microsoft advertising.",
+    "description": "A chrome window prism, orange search lens and campaign cards illustrating Microsoft advertising. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "web-development": {
+    "family": "web",
+    "src": "/services/web-development-hero.webp",
+    "alt": "Layered browser panels, modular blocks and connectors illustrating custom web development.",
+    "description": "Layered browser panels, modular blocks and connectors illustrating custom web development. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "local-services-ads": {
+    "family": "local",
+    "src": "/services/local-services-ads-hero.webp",
+    "alt": "A service van, home, verification shield and phone illustrating local service advertising.",
+    "description": "A service van, home, verification shield and phone illustrating local service advertising. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "lead-generation": {
+    "family": "paid",
+    "src": "/services/lead-generation-hero.webp",
+    "alt": "A glass funnel connecting audience signals with contact cards and a handshake.",
+    "description": "A glass funnel connecting audience signals with contact cards and a handshake. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "franchise-marketing": {
+    "family": "local",
+    "src": "/services/franchise-marketing-hero.webp",
+    "alt": "Five storefronts connected to a central marketing hub across a local network.",
+    "description": "Five storefronts connected to a central marketing hub across a local network. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "digital-media-buying": {
+    "family": "paid",
+    "src": "/services/digital-media-buying-hero.webp",
+    "alt": "Floating video, display and reporting screens connected by chrome tracks for media buying.",
+    "description": "Floating video, display and reporting screens connected by chrome tracks for media buying. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "website-management": {
+    "family": "automation",
+    "src": "/services/website-management-hero.webp",
+    "alt": "A website window, protective ring, wrench and status line illustrating website care.",
+    "description": "A website window, protective ring, wrench and status line illustrating website care. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "reputation-management": {
+    "family": "local",
+    "src": "/services/reputation-management-hero.webp",
+    "alt": "Chrome stars, a review bubble and reply arrow illustrating reputation management.",
+    "description": "Chrome stars, a review bubble and reply arrow illustrating reputation management. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "content-management": {
+    "family": "automation",
+    "src": "/services/content-management-hero.webp",
+    "alt": "Organized webpage cards, version tabs and a publishing checkmark for content management.",
+    "description": "Organized webpage cards, version tabs and a publishing checkmark for content management. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "conversion-rate-optimization": {
+    "family": "web",
+    "src": "/services/conversion-rate-optimization-hero.webp",
+    "alt": "Two webpage variants with a split-path arrow and experiment dial illustrating conversion testing.",
+    "description": "Two webpage variants with a split-path arrow and experiment dial illustrating conversion testing. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "email-marketing": {
+    "family": "automation",
+    "src": "/services/email-marketing-hero.webp",
+    "alt": "An open envelope, message sheets and connected recipients illustrating email campaigns.",
+    "description": "An open envelope, message sheets and connected recipients illustrating email campaigns. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "content-creation": {
+    "family": "creative",
+    "src": "/services/content-creation-hero.webp",
+    "alt": "A microphone, storyboard, pen and play button illustrating original content production.",
+    "description": "A microphone, storyboard, pen and play button illustrating original content production. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "landing-page-design": {
+    "family": "web",
+    "src": "/services/landing-page-design-hero.webp",
+    "alt": "A focused landing-page model with an orange action button and chrome cursor.",
+    "description": "A focused landing-page model with an orange action button and chrome cursor. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "meta-ads": {
+    "family": "social",
+    "src": "/services/meta-ads-hero.webp",
+    "alt": "A phone ad, reaction bubbles and a cobalt infinity sculpture for social advertising.",
+    "description": "A phone ad, reaction bubbles and a cobalt infinity sculpture for social advertising. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "thumbnail-design": {
+    "family": "creative",
+    "src": "/services/thumbnail-design-hero.webp",
+    "alt": "Three colorful video frames, a crop tool and play triangle illustrating thumbnail design.",
+    "description": "Three colorful video frames, a crop tool and play triangle illustrating thumbnail design. Original conceptual service artwork for Wonderweb Studio."
+  },
+  "linkedin-ads": {
+    "family": "social",
+    "src": "/services/linkedin-ads-hero.webp",
+    "alt": "Professional profile cards, an office model and message connections illustrating LinkedIn advertising.",
+    "description": "Professional profile cards, an office model and message connections illustrating LinkedIn advertising. Original conceptual service artwork for Wonderweb Studio."
+  }
+}

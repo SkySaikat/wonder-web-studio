@@ -1,3 +1,4 @@
+import downloadGuides from '../data/download-guides.json';
 import {featuredImagePath} from './featured-path';
 import {site} from './site';
 import {absoluteUrl} from './seo';
@@ -44,6 +45,10 @@ export function pageGraph(path:string){
   const videoId=`${site.url}/#studio-introduction`;
   pageNode.video=ref(videoId);
   nodes.push({'@type':'VideoObject','@id':videoId,name:'Wonder Web Studio',description:'The original Wonderweb Studio introduction, showing the studio’s creative roots.',thumbnailUrl:'https://i.ytimg.com/vi/vi4cH6cD3Sg/hqdefault.jpg',embedUrl:'https://www.youtube-nocookie.com/embed/vi4cH6cD3Sg',url:'https://www.youtube.com/watch?v=vi4cH6cD3Sg',uploadDate:'2023-11-05T08:08:25-08:00',duration:'PT1M15S',creator:ref(orgId)});
+ }
+ if(path==='/guides/'){
+  const listId=`${url}#guides`;pageNode.mainEntity=ref(listId);
+  nodes.push({'@type':'ItemList','@id':listId,name:'Business-signup marketing guides',numberOfItems:downloadGuides.length,itemListElement:downloadGuides.map((g,i)=>({'@type':'ListItem',position:i+1,item:{'@type':'DigitalDocument','@id':`${url}#${g.slug}`,name:g.title,description:g.description,url:`${url}#${g.slug}`,inLanguage:'en',encodingFormat:'application/pdf',isAccessibleForFree:true,conditionsOfAccess:'Business signup is required before downloading.',publisher:ref(orgId),image:ref(`${absoluteUrl(g.cover)}#image`)}}))});
  }
  if(page.children){
   pageNode.mainEntity=ref(`${url}#list`);
