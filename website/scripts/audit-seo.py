@@ -131,7 +131,14 @@ if len(urls)!=len(set(urls)):raise RuntimeError('Duplicate sitemap URLs')
 origin=urlparse(urls[0]).scheme+'://'+urlparse(urls[0]).netloc
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:rows=list(pool.map(audit,urls))
 paths={r['path'] for r in rows};extra=[]
-unknown=sorted({urlparse(link).path for row in rows for link in row['links'] if link.startswith('/') and urlparse(link).path not in paths})
+intentional_noindex={'/payments/'}
+for path in intentional_noindex:
+ try:
+  _,headers,body=fetch(path);page=Page();page.feed(body.decode())
+  if 'noindex' not in ','.join(page.meta.get('robots',[])):extra.append('Private utility page must remain noindex: '+path)
+  if path in paths:extra.append('Private utility page appears in sitemap: '+path)
+ except Exception as e:extra.append('Unavailable utility page '+path+': '+str(e))
+unknown=sorted({urlparse(link).path for row in rows for link in row['links'] if link.startswith('/') and urlparse(link).path not in paths|intentional_noindex})
 if unknown:extra.append('Unmapped links: '+str(unknown))
 for key in ['title','description','image']:
  if len({r.get(key) for r in rows})!=len(rows):extra.append('Duplicate '+key)

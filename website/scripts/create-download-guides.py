@@ -3,6 +3,7 @@ Source PDFs/extracted.json are supplied through --source; originals stay outside
 """
 import argparse, json, re, os, unicodedata, csv
 from pathlib import Path
+from guide_covers import render_guide_cover
 from xml.sax.saxutils import escape
 from reportlab.pdfgen import canvas
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, PageBreak, Table, TableStyle, KeepTogether, KeepInFrame
@@ -140,6 +141,6 @@ for record in records:
  doc=SimpleDocTemplate(str(out/(slug+'.pdf')),pagesize=(612,792),rightMargin=48,leftMargin=48,topMargin=90,bottomMargin=62,title=title,author='Wonderweb Studio',subject=subtitle+' A practical '+industries[trade].lower()+' marketing guide.',keywords='Wonderweb Studio, '+industries[trade]+', '+label);doc.build(story,onFirstPage=cover,onLaterPages=footer)
  check=PdfReader(out/(slug+'.pdf')); extracted=' '.join(pg.extract_text() for pg in check.pages)
  assert 'Built-Right' not in extracted and 'calendly' not in extracted and '4.9/5' not in extracted
- catalog.append({'slug':slug,'industry':industries[trade],'trade':trade,'title':title,'category':label,'description':subtitle,'pages':len(check.pages),'pdf':'/api/guides/'+slug+'/','cover':'/guides/'+slug+'.webp','coverAlt':title+' cover: '+guide_art[slug]['alt'],'artwork':guide_art[slug]['src'],**({'csv':'/api/guides/'+slug+'/?format=csv'} if kind=='negative-keyword-vault' else {})})
+ catalog.append({'slug':slug,'industry':industries[trade],'trade':trade,'title':title,'category':label,'description':subtitle,'pages':len(check.pages),'pdf':'/api/guides/'+slug+'/','cover':render_guide_cover(root,slug),'coverAlt':title+' cover: '+guide_art[slug]['alt'],'artwork':guide_art[slug]['src'],**({'csv':'/api/guides/'+slug+'/?format=csv'} if kind=='negative-keyword-vault' else {})})
 (root/'src/data/download-guides.json').write_text(json.dumps(catalog,indent=2)+'\n',encoding='utf8')
 print('Created',len(catalog),'guides;',sum(x['pages'] for x in catalog),'pages')

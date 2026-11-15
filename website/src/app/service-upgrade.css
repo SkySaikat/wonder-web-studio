@@ -140,7 +140,7 @@
 .guide-dialog{border:0;padding:0;background:#fffdf8;color:#191621;border-radius:25px;max-width:1040px;width:calc(100% - 50px);max-height:calc(100dvh - 50px);overflow:auto;box-shadow:0 35px 100px #140d3966}
 .guide-dialog::backdrop{background:#151022aa;backdrop-filter:blur(7px)}
 .guide-dialog-grid{display:grid;grid-template-columns:.7fr 1fr}
-.guide-dialog-preview{background:#2310b8 url('/art/wonder-blue-pink-grain.webp') center/cover;color:#fff;padding:40px;display:flex;flex-direction:column;justify-content:center}
+.guide-dialog-preview{background:#2310b8;color:#fff;padding:40px;display:flex;flex-direction:column;justify-content:center}
 .guide-dialog-preview img{width:75%;height:auto;transform:rotate(-6deg);margin:0 auto 30px;box-shadow:12px 20px 25px #0b044650}
 .guide-dialog-preview h2{font-size:30px;line-height:1.05;margin:12px 0}
 .guide-dialog-preview p{font-size:12px;line-height:1.8;color:#ede6ff}.guide-dialog-preview>span{font-size:10px;color:#dcff64}

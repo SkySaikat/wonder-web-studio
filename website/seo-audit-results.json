@@ -1,16 +1,36 @@
 {
   "schema_vocabulary_checked": true,
-  "markdown_pages_checked": 879,
-  "pages_checked": 879,
-  "sitemap_pages": 879,
-  "sitemap_images": 1802,
-  "unique_titles": 879,
-  "unique_descriptions": 879,
-  "unique_share_images": 879,
+  "markdown_pages_checked": 884,
+  "pages_checked": 884,
+  "sitemap_pages": 884,
+  "sitemap_images": 1858,
+  "unique_titles": 884,
+  "unique_descriptions": 884,
+  "unique_share_images": 884,
   "indexable_mode": true,
   "issues": [],
   "discovery_issues": [],
   "pages": [
+    {
+      "path": "/guides/",
+      "title": "Free Contractor SEO & Google Ads Guides | Wonderweb Studio",
+      "description": "Get SEO and Google Ads field guides, lead checklists and campaign worksheets for your trade. Free with business signup, from Wonderweb Studio.",
+      "image": "https://www.wonderwebstudio.com/seo/guides.png",
+      "schema_types": [
+        "BreadcrumbList",
+        "BusinessAudience",
+        "CollectionPage",
+        "ContactPoint",
+        "DigitalDocument",
+        "ImageObject",
+        "ItemList",
+        "ListItem",
+        "Organization",
+        "Person",
+        "WebSite"
+      ],
+      "issues": []
+    },
     {
       "path": "/",
       "title": "Web Design & Digital Marketing Agency | Wonderweb Studio",
@@ -128,7 +148,7 @@
     {
       "path": "/pricing/",
       "title": "Website & Digital Marketing Pricing | Wonderweb Studio",
-      "description": "Compare standalone services, monthly marketing and website projects from $4,300. Clear USD prices, scope, exclusions and twelve-payment website options.",
+      "description": "SEO-led agency partnerships from $7,500 to $25,000 per month. Compare SEO, social media, paid campaigns, standalone services and website project pricing.",
       "image": "https://www.wonderwebstudio.com/seo/pricing.png",
       "schema_types": [
         "Answer",
@@ -233,24 +253,6 @@
       "title": "Website Terms | Wonderweb Studio",
       "description": "Read Wonderweb Studio\u2019s website terms, pricing context and project information. Service scope and payment terms are confirmed in a separate written proposal.",
       "image": "https://www.wonderwebstudio.com/seo/terms.png",
-      "schema_types": [
-        "BreadcrumbList",
-        "BusinessAudience",
-        "ContactPoint",
-        "ImageObject",
-        "ListItem",
-        "Organization",
-        "Person",
-        "WebPage",
-        "WebSite"
-      ],
-      "issues": []
-    },
-    {
-      "path": "/payments/",
-      "title": "Client Payments | Wonderweb Studio",
-      "description": "Payment information for approved Wonderweb Studio proposals and invoices. Contact the studio to confirm your scope and payment arrangements.",
-      "image": "https://www.wonderwebstudio.com/seo/payments.png",
       "schema_types": [
         "BreadcrumbList",
         "BusinessAudience",
@@ -807,8 +809,8 @@
     },
     {
       "path": "/solutions/solar-technical-seo/",
-      "title": "Solar Technical SEO Agency | Wonderweb Studio",
-      "description": "Solar Technical SEO Agency. Search engine bots must find your content easily to rank it high in the search engine results\u2026",
+      "title": "Technical SEO for Solar Websites: What to Review | Wonderweb Studio",
+      "description": "Review crawlability, service-page structure, mobile performance and redirects for a solar website. Understand what technical SEO can improve and how to measure it.",
       "image": "https://www.wonderwebstudio.com/seo/solutions--solar-technical-seo.png",
       "schema_types": [
         "Article",
@@ -857,6 +859,28 @@
         "ListItem",
         "Organization",
         "Person",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/solutions/deck-builder-web-design/",
+      "title": "Deck Builder Web Design | Wonderweb Studio",
+      "description": "Deck Builder Web Design. A deck builder site is a short set of pages. Each one answers a question for a homeowner planning a new deck, a replacement or a\u2026",
+      "image": "https://www.wonderwebstudio.com/seo/solutions--deck-builder-web-design.png",
+      "schema_types": [
+        "Answer",
+        "Article",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
         "WebPage",
         "WebSite"
       ],
@@ -1168,21 +1192,18 @@
     },
     {
       "path": "/solutions/plumbing-seo-agency/",
-      "title": "Plumbing SEO Agency | Wonderweb Studio",
-      "description": "Plumbing SEO Agency. That starts with your Google Business Profile, your reviews, and matching listings on Yelp, Angi, and\u2026",
+      "title": "What to Include in a Plumbing SEO Scope | Wonderweb Studio",
+      "description": "A planning guide to plumbing SEO deliverables, local visibility, service pages and reporting. Learn what to ask for before choosing an agency.",
       "image": "https://www.wonderwebstudio.com/seo/solutions--plumbing-seo-agency.png",
       "schema_types": [
-        "Answer",
         "Article",
         "BreadcrumbList",
         "BusinessAudience",
         "ContactPoint",
-        "FAQPage",
         "ImageObject",
         "ListItem",
         "Organization",
         "Person",
-        "Question",
         "WebPage",
         "WebSite"
       ],
@@ -5950,6 +5971,50 @@
       "title": "Kitchen Remodeling Google Ads Tips for Maximum ROI | Wonderweb Studio",
       "description": "Kitchen Remodeling Google Ads Tips for Maximum ROI. The home renovation market is competitive, and homeowners are actively searching online for trusted\u2026",
       "image": "https://www.wonderwebstudio.com/seo/resources--kitchen-remodeling-google-ads-tips.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/custom-home-builder-seo-tips/",
+      "title": "SEO for Custom Home Builders: 9 Tips for Better Leads | Wonderweb Studio",
+      "description": "SEO for Custom Home Builders: 9 Tips for Better Leads. SEO for custom home builders works when each page speaks to a buyer planning a one-of-a-kind build\u2026",
+      "image": "https://www.wonderwebstudio.com/seo/resources--custom-home-builder-seo-tips.png",
+      "schema_types": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/deck-builder-software-tools/",
+      "title": "Deck Builder Software | Wonderweb Studio",
+      "description": "Deck Builder Software: The Tools Deck Companies Use to Win Projects. Deck builder software is the set of tools a deck company uses to design projects, price\u2026",
+      "image": "https://www.wonderwebstudio.com/seo/resources--deck-builder-software-tools.png",
       "schema_types": [
         "Answer",
         "BlogPosting",
@@ -13544,8 +13609,8 @@
     },
     {
       "path": "/resources/roofing-technical-seo-cost/",
-      "title": "Roofing Companies: Technical SEO Cost | Wonderweb Studio",
-      "description": "Choosing How Much Does Technical SEO Cost for Roofing company? - A Practical Guide. Use this guide to compare scope, relevant experience, ownership of your\u2026",
+      "title": "Roofing Technical SEO Costs & Scope | Wonderweb Studio",
+      "description": "Compare roofing technical SEO costs, audit scope, implementation work and reporting. Use a practical checklist to evaluate a proposal before committing.",
       "image": "https://www.wonderwebstudio.com/seo/resources--roofing-technical-seo-cost.png",
       "schema_types": [
         "Answer",
@@ -18381,6 +18446,50 @@
       "title": "Bathroom Ads: 43.66% Lower Cost per Lead | Wonderweb Studio",
       "description": "A bathroom remodeling advertising campaign focused its bidding and geographic targeting on conversion opportunities.",
       "image": "https://www.wonderwebstudio.com/seo/results--bathroom-paid-search-efficiency.png",
+      "schema_types": [
+        "Answer",
+        "Article",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/results/remodeling-search-reach/",
+      "title": "Bathroom Ads: More Reach, Lower Lead Cost | Wonderweb Studio",
+      "description": "A bathroom remodeler expanded long-tail search coverage, increased conversions by 10% and reduced reported cost per lead to $54.62.",
+      "image": "https://www.wonderwebstudio.com/seo/results--remodeling-search-reach.png",
+      "schema_types": [
+        "Answer",
+        "Article",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Person",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/results/residential-glass-bookings/",
+      "title": "Glass Company Ads: 32.8% More Bookings | Wonderweb Studio",
+      "description": "A residential glass business expanded relevant search coverage and prioritized mobile inquiries, reporting 32.8% more overall bookings.",
+      "image": "https://www.wonderwebstudio.com/seo/results--residential-glass-bookings.png",
       "schema_types": [
         "Answer",
         "Article",

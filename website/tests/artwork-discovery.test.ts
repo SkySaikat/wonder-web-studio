@@ -19,7 +19,13 @@ test('every service and downloadable guide has genuinely distinct artwork and co
  const hashes=assets.map(a=>createHash('sha256').update(readFileSync(`public${a.src}`)).digest('hex'));
  assert.equal(new Set(hashes).size,44,'Reused image bytes under different filenames');
  for(const asset of assets){const record=metadata[asset.src as keyof typeof metadata];assert.ok(record?.description.length>25,asset.src);assert.ok(asset.alt.length>25,asset.src);assert.ok(record.width>=1000&&record.height>=700,asset.src);}
- for(const guide of guides){assert.ok(guide.coverAlt.length>30);assert.ok(guideArt[guide.slug as keyof typeof guideArt]);assert.ok(metadata[guide.cover as keyof typeof metadata]);}
+ const coverHashes=guides.map(guide=>{
+  assert.ok(guide.coverAlt.length>30);assert.ok(guideArt[guide.slug as keyof typeof guideArt]);assert.ok(metadata[guide.cover as keyof typeof metadata]);
+  const hash=createHash('sha256').update(readFileSync(`public${guide.cover}`)).digest('hex');
+  assert.ok(guide.cover.endsWith(`-cover-${hash.slice(0,12)}.webp`),'A changed PDF cover needs a fresh image-cache URL: '+guide.slug);
+  return hash;
+ });
+ assert.equal(new Set(coverHashes).size,guides.length,'Guide cover previews must also be distinct');
 });
 
 test('sitemap retains all public HTML routes and nests their service and guide images',()=>{
