@@ -18,6 +18,7 @@ from pypdf import PdfReader
 parser=argparse.ArgumentParser();parser.add_argument('--source',required=True);args=parser.parse_args()
 root=Path(__file__).resolve().parents[1]; out=root/'private/guides';out.mkdir(parents=True,exist_ok=True)
 records=json.loads((Path(args.source)/'extracted.json').read_text(encoding='utf8'))
+guide_art=json.loads((root/'src/lib/guide-artwork.json').read_text(encoding='utf8'))
 font_dir=root/'scripts/fonts';font_dir.mkdir(exist_ok=True)
 for name,source,weight in [
  ('Studio','@fontsource-variable/figtree/files/figtree-latin-wght-normal.woff2',400),
@@ -59,7 +60,7 @@ def footer(c,doc):
 
 def cover(c,doc):
  c.saveState();c.setFillColor(paper);c.rect(0,0,612,792,fill=1,stroke=0)
- art={'seo-guide-v2':'search','google-ads-guide-v2':'paid','free-report-v2':'automation','google-ads-scorecard':'creative','negative-keyword-vault':'search'}[kind]
+ art=slug
  c.drawImage(ImageReader(str(root/'scripts/pdf-art'/ (art+'.jpg'))),0,-15,width=612,height=459)
  c.setFillColor(paper);c.rect(0,446,612,346,fill=1,stroke=0)
  c.drawImage(str(root/'public/brand/guide-logo.png'),48,727,width=170,height=49,mask='auto',preserveAspectRatio=True)
@@ -113,7 +114,7 @@ for record in records:
    content='\n'.join(lines)
    boundary=re.search(r'\n(What to do|What to look at)\n',content)
    if not boundary:raise ValueError('Cannot locate source instructions: '+filename+' '+number)
-   heading=re.sub(r'^person\s+', '', ' '.join(content[:boundary.start()].split()));rest=content[boundary.end():]
+   heading=re.sub(r'^(?:person\s+|[1-9]\s+(?=[A-Z]))', '', ' '.join(content[:boundary.start()].split()));rest=content[boundary.end():]
    story += [p(('CHECK' if kind=='free-report-v2' else 'ACTION')+' '+number+' / '+total,'small'),p(heading,'h2')]
    if timing:story.append(p(timing,'small'))
    # Preserve grouped source subsections, without splitting sentences at PDF line wraps.
@@ -136,9 +137,9 @@ for record in records:
  story += [PageBreak(),p('Your next chapter.','h1'),p('Turn the checklist into a clear plan.','h2'),p('Pick the most useful change, assign an owner and agree how you will check it. Bring your findings to Wonderweb Studio if you want help connecting the website, search campaigns and follow-up.'),Spacer(1,15),p('A conversation first. Your scope, agreed together.','h3'),Paragraph('<link href="https://www.wonderwebstudio.com/contact/" color="#2310b8">Start a conversation at wonderwebstudio.com/contact/</link>',styles['body']),p('info@wonderwebstudio.com'),p('More free tools: wonderwebstudio.com/guides/','small'),Spacer(1,25),p('Useful official references','h3')]
  for url in ['https://support.google.com/business/answer/3038177','https://support.google.com/google-ads/answer/2453972','https://support.google.com/google-ads/answer/2472708','https://developers.google.com/search/docs/fundamentals/seo-starter-guide']:
   story.append(Paragraph('<link href="'+url+'">'+url+'</link>',styles['small']))
- doc=SimpleDocTemplate(str(out/(slug+'.pdf')),pagesize=(612,792),rightMargin=48,leftMargin=48,topMargin=90,bottomMargin=62,title=title,author='Wonderweb Studio');doc.build(story,onFirstPage=cover,onLaterPages=footer)
+ doc=SimpleDocTemplate(str(out/(slug+'.pdf')),pagesize=(612,792),rightMargin=48,leftMargin=48,topMargin=90,bottomMargin=62,title=title,author='Wonderweb Studio',subject=subtitle+' A practical '+industries[trade].lower()+' marketing guide.',keywords='Wonderweb Studio, '+industries[trade]+', '+label);doc.build(story,onFirstPage=cover,onLaterPages=footer)
  check=PdfReader(out/(slug+'.pdf')); extracted=' '.join(pg.extract_text() for pg in check.pages)
  assert 'Built-Right' not in extracted and 'calendly' not in extracted and '4.9/5' not in extracted
- catalog.append({'slug':slug,'industry':industries[trade],'trade':trade,'title':title,'category':label,'description':subtitle,'pages':len(check.pages),'pdf':'/api/guides/'+slug+'/','cover':'/guides/'+slug+'.webp',**({'csv':'/api/guides/'+slug+'/?format=csv'} if kind=='negative-keyword-vault' else {})})
+ catalog.append({'slug':slug,'industry':industries[trade],'trade':trade,'title':title,'category':label,'description':subtitle,'pages':len(check.pages),'pdf':'/api/guides/'+slug+'/','cover':'/guides/'+slug+'.webp','coverAlt':title+' cover: '+guide_art[slug]['alt'],'artwork':guide_art[slug]['src'],**({'csv':'/api/guides/'+slug+'/?format=csv'} if kind=='negative-keyword-vault' else {})})
 (root/'src/data/download-guides.json').write_text(json.dumps(catalog,indent=2)+'\n',encoding='utf8')
 print('Created',len(catalog),'guides;',sum(x['pages'] for x in catalog),'pages')

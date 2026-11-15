@@ -1,4 +1,284 @@
 {
+  "/guides/electrician-free-report.webp": {
+    "title": "Electrical Lead journey checklist cover",
+    "description": "Electrical Lead journey checklist cover: A winding chrome path connects an electrician’s copper wire coil, precision pliers and compact cream breaker panel, a glass phone contact symbol and a lime checklist card.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/electrician-google-ads-guide.webp": {
+    "title": "Electrical Google Ads field guide cover",
+    "description": "Electrical Google Ads field guide cover: An orange magnifying lens hovering over a miniature home with carefully arranged copper circuits, with three floating blank sponsored-result cards and a cobalt arrow.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/electrician-google-ads-scorecard.webp": {
+    "title": "Electrical Google Ads scorecard cover",
+    "description": "Electrical Google Ads scorecard cover: A large cream clipboard with ten simple cobalt and lime check boxes, a chrome gauge dial and an electrician’s copper wire coil, precision pliers and compact cream breaker panel.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/electrician-negative-keyword-vault.webp": {
+    "title": "Electrical Negative keyword workbook cover",
+    "description": "Electrical Negative keyword workbook cover: A beautiful glass filtering sieve separates lime useful tokens from orange excluded tokens above a miniature home with carefully arranged copper circuits, with a chrome minus symbol and cobalt boundary ring.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/electrician-seo-guide.webp": {
+    "title": "Electrical SEO field guide cover",
+    "description": "Electrical SEO field guide cover: A rising cobalt architectural staircase wraps around a miniature home with carefully arranged copper circuits; a lime map pin and chrome search lens stand at its summit, orange paper folds behind.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/general-contractor-free-report.webp": {
+    "title": "General contractor Lead journey checklist cover",
+    "description": "General contractor Lead journey checklist cover: A winding chrome path connects architectural timber framing, a rolled cream blueprint, orange hard hat and lime measuring square, a glass phone contact symbol and a lime checklist card.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/general-contractor-google-ads-guide.webp": {
+    "title": "General contractor Google Ads field guide cover",
+    "description": "General contractor Google Ads field guide cover: An orange magnifying lens hovering over an architectural construction model with timber framing, with three floating blank sponsored-result cards and a cobalt arrow.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/general-contractor-google-ads-scorecard.webp": {
+    "title": "General contractor Google Ads scorecard cover",
+    "description": "General contractor Google Ads scorecard cover: A large cream clipboard with ten simple cobalt and lime check boxes, a chrome gauge dial and architectural timber framing, a rolled cream blueprint, orange hard hat and lime measuring square.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/general-contractor-negative-keyword-vault.webp": {
+    "title": "General contractor Negative keyword workbook cover",
+    "description": "General contractor Negative keyword workbook cover: A beautiful glass filtering sieve separates lime useful tokens from orange excluded tokens above an architectural construction model with timber framing, with a chrome minus symbol and cobalt boundary ring.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/general-contractor-seo-guide.webp": {
+    "title": "General contractor SEO field guide cover",
+    "description": "General contractor SEO field guide cover: A rising cobalt architectural staircase wraps around an architectural construction model with timber framing; a lime map pin and chrome search lens stand at its summit, orange paper folds behind.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/plumbing-free-report.webp": {
+    "title": "Plumbing Lead journey checklist cover",
+    "description": "Plumbing Lead journey checklist cover: A winding chrome path connects polished copper pipe elbows, a chrome faucet and orange plumbing wrench, a glass phone contact symbol and a lime checklist card.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/plumbing-google-ads-guide.webp": {
+    "title": "Plumbing Google Ads field guide cover",
+    "description": "Plumbing Google Ads field guide cover: An orange magnifying lens hovering over a miniature home with beautifully curved copper plumbing, with three floating blank sponsored-result cards and a cobalt arrow.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/plumbing-google-ads-scorecard.webp": {
+    "title": "Plumbing Google Ads scorecard cover",
+    "description": "Plumbing Google Ads scorecard cover: A large cream clipboard with ten simple cobalt and lime check boxes, a chrome gauge dial and polished copper pipe elbows, a chrome faucet and orange plumbing wrench.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/plumbing-negative-keyword-vault.webp": {
+    "title": "Plumbing Negative keyword workbook cover",
+    "description": "Plumbing Negative keyword workbook cover: A beautiful glass filtering sieve separates lime useful tokens from orange excluded tokens above a miniature home with beautifully curved copper plumbing, with a chrome minus symbol and cobalt boundary ring.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/plumbing-seo-guide.webp": {
+    "title": "Plumbing SEO field guide cover",
+    "description": "Plumbing SEO field guide cover: A rising cobalt architectural staircase wraps around a miniature home with beautifully curved copper plumbing; a lime map pin and chrome search lens stand at its summit, orange paper folds behind.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/roofing-free-report.webp": {
+    "title": "Roofing Lead journey checklist cover",
+    "description": "Roofing Lead journey checklist cover: A winding chrome path connects a small pitched roof with layered cobalt shingles, orange roofer hammer and lime measuring tape, a glass phone contact symbol and a lime checklist card.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/roofing-google-ads-guide.webp": {
+    "title": "Roofing Google Ads field guide cover",
+    "description": "Roofing Google Ads field guide cover: An orange magnifying lens hovering over a cluster of detailed pitched-roof homes, with three floating blank sponsored-result cards and a cobalt arrow.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/roofing-google-ads-scorecard.webp": {
+    "title": "Roofing Google Ads scorecard cover",
+    "description": "Roofing Google Ads scorecard cover: A large cream clipboard with ten simple cobalt and lime check boxes, a chrome gauge dial and a small pitched roof with layered cobalt shingles, orange roofer hammer and lime measuring tape.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/roofing-negative-keyword-vault.webp": {
+    "title": "Roofing Negative keyword workbook cover",
+    "description": "Roofing Negative keyword workbook cover: A beautiful glass filtering sieve separates lime useful tokens from orange excluded tokens above a cluster of detailed pitched-roof homes, with a chrome minus symbol and cobalt boundary ring.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/roofing-seo-guide.webp": {
+    "title": "Roofing SEO field guide cover",
+    "description": "Roofing SEO field guide cover: A rising cobalt architectural staircase wraps around a cluster of detailed pitched-roof homes; a lime map pin and chrome search lens stand at its summit, orange paper folds behind.",
+    "width": 735,
+    "height": 951,
+    "type": "image/webp"
+  },
+  "/guides/art/electrician-free-report.webp": {
+    "title": "Electrical Lead journey checklist artwork",
+    "description": "Original electrical lead journey checklist cover artwork. A winding chrome path connects an electrician’s copper wire coil, precision pliers and compact cream breaker panel, a glass phone contact symbol and a lime checklist card.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/plumbing-free-report.webp": {
+    "title": "Plumbing Lead journey checklist artwork",
+    "description": "Original plumbing lead journey checklist cover artwork. A winding chrome path connects polished copper pipe elbows, a chrome faucet and orange plumbing wrench, a glass phone contact symbol and a lime checklist card.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/electrician-google-ads-guide.webp": {
+    "title": "Electrical Google Ads field guide artwork",
+    "description": "Original electrical google ads field guide cover artwork. An orange magnifying lens hovering over a miniature home with carefully arranged copper circuits, with three floating blank sponsored-result cards and a cobalt arrow.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/plumbing-google-ads-guide.webp": {
+    "title": "Plumbing Google Ads field guide artwork",
+    "description": "Original plumbing google ads field guide cover artwork. An orange magnifying lens hovering over a miniature home with beautifully curved copper plumbing, with three floating blank sponsored-result cards and a cobalt arrow.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/electrician-google-ads-scorecard.webp": {
+    "title": "Electrical Google Ads scorecard artwork",
+    "description": "Original electrical google ads scorecard cover artwork. A large cream clipboard with ten simple cobalt and lime check boxes, a chrome gauge dial and an electrician’s copper wire coil, precision pliers and compact cream breaker panel.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/plumbing-google-ads-scorecard.webp": {
+    "title": "Plumbing Google Ads scorecard artwork",
+    "description": "Original plumbing google ads scorecard cover artwork. A large cream clipboard with ten simple cobalt and lime check boxes, a chrome gauge dial and polished copper pipe elbows, a chrome faucet and orange plumbing wrench.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/electrician-negative-keyword-vault.webp": {
+    "title": "Electrical Negative keyword workbook artwork",
+    "description": "Original electrical negative keyword workbook cover artwork. A beautiful glass filtering sieve separates lime useful tokens from orange excluded tokens above a miniature home with carefully arranged copper circuits, with a chrome minus symbol and cobalt boundary ring.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/roofing-google-ads-guide.webp": {
+    "title": "Roofing Google Ads field guide artwork",
+    "description": "Original roofing google ads field guide cover artwork. An orange magnifying lens hovering over a cluster of detailed pitched-roof homes, with three floating blank sponsored-result cards and a cobalt arrow.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/plumbing-negative-keyword-vault.webp": {
+    "title": "Plumbing Negative keyword workbook artwork",
+    "description": "Original plumbing negative keyword workbook cover artwork. A beautiful glass filtering sieve separates lime useful tokens from orange excluded tokens above a miniature home with beautifully curved copper plumbing, with a chrome minus symbol and cobalt boundary ring.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/electrician-seo-guide.webp": {
+    "title": "Electrical SEO field guide artwork",
+    "description": "Original electrical seo field guide cover artwork. A rising cobalt architectural staircase wraps around a miniature home with carefully arranged copper circuits; a lime map pin and chrome search lens stand at its summit, orange paper folds behind.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/roofing-google-ads-scorecard.webp": {
+    "title": "Roofing Google Ads scorecard artwork",
+    "description": "Original roofing google ads scorecard cover artwork. A large cream clipboard with ten simple cobalt and lime check boxes, a chrome gauge dial and a small pitched roof with layered cobalt shingles, orange roofer hammer and lime measuring tape.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/plumbing-seo-guide.webp": {
+    "title": "Plumbing SEO field guide artwork",
+    "description": "Original plumbing seo field guide cover artwork. A rising cobalt architectural staircase wraps around a miniature home with beautifully curved copper plumbing; a lime map pin and chrome search lens stand at its summit, orange paper folds behind.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/roofing-negative-keyword-vault.webp": {
+    "title": "Roofing Negative keyword workbook artwork",
+    "description": "Original roofing negative keyword workbook cover artwork. A beautiful glass filtering sieve separates lime useful tokens from orange excluded tokens above a cluster of detailed pitched-roof homes, with a chrome minus symbol and cobalt boundary ring.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/roofing-free-report.webp": {
+    "title": "Roofing Lead journey checklist artwork",
+    "description": "Original roofing lead journey checklist cover artwork. A winding chrome path connects a small pitched roof with layered cobalt shingles, orange roofer hammer and lime measuring tape, a glass phone contact symbol and a lime checklist card.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/roofing-seo-guide.webp": {
+    "title": "Roofing SEO field guide artwork",
+    "description": "Original roofing seo field guide cover artwork. A rising cobalt architectural staircase wraps around a cluster of detailed pitched-roof homes; a lime map pin and chrome search lens stand at its summit, orange paper folds behind.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/general-contractor-free-report.webp": {
+    "title": "General contractor Lead journey checklist artwork",
+    "description": "Original general contractor lead journey checklist cover artwork. A winding chrome path connects architectural timber framing, a rolled cream blueprint, orange hard hat and lime measuring square, a glass phone contact symbol and a lime checklist card.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/general-contractor-google-ads-guide.webp": {
+    "title": "General contractor Google Ads field guide artwork",
+    "description": "Original general contractor google ads field guide cover artwork. An orange magnifying lens hovering over an architectural construction model with timber framing, with three floating blank sponsored-result cards and a cobalt arrow.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/general-contractor-google-ads-scorecard.webp": {
+    "title": "General contractor Google Ads scorecard artwork",
+    "description": "Original general contractor google ads scorecard cover artwork. A large cream clipboard with ten simple cobalt and lime check boxes, a chrome gauge dial and architectural timber framing, a rolled cream blueprint, orange hard hat and lime measuring square.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/general-contractor-negative-keyword-vault.webp": {
+    "title": "General contractor Negative keyword workbook artwork",
+    "description": "Original general contractor negative keyword workbook cover artwork. A beautiful glass filtering sieve separates lime useful tokens from orange excluded tokens above an architectural construction model with timber framing, with a chrome minus symbol and cobalt boundary ring.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/guides/art/general-contractor-seo-guide.webp": {
+    "title": "General contractor SEO field guide artwork",
+    "description": "Original general contractor seo field guide cover artwork. A rising cobalt architectural staircase wraps around an architectural construction model with timber framing; a lime map pin and chrome search lens stand at its summit, orange paper folds behind.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
   "/results/remodeling-lower-lead-cost.webp": {
     "title": "Bathroom remodeling company",
     "description": "Home-service sector photograph from the owner-authorized BuiltRight library; illustrative of the service.",
@@ -48,37 +328,93 @@
     "height": 1050,
     "type": "image/webp"
   },
-  "/services/local-hero.webp": {
+  "/services/local-services-ads-hero.webp": {
     "title": "Google Local Services Ads",
-    "description": "A home, service-area map and lime location marker.",
+    "description": "A service van, home, verification shield and phone illustrating local service advertising.",
     "width": 1400,
     "height": 1050,
     "type": "image/webp"
   },
-  "/services/paid-hero.webp": {
+  "/services/microsoft-ads-hero.webp": {
     "title": "Microsoft Ads Management",
-    "description": "Conceptual advertising artwork with a business owner, tablet and search panels.",
+    "description": "A chrome window prism, orange search lens and campaign cards illustrating Microsoft advertising.",
     "width": 1400,
     "height": 1050,
     "type": "image/webp"
   },
-  "/services/social-hero.webp": {
+  "/services/linkedin-ads-hero.webp": {
     "title": "LinkedIn Ads Management",
-    "description": "Conceptual artwork of a business owner planning content on a phone.",
+    "description": "Professional profile cards, an office model and message connections illustrating LinkedIn advertising.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/email-marketing-hero.webp": {
+    "title": "Email Marketing",
+    "description": "An open envelope, message sheets and connected recipients illustrating email campaigns.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/reputation-management-hero.webp": {
+    "title": "Reputation Management",
+    "description": "Chrome stars, a review bubble and reply arrow illustrating reputation management.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/conversion-rate-optimization-hero.webp": {
+    "title": "Conversion Rate Optimization",
+    "description": "Two webpage variants with a split-path arrow and experiment dial illustrating conversion testing.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/lead-generation-hero.webp": {
+    "title": "Lead Generation",
+    "description": "A glass funnel connecting audience signals with contact cards and a handshake.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/digital-media-buying-hero.webp": {
+    "title": "Digital Media Buying",
+    "description": "Floating video, display and reporting screens connected by chrome tracks for media buying.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/franchise-marketing-hero.webp": {
+    "title": "Franchise & Multi-Location Marketing",
+    "description": "Five storefronts connected to a central marketing hub across a local network.",
     "width": 1400,
     "height": 1050,
     "type": "image/webp"
   },
   "/services/automation-hero.webp": {
-    "title": "Email Marketing",
+    "title": "AI Workflow & Automation",
     "description": "Connected message, calendar and task cards illustrating a business workflow.",
     "width": 1400,
     "height": 1050,
     "type": "image/webp"
   },
   "/services/web-hero.webp": {
-    "title": "Conversion Rate Optimization",
+    "title": "Website Design",
     "description": "Responsive website screens and a chrome cursor in a vibrant cobalt studio composition.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/web-development-hero.webp": {
+    "title": "Web Development",
+    "description": "Layered browser panels, modular blocks and connectors illustrating custom web development.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/website-management-hero.webp": {
+    "title": "Website Management",
+    "description": "A website window, protective ring, wrench and status line illustrating website care.",
     "width": 1400,
     "height": 1050,
     "type": "image/webp"
@@ -90,9 +426,65 @@
     "height": 1050,
     "type": "image/webp"
   },
-  "/services/creative-hero.webp": {
+  "/services/local-hero.webp": {
+    "title": "Local SEO",
+    "description": "A home, service-area map and lime location marker.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/paid-hero.webp": {
+    "title": "Google Ads Management",
+    "description": "Conceptual advertising artwork with a business owner, tablet and search panels.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/meta-ads-hero.webp": {
+    "title": "Meta Ads Management",
+    "description": "A phone ad, reaction bubbles and a cobalt infinity sculpture for social advertising.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/social-hero.webp": {
+    "title": "Social Media Management",
+    "description": "Conceptual artwork of a business owner planning content on a phone.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/content-creation-hero.webp": {
     "title": "Content Creation",
+    "description": "A microphone, storyboard, pen and play button illustrating original content production.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/content-management-hero.webp": {
+    "title": "Content Management",
+    "description": "Organized webpage cards, version tabs and a publishing checkmark for content management.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/creative-hero.webp": {
+    "title": "Graphic Design",
     "description": "A creative studio composition of campaign frames, camera and vivid color swatches.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/thumbnail-design-hero.webp": {
+    "title": "Thumbnail Design",
+    "description": "Three colorful video frames, a crop tool and play triangle illustrating thumbnail design.",
+    "width": 1400,
+    "height": 1050,
+    "type": "image/webp"
+  },
+  "/services/landing-page-design-hero.webp": {
+    "title": "Landing Page Design",
+    "description": "A focused landing-page model with an orange action button and chrome cursor.",
     "width": 1400,
     "height": 1050,
     "type": "image/webp"
@@ -5034,63 +5426,63 @@
   },
   "/featured/services--local-services-ads-v2.webp": {
     "title": "Google Local Services Ads Services | Wonderweb Studio",
-    "description": "A home, service-area map and lime location marker. Featured cover for Google Local Services Ads Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "description": "A service van, home, verification shield and phone illustrating local service advertising. Featured cover for Google Local Services Ads Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--microsoft-ads-v2.webp": {
     "title": "Microsoft Ads Management Services | Wonderweb Studio",
-    "description": "Conceptual advertising artwork with a business owner, tablet and search panels. Featured cover for Microsoft Ads Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "description": "A chrome window prism, orange search lens and campaign cards illustrating Microsoft advertising. Featured cover for Microsoft Ads Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--linkedin-ads-v2.webp": {
     "title": "LinkedIn Ads Management Services | Wonderweb Studio",
-    "description": "Conceptual artwork of a business owner planning content on a phone. Featured cover for LinkedIn Ads Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "description": "Professional profile cards, an office model and message connections illustrating LinkedIn advertising. Featured cover for LinkedIn Ads Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--email-marketing-v2.webp": {
     "title": "Email Marketing Services | Wonderweb Studio",
-    "description": "Connected message, calendar and task cards illustrating a business workflow. Featured cover for Email Marketing Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "description": "An open envelope, message sheets and connected recipients illustrating email campaigns. Featured cover for Email Marketing Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--reputation-management-v2.webp": {
     "title": "Reputation Management Services | Wonderweb Studio",
-    "description": "A home, service-area map and lime location marker. Featured cover for Reputation Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "description": "Chrome stars, a review bubble and reply arrow illustrating reputation management. Featured cover for Reputation Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--conversion-rate-optimization-v2.webp": {
     "title": "Conversion Rate Optimization Services | Wonderweb Studio",
-    "description": "Responsive website screens and a chrome cursor in a vibrant cobalt studio composition. Featured cover for Conversion Rate Optimization Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "description": "Two webpage variants with a split-path arrow and experiment dial illustrating conversion testing. Featured cover for Conversion Rate Optimization Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--lead-generation-v2.webp": {
     "title": "Lead Generation Services | Wonderweb Studio",
-    "description": "Conceptual advertising artwork with a business owner, tablet and search panels. Featured cover for Lead Generation Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "description": "A glass funnel connecting audience signals with contact cards and a handshake. Featured cover for Lead Generation Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--digital-media-buying-v2.webp": {
     "title": "Digital Media Buying Services | Wonderweb Studio",
-    "description": "Conceptual advertising artwork with a business owner, tablet and search panels. Featured cover for Digital Media Buying Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "description": "Floating video, display and reporting screens connected by chrome tracks for media buying. Featured cover for Digital Media Buying Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--franchise-marketing-v2.webp": {
     "title": "Franchise & Multi-Location Marketing Services | Wonderweb Studio",
-    "description": "A home, service-area map and lime location marker. Featured cover for Franchise & Multi-Location Marketing Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "description": "Five storefronts connected to a central marketing hub across a local network. Featured cover for Franchise & Multi-Location Marketing Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
@@ -5111,14 +5503,14 @@
   },
   "/featured/services--web-development-v2.webp": {
     "title": "Web Development Services | Wonderweb Studio",
-    "description": "Responsive website screens and a chrome cursor in a vibrant cobalt studio composition. Featured cover for Web Development Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "description": "Layered browser panels, modular blocks and connectors illustrating custom web development. Featured cover for Web Development Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--website-management-v2.webp": {
     "title": "Website Management Services | Wonderweb Studio",
-    "description": "Connected message, calendar and task cards illustrating a business workflow. Featured cover for Website Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "description": "A website window, protective ring, wrench and status line illustrating website care. Featured cover for Website Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
@@ -5146,7 +5538,7 @@
   },
   "/featured/services--meta-ads-v2.webp": {
     "title": "Meta Ads Management Services | Wonderweb Studio",
-    "description": "Conceptual artwork of a business owner planning content on a phone. Featured cover for Meta Ads Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "description": "A phone ad, reaction bubbles and a cobalt infinity sculpture for social advertising. Featured cover for Meta Ads Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
@@ -5160,14 +5552,14 @@
   },
   "/featured/services--content-creation-v2.webp": {
     "title": "Content Creation Services | Wonderweb Studio",
-    "description": "A creative studio composition of campaign frames, camera and vivid color swatches. Featured cover for Content Creation Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "description": "A microphone, storyboard, pen and play button illustrating original content production. Featured cover for Content Creation Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--content-management-v2.webp": {
     "title": "Content Management Services | Wonderweb Studio",
-    "description": "Connected message, calendar and task cards illustrating a business workflow. Featured cover for Content Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "description": "Organized webpage cards, version tabs and a publishing checkmark for content management. Featured cover for Content Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
@@ -5181,14 +5573,14 @@
   },
   "/featured/services--thumbnail-design-v2.webp": {
     "title": "Thumbnail Design Services | Wonderweb Studio",
-    "description": "A creative studio composition of campaign frames, camera and vivid color swatches. Featured cover for Thumbnail Design Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "description": "Three colorful video frames, a crop tool and play triangle illustrating thumbnail design. Featured cover for Thumbnail Design Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
   },
   "/featured/services--landing-page-design-v2.webp": {
     "title": "Landing Page Design Services | Wonderweb Studio",
-    "description": "Responsive website screens and a chrome cursor in a vibrant cobalt studio composition. Featured cover for Landing Page Design Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "description": "A focused landing-page model with an orange action button and chrome cursor. Featured cover for Landing Page Design Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
@@ -6819,7 +7211,7 @@
   },
   "/seo/guides.png": {
     "title": "Free guides - Wonderweb Studio",
-    "description": "Featured social preview for Free guides. Download free SEO and Google Ads guides, lead checklists, campaign scorecards and negative keyword worksheets for home-service businesses.",
+    "description": "Featured social preview for Free guides. Get SEO and Google Ads field guides, lead checklists and campaign worksheets for your trade. Free with business signup, from Wonderweb Studio.",
     "width": 1200,
     "height": 630,
     "type": "image/png"

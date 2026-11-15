@@ -7756,102 +7756,102 @@
   },
   "/featured/services--local-services-ads-v2.webp": {
     "src": "/featured/services--local-services-ads-v2.webp",
-    "artwork": "/services/local-hero.webp",
+    "artwork": "/services/local-services-ads-hero.webp",
     "title": "Google Local Services Ads Services | Wonderweb Studio",
-    "alt": "Google Local Services Ads Services. A home, service-area map and lime location marker.",
-    "description": "A home, service-area map and lime location marker. Featured cover for Google Local Services Ads Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "alt": "Google Local Services Ads Services. A service van, home, verification shield and phone illustrating local service advertising.",
+    "description": "A service van, home, verification shield and phone illustrating local service advertising. Featured cover for Google Local Services Ads Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "f3b12f2b60422463c4e62ae72a10bf87f9a3b1f07f825cb348dd3d5019d68e6d"
+    "signature": "f9b4724c3f733109878c2dc9e936e46d2d50a2dee9271af63514622c54f7bde4"
   },
   "/featured/services--microsoft-ads-v2.webp": {
     "src": "/featured/services--microsoft-ads-v2.webp",
-    "artwork": "/services/paid-hero.webp",
+    "artwork": "/services/microsoft-ads-hero.webp",
     "title": "Microsoft Ads Management Services | Wonderweb Studio",
-    "alt": "Microsoft Ads Management Services. Conceptual advertising artwork with a business owner, tablet and search panels.",
-    "description": "Conceptual advertising artwork with a business owner, tablet and search panels. Featured cover for Microsoft Ads Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "alt": "Microsoft Ads Management Services. A chrome window prism, orange search lens and campaign cards illustrating Microsoft advertising.",
+    "description": "A chrome window prism, orange search lens and campaign cards illustrating Microsoft advertising. Featured cover for Microsoft Ads Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "76561bb42c331bec9d4f48b96a0f0adf42a48a3606e7ba8868f258291d72c991"
+    "signature": "8d5195acdbda4c440c5eadf7cabc5005532c40a47985aebabfc1d3cafc41e915"
   },
   "/featured/services--linkedin-ads-v2.webp": {
     "src": "/featured/services--linkedin-ads-v2.webp",
-    "artwork": "/services/social-hero.webp",
+    "artwork": "/services/linkedin-ads-hero.webp",
     "title": "LinkedIn Ads Management Services | Wonderweb Studio",
-    "alt": "LinkedIn Ads Management Services. Conceptual artwork of a business owner planning content on a phone.",
-    "description": "Conceptual artwork of a business owner planning content on a phone. Featured cover for LinkedIn Ads Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "alt": "LinkedIn Ads Management Services. Professional profile cards, an office model and message connections illustrating LinkedIn advertising.",
+    "description": "Professional profile cards, an office model and message connections illustrating LinkedIn advertising. Featured cover for LinkedIn Ads Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "b1e0e7550421b622843ce9e09213cb25f0197faaadd4345102180456a735140c"
+    "signature": "dee2d89b174bc26d0180b83498fde9c35e66a841660f7b9c2079cadcc6640549"
   },
   "/featured/services--email-marketing-v2.webp": {
     "src": "/featured/services--email-marketing-v2.webp",
-    "artwork": "/services/automation-hero.webp",
+    "artwork": "/services/email-marketing-hero.webp",
     "title": "Email Marketing Services | Wonderweb Studio",
-    "alt": "Email Marketing Services. Connected message, calendar and task cards illustrating a business workflow.",
-    "description": "Connected message, calendar and task cards illustrating a business workflow. Featured cover for Email Marketing Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "alt": "Email Marketing Services. An open envelope, message sheets and connected recipients illustrating email campaigns.",
+    "description": "An open envelope, message sheets and connected recipients illustrating email campaigns. Featured cover for Email Marketing Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "a18e0d828429324f72e1dd6cc62facd7cfd20f57acdbd0117a3e9608841f294d"
+    "signature": "07508902ccc62c0b79aca1eeced7e7361a6f4cd5837b495fd9fded775872ad8c"
   },
   "/featured/services--reputation-management-v2.webp": {
     "src": "/featured/services--reputation-management-v2.webp",
-    "artwork": "/services/local-hero.webp",
+    "artwork": "/services/reputation-management-hero.webp",
     "title": "Reputation Management Services | Wonderweb Studio",
-    "alt": "Reputation Management Services. A home, service-area map and lime location marker.",
-    "description": "A home, service-area map and lime location marker. Featured cover for Reputation Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "alt": "Reputation Management Services. Chrome stars, a review bubble and reply arrow illustrating reputation management.",
+    "description": "Chrome stars, a review bubble and reply arrow illustrating reputation management. Featured cover for Reputation Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "c4b03bac20355f3bfb89d469382f8b52d152f6ad641ebfed8e2d75b8e31208ad"
+    "signature": "34e6e5d8c435e7bc95c7d841cd4e1338db4a35400afbc95cf5e853c62cc195fc"
   },
   "/featured/services--conversion-rate-optimization-v2.webp": {
     "src": "/featured/services--conversion-rate-optimization-v2.webp",
-    "artwork": "/services/web-hero.webp",
+    "artwork": "/services/conversion-rate-optimization-hero.webp",
     "title": "Conversion Rate Optimization Services | Wonderweb Studio",
-    "alt": "Conversion Rate Optimization Services. Responsive website screens and a chrome cursor in a vibrant cobalt studio composition.",
-    "description": "Responsive website screens and a chrome cursor in a vibrant cobalt studio composition. Featured cover for Conversion Rate Optimization Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "alt": "Conversion Rate Optimization Services. Two webpage variants with a split-path arrow and experiment dial illustrating conversion testing.",
+    "description": "Two webpage variants with a split-path arrow and experiment dial illustrating conversion testing. Featured cover for Conversion Rate Optimization Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "9b19f43caaae9cc50ad75e65839d42387b1a1dfad98adc2ff084a5c42e306ad0"
+    "signature": "7a5945359ae3a9ee267b4f790995aa44934c88c78c41a1ac21681c13eacbafca"
   },
   "/featured/services--lead-generation-v2.webp": {
     "src": "/featured/services--lead-generation-v2.webp",
-    "artwork": "/services/paid-hero.webp",
+    "artwork": "/services/lead-generation-hero.webp",
     "title": "Lead Generation Services | Wonderweb Studio",
-    "alt": "Lead Generation Services. Conceptual advertising artwork with a business owner, tablet and search panels.",
-    "description": "Conceptual advertising artwork with a business owner, tablet and search panels. Featured cover for Lead Generation Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "alt": "Lead Generation Services. A glass funnel connecting audience signals with contact cards and a handshake.",
+    "description": "A glass funnel connecting audience signals with contact cards and a handshake. Featured cover for Lead Generation Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "4f0cd19bd52a7927ea5cd73a8b21c8272a6b5f45059797e1640bf1f99ff9d105"
+    "signature": "c2504a6bc860db40827bc266abc46ef1bfa2950eb884457b53fcbd479809069b"
   },
   "/featured/services--digital-media-buying-v2.webp": {
     "src": "/featured/services--digital-media-buying-v2.webp",
-    "artwork": "/services/paid-hero.webp",
+    "artwork": "/services/digital-media-buying-hero.webp",
     "title": "Digital Media Buying Services | Wonderweb Studio",
-    "alt": "Digital Media Buying Services. Conceptual advertising artwork with a business owner, tablet and search panels.",
-    "description": "Conceptual advertising artwork with a business owner, tablet and search panels. Featured cover for Digital Media Buying Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "alt": "Digital Media Buying Services. Floating video, display and reporting screens connected by chrome tracks for media buying.",
+    "description": "Floating video, display and reporting screens connected by chrome tracks for media buying. Featured cover for Digital Media Buying Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "ffbab13103969ec8c09d619391d8e2550c57a08f0eb3f64954cfdae53e1bc979"
+    "signature": "ba089d3dce1eaf068775669cd267bc884095c1c12eee66489754111aa3f858ab"
   },
   "/featured/services--franchise-marketing-v2.webp": {
     "src": "/featured/services--franchise-marketing-v2.webp",
-    "artwork": "/services/local-hero.webp",
+    "artwork": "/services/franchise-marketing-hero.webp",
     "title": "Franchise & Multi-Location Marketing Services | Wonderweb Studio",
-    "alt": "Franchise & Multi-Location Marketing Services. A home, service-area map and lime location marker.",
-    "description": "A home, service-area map and lime location marker. Featured cover for Franchise & Multi-Location Marketing Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "alt": "Franchise & Multi-Location Marketing Services. Five storefronts connected to a central marketing hub across a local network.",
+    "description": "Five storefronts connected to a central marketing hub across a local network. Featured cover for Franchise & Multi-Location Marketing Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "be1f543b9984ea6f94d627a8dbb4d2311deba062bc5f1b7b743ecbaad38e6b83"
+    "signature": "81bb5089c039463ba35263bcbdd8c5861660e466339fe3bd8dcf8f2a38123623"
   },
   "/featured/services--ai-workflow-automation-v2.webp": {
     "src": "/featured/services--ai-workflow-automation-v2.webp",
@@ -7877,25 +7877,25 @@
   },
   "/featured/services--web-development-v2.webp": {
     "src": "/featured/services--web-development-v2.webp",
-    "artwork": "/services/web-hero.webp",
+    "artwork": "/services/web-development-hero.webp",
     "title": "Web Development Services | Wonderweb Studio",
-    "alt": "Web Development Services. Responsive website screens and a chrome cursor in a vibrant cobalt studio composition.",
-    "description": "Responsive website screens and a chrome cursor in a vibrant cobalt studio composition. Featured cover for Web Development Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "alt": "Web Development Services. Layered browser panels, modular blocks and connectors illustrating custom web development.",
+    "description": "Layered browser panels, modular blocks and connectors illustrating custom web development. Featured cover for Web Development Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "6e181602ad38706f7996a0a0200f296be7a3d21ca92dce01b46fe19cda68e2c0"
+    "signature": "384dffbb6e6e4cdcd5d567a4e2a0bf4f95cd6c79d9ea2468a64b66ff5bd3aa01"
   },
   "/featured/services--website-management-v2.webp": {
     "src": "/featured/services--website-management-v2.webp",
-    "artwork": "/services/automation-hero.webp",
+    "artwork": "/services/website-management-hero.webp",
     "title": "Website Management Services | Wonderweb Studio",
-    "alt": "Website Management Services. Connected message, calendar and task cards illustrating a business workflow.",
-    "description": "Connected message, calendar and task cards illustrating a business workflow. Featured cover for Website Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "alt": "Website Management Services. A website window, protective ring, wrench and status line illustrating website care.",
+    "description": "A website window, protective ring, wrench and status line illustrating website care. Featured cover for Website Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "08cd5b80c379bcdc61a9c58d72c21bee18017aec9f14dbb65e9c1a8c50d09892"
+    "signature": "490696bf530544e44f4a03324dc02289510df13cd6acc0e597c19a8278f90634"
   },
   "/featured/services--seo-v2.webp": {
     "src": "/featured/services--seo-v2.webp",
@@ -7932,14 +7932,14 @@
   },
   "/featured/services--meta-ads-v2.webp": {
     "src": "/featured/services--meta-ads-v2.webp",
-    "artwork": "/services/social-hero.webp",
+    "artwork": "/services/meta-ads-hero.webp",
     "title": "Meta Ads Management Services | Wonderweb Studio",
-    "alt": "Meta Ads Management Services. Conceptual artwork of a business owner planning content on a phone.",
-    "description": "Conceptual artwork of a business owner planning content on a phone. Featured cover for Meta Ads Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "alt": "Meta Ads Management Services. A phone ad, reaction bubbles and a cobalt infinity sculpture for social advertising.",
+    "description": "A phone ad, reaction bubbles and a cobalt infinity sculpture for social advertising. Featured cover for Meta Ads Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "b12f640bf33ffc86425addc8241db086c047755813c797d652734c5c50a53c0f"
+    "signature": "4c166a657aab84862ed6239228d4f1e0ac1ce4110e33ac563de8bd163ad55537"
   },
   "/featured/services--social-media-management-v2.webp": {
     "src": "/featured/services--social-media-management-v2.webp",
@@ -7954,25 +7954,25 @@
   },
   "/featured/services--content-creation-v2.webp": {
     "src": "/featured/services--content-creation-v2.webp",
-    "artwork": "/services/creative-hero.webp",
+    "artwork": "/services/content-creation-hero.webp",
     "title": "Content Creation Services | Wonderweb Studio",
-    "alt": "Content Creation Services. A creative studio composition of campaign frames, camera and vivid color swatches.",
-    "description": "A creative studio composition of campaign frames, camera and vivid color swatches. Featured cover for Content Creation Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "alt": "Content Creation Services. A microphone, storyboard, pen and play button illustrating original content production.",
+    "description": "A microphone, storyboard, pen and play button illustrating original content production. Featured cover for Content Creation Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "305bc15d9821076493be33201ab09c344b5b1d5bc00ca372e8c7433d5c3fc320"
+    "signature": "186eb84f15ae791d1fcc859ef83e1c3c3b027edddeb41a5f31f4cf1fb539b09f"
   },
   "/featured/services--content-management-v2.webp": {
     "src": "/featured/services--content-management-v2.webp",
-    "artwork": "/services/automation-hero.webp",
+    "artwork": "/services/content-management-hero.webp",
     "title": "Content Management Services | Wonderweb Studio",
-    "alt": "Content Management Services. Connected message, calendar and task cards illustrating a business workflow.",
-    "description": "Connected message, calendar and task cards illustrating a business workflow. Featured cover for Content Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "alt": "Content Management Services. Organized webpage cards, version tabs and a publishing checkmark for content management.",
+    "description": "Organized webpage cards, version tabs and a publishing checkmark for content management. Featured cover for Content Management Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "e5cad1df2daee549a1b84b57f307c6eaa7ca0f0c14b49c1ee9b7e350ce35781a"
+    "signature": "282a50126a3436a672920400c9659f4b56e7e2ab91d328851a8db709ae6f4ba8"
   },
   "/featured/services--graphic-design-v2.webp": {
     "src": "/featured/services--graphic-design-v2.webp",
@@ -7987,25 +7987,25 @@
   },
   "/featured/services--thumbnail-design-v2.webp": {
     "src": "/featured/services--thumbnail-design-v2.webp",
-    "artwork": "/services/creative-hero.webp",
+    "artwork": "/services/thumbnail-design-hero.webp",
     "title": "Thumbnail Design Services | Wonderweb Studio",
-    "alt": "Thumbnail Design Services. A creative studio composition of campaign frames, camera and vivid color swatches.",
-    "description": "A creative studio composition of campaign frames, camera and vivid color swatches. Featured cover for Thumbnail Design Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "alt": "Thumbnail Design Services. Three colorful video frames, a crop tool and play triangle illustrating thumbnail design.",
+    "description": "Three colorful video frames, a crop tool and play triangle illustrating thumbnail design. Featured cover for Thumbnail Design Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "9eb1432d26b6fc08708947ca164d13cb5f760a49318795bf34936ebffb6974db"
+    "signature": "9298ac3f23dc8cfe3f9d7ee6f74c9fe41b81479e54b9a6f80f150fce61e470b8"
   },
   "/featured/services--landing-page-design-v2.webp": {
     "src": "/featured/services--landing-page-design-v2.webp",
-    "artwork": "/services/web-hero.webp",
+    "artwork": "/services/landing-page-design-hero.webp",
     "title": "Landing Page Design Services | Wonderweb Studio",
-    "alt": "Landing Page Design Services. Responsive website screens and a chrome cursor in a vibrant cobalt studio composition.",
-    "description": "Responsive website screens and a chrome cursor in a vibrant cobalt studio composition. Featured cover for Landing Page Design Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
+    "alt": "Landing Page Design Services. A focused landing-page model with an orange action button and chrome cursor.",
+    "description": "A focused landing-page model with an orange action button and chrome cursor. Featured cover for Landing Page Design Services. Conceptual service artwork generated with built-in imagegen; not a client photograph.",
     "width": 1440,
     "height": 810,
     "type": "image/webp",
-    "signature": "65c6be9e5a60e0e900ff66fc164d2e248dd7e7454d2f1594c2e32d9f0ac1cee2"
+    "signature": "a0bd17c4c435351f1d57451df35cfe4b879f28f517d767b4452d5e594d8e5678"
   },
   "/featured/industries--roofing-v2.webp": {
     "src": "/featured/industries--roofing-v2.webp",

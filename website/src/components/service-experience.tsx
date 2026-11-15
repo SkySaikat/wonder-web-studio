@@ -20,12 +20,12 @@ export function ServiceHeroImage({title,detail,slug}:{title:string;detail:Servic
   </figure>
   <div className="hero-orbit" aria-hidden="true"><span><Search size={19}/></span><span><MapPin size={19}/></span><span><MousePointer2 size={19}/></span></div>
   <div className="hero-floating-card hero-search-card" aria-hidden="true">
-   <span className="hero-card-label"><b>01</b> A USEFUL FIRST IMPRESSION</span>
+   <span className="service-float-label"><b>01</b> A USEFUL FIRST IMPRESSION</span>
    <div className="hero-query"><Search size={13}/><span>{query}</span></div>
    <div className="hero-search-result"><small>YOUR BUSINESS · THE RIGHT MOMENT</small><strong>{title}</strong><span>Clear expertise. A relevant next step.</span></div>
   </div>
   <div className="hero-floating-card hero-fit-card" aria-hidden="true">
-   <span className="hero-card-label"><b>02</b> MAKE IT RELEVANT</span>
+   <span className="service-float-label"><b>02</b> MAKE IT RELEVANT</span>
    <span><Check size={13}/> A clear message</span><span><Check size={13}/> A useful destination</span>
   </div>
   <div className="hero-floating-card hero-contact-card" aria-hidden="true"><span><Phone size={19}/></span><div><small>03 / START A CONVERSATION</small><strong>From interest to hello.</strong></div><ArrowUpRight size={18}/></div>

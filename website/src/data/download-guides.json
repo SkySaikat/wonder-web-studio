@@ -8,7 +8,9 @@
     "description": "Find the gaps before you buy more leads.",
     "pages": 7,
     "pdf": "/api/guides/electrician-free-report/",
-    "cover": "/guides/electrician-free-report.webp"
+    "cover": "/guides/electrician-free-report.webp",
+    "coverAlt": "Electrical Lead journey checklist cover: A winding chrome path connects an electrician\u2019s copper wire coil, precision pliers and compact cream breaker panel, a glass phone contact symbol and a lime checklist card.",
+    "artwork": "/guides/art/electrician-free-report.webp"
   },
   {
     "slug": "electrician-google-ads-guide",
@@ -19,7 +21,9 @@
     "description": "Connect the right searches with the right jobs.",
     "pages": 9,
     "pdf": "/api/guides/electrician-google-ads-guide/",
-    "cover": "/guides/electrician-google-ads-guide.webp"
+    "cover": "/guides/electrician-google-ads-guide.webp",
+    "coverAlt": "Electrical Google Ads field guide cover: An orange magnifying lens hovering over a miniature home with carefully arranged copper circuits, with three floating blank sponsored-result cards and a cobalt arrow.",
+    "artwork": "/guides/art/electrician-google-ads-guide.webp"
   },
   {
     "slug": "electrician-google-ads-scorecard",
@@ -30,7 +34,9 @@
     "description": "Ten checks. A clearer campaign.",
     "pages": 4,
     "pdf": "/api/guides/electrician-google-ads-scorecard/",
-    "cover": "/guides/electrician-google-ads-scorecard.webp"
+    "cover": "/guides/electrician-google-ads-scorecard.webp",
+    "coverAlt": "Electrical Google Ads scorecard cover: A large cream clipboard with ten simple cobalt and lime check boxes, a chrome gauge dial and an electrician\u2019s copper wire coil, precision pliers and compact cream breaker panel.",
+    "artwork": "/guides/art/electrician-google-ads-scorecard.webp"
   },
   {
     "slug": "electrician-negative-keyword-vault",
@@ -42,6 +48,8 @@
     "pages": 9,
     "pdf": "/api/guides/electrician-negative-keyword-vault/",
     "cover": "/guides/electrician-negative-keyword-vault.webp",
+    "coverAlt": "Electrical Negative keyword workbook cover: A beautiful glass filtering sieve separates lime useful tokens from orange excluded tokens above a miniature home with carefully arranged copper circuits, with a chrome minus symbol and cobalt boundary ring.",
+    "artwork": "/guides/art/electrician-negative-keyword-vault.webp",
     "csv": "/api/guides/electrician-negative-keyword-vault/?format=csv"
   },
   {
@@ -53,7 +61,9 @@
     "description": "Build a stronger local search presence.",
     "pages": 9,
     "pdf": "/api/guides/electrician-seo-guide/",
-    "cover": "/guides/electrician-seo-guide.webp"
+    "cover": "/guides/electrician-seo-guide.webp",
+    "coverAlt": "Electrical SEO field guide cover: A rising cobalt architectural staircase wraps around a miniature home with carefully arranged copper circuits; a lime map pin and chrome search lens stand at its summit, orange paper folds behind.",
+    "artwork": "/guides/art/electrician-seo-guide.webp"
   },
   {
     "slug": "general-contractor-free-report",
@@ -64,7 +74,9 @@
     "description": "Find the gaps before you buy more leads.",
     "pages": 7,
     "pdf": "/api/guides/general-contractor-free-report/",
-    "cover": "/guides/general-contractor-free-report.webp"
+    "cover": "/guides/general-contractor-free-report.webp",
+    "coverAlt": "General contractor Lead journey checklist cover: A winding chrome path connects architectural timber framing, a rolled cream blueprint, orange hard hat and lime measuring square, a glass phone contact symbol and a lime checklist card.",
+    "artwork": "/guides/art/general-contractor-free-report.webp"
   },
   {
     "slug": "general-contractor-google-ads-guide",
@@ -75,7 +87,9 @@
     "description": "Connect the right searches with the right jobs.",
     "pages": 9,
     "pdf": "/api/guides/general-contractor-google-ads-guide/",
-    "cover": "/guides/general-contractor-google-ads-guide.webp"
+    "cover": "/guides/general-contractor-google-ads-guide.webp",
+    "coverAlt": "General contractor Google Ads field guide cover: An orange magnifying lens hovering over an architectural construction model with timber framing, with three floating blank sponsored-result cards and a cobalt arrow.",
+    "artwork": "/guides/art/general-contractor-google-ads-guide.webp"
   },
   {
     "slug": "general-contractor-google-ads-scorecard",
@@ -86,7 +100,9 @@
     "description": "Ten checks. A clearer campaign.",
     "pages": 4,
     "pdf": "/api/guides/general-contractor-google-ads-scorecard/",
-    "cover": "/guides/general-contractor-google-ads-scorecard.webp"
+    "cover": "/guides/general-contractor-google-ads-scorecard.webp",
+    "coverAlt": "General contractor Google Ads scorecard cover: A large cream clipboard with ten simple cobalt and lime check boxes, a chrome gauge dial and architectural timber framing, a rolled cream blueprint, orange hard hat and lime measuring square.",
+    "artwork": "/guides/art/general-contractor-google-ads-scorecard.webp"
   },
   {
     "slug": "general-contractor-negative-keyword-vault",
@@ -98,6 +114,8 @@
     "pages": 11,
     "pdf": "/api/guides/general-contractor-negative-keyword-vault/",
     "cover": "/guides/general-contractor-negative-keyword-vault.webp",
+    "coverAlt": "General contractor Negative keyword workbook cover: A beautiful glass filtering sieve separates lime useful tokens from orange excluded tokens above an architectural construction model with timber framing, with a chrome minus symbol and cobalt boundary ring.",
+    "artwork": "/guides/art/general-contractor-negative-keyword-vault.webp",
     "csv": "/api/guides/general-contractor-negative-keyword-vault/?format=csv"
   },
   {
@@ -109,7 +127,9 @@
     "description": "Build a stronger local search presence.",
     "pages": 9,
     "pdf": "/api/guides/general-contractor-seo-guide/",
-    "cover": "/guides/general-contractor-seo-guide.webp"
+    "cover": "/guides/general-contractor-seo-guide.webp",
+    "coverAlt": "General contractor SEO field guide cover: A rising cobalt architectural staircase wraps around an architectural construction model with timber framing; a lime map pin and chrome search lens stand at its summit, orange paper folds behind.",
+    "artwork": "/guides/art/general-contractor-seo-guide.webp"
   },
   {
     "slug": "plumbing-free-report",
@@ -120,7 +140,9 @@
     "description": "Find the gaps before you buy more leads.",
     "pages": 7,
     "pdf": "/api/guides/plumbing-free-report/",
-    "cover": "/guides/plumbing-free-report.webp"
+    "cover": "/guides/plumbing-free-report.webp",
+    "coverAlt": "Plumbing Lead journey checklist cover: A winding chrome path connects polished copper pipe elbows, a chrome faucet and orange plumbing wrench, a glass phone contact symbol and a lime checklist card.",
+    "artwork": "/guides/art/plumbing-free-report.webp"
   },
   {
     "slug": "plumbing-google-ads-guide",
@@ -131,7 +153,9 @@
     "description": "Connect the right searches with the right jobs.",
     "pages": 9,
     "pdf": "/api/guides/plumbing-google-ads-guide/",
-    "cover": "/guides/plumbing-google-ads-guide.webp"
+    "cover": "/guides/plumbing-google-ads-guide.webp",
+    "coverAlt": "Plumbing Google Ads field guide cover: An orange magnifying lens hovering over a miniature home with beautifully curved copper plumbing, with three floating blank sponsored-result cards and a cobalt arrow.",
+    "artwork": "/guides/art/plumbing-google-ads-guide.webp"
   },
   {
     "slug": "plumbing-google-ads-scorecard",
@@ -142,7 +166,9 @@
     "description": "Ten checks. A clearer campaign.",
     "pages": 4,
     "pdf": "/api/guides/plumbing-google-ads-scorecard/",
-    "cover": "/guides/plumbing-google-ads-scorecard.webp"
+    "cover": "/guides/plumbing-google-ads-scorecard.webp",
+    "coverAlt": "Plumbing Google Ads scorecard cover: A large cream clipboard with ten simple cobalt and lime check boxes, a chrome gauge dial and polished copper pipe elbows, a chrome faucet and orange plumbing wrench.",
+    "artwork": "/guides/art/plumbing-google-ads-scorecard.webp"
   },
   {
     "slug": "plumbing-negative-keyword-vault",
@@ -154,6 +180,8 @@
     "pages": 9,
     "pdf": "/api/guides/plumbing-negative-keyword-vault/",
     "cover": "/guides/plumbing-negative-keyword-vault.webp",
+    "coverAlt": "Plumbing Negative keyword workbook cover: A beautiful glass filtering sieve separates lime useful tokens from orange excluded tokens above a miniature home with beautifully curved copper plumbing, with a chrome minus symbol and cobalt boundary ring.",
+    "artwork": "/guides/art/plumbing-negative-keyword-vault.webp",
     "csv": "/api/guides/plumbing-negative-keyword-vault/?format=csv"
   },
   {
@@ -165,7 +193,9 @@
     "description": "Build a stronger local search presence.",
     "pages": 9,
     "pdf": "/api/guides/plumbing-seo-guide/",
-    "cover": "/guides/plumbing-seo-guide.webp"
+    "cover": "/guides/plumbing-seo-guide.webp",
+    "coverAlt": "Plumbing SEO field guide cover: A rising cobalt architectural staircase wraps around a miniature home with beautifully curved copper plumbing; a lime map pin and chrome search lens stand at its summit, orange paper folds behind.",
+    "artwork": "/guides/art/plumbing-seo-guide.webp"
   },
   {
     "slug": "roofing-free-report",
@@ -176,7 +206,9 @@
     "description": "Find the gaps before you buy more leads.",
     "pages": 7,
     "pdf": "/api/guides/roofing-free-report/",
-    "cover": "/guides/roofing-free-report.webp"
+    "cover": "/guides/roofing-free-report.webp",
+    "coverAlt": "Roofing Lead journey checklist cover: A winding chrome path connects a small pitched roof with layered cobalt shingles, orange roofer hammer and lime measuring tape, a glass phone contact symbol and a lime checklist card.",
+    "artwork": "/guides/art/roofing-free-report.webp"
   },
   {
     "slug": "roofing-google-ads-guide",
@@ -187,7 +219,9 @@
     "description": "Connect the right searches with the right jobs.",
     "pages": 9,
     "pdf": "/api/guides/roofing-google-ads-guide/",
-    "cover": "/guides/roofing-google-ads-guide.webp"
+    "cover": "/guides/roofing-google-ads-guide.webp",
+    "coverAlt": "Roofing Google Ads field guide cover: An orange magnifying lens hovering over a cluster of detailed pitched-roof homes, with three floating blank sponsored-result cards and a cobalt arrow.",
+    "artwork": "/guides/art/roofing-google-ads-guide.webp"
   },
   {
     "slug": "roofing-google-ads-scorecard",
@@ -198,7 +232,9 @@
     "description": "Ten checks. A clearer campaign.",
     "pages": 4,
     "pdf": "/api/guides/roofing-google-ads-scorecard/",
-    "cover": "/guides/roofing-google-ads-scorecard.webp"
+    "cover": "/guides/roofing-google-ads-scorecard.webp",
+    "coverAlt": "Roofing Google Ads scorecard cover: A large cream clipboard with ten simple cobalt and lime check boxes, a chrome gauge dial and a small pitched roof with layered cobalt shingles, orange roofer hammer and lime measuring tape.",
+    "artwork": "/guides/art/roofing-google-ads-scorecard.webp"
   },
   {
     "slug": "roofing-negative-keyword-vault",
@@ -210,6 +246,8 @@
     "pages": 9,
     "pdf": "/api/guides/roofing-negative-keyword-vault/",
     "cover": "/guides/roofing-negative-keyword-vault.webp",
+    "coverAlt": "Roofing Negative keyword workbook cover: A beautiful glass filtering sieve separates lime useful tokens from orange excluded tokens above a cluster of detailed pitched-roof homes, with a chrome minus symbol and cobalt boundary ring.",
+    "artwork": "/guides/art/roofing-negative-keyword-vault.webp",
     "csv": "/api/guides/roofing-negative-keyword-vault/?format=csv"
   },
   {
@@ -221,6 +259,8 @@
     "description": "Build a stronger local search presence.",
     "pages": 9,
     "pdf": "/api/guides/roofing-seo-guide/",
-    "cover": "/guides/roofing-seo-guide.webp"
+    "cover": "/guides/roofing-seo-guide.webp",
+    "coverAlt": "Roofing SEO field guide cover: A rising cobalt architectural staircase wraps around a cluster of detailed pitched-roof homes; a lime map pin and chrome search lens stand at its summit, orange paper folds behind.",
+    "artwork": "/guides/art/roofing-seo-guide.webp"
   }
 ]
