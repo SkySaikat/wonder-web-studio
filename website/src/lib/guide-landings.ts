@@ -163,10 +163,11 @@ export const guideLandings=downloads.map(guide=>{
   const trade=trades[guide.trade];
   if(!trade)throw new Error(`Unknown guide trade: ${guide.trade}`);
   const content=contentFor(guide,trade);
-  return {...content,guide,trade,path:guidePath(guide.slug),
+  const servicePhrase=/^(Google Ads|SEO)/.test(content.serviceLabel)?content.serviceLabel:content.serviceLabel.toLowerCase();
+  return {...content,servicePhrase,guide,trade,path:guidePath(guide.slug),
     faqs:[
       [content.question,content.answer],
-      ['What help does Wonderweb Studio provide?',`We support ${trade.audience} with ${content.serviceLabel.toLowerCase()}, relevant website improvements and inquiry measurement. We review your current setup and priorities, then agree on responsibilities, deliverables and pricing in a written scope.`],
+      ['What help does Wonderweb Studio provide?',`We support ${trade.audience} with ${servicePhrase}, relevant website improvements and inquiry measurement. We review your current setup and priorities, then agree on responsibilities, deliverables and pricing in a written scope.`],
       ['Is the guide free, and what happens after I request it?',`Yes. Complete the business-details form on this page to unlock the ${guide.pages}-page PDF${'csv' in guide?' and its CSV companion':''}. With your consent, our team may contact you about the guide and your marketing goals. Requesting it does not commit you to buying a service.`],
     ] satisfies [string,string][],
   };
