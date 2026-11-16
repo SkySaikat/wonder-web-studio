@@ -13,7 +13,7 @@ import {caseStudyDetails} from './case-study-details';
 import {services,industries,work} from './content';
 import {markdownPath} from './content-paths';
 import {industryDetails} from './industry-details';
-import {locationAnswers} from './location-answers';
+import {locationAnswers,locationServiceAnswers} from './location-answers';
 import {marketBriefs} from './location-depth';
 import {locationServiceBriefs} from './location-service-briefs';
 import {locations} from './locations';
@@ -61,14 +61,14 @@ export function markdownBody(page:SeoPage):string{
   else blocks.push(sections(l.sections),`## Starting priorities\n\n${sections(l.campaign)}`);
   blocks.push(`## ${brief.title}\n\nPlanning scenario, not a measured client result.\n\n${brief.scenario}\n\n${brief.decision}\n\n${brief.proof}`);
   blocks.push(`## Prepare your marketing brief\n\n${links(locationReading(slug,service).map(a=>`/resources/${a.slug}/`))}`);
-  if(service){const s=services.find(s=>s.slug===service)!;blocks.push(`## ${s.title} scope\n\n${bullets(s.deliverables)}`,faq(serviceDetails[service]?.faq||[]));}
+  if(service){const s=services.find(s=>s.slug===service)!;blocks.push(`## ${s.title} scope\n\n${bullets(s.deliverables)}`,faq(locationServiceAnswers(slug,service)));}
   else blocks.push(faq(locationAnswers(slug)));
   blocks.push(`## Relevant services\n\n${links(l.services.map(s=>seoByPath.has(`/locations/${slug}/${s}/`)?`/locations/${slug}/${s}/`:`/services/${s}/`))}`);
  }
  if(kind==='industries'&&slug){
   const i=industries.find(i=>i.slug===slug)!;
   if(service){const d=industryDetails[slug];const paragraphs=service==='seo'?d.seo:d.web;blocks.push(paragraphs.join('\n\n'),`## Service details\n\n${links([`/services/${service}/`,`/industries/${slug}/`])}`);}
-  else blocks.push(sections(i.needs.map(n=>[n.title,n.body])));
+  else blocks.push(sections(i.needs.map(n=>[n.title,n.body])),faq(i.questions));
  }
  if(kind==='results'&&slug){
   const s=campaignStories.find(s=>s.slug===slug)!;const d=caseStudyDetails[slug];

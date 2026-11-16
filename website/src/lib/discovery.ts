@@ -10,7 +10,7 @@ const intro=`# Wonderweb Studio
 
 ${site.positioning} Its founder, CEO and team lead is Saikat Chowdhury. The team works remotely across locations. Market pages describe remotely delivered services for businesses in those markets; they do not represent local offices.
 
-Contact: ${site.email}. Call bookings are preferred date/time requests, confirmed separately by the studio. Prices are in USD; starting scopes and final quotes are agreed on a call. Advertising spend and third-party costs are separate. Portfolio pages distinguish project work, creative explorations and historical campaign results. Illustrative growth charts are not measured client results or forecasts. Rankings, traffic and revenue are not guaranteed.
+Contact: ${site.email}. Call bookings are preferred date/time requests, confirmed separately by the studio. Prices are in USD; starting scopes and final quotes are agreed on a call. Advertising spend and third-party costs are separate. Portfolio pages distinguish project work, creative explorations and historical campaign results. Illustrative growth charts are not measured client results or forecasts. Wonderweb Studio takes responsibility for the agreed strategy, implementation and reporting, with clear deliverables, regular progress reviews and a focus on qualified customer inquiries.
 `;
 export function llmsText(){
  const publicSeoPages=getPublicSeoPages();
