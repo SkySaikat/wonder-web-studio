@@ -9,6 +9,8 @@ const config: NextConfig = {
   poweredByHeader: false,
   async redirects() {
     return [
+      {source:'/resources/local-seo-best-practices-boosting-your-home-improvement-business-with-built-right-digital',destination:'/resources/local-seo-home-improvement-checklist/',permanent:true},
+      {source:'/content/resources/local-seo-best-practices-boosting-your-home-improvement-business-with-built-right-digital.md',destination:'/content/resources/local-seo-home-improvement-checklist.md',permanent:true},
       ...guides.flatMap(guide=>[`${guide.slug}.pdf`,...('csv' in guide?[`${guide.slug}.csv`]:[])].map(file=>({source:`/guides/${file}`,destination:`/guides/${guide.slug}/`,permanent:false}))),
       { source: "/sitemap_index.xml", destination: "/sitemap.xml", permanent: true },
       { source: '/results/coastal-bath-paid-search', destination: '/results/bathroom-paid-search-efficiency/', permanent: true },

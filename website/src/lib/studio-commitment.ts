@@ -14,12 +14,12 @@ export const leadGuaranteeFaq:[string,string]=[
 
 export const guaranteeServices = new Set(['google-ads','meta-ads','microsoft-ads','local-services-ads','lead-generation']);
 
-// The owner confirmed that these partnerships cover the shared Wonderweb/BuiltRight business on 2026-11-18.
+// Partner relationships and reuse of the supplied logo assets confirmed by the owner on 2026-11-18.
 export const studioPartners = [
- {name:'Google Partner',src:'/partners/google-partner.png',width:320,height:320,alt:'Google Partner badge for the shared Wonderweb Studio and BuiltRight Digital partner network',description:'Google Partner badge supplied from the owner-authorized BuiltRight Digital website.',source:'https://builtrightdigital.com/wp-content/uploads/2025/05/google-partner-logo-png_seeklogo-428155.png'},
- {name:'Meta',src:'/partners/meta-business-partner.png',width:1024,height:298,alt:'Meta logo in the Wonderweb Studio and BuiltRight Digital partner network',description:'Meta partner logo supplied from the owner-authorized BuiltRight Digital website.',source:'https://builtrightdigital.com/wp-content/uploads/2025/01/24-e1791280632184.png'},
- {name:'Yelp',src:'/partners/yelp.png',width:1024,height:1024,alt:'Yelp logo in the Wonderweb Studio and BuiltRight Digital partner network',description:'Yelp partner logo supplied from the owner-authorized BuiltRight Digital website.',source:'https://builtrightdigital.com/wp-content/uploads/2026/09/yelp-.png'},
- {name:'LeadPerfection',src:'/partners/leadperfection.png',width:1024,height:300,alt:'LeadPerfection lead management system logo in the Wonderweb Studio and BuiltRight Digital partner network',description:'LeadPerfection partner logo supplied from the owner-authorized BuiltRight Digital website.',source:'https://builtrightdigital.com/wp-content/uploads/2025/01/25-e1791280568556.png'},
+ {name:'Google Partner',src:'/partners/google-partner.png',width:320,height:320,alt:'Google Partner badge for Wonderweb Studio',description:'Google Partner badge in Wonderweb Studio’s advertising partner network.'},
+ {name:'Meta',src:'/partners/meta-business-partner.png',width:1024,height:310,alt:'Meta logo in Wonderweb Studio’s partner network',description:'Meta logo representing Facebook and Instagram advertising in Wonderweb Studio’s partner network.'},
+ {name:'Yelp',src:'/partners/yelp.png',width:1024,height:1024,alt:'Yelp logo in Wonderweb Studio’s partner network',description:'Yelp logo in Wonderweb Studio’s partner network for local business marketing.'},
+ {name:'LeadPerfection',src:'/partners/leadperfection.png',width:1024,height:317,alt:'LeadPerfection lead management system logo in Wonderweb Studio’s partner network',description:'LeadPerfection lead management platform in Wonderweb Studio’s partner network.'},
 ] as const;
 
 export const studioPlatforms = [
