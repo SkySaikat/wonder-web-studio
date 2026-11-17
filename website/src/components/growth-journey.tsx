@@ -1,0 +1,13 @@
+import Link from 'next/link';
+import {Search,MousePointer2,MessageCircle,BarChart3,ArrowUpRight,Check} from 'lucide-react';
+import {HorizontalRail} from './horizontal-rail';
+import {Eyebrow} from './ui';
+
+const stages=[
+ {title:'Be there when they look.',label:'DISCOVERY',text:'Connect search, local visibility and paid campaigns with the services your customers are looking for.',slug:'seo',icon:Search,tone:'lime',chips:['Search intent','Local relevance','A useful answer']},
+ {title:'Make the next click count.',label:'CONFIDENCE',text:'Give people a website that explains your offer, shows your work and makes choosing you feel straightforward.',slug:'web-design',icon:MousePointer2,tone:'blue',chips:['Your expertise','Real proof','A clear next step']},
+ {title:'Turn interest into a conversation.',label:'CONNECTION',text:'Bring calls, forms and follow-up together so valuable inquiries reach the right person, with the right context.',slug:'lead-generation',icon:MessageCircle,tone:'orange',chips:['Calls & forms','Qualification','Follow-up']},
+ {title:'Grow with what you learn.',label:'MOMENTUM',text:'Connect campaign activity with qualified inquiries and sales feedback, then put the next investment where it matters.',slug:'google-ads',icon:BarChart3,tone:'lilac',chips:['Lead quality','Sales feedback','The next move']},
+] as const;
+
+export function GrowthJourney(){return <section className="section growth-journey"><div className="container"><div className="section-heading"><div><Eyebrow>FROM FIRST IMPRESSION TO FOLLOW-UP</Eyebrow><h2>Every step.<br/><em>Working together.</em></h2></div><p className="heading-aside">A good campaign starts the conversation. A connected growth program makes every step after it work harder for your business.</p></div><HorizontalRail label="The four stages of your growth program">{stages.map((stage,i)=><article className={`growth-stage growth-stage-${stage.tone}`} key={stage.slug}><div className="growth-stage-top"><span>0{i+1} / {stage.label}</span><stage.icon size={26} aria-hidden="true"/></div><div className="growth-stage-visual" aria-hidden="true"><span className="growth-stage-orbit"/><stage.icon size={72} strokeWidth={1.2}/><span className="growth-stage-spark">✦</span>{i===3?<div className="growth-mini-bars"><i/><i/><i/><i/></div>:<span className="growth-stage-check"><Check size={25}/></span>}</div><h3>{stage.title}</h3><p>{stage.text}</p><ul>{stage.chips.map(chip=><li key={chip}>{chip}</li>)}</ul><Link href={`/services/${stage.slug}/`}>Explore this step<ArrowUpRight size={19} aria-hidden="true"/></Link></article>)}</HorizontalRail></div></section>}

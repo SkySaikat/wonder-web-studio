@@ -1,3 +1,6 @@
+import {decisionMarkdown} from './decision-briefs';
+import {homeFaqs} from './home-faqs';
+import {leadGuarantee,leadGuaranteeFaq,guaranteeServices,studioPartners,studioPlatforms} from './studio-commitment';
 import {serviceVisual} from './service-visuals';
 import {caseSources} from './case-sources';
 import {featuredImagePath} from './featured-path';
@@ -42,7 +45,7 @@ export function markdownBody(page:SeoPage):string{
  }
  if(kind==='resources'&&slug){
   const a=articles.find(a=>a.slug===slug)!;
-  blocks.push(`Author: Wonderweb Studio editorial team`,sections(a.sections.map(s=>[s.title,s.body+(s.links?.length?'\n\n'+s.links.map(l=>`[${l.label}](${absoluteUrl(l.href)})`).join(' · '):'')])),`## Your next-step checklist\n\n${bullets(a.checklist)}`,faq(a.faqs||[]));
+  blocks.push(`Author: Wonderweb Studio editorial team`,decisionMarkdown(slug),sections(a.sections.map(s=>[s.title,s.body+(s.links?.length?'\n\n'+s.links.map(l=>`[${l.label}](${absoluteUrl(l.href)})`).join(' · '):'')])),`## Your next-step checklist\n\n${bullets(a.checklist)}`,faq(a.faqs||[]));
   if(a.sources?.length)blocks.push(`## Further reading\n\n${bullets(a.sources.map(s=>`[${s.title}](${s.url})`))}`);
   blocks.push(`## Related guides\n\n${links(relatedArticles(a).map(a=>`/resources/${a.slug}/`))}`);
   blocks.push(`## Related services\n\n${links(a.related.map(s=>`/services/${s}/`))}`);
@@ -51,7 +54,7 @@ export function markdownBody(page:SeoPage):string{
   const s=services.find(s=>s.slug===slug)!;const d=serviceDetails[slug];
   blocks.push(s.intro,`![${serviceVisual(slug).alt}](${absoluteUrl(serviceVisual(slug).src)})`,sections(s.sections.map(s=>[s.title,s.body])),`## Deliverables\n\n${bullets(s.deliverables)}`);
   blocks.push(`## Guides to ${s.title}\n\n${links(serviceReading(slug).map(a=>`/resources/${a.slug}/`))}`,`## Industry reading\n\n${links(serviceArchiveReading(slug).map(a=>a.path))}`,`## Pricing\n\n[Review starting prices, scope and payment options](${absoluteUrl('/pricing/')})`);
-  if(d)blocks.push(`## Who this is for\n\n${d.fit}\n\n${d.outcome}`,sections(d.steps),sections(d.checks),`## Inputs\n\n${bullets(d.inputs)}`,`## Measurement\n\n${bullets(d.metrics)}`,faq([...s.faq,...d.faq].filter(([question],index,items)=>items.findIndex(([candidate])=>candidate===question)===index)));
+  if(d)blocks.push(`## Who this is for\n\n${d.fit}\n\n${d.outcome}`,sections(d.steps),sections(d.checks),`## Inputs\n\n${bullets(d.inputs)}`,`## Measurement\n\n${bullets(d.metrics)}`,faq([...s.faq,...d.faq,...(guaranteeServices.has(slug)?[leadGuaranteeFaq]:[])].filter(([question],index,items)=>items.findIndex(([candidate])=>candidate===question)===index)));
  }
  if(kind==='locations'&&slug){
   const l=locations.find(l=>l.slug===slug)!;const brief=marketBriefs[slug];
@@ -77,10 +80,12 @@ export function markdownBody(page:SeoPage):string{
  }
  if(kind==='work'&&slug){const w=work.find(w=>w.slug===slug)!;blocks.push('challenge' in w?`## Brief\n\n${w.challenge}\n\n## Approach\n\n${w.approach}\n\n## Deliverables\n\n${bullets(w.deliverables)}`:'A creative exploration from the studio’s earlier portfolio; not a measured campaign result.');}
  if(page.path==='/pricing/')blocks.push(paymentTerms.general,sections(plans.map(p=>[p.name,`From ${formatPrice(p.price)} USD per month. ${p.description}\n\n${bullets(p.items)}\n\n${p.note}`])),sections(servicePrices.map(p=>[p.name,`From ${formatPrice(p.price)} USD per ${p.cadence}. ${p.description}\n\n${bullets(p.includes)}\n\n${p.excludes}\n\n[Explore the service](${absoluteUrl(`/services/${p.service}/`)})`])),sections(websiteProjects.map(p=>[p.name,`From ${formatPrice(p.price)} USD paid in full, or ${p.months} monthly payments from ${formatPrice(p.installment)} USD. Payment-plan total: ${formatPrice(p.installment*p.months)} USD.\n\n${bullets(p.includes)}\n\n${p.excludes}`])),sections(customServicePrices.map(p=>[p.name,`Scoped quote. ${p.description} ${p.scope}`])),paymentTerms.installments,paymentTerms.hosting,paymentTerms.retainers,faq(pricingFaqs));
- if(page.path==='/'||page.path==='/about/'||page.path==='/contact/')blocks.push(`## Studio facts\n\n${site.positioning} We provide websites, SEO, paid advertising, social media and creative content for small businesses and home-service companies. Founder, CEO and team lead: Saikat Chowdhury. Our team collaborates across locations and time zones.\n\nContact: ${site.email}. Call requests include a preferred date and time and require confirmation.`,faq([studioCoverageFaq]),links(['/services/','/pricing/','/results/','/locations/','/contact/']));
+ if(page.path==='/'||page.path==='/about/'||page.path==='/contact/')blocks.push(`## Studio facts\n\n${site.positioning} We provide websites, SEO, paid advertising, social media and creative content for small businesses and home-service companies. Founder, CEO and team lead: Saikat Chowdhury. Our team collaborates across locations and time zones.\n\nContact: ${site.email}. Call requests include a preferred date and time and require confirmation.`,faq(page.path==='/'?homeFaqs:[studioCoverageFaq]),links(['/services/','/pricing/','/results/','/locations/','/contact/']));
  if(page.children?.length)blocks.push(`## Explore\n\n${links(page.children)}`);
  if(kind==='payments')blocks.push('Payment follows an approved proposal and invoice. Confirm the amount, currency and reference with the studio before paying. This public guide contains no client-specific invoice or payment details. Contact info@wonderwebstudio.com for your invoice link.');
  if(kind==='privacy-policy'||kind==='terms')blocks.push(`This is a discovery summary. Read the complete current policy on the [canonical website page](${absoluteUrl(page.path)}).`);
+ if(page.path==='/'||page.path==='/pricing/'||(kind==='services'&&guaranteeServices.has(slug)))blocks.push(sections([['Wonderweb lead guarantee',leadGuarantee.summary],['Eligibility',leadGuarantee.scope],['Qualified leads',leadGuarantee.qualification],['Client responsibilities',leadGuarantee.conditions],['The remedy',leadGuarantee.remedy]]));
+ if(page.path==='/'||page.path==='/about/')blocks.push('## Our partner network\n\n'+studioPartners.map(p=>p.name).join(', ')+'. Shared across Wonderweb Studio and BuiltRight Digital. Google Partner status relates to Google Ads; SEO services are not verified or endorsed by Google.\n\nPlatforms we work with: '+studioPlatforms.map(p=>p.name).join(', ')+'.');
  return blocks.filter(Boolean).join('\n\n');
 }
 

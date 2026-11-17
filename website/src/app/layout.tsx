@@ -17,6 +17,7 @@ import './growth-momentum.css';
 import './service-upgrade.css';
 import './service-refinements.css';
 import './guide-landing.css';
+import './studio-confidence.css';
 import {Motion} from '@/components/motion';
 import {BookingProvider} from '@/components/booking';
 import { Header } from '@/components/header';
