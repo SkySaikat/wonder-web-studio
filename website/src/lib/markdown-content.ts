@@ -67,7 +67,7 @@ export function markdownBody(page:SeoPage):string{
  }
  if(kind==='industries'&&slug){
   const i=industries.find(i=>i.slug===slug)!;
-  if(service){const d=industryDetails[slug];const paragraphs=service==='seo'?d.seo:d.web;blocks.push(paragraphs.join('\n\n'),`## Service details\n\n${links([`/services/${service}/`,`/industries/${slug}/`])}`);}
+  if(service){const d=industryDetails[slug];const s=services.find(s=>s.slug===service)!;const paragraphs=service==='seo'?d.seo:d.web;blocks.push(paragraphs.join('\n\n'),`## Service details\n\n${links([`/services/${service}/`,`/industries/${slug}/`])}`,faq(s.faq.slice(0,2)));}
   else blocks.push(sections(i.needs.map(n=>[n.title,n.body])),faq(i.questions));
  }
  if(kind==='results'&&slug){
