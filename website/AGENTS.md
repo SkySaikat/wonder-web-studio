@@ -1,3 +1,7 @@
+## Deployment workflow
+
+Do not push code or deploy to the live website unless the user explicitly requests it. By default, run and verify changes on localhost; the user handles pushing live.
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 ## This is NOT the Next.js you know

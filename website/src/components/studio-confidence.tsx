@@ -5,10 +5,9 @@ import {leadGuarantee,studioPlatforms,studioPartners} from '@/lib/studio-commitm
 import Image from './content-image';
 
 export function PartnerStrip({compact=false}:{compact?:boolean}){
- return <section className={`partner-strip${compact?' partner-strip-compact':''}`} aria-label="Our partner network"><div className={compact?'':'container'}>
-  <div className="partner-strip-heading"><span className="small-label">OUR PARTNER NETWORK</span>{!compact?<p>Trusted connections.<br/><em>Connected to your growth.</em></p>:null}</div>
-  <ul className="partner-logo-list">{studioPartners.map(p=><li key={p.name} className={`partner-logo partner-logo-${p.name.toLowerCase().replaceAll(' ','-')}`}><Image src={p.src} alt={p.alt} title={p.description} width={p.width} height={p.height} sizes="(max-width:600px) 40vw, 200px"/><span>{p.name}</span></li>)}</ul>
-  <p className="partner-attribution">Google Partner status relates to Google Ads; SEO services are not verified or endorsed by Google.</p>
+ return <section className={`partner-strip${compact?' partner-strip-compact':''}`} aria-label="Our partners"><div className={`partner-strip-inner${compact?'':' container'}`}>
+  <span className="partner-strip-heading">Our partners</span>
+  <ul className="partner-logo-list">{studioPartners.map(p=><li key={p.name} className={`partner-logo partner-logo-${p.name.toLowerCase().replaceAll(' ','-')}`}><Image src={p.src} alt={p.alt} title={p.description} width={p.width} height={p.height} sizes="(max-width:600px) 35vw, 160px"/></li>)}</ul>
  </div></section>;
 }
 

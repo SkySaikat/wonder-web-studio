@@ -1,6 +1,6 @@
 import {decisionMarkdown} from './decision-briefs';
 import {homeFaqs} from './home-faqs';
-import {leadGuarantee,leadGuaranteeFaq,guaranteeServices,studioPartners,studioPlatforms} from './studio-commitment';
+import {leadGuarantee,leadGuaranteeFaq,guaranteeServices,studioPartners} from './studio-commitment';
 import {serviceVisual} from './service-visuals';
 import {featuredImagePath} from './featured-path';
 import downloadGuides from '../data/download-guides.json';
@@ -74,7 +74,7 @@ export function markdownBody(page:SeoPage):string{
  }
  if(kind==='results'&&slug){
   const s=campaignStories.find(s=>s.slug===slug)!;const d=caseStudyDetails[slug];
-  blocks.push("Historical campaign experience from our team, shared with permission. This is prior team experience rather than a new Wonderweb client contract.");
+  blocks.push("A Wonderweb Studio client engagement. Client identity is kept private; the results below retain the campaign’s reporting period and measurement context.");
   blocks.push(`## Campaign context\n\n${s.period}\n\n${s.challenge}\n\n${s.approach}`,`## Reported outcomes\n\n${bullets(s.results.map(([v,l])=>`${v} ${l}`))}\n\n${s.context}`,d.intro,sections(d.chapters),`## Lessons\n\n${d.lessons}`,faq(d.questions),`## Further reading\n\n${links(d.reading.map(s=>`/resources/${s}/`))}`);
  }
  if(kind==='work'&&slug){const w=work.find(w=>w.slug===slug)!;blocks.push('challenge' in w?`## Brief\n\n${w.challenge}\n\n## Approach\n\n${w.approach}\n\n## Deliverables\n\n${bullets(w.deliverables)}`:'A creative exploration from the studio’s earlier portfolio; not a measured campaign result.');}
@@ -84,7 +84,7 @@ export function markdownBody(page:SeoPage):string{
  if(kind==='payments')blocks.push('Payment follows an approved proposal and invoice. Confirm the amount, currency and reference with the studio before paying. This public guide contains no client-specific invoice or payment details. Contact info@wonderwebstudio.com for your invoice link.');
  if(kind==='privacy-policy'||kind==='terms')blocks.push(`This is a discovery summary. Read the complete current policy on the [canonical website page](${absoluteUrl(page.path)}).`);
  if(page.path==='/'||page.path==='/pricing/'||(kind==='services'&&guaranteeServices.has(slug)))blocks.push(sections([['Wonderweb lead guarantee',leadGuarantee.summary],['Eligibility',leadGuarantee.scope],['Qualified leads',leadGuarantee.qualification],['Client responsibilities',leadGuarantee.conditions],['The remedy',leadGuarantee.remedy]]));
- if(page.path==='/'||page.path==='/about/')blocks.push('## Our partner network\n\n'+studioPartners.map(p=>p.name).join(', ')+'. Google Partner status relates to Google Ads; SEO services are not verified or endorsed by Google.\n\nPlatforms we work with: '+studioPlatforms.map(p=>p.name).join(', ')+'.');
+ if(page.path==='/'||page.path==='/about/')blocks.push('## Our partners\n\n'+studioPartners.map(p=>p.name).join(', ')+'.');
  return blocks.filter(Boolean).join('\n\n');
 }
 

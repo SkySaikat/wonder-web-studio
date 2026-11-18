@@ -110,23 +110,23 @@
 @media(max-width:700px){.studio-hero-vivid{height:560px}.hero-corner-arrow{top:25px;right:22px;width:34px;height:34px}.studio-hero-vivid .hero-card-label{font-size:10px;max-width:calc(100% - 86px)}.studio-hero-vivid .hero-card-content h2{font-size:40px}}
 @media(max-width:380px){.studio-hero-vivid{height:530px}.studio-hero-vivid .hero-card-content h2{font-size:36px}.hero-corner-arrow{right:18px;width:30px}.studio-hero-vivid .hero-card-label{font-size:9px;padding:10px}}
 
-/* A connected studio fills the artwork's open space with useful service links. */
-.studio-hero-vivid{min-height:570px;height:auto;display:flex;flex-direction:column;gap:25px;padding:94px 26px 26px}
+/* Keep the client business at the center, with space between every service. */
+.studio-hero-vivid{min-height:610px;height:auto;display:flex;flex-direction:column;gap:28px;padding:88px 26px 26px}
 .studio-hero-vivid .hero-card-content{position:relative;inset:auto;width:100%;margin-top:auto}
-.hero-network{position:relative;width:100%;max-width:340px;height:174px;flex-shrink:0;margin:0 auto;z-index:2}
+.hero-network{position:relative;width:100%;max-width:340px;height:250px;flex-shrink:0;margin:0 auto;z-index:2}
 .hero-network-lines{position:absolute;inset:0;width:100%;height:100%;overflow:visible;stroke:#fff9;stroke-width:1;pointer-events:none}
 .hero-network-lines ellipse{stroke-dasharray:3 6;stroke:#ffffff65}
 .hero-network-lines circle{fill:#e2ff94;stroke:none}
-.hero-network-mark{position:absolute;left:calc(50% - 38px);top:49px;width:76px;height:76px;background:#f4efdf;border:1px solid #fff;border-radius:24px;box-shadow:0 12px 30px #1d0b5833;display:grid;place-items:center;transform:rotate(-7deg);color:#21153c}
-.hero-network-mark em{font-family:'Instrument Serif',serif;font-size:64px;line-height:1;padding:0 2px 10px 0}
-.hero-network-mark>svg{position:absolute;right:-8px;top:-9px;color:#e2ff94;filter:drop-shadow(0 2px 3px #241b6655)}
+.hero-network-mark{position:absolute;left:50%;top:74px;translate:-50% 0;width:116px;height:98px;background:#e2ff94;border:1px solid #f2ffca;border-radius:24px;box-shadow:0 0 0 8px #ffffff12,0 16px 32px #1d0b5833;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#21153c}
+.hero-network-mark strong{font-size:12px;font-weight:650;letter-spacing:-.02em;line-height:1.2}
+.hero-network-mark>svg{position:static;width:32px;height:32px;color:#21153c}
 .hero-network-node{position:absolute;display:flex;align-items:center;gap:8px;padding:11px 15px;font-size:12px;font-weight:500;line-height:1;border-radius:15px;border:1px solid #ffffffa8;box-shadow:0 8px 24px #130d4633;white-space:nowrap;color:#26183c;animation:studio-node-drift 6s ease-in-out infinite;transition:box-shadow .2s,background .2s}
 .hero-network-node>svg{width:17px;height:17px;flex-shrink:0}
 .hero-network-node:hover{background:#fff;box-shadow:0 12px 30px #130d4655}
 .hero-network-node:focus-visible{outline:3px solid #e2ff94;outline-offset:5px}
 .hero-network-web{left:7px;top:9px;background:#eee2ff;transform:rotate(-8deg)}
 .hero-network-search{right:7px;top:11px;background:#e2f4a9;transform:rotate(8deg);animation-delay:-2s}
-.hero-network-social{left:50%;bottom:4px;transform:translateX(-50%) rotate(-3deg);background:#fff1df;animation-delay:-4s}
+.hero-network-social{left:50%;bottom:7px;transform:translateX(-50%) rotate(-3deg);background:#fff1df;animation-delay:-4s}
 @keyframes studio-node-drift{0%,100%{translate:0 0}50%{translate:0 -5px}}
 [data-motion=paused] .hero-network-node{animation-play-state:paused}
 @media(max-width:700px){.studio-hero-vivid{min-height:560px}}
@@ -140,9 +140,19 @@
 .studio-faq-call .studio-kicker{background:#ffffff0d;color:#ded0ea;border-color:#ffffff24}.studio-faq-call-content>p{color:#e0d7e7}.studio-faq-call .button{background:#e6d8f0;border-color:#e6d8f0;color:#30203d}.studio-faq-confirmation{color:#cbbfd7}.studio-faq-email{border-color:#ffffff28}
 .home-inquiry{background:#e5e0ed!important;border-block:1px solid #d3c9df}.home-inquiry .contact-layout{align-items:center}.home-inquiry .inquiry-form{background:#f8f5fb;border:1px solid #c9b9d9;border-top:5px solid #8d75a9;box-shadow:0 15px 40px #5140630c}.home-inquiry .contact-aside .eyebrow{color:#6b4e86}.home-inquiry .contact-aside h2 .muted-heading{color:#806496}.home-inquiry .inquiry-promises li{padding:13px 16px;background:#d8cbe799;border:1px solid #c4b5d3;border-radius:12px;max-width:380px}.home-inquiry .inquiry-promises svg{color:#5a3f74}.home-inquiry .inquiry-form .button{background:#423151;border-color:#423151;color:#fff}.home-inquiry .inquiry-form input:focus,.home-inquiry .inquiry-form select:focus,.home-inquiry .inquiry-form textarea:focus{outline:2px solid #8d75a9;outline-offset:2px}
 .growth-scrubber output{max-width:660px;line-height:1.7;text-align:left;font-size:13px}
-@media(hover:hover) and (pointer:fine){.studio-hero-card.studio-hero-vivid{transform:rotate(2deg);transition:transform .45s ease,box-shadow .45s ease}.studio-hero-card.studio-hero-vivid:hover,.studio-hero-card.studio-hero-vivid:focus-within{transform:rotate(0deg) translateY(-4px);box-shadow:0 28px 55px #44207928}}
+@media(min-width:701px) and (hover:hover) and (pointer:fine){.studio-hero-card.studio-hero-vivid{transform:rotate(2deg);transition:transform .45s ease,box-shadow .45s ease}.studio-hero-card.studio-hero-vivid:hover,.studio-hero-card.studio-hero-vivid:focus-within{transform:rotate(0deg) translateY(-4px);box-shadow:0 28px 55px #44207928}}
 @media(prefers-reduced-motion:reduce){.studio-hero-card.studio-hero-vivid,.studio-hero-card.studio-hero-vivid:hover,.studio-hero-card.studio-hero-vivid:focus-within{transform:none;transition:none}}
 [data-motion=paused] .studio-hero-card.studio-hero-vivid{transition:none}
 @media(min-width:1041px){.site-header .main-nav{gap:19px}.site-header .main-nav>a,.site-header .nav-dropdown>button{font-size:15px}.site-header .mega-menu a{font-size:15px;line-height:1.5;padding-block:7px}.site-header .mega-menu>div>span{font-size:12px}.site-header .mega-menu{max-height:calc(100dvh - var(--studio-header-height) - 25px);overflow:auto}.site-header .logo img{width:145px}.site-header .logo{flex-basis:145px}}
 @media(min-width:1041px) and (max-width:1200px){.site-header .main-nav{gap:12px}.site-header .main-nav>a,.site-header .nav-dropdown>button{font-size:14px}.site-header .header-cta{font-size:12px;padding:13px 15px}.site-header .header-inner{gap:15px}.site-header .logo img{width:130px}.site-header .logo{flex-basis:130px}}
 @media(max-width:1040px){.site-header .mega-menu a{font-size:15px;line-height:1.5;padding-block:8px}}
+
+/* A clear business outcome and a single visual center in the hero. */
+.hero-copy h1 em{font-size:1.06em}
+.studio-hero-vivid .hero-card-content h2{font-size:clamp(36px,3.5vw,46px);line-height:1.04;margin-bottom:12px}
+.studio-hero-vivid .hero-card-content h2 em{font-family:var(--font-editorial);font-weight:400;color:#e2ff94}
+.studio-hero-vivid .hero-card-content p{font-size:13px;line-height:1.6;margin-bottom:20px}
+@media(max-width:700px){.studio-hero-card.studio-hero-vivid{min-height:600px;height:auto;gap:26px}.hero-copy h1 em{font-size:1em}.studio-hero-vivid .hero-card-content h2{font-size:42px}}
+@media(max-width:380px){.studio-hero-card.studio-hero-vivid{padding:86px 20px 24px}.studio-hero-vivid .hero-card-content h2{font-size:38px}}
+
+@media(max-width:360px){.site-header .header-inner{gap:8px}.site-header .logo{flex-basis:104px}.site-header .logo img{width:104px}}
