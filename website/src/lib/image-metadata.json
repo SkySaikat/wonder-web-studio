@@ -5914,13 +5914,6 @@
     "height": 810,
     "type": "image/webp"
   },
-  "/featured/work--pet-cy-v2.webp": {
-    "title": "Pet-cy - Website Project | Wonderweb Studio",
-    "description": "Selected Pet-cy website project preview. Featured cover for Pet-cy - Website Project. Portfolio image from the selected project.",
-    "width": 1440,
-    "height": 810,
-    "type": "image/webp"
-  },
   "/featured/work--flow-web-design-v2.webp": {
     "title": "Flow website exploration - Design Study | Wonderweb Studio",
     "description": "Selected Flow website exploration website project preview. Featured cover for Flow website exploration - Design Study. Portfolio image from the selected project.",
@@ -7268,13 +7261,6 @@
   "/work/dococlock.webp": {
     "title": "DocoClock - Healthcare platform · Full-stack development",
     "description": "DocoClock project preview. A healthcare platform bringing doctor discovery, appointments, live queues and digital prescriptions into one connected healthcare experience.",
-    "width": 1440,
-    "height": 900,
-    "type": "image/webp"
-  },
-  "/work/pet-cy.webp": {
-    "title": "Pet-cy - E-commerce · Catalog & storefront",
-    "description": "Pet-cy project preview. An e-commerce storefront for a Cyprus pet supply business, bringing its catalog, offers and shopping information together.",
     "width": 1440,
     "height": 900,
     "type": "image/webp"
@@ -12917,13 +12903,6 @@
   "/seo/work--dococlock.png": {
     "title": "DocoClock - Wonderweb Studio",
     "description": "Featured social preview for DocoClock. A healthcare platform bringing doctor discovery, appointments, live queues and digital prescriptions into one connected healthcare experience.",
-    "width": 1200,
-    "height": 630,
-    "type": "image/png"
-  },
-  "/seo/work--pet-cy.png": {
-    "title": "Pet-cy - Wonderweb Studio",
-    "description": "Featured social preview for Pet-cy. An e-commerce storefront for a Cyprus pet supply business, bringing its catalog, offers and shopping information together.",
     "width": 1200,
     "height": 630,
     "type": "image/png"
