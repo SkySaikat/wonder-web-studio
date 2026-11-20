@@ -11,7 +11,6 @@ import {pricingOffers,pricingCurrency} from './pricing';
 type Node=Record<string,unknown>;
 const orgId=`${site.url}/#organization`;
 const websiteId=`${site.url}/#website`;
-const personId=`${site.url}/#founder`;
 const ref=(id:string)=>({'@id':id});
 export function imageSchema(path:string):Node{
  const image=imageMetadata[path as keyof typeof imageMetadata];
@@ -20,10 +19,9 @@ export function imageSchema(path:string):Node{
  return {'@type':'ImageObject','@id':`${url}#image`,url,contentUrl:url,name:image.title,caption:image.description,description:image.description,encodingFormat:image.type,width:image.width,height:image.height};
 }
 export function organizationGraph(){return {'@context':'https://schema.org','@graph':[
- {'@type':'Organization','@id':orgId,name:site.name,url:`${site.url}/`,description:site.description,areaServed:site.serviceAreas,knowsAbout:['Web design','SEO','Paid advertising','Social media marketing','US small-business marketing'],email:site.email,logo:ref(`${absoluteUrl('/brand/wonderweb-studio.svg')}#image`),sameAs:site.socials.map(s=>s.url),founder:ref(personId),contactPoint:{'@type':'ContactPoint',contactType:'sales inquiries',email:site.email,url:absoluteUrl('/contact/'),availableLanguage:'English'}},
+ {'@type':'Organization','@id':orgId,name:site.name,url:`${site.url}/`,description:site.description,areaServed:site.serviceAreas,knowsAbout:['Web design','SEO','Paid advertising','Social media marketing','US small-business marketing'],email:site.email,logo:ref(`${absoluteUrl('/brand/wonderweb-studio.svg')}#image`),sameAs:site.socials.map(s=>s.url),contactPoint:{'@type':'ContactPoint',contactType:'sales inquiries',email:site.email,url:absoluteUrl('/contact/'),availableLanguage:'English'}},
  imageSchema('/brand/wonderweb-studio.svg'),
  {'@type':'WebSite','@id':websiteId,url:`${site.url}/`,name:site.name,description:site.description,publisher:ref(orgId),inLanguage:'en'},
- {'@type':'Person','@id':personId,name:'Saikat Chowdhury',jobTitle:'Founder & CEO · Team Lead',url:absoluteUrl('/about/'),image:absoluteUrl('/work/saikat.webp'),worksFor:ref(orgId)},
  ]};}
 export function pageGraph(path:string){
  const page=seoByPath.get(path);if(!page)throw new Error(`No SEO entry for ${path}`);

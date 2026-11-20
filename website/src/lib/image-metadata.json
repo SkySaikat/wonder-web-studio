@@ -5837,20 +5837,6 @@
     "height": 810,
     "type": "image/webp"
   },
-  "/featured/work--allsafe-electric-v2.webp": {
-    "title": "Allsafe Electric - Website Project | Wonderweb Studio",
-    "description": "Selected Allsafe Electric website project preview. Featured cover for Allsafe Electric - Website Project. Portfolio image from the selected project.",
-    "width": 1440,
-    "height": 810,
-    "type": "image/webp"
-  },
-  "/featured/work--clear-day-baths-v2.webp": {
-    "title": "Clear Day Baths - Website Project | Wonderweb Studio",
-    "description": "Selected Clear Day Baths website project preview. Featured cover for Clear Day Baths - Website Project. Portfolio image from the selected project.",
-    "width": 1440,
-    "height": 810,
-    "type": "image/webp"
-  },
   "/featured/work--jr-watkins-v2.webp": {
     "title": "J.R. Watkins - Website Project | Wonderweb Studio",
     "description": "Selected J.R. Watkins website project preview. Featured cover for J.R. Watkins - Website Project. Portfolio image from the selected project.",
@@ -7186,20 +7172,6 @@
     "description": "Conceptual bathroom showroom, search lens and calendars illustrating a sustained search program. AI-generated conceptual editorial artwork; not a client project photograph.",
     "width": 1440,
     "height": 810,
-    "type": "image/webp"
-  },
-  "/work/allsafe-electric.webp": {
-    "title": "Allsafe Electric - Home services · Website & lead capture",
-    "description": "Allsafe Electric project preview. A Next.js website for a Colorado electrical business, bringing service information, local content and inquiry handling into one customer journey.",
-    "width": 1440,
-    "height": 900,
-    "type": "image/webp"
-  },
-  "/work/clear-day-baths.webp": {
-    "title": "Clear Day Baths - Home services · Website & automation",
-    "description": "Clear Day Baths project preview. A bathroom remodeling website connecting service-area content, quote requests and CRM follow-up for a business serving Northern Virginia and Maryland.",
-    "width": 1440,
-    "height": 900,
     "type": "image/webp"
   },
   "/work/jr-watkins.webp": {
@@ -12826,20 +12798,6 @@
   "/seo/locations--denver--google-ads.png": {
     "title": "Google Ads Management - Wonderweb Studio",
     "description": "Featured social preview for Google Ads Management. Google Ads Management for Denver businesses, with clear scope, relevant landing pages and inquiry measurement. Plan your next step with Wonderweb Studio.",
-    "width": 1200,
-    "height": 630,
-    "type": "image/png"
-  },
-  "/seo/work--allsafe-electric.png": {
-    "title": "Allsafe Electric - Wonderweb Studio",
-    "description": "Featured social preview for Allsafe Electric. A Next.js website for a Colorado electrical business, bringing service information, local content and inquiry handling into one customer journey.",
-    "width": 1200,
-    "height": 630,
-    "type": "image/png"
-  },
-  "/seo/work--clear-day-baths.png": {
-    "title": "Clear Day Baths - Wonderweb Studio",
-    "description": "Featured social preview for Clear Day Baths. A bathroom remodeling website connecting service-area content, quote requests and CRM follow-up for a business serving Northern Virginia and Maryland.",
     "width": 1200,
     "height": 630,
     "type": "image/png"

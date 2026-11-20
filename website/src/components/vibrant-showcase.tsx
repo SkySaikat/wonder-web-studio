@@ -3,7 +3,7 @@ import Link from 'next/link';
 import {ArrowUpRight,Sparkles,Layers} from 'lucide-react';
 import {clientProjects} from '@/lib/projects';
 import {Eyebrow} from './ui';
-const showcase=['jr-watkins','windsor','allsafe-electric','clear-day-baths','california-olive-ranch','ezeie'].map(slug=>clientProjects.find(p=>p.slug===slug)!);
+const showcase=['jr-watkins','windsor','california-olive-ranch','ezeie'].map(slug=>clientProjects.find(p=>p.slug===slug)!);
 const rows=[
  [['Web design','web-design'],['Google Ads','google-ads'],['Social media','social-media-management']],
  [['Thumbnails','thumbnail-design'],['Brand graphics','graphic-design'],['SEO','seo'],['Meta Ads','meta-ads']],
