@@ -1,0 +1,339 @@
+{
+  "pagesChecked": 15,
+  "mainContentLinkDestinationsChecked": 51,
+  "imageAssetsChecked": 35,
+  "sitemapHtmlUrls": 916,
+  "previewNoindex": true,
+  "badLinks": [],
+  "badImages": [],
+  "pages": [
+    {
+      "path": "/locations/dallas/web-design/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service",
+        "State",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/locations/houston/web-design/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service",
+        "State",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/locations/austin/web-design/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service",
+        "State",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/locations/phoenix/web-design/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service",
+        "State",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/locations/tampa/web-design/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service",
+        "State",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/locations/orlando/web-design/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service",
+        "State",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/locations/plano/web-design/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service",
+        "State",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/locations/fort-worth/web-design/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service",
+        "State",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/locations/texas/web-design/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "ContactPoint",
+        "Country",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service",
+        "State",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/locations/texas/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "ContactPoint",
+        "Country",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service",
+        "State",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/locations/plano/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service",
+        "State",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/locations/fort-worth/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "City",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service",
+        "State",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/texas-small-business-web-design-cost/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/contractor-website-pages-checklist/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/service-area-pages-without-duplicate-content/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    }
+  ],
+  "limits": [
+    "Local responses only; not production deployment or Google indexing verification.",
+    "Schema JSON parsed and types/references/visible FAQ parity checked; no Google rich-result eligibility claim."
+  ]
+}

@@ -1,10 +1,12 @@
 import {decisionBriefs} from './decision-briefs';
+import {localGrowthArticles} from './local-growth-articles';
 import {serviceGuides} from './service-guides';
 import {searchLedArticles} from './search-led-articles';
 import type { Section } from './content';
 import {practicalGuides} from './practical-guides';
 export type Article = { slug: string; primaryService?: string; title: string; seoTitle?: string; updated?: string; published?: string; category: string; summary: string; readTime: string; sections: Section[]; checklist: string[]; related: string[]; faqs?: [string,string][]; sources?: {title:string;url:string}[] };
 const existingArticles: Article[] = [
+  ...localGrowthArticles,
   {slug:'google-ads-cost-home-services',title:'What should a home-service business budget for Google Ads?',category:'Paid advertising',summary:'Separate media spend, management, landing pages and follow-up before deciding what a campaign really costs.',readTime:'5 min read',sections:[
     {title:'Start with the service and the market',body:'There is no useful universal advertising budget for every contractor. A roofing replacement campaign and a plumbing repair campaign have different job values, demand and sales processes. Decide which service you want to promote, where you can deliver it and how much work your team can take on. Those decisions shape the campaign before the budget is allocated.'},
     {title:'Separate the four parts of the investment',body:'Media spend is paid to Google. Management pays for campaign work and review. Landing-page or tracking work may be a separate setup project. Your own time handling inquiries is another cost. Wonderweb’s focused Google Ads management starts at $799/month; advertising spend is separate and the proposal defines what is included. A larger market or multi-location account needs its own scope.'},

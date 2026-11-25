@@ -1,7 +1,9 @@
 import {featuredImagePath} from './featured-path';
+import {localGrowthArticles} from './local-growth-articles';
 import {serviceGuides} from './service-guides';
 /* Gemini-generated conceptual artwork. Prompts and provenance: scripts/editorial-image-prompts.json. */
 export const editorialImages:Record<string,{src:string;alt:string}>={
+  ...Object.fromEntries(localGrowthArticles.map(a=>[a.slug,{src:featuredImagePath(`/resources/${a.slug}/`),alt:`Planning diagram: ${a.seoTitle||a.title}`} ])),
   ...Object.fromEntries(serviceGuides.map(a=>[a.slug,{src:featuredImagePath(`/resources/${a.slug}/`),alt:`Wonderweb Studio field guide: ${a.seoTitle||a.title}`}])),
   "google-ads-cost-home-services": {
     "src": "/editorial/google-ads-cost-home-services.webp",

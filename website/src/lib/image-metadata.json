@@ -1,4 +1,32 @@
 {
+  "/partners/google-partner.png": {
+    "title": "Google Partner badge",
+    "description": "Google Partner badge displayed on Wonderweb Studio’s website with the business owner’s authorization.",
+    "width": 320,
+    "height": 320,
+    "type": "image/png"
+  },
+  "/partners/meta-business-partner.png": {
+    "title": "Meta partner logo",
+    "description": "Meta partner logo displayed on Wonderweb Studio’s website with the business owner’s authorization.",
+    "width": 1024,
+    "height": 310,
+    "type": "image/png"
+  },
+  "/partners/yelp.png": {
+    "title": "Yelp partner logo",
+    "description": "Yelp partner logo displayed on Wonderweb Studio’s website with the business owner’s authorization.",
+    "width": 1024,
+    "height": 1024,
+    "type": "image/png"
+  },
+  "/partners/leadperfection.png": {
+    "title": "LeadPerfection partner logo",
+    "description": "LeadPerfection partner logo displayed on Wonderweb Studio’s website with the business owner’s authorization.",
+    "width": 1024,
+    "height": 317,
+    "type": "image/png"
+  },
   "/guides/electrician-free-report-cover-1d27e6dbf634.webp": {
     "title": "Electrical Lead journey checklist cover",
     "description": "Electrical Lead journey checklist cover: A phone symbol, copper wire, pliers, breaker panel and lime checklist connected by a chrome path.",
@@ -281,42 +309,42 @@
   },
   "/results/remodeling-lower-lead-cost.webp": {
     "title": "Bathroom remodeling company",
-    "description": "Home-service sector photograph from our project library; illustrative of the service.",
+    "description": "Home-service sector photograph from our approved project library, illustrating the type of service.",
     "width": 1400,
     "height": 933,
     "type": "image/webp"
   },
   "/results/remodeling-search-two-year-results.webp": {
     "title": "Regional bathroom remodeler",
-    "description": "Home-service sector photograph from our project library; illustrative of the service.",
+    "description": "Home-service sector photograph from our approved project library, illustrating the type of service.",
     "width": 1400,
     "height": 934,
     "type": "image/webp"
   },
   "/results/roofing-local-search.webp": {
     "title": "Regional roofing contractor",
-    "description": "Home-service sector photograph from our project library; illustrative of the service.",
+    "description": "Home-service sector photograph from our approved project library, illustrating the type of service.",
     "width": 1400,
     "height": 950,
     "type": "image/webp"
   },
   "/results/bathroom-paid-search-efficiency.webp": {
     "title": "Bathroom remodeling company",
-    "description": "Home-service sector photograph from our project library; illustrative of the service.",
+    "description": "Home-service sector photograph from our approved project library, illustrating the type of service.",
     "width": 1400,
     "height": 933,
     "type": "image/webp"
   },
   "/results/remodeling-search-reach.webp": {
     "title": "Bathroom remodeling company",
-    "description": "Home-service sector photograph from our project library; illustrative of the service.",
+    "description": "Home-service sector photograph from our approved project library, illustrating the type of service.",
     "width": 1400,
     "height": 933,
     "type": "image/webp"
   },
   "/results/residential-glass-bookings.webp": {
     "title": "Residential glass company",
-    "description": "Home-service sector photograph from our project library; illustrative of the service.",
+    "description": "Home-service sector photograph from our approved project library, illustrating the type of service.",
     "width": 1400,
     "height": 933,
     "type": "image/webp"
@@ -6803,6 +6831,111 @@
     "height": 810,
     "type": "image/webp"
   },
+  "/featured/locations--dallas--web-design-v2.webp": {
+    "title": "Two services. Two useful journeys.",
+    "description": "Example website structure for a contractor: separate repair and planned-project journeys before the inquiry. Original Wonderweb explanatory diagram; not a project photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/featured/locations--houston--web-design-v2.webp": {
+    "title": "From service question to the right team.",
+    "description": "Illustrative lead-routing plan for a service company; actual availability and responsibilities are agreed with your team. Original Wonderweb explanatory diagram; not a project photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/featured/locations--austin--web-design-v2.webp": {
+    "title": "A website your team can keep current.",
+    "description": "A planning example connecting core services, project proof and a focused campaign destination. Original Wonderweb explanatory diagram; not a project photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/featured/locations--phoenix--web-design-v2.webp": {
+    "title": "One service. Connected destinations.",
+    "description": "Illustrative relationship between an organic service page, a paid landing page and inquiry qualification. Original Wonderweb explanatory diagram; not a project photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/featured/locations--tampa--web-design-v2.webp": {
+    "title": "Project proof that leads somewhere useful.",
+    "description": "Example journey from a project gallery to the right service and a qualified estimate request. Original Wonderweb explanatory diagram; not a project photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/featured/locations--orlando--web-design-v2.webp": {
+    "title": "Different services. Clearer decisions.",
+    "description": "Illustrative page architecture separating project work and recurring service inquiries. Original Wonderweb explanatory diagram; not a project photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/featured/locations--plano--web-design-v2.webp": {
+    "title": "Turn comparison into a clear next step.",
+    "description": "A buyer journey for a local service business, from referral validation to a prepared first conversation. Original Wonderweb explanatory diagram; not a project photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/featured/locations--fort-worth--web-design-v2.webp": {
+    "title": "Capability, evidence, then the right inquiry.",
+    "description": "Example architecture for a contractor serving homeowners and commercial buyers; not a client-result claim. Original Wonderweb explanatory diagram; not a project photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/featured/locations--texas--web-design-v2.webp": {
+    "title": "A clear hierarchy for a growing service business.",
+    "description": "Illustrative statewide site hierarchy linking services and actual markets to a responsible inquiry owner. Original Wonderweb explanatory diagram; not a project photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/featured/locations--texas-v2.webp": {
+    "title": "Build a clear service hierarchy before expanding into more cities.",
+    "description": "Planning diagram for Texas: connect the business, relevant services, actual coverage and a useful inquiry. Remote service market, not a local office. Original Wonderweb explanatory diagram; not a project photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/featured/locations--plano-v2.webp": {
+    "title": "Help buyers compare services, understand the scope and make an informed inquiry.",
+    "description": "Planning diagram for Plano: connect the business, relevant services, actual coverage and a useful inquiry. Remote service market, not a local office. Original Wonderweb explanatory diagram; not a project photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/featured/locations--fort-worth-v2.webp": {
+    "title": "Separate residential inquiries from commercial opportunities with a clear website structure.",
+    "description": "Planning diagram for Fort Worth: connect the business, relevant services, actual coverage and a useful inquiry. Remote service market, not a local office. Original Wonderweb explanatory diagram; not a project photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/featured/resources--texas-small-business-web-design-cost-v2.webp": {
+    "title": "Texas Website Design Cost & Quote Guide",
+    "description": "Original planning diagram for how to compare website design quotes for a texas small business: Brief, Page scope, Functionality, Ownership, Total commitment. Original Wonderweb explanatory diagram; not a project photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/featured/resources--contractor-website-pages-checklist-v2.webp": {
+    "title": "Contractor Website Pages: A Buyer Checklist",
+    "description": "Original planning diagram for the pages a contractor website needs to earn better inquiries: Core services, Project proof, Real coverage, Contact flow, Lead review. Original Wonderweb explanatory diagram; not a project photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/featured/resources--service-area-pages-without-duplicate-content-v2.webp": {
+    "title": "Service-Area Pages Without Duplicate Content",
+    "description": "Original planning diagram for when does a service area deserve its own website page?: Buyer question, Local facts, Unique content, Connected pages, Review evidence. Original Wonderweb explanatory diagram; not a project photograph or measured result.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
   "/editorial/topics/ai-search-optimization.webp": {
     "title": "ai search optimization editorial illustration",
     "description": "A translucent search lens above a stack of cited article cards, with a small connected constellation representing AI discovery. Gemini-generated conceptual artwork for Wonderweb Studio.",
@@ -7358,7 +7491,7 @@
   },
   "/seo/pricing.png": {
     "title": "Pricing - Wonderweb Studio",
-    "description": "Featured social preview for Pricing. Growth programs from $3,000 per month, with full agency partnerships up to $25,000. Compare SEO, ads, social content, websites and our qualified-lead guarantee.",
+    "description": "Featured social preview for Pricing. Growth programs from $3,000/month, with full agency partnerships up to $25,000. Compare SEO, ads, social content, websites and our qualified-lead guarantee.",
     "width": 1200,
     "height": 630,
     "type": "image/png"
@@ -7372,7 +7505,7 @@
   },
   "/seo/results.png": {
     "title": "Campaign results - Wonderweb Studio",
-    "description": "Featured social preview for Campaign results. Read selected roofing and bathroom remodeling campaign stories, including the approach, historical outcomes and measurement context.",
+    "description": "Featured social preview for Campaign results. Explore Wonderweb client case studies in roofing, remodeling and home services, with campaign strategies, measured outcomes and reporting context.",
     "width": 1200,
     "height": 630,
     "type": "image/png"
@@ -12669,6 +12802,27 @@
     "height": 630,
     "type": "image/png"
   },
+  "/seo/locations--texas.png": {
+    "title": "Texas - Wonderweb Studio",
+    "description": "Featured social preview for Texas. Web design, SEO, paid ads and social media for Texas small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--plano.png": {
+    "title": "Plano - Wonderweb Studio",
+    "description": "Featured social preview for Plano. Web design, SEO, paid ads and social media for Plano small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--fort-worth.png": {
+    "title": "Fort Worth - Wonderweb Studio",
+    "description": "Featured social preview for Fort Worth. Web design, SEO, paid ads and social media for Fort Worth small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
   "/seo/locations--tampa.png": {
     "title": "Tampa - Wonderweb Studio",
     "description": "Featured social preview for Tampa. Web design, SEO, paid ads and social media for Tampa small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
@@ -12763,6 +12917,69 @@
   "/seo/locations--indiana.png": {
     "title": "Indiana - Wonderweb Studio",
     "description": "Featured social preview for Indiana. Web design, SEO, paid ads and social media for Indiana small businesses. Explore a connected marketing plan delivered remotely by Wonderweb Studio.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--dallas--web-design.png": {
+    "title": "Website Design - Wonderweb Studio",
+    "description": "Featured social preview for Website Design. Web design for Dallas contractors and small businesses. Get clear service pages, mobile inquiry flows and a website built around the work you want.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--houston--web-design.png": {
+    "title": "Website Design - Wonderweb Studio",
+    "description": "Featured social preview for Website Design. Houston website design for service businesses: clear repair and installation pages, mobile contact options and a tested path from inquiry to follow-up.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--austin--web-design.png": {
+    "title": "Website Design - Wonderweb Studio",
+    "description": "Featured social preview for Website Design. Austin website design with clear service positioning, editable content and inquiry tracking. Plan a new website or a careful redesign with Wonderweb.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--phoenix--web-design.png": {
+    "title": "Website Design - Wonderweb Studio",
+    "description": "Featured social preview for Website Design. Website design for Phoenix service businesses. Connect service coverage, mobile usability and campaign landing pages to a clearer inquiry process.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--tampa--web-design.png": {
+    "title": "Website Design - Wonderweb Studio",
+    "description": "Featured social preview for Website Design. Tampa website design for contractors and small businesses. Show project scope, explain real coverage and turn comparison visits into informed inquiries.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--orlando--web-design.png": {
+    "title": "Website Design - Wonderweb Studio",
+    "description": "Featured social preview for Website Design. Orlando website design for local service and property businesses. Explain one-time and recurring services, show useful proof and simplify inquiries.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--plano--web-design.png": {
+    "title": "Website Design - Wonderweb Studio",
+    "description": "Featured social preview for Website Design. Web design for Plano businesses with clear service comparisons, useful project examples and a tested inquiry flow. Explore scope and pricing with Wonderweb.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--fort-worth--web-design.png": {
+    "title": "Website Design - Wonderweb Studio",
+    "description": "Featured social preview for Website Design. Fort Worth contractor website design with capability pages, project evidence and separate residential and commercial inquiry journeys. Plan your scope.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/locations--texas--web-design.png": {
+    "title": "Website Design - Wonderweb Studio",
+    "description": "Featured social preview for Website Design. Texas website design for contractors and multi-area service businesses. Build useful service pages, clear coverage and lead routing with a remote studio.",
     "width": 1200,
     "height": 630,
     "type": "image/png"
@@ -12889,6 +13106,27 @@
   "/seo/work--thumbnail-creative.png": {
     "title": "YouTube thumbnail explorations - Wonderweb Studio",
     "description": "Featured social preview for YouTube thumbnail explorations. Explore youtube thumbnail explorations from Wonderweb Studio’s creative portfolio. See the visual direction and discuss a design brief for your business.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--texas-small-business-web-design-cost.png": {
+    "title": "How to compare website design quotes for a Texas small business - Wonderweb Studio",
+    "description": "Featured social preview for How to compare website design quotes for a Texas small business. Compare the scope behind a website quote: service pages, original content, integrations, ownership and ongoing costs. A practical guide for Texas businesses.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--contractor-website-pages-checklist.png": {
+    "title": "The pages a contractor website needs to earn better inquiries - Wonderweb Studio",
+    "description": "Featured social preview for The pages a contractor website needs to earn better inquiries. Plan service pages, project proof, coverage and inquiry forms around the jobs you want. Use this checklist before commissioning a contractor website.",
+    "width": 1200,
+    "height": 630,
+    "type": "image/png"
+  },
+  "/seo/resources--service-area-pages-without-duplicate-content.png": {
+    "title": "When does a service area deserve its own website page? - Wonderweb Studio",
+    "description": "Featured social preview for When does a service area deserve its own website page?. Decide when a city needs its own page, what local information to include and how to connect service areas without multiplying near-identical content.",
     "width": 1200,
     "height": 630,
     "type": "image/png"
@@ -13619,34 +13857,6 @@
     "description": "Featured social preview for 32.8% more bookings. A clearer mobile journey.. A residential glass business expanded relevant search coverage and prioritized mobile inquiries, reporting 32.8% more overall bookings.",
     "width": 1200,
     "height": 630,
-    "type": "image/png"
-  },
-  "/partners/google-partner.png": {
-    "title": "Google Partner badge",
-    "description": "Google Partner badge displayed on Wonderweb Studio’s website with the business owner’s authorization.",
-    "width": 320,
-    "height": 320,
-    "type": "image/png"
-  },
-  "/partners/meta-business-partner.png": {
-    "title": "Meta partner logo",
-    "description": "Meta partner logo displayed on Wonderweb Studio’s website with the business owner’s authorization.",
-    "width": 1024,
-    "height": 310,
-    "type": "image/png"
-  },
-  "/partners/yelp.png": {
-    "title": "Yelp partner logo",
-    "description": "Yelp partner logo displayed on Wonderweb Studio’s website with the business owner’s authorization.",
-    "width": 1024,
-    "height": 1024,
-    "type": "image/png"
-  },
-  "/partners/leadperfection.png": {
-    "title": "LeadPerfection partner logo",
-    "description": "LeadPerfection partner logo displayed on Wonderweb Studio’s website with the business owner’s authorization.",
-    "width": 1024,
-    "height": 317,
     "type": "image/png"
   }
 }

@@ -1,0 +1,78 @@
+{
+  "checked": "2026-11-25",
+  "method": "Public web search result inspection, not a localized Google rank report. No positions, search volumes or difficulty scores inferred.",
+  "sources": [
+    {
+      "market": "Dallas",
+      "query": "web design Dallas small business",
+      "url": "https://dallaswebdesign.io/",
+      "finding": "Dedicated small-business web design page exists."
+    },
+    {
+      "market": "Plano",
+      "query": "web design Plano Texas small business",
+      "url": "https://webdesignplanotx.com/",
+      "finding": "Dedicated Plano website design and development page exists."
+    },
+    {
+      "market": "Fort Worth",
+      "query": "web design Fort Worth contractors",
+      "url": "https://www.blackanchordesign.com/",
+      "finding": "An existing specialist explicitly targets contractors and commercial trades."
+    },
+    {
+      "market": "Frisco",
+      "query": "web design Frisco small business",
+      "url": "https://friscowebdesigns.com/",
+      "finding": "A dedicated local web-design supplier is present."
+    },
+    {
+      "market": "McKinney",
+      "query": "web design McKinney small business",
+      "url": "https://collincountynetworks.com/services/mckinney-website-design/",
+      "finding": "A dedicated location service page exists."
+    },
+    {
+      "market": "Katy",
+      "query": "web design Katy Texas",
+      "url": "https://golivestudiotx.com/",
+      "finding": "A local studio explicitly targets Katy and Houston small businesses."
+    },
+    {
+      "market": "Round Rock",
+      "query": "web design Round Rock Texas",
+      "url": "https://www.twistwebstudio.com/web-design-round-rock",
+      "finding": "A dedicated Round Rock web-design destination exists."
+    },
+    {
+      "market": "Lakeland",
+      "query": "web design Lakeland Florida",
+      "url": "https://www.weblakeland.com/faqs/",
+      "finding": "A local web-design provider and its FAQ are discoverable."
+    },
+    {
+      "market": "Chandler",
+      "query": "web design Chandler Arizona",
+      "url": "https://www.bigbytepc.net/web-design-chandler",
+      "finding": "A dedicated web-design location page exists."
+    },
+    {
+      "market": "Greenville",
+      "query": "web design Greenville South Carolina",
+      "url": "https://www.faithforgeddigital.com/web-design-greenville-sc",
+      "finding": "A dedicated local web-design page exists."
+    },
+    {
+      "market": "Dallas roofing",
+      "query": "roofing website design Dallas",
+      "url": "https://www.redspotdesign.com/roofing-website-design-in-dallas/",
+      "finding": "A competitor has an exact service-industry-city page."
+    },
+    {
+      "market": "Texas HVAC",
+      "query": "HVAC website design Texas",
+      "url": "https://thenxtdigital.com/websites/hvac-contractors/texas",
+      "finding": "An industry-and-state page exists."
+    }
+  ]
+}

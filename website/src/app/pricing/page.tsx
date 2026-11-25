@@ -17,7 +17,7 @@ export default function Pricing(){return <div className="pricing-page">
  <section className="pricing-selector-section" aria-label="Compare pricing options"><div className="container">
   <PricingTabs label="Pricing options" items={[
    {id:'partnerships',label:'Monthly partnerships',caption:'Built around your next stage of growth.',content:<MonthlyPlanCatalog/>},
-   {id:'standalone',label:'Standalone services',caption:'One focused brief',content:<StandalonePricing/>},
+   {id:'standalone',label:'Standalone services',caption:'One focused brief',content:<><h2>Focused services for your next priority.</h2><StandalonePricing/></>},
    {id:'websites',label:'Website projects',caption:'A new build. A fixed scope.',content:<><div className="pricing-panel-heading"><h2>A website built <em>for your business.</em></h2><p>These prices cover designing and building a new website. For routine edits to an existing site, see Website support in Standalone services.</p></div><WebsiteProjectPricing/><Link className="text-link" href="/services/web-design/">Explore website design<ArrowUpRight size={18} aria-hidden="true"/></Link></>},
   ]}/>
   <p className="pricing-footnote">{paymentTerms.general}</p>

@@ -1,0 +1,55 @@
+
+> wonderweb-studio@1.0.0 test
+> node --import tsx --test tests/*.test.ts
+
+✔ every service and downloadable guide has genuinely distinct artwork and complete image metadata (14.8893ms)
+✔ sitemap retains all public HTML routes and nests their service and guide images (13.5906ms)
+✔ guide schema describes signup access and service Markdown preserves visible FAQs and artwork (9.5728ms)
+✔ every original service cluster contains six substantial, distinct, linked guides (17.4514ms)
+✔ every confirmed service has a page, scope, price path and bidirectional reading links (0.5714ms)
+✔ pricing schema and Markdown match visible amounts and complete installment commitments (10.2673ms)
+✔ the expanded service brief backlog has six topics per confirmed new offering (0.2724ms)
+✔ every public page has a discoverable Markdown guide with a canonical response (1027.649ms)
+✔ article dates and content agree across visible data, schema and Markdown (10.34ms)
+✔ local service guides retain distinct scope and remote-delivery facts (0.8851ms)
+✔ the remote agency identity is consistent across metadata, schema and AI-readable content (103.3872ms)
+✔ guide leads require complete business details and identify the resource in the lead email (2.7218ms)
+✔ download grants are signed, expire, and cannot unlock another guide (0.3625ms)
+✔ every guide file is private while its cover remains public (3.6693ms)
+Inquiry email delivery failed { provider: 'zoho', code: 'UNKNOWN', responseCode: undefined }
+✔ lead acceptance unlocks only the requested files; delivery failure never grants access (10.4529ms)
+✔ every protected PDF has its own public, service-led destination (13.2957ms)
+✔ guide discovery content contains the matching advice, services and form, never a direct download (1.9288ms)
+✔ legacy PDF and CSV links lead to the matching page, preserving lead capture (0.3406ms)
+✔ all transports route to the studio inbox and incomplete settings fail closed (0.6935ms)
+✔ Zoho preserves inquiry and booking details, visitor reply-to, TLS and recipient acceptance (13.1152ms)
+✔ form endpoint sends through Zoho, ignores visitor recipients and retains production spam checks (3.2929ms)
+✔ requires valid contact details and explicit inquiry consent (2.961ms)
+✔ email receipt is required before delivery is reported (2.8131ms)
+✔ inquiry route rejects cross-origin requests before processing (1.122ms)
+✔ inquiry route rejects malformed, oversized and honeypot input (0.9721ms)
+✔ unconfigured delivery fails clearly without claiming success (0.5311ms)
+✔ call requests retain their time zone and remain unconfirmed (11.2693ms)
+✔ booking window uses the requested time zone and a bounded future period (0.3881ms)
+✔ new buyer pages have complete schema, unique real media, Markdown and sitemap discovery (13.9027ms)
+✔ each local web-design page is linked from its hub and preserves its unique brief and FAQ answers (0.4801ms)
+✔ scheduled publication uses a UTC boundary and stays out of public discovery before release (6.561ms)
+✔ every adaptation is sanitized, has provenance and links to real destinations (88.2134ms)
+✔ all editorial URLs have unique metadata and actual generated images (90.0207ms)
+✔ page graph identifiers resolve locally and location pages represent service areas (28.636ms)
+✔ discovery files cover every public page, excluding non-indexed payment information (60.4866ms)
+✔ preview and launch modes produce opposite crawl directives while payment information stays noindex (207.1435ms)
+✔ JSON-LD escapes content that could otherwise break out of the script element (0.1292ms)
+✔ production indexing defaults and preview isolation stay consistent across all crawl controls (868.1665ms)
+✔ public discovery content and image descriptions keep the studio identity independent (130.6595ms)
+✔ the approved paid-campaign guarantee has matching FAQ and complete discovery terms (1.3781ms)
+✔ approved monthly tier names and prices reach structured offers and Markdown (0.5172ms)
+✔ practical decision tables retain their answer, criteria and methodology in Markdown (0.2219ms)
+ℹ tests 42
+ℹ suites 0
+ℹ pass 42
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1464.0383

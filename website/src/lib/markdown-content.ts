@@ -1,3 +1,4 @@
+import {localWebBriefByLocation} from './local-growth-content';
 import {decisionMarkdown} from './decision-briefs';
 import {homeFaqs} from './home-faqs';
 import {leadGuarantee,leadGuaranteeFaq,guaranteeServices,studioPartners} from './studio-commitment';
@@ -57,6 +58,9 @@ export function markdownBody(page:SeoPage):string{
  }
  if(kind==='locations'&&slug){
   const l=locations.find(l=>l.slug===slug)!;const brief=marketBriefs[slug];
+  const web=service==='web-design'?localWebBriefByLocation.get(slug):undefined;
+  if(web){return [web.intro,`Wonderweb Studio supports ${l.name} businesses remotely. This page does not represent a local office.`,sections(web.sections),`## Prepare your marketing brief\n\n${bullets(web.checklist)}`,sections([['Agree the customer journey','Choose priority services, actual coverage and the information a suitable buyer needs. Review current URLs and approved project material.'],['Design and build together','Coordinate copy, layouts, core service pages, accessible forms and responsive images.'],['Verify the whole handoff','Test navigation, forms, mobile layouts, redirects and measurement. Agree ongoing ownership and review qualified inquiries.']]),`## Free lead-journey checklist\n\nReview calls, forms and follow-up before a rebuild.\n\n${links([`/guides/${web.guide}/`])}`,faq(locationServiceAnswers(slug,service)),`## Connected services and reading\n\n${links([`/locations/${slug}/`,'/services/web-design/','/services/local-seo/','/services/google-ads/','/pricing/','/work/','/resources/contractor-website-pages-checklist/','/resources/texas-small-business-web-design-cost/','/resources/service-area-pages-without-duplicate-content/',...web.relatedMarkets.map(m=>`/locations/${m}/web-design/`)])}`].join('\n\n');}
+
   blocks.push(`## Service area and delivery\n\nWonderweb Studio supports ${l.name}, ${l.region} businesses remotely. This page does not represent a local office.\n\nBusiness sectors: ${l.sectors.join(', ')}.\n\nCoverage discussion examples: ${l.areas.join(', ')}. Actual operating boundaries are agreed with the business; these examples do not imply local offices or clients.`);
   const specific=service&&locationServiceBriefs[`${slug}/${service}`];
   if(specific)blocks.push(sections([[specific[0],`${specific[1]}\n\n${specific[2]}`]]));
