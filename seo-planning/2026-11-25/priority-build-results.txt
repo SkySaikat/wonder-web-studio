@@ -1,0 +1,94 @@
+> wonderweb-studio@1.0.0 build
+> next build
+
+▲ Next.js 16.4.5 (Turbopack)
+✓ Running next.config.ts took 23ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 800ms
+  Running TypeScript ...
+  Finished TypeScript in 1289ms ...
+  Collecting page data using 23 workers ...
+  Generating static pages using 23 workers (0/130) ...
+  Generating static pages using 23 workers (32/130) 
+  Generating static pages using 23 workers (64/130) 
+  Generating static pages using 23 workers (97/130) 
+✓ Generating static pages using 23 workers (130/130) in 1512ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about
+├ ƒ /api/guides/[slug]
+├ ƒ /api/inquiry
+├ ○ /contact
+├ ƒ /content/[...slug]
+├ ○ /guides
+├   /guides/[slug]
+│ ├ ● /guides/electrician-free-report
+│ ├ ● /guides/electrician-google-ads-guide
+│ ├ ● /guides/electrician-google-ads-scorecard
+│ └ ● [+17 more paths]
+├ ○ /icon.svg
+├ ○ /industries
+├   /industries/[slug]
+│ ├ ● /industries/roofing
+│ ├ ● /industries/hvac
+│ ├ ● /industries/plumbing
+│ └ ● [+6 more paths]
+├   /industries/[slug]/[service]
+│ ├ ● /industries/roofing/seo
+│ ├ ● /industries/roofing/web-design
+│ ├ ● /industries/hvac/seo
+│ └ ● [+5 more paths]
+├ ƒ /llms-full.txt
+├ ƒ /llms.txt
+├ ƒ /llms.xml
+├ ○ /locations
+├   /locations/[slug]
+│ ├ ● /locations/texas
+│ ├ ● /locations/plano
+│ ├ ● /locations/fort-worth
+│ └ ● [+14 more paths]
+├   /locations/[slug]/[service]
+│ ├ ● /locations/dallas/web-design
+│ ├ ● /locations/houston/web-design
+│ ├ ● /locations/austin/web-design
+│ └ ● [+11 more paths]
+├ ○ /opengraph-image
+├ ○ /payments
+├ ○ /pricing
+├ ○ /privacy-policy
+├ ○ /resources
+├ ƒ /resources/[slug]
+├ ƒ /resources/library/[page]
+├ ○ /results
+├   /results/[slug]
+│ ├ ● /results/remodeling-lower-lead-cost
+│ ├ ● /results/remodeling-search-two-year-results
+│ ├ ● /results/roofing-local-search
+│ └ ● [+3 more paths]
+├ ○ /robots.txt
+├ ○ /services
+├   /services/[slug]
+│ ├ ● /services/ai-search-optimization
+│ ├ ● /services/local-services-ads
+│ ├ ● /services/microsoft-ads
+│ └ ● [+21 more paths]
+├ ƒ /sitemap.xml
+├ ƒ /solutions
+├ ƒ /solutions/[slug]
+├ ƒ /solutions/page/[page]
+├ ○ /terms
+├ ○ /work
+└   /work/[slug]
+  ├ ● /work/jr-watkins
+  ├ ● /work/workiz
+  ├ ● /work/windsor
+  └ ● [+10 more paths]
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand

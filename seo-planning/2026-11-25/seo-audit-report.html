@@ -1,0 +1,201 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>U.S. SEO audit and 90-day plan</title><style>/* One light look, on screen and on paper. The report is read inside the app,
+   which has its own theme toggle, and a saved document has no way to hear about
+   it: a report that follows the OS scheme alone shows a black panel inside a
+   light app for anyone whose two settings disagree. */
+:root{--bg:#fff;--fg:#0a0a0a;--fg-2:#454545;--fg-3:#8f8f8f;--rule:#ebebeb;--rule-2:#dcdcdc;--sunk:#fafafa;
+  /* The one token a report template may change. Left as the text color, so a
+     report with no template looks exactly as it did before. */
+  --accent:var(--fg)}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--fg);margin:0;padding:0 24px 120px;font-size:18px;line-height:1.65;letter-spacing:-.003em;
+  font-family:Geist,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;-webkit-font-smoothing:antialiased}
+.shell{max-width:1100px;margin:0 auto}
+header{padding:40px 0 0;max-width:660px}
+h1{font-size:clamp(34px,6vw,56px);font-weight:700;line-height:1.03;letter-spacing:-.035em;margin:0;text-wrap:balance}
+.byline{margin:24px 0 0;font-size:16px;color:var(--fg-2)}
+.body{display:grid;grid-template-columns:minmax(0,660px) 1fr;gap:0 64px;margin:48px 0 0}
+/* Both explicitly in row 1: without it the rail auto-places into row 1 and
+   pushes the article down a whole row, opening an empty band above the text. */
+article{grid-column:1;grid-row:1;min-width:0}
+.rail{grid-column:2;grid-row:1;font-size:14px;color:var(--fg-3);padding-top:6px}
+.rail .sticky{position:sticky;top:40px}
+.toc-label{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--fg-3);margin:0 0 10px}
+.toc ol{list-style:none;margin:0;padding:0}
+.toc li{margin:0 0 7px}
+.toc a{color:var(--fg-2);text-decoration:none}
+.toc a:hover{color:var(--fg)}
+/* Below 900px the rail is dropped rather than stacked: a contents list above
+   the report is a wall to scroll past on a phone, not a shortcut. */
+@media (max-width:900px){.body{grid-template-columns:1fr}.rail{display:none}}
+article p{margin:0 0 26px;text-wrap:pretty}
+h2{font-size:30px;font-weight:600;letter-spacing:-.025em;line-height:1.2;margin:60px 0 22px;text-wrap:balance}
+h3{font-size:20px;font-weight:600;letter-spacing:-.015em;margin:38px 0 14px}
+.finding{list-style:none;padding:0;margin:0 0 26px}
+.finding li{margin:0 0 8px;color:var(--fg-2)}
+.finding b{color:var(--accent);font-weight:600}
+a{color:var(--fg);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--rule-2)}
+strong{font-weight:600}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.86em;background:var(--sunk);border:1px solid var(--rule);padding:1px 5px;border-radius:4px}
+ul,ol{margin:0 0 26px;padding-left:22px}li{margin:0 0 11px}li::marker{color:var(--fg-3)}
+.note{border-left:2px solid var(--fg);padding:2px 0 2px 22px;margin:0 0 26px}
+.note p{margin:0;color:var(--fg-2)}
+.note p+p{margin-top:14px}
+.tw{overflow-x:auto;margin:0 0 30px}
+table{border-collapse:collapse;width:100%;font-size:15.5px;min-width:440px}
+th{text-align:left;font-weight:500;color:var(--fg-3);padding:0 20px 10px 0;border-bottom:1px solid var(--rule-2);white-space:nowrap}
+td{padding:13px 20px 13px 0;border-bottom:1px solid var(--rule);vertical-align:top;color:var(--fg-2)}
+td:first-child{color:var(--fg)}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td:last-child,th:last-child{padding-right:0}
+tr:last-child td{border-bottom:none}
+figure{margin:0 0 30px}
+figcaption{font-size:14px;color:var(--fg-3);margin-top:8px}
+.bars{display:grid;grid-template-columns:minmax(90px,170px) 1fr auto;gap:10px 12px;align-items:center;font-size:14px}
+.bars .label{color:var(--fg-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bars .track{display:block;height:20px;background:var(--sunk)}
+.bars .bar{display:block;height:100%;background:var(--accent);opacity:.16}
+.bars .value{font-variant-numeric:tabular-nums;min-width:3ch;text-align:right}
+svg{display:block;max-width:100%;height:auto}
+hr{border:none;border-top:1px solid var(--rule);margin:60px 0}
+footer{max-width:660px;margin:64px 0 0;padding:26px 0 0;border-top:1px solid var(--rule);font-size:15px;color:var(--fg-3)}
+@media print{
+  /* A zero top margin hides the browser's own print header (date, tab title);
+     the bottom margin holds a page counter instead of the browser's URL line.
+     The body padding supplies the visible page margins. */
+  @page{margin:0 0 12mm 0;@bottom-center{content:counter(page) " of " counter(pages);font:10px -apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;color:#8f8f8f}}
+  body{background:#fff;color:#111;padding:14mm 16mm 6mm;font-size:11pt}
+  .shell,.body{display:block;max-width:none}
+  header{padding:0;max-width:none}
+  h1{font-size:26pt}
+  h2{font-size:15pt;margin:22pt 0 10pt}
+  h3{font-size:12pt;margin:14pt 0 6pt}
+  article,footer{max-width:none}
+  .rail{display:none}
+  h1,h2,h3{break-after:avoid}
+  table,figure,.note,svg{break-inside:avoid}
+  tr,td,th{break-inside:avoid}
+  p,li{orphans:3;widows:3}
+  thead{display:table-header-group}
+  .tw{overflow:visible}
+  table{font-size:10pt;min-width:0}
+  .byline,footer,figcaption{font-size:9.5pt}
+  svg,.bars .bar,.bars .track{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  a{text-decoration:none}
+}</style></head><body><div class="shell"><header><h1>U.S. SEO audit and 90-day plan</h1><p class="byline">Prepared for Wonderweb Studio · November 25, 2026</p></header><div class="body"><aside class="rail"><div class="sticky"><p class="toc-label">Contents</p><nav class="toc" aria-label="Contents"><ol><li><a href="#your-next-seo-move">Your next SEO move</a></li><li><a href="#recommendations">Recommendations</a></li><li><a href="#local-delivery">What is ready locally</a></li><li><a href="#ninety-day-plan">90-day plan</a></li><li><a href="#what-else-we-checked">What else we checked</a></li><li><a href="#how-this-report-was-made">How this report was made</a></li></ol></nav></div></aside><article>
+<h2 id="your-next-seo-move">Your next SEO move</h2>
+<ul>
+<li>Improve existing appliance-repair marketing and landscaping PPC pages before expanding the city-page program.</li>
+<li>Preserve the useful custom-home-builder SEO guide and give its readers a clearer path to the service.</li>
+<li>Review the 15 new local pages, then publish and measure the pilot when the owner is ready.</li>
+</ul>
+<div class="note"><p>Google Search Console reports 9,726 U.S. impressions, zero clicks and average position 57.6 for October 26–November 22, 2026. Google is showing pages, but most visibility is too low to earn clicks; more page count alone is not the solution.</p></div>
+
+<h2 id="recommendations">Recommendations</h2>
+<h3>1. Strengthen two existing service pages with real buying-intent visibility</h3>
+<p><strong>Do this</strong></p>
+<ul>
+<li>Improve <a href="https://www.wonderwebstudio.com/solutions/appliance-repair-marketing/" target="_blank" rel="noopener">appliance-repair marketing</a>: remove repeated passages and explain service scope, repair intake and lead qualification.</li>
+<li>Improve <a href="https://www.wonderwebstudio.com/solutions/landscaping-ppc-management/" target="_blank" rel="noopener">landscaping PPC</a>: separate maintenance, installations, territories, ad spend and management responsibilities.</li>
+<li>Use verified project evidence and the actual written offer; keep pricing and a project conversation easy to reach.</li>
+</ul>
+<p><strong>Why</strong></p>
+<ul>
+<li>These searches explicitly seek agency help, so their business fit is stronger than generic software research.</li>
+<li>Query-to-page data confirms the existing destinations; Google inspection confirms both are indexed.</li>
+<li>Clearer scope and relevant proof could improve relevance and inquiry quality. The small samples do not support a traffic or revenue forecast.</li>
+</ul>
+<div class="tw"><table><thead><tr><th>U.S. query</th><th class="n">Impressions</th><th class="n">Average position</th><th>Period / clicks</th></tr></thead><tbody>
+<tr><td>appliance repair marketing agency</td><td class="n">60</td><td class="n">29.3</td><td>Oct 26–Nov 22; 0 clicks</td></tr>
+<tr><td>landscaping ppc agency</td><td class="n">15</td><td class="n">20.1</td><td>Oct 26–Nov 22; 0 clicks</td></tr>
+<tr><td>landscaper ppc services</td><td class="n">15</td><td class="n">23.1</td><td>Oct 26–Nov 22; 0 clicks</td></tr>
+</tbody></table></div>
+<p>Positions are historical Search Console averages, not fixed current rankings. Impressions are appearances of Wonderweb results, not total keyword search volume; the rows are not added into a site total.</p>
+
+<h3>2. Protect the custom-home-builder topic and strengthen its service path</h3>
+<p><strong>Do this</strong></p>
+<ul>
+<li>Keep the specific process, project-gallery and inquiry advice in the <a href="https://www.wonderwebstudio.com/resources/custom-home-builder-seo-tips/" target="_blank" rel="noopener">custom-home-builder SEO guide</a>.</li>
+<li>Add a permissioned, detailed project example and a clear link to the matching SEO offer.</li>
+<li>Review narrow buyer questions before creating another competing home-builder SEO page.</li>
+</ul>
+<p><strong>Why</strong></p>
+<ul>
+<li>The narrower query already has a better historical average position than the broad home-builder term.</li>
+<li>A relevant service path can connect practical advice to an agency conversation without replacing useful content.</li>
+<li>Only 19 impressions support the narrower signal; preserve it and measure rather than promise a quick win.</li>
+</ul>
+<div class="tw"><table><thead><tr><th>U.S. query</th><th class="n">Impressions</th><th class="n">Average position</th><th>Period / clicks</th></tr></thead><tbody>
+<tr><td>seo for custom home builders</td><td class="n">19</td><td class="n">14.4</td><td>Oct 26–Nov 22; 0 clicks</td></tr>
+<tr><td>home builder seo</td><td class="n">129</td><td class="n">53.1</td><td>Oct 26–Nov 22; 0 clicks</td></tr>
+</tbody></table></div>
+
+<h3>3. Test a bounded Texas and existing-market website-design pilot</h3>
+<p><strong>Do this</strong></p>
+<ul>
+<li>Review nine distinct web-design pages: Texas, Dallas, Plano, Fort Worth, Houston, Austin, Phoenix, Tampa and Orlando.</li>
+<li>Review three location hubs and three original buyer articles before the owner publishes.</li>
+<li>Keep one primary page per intent, link pricing and relevant services, and expand only when evidence supports it.</li>
+</ul>
+<p><strong>Why</strong></p>
+<ul>
+<li>These pages explain business decisions and service scope, giving prospective buyers a usable landing page.</li>
+<li>Texas is the owner's priority; existing Florida and Arizona hubs provide a coherent first test.</li>
+<li>Dedicated competing pages exist. Search volume and keyword difficulty remain unavailable, so these are experiments rather than verified easy markets.</li>
+</ul>
+
+<h2 id="local-delivery">What is ready locally</h2>
+<ul>
+<li>15 new pages: nine web-design service destinations, three hubs and three supporting articles.</li>
+<li>15 unique explanatory diagrams, descriptive alternatives and image metadata, plus social preview images.</li>
+<li>Structured data describing each page, aligned Markdown, internal links, canonical preferred URLs and sitemap entries.</li>
+<li>Seven shorter guide titles and corrected heading order on the guides and pricing pages.</li>
+<li>412 keyword candidates across 40 markets, plus exports of 1,715 actual U.S. query rows and 420 page rows.</li>
+</ul>
+<div class="tw"><table><thead><tr><th>Page family</th><th>New destinations</th></tr></thead><tbody>
+<tr><td>Web design</td><td>/locations/{market}/web-design/ for dallas, houston, austin, phoenix, tampa, orlando, plano, fort-worth and texas</td></tr>
+<tr><td>Market hubs</td><td>/locations/texas/, /locations/plano/, /locations/fort-worth/</td></tr>
+<tr><td>Buyer articles</td><td>/resources/texas-small-business-web-design-cost/, /resources/contractor-website-pages-checklist/, /resources/service-area-pages-without-duplicate-content/</td></tr>
+</tbody></table></div>
+<p>Local verification passed: 42 tests, the production build, all 15 page routes, 51 linked destinations and 35 image assets. Mobile checks found one main heading, no skipped heading levels and no horizontal overflow on the sampled new pages, pricing and guides.</p>
+<div class="note"><p>No push or deployment was performed by the agent. The preview remains noindex, and Google inspection says the new Dallas web-design URL is unknown to Google. Existing indexed pages do not prove the new batch is indexed.</p></div>
+
+<h2 id="ninety-day-plan">90-day execution plan</h2>
+<p>Day 1 starts after the owner publishes the reviewed pilot.</p>
+<div class="tw"><table><thead><tr><th>Window</th><th>Work</th><th>Decision</th></tr></thead><tbody>
+<tr><td>Days 1–7</td><td>Confirm inquiry measurement; publish reviewed pages; verify production pages and sitemap.</td><td>Do not expand until pages are crawlable and the inquiry flow works.</td></tr>
+<tr><td>Days 8–30</td><td>Improve appliance-repair and landscaping PPC; strengthen the builder guide; inspect new URLs.</td><td>Use real query-to-page data and suitable inquiries; consolidate overlapping intents.</td></tr>
+<tr><td>Days 31–60</td><td>Validate at most two additional markets or industries; add specific buyer resources and permitted project evidence.</td><td>Defer briefs with no distinct buyer need or adequate source material.</td></tr>
+<tr><td>Days 61–90</td><td>Review page overlap, lead quality, proposals and wins; improve the combinations showing commercial fit.</td><td>Scale based on qualified opportunities, not page count.</td></tr>
+</tbody></table></div>
+<p>After the pilot, aim for one substantial buyer guide and one service-page improvement weekly. A qualified inquiry needs an actual business, decision-maker access, a relevant need, service fit and a plausible budget.</p>
+<p>Measure U.S. discovery, relevant visits, accepted inquiries, qualified opportunities, meeting requests, proposals, wins and revenue separately. The current meeting interface requests a time; it does not automatically confirm calendar bookings.</p>
+
+<h2 id="what-else-we-checked">What else we checked</h2>
+<div class="tw"><table><thead><tr><th>Opportunity</th><th>Finding</th><th>Decision</th></tr></thead><tbody>
+<tr><td>Windows/doors marketing</td><td>348 U.S. page impressions; average position 64.4 over Aug 22–Nov 22.</td><td>Runner-up: larger visibility, but farther from useful positions than the narrower agency-intent signals.</td></tr>
+<tr><td>Landscaping reputation</td><td>19 query impressions; average 17.6 in the 28-day query/page extract.</td><td>Next existing service review; preserve the current destination.</td></tr>
+<tr><td>Septic, mold and HVAC maintenance</td><td>Relevant narrower queries, mostly single-digit impressions.</td><td>Small-sample watchlist; do not prioritize solely on a favorable average.</td></tr>
+<tr><td>Fence software / generic workflows</td><td>Some visible queries, with weaker direct agency-buying intent.</td><td>Maintain useful content; not the first sales acquisition priority.</td></tr>
+<tr><td>Dallas/Texas competition</td><td>Dedicated competitor pages found; no measured volume or difficulty available.</td><td>Test the distinct pilot, not a city-name substitution matrix.</td></tr>
+<tr><td>Index access</td><td>Five sampled existing URLs indexed; matching preferred URLs; new Dallas service unknown.</td><td>No established sitewide indexing blocker; inspect after publication.</td></tr>
+<tr><td>Maintenance</td><td>50-page crawl: seven title notices and two heading notices; 852 discovered URLs uncrawled.</td><td>Sampled fixes made locally; not a complete site or speed audit.</td></tr>
+</tbody></table></div>
+
+<h2 id="how-this-report-was-made">How this report was made</h2>
+<p>Generated by the <a href="https://openseo.so/docs/skills/seo-audit" target="_blank" rel="noopener">OpenSEO SEO Audit skill</a>, run by Codex on November 25, 2026.</p>
+<p>OpenSEO supplied the sampled crawl and connected Google Search Console data. Local source, rendered pages, content, links, metadata and build output were checked separately.</p>
+<details><summary>Evidence and methodology</summary>
+<p><strong>Search Console:</strong> verified sc-domain:wonderwebstudio.com, web search, final data, United States. Windows: August 22–November 22 and October 26–November 22, 2026, Pacific dates. The country aggregates match at 9,726 impressions and zero clicks; this is not evidence of growth between periods.</p>
+<p>The longer U.S. export returned 1,715 distinct query rows and 420 page rows after pagination. Query privacy filtering and reporting limits mean these are not all searches. Country aggregates, page rows and query rows were not added together.</p>
+<p><strong>Inspect URLs:</strong> homepage, Dallas hub, appliance-repair marketing, landscaping PPC and custom-home-builder guide passed stored index inspection on November 25. Google-selected and declared preferred URLs matched. The new Dallas web-design destination was unknown. This is stored Google status, not a live crawl or a full-site inspection.</p>
+<p><strong>Crawl:</strong> OpenSEO audit 470c424a-533b-448d-a0bf-e600e5b689dc completed 50 pages, non-rendered, no Lighthouse. No critical issue in the sample; 852 discovered URLs remained uncrawled.</p>
+<p><strong>Keyword research:</strong> five submitted seeds and the domain overview failed for insufficient credits. Volume, cost per click, difficulty and provider traffic estimates are unknown. No paid tracking or credit purchase was enabled.</p>
+<p><strong>Public competition:</strong> November 25 searches checked buyer-oriented queries across Dallas, Plano, Fort Worth, Frisco, McKinney, Denton, Round Rock, Katy, Pearland, Lakeland, Chandler, Greenville and Cary, plus Dallas roofing and Texas HVAC combinations. These were competitor-presence checks, not localized Google position measurements.</p>
+<p>Examples: <a href="https://dallaswebdesign.io/" target="_blank" rel="noopener">Dallas web design</a>, <a href="https://webdesignplanotx.com/" target="_blank" rel="noopener">Plano</a>, <a href="https://www.blackanchordesign.com/" target="_blank" rel="noopener">Fort Worth contractor positioning</a>, <a href="https://www.redspotdesign.com/roofing-website-design-in-dallas/" target="_blank" rel="noopener">Dallas roofing design</a>, <a href="https://www.twistwebstudio.com/web-design-round-rock" target="_blank" rel="noopener">Round Rock</a>.</p>
+<p><strong>Content review:</strong> appliance-repair marketing repeats passages; landscaping PPC has broad outcome claims; the builder guide answers several specific buyer questions. These observations informed the next edits but do not prove a cause of low rankings. Historical cross-brand URLs in Search Console do not prove present content: the old local-SEO slug already redirects in local configuration.</p>
+<p><strong>SEO rules:</strong> relevant imagery helps explain content; a high image count is not a target. Images can be nested in a normal page sitemap. Structured data describes visible facts; Markdown and AI files do not guarantee indexing, ranking or AI citations.</p>
+<p>Primary guidance: <a href="https://developers.google.com/search/docs/appearance/ai-features" target="_blank" rel="noopener">Google AI features</a>, <a href="https://developers.google.com/search/docs/appearance/google-images" target="_blank" rel="noopener">Google Images</a>, <a href="https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps" target="_blank" rel="noopener">image sitemaps</a>, <a href="https://developers.google.com/search/docs/essentials/spam-policies" target="_blank" rel="noopener">doorway and scaled-content policies</a>.</p>
+<p>Full research, CSVs and the implementation plan are stored in the Wonderweb repository under seo-planning/2026-11-25. The candidate list is grouped by intent and does not call for 412 new pages. This report is private to the project; it has not been publicly shared.</p>
+</details>
+</article></div><footer>Prepared with OpenSEO. Data retrieved November 25, 2026.</footer></div></body></html>

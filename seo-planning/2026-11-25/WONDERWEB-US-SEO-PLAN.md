@@ -13,9 +13,9 @@ Start with established home-service businesses and contractors: roofing, HVAC, p
 The connected OpenSEO account had one unrelated product-research project. A dedicated U.S./English project was created for Wonderweb:
 
 - [Wonderweb OpenSEO project](https://app.openseo.so/p/5bd59979-fb03-4354-960a-f8d85fb2b3e1).
-- Five keyword seeds were submitted: web design, web designer in Texas, contractor website design, local SEO services and Google Ads for contractors. All returned **INSUFFICIENT_CREDITS**. The domain-overview request also failed for insufficient credits. There are no measured volume, CPC, difficulty, domain-traffic or ranking figures in this plan. Missing values are not zero.
+- Five keyword seeds were submitted: web design, web designer in Texas, contractor website design, local SEO services and Google Ads for contractors. All returned **INSUFFICIENT_CREDITS**. The domain-overview request also failed for insufficient credits. Search volume, CPC, difficulty and provider traffic estimates remain unavailable. The Search Console measurements below are first-party historical performance, not keyword-market volume or a current rank check. Missing provider values are not zero.
 - A non-rendered OpenSEO audit completed on 50 live URLs. It reported no critical issues in that sample, seven informational title-length notices and two heading-order notices. It stopped at its page limit with 852 discovered URLs not crawled. This is not a clean bill of health for every page, a Core Web Vitals assessment, or proof of Google indexing.
-- Search Console had no connected Google account when checked. The owner intends to connect it. [Connect Search Console here](https://app.openseo.so/p/5bd59979-fb03-4354-960a-f8d85fb2b3e1/search-performance).
+- The owner connected Google during this work. The verified **sc-domain:wonderwebstudio.com** property is now bound to this OpenSEO project. [Open its Search Performance](https://app.openseo.so/p/5bd59979-fb03-4354-960a-f8d85fb2b3e1/search-performance). Final web-search data was retrieved for August 22–November 22 and October 26–November 22, 2026, with U.S. filters. The longer export returned 1,715 query rows and 420 page rows after pagination. Google can withhold anonymized queries; these exports are not the universe of searches.
 - Public search-result inspection checked buyer-oriented queries across Dallas, Plano, Fort Worth, Frisco, McKinney, Denton, Round Rock, Katy, Pearland, Lakeland, Chandler, Greenville and Cary, plus roofing/Dallas and HVAC/Texas combinations. This is a competitor-presence check, not localized Google rank tracking. Exact queries, evidence and limitations are in public-search-evidence.json.
 
 The keyword workbook contains **412 candidates**: 320 location/service variants across 40 markets, 80 industry/service candidates and 12 buyer questions. They are grouped by intended URL. They are **not 412 validated low-difficulty keywords and not a request to build 412 pages**.
@@ -25,6 +25,29 @@ The keyword workbook contains **412 candidates**: 320 location/service variants 
 There are dedicated competing pages for these intents. Examples include [Dallas Web Design](https://dallaswebdesign.io/), [Plano Website Design](https://webdesignplanotx.com/), [Black Anchor’s Fort Worth contractor positioning](https://www.blackanchordesign.com/), and [Red Spot Design’s Dallas roofing page](https://www.redspotdesign.com/roofing-website-design-in-dallas/). Smaller markets also have dedicated destinations, such as [Round Rock](https://www.twistwebstudio.com/web-design-round-rock) and [McKinney](https://collincountynetworks.com/services/mckinney-website-design/).
 
 These observations disprove the assumption that nobody has built these pages. They do not tell us that Wonderweb cannot compete. The practical opportunity is a clearer offer and useful content for a narrower buyer, backed by relevant work and an effective sales process. Low paid-ad competition, few exact-match titles, a low result count or a small city is not proof of easy organic rankings.
+
+## What the connected Search Console changes
+
+The U.S. country aggregate reports **9,726 impressions, zero clicks and average position 57.6** for October 26–November 22, 2026. The August 22–November 22 aggregate returned the same values. Do not treat those equal overlapping windows as growth or add them together. Average position is Google's average over observed impressions, not a fixed current rank.
+
+This is a visibility-to-click problem before it is a volume-of-pages problem. Google is already showing many existing pages, usually too far down results to earn clicks. The observations do not establish a penalty or prove that any one content defect caused the low positions. With no U.S. organic clicks in the reported window, this channel has not yet demonstrated an acquisition result.
+
+| U.S. query, October 26–November 22 | Impressions | Average position | Existing destination | First improvement |
+| --- | ---: | ---: | --- | --- |
+| appliance repair marketing agency | 60 | 29.3 | /solutions/appliance-repair-marketing/ | Replace repeated generic claims with a clear service scope, repair-intake example, qualification rules and relevant proof |
+| landscaping ppc agency | 15 | 20.1 | /solutions/landscaping-ppc-management/ | Explain maintenance versus installation campaign structure, service-area exclusions, tracking and the actual offer |
+| landscaper ppc services | 15 | 23.1 | /solutions/landscaping-ppc-management/ | Improve the same page; do not create another phrase-variant page |
+| landscaping reputation management | 19 | 17.6 | /solutions/landscaping-reputation-management/ | Review the existing page's review-request process, scope and link to the core service |
+| seo for custom home builders | 19 | 14.4 | /resources/custom-home-builder-seo-tips/ | Preserve its useful answers; add a permissioned project example and a clear service path |
+| home builder seo | 129 | 53.1 | /resources/custom-home-builder-seo-tips/ | Treat the broader term as a longer-term target; do not discard the useful narrower topic |
+
+All six query rows recorded zero clicks. These small samples support prioritizing an improvement experiment, not a forecast of traffic or clients. Query/page rows are not summed into a site total.
+
+**First-month order:** improve the existing appliance-repair and landscaping PPC pages, preserve and strengthen the custom-home-builder guide, and publish the reviewed location pilot as a separate experiment. These industry pages have first-party query evidence; the new Dallas/Texas web-design targets still need demand validation. The local copy review found repeated passages in appliance-repair marketing and broad outcome claims in landscaping PPC; neither is proven to be the cause of their positions. Future edits should use the real written offer and verified examples, not invented results.
+
+Secondary candidates from the longer query export include septic-company website design, mold-remediation SEO, and HVAC website maintenance. Their relevant query rows have only single-digit impressions, so they remain a small-sample watchlist. Fence software and generic social-media workflows have visible searches but weaker agency-buying intent; raw impressions do not make them the first sales priority.
+
+Search Console URL inspection on November 25 confirmed the homepage, Dallas hub, appliance-repair marketing, landscaping PPC and custom-home-builder SEO guide are indexed with matching declared and Google-selected canonical URLs. The new Dallas web-design URL is **unknown to Google**, which is expected before its publication and discovery. Inspection reads Google's stored state, not a live crawl. Historical branded URLs may still appear in performance data after a redirect; the old cross-brand local-SEO slug already has a permanent redirect to /resources/local-seo-home-improvement-checklist/ in the local configuration.
 
 ## Where to focus first
 
@@ -95,8 +118,8 @@ Day 1 starts when the first reviewed batch reaches production, not when these lo
 
 | Window | Work | Owner / evidence | Decision gate |
 | --- | --- | --- | --- |
-| Days 1–7 | Connect Wonderweb Search Console and analytics; confirm inquiry measurement; review the 15 local pages; publish the approved pilot; verify production canonical/robots/status/assets and submit the sitemap | Owner: publishing and account access. Studio: QA, content and measurement setup. Baseline: last 28 and 90 days where available | No expansion until the published pages are crawlable and the inquiry journey works |
-| Days 8–21 | Inspect priority URLs; map real queries to pages; improve the strongest existing industry pages; gather permitted project details and buyer questions | Export U.S. queries/pages; record which URLs Google selects; review real inquiries with the sales owner | Consolidate overlaps before adding more destinations |
+| Days 1–7 | Keep the connected Search Console baseline; confirm analytics and inquiry measurement; review the 15 local pages; publish the approved pilot; verify production canonical/robots/status/assets and submit the sitemap | Owner: publishing and account access. Studio: QA, content and measurement setup. Baseline: saved U.S. query/page exports | No expansion until the published pages are crawlable and the inquiry journey works |
+| Days 8–21 | Improve appliance-repair marketing and landscaping PPC; strengthen the custom-home-builder guide without replacing its useful answers; gather permitted project details | Use the exact query-to-page mappings above; inspect newly published URLs; review real inquiries with the sales owner | Consolidate overlaps before adding more destinations |
 | Days 22–30 | Improve the pages earning relevant impressions; refine titles, introductory answers, proof and internal links; publish up to two new supporting guides only where a gap is demonstrated | Compare query intent, engagement and accepted inquiries | An impression is evidence of discovery, not proof of a sale or sufficient demand |
 | Days 31–45 | Select at most two additional markets from the shortlist, or two industry opportunities; write distinct briefs; obtain original source material | Confirm demand in Search Console or keyword metrics when available; inspect actual competing page types | Defer any market with no distinct offer, evidence or useful content |
 | Days 46–60 | Publish the validated next batch; add one permissioned project/case study and two buyer guides; improve conversion paths on existing landing pages | Content review, internal links, index coverage and lead quality | Expansion budget follows qualified opportunities, not raw traffic |
@@ -105,7 +128,7 @@ Day 1 starts when the first reviewed batch reaches production, not when these lo
 
 Suggested production pace after the pilot: one substantial buyer guide and one service/location improvement per week, with new location pages added only after the decision gate. This is an editorial capacity target, not a promise to publish regardless of quality. The existing site already has roughly 900 registered pages, so improving intent ownership and useful proof is as important as adding content.
 
-## How to choose the next keywords once data is available
+## How to choose the next keywords using the connected data
 
 1. Export 28-day and 90-day U.S. Search Console queries and pages separately. Exclude brand queries when evaluating new-customer discovery. Do not add query rows to page totals or treat impressions as monthly search volume.
 2. Identify relevant queries whose selected page is useful but underdeveloped. Positions 4–20 can be a starting filter, not a guarantee of quick improvement. Check that the query has agency/service-buying intent.
@@ -141,6 +164,8 @@ A planning example, not a forecast: to win three clients at a 20% qualified-oppo
 - new-pages.csv: the 15 locally implemented destinations and their Markdown paths.
 - openseo-evidence.json: tool-returned audit data and research limitations.
 - public-search-evidence.json: dated competitor-presence observations; no fabricated rank positions.
+- search-console-evidence.json: tool-returned country, query, page and inspection results with date ranges.
+- search-console-us-queries.csv and search-console-us-pages.csv: 1,715 U.S. query rows and 420 page rows for August 22–November 22; not market-wide search volume.
 - validation.json and test-results.txt: local checks and their limits.
 
 The scripts in website/scripts can reproduce the candidate export and original diagrams. They do not publish, send outreach, buy credits or enable recurring paid checks.

@@ -4,10 +4,12 @@ import {homeFaqs} from './home-faqs';
 import {leadGuarantee,leadGuaranteeFaq,guaranteeServices,studioPartners} from './studio-commitment';
 import {serviceVisual} from './service-visuals';
 import {featuredImagePath} from './featured-path';
+import featuredCovers from './featured-covers.json';
 import downloadGuides from '../data/download-guides.json';
 import {guideLandingBySlug,guidePath,relatedGuideLandings} from './guide-landings';
 import {migratedByPath,publishedMigrations,migrationPageSize,migrationLibraryPath} from './migrated-content';
 import {migratedDocument} from './migrated-body';
+import {priorityPagePresentation} from './priority-page-presentation';
 import {locationReading} from './location-reading';
 import {articles} from './articles';
 import {serviceReading,serviceArchiveReading,relatedArticles} from './service-reading';
@@ -34,7 +36,7 @@ const links=(paths:string[])=>bullets([...new Set(paths)].map(path=>`[${seoByPat
 export function markdownBody(page:SeoPage):string{
  if(page.category==='Guide library'){const kind=page.path.startsWith('/solutions/')?'solutions':'resources';const number=Number(page.path.split('/').filter(Boolean).at(-1))||1;const entries=publishedMigrations(kind);return `## Guides\n\n${links(entries.slice((number-1)*migrationPageSize,number*migrationPageSize).map(e=>e.path))}\n\n## Library pages\n\n${links(Array.from({length:Math.ceil(entries.length/migrationPageSize)},(_,i)=>migrationLibraryPath(kind,i+1)))}`;}
  const migrated=migratedByPath.get(page.path);
- if(migrated){const doc=migratedDocument(migrated);return `Original publication: ${migrated.originalPublished}\nWonderweb adaptation: ${migrated.published}\n\n${doc.editorialReview?.status==='rewritten'?`Rewritten for Wonderweb Studio on ${doc.editorialReview.reviewed} with expanded examples and current primary references.`:'Adapted from owner-supplied editorial material. Cost examples and platform details reflect the original context; check current quotes and documentation.'}\n\n${doc.markdown}\n\n## Put the ideas into practice\n\n${links([`/services/${migrated.service}/`,'/pricing/',...serviceReading(migrated.service).slice(0,3).map(a=>`/resources/${a.slug}/`)])}`;}
+ if(migrated){const doc=migratedDocument(migrated);const presentation=priorityPagePresentation[page.path];return `Original publication: ${migrated.originalPublished}\nWonderweb adaptation: ${migrated.published}\n\n${doc.editorialReview?.status==='rewritten'?`Rewritten for Wonderweb Studio on ${doc.editorialReview.reviewed} with expanded examples and current primary references.`:'Adapted from owner-supplied editorial material. Cost examples and platform details reflect the original context; check current quotes and documentation.'}\n\n${doc.markdown}${presentation?`\n\n## ${presentation.actionTitle}\n\n${presentation.actionText}\n\n[${presentation.action}](${absoluteUrl('/contact/')}) · [See scopes and pricing](${absoluteUrl('/pricing/')})`:''}\n\n## Put the ideas into practice\n\n${links(presentation?presentation.related.map(l=>l.href):[`/services/${migrated.service}/`,'/pricing/',...serviceReading(migrated.service).slice(0,3).map(a=>`/resources/${a.slug}/`)])}`;}
  const [kind,slug,service]=page.path.split('/').filter(Boolean);
  const blocks:string[]=[];
  if(kind==='guides'&&!slug)blocks.push('Free guides for home-service businesses. Explore the advice and services on each guide’s own page, then request the PDF through its business-details form.',...downloadGuides.map(g=>`## ${g.title}\n\n${g.description}\n\n[Explore this guide (${g.pages} pages)](${absoluteUrl(guidePath(g.slug))})`));
@@ -93,7 +95,8 @@ export function markdownBody(page:SeoPage):string{
 }
 
 export function pageMarkdown(page:SeoPage):string{
- return `# ${page.title}\n\n> ${page.description}\n\nCanonical page: ${absoluteUrl(page.path)}\nPublisher: ${site.positioning}\nPrimary client market: United States. Service availability: worldwide.\nFeatured image: ${absoluteUrl(featuredImagePath(page.path))}\nFormat: Markdown content guide, generated from the website’s editorial data. The HTML page is the complete reference.\n${page.published?`Published: ${page.published}\n`:''}${page.modified?`Updated: ${page.modified}\n`:''}\n![${page.title} featured editorial cover](${absoluteUrl(featuredImagePath(page.path))})\n\n${markdownBody(page)}\n\n---\n\n[Contact Wonderweb Studio](${absoluteUrl('/contact/')}) · [Content directory](${absoluteUrl('/content/index.md')})\n`;
+ const imageAlt=priorityPagePresentation[page.path]?featuredCovers[featuredImagePath(page.path) as keyof typeof featuredCovers].alt:`${page.title} featured editorial cover`;
+ return `# ${page.title}\n\n> ${page.description}\n\nCanonical page: ${absoluteUrl(page.path)}\nPublisher: ${site.positioning}\nPrimary client market: United States. Service availability: worldwide.\nFeatured image: ${absoluteUrl(featuredImagePath(page.path))}\nFormat: Markdown content guide, generated from the website’s editorial data. The HTML page is the complete reference.\n${page.published?`Published: ${page.published}\n`:''}${page.modified?`Updated: ${page.modified}\n`:''}\n![${imageAlt}](${absoluteUrl(featuredImagePath(page.path))})\n\n${markdownBody(page)}\n\n---\n\n[Contact Wonderweb Studio](${absoluteUrl('/contact/')}) · [Content directory](${absoluteUrl('/content/index.md')})\n`;
 }
 
 export const markdownPages=new Map(seoPages.filter(p=>p.index!==false).map(p=>[markdownPath(p.path),p]));

@@ -1,0 +1,17 @@
+# Opportunity shortlist and review notes
+
+Reviewed November 25, 2026. Historical U.S. Search Console averages are not live ranks. Keyword-market volume and KD are unavailable. No traffic forecasts are made.
+
+| Candidate / pages | Observed evidence | Action and likely buyer | Effort | Uncertainty / decision |
+| --- | --- | --- | --- | --- |
+| Appliance repair marketing | Agency query: 60 impressions, average 29.3, zero clicks, Oct 26–Nov 22. Page indexed. Local copy repeats passages. | Clarify scope, repair intake, proof and inquiry path for repair business owners. | Medium | Copy duplication is not proven to cause the position. Priority experiment for direct agency intent. |
+| Landscaping PPC | Agency query: 15 impressions, average 20.1; services variant: 15 at 23.1; zero clicks. Page indexed. Broad outcome claims in copy. | Explain maintenance/install campaigns, territory, tracking and agreed scope for landscaping owners. | Medium | Small sample, no promised gain. Priority existing commercial page. |
+| Custom home builder guide | Narrow SEO query: 19 impressions, average 14.4; broad term 129 at 53.1; zero clicks. Page indexed and useful specific answers. | Preserve answers; add permissioned evidence and a clear SEO service path. | Low–medium | Protect useful narrower relevance; do not replace with generic page. |
+| Windows/doors marketing | Page: 348 impressions, average 64.4 over Aug 22–Nov 22, zero clicks. | Later diagnosis of narrower buying need for installers. | Medium–high | Runner-up has more visibility but farther historical positions than direct agency signals above. No established cause. |
+| New location/service pilot | Dedicated competitors exist; owner prioritizes Texas; no measured volume/KD. | 15 locally prepared distinct destinations for service-business website buyers. | Completed local batch | Still unproven demand/ranking fit. New Dallas page unknown to Google. Review/publish/measure before expansion. |
+| Landscaping reputation | Query: 19 impressions, average 17.6, zero clicks in 28-day mapping. | Review actual review-request process and commercial scope. | Medium | Next review; preserve existing URL. |
+| Septic, mold, HVAC maintenance | Several relevant queries at favorable averages but single-digit impressions. | Watchlist of industry-specific service buying topics. | TBD | Too little observed activity to prioritize from position alone. |
+| Software/workflow resources | Fence software and social-media workflows have visibility. | Keep useful resources; connect appropriately to services. | Low maintenance | Weaker direct agency-buying intent than lead service candidates. |
+| Index access and crawl maintenance | Five existing URLs indexed/canonical matched; 50-page crawl no critical, seven title and two heading notices; 852 uncrawled. | Sampled title/headings fixed; verify new production URLs after owner publication. | Fixes complete locally | No established sitewide indexing blocker, full-site verdict or CWV measurement. |
+
+Self-review: the largest rejected page signal (windows/doors marketing) remains visible in the report and has a reason for deferral. First recommendations use historical first-party evidence, clear service intent and observed content; no current-position claim or causal penalty claim is made. The new market batch is explicitly an experiment. Images, schema, Markdown and sitemap readiness are not presented as guarantees. Query, page and country aggregates remain separate. All material review findings appear in the report or the next-quarter backlog.

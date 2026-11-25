@@ -1,0 +1,28 @@
+/* Extend the existing paper, cobalt and citrus design only on the three reviewed pages. */
+.priority-highlights{display:flex;flex-wrap:wrap;gap:10px 20px;list-style:none;padding:0;margin:26px 0 22px;color:var(--ink,#211d29);font-size:12px;line-height:1.6}
+.priority-highlights li{display:flex;gap:9px;align-items:baseline}
+.priority-highlights li:before{content:'';width:6px;height:6px;flex:none;border-radius:50%;background:#4824df}
+.priority-editorial .article-sidebar{align-self:start;max-height:calc(100dvh - 130px);overflow-y:auto;padding-right:14px}
+.priority-editorial .article-sidebar>a{font-size:12px;line-height:1.5;padding-block:9px}
+.priority-sidebar-action{margin-top:20px;font-size:12px!important;text-align:left;max-width:100%;white-space:normal}
+.priority-editorial .prose{min-width:0}
+.priority-editorial-section{padding-bottom:18px}
+.priority-editorial-section+ .priority-editorial-section{border-top:1px solid #d8d2ca;padding-top:30px;margin-top:12px}
+.priority-editorial-section h2{margin-top:0;font-size:clamp(28px,3vw,39px);line-height:1.2}
+.priority-editorial-section h3{font-size:23px;letter-spacing:-.025em}
+.priority-editorial-section p{max-width:76ch}
+.priority-editorial-section table{border-radius:16px;font-size:14px}
+.priority-editorial-section th{background:#d9ff58;color:#211d29}
+.priority-explainer{margin:30px 0 10px;border:1px solid #d8d2ca;border-radius:22px;overflow:hidden;background:#faf8f4}
+.priority-explainer img{display:block;width:100%;height:auto}
+.priority-explainer figcaption{padding:16px 22px;border-top:1px solid #d8d2ca;font-size:12px;line-height:1.7;color:#584e63}
+.priority-next-step{padding:35px;background:#d9ff58;border-radius:24px;margin:38px 0;color:#211d29}
+.priority-next-step h2{font-size:34px;line-height:1.15;margin:15px 0}
+.priority-next-step p{color:#383229;font-size:16px}
+.priority-kicker{font-size:10px;letter-spacing:.16em;font-weight:600}
+.priority-next-step .button{color:#fff;text-decoration:none}
+.priority-next-step .service-hero-actions>a{font-size:13px;color:#211d29}
+.priority-editorial .article-related-reading{padding:28px;border:1px solid #d2c9df;background:#e4d9ff;border-radius:22px}
+.priority-editorial .article-related-reading h2{font-size:28px;margin:0 0 18px}
+@media(max-width:900px){.priority-editorial .article-sidebar{max-height:none;overflow:visible}.priority-sidebar-action{display:none}}
+@media(max-width:700px){.priority-highlights{display:grid;gap:6px;font-size:12px}.priority-editorial-section+ .priority-editorial-section{padding-top:25px}.priority-next-step{padding:25px}.priority-next-step h2{font-size:29px}.priority-explainer figcaption{padding:14px 18px}.priority-editorial .article-related-reading{padding:24px}}

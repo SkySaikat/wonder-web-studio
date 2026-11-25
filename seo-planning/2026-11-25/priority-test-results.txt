@@ -1,0 +1,55 @@
+> wonderweb-studio@1.0.0 test
+> node --import tsx --test tests/*.test.ts
+
+✔ every service and downloadable guide has genuinely distinct artwork and complete image metadata (16.6406ms)
+✔ sitemap retains all public HTML routes and nests their service and guide images (14.1542ms)
+✔ guide schema describes signup access and service Markdown preserves visible FAQs and artwork (11.2262ms)
+✔ every original service cluster contains six substantial, distinct, linked guides (14.4853ms)
+✔ every confirmed service has a page, scope, price path and bidirectional reading links (0.9182ms)
+✔ pricing schema and Markdown match visible amounts and complete installment commitments (13.4311ms)
+✔ the expanded service brief backlog has six topics per confirmed new offering (0.6329ms)
+✔ every public page has a discoverable Markdown guide with a canonical response (1394.2535ms)
+✔ article dates and content agree across visible data, schema and Markdown (11.334ms)
+✔ local service guides retain distinct scope and remote-delivery facts (1.028ms)
+✔ the remote agency identity is consistent across metadata, schema and AI-readable content (121.4834ms)
+✔ guide leads require complete business details and identify the resource in the lead email (3.5821ms)
+✔ download grants are signed, expire, and cannot unlock another guide (0.6401ms)
+✔ every guide file is private while its cover remains public (5.2587ms)
+Inquiry email delivery failed { provider: 'zoho', code: 'UNKNOWN', responseCode: undefined }
+✔ lead acceptance unlocks only the requested files; delivery failure never grants access (12.0601ms)
+✔ every protected PDF has its own public, service-led destination (15.2577ms)
+✔ guide discovery content contains the matching advice, services and form, never a direct download (1.8851ms)
+✔ legacy PDF and CSV links lead to the matching page, preserving lead capture (0.3213ms)
+✔ all transports route to the studio inbox and incomplete settings fail closed (0.774ms)
+✔ Zoho preserves inquiry and booking details, visitor reply-to, TLS and recipient acceptance (11.4021ms)
+✔ form endpoint sends through Zoho, ignores visitor recipients and retains production spam checks (3.4229ms)
+✔ requires valid contact details and explicit inquiry consent (2.803ms)
+✔ email receipt is required before delivery is reported (2.7539ms)
+✔ inquiry route rejects cross-origin requests before processing (1.5288ms)
+✔ inquiry route rejects malformed, oversized and honeypot input (0.9246ms)
+✔ unconfigured delivery fails clearly without claiming success (0.5165ms)
+✔ call requests retain their time zone and remain unconfirmed (11.4261ms)
+✔ booking window uses the requested time zone and a bounded future period (0.4226ms)
+✔ new buyer pages have complete schema, unique real media, Markdown and sitemap discovery (18.7968ms)
+✔ each local web-design page is linked from its hub and preserves its unique brief and FAQ answers (0.6019ms)
+✔ scheduled publication uses a UTC boundary and stays out of public discovery before release (8.5989ms)
+✔ every adaptation is sanitized, has provenance and links to real destinations (106.107ms)
+✔ priority commercial pages retain their URLs and real service intent across discovery formats (6.3339ms)
+✔ all editorial URLs have unique metadata and actual generated images (76.7324ms)
+✔ page graph identifiers resolve locally and location pages represent service areas (34.8435ms)
+✔ discovery files cover every public page, excluding non-indexed payment information (62.0858ms)
+✔ preview and launch modes produce opposite crawl directives while payment information stays noindex (229.0368ms)
+✔ JSON-LD escapes content that could otherwise break out of the script element (0.1343ms)
+✔ production indexing defaults and preview isolation stay consistent across all crawl controls (1139.5977ms)
+✔ public discovery content and image descriptions keep the studio identity independent (138.1243ms)
+✔ the approved paid-campaign guarantee has matching FAQ and complete discovery terms (1.388ms)
+✔ approved monthly tier names and prices reach structured offers and Markdown (0.5174ms)
+✔ practical decision tables retain their answer, criteria and methodology in Markdown (0.2303ms)
+ℹ tests 43
+ℹ suites 0
+ℹ pass 43
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1837.2444

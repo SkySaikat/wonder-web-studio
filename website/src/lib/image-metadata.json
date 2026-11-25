@@ -882,8 +882,8 @@
     "type": "image/webp"
   },
   "/featured/solutions--landscaping-ppc-management-v2.webp": {
-    "title": "Landscaping PPC Management Agency | Wonderweb Studio",
-    "description": "A search results panel beside a campaign budget dial and a small home-service business model. Featured cover for Landscaping PPC Management Agency. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "title": "Landscaping PPC: campaigns around the work you want",
+    "description": "Concept illustration of a landscaped garden, patio and work van beside a search panel and location target. AI-generated conceptual artwork for Wonderweb Studio; not a completed client project or measured outcome.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
@@ -1169,8 +1169,8 @@
     "type": "image/webp"
   },
   "/featured/solutions--appliance-repair-marketing-v2.webp": {
-    "title": "Appliance Repair Marketing Agency | Wonderweb Studio",
-    "description": "A content library with folders, draft cards, an approval checkmark and a publishing calendar. Featured cover for Appliance Repair Marketing Agency. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "title": "Appliance repair marketing: from search to service call",
+    "description": "Concept illustration of a refrigerator, washing machine and repair tools connected to a local-search panel and phone. AI-generated conceptual artwork for Wonderweb Studio; not a completed client project or measured outcome.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
@@ -2688,8 +2688,8 @@
     "type": "image/webp"
   },
   "/featured/resources--custom-home-builder-seo-tips-v2.webp": {
-    "title": "SEO for Custom Home Builders: 9 Tips for Better Leads | Wonderweb Studio",
-    "description": "A translucent magnifying glass above a structured website tree, with a neat stack of useful content pages. Featured cover for SEO for Custom Home Builders: 9 Tips for Better Leads. Conceptual editorial artwork generated with Gemini; not a client photograph or measured result.",
+    "title": "Custom home builder SEO: make your craftsmanship discoverable",
+    "description": "Concept illustration of a timber-clad custom home model with architectural plans, a magnifying glass and a project-gallery card. AI-generated conceptual artwork for Wonderweb Studio; not a completed client project or measured outcome.",
     "width": 1440,
     "height": 810,
     "type": "image/webp"
@@ -7952,8 +7952,8 @@
     "type": "image/png"
   },
   "/seo/solutions--landscaping-ppc-management.png": {
-    "title": "Landscaping PPC Management Agency - Wonderweb Studio",
-    "description": "Featured social preview for Landscaping PPC Management Agency. Landscaping PPC Management Agency. PPC campaigns that target local searches deliver better ROI when they are supported by a fully optimized landscaping…",
+    "title": "Landscaping PPC management for the jobs you want to win - Wonderweb Studio",
+    "description": "Featured social preview for Landscaping PPC management for the jobs you want to win. Google Ads management for U.S. landscaping companies. Separate maintenance and installation campaigns, improve landing pages and track qualified inquiries.",
     "width": 1200,
     "height": 630,
     "type": "image/png"
@@ -8239,8 +8239,8 @@
     "type": "image/png"
   },
   "/seo/solutions--appliance-repair-marketing.png": {
-    "title": "Appliance Repair Marketing Agency - Wonderweb Studio",
-    "description": "Featured social preview for Appliance Repair Marketing Agency. Appliance Repair Marketing Agency. Google Ads puts you at the top of search results today, for people typing “refrigerator repair near me” with a broken…",
+    "title": "Appliance repair marketing that connects searches to service calls - Wonderweb Studio",
+    "description": "Featured social preview for Appliance repair marketing that connects searches to service calls. Google Ads, local SEO and websites for U.S. appliance repair companies. Attract relevant repair inquiries and connect them to your dispatch team.",
     "width": 1200,
     "height": 630,
     "type": "image/png"
@@ -9758,8 +9758,8 @@
     "type": "image/png"
   },
   "/seo/resources--custom-home-builder-seo-tips.png": {
-    "title": "SEO for Custom Home Builders: 9 Tips for Better Leads - Wonderweb Studio",
-    "description": "Featured social preview for SEO for Custom Home Builders: 9 Tips for Better Leads. SEO for Custom Home Builders: 9 Tips for Better Leads. SEO for custom home builders works when each page speaks to a buyer planning a one-of-a-kind build…",
+    "title": "SEO for custom home builders: 9 ways to attract better-fit inquiries - Wonderweb Studio",
+    "description": "Featured social preview for SEO for custom home builders: 9 ways to attract better-fit inquiries. A practical SEO guide for U.S. custom home builders: plan service pages, project galleries, local visibility and inquiry tracking around the homes you build.",
     "width": 1200,
     "height": 630,
     "type": "image/png"
@@ -13858,5 +13858,47 @@
     "width": 1200,
     "height": 630,
     "type": "image/png"
+  },
+  "/editorial/buyer-guides/appliance-repair-concept.webp": {
+    "title": "Appliance repair marketing: from search to service call",
+    "description": "Concept illustration of a refrigerator, washing machine and repair tools connected to a local-search panel and phone. AI-generated conceptual artwork for Wonderweb Studio; not a completed client project or measured outcome.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/editorial/buyer-guides/appliance-lead-journey.webp": {
+    "title": "From local search to a repair inquiry",
+    "description": "A planning example: count a suitable repair inquiry separately from an answered call or completed job. Appliance repair lead journey: local search, service page, appliance and ZIP-code check, then dispatch follow-up.",
+    "width": 1200,
+    "height": 800,
+    "type": "image/webp"
+  },
+  "/editorial/buyer-guides/landscaping-ppc-concept.webp": {
+    "title": "Landscaping PPC: campaigns around the work you want",
+    "description": "Concept illustration of a landscaped garden, patio and work van beside a search panel and location target. AI-generated conceptual artwork for Wonderweb Studio; not a completed client project or measured outcome.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/editorial/buyer-guides/landscaping-campaign-map.webp": {
+    "title": "One business. Different buying journeys.",
+    "description": "An example campaign structure. The services, budgets and destinations are chosen around your actual business. Landscaping campaign map separating recurring maintenance, installation projects and commercial grounds contracts into matching inquiry paths.",
+    "width": 1200,
+    "height": 800,
+    "type": "image/webp"
+  },
+  "/editorial/buyer-guides/custom-home-builder-concept.webp": {
+    "title": "Custom home builder SEO: make your craftsmanship discoverable",
+    "description": "Concept illustration of a timber-clad custom home model with architectural plans, a magnifying glass and a project-gallery card. AI-generated conceptual artwork for Wonderweb Studio; not a completed client project or measured outcome.",
+    "width": 1440,
+    "height": 810,
+    "type": "image/webp"
+  },
+  "/editorial/buyer-guides/builder-site-structure.webp": {
+    "title": "A website a serious buyer can explore",
+    "description": "A suggested information structure, not a requirement to create a page for every city or architectural style. Custom home builder website structure connecting build types, genuine service areas, detailed project stories and a consultation request.",
+    "width": 1200,
+    "height": 800,
+    "type": "image/webp"
   }
 }

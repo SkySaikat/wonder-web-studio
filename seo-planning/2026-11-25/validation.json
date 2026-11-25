@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-25",
+  "scope": "Local implementation checks; separate stored Google index inspection",
+  "tests": {
+    "passed": 42,
+    "failed": 0,
+    "log": "test-results.txt"
+  },
+  "productionBuild": "passed",
+  "typecheck": "passed",
+  "localPages": 15,
+  "pageIssues": 0,
+  "linkDestinationsChecked": 51,
+  "badLinks": [],
+  "imageAssetsChecked": 35,
+  "badImages": [],
+  "sitemapHtmlUrls": 916,
+  "mobileChecks": {
+    "width": 390,
+    "paths": [
+      "/locations/dallas/web-design/",
+      "/locations/texas/",
+      "/resources/texas-small-business-web-design-cost/",
+      "/pricing/",
+      "/guides/"
+    ],
+    "horizontalOverflow": false,
+    "oneH1PerPage": true,
+    "headingSkips": 0
+  },
+  "bookingCta": "Opened existing request-time dialog without submitting; not an automatic calendar booking",
+  "preview": "http://127.0.0.1:3010",
+  "previewNoindex": true,
+  "gsc": {
+    "connected": true,
+    "property": "sc-domain:wonderwebstudio.com",
+    "usQueryRows": 1715,
+    "usPageRows": 420,
+    "existingUrlsInspectedAndIndexed": 5,
+    "newDallasWebDesignStatus": "URL is unknown to Google"
+  },
+  "publishedByAgent": false,
+  "pushedByAgent": false,
+  "limitations": [
+    "Local route checks do not prove Google indexing.",
+    "Keyword search-volume and difficulty providers unavailable due insufficient credits.",
+    "Audit sample 50 live URLs; not a complete site or Core Web Vitals audit.",
+    "Search Console average positions describe historical impressions, not fixed current rankings."
+  ]
+}

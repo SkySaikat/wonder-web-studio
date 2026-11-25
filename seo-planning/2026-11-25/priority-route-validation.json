@@ -1,0 +1,75 @@
+{
+  "pagesChecked": 3,
+  "mainContentLinkDestinationsChecked": 17,
+  "imageAssetsChecked": 14,
+  "sitemapHtmlUrls": 916,
+  "previewNoindex": true,
+  "badLinks": [],
+  "badImages": [],
+  "pages": [
+    {
+      "path": "/solutions/appliance-repair-marketing/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/solutions/landscaping-ppc-management/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "Service",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    },
+    {
+      "path": "/resources/custom-home-builder-seo-tips/",
+      "status": 200,
+      "h1": 1,
+      "schemaTypes": [
+        "Answer",
+        "BlogPosting",
+        "BreadcrumbList",
+        "BusinessAudience",
+        "ContactPoint",
+        "FAQPage",
+        "ImageObject",
+        "ListItem",
+        "Organization",
+        "Question",
+        "WebPage",
+        "WebSite"
+      ],
+      "issues": []
+    }
+  ],
+  "limits": [
+    "Local responses only; not production deployment or Google indexing verification.",
+    "Schema JSON parsed and types/references/visible FAQ parity checked; no Google rich-result eligibility claim."
+  ]
+}
