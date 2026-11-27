@@ -1,6 +1,7 @@
 import type { NextConfig } from 'next';
 import {isSiteIndexable} from './src/lib/indexing';
 import guides from './src/data/download-guides.json';
+import consolidation from './src/data/seo-consolidation.json';
 
 const config: NextConfig = {
   trailingSlash: true,
@@ -12,6 +13,7 @@ const config: NextConfig = {
       {source:'/resources/local-seo-best-practices-boosting-your-home-improvement-business-with-built-right-digital',destination:'/resources/local-seo-home-improvement-checklist/',permanent:true},
       {source:'/content/resources/local-seo-best-practices-boosting-your-home-improvement-business-with-built-right-digital.md',destination:'/content/resources/local-seo-home-improvement-checklist.md',permanent:true},
       ...guides.flatMap(guide=>[`${guide.slug}.pdf`,...('csv' in guide?[`${guide.slug}.csv`]:[])].map(file=>({source:`/guides/${file}`,destination:`/guides/${guide.slug}/`,permanent:false}))),
+      ...Object.entries(consolidation.redirects).map(([source,destination])=>({source:source.replace(/\/$/,''),destination,permanent:true})),
       { source: "/sitemap_index.xml", destination: "/sitemap.xml", permanent: true },
       { source: '/results/coastal-bath-paid-search', destination: '/results/bathroom-paid-search-efficiency/', permanent: true },
       { source: '/blog', destination: '/resources/', permanent: true },

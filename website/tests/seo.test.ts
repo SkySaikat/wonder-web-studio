@@ -6,7 +6,7 @@ import {execFileSync} from 'node:child_process';
 import {existsSync} from 'node:fs';
 import {publicSeoPages,seoPages,seoImagePath} from '../src/lib/seo-pages';
 import {pageGraph,organizationGraph} from '../src/lib/schema';
-import {metadata} from '../src/lib/seo';
+import {metadata,searchTitle} from '../src/lib/seo';
 import {jsonLd} from '../src/lib/site';
 import {isSiteIndexable} from '../src/lib/indexing';
 import nextConfig from '../next.config';
@@ -14,7 +14,7 @@ import {llmsText,llmsFullText} from '../src/lib/discovery';
 
 test('all editorial URLs have unique metadata and actual generated images',()=>{
  for(const field of ['path','title','description'] as const)assert.equal(new Set(seoPages.map(p=>p[field])).size,seoPages.length,`duplicate ${field}`);
- for(const p of seoPages){assert.ok(`${p.title} | Wonderweb Studio`.length<=85,`overlong title: ${p.path}`);assert.match(p.path,/^\/(?:[a-z0-9-]+\/)*$/);assert.ok(existsSync(`public${seoImagePath(p.path)}`));const cover=featuredCovers[featuredImagePath(p.path) as keyof typeof featuredCovers];assert.ok(cover,`missing cover: ${p.path}`);assert.ok(existsSync(`public${cover.src}`));assert.ok(existsSync(`public${cover.artwork}`));assert.ok(cover.alt.length>20&&cover.description.length>30);assert.equal(cover.width/cover.height,16/9);const m=metadata('fallback','fallback',p.path);assert.deepEqual(m.title,{absolute:`${p.title} | Wonderweb Studio`});assert.equal(m.description,p.description);}
+ for(const p of seoPages){assert.ok(`${p.title} | Wonderweb Studio`.length<=85,`overlong title: ${p.path}`);assert.match(p.path,/^\/(?:[a-z0-9-]+\/)*$/);assert.ok(existsSync(`public${seoImagePath(p.path)}`));const cover=featuredCovers[featuredImagePath(p.path) as keyof typeof featuredCovers];assert.ok(cover,`missing cover: ${p.path}`);assert.ok(existsSync(`public${cover.src}`));assert.ok(existsSync(`public${cover.artwork}`));assert.ok(cover.alt.length>20&&cover.description.length>30);assert.equal(cover.width/cover.height,16/9);const m=metadata('fallback','fallback',p.path);assert.deepEqual(m.title,{absolute:searchTitle(p.title)});assert.ok(searchTitle(p.title).length<=60||searchTitle(p.title)===p.title,`title suffix overflow: ${p.path}`);assert.equal(m.description,p.description);}
  assert.ok(!publicSeoPages.some(p=>p.path==='/payments/'));
  assert.ok(publicSeoPages.some(p=>p.path==='/guides/'));
 });

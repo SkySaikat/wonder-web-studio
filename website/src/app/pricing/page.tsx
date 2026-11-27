@@ -13,7 +13,7 @@ import {metadata as makeMetadata} from '@/lib/seo';
 export const metadata=makeMetadata('Website & Digital Marketing Pricing','Compare standalone services, monthly marketing and one-time website projects. Clear USD starting prices, payment options and defined scopes.','/pricing/');
 export default function Pricing(){return <div className="pricing-page">
  <PageSchema path="/pricing/"/>
- <PageHero eyebrow="GOOD WORK. A CLEAR INVESTMENT." title="A bigger ambition. The right team." description="Growth programs from $3,000 per month, with full agency partnerships up to $25,000. Connect paid media, search, social content and your website around the next stage of your business." crumbs={[{label:'Pricing'}]}/>
+ <PageHero eyebrow="GOOD WORK. A CLEAR INVESTMENT." title="Website & Marketing Pricing for Small Businesses" description="Growth programs from $3,000 per month, with full agency partnerships up to $25,000. Connect paid media, search, social content and your website around the next stage of your business." crumbs={[{label:'Pricing'}]}/>
  <section className="pricing-selector-section" aria-label="Compare pricing options"><div className="container">
   <PricingTabs label="Pricing options" items={[
    {id:'partnerships',label:'Monthly partnerships',caption:'Built around your next stage of growth.',content:<MonthlyPlanCatalog/>},

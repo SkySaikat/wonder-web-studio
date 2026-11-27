@@ -20,13 +20,26 @@ import {CTA,FAQ,CheckList,Eyebrow,Breadcrumbs} from '@/components/ui';
 import {BookCallButton} from '@/components/booking';
 
 const tones:Record<string,string>={lilac:'#2310d5',blue:'#2310d5',mint:'#b8ed52',lime:'#dcff64',orange:'#ff8a24',pink:'#ff694a'};
+/** Keyword-led H1s for the services buyers search for most; other services keep their plain title. */
+const serviceHeading:Record<string,string>={
+ 'web-design':'Website Design for Contractors & Small Businesses',
+ 'web-development':'Web Development for Small Businesses',
+ 'website-management':'Website Management & Maintenance',
+ 'seo':'SEO Services for Contractors & Small Businesses',
+ 'local-seo':'Local SEO for Home-Service Businesses',
+ 'google-ads':'Google Ads Management for Contractors',
+ 'local-services-ads':'Google Local Services Ads Management',
+ 'meta-ads':'Facebook & Instagram Ads Management',
+ 'landing-page-design':'Landing Page Design for Lead Generation',
+ 'lead-generation':'Lead Generation for Contractors',
+};
 export const dynamicParams=false;
 export function generateStaticParams(){return services.map(s=>({slug:s.slug}))}
 export async function generateMetadata({params}:{params:Promise<{slug:string}>}){const{slug}=await params;const s=services.find(x=>x.slug===slug);return s?makeMetadata(`${s.title} Services`,s.description,`/services/${s.slug}/`):{}}
 export default async function ServicePage({params}:{params:Promise<{slug:string}>}){
  const{slug}=await params;const s=services.find(x=>x.slug===slug);const d=serviceDetails[slug];if(!s||!d)notFound();const project=clientProjects.find(p=>p.slug===d.project);const price=servicePrices.find(p=>p.service===slug);const web=slug==='web-design'?websiteProjects[0]:undefined;const customPrice=customServicePrices.find(p=>p.service===slug);
  return <div className={`service-detail service-${slug}`} style={{'--service-accent':tones[d.tone]} as CSSProperties}><PageSchema path={`/services/${slug}/`}/>
- <section className="service-hero section"><div className="container"><Breadcrumbs items={[{label:'Services',href:'/services/'},{label:s.title}]}/><div className="service-hero-grid"><div><Eyebrow>{s.category} / {s.title}</Eyebrow><h1>{s.title}<br/><em>{s.headline}</em></h1><p>{s.intro}</p><div className="service-hero-actions"><BookCallButton service={s.title}>Book a call</BookCallButton><a className="quiet-link" href="#service-results">See our work ↗</a></div><p className="service-hero-links">For <Link href="/industries/">US home-service businesses</Link>. Connected with <Link href={`/services/${s.related[0]}/`}>{services.find(r=>r.slug===s.related[0])?.title.toLowerCase()}</Link>.</p><span className="service-hero-note">A clear brief. A considered approach. Your next chapter.</span></div><ServiceHeroImage title={s.title} detail={d} slug={slug}/></div></div></section>
+ <section className="service-hero section"><div className="container"><Breadcrumbs items={[{label:'Services',href:'/services/'},{label:s.title}]}/><div className="service-hero-grid"><div><Eyebrow>{s.category} / {s.title}</Eyebrow><h1>{serviceHeading[s.slug]||s.title}<br/><em>{s.headline}</em></h1><p>{s.intro}</p><div className="service-hero-actions"><BookCallButton service={s.title}>Book a call</BookCallButton><a className="quiet-link" href="#service-results">See our work ↗</a></div><p className="service-hero-links">For <Link href="/industries/">US home-service businesses</Link>. Connected with <Link href={`/services/${s.related[0]}/`}>{services.find(r=>r.slug===s.related[0])?.title.toLowerCase()}</Link>.</p><span className="service-hero-note">A clear brief. A considered approach. Your next chapter.</span></div><ServiceHeroImage title={s.title} detail={d} slug={slug}/></div></div></section>
  <nav className="service-jump" aria-label="Service page sections"><div className="container"><a href="#service-results">Our work</a><a href="#fit">Is it for you?</a><a href="#approach">Our approach</a><a href="#deliverables">What you get</a><a href="#workflow">How it works</a><a href="#measurement">What we measure</a><a href="#service-guides">Guides</a><a href="#questions">FAQs</a></div></nav>
  <GuideBanner service={slug}/>
  <section className="section" id="fit"><div className="container service-fit"><div><Eyebrow>A GOOD PLACE TO START</Eyebrow><h2>Built around the<br/><em>right problem.</em></h2></div><div><p className="service-lead">{d.fit}</p><h3>The work you can expect</h3><p>{d.outcome}</p></div></div></section>

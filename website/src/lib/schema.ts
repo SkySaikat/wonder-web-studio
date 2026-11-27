@@ -19,7 +19,8 @@ export function imageSchema(path:string):Node{
  return {'@type':'ImageObject','@id':`${url}#image`,url,contentUrl:url,name:image.title,caption:image.description,description:image.description,encodingFormat:image.type,width:image.width,height:image.height};
 }
 export function organizationGraph(){return {'@context':'https://schema.org','@graph':[
- {'@type':'Organization','@id':orgId,name:site.name,url:`${site.url}/`,description:site.description,areaServed:site.serviceAreas,knowsAbout:['Web design','SEO','Paid advertising','Social media marketing','US small-business marketing'],email:site.email,logo:ref(`${absoluteUrl('/brand/wonderweb-studio.svg')}#image`),sameAs:site.socials.map(s=>s.url),contactPoint:{'@type':'ContactPoint',contactType:'sales inquiries',email:site.email,url:absoluteUrl('/contact/'),availableLanguage:'English'}},
+ {'@type':'Organization','@id':orgId,name:site.name,url:`${site.url}/`,description:site.description,areaServed:site.serviceAreas,knowsAbout:['Web design','SEO','Paid advertising','Social media marketing','US small-business marketing'],email:site.email,logo:ref(`${absoluteUrl('/brand/wonderweb-studio.svg')}#image`),sameAs:site.socials.map(s=>s.url),founder:ref(`${site.url}/#founder`),...(site.phone?{telephone:site.phone}:{}),contactPoint:{'@type':'ContactPoint',contactType:'sales inquiries',email:site.email,...(site.phone?{telephone:site.phone,areaServed:'US'}:{}),url:absoluteUrl('/contact/'),availableLanguage:'English'}},
+ {'@type':'Person','@id':`${site.url}/#founder`,name:'Saikat Chowdhury',jobTitle:'Founder & CEO',worksFor:ref(orgId),url:absoluteUrl('/about/'),image:absoluteUrl('/work/saikat.webp'),sameAs:['https://saikatchowdhury.com/'],knowsAbout:['Web design','Web development','E-commerce','Digital marketing']},
  imageSchema('/brand/wonderweb-studio.svg'),
  {'@type':'WebSite','@id':websiteId,url:`${site.url}/`,name:site.name,description:site.description,publisher:ref(orgId),inLanguage:'en'},
  ]};}

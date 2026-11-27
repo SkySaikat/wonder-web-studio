@@ -1,6 +1,8 @@
 import {featuredImagePath} from './featured-path';
 import entries from '@/data/migrated/index.json';
 import seoTitles from '@/data/migration-seo-titles.json';
+import consolidation from '@/data/seo-consolidation.json';
+const redirected=new Set(Object.keys(consolidation.redirects));
 
 export type MigratedEntry = (typeof entries)[number];
 export type MigratedDocument = MigratedEntry & {html:string; text:string; markdown:string; headings:{id:string;title:string}[]; faqs:[string,string][]; editorialReview?:{status:string;reviewed:string;source:string}};
@@ -11,7 +13,7 @@ export function isReleased(entry: Pick<MigratedEntry,'published'>, now:Date|numb
  return Number.isFinite(time)&&time<=Number(now);
 }
 export function publishedMigrations(kind?:string,now:Date|number=new Date()) {
- return migratedEntries.filter(e=>(!kind||e.kind===kind)&&isReleased(e,now)).sort((a,b)=>b.originalPublished.localeCompare(a.originalPublished)||a.slug.localeCompare(b.slug));
+ return migratedEntries.filter(e=>(!kind||e.kind===kind)&&!redirected.has(e.path)&&isReleased(e,now)).sort((a,b)=>b.originalPublished.localeCompare(a.originalPublished)||a.slug.localeCompare(b.slug));
 }
 export const migratedByPath = new Map(migratedEntries.map(e=>[e.path,e]));
 export function migrationCover(entry:MigratedEntry) {return featuredImagePath(entry.path);}

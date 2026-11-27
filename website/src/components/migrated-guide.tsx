@@ -3,7 +3,8 @@ import Image from './content-image';
 import {BookCallButton} from './booking';
 import {FeaturedImage} from './featured-image';
 import {PageSchema} from './page-schema';
-import {PageHero,CTA,FAQ} from './ui';
+import {PageHero,FAQ} from './ui';
+import {AuditOffer} from './audit-offer';
 import {formatEditorialDate} from '@/lib/editorial-dates';
 import {publishedMigrations,type MigratedEntry} from '@/lib/migrated-content';
 import {serviceReading} from '@/lib/service-reading';
@@ -63,6 +64,6 @@ export function MigratedGuide({entry}:{entry:MigratedEntry}) {
     </div>
    </article>
   </div></section>
-  <CTA title={presentation?.actionTitle} text={presentation?.actionText}/>
+  <AuditOffer context={`${entry.path} ${entry.title}`}/>
  </>;
 }

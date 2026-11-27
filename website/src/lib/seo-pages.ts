@@ -4,6 +4,7 @@ import {serviceVisual} from './service-visuals';
 import downloadGuides from '../data/download-guides.json';
 import {guideLandings} from './guide-landings';
 import {featuredImagePath} from './featured-path';
+import consolidation from '../data/seo-consolidation.json';
 import {migratedEntries,migrationPageSize,migrationLibraryPath,isReleased,migrationSeoTitle} from './migrated-content';
 import {priorityPagePresentation} from './priority-page-presentation';
 import {editorialImages,caseImage} from './editorial-images';
@@ -77,7 +78,12 @@ const baseSeoPages:SeoPage[]=[...core,...migrationLibraries,
  ...articles.map(a=>({path:`/resources/${a.slug}/`,title:a.seoTitle||articleTitles[a.slug]||a.title,description:a.summary,label:a.title,category:a.category,type:'WebPage' as const,entity:'BlogPosting' as const,modified:a.updated||contentUpdated,...(a.published?{published:a.published}:{}),images:[editorialImages[a.slug].src]})),
  ...campaignStories.map(s=>({modified:'2026-11-18',path:`/results/${s.slug}/`,title:({'roofing-local-search':'Roofing SEO: 53 Booked Appointments','bathroom-paid-search-efficiency':'Bathroom Ads: 43.66% Lower Cost per Lead','remodeling-lower-lead-cost':'Remodeling Ads: 59.19% Lower Lead Costs','remodeling-search-two-year-results':'Bathroom Marketing: Two-Year Lead Results','remodeling-search-reach':'Bathroom Ads: More Reach, Lower Lead Cost','residential-glass-bookings':'Glass Company Ads: 32.8% More Bookings'} as Record<string,string>)[s.slug],description:s.description,label:s.title,category:'Campaign case study',type:'WebPage' as const,entity:'Article' as const,images:[caseImage(s.slug).src]})),
 ];
-export const seoPages:SeoPage[]=baseSeoPages.map(page=>({...page,images:[...new Set([featuredImagePath(page.path),...(page.images||[])])]}));
+/** Pages kept live but removed from the index (noindex, follow) or redirected; see src/data/seo-consolidation.json. */
+export const consolidatedPaths=new Set([...consolidation.noindex,...Object.keys(consolidation.redirects)]);
+const outOfIndex=(path:string)=>consolidatedPaths.has(path)
+ ||/^\/(resources\/library|solutions\/page)\/\d+\/$/.test(path)&&!/\/1\/$/.test(path)
+ ||/^\/work\/(flow-web-design|ecommerce-experience|interface-exploration|thumbnail-creative)\/$/.test(path);
+export const seoPages:SeoPage[]=baseSeoPages.map(page=>({...page,...(outOfIndex(page.path)?{index:false}:{}),images:[...new Set([featuredImagePath(page.path),...(page.images||[])])]}));
 export const seoByPath=new Map(seoPages.map(p=>[p.path,p]));
 export function getPublicSeoPages(now:Date|number=new Date()){return seoPages.filter(p=>p.index!==false&&(!p.availableAt||isReleased({published:p.availableAt},now)));}
 export const publicSeoPages=getPublicSeoPages();

@@ -1,0 +1,22 @@
+/* Lead capture: inline free-audit offer, header phone and floating call link (28 Nov 2026). */
+.audit-offer{background:#e8eadf;color:var(--ink);border-top:1px solid #c8cdbd}
+.audit-offer-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:70px;align-items:start}
+.audit-offer-copy h2{font-size:clamp(32px,3.6vw,46px);line-height:1.15;margin:16px 0 20px}
+.audit-offer-copy>p{font-size:16px;line-height:1.85;max-width:560px}
+.audit-offer-points{list-style:none;padding:0;margin:26px 0;display:grid;gap:10px;font-size:14px}
+.audit-offer-points li{padding-left:24px;position:relative}
+.audit-offer-points li::before{content:'';position:absolute;left:0;top:7px;width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.audit-offer-proof{display:grid;gap:10px;margin-top:30px;padding-top:24px;border-top:1px solid #c8cdbd}
+.audit-offer-proof strong{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#59624c}
+.audit-offer-proof a{display:flex;align-items:baseline;gap:14px;padding:14px 16px;border:1px solid #c5cbbb;border-radius:8px;background:#f3f2ec;transition:background .2s}
+.audit-offer-proof a:hover{background:#fff}
+.audit-offer-proof b{font-family:var(--font-display);font-size:26px;letter-spacing:-.04em;white-space:nowrap}
+.audit-offer-proof span{font-size:13px;line-height:1.6;color:#4f5744}
+.audit-offer-form{background:var(--paper);border:1px solid #c5cbbb;border-radius:10px;padding:32px}
+.header-phone{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:600;white-space:nowrap;margin-left:auto;margin-right:14px}
+.header-phone+.header-cta{margin-left:0}
+.floating-phone{margin-bottom:10px;background:var(--accent);color:var(--ink)}
+.floating-phone>svg:first-child{color:var(--ink)!important}
+.booking-floating{display:flex;flex-direction:column;align-items:flex-end}
+@media(max-width:1040px){.header-phone{display:none}}
+@media(max-width:860px){.audit-offer-grid{grid-template-columns:1fr;gap:36px}.audit-offer-form{padding:22px}}

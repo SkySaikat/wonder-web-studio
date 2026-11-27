@@ -1,6 +1,7 @@
+import {AuditOffer} from '@/components/audit-offer';
 import Link from 'next/link';
 import {PageSchema} from './page-schema';
-import {PageHero,CTA,Eyebrow,FAQ,CheckList} from './ui';
+import {PageHero,Eyebrow,FAQ,CheckList} from './ui';
 import {BookCallButton} from './booking';
 import {locationServiceAnswers} from '@/lib/location-answers';
 import {locations} from '@/lib/locations';
@@ -28,6 +29,6 @@ export function LocalWebService({slug}:{slug:string}){
   <section className="section cream"><div className="container market-brief"><div><Eyebrow>START WITH A FREE GUIDE</Eyebrow><h2>Find the gaps<br/><em>before the rebuild.</em></h2><p>Our free lead-journey checklist helps you review calls, forms and follow-up. Read the practical advice and get the guide on its dedicated page.</p><Link className="button" href={`/guides/${brief.guide}/`}>Explore the free checklist ↗</Link></div><div><h3>Bring a clearer website brief</h3><p><Link className="text-link" href="/resources/contractor-website-pages-checklist/">The pages a contractor website needs</Link></p><p><Link className="text-link" href="/resources/texas-small-business-web-design-cost/">How to compare Texas website quotes</Link></p><p><Link className="text-link" href="/resources/service-area-pages-without-duplicate-content/">When a service area needs its own page</Link></p></div></div></section>
   <section className="section"><div className="container faq-layout"><h2>Before your<br/><em>next website.</em></h2><FAQ items={locationServiceAnswers(slug,'web-design')}/></div></section>
   <section className="section cream"><div className="container"><h2>Keep your plan connected.</h2><div className="location-crosslinks"><Link href={`/locations/${slug}/`}>All {location.name} marketing services ↗</Link><Link href="/services/local-seo/">Local SEO support ↗</Link><Link href="/services/google-ads/">Google Ads management ↗</Link><Link href="/pricing/">Project and monthly pricing ↗</Link>{brief.relatedMarkets.map(m=><Link key={m} href={`/locations/${m}/web-design/`}>{locations.find(l=>l.slug===m)?.name} web design ↗</Link>)}</div></div></section>
-  <CTA title="Make your next website work harder." text="Tell us what you sell, where you work and what your current website is missing. We’ll help you define the next useful scope."/>
+  <AuditOffer context="web design" heading="Get a free website audit"/>
  </>;
 }
